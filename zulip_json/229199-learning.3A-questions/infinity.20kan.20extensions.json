@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Does anybody know of a proof that pointwise Kan extensions as defined by Riehl and Verity are equivalent to Lurie's definition?</p>",
+        "id": 228949478,
+        "sender_full_name": "Emilio Minichiello",
+        "timestamp": 1614949659
+    },
+    {
+        "content": "<p>Apparently not.</p>",
+        "id": 230201288,
+        "sender_full_name": "John Baez",
+        "timestamp": 1615683179
+    },
+    {
+        "content": "<p>You could try MathOverflow.</p>",
+        "id": 230207147,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1615690377
+    }
+]

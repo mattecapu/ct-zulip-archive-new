@@ -1,0 +1,280 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>multisets vs tuples · learning: questions · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/index.html">learning: questions</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html">multisets vs tuples</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="281100143"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281100143" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Carlos Zapata-Carratala <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281100143">(May 04 2022 at 01:18)</a>:</h4>
+<p>I am currently working on higher arity generalizations of category-like structures and I would like to gether some sentiment from this community about multisets vs tuples. Suppose one is not interested in sequential information, e.g. focus on counting, hypergraph topology, etc., my question is: are there any general reasons (other than tradition) to use n-tuples over multisets  of fixed cardinality n to encode the primitive notion of a collection of n (possibly repeating) elements?</p>
+<p>The main example I have in mind are homsets in categories: in the standard definition of category homsets are defined on 2-tuples of objects so that C(A,B) =/= C(B,A), which is convenient when thinking of morphisms as directed links between objects. One could define an "undirected" category so that given a pair of objects A and B only the homset C(AB), where AB denotes a multiset of cardinality 2,  is defined. As far as I can see, all the usual notions of categories (composition, associativity, identities) appy in this "undirected" setting.</p>
+<p>In a higher arity generalization of a category homsets may take the form C(ABCD...) where n-ary morphisms are defined on multisets of objects of cardinality n. This approach seems to allow us to preserve a great deal of the compositional structure of categories into the higher arity realm while relaxing the rigidity of sequentiality imposed by tuples. Can you see any major issues with this approach?</p>
+
+
+
+<a name="281102983"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281102983" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Zhen Lin Low <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281102983">(May 04 2022 at 02:15)</a>:</h4>
+<p>It is unclear to me what kinds of examples you have in mind, so it is difficult to judge whether the approach has "major issues".</p>
+
+
+
+<a name="281103834"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281103834" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Zhen Lin Low <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281103834">(May 04 2022 at 02:30)</a>:</h4>
+<p>But here is something to think about. If there is some kind of "undirected" analogue of the notion of category it should be a generalisation of the notion of groupoid. In a groupoid there is certainly a canonical bijection between Hom(A, B) and Hom(B, A), and if we take Hom(A, B, ..., Z) to be the set of tuples of morphisms A → B, B → C, ..., Y → Z, then there are canonical bijections between e.g. Hom(A, B, C) and Hom(C, A, B). But then now we have two potentially different bijections between Hom(A, B, B) and Hom(B, A, B), induced by the canonical bijection between Hom(A, B, C) and Hom(C, A, B) or Hom(B, A, C) after substituting C = B. This ambiguity means it is not feasible to think of Hom(A, B, ..., Z) as being indexed by a plain multiset (A, B, ..., Z).</p>
+
+
+
+<a name="281120188"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281120188" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ralph Sarkis <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281120188">(May 04 2022 at 07:36)</a>:</h4>
+<p>I vaguely remember a discussion about "undirected" categories on here (more than a year ago), but I couldn't find it.</p>
+
+
+
+<a name="281125674"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281125674" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Morgan Rogers (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281125674">(May 04 2022 at 08:37)</a>:</h4>
+<p>Categories of relations (e.g. allegories) have the form that you describe <span class="user-mention" data-user-id="407556">@Carlos Zapata-Carratala</span>, although as <span class="user-mention" data-user-id="416301">@Zhen Lin Low</span> pointed out, if you want to compose relations where one of the codomains is repeated you have to be careful about which way around the relation is, at which point the set might as well be ordered.</p>
+
+
+
+<a name="281143314"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281143314" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabrizio Genovese <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281143314">(May 04 2022 at 11:47)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="407556">Carlos Zapata-Carratala</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples/near/281100143">said</a>:</p>
+<blockquote>
+<p>I am currently working on higher arity generalizations of category-like structures and I would like to gether some sentiment from this community about multisets vs tuples. Suppose one is not interested in sequential information, e.g. focus on counting, hypergraph topology, etc., my question is: are there any general reasons (other than tradition) to use n-tuples over multisets  of fixed cardinality n to encode the primitive notion of a collection of n (possibly repeating) elements?</p>
+<p>The main example I have in mind are homsets in categories: in the standard definition of category homsets are defined on 2-tuples of objects so that C(A,B) =/= C(B,A), which is convenient when thinking of morphisms as directed links between objects. One could define an "undirected" category so that given a pair of objects A and B only the homset C(AB), where AB denotes a multiset of cardinality 2,  is defined. As far as I can see, all the usual notions of categories (composition, associativity, identities) appy in this "undirected" setting.</p>
+<p>In a higher arity generalization of a category homsets may take the form C(ABCD...) where n-ary morphisms are defined on multisets of objects of cardinality n. This approach seems to allow us to preserve a great deal of the compositional structure of categories into the higher arity realm while relaxing the rigidity of sequentiality imposed by tuples. Can you see any major issues with this approach?</p>
+</blockquote>
+<p>It will make a big difference imho if at some point you plan to implement this or not. Computers like tuples much more than multisets, in general*. Also, as I think <span class="user-mention" data-user-id="416301">@Zhen Lin Low</span>  already said, you could also use tuples + symmetries that allow you to shuffle things around. Tuples + symmetries form a groupoid and, in some way, this allows you to work as if you were working with multisets but at the same time it allows you to be more explicit about them.</p>
+<p>*By this I mean that a good 40% of day-to-day programming is about manipulating lists of things, and there are countless tools and libraries developed to operate on lists in any possible way one can imagine. The same cannot be said of multisets.</p>
+
+
+
+<a name="281144575"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281144575" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Carlos Zapata-Carratala <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281144575">(May 04 2022 at 12:00)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276438">Fabrizio Genovese</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples/near/281143314">said</a>:</p>
+<blockquote>
+<p>It will make a big difference imho if at some point you plan to implement this or not. Computers like tuples much more than multisets, in general*. Also, as I think <span class="user-mention silent" data-user-id="416301">Zhen Lin Low</span>  already said, you could also use tuples + symmetries that allow you to shuffle things around. Tuples + symmetries form a groupoid and, in some way, this allows you to work as if you were working with multisets but at the same time it allows you to be more explicit about them.</p>
+<p>*By this I mean that a good 40% of day-to-day programming is about manipulating lists of things, and there are countless tools and libraries developed to operate on lists in any possible way one can imagine. The same cannot be said of multisets.</p>
+</blockquote>
+<p>Yes, I completely agree. There will be a big difference for computational implementation. Our modern digital computers are very sequential machines deep down.</p>
+
+
+
+<a name="281147589"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281147589" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Carlos Zapata-Carratala <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281147589">(May 04 2022 at 12:31)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="277473">Morgan Rogers (he/him)</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples/near/281125674">said</a>:</p>
+<blockquote>
+<p>Categories of relations (e.g. allegories) have the form that you describe <span class="user-mention silent" data-user-id="407556">Carlos Zapata-Carratala</span>, although as <span class="user-mention silent" data-user-id="416301">Zhen Lin Low</span> pointed out, if you want to compose relations where one of the codomains is repeated you have to be careful about which way around the relation is, at which point the set might as well be ordered.</p>
+</blockquote>
+<p>Yes, using the multiset approach for homsets of repeated objects seems like a potential issue. As far as I can see there is a trade-off: either you insist that all your morphisms bind different objects (no endomorphisms) or you allow for repeated objects in which case the ambiguity for composition is encoded in permutations of repeated objects shared between morphisms. I can see that tuples are efficient in doing away with this issue at the cost of introducing "a priori" sequentiality.</p>
+
+
+
+<a name="281151468"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281151468" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Morgan Rogers (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281151468">(May 04 2022 at 13:02)</a>:</h4>
+<p>There could be an interesting version of this idea with an antisymmetry condition that forces C(AB...) to be trivial (a one-element set) whenever there are repeated indices.</p>
+
+
+
+<a name="281240913"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281240913" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Simon Burton <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281240913">(May 05 2022 at 01:05)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="407556">Carlos Zapata-Carratala</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples/near/281100143">said</a>:</p>
+<blockquote>
+<p>The main example I have in mind are homsets in categories: in the standard definition of category homsets are defined on 2-tuples of objects so that C(A,B) =/= C(B,A), which is convenient when thinking of morphisms as directed links between objects. One could define an "undirected" category so that given a pair of objects A and B only the homset C(AB), where AB denotes a multiset of cardinality 2,  is defined. As far as I can see, all the usual notions of categories (composition, associativity, identities) appy in this "undirected" setting.</p>
+</blockquote>
+<p>Sounds good to me: categories are to directed graphs as undirected categories are to undirected graphs.. Also, this reminds me of dagger categories.</p>
+
+
+
+<a name="281282211"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281282211" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Carlos Zapata-Carratala <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281282211">(May 05 2022 at 10:57)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="277321">Simon Burton</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples/near/281240913">said</a>:</p>
+<blockquote>
+<p>Sounds good to me: categories are to directed graphs as undirected categories are to undirected graphs.. Also, this reminds me of dagger categories.</p>
+</blockquote>
+<p>That was my intuition behind that example too. Higher arity generalizations of categories will take hypergraphs (whether directed or undirected).</p>
+
+
+
+<a name="281294144"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281294144" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Simon Burton <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281294144">(May 05 2022 at 12:50)</a>:</h4>
+<p>So my next question is, what are the structure preserving morphisms between undirected categories (ucategories) ? It would seem that these morphisms  would be directed, which just comes from the underlying use of sets and functions. So instead of "structure preserving morphisms", we would want some kind of "structure relating umorphisms" between ucategories. Right? I'm guessing these things look like (labelled? simplicial?) cobordisms between ucategories, where we are thinking of a ucategory as some kind of labelled simplicial set.</p>
+
+
+
+<a name="281356313"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281356313" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Carlos Zapata-Carratala <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281356313">(May 05 2022 at 20:42)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="277321">Simon Burton</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples/near/281294144">said</a>:</p>
+<blockquote>
+<p>So my next question is, what are the structure preserving morphisms between undirected categories (ucategories) ? It would seem that these morphisms  would be directed, which just comes from the underlying use of sets and functions. So instead of "structure preserving morphisms", we would want some kind of "structure relating umorphisms" between ucategories. Right? I'm guessing these things look like (labelled? simplicial?) cobordisms between ucategories, where we are thinking of a ucategory as some kind of labelled simplicial set.</p>
+</blockquote>
+<p>I haven't thought much about the morphisms between these higher arity ucategories since I haven't settled on a definition yet but the cobordism picture makes sense. I also think that in direct analogy with the case of functors for categories you would need to define "hypergraphs of edges" in some sense too.</p>
+
+
+
+<a name="281363437"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281363437" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nathanael Arkor <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281363437">(May 05 2022 at 21:44)</a>:</h4>
+<p>If you want an undirected notion of category, doesn't the notion of <a href="https://ncatlab.org/nlab/show/groupoid">[[groupoid]]</a> suffice?</p>
+
+
+
+<a name="281399186"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281399186" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Amar Hadzihasanovic <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281399186">(May 06 2022 at 06:33)</a>:</h4>
+<p>I think saying that "an undirected category is to an undirected graph what a category is to a directed graph" is incomplete, because you fail to specify what it is that you want to be able to compose. For a category, what matters is the ability to compose <em>finite paths</em> in a directed graph into single edges.</p>
+
+
+
+<a name="281399258"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281399258" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Amar Hadzihasanovic <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281399258">(May 06 2022 at 06:34)</a>:</h4>
+<p>So in an undirected graph, you have different options.</p>
+<p>You may still want to compose finite paths. But to speak of a path in an undirected graph, you are implicitly using a directed representation, where an edge is represented with a pair of directed edges going in opposite directions.</p>
+
+
+
+<a name="281399279"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281399279" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Amar Hadzihasanovic <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281399279">(May 06 2022 at 06:35)</a>:</h4>
+<p>And then what you get, I think, would be exactly a dagger category.</p>
+
+
+
+<a name="281399297"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281399297" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Amar Hadzihasanovic <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281399297">(May 06 2022 at 06:35)</a>:</h4>
+<p>Or a groupoid if you decide that going back and forth the same edge is the same as doing nothing.</p>
+
+
+
+<a name="281399416"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281399416" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Amar Hadzihasanovic <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281399416">(May 06 2022 at 06:37)</a>:</h4>
+<p>But if what you are saying is that you want to replace the tuple A, B with the multiset AB, then you actually don't have the ability to distinguish between the direction in which you traverse an edge.</p>
+
+
+
+<a name="281399649"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281399649" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Amar Hadzihasanovic <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281399649">(May 06 2022 at 06:41)</a>:</h4>
+<p>So what you could do, at best, is try to compose the <em>support</em> of a finite path, i.e. a connected set, or a list of edges... but what do you compose them to?</p>
+
+
+
+<a name="281399889"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281399889" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Amar Hadzihasanovic <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281399889">(May 06 2022 at 06:45)</a>:</h4>
+<p>For a path, you have a notion of endpoints, so you compose to an edge between the endpoints. If you just look at the support of the path, you don't. So e.g. should the composite of an edge between A,B with an edge between B,A be a loop on B, or a loop on A, or something else?..</p>
+
+
+
+<a name="281400309"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281400309" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Amar Hadzihasanovic <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281400309">(May 06 2022 at 06:52)</a>:</h4>
+<p>The only way I can conceivably think of something that makes sense would be to introduce some "higher homotopies" into your graph and say something like:</p>
+<p>You can compose any connected subgraph, and its composite is a single-edge subgraph, together with a homotopy from the connected subgraph onto its composite.</p>
+
+
+
+<a name="281400563"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281400563" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Amar Hadzihasanovic <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281400563">(May 06 2022 at 06:56)</a>:</h4>
+<p>Then, to get something that is “1-category-like”, you kill all the higher homotopies (make it so that “the space of contractions onto the composite of a subgraph is contractible”)...</p>
+
+
+
+<a name="281428931"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281428931" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Carlos Zapata-Carratala <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281428931">(May 06 2022 at 12:10)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276092">Nathanael Arkor</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples/near/281363437">said</a>:</p>
+<blockquote>
+<p>If you want an undirected notion of category, doesn't the notion of <a href="https://ncatlab.org/nlab/show/groupoid">[[groupoid]]</a> suffice?</p>
+</blockquote>
+<p>Well the game here is not to aim for undirected (that's just a side-effect) but to use multisets of fixed cardinality instead of tuples in the basic definition of category, which then seems to extend to higher arity morphisms.</p>
+
+
+
+<a name="281430108"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281430108" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Carlos Zapata-Carratala <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281430108">(May 06 2022 at 12:21)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276363">Amar Hadzihasanovic</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples/near/281399889">said</a>:</p>
+<blockquote>
+<p>For a path, you have a notion of endpoints, so you compose to an edge between the endpoints. If you just look at the support of the path, you don't. So e.g. should the composite of an edge between A,B with an edge between B,A be a loop on B, or a loop on A, or something else?..</p>
+</blockquote>
+<p>With the obvious definition of (unoriented) concatenation of paths there is no ambiguity in the sense you claim since edges between A,B and B,A are the same: edges of the "multihomset" AB. Without invoking any higher homotopy, couldn't this notion of concatenation of (unoriented) paths work just fine: two undirected paths (chains of edges) can be composed if they share exactly one end-vertex. You could extend this definition to account for sharing the two end-vertices by making the composition double-valued or simply giving two possibilities. In your example, given two edges f,h on vertices AB you can take the one-end-vertex composition in two possible ways and obtain a loop in AA and a lopp in BB.</p>
+
+
+
+<a name="281432649"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281432649" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Amar Hadzihasanovic <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281432649">(May 06 2022 at 12:45)</a>:</h4>
+<p>Ok, I agree: if we place restrictions on composition (e.g. we can compose only “linear strings of edges”) or if we let composition be multi-valued, then it could work, but at least in the latter case I think you wouldn't get anything substantially different from a dagger category.</p>
+
+
+
+<a name="281432899"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281432899" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Amar Hadzihasanovic <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281432899">(May 06 2022 at 12:47)</a>:</h4>
+<p>As in, you would have the exact same data as a dagger category, but you wouldn't allow yourself to compose a path with a specific orientation, and instead you would let composition return the set of composites of all directed paths ranging over all suitable orientations of the edges.</p>
+
+
+
+<a name="281434263"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281434263" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Amar Hadzihasanovic <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281434263">(May 06 2022 at 12:58)</a>:</h4>
+<p>(Actually I'm not sure of this, I'd need to think more...)</p>
+
+
+
+<a name="281440163"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281440163" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Carlos Zapata-Carratala <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281440163">(May 06 2022 at 13:42)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276363">Amar Hadzihasanovic</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples/near/281432649">said</a>:</p>
+<blockquote>
+<p>Ok, I agree: if we place restrictions on composition (e.g. we can compose only “linear strings of edges”) or if we let composition be multi-valued, then it could work, but at least in the latter case I think you wouldn't get anything substantially different from a dagger category.</p>
+</blockquote>
+<p>In that case the closest analogue is a groupoid in particular.</p>
+
+
+
+<a name="281443703"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281443703" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Morgan Rogers (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281443703">(May 06 2022 at 14:10)</a>:</h4>
+<p>Following up on the "categories are to directed graphs as..." idea, I would propose starting by working out what you want a free undirected category on an undirected graph G to be. You can just take paths, but that's not so interesting when you always can put an ordering on paths with labelled end-points, and as has been discussed it seems to reduce to groupoids.</p>
+<p>One alternative possibility would be to have, rather than hom-sets defined on pairs, have hom-multisets defined on all finite multisets of vertices, where an element of hom(ABC...) is an undirected graph whose vertex set is (ABC...), equipped with a graph homomorphism to G which preserves the labelling of vertices. The simplest notion of composition would be disjoint union, which makes it a total operation. An alternative is to make the composition relational, so that you can keep track of all of the possible ways of gluing graphs along vertices in the intersection of two multisets?</p>
+
+
+
+<a name="281443798"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281443798" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Morgan Rogers (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281443798">(May 06 2022 at 14:11)</a>:</h4>
+<p>Or you could take a disjoint union of all of the possible gluings if you don't mind things blowing up really fast ;)</p>
+
+
+
+<a name="281465923"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/multisets%20vs%20tuples/near/281465923" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Carlos Zapata-Carratala <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples.html#281465923">(May 06 2022 at 16:56)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="277473">Morgan Rogers (he/him)</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples/near/281443703">said</a>:</p>
+<blockquote>
+<p>One alternative possibility would be to have, rather than hom-sets defined on pairs, have hom-multisets defined on all finite multisets of vertices, where an element of hom(ABC...) is an undirected graph whose vertex set is (ABC...), equipped with a graph homomorphism to G which preserves the labelling of vertices. The simplest notion of composition would be disjoint union, which makes it a total operation. An alternative is to make the composition relational, so that you can keep track of all of the possible ways of gluing graphs along vertices in the intersection of two multisets?</p>
+</blockquote>
+<p>That's precisely my approach when defining higher arity generalizations of morphisms as undirected hyperedges. The fun starts when you try to think of hypergraph rewrite systems as generalizations of compositions (my current research). I wanted to keep the discussion focused on the "tuples vs fixed cardinality multisets" topic first just to see how much mathematical baggage one can leave behind when generalizing these sort of structures.</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

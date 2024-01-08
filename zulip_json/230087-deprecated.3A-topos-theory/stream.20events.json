@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Stream created by <span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers</span>.</p>",
+        "id": 191991654,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1585300666
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275899\">Christian Williams</span> renamed stream <strong>topos theory</strong> to <strong>theory: topos theory</strong>.</p>",
+        "id": 192997065,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1586151174
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> changed the <a href=\"/help/stream-permissions\">access permissions</a> for this stream from <strong>Public</strong> to <strong>Web-public</strong>.</p>",
+        "id": 397731794,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1697814839
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> changed the description for this stream.</p>\n<ul>\n<li><strong>Old description:</strong></li>\n</ul>\n<blockquote>\n<p>A stream to discuss toposes, Grothendieck or elementary, 1- to oo-</p>\n</blockquote>\n<ul>\n<li><strong>New description:</strong></li>\n</ul>\n<blockquote>\n<p>Deprecated, use #theory: mathematics instead. A stream to discuss toposes, Grothendieck or elementary, 1- to oo-</p>\n</blockquote>",
+        "id": 399479913,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698751350
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>theory: topos theory</strong> to <strong>deprecated: topos theory</strong>.</p>",
+        "id": 399479915,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698751350
+    }
+]

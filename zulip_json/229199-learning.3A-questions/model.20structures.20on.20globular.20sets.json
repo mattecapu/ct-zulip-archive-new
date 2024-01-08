@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Has anybody developed a model structure on globular sets which is Quillen equivalent to the classical model structure on simplicial sets?</p>",
+        "id": 405977934,
+        "sender_full_name": "Madeleine Birchfield",
+        "timestamp": 1701754463
+    },
+    {
+        "content": "<p>I'm far from an expert, but it looks like the answer is \"no\". See <a href=\"https://math.stackexchange.com/questions/4110565/is-there-a-singular-globular-set-functor-and-a-geometric-realization-for-gl\">here</a>. </p>\n<p>It seems like, even ignoring the (co)fibrations, there's no known choice of weak equivalences so that localizing gives spaces.</p>",
+        "id": 406118586,
+        "sender_full_name": "Chris Grossack (they/them)",
+        "timestamp": 1701800060
+    }
+]

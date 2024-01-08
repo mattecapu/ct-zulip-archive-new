@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Another episode of our seminar series: the next date of the ItaCa Fest will be on <time datetime=\"2023-09-28T13:00:00Z\">2023-09-28T14:00:00+01:00</time> </p>\n<p>We will be hosting two amazing talks</p>\n<ol>\n<li>Steve Awodey, <strong>Algebraic Type Theory</strong> </li>\n<li>Joshua Wrigley, <strong>Topological groupoids for classifying toposes</strong> </li>\n</ol>\n<p>at the following Zoom link:<br>\n<a href=\"https://cs-ox-ac-uk.zoom.us/j/97878376376?pwd=QithMyt5NzdOeE1EWGJRcjBxamxnUT09\">https://cs-ox-ac-uk.zoom.us/j/97878376376?pwd=QithMyt5NzdOeE1EWGJRcjBxamxnUT09</a></p>\n<p>As always, we welcome a good discussion and you can stick with us for a chat after the last talk.</p>\n<p>You can find the abstracts and more on our seminar at the Fest's page:</p>\n<p><a href=\"https://progetto-itaca.github.io/pages/fest23.html#sep28\">https://progetto-itaca.github.io/pages/fest23.html#sep28</a></p>\n<p>Hope to see you soon!</p>",
+        "id": 392085910,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1695205239
+    },
+    {
+        "content": "<p>what timezone are the times on the webpage in?</p>",
+        "id": 392105790,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1695212432
+    },
+    {
+        "content": "<p>(oh, just saw that you used the magic Zulip date command in your message here, so that answers the question that prompted the above one!)</p>",
+        "id": 392105884,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1695212460
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"280178\">Tim Hosgood</span> <a href=\"#narrow/stream/229141-general.3A-events/topic/ItaCa.20Fest.202024/near/392105790\">said</a>:</p>\n<blockquote>\n<p>what timezone are the times on the webpage in?</p>\n</blockquote>\n<p>that's a sensible question and I'd love the website to say 'Rome' but you'll just have to guess it from the context :) or from your friendly Zulip ambassador</p>",
+        "id": 392136471,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1695222100
+    },
+    {
+        "content": "<p>From <a class=\"stream\" data-stream-id=\"410322\" href=\"/#narrow/stream/410322-general.3A-mailing-list-mirror\">#general: mailing list mirror</a>:</p>\n<blockquote>\n<p>Dear all,<br>\nI am writing to remind you that on October 25th, we have ItaCa Fest. In line with the new format, we will have 3 talks, listed below.</p>\n<p>15:00 - 15:40 G. Lobbia, \"A skew approach to enrichment for Gray-categories\"<br>\n15:40 - 16:20 N. Gambino, \"Monoidal bicategories, differential linear logic, and analytic functors”<br>\n16:20 - 17:00 S. R. Koudenburg, \"Formal Day convolution and low-dimensional monoidal fibrations”<br>\nYou can find the abstracts here: <a href=\"https://progetto-itaca.github.io/pages/fest23.html#oct25\">https://progetto-itaca.github.io/pages/fest23.html#oct25</a>.</p>\n<p>The link is the usual:</p>\n<p><a href=\"https://cs-ox-ac-uk.zoom.us/j/97878376376?pwd=QithMyt5NzdOeE1EWGJRcjBxamxnUT09\">https://cs-ox-ac-uk.zoom.us/j/97878376376?pwd=QithMyt5NzdOeE1EWGJRcjBxamxnUT09</a></p>\n<p>Best,<br>\nthe ItaCa people.</p>\n<p>——————————————<br>\nIvan Di Liberti<br>\nPostdoc<br>\nGöteborgs universitet<br>\nhttps://diliberti.github.io&lt;<a href=\"https://diliberti.github.io\">https://diliberti.github.io</a>&gt;</p>\n</blockquote>",
+        "id": 398641174,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1698309513
+    }
+]

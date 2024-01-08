@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>I was wondering, what is the origin of the names \"Initial\" and \"terminal\" object?</p>",
+        "id": 384275239,
+        "sender_full_name": "Jencel Panic",
+        "timestamp": 1691849273
+    },
+    {
+        "content": "<p>I guess you're asking who invented them, and when?   I understand the <em>reason</em> for these terms, but not their history.</p>",
+        "id": 384276455,
+        "sender_full_name": "John Baez",
+        "timestamp": 1691849556
+    },
+    {
+        "content": "<p>If I answer your question literally, focusing on the word \"etymology\"</p>\n<p>\"Initial\" = beginning.  Any ordered set can be regarded as a category, where there is exactly one morphism x -&gt; y if x &lt;= y, and none otherwise. An initial object in this category is an object at the beginning of the order, which is first in the ordering, just as zero is the beginning of the natural numbers.</p>\n<p>\"Terminal\" - end or boundary. A railroad terminal or a computer terminal are called that because they lie at the end or boundary of the network, on its outer edge, as opposed to the servers and data banks or railway hubs lying in the center. A terminal object in an ordered set lies at the end of the ordering.</p>\n<p>Sometimes an ordered set may not have a beginning or end, like the integers, in this case it has no terminal or initial object.</p>",
+        "id": 384312937,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1691858635
+    },
+    {
+        "content": "<p>Maybe I should elaborate: it was interesting to me how exactly those terms came to be, and from which mathematical branch are they.</p>\n<p>It seems weird that we don't use  0 and 1 as we do in Set theory, or Bottom and Top, as we do in type theory.  In order theory there is also other terminology that I have seen : minimal and maximal element.</p>",
+        "id": 386373261,
+        "sender_full_name": "Jencel Panic",
+        "timestamp": 1692619416
+    },
+    {
+        "content": "<blockquote>\n<p>It seems weird that we don't use 0 and 1 as we do in Set theory</p>\n</blockquote>\n<p>But 0 and 1 are used as notation for initial and terminal objects?</p>\n<blockquote>\n<p>In order theory there is also other terminology that I have seen : minimal and maximal element.</p>\n</blockquote>\n<p>Minimal and maximal objects are a similar, but <a href=\"https://ncatlab.org/nlab/show/minimal+object\">different concept</a>.</p>",
+        "id": 386381258,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1692622126
+    },
+    {
+        "content": "<p>Aha, thanks for pointing that out.</p>",
+        "id": 386383385,
+        "sender_full_name": "Jencel Panic",
+        "timestamp": 1692622571
+    }
+]

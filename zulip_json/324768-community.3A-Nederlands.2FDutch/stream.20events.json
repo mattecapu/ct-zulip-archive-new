@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p><strong>Public</strong> stream created by <span class=\"user-mention silent\" data-user-id=\"474620\">Drew Allen McNeely</span>. <strong>Description:</strong></p>\n<blockquote>\n<p>Dit is een kanaal voor Nederlandstalige wiskundigen om over categorietheorie te praten!</p>\n</blockquote>",
+        "id": 282341986,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1652518640
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> changed the <a href=\"/help/stream-permissions\">access permissions</a> for this stream from <strong>Public</strong> to <strong>Web-public</strong>.</p>",
+        "id": 397854494,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1697898910
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>languages: Nederlands/Dutch</strong> to <strong>community: Nederlands/Dutch</strong>.</p>",
+        "id": 399480749,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698751680
+    }
+]

@@ -1,0 +1,69 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>GATs with dependent contexts · theory: mathematics · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/411257-theory.3A-mathematics/index.html">theory: mathematics</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/411257-theory.3A-mathematics/topic/GATs.20with.20dependent.20contexts.html">GATs with dependent contexts</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="398578797"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/411257-theory%3A%20mathematics/topic/GATs%20with%20dependent%20contexts/near/398578797" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kevin Arlin <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/411257-theory.3A-mathematics/topic/GATs.20with.20dependent.20contexts.html#398578797">(Oct 25 2023 at 23:55)</a>:</h4>
+<p>I've just made the quite informal LocalCharts post linked below where I muse a bit about how to most easily extend basic GAT syntax into something that would allow us to write down the theory of multicategories and other similar nicely-infinite theories in a finite number of lines of code. In short, I propose (though most of the idea is due to <span class="user-mention" data-user-id="280755">@Owen Lynch</span>) a two level type theory that basically wraps an untyped <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>λ</mi></mrow><annotation encoding="application/x-tex">\lambda</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">λ</span></span></span></span>-calculus around ordinary GAT syntax. The variables in the outer type theory are then to be interpreted as actual integers semantically. I'm curious whether anybody around here can recognize the right context to put this kind of idea into. Very much appreciate any thoughts, as I've been trying to think about type theory a bit lately but am absolutely not a type theorist!</p>
+
+
+
+<a name="398578800"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/411257-theory%3A%20mathematics/topic/GATs%20with%20dependent%20contexts/near/398578800" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kevin Arlin <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/411257-theory.3A-mathematics/topic/GATs.20with.20dependent.20contexts.html#398578800">(Oct 25 2023 at 23:55)</a>:</h4>
+<p><a href="https://www.localcharts.org/t/a-generalization-of-gat-syntax/9836">https://www.localcharts.org/t/a-generalization-of-gat-syntax/9836</a></p>
+
+
+
+<a name="398590256"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/411257-theory%3A%20mathematics/topic/GATs%20with%20dependent%20contexts/near/398590256" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/411257-theory.3A-mathematics/topic/GATs.20with.20dependent.20contexts.html#398590256">(Oct 26 2023 at 02:31)</a>:</h4>
+<p>The usual way to "solve" this problem is to introduce another sort for "finite lists of objects", with constructors saying that there is an empty list and any list can be extended by a single object.  In other words, the constructors of "contexts" in type theory.  I put "solve" in quotes because it doesn't exactly describe multicategories, but something more general (some relative of a CwF).  But for many purposes it's just as good or better.</p>
+
+
+
+<a name="398590438"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/411257-theory%3A%20mathematics/topic/GATs%20with%20dependent%20contexts/near/398590438" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/411257-theory.3A-mathematics/topic/GATs.20with.20dependent.20contexts.html#398590438">(Oct 26 2023 at 02:33)</a>:</h4>
+<p>One minor comment on the post: the type <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mi mathvariant="sans-serif">N</mi><mi mathvariant="sans-serif">a</mi><mi mathvariant="sans-serif">t</mi></mrow><mo>→</mo><mi>T</mi></mrow><annotation encoding="application/x-tex">\mathsf{Nat}\to T</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord"><span class="mord mathsf">Nat</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">T</span></span></span></span> isn't equivalent to <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>T</mi><mo>×</mo><mo stretchy="false">(</mo><mi>T</mi><mo>→</mo><mi>T</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">T\times (T\to T)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="mclose">)</span></span></span></span>.  The latter is the type of data for defining a recursive function <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mi mathvariant="sans-serif">N</mi><mi mathvariant="sans-serif">a</mi><mi mathvariant="sans-serif">t</mi></mrow><mo>→</mo><mi>T</mi></mrow><annotation encoding="application/x-tex">\mathsf{Nat} \to T</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord"><span class="mord mathsf">Nat</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">T</span></span></span></span>, but multiple "recursion datas" can define the same function, and not every function is recursively defined.</p>
+
+
+
+<a name="398720153"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/411257-theory%3A%20mathematics/topic/GATs%20with%20dependent%20contexts/near/398720153" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kevin Arlin <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/411257-theory.3A-mathematics/topic/GATs.20with.20dependent.20contexts.html#398720153">(Oct 26 2023 at 15:57)</a>:</h4>
+<p>Oh, of course, thanks for the correction, and for the suggestion, I'll think about that.</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+[
+    {
+        "content": "<p>One way of defining (coloured) props, (coloured) properads and symmetric polycategories is as structures with the same type of underlying data — morphisms with \"multiple inputs\" and \"multiple outputs\" — but different classes of \"composable string diagrams\":</p>\n<ul>\n<li>in a prop, you can compose all well-formed string diagrams;</li>\n<li>in a properad, you can compose only the <em>connected</em> string diagrams;</li>\n<li>in a polycategory, you can compose only the <em>simply connected</em> string diagrams.</li>\n</ul>\n<p>So given a prop, you can always get a properad and a polycategory by restricting the composition operations, and conversely you can ask whether it is possible to consistently extend the compositions of a polycategory to that of a properad or prop, or the compositions of a properad to those of a prop.</p>\n<p>While there is plenty of natural examples of polycategories that do not extend to properads/props (for example those arising from \"nondegenerate\" models of linear logic), I realised I do not know any particularly natural examples of properads that are not restrictions of props.<br>\n(By \"natural\" I mean ones that are not free, or do not somehow have \"connected graphs\" built in the definition).</p>\n<p>Can someone teach me some examples?</p>",
+        "id": 295003923,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1661331068
+    },
+    {
+        "content": "<blockquote>\n<p>there are plenty of natural examples of polycategories that do not extend to properads/props (for example those arising from \"nondegenerate\" models of linear logic)</p>\n</blockquote>\n<p>I certainly believe there are polycategories that can't be embedded <em>fully and faithfully</em> in props; I think you can argue for this using traces among other ways.  But are there polycategories that can't be embedded <em>faithfully</em> in any prop?  I have wondered this for a while but haven't found an answer.</p>",
+        "id": 295092581,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1661361919
+    },
+    {
+        "content": "<p>I don't know the answer to that question but I'd also like to know!</p>\n<p>I realise the phrasing “do not extend to” was ambiguous; I only meant “they are not in the essential image of the forgetful functor from (props) to (polycategories)”.</p>\n<p>So my first constraint is to exclude </p>\n<ul>\n<li>the properads in the essential image of the forgetful functor from (props),</li>\n</ul>\n<p>while one attempt to phrase the “natural example” constraint in a slightly more specific way is to exclude</p>\n<ul>\n<li>the properads such that the “free prop” on them is, arguably, the “more natural” mathematical object (or at least “equally natural”).</li>\n</ul>\n<p>This, for example, rules out the “properad of connected d-cobordisms” that somebody suggested to me elsewhere, since the free prop it generates is equivalent to the prop of <em>all</em> d-cobordisms, arguably more/equally “natural”.</p>",
+        "id": 295109598,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1661368356
+    },
+    {
+        "content": "<p>I think \"in the essential image of the forgetful functor from (props) to (polycategories)” is the same as saying \"embeds fully-faithfully in a prop\"?</p>",
+        "id": 295116220,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1661370859
+    },
+    {
+        "content": "<p>Oh, of course, that makes sense.</p>",
+        "id": 295185480,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1661417392
+    },
+    {
+        "content": "<p>To derive equalities between pasting diagrams in polycategories, you swap out contractible sub-pasting-diagrams for their equals. To derive equalities between pasting diagrams in properads, you swap out connected sub-pasting-diagrams for their equals.</p>\n<p>But connected sub-pasting-diagrams of contractible pasting diagrams are contractible. So there shouldn't be any new equalities you can derive between contractible pasting diagrams after you pass from a polycategory to the free properad on it.</p>",
+        "id": 301083921,
+        "sender_full_name": "Aaron David Fairbanks",
+        "timestamp": 1664302889
+    },
+    {
+        "content": "<p>Meanwhile, to derive equalities between pasting diagrams in props, you can swap out sub-pasting-diagrams that are not even necessarily connected.</p>\n<p>Any sub-pasting-diagrams newly obtained when viewing a polycategory pasting diagram as a prop pasting diagram are  not themselves contractible. So if we start with a contractible pasting diagram, we'll only be able to perform swaps that we already could in the original polycategory.</p>",
+        "id": 301093749,
+        "sender_full_name": "Aaron David Fairbanks",
+        "timestamp": 1664304064
+    },
+    {
+        "content": "<p>Does that make sense?</p>",
+        "id": 301094284,
+        "sender_full_name": "Aaron David Fairbanks",
+        "timestamp": 1664304228
+    },
+    {
+        "content": "<p>If I understand what you are saying, it is an argument for the fact that every polycategory embeds <em>faithfully</em> in a properad and every properad embeds <em>faithfully</em> in a prop (specifically, the free properad and the free prop, respectively).</p>",
+        "id": 301096493,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1664304979
+    },
+    {
+        "content": "<p>Asking whether they embed <em>fully</em> faithfully is much stronger.</p>",
+        "id": 301096538,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1664304994
+    },
+    {
+        "content": "<p>Yes.</p>",
+        "id": 301096556,
+        "sender_full_name": "Aaron David Fairbanks",
+        "timestamp": 1664305000
+    },
+    {
+        "content": "<p>For comparison, you can't always faithfully embed props in props-with-duals.</p>\n<p>To derive equalities between pasting diagrams in a prop-with-duals, you're now allowed to swap out \"sub-pasting-diagrams\" with some of their outputs appearing upwards of some of their inputs.</p>\n<p>Prop pasting diagrams, when viewed as living in a prop-with-duals, obtain new \"sub-pasting-diagrams\" not present before that are themselves prop pasting diagrams.</p>",
+        "id": 301097374,
+        "sender_full_name": "Aaron David Fairbanks",
+        "timestamp": 1664305261
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/ccxPFJwoS8ZIEVZFxSN5lAos/pasting.png\">pasting.png</a> <a href=\"/user_uploads/21317/Sd73IqkY_MlBqNsfqoXgf_Hk/pasting2.png\">pasting2.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/ccxPFJwoS8ZIEVZFxSN5lAos/pasting.png\" title=\"pasting.png\"><img src=\"/user_uploads/21317/ccxPFJwoS8ZIEVZFxSN5lAos/pasting.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/21317/Sd73IqkY_MlBqNsfqoXgf_Hk/pasting2.png\" title=\"pasting2.png\"><img src=\"/user_uploads/21317/Sd73IqkY_MlBqNsfqoXgf_Hk/pasting2.png\"></a></div>",
+        "id": 301098615,
+        "sender_full_name": "Aaron David Fairbanks",
+        "timestamp": 1664305723
+    },
+    {
+        "content": "<p>The second diagram is a subdiagram of the first diagram in a prop-with-duals, but not in a prop.</p>",
+        "id": 301098739,
+        "sender_full_name": "Aaron David Fairbanks",
+        "timestamp": 1664305776
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/cPHv3BdFRkkIsFWwe9SqdwHa/pasting3.png\">pasting3.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/cPHv3BdFRkkIsFWwe9SqdwHa/pasting3.png\" title=\"pasting3.png\"><img src=\"/user_uploads/21317/cPHv3BdFRkkIsFWwe9SqdwHa/pasting3.png\"></a></div>",
+        "id": 301098945,
+        "sender_full_name": "Aaron David Fairbanks",
+        "timestamp": 1664305846
+    },
+    {
+        "content": "<p>I've edited my messages, changing \"compact closed category\" to \"prop-with-duals\", to be more clear.</p>",
+        "id": 301101812,
+        "sender_full_name": "Aaron David Fairbanks",
+        "timestamp": 1664306898
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"546041\">Aaron David Fairbanks</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/Properads.20that.20are.20not.20props/near/301094284\">said</a>:</p>\n<blockquote>\n<p>Does that make sense?</p>\n</blockquote>\n<p>That's also my intuition, but it's a ways from that to a proof.</p>",
+        "id": 301102976,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1664307292
+    },
+    {
+        "content": "<p>Ideally, a conceptual/semantic proof, rather than a tedious and error-prone analysis of syntax...</p>",
+        "id": 301103082,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1664307324
+    },
+    {
+        "content": "<p>I wondered if that would be your response. Do you have any examples of similar conceptual proofs you might point me to? I'm fairly new to this kind of reasoning.</p>",
+        "id": 301103618,
+        "sender_full_name": "Aaron David Fairbanks",
+        "timestamp": 1664307499
+    },
+    {
+        "content": "<p>Well, there's a nice technique due to Lafont for proving full-and-faithful embeddings of this sort using a gluing construction.  In <a href=\"https://arxiv.org/abs/2004.08487\">*-Autonomous Envelopes and Conservativity</a> I used it to prove results of that sort about structured polycategories.  I don't have any idea how to adapt that technique to prove faithful-but-not-full embeddings, but at least it should give some idea of the sort of proof I like.  (-:O</p>",
+        "id": 301104066,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1664307648
+    },
+    {
+        "content": "<p>Thanks!</p>",
+        "id": 301104128,
+        "sender_full_name": "Aaron David Fairbanks",
+        "timestamp": 1664307669
+    }
+]

@@ -1,0 +1,566 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>Dialectica and Poly · deprecated: Dialectica · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/index.html">deprecated: Dialectica</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html">Dialectica and Poly</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="281480348"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/281480348" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#281480348">(May 06 2022 at 18:57)</a>:</h4>
+<p>Dear MRC-Dialectica participants, <span class="user-mention" data-user-id="343715">@Nelson Niu</span> will talk this Tuesday at 8 am (Pacific time) about the connections between  Dialectica constructions and Polynomials--or rather about  the connections between Poly and Dialectica. You should've received a handout by email. <br>
+please let me and <span class="user-mention" data-user-id="427811">@Jérémie Koenig</span>  know if you cannot make it.  </p>
+<p>Once again, please have questions! And please let us know in which subgroup you are *tentatively associating yourself with.</p>
+
+
+
+<a name="281744821"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/281744821" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Joseph Dorta <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#281744821">(May 09 2022 at 20:58)</a>:</h4>
+<p><span class="user-mention" data-user-id="276656">@Valeria de Paiva</span> <span class="user-mention" data-user-id="427811">@Jérémie Koenig</span> <span class="user-mention" data-user-id="343715">@Nelson Niu</span><br>
+May I formally express interest in this topic, in particular questions 2.1.2, 2.1.8, and 2.1.13</p>
+
+
+
+<a name="281747807"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/281747807" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#281747807">(May 09 2022 at 21:23)</a>:</h4>
+<p>Hi, <span class="user-mention" data-user-id="497494">@Joseph Dorta</span>  you can certainly express interest in the topics, as you have, thank you for committing to a problem area!  and more thanks to <span class="user-mention" data-user-id="343715">@Nelson Niu</span>  for presenting the problems in such a clear form. but how the work will (or not) progress is not guaranteed, right? <br>
+we will record the chat tomorrow and post it for the group, right <span class="user-mention" data-user-id="427811">@Jérémie Koenig</span> ?</p>
+
+
+
+<a name="281837245"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/281837245" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#281837245">(May 10 2022 at 15:05)</a>:</h4>
+<p>I was looking at your notes this morning Nelson.  Playing around with the definitions of the objects in Agda.</p>
+<div class="codehilite"><pre><span></span><code>record Poly : Set where
+  constructor _▹_
+  field
+    pos : Set
+    dir : pos -&gt; Set
+
+record DC : Set where
+    field
+        pos : Set
+        dir : pos -&gt; Set
+        pred : ∀(i : pos)(a : dir i) → Two
+
+record Dial (L : Set){{_ : Lineale L}} : Set where
+    field
+        pos : Set
+        dir : pos -&gt; Set
+        pred : ∀(i : pos)(a : dir i) → L
+</code></pre></div>
+<p>This style of definition is the <code>Container/Polynomial</code> definition that is nice to work with in Agda (see <a href="https://github.com/bond15/Polynomials-Categorically/blob/97bd7c43157be8d7ead7307347feefa2ed3f2571/ToposPoly/Poly.agda#L14">here</a>). <br>
+I had not thought about this type of encoding and I'd like to explore this more. Could have interesting applications.</p>
+<p>I also started a "direct" encoding of Dialectica <a href="https://github.com/bond15/Dialectica/blob/main/DC.agda">here</a></p>
+
+
+
+<a name="281869871"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/281869871" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#281869871">(May 10 2022 at 18:56)</a>:</h4>
+<p>Thanks <span class="user-mention" data-user-id="343715">@Nelson Niu</span>  for a great presentation!</p>
+
+
+
+<a name="281884229"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/281884229" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#281884229">(May 10 2022 at 20:48)</a>:</h4>
+<p>This is just to make sure that <span class="user-mention" data-user-id="498391">@Colin Bloomfield</span>  sees this stream! (myself I missed it again, had to go to recent topics to find it)</p>
+
+
+
+<a name="281884572"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/281884572" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#281884572">(May 10 2022 at 20:51)</a>:</h4>
+<p>Did anyone at the meeting today saved the chat? I wanted to do a summary, including the chat.</p>
+
+
+
+<a name="281885186"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/281885186" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Weinberger <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#281885186">(May 10 2022 at 20:57)</a>:</h4>
+<p>I did, up until the very end I think. Where should I put it <span class="user-mention" data-user-id="276656">@Valeria de Paiva</span> ?</p>
+
+
+
+<a name="281888795"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/281888795" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Weinberger <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#281888795">(May 10 2022 at 21:30)</a>:</h4>
+<p><span class="user-mention" data-user-id="276656">@Valeria de Paiva</span> you've got <span aria-label="mail" class="emoji emoji-2709" role="img" title="mail">:mail:</span></p>
+
+
+
+<a name="281894678"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/281894678" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#281894678">(May 10 2022 at 22:27)</a>:</h4>
+<p><span class="user-mention" data-user-id="380293">@Eric Bond</span>  I don't think this Agda code is completely  correct. but this is possibly an interesting "story"<br>
+the second block of code does not work for me.</p>
+<p>record DC : Set where<br>
+    field<br>
+        pos : Set<br>
+        dir : pos -&gt; Set<br>
+        pred : ∀(i : pos)(a : dir i) → Two</p>
+<p>If one does a "dependent Dialectica" like the above, we have a problem. <br>
+Because this subcategory is not closed under morphisms! i.e it's not a subcategory.</p>
+<p>The Dialectica category  would have (using the notation above) objects <br>
+(pos, dir, pred) and (pos', dir', pred'), where dir=X^pos and X is a  generic set and similarly<br>
+dir'= X'^pos'.  </p>
+<p>A dialectica morphism would map pos-&gt; pos', but it would not know how to deal with the second coordinate, because <br>
+pos\times dir'=(X')^{pos'} == pos\times pos'\to dir' but then I cannot see a natural map into dir.</p>
+<p>Don't know how clear this is, but the point is that Dial objects are not of the form (U, X^U, pred), they're generically (U,X, pred), any X, I cannot force the second coordinate to be of the form X^U. (or maybe I can, but I don't see this immediately. I can see a map using two evaluations plus projections, but don't see why it would satisfy the dialectica condition on the predicates.)</p>
+
+
+
+<a name="281909633"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/281909633" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#281909633">(May 11 2022 at 02:03)</a>:</h4>
+<p>Many thanks <span class="user-mention" data-user-id="277106">@Jonathan Weinberger</span> !</p>
+
+
+
+<a name="282003576"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/282003576" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#282003576">(May 11 2022 at 17:53)</a>:</h4>
+<p>hi <span class="user-mention" data-user-id="498391">@Colin Bloomfield</span> ! great to hear from you. Thanks!!</p>
+
+
+
+<a name="282276242"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/282276242" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#282276242">(May 13 2022 at 17:03)</a>:</h4>
+<p>Thanks for the code in the <a href="#narrow/stream/323208-practice.3A-Dialectica">here</a> link, <span class="user-mention" data-user-id="380293">@Eric Bond</span> ! <br>
+(I hadn't noticed it before!)</p>
+<p>Carrying on comparing to Dialectica, you say in lines 57--61</p>
+<blockquote>
+<p>--tensor \ox<br>
+-- Ayᴮ × Cyᴰ = ACyᴮᴰ<br>
+_⊗ₚ_ : Poly → Poly → Poly<br>
+p ⊗ₚ q = record { pos = pos p × pos q ; dir = λ {(i , j) → (dir p) i × (dir q) j} }<br>
+-- show these are all monoidal structures on poly</p>
+</blockquote>
+<p>This tensor  product structure is described for Dial_2(Set) in the thesis chapter 1.</p>
+
+
+
+<a name="282738993"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/282738993" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#282738993">(May 18 2022 at 05:04)</a>:</h4>
+<p>Hi everyone (but mostly the Poly group, for now <span class="user-mention" data-user-id="497494">@Joseph Dorta</span> <span class="user-mention" data-user-id="497186">@Samantha Jarvis</span>)!</p>
+<p>Just wanted to share the most recent version of the Dialectica &amp; Poly handout <a href="https://drive.google.com/file/d/1c--4z7KXXIDWK8jJNygN4QtqhFsmCJPv/view">here</a>. I added a little more to it today to round out the "Comparison" section, and I'll be filling in the rest over the next few days (while also continuing to fill in the Poly book...).</p>
+<p>Speaking of the Poly book, you'd usually be able to find it at <a href="https://topos.site/poly-book.pdf">https://topos.site/poly-book.pdf</a>, which is how I've linked it in the handout as well, <del>but the online version seems to be down right now. I'm trying to get that fixed, but for now you can find the most recent version <a href="https://drive.google.com/file/d/14CigeMVyUzm2qDhCd5a5HzqGeIMWS8Bd/view">here</a></del> (thanks <span class="user-mention" data-user-id="497047">@Abdullah Malik</span> for uploading it the first time!). </p>
+<p><strong>EDIT: <a href="https://topos.site/poly-book.pdf">The book is back online</a>!</strong> (many thanks to the inimitable Tim Hosgood)</p>
+<p>Finally, for the two references Valeria asked for, I intended the handout to be the main thing you'd need to read, but I'd recommend David Spivak's <a href="https://arxiv.org/abs/2005.01894">Poly for dynamical systems primer</a> and Sean Moss's <a href="https://youtu.be/tw08TmO0RRo&amp;t=7190s">hour-long talk</a> (slides <a href="https://topos.site/p-func-workshop/slides/Moss.pdf">here</a>) as well.</p>
+<div class="youtube-video message_inline_image"><a data-id="tw08TmO0RRo" href="https://youtu.be/tw08TmO0RRo&amp;t=7190s"><img src="https://uploads.zulipusercontent.net/3a92baa7bd80dd0881658eaa1c1330ad8e672d80/68747470733a2f2f692e7974696d672e636f6d2f76692f74773038546d4f3052526f2f64656661756c742e6a7067"></a></div><p>Thanks, and see you all soon!</p>
+
+
+
+<a name="282845047"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/282845047" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#282845047">(May 18 2022 at 20:30)</a>:</h4>
+<p>Awesome handout <span class="user-mention" data-user-id="343715">@Nelson Niu</span>!  and thanks for the two references, i.e for  pointing out to David Spivak's Poly for dynamical systems primer as well as Sean Moss talk.</p>
+
+
+
+<a name="284079610"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284079610" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284079610">(May 27 2022 at 00:49)</a>:</h4>
+<div class="codehilite"><pre><span></span><code>-- &quot;non dependent Poly with a relation&quot;?
+record LDialSet {ℓ : Level}{ L : Set ℓ}{{ _ : Lineale L}} : Set (lsuc ℓ) where
+    constructor ⟨_,_,_⟩
+    field
+        pos : Set ℓ
+        dir : Set ℓ
+        α : pos → dir → L
+
+-- Poly is &quot;dependent Dialectica without a relation&quot;?
+record Poly {ℓ : Level} : Set (lsuc ℓ) where
+    field
+        pos : Set ℓ
+        dir : pos → Set ℓ
+
+-- so what is ..? Dependent Dialectica with a relation?
+record LDepDialSet {ℓ : Level}{ L : Set ℓ}{{ _ : Lineale L}} : Set (lsuc ℓ) where
+    field
+        pos : Set ℓ
+        dir : pos → Set ℓ
+        α : (p : pos) → dir p → L
+</code></pre></div>
+
+
+
+<a name="284138895"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284138895" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284138895">(May 27 2022 at 14:15)</a>:</h4>
+<p>Well, Eric I do not think this Dependent Dialectica with a relation works. <br>
+I don't know how the composition works to preserve the relation. but maybe I have not  tried hard enough.</p>
+
+
+
+<a name="284152629"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284152629" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284152629">(May 27 2022 at 16:08)</a>:</h4>
+<p>It should work; this is just \sum\prod 2 (or L instead of 2) from Sean Moss’s talk</p>
+
+
+
+<a name="284152734"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284152734" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284152734">(May 27 2022 at 16:09)</a>:</h4>
+<p>I don’t think the dependence changes how the relation works too much, just the signatures of the backward functions slightly</p>
+
+
+
+<a name="284157242"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284157242" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284157242">(May 27 2022 at 16:48)</a>:</h4>
+<blockquote>
+<p>It should work; this is just \sum\prod 2 (or L instead of 2) from Sean Moss’s talk </p>
+</blockquote>
+<p>well, if we want to call \sum\prod 2 Dialectica then maybe. but there is a difference between \sum\prod 2 and Dialectica, because there is no cartesian closed structure in Dialectica and no coproducts, only weak ones. so \sum\pro 2 is a generalization of dialectica,  not Dialectica as originally considered.</p>
+
+
+
+<a name="284177652"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284177652" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284177652">(May 27 2022 at 19:55)</a>:</h4>
+<p>Yes, it’s different, which is why Sean Moss called it dependent dialectica instead of just dialectica I believe! And this is the same difference between Jules Hedges category of bimorphic lenses versus Poly, whose morphisms are “dependent” lenses</p>
+
+
+
+<a name="284188044"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284188044" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284188044">(May 27 2022 at 21:42)</a>:</h4>
+<blockquote>
+<p>And this is the same difference between Jules Hedges category of bimorphic lenses</p>
+</blockquote>
+<p>well, I don't know much about Hedges category(I should), but I thought the adjective "dependent" had to do with one of the sets being an index set (so minimal structure) while the other set is like a space, plenty of structure. and in the case of Poly this space this full of structure set I thought was supposed to be <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>X</mi><mi>U</mi></msup></mrow><annotation encoding="application/x-tex">X^U</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8413em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07847em;">X</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.10903em;">U</span></span></span></span></span></span></span></span></span></span></span> or <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mi>d</mi><mi>i</mi><mi>r</mi><mi>A</mi><msup><mo stretchy="false">)</mo><mrow><mi>p</mi><mi>o</mi><mi>s</mi><mi>A</mi></mrow></msup></mrow><annotation encoding="application/x-tex">(dir A)^{pos A}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0913em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal">d</span><span class="mord mathnormal">i</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mord mathnormal">A</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">p</span><span class="mord mathnormal mtight">os</span><span class="mord mathnormal mtight">A</span></span></span></span></span></span></span></span></span></span></span></span>. but the issue with this class is that it's not closed under the monoidal structures we want to check in Dial or the internal-hom. so logically it seems a strange situation.</p>
+<p>Now reversing tables <span class="user-mention" data-user-id="343715">@Nelson Niu</span> , I have not seen in the Poly handout a discussion of the tensor product of GC, which I believe is also duoidal with <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>⊗</mo></mrow><annotation encoding="application/x-tex">\otimes</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord">⊗</span></span></span></span>. </p>
+<p>this "cross-product" tensor takes <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span></span></span></span> and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>B</mi></mrow><annotation encoding="application/x-tex">B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span></span></span></span> to <br>
+<code>(pos A × pos B, (dir A)^{pos B} × (dir B)^{pos A}, evals)</code><br>
+ Was that there?</p>
+
+
+
+<a name="284190180"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284190180" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284190180">(May 27 2022 at 22:06)</a>:</h4>
+<p>EDIT: <br>
+moved the code snippet to here.<br>
+I did get composition to hold.<br>
+(Apologies for the sloppy code.  it was jotted down quickly and ill clean it up)<br>
+<a href="https://gist.github.com/bond15/59582ea8a74e75a71764690d85137344">https://gist.github.com/bond15/59582ea8a74e75a71764690d85137344</a></p>
+
+
+
+<a name="284191284"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284191284" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284191284">(May 27 2022 at 22:23)</a>:</h4>
+<p>cool.  but</p>
+<blockquote>
+<p>"non dependent Poly with a relation" </p>
+</blockquote>
+<p>is exactly DialSet, right? why call it non-dependent Poly with a relation?<br>
+and </p>
+<blockquote>
+<p>LDepDialSet </p>
+</blockquote>
+<p>is exactly the subcategory of GSet with  the second coordinate of the form <code>pos A -&gt; dir A </code><br>
+(*)</p>
+<p>my issue above is that I don't think this subcategory is closed under the operations in GSet. I don't think I can restrict the operations I'm interested in <br>
+<span class="tex-error">$$  \otimes, &amp;, \oplus, [-,-]  $$</span></p>
+<p>to this subcategory. while Eric and Nelson think there's no problem. So I'll be happier if they're right, but cannot see it at the moment, bc the bifunctors exist in the large category, but they don't restrict to the small one. unless I am wrong about (*) or about the fact that the results of the bifunctors don't have the appropriate shape.</p>
+
+
+
+<a name="284197642"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284197642" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284197642">(May 28 2022 at 00:02)</a>:</h4>
+<p>Still processing the posts above.</p>
+<p>I'm a bit confused about. <br>
+<code>
+ LDepDialSet is exactly the subcategory of GSet with the second coordinate of the form posA→dirA , right? (*)
+</code></p>
+<p><code>LDepDialSet</code> objects would be of the form <code>(pos A : Set ,  dir A : pos A -&gt; Set, alpha)</code><br>
+so <code>dir A</code> is a <code>pos A</code> indexed family of sets.</p>
+
+
+
+<a name="284198082"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284198082" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284198082">(May 28 2022 at 00:10)</a>:</h4>
+<p>I see now, the question is whether your target is dir A : pos A -&gt; Set or dir A: pos A-&gt; dir A. I'm thinking too.</p>
+
+
+
+<a name="284198496"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284198496" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284198496">(May 28 2022 at 00:19)</a>:</h4>
+<p>The composition holds using <code>dirA : posA -&gt; Set</code> and its essentially the same as the composition in <code>DSet2</code>.<br>
+compare<br>
+<a href="https://github.com/vcvpaiva/Dialectica/blob/3634872482683a0be2c00337f29db623b656d49b/TwoDialSet.agda#L152">https://github.com/vcvpaiva/Dialectica/blob/3634872482683a0be2c00337f29db623b656d49b/TwoDialSet.agda#L152</a><br>
+and <br>
+<a href="https://github.com/vcvpaiva/Dialectica/blob/3634872482683a0be2c00337f29db623b656d49b/LDDialSet.agda#L53">https://github.com/vcvpaiva/Dialectica/blob/3634872482683a0be2c00337f29db623b656d49b/LDDialSet.agda#L53</a></p>
+
+
+
+<a name="284198644"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284198644" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284198644">(May 28 2022 at 00:22)</a>:</h4>
+<p>( I can switch to using Latex instead of Agda in these messages if that would be preferred and more broadly readable)<br>
+The <em>trick</em> is using <code>f</code> in the type level.</p>
+
+
+
+<a name="284199016"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284199016" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284199016">(May 28 2022 at 00:30)</a>:</h4>
+<p>Don't have an answer about the desired structure (the tensor, internal hom,..)</p>
+
+
+
+<a name="284235065"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284235065" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284235065">(May 28 2022 at 15:47)</a>:</h4>
+<blockquote>
+<p>Don't have an answer about the desired structure (the tensor, internal hom,..)</p>
+</blockquote>
+<p>well, we need to do the walking, before the running, right? we need to add the structure of DialSet to the agda file.</p>
+
+
+
+<a name="284241095"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284241095" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284241095">(May 28 2022 at 18:02)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="380293">Eric Bond</span> <a href="#narrow/stream/323208-practice.3A-Dialectica/topic/Dialectica.20and.20Poly/near/284198644">said</a>:</p>
+<blockquote>
+<p>( I can switch to using Latex instead of Agda in these messages if that would be preferred and more broadly readable)<br>
+The <em>trick</em> is using <code>f</code> in the type level.</p>
+</blockquote>
+<p>Either latex or agda works, <span class="user-mention" data-user-id="380293">@Eric Bond</span> . The issue here is the type of the objects, not how we write them. so <br>
+<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mi>U</mi><mo separator="true">,</mo><msup><mi>X</mi><mi>U</mi></msup><mo separator="true">,</mo><msup><mi>α</mi><mo stretchy="false">)</mo></msup></mrow><annotation encoding="application/x-tex">(U,X^U, \alpha^)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.138em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.10903em;">U</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.07847em;">X</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.10903em;">U</span></span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0037em;">α</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.888em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mclose mtight">)</span></span></span></span></span></span></span></span></span></span></span> where <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mi>U</mi><mo separator="true">,</mo><mi>X</mi><mo separator="true">,</mo><mi>α</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(U,X,\alpha)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.10903em;">U</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">X</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span><span class="mclose">)</span></span></span></span> is an object of DialSet (or GSet ) is one possible way to instantiate <br>
+<code>(pos A : Set ,  dir A : pos A -&gt; Set, alpha)</code>. But the latter is more generic.</p>
+<p>So I 'd like to have the agda code for DialSet and LDialSet and their structures and theorems proved, before attacking the problem of the dependent version. As for that we have to read Tamara von Glehn and Sean Moss' theses, right?</p>
+
+
+
+<a name="284243426"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284243426" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284243426">(May 28 2022 at 19:00)</a>:</h4>
+<p><span class="user-mention" data-user-id="380293">@Eric Bond</span>  in line 55 of <a href="https://github.com/vcvpaiva/Dialectica/blob/3634872482683a0be2c00337f29db623b656d49b/TwoDialSet.agda#L152">https://github.com/vcvpaiva/Dialectica/blob/3634872482683a0be2c00337f29db623b656d49b/TwoDialSet.agda#L152</a> you have what I think is the correct notion of bifunctoriality of tensor in L. is this an agda proof or an agda definition?</p>
+<p>also is (line 170)</p>
+<div class="codehilite"><pre><span></span><code>record DialSet⊗ (A B : DialSet) : Set where
+    field
+        pos A⊗B : pos A × pos B
+        dir A⊗B : dir A × dir B
+        α : (pos A × pos B) → (dir A × dir B) → α(u,x) ⊗² β(v,y)
+</code></pre></div>
+<p>a sensible definition for the tensor in agda?</p>
+<p>I also need to know how to define constants in agda, because I need four constants:<br>
+<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>I</mi><mo>=</mo><mo stretchy="false">(</mo><mn>1</mn><mo separator="true">,</mo><mn>1</mn><mo separator="true">,</mo><mi>i</mi><mi>d</mi><mo stretchy="false">)</mo><mo separator="true">,</mo><mi mathvariant="normal">⊥</mi><mo>=</mo><mo stretchy="false">(</mo><mn>1</mn><mo separator="true">,</mo><mn>1</mn><mo separator="true">,</mo><mi>e</mi><mi>m</mi><mi>p</mi><mi>t</mi><mi>y</mi><mo stretchy="false">)</mo><mo separator="true">,</mo><mi mathvariant="normal">⊤</mi><mo>=</mo><mo stretchy="false">(</mo><mn>1</mn><mo separator="true">,</mo><mn>0</mn><mo separator="true">,</mo><mi>e</mi><mi>m</mi><mi>p</mi><mi>t</mi><mi>y</mi><mo stretchy="false">)</mo><mo separator="true">,</mo><mn>0</mn><mo>=</mo><mo stretchy="false">(</mo><mn>0</mn><mo separator="true">,</mo><mn>1</mn><mo separator="true">,</mo><mi>e</mi><mi>m</mi><mi>p</mi><mi>t</mi><mi>y</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex"> I=(1,1, id), \bot=(1,1,empty), \top=(1,0,empty), 0=(0,1,empty) </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">i</span><span class="mord mathnormal">d</span><span class="mclose">)</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">⊥</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">e</span><span class="mord mathnormal">m</span><span class="mord mathnormal">pt</span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mclose">)</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">⊤</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">e</span><span class="mord mathnormal">m</span><span class="mord mathnormal">pt</span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mclose">)</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">e</span><span class="mord mathnormal">m</span><span class="mord mathnormal">pt</span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mclose">)</span></span></span></span></p>
+
+
+
+<a name="284690028"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284690028" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284690028">(Jun 02 2022 at 01:37)</a>:</h4>
+<p><span class="user-mention" data-user-id="343715">@Nelson Niu</span> nice to hear your group is working with factorizations! do you have a special motivation for that? </p>
+<p>and can you tell me what do you think is special about</p>
+<blockquote>
+<p>(Ahman-Uustalu, 2018). Comonoids in (Poly, y, ◁) are categories. </p>
+</blockquote>
+<p>what did Danel and Tarmo wanted this theorem for?</p>
+
+
+
+<a name="284690311"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284690311" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284690311">(Jun 02 2022 at 01:43)</a>:</h4>
+<p>Factorization helps to isolate the properties of what’s happening on positions vs. what’s happening on directions. For example, we found yesterday that there is a canonical map from the cross product (where there is codependency in the directions, but not the positions) to the composition product (where there is dependency in the positions, but not the directions) that factors through the parallel product (where there is no dependency in either). So in some sense the parallel product can be defined in terms of these other products, and arises naturally from vertical/cartesian factorization</p>
+
+
+
+<a name="284690636"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284690636" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284690636">(Jun 02 2022 at 01:50)</a>:</h4>
+<p>I’m not sure what the theorem was initially intended for, but what I like about it is that it puts systems that can be expressed in Poly in a familiar context. Comonoids arise naturally when you want to talk about cycling through systems repeatedly—passing back and forth through a lens more than just one round trip. They give you a way to think of directions as actually pointing to the next position, and a way to run through several directions coherently. The coherence conditions seem foreign until you realize they really act just like categories: directions lead from one position to another and compose unitally and associatively. Coming up with examples of a comonoid, or checking whether something is a comonoid, then becomes really easy—you know how to do it already if you know how to check if something is a category.</p>
+
+
+
+<a name="284690664"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284690664" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284690664">(Jun 02 2022 at 01:50)</a>:</h4>
+<p>Yes, there's also a natural map from the cross product to the cartesian product, which factors the parallel product. this should be the other duoidal structure I mentioned to you.</p>
+<p>EDIT: the duoidal structure I'm mentioning here should be between the cross product and the parallel tensor, I wrote about that in 1996 in the paper <a href="https://www.academia.edu/674289/A_dialectica_model_of_state">https://www.academia.edu/674289/A_dialectica_model_of_state</a> and at that state discussed the interchange law, before the duoidal stuff was so christened.</p>
+
+
+
+<a name="284690665"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284690665" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284690665">(Jun 02 2022 at 01:50)</a>:</h4>
+<p>(Also, there’s a nice double category that puts categories, functors, and cofunctor on the same footing, but I haven’t really investigated that thoroughly yet)</p>
+
+
+
+<a name="284690686"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284690686" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284690686">(Jun 02 2022 at 01:51)</a>:</h4>
+<p>Oh yes, every monoidal structure is duoidal with the cartesian product just because of its universal property</p>
+
+
+
+<a name="284690815"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284690815" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284690815">(Jun 02 2022 at 01:54)</a>:</h4>
+<p>We worked out today that tri-comonoids in SigmaPi(C^op) for general monoidal categories C correspond to SigmaC-enriched categories</p>
+
+
+
+<a name="284691149"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284691149" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284691149">(Jun 02 2022 at 02:01)</a>:</h4>
+<p>Thanks also for the motivation for the Ahman-Uustalu result!</p>
+
+
+
+<a name="284691321"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284691321" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284691321">(Jun 02 2022 at 02:04)</a>:</h4>
+<p>I had also started an overleaf on the double category, but I was doing it for Dial, only, and I didn't know whether the squares were there or not.</p>
+
+
+
+<a name="284691375"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284691375" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284691375">(Jun 02 2022 at 02:05)</a>:</h4>
+<p>Yeah, I’m not sure either</p>
+
+
+
+<a name="284746534"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284746534" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284746534">(Jun 02 2022 at 13:42)</a>:</h4>
+<blockquote>
+<p>Comonoids arise naturally when you want to talk about cycling through systems repeatedly—passing back and forth through a lens more than just one round trip.</p>
+</blockquote>
+<p>Comonoids are even more natural in the setting of Linear Logic where they're exactly what you're trying to get, your goal, so that you have linear and non-linear types interacting. But thinking of them as categories doesn't seem obvious to me.</p>
+
+
+
+<a name="284752574"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284752574" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284752574">(Jun 02 2022 at 14:25)</a>:</h4>
+<p><span class="user-mention" data-user-id="276656">@Valeria de Paiva</span> You know how otimes-comonoids, the one in Ch. 2 of your thesis, are monoids in Set indexed over some other set, along with some assignment of True/False for each monoid element that respects the monoid structure?</p>
+<p>Well, you can think of an indexed set of monoids as a slightly boring category, where every object “keeps to itself”—the only morphisms start and end at the same object (and the True/False part picks a wide subcategory, a submonoid of each monoid). So the data of the category can be captured just by a bunch of monoids: one for each object, the endomorphims on that object. Then tri-comonoids generalize this by allowing morphisms between different objects, which becomes a category</p>
+
+
+
+<a name="284753243"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284753243" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284753243">(Jun 02 2022 at 14:30)</a>:</h4>
+<p>well, in my thesis they're monoids in a mythical category C with finite limits, not exactly Set. where do the 'tri ' in tricomonoids comes from?</p>
+
+
+
+<a name="284753305"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284753305" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284753305">(Jun 02 2022 at 14:30)</a>:</h4>
+<p>Oh yes, I’m taking C = Set</p>
+
+
+
+<a name="284753334"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284753334" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284753334">(Jun 02 2022 at 14:30)</a>:</h4>
+<p>tri is the triangle, the composition product</p>
+
+
+
+<a name="284753368"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284753368" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284753368">(Jun 02 2022 at 14:31)</a>:</h4>
+<p>Sorry I realize that’s misleading, there’s not much to do with 3</p>
+
+
+
+<a name="284754924"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284754924" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284754924">(Jun 02 2022 at 14:44)</a>:</h4>
+<p>great, thanks <span class="user-mention" data-user-id="343715">@Nelson Niu</span> ! </p>
+<p>I also have a small problem with the notions of mono and epi. You've hinted at it already: In the subcategory  GSet =LDial we can say that (f,F) or <span class="tex-error">$$(\phi, \phi^#)$$</span> is mono iff f is mono and F is epi.  Also, (f,F) is epi if f is epi and F is mono, bc the category is symmetric. But in Dial this is blurred, bc of the dependence of F in A. how are you dealing with this?</p>
+
+
+
+<a name="284760428"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284760428" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284760428">(Jun 02 2022 at 15:19)</a>:</h4>
+<p>Yeah, it’s a little tricky: in Poly, a mono has to be a mono on positions, and an epi has to be an epi on positions. The dependence backward on directions is where things get a little hairy, but it’s still manageable:</p>
+
+
+
+<a name="284762913"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284762913" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284762913">(Jun 02 2022 at 15:38)</a>:</h4>
+<p>You can think of the backward part of (I, A) -&gt; (J, B), in two ways: either as a function B -&gt; A for every element of I, or (a little less intuitively) as a function B -&gt; A^{f^-1 j} for every element j of J.</p>
+
+
+
+<a name="284763071"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284763071" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284763071">(Jun 02 2022 at 15:39)</a>:</h4>
+<p>Then a mono in Poly is a mono on positions and every B -&gt; A is an epi on directions; and an epi in Poly is an epi on positions and every B -&gt; A^{f^-1 j} is a mono on directions.</p>
+
+
+
+<a name="284763096"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284763096" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284763096">(Jun 02 2022 at 15:39)</a>:</h4>
+<p>(Limits and colimits can be interpreted analogously)</p>
+
+
+
+<a name="284764528"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284764528" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284764528">(Jun 02 2022 at 15:50)</a>:</h4>
+<p>but then</p>
+<blockquote>
+<p>Then a mono in Poly is a mono on positions and every B -&gt; A is an epi on directions; and an epi in Poly is an epi on positions and every B -&gt; A^{f^-1 j} is a mono on directions.</p>
+</blockquote>
+<p>this is exactly what I wrote for LDial:</p>
+<blockquote>
+<p>(f,F)   is mono iff f is mono and F is epi. Also, (f,F) is epi iff f is epi and F is mono</p>
+</blockquote>
+
+
+
+<a name="284775765"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284775765" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284775765">(Jun 02 2022 at 17:13)</a>:</h4>
+<p><span class="user-mention" data-user-id="343715">@Nelson Niu</span> I asked Danel Ahman and Tarmo my question.</p>
+<blockquote>
+<p>I’m not sure what the theorem was initially intended for, but what I like about it is that it puts systems that can be expressed in Poly in a familiar context. </p>
+</blockquote>
+<p>Danel says:</p>
+<blockquote>
+<p>We observed it in the MFPS 2016 paper <br>
+  "Directed Containers as Categories" (<a href="https://danel.ahman.ee/papers/msfp16.pdf">https://danel.ahman.ee/papers/msfp16.pdf</a>).<br>
+From what I remember, the motivations were:</p>
+</blockquote>
+<ul>
+<li>
+<p>I had been talking about directed containers feeling like some form of state machines, <br>
+and the correspondence with categories made that feeling evident.</p>
+</li>
+<li>
+<p>In the above paper the correspondence allows us to view constructions on containers <br>
+from the viewpoint of categories, showing that there is something canonical and natural<br>
+about them (e.g., that the bidirected containers correspond to groupoids).</p>
+</li>
+<li>
+<p>It turns out that there is a general decomposition operation [1] on directed <br>
+container (and corresponding comonad) morphisms that is analogous to <br>
+the full image factorisation [2] of functors between categories (in the case <br>
+of directed containers, we have a factorisation of cofunctors). Under some <br>
+mild assumptions one can then also perform this kind of decomposition for <br>
+general comonad morphisms (also in [1]).</p>
+</li>
+</ul>
+<p>[1] Ahman, Uustalu: Decomposing Comonad Morphisms (<a href="https://drops.dagstuhl.de/opus/volltexte/2019/11442/pdf/LIPIcs-CALCO-2019-14.pdf">https://drops.dagstuhl.de/opus/volltexte/2019/11442/pdf/LIPIcs-CALCO-2019-14.pdf</a>)</p>
+<p>[2] <a href="https://ncatlab.org/nlab/show/full+image">https://ncatlab.org/nlab/show/full+image</a><br>
+=====<br>
+So similar intuitions as yours <span class="user-mention" data-user-id="343715">@Nelson Niu</span> .</p>
+
+
+
+<a name="284779021"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284779021" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284779021">(Jun 02 2022 at 17:40)</a>:</h4>
+<p><span class="user-mention" data-user-id="276656">@Valeria de Paiva</span> Yeah, the epi mono characterization is similar, but not exactly the same—which is not surprising, because there is an adjunction between GSet and SigmaPi2 (or just DialSet)</p>
+
+
+
+<a name="284781452"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/Dialectica%20and%20Poly/near/284781452" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/Dialectica.20and.20Poly.html#284781452">(Jun 02 2022 at 17:57)</a>:</h4>
+<p>cool, I hope you're writing it down too. as I don't know this one.</p>
+<p>I know that GSet=LDial is included in DIal (which is Dial_2Set). Now SigmaPi2 is defined via the completions right? then I don't know that SigmaPi2 is the same as DialSet. a proof would be very welcome</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

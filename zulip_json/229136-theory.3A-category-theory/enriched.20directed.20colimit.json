@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>I'm interested in understanding what a 'small' object is in an enriched setting. To do so, I have to first understand what '(<span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>κ</mi></mrow><annotation encoding=\"application/x-tex\">\\kappa</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">κ</span></span></span></span>-)directed colimit' means in this setting. <br>\nOne can extend the definition of <em>filtered</em> colimit as those weighted enriched colimits which commute with finite limits (as suggested in <a href=\"https://mathoverflow.net/questions/366686/enriched-vs-ordinary-filtered-colimits\">this MO question</a>).<br>\nI'm stuck here: can I just replace directed by filtered in the general definition? I understand that having directed and filtered colimits is the same for plain categories, that doesn't seem enough to conclude I can just use preservation of filtered colimits as a definition of enriched small object.</p>",
+        "id": 408996574,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1703011820
+    },
+    {
+        "content": "<p>I'm confused about the implication that you see \"small\" as related to directed but not to filtered colimits.</p>",
+        "id": 409000120,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1703013154
+    },
+    {
+        "content": "<p>What \"small\" means depends on what your objective is in considering a notion of size. For the theory of enriched local presentability, the most appropriate definition is <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>κ</mi></mrow><annotation encoding=\"application/x-tex\">\\kappa</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">κ</span></span></span></span>-presentability: an object is <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>κ</mi></mrow><annotation encoding=\"application/x-tex\">\\kappa</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">κ</span></span></span></span>-presentable if homming out of it preserves <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>κ</mi></mrow><annotation encoding=\"application/x-tex\">\\kappa</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">κ</span></span></span></span>-flat colimits (see Kelly's <a href=\"https://eudml.org/doc/91287\">Structures defined by finite limits in the\nenriched context, I</a>, for instance). \"Directedness\" is a concept particular to Set-enrichment; there's no notion of directedness for arbitrary enriched categories.</p>",
+        "id": 409000158,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1703013167
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"609515\">Kevin Arlin</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/enriched.20directed.20colimit/near/409000120\">said</a>:</p>\n<blockquote>\n<p>I'm confused about the implication that you see \"small\" as related to directed but not to filtered colimits.</p>\n</blockquote>\n<p>I'm following the definition at <a href=\"https://ncatlab.org/nlab/show/small%20object\">[[small object]]</a>. But I'm a quite out of my depth so I don't know if I'm just cargo culting it.</p>",
+        "id": 409000435,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1703013268
+    },
+    {
+        "content": "<p>Oh, yeah, I think using directed colimits there is a borrowing from Adamek and Rosicky but one can also say filtered here, because every kappa-filtered category has a cofinal kappa-directed poset.</p>",
+        "id": 409000606,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1703013340
+    },
+    {
+        "content": "<p>Neat!</p>",
+        "id": 409000872,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1703013440
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/enriched.20directed.20colimit/near/409000158\">said</a>:</p>\n<blockquote>\n<p>What \"small\" means depends on what your objective is in considering a notion of size. For the theory of enriched local presentability, the most appropriate definition is <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>κ</mi></mrow><annotation encoding=\"application/x-tex\">\\kappa</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">κ</span></span></span></span>-presentability: an object is <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>κ</mi></mrow><annotation encoding=\"application/x-tex\">\\kappa</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">κ</span></span></span></span>-presentable if homming out of it preserves <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>κ</mi></mrow><annotation encoding=\"application/x-tex\">\\kappa</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">κ</span></span></span></span>-flat colimits (see Kelly's <a href=\"https://eudml.org/doc/91287\">Structures defined by finite limits in the\nenriched context, I</a>, for instance). \"Directedness\" is a concept particular to Set-enrichment; there's no notion of directedness for arbitrary enriched categories.</p>\n</blockquote>\n<p>Thanks for the pointer and the suggestion!</p>",
+        "id": 409000955,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1703013479
+    }
+]

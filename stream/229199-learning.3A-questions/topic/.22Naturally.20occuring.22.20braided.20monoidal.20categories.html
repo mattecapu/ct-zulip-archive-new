@@ -1,0 +1,78 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>&quot;Naturally occuring&quot; braided monoidal categories · learning: questions · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/index.html">learning: questions</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Naturally.20occuring.22.20braided.20monoidal.20categories.html">&quot;Naturally occuring&quot; braided monoidal categories</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="385064932"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Naturally%20occuring%22%20braided%20monoidal%20categories/near/385064932" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Xuanrui Qi <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Naturally.20occuring.22.20braided.20monoidal.20categories.html#385064932">(Aug 15 2023 at 09:57)</a>:</h4>
+<p>It's easy to find symmetric monoidal categories out in the wild, but less so braided (non-symmetric) monoidal categories. I can of course think of, eh, the braid category, and examples arising from representations of quantum groups. But I don't know of many else, besides vaguely understanding that braided MCs are related to TQFT somehow.</p>
+<p>Are there any other "natural" examples, preferably from algebra or geometry?</p>
+
+
+
+<a name="385074748"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Naturally%20occuring%22%20braided%20monoidal%20categories/near/385074748" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Philip Saville <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Naturally.20occuring.22.20braided.20monoidal.20categories.html#385074748">(Aug 15 2023 at 10:34)</a>:</h4>
+<p>there's a few examples in Joyal and Street's <em>Braided tensor categories</em>, some of which you might consider natural. There's two versions of the paper, the one in Macquarie mathematics reports has more examples: <a href="http://web.science.mq.edu.au/~street/JS1.pdf">link</a></p>
+
+
+
+<a name="385085743"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Naturally%20occuring%22%20braided%20monoidal%20categories/near/385085743" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Naturally.20occuring.22.20braided.20monoidal.20categories.html#385085743">(Aug 15 2023 at 11:17)</a>:</h4>
+<p>The category of endomorphisms of any identity morphism in a (weak) 3-category is braided monoidal, and generally not symmetric.  So, for example, for any 2-category <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span> (an object of the 3-category <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn><mrow><mi mathvariant="normal">C</mi><mi mathvariant="normal">a</mi><mi mathvariant="normal">t</mi></mrow></mrow><annotation encoding="application/x-tex">2 \rm Cat</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">2</span><span class="mord"><span class="mord mathrm">Cat</span></span></span></span></span>), the category of natural transformations <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mn>1</mn><mi>C</mi></msub><mo>⇒</mo><msub><mn>1</mn><mi>C</mi></msub></mrow><annotation encoding="application/x-tex">1_C \Rightarrow 1_C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7944em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord">1</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.07153em;">C</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">⇒</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7944em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord">1</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.07153em;">C</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> is braided monoidal, sometimes called the "center of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span>".  In particular, if <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span> has one object, this is the <a href="https://ncatlab.org/nlab/show/Drinfeld%20center">[[Drinfeld center]]</a> of a monoidal category, which I guess is a quantum-groupy construction so this is related to one you already mentioned.</p>
+
+
+
+<a name="385254333"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Naturally%20occuring%22%20braided%20monoidal%20categories/near/385254333" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Simon Burton <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Naturally.20occuring.22.20braided.20monoidal.20categories.html#385254333">(Aug 15 2023 at 17:07)</a>:</h4>
+<p><span class="user-mention" data-user-id="276777">@Mike Shulman</span> i'm thinking theres a really good string diagram to draw here, but i'm not quite seeing it.. this is something i lifted from a paper on "anyons": <br>
+<a href="/user_uploads/21317/xCHzyTszF5hCUcILePbcobLk/image.png">image.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/21317/xCHzyTszF5hCUcILePbcobLk/image.png" title="image.png"><img src="/user_uploads/21317/xCHzyTszF5hCUcILePbcobLk/image.png"></a></div>
+
+
+
+<a name="385256570"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Naturally%20occuring%22%20braided%20monoidal%20categories/near/385256570" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Naturally.20occuring.22.20braided.20monoidal.20categories.html#385256570">(Aug 15 2023 at 17:23)</a>:</h4>
+<p>Well, it's basically the Eckmann-Hilton argument.</p>
+
+
+
+<a name="386703399"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Naturally%20occuring%22%20braided%20monoidal%20categories/near/386703399" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Christopher Tapo <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Naturally.20occuring.22.20braided.20monoidal.20categories.html#386703399">(Aug 22 2023 at 22:09)</a>:</h4>
+<p>Although braided fusion categories and modular tensor categories are examples of braided monoidal categories that usually relate to TQFT, CFT, and quantum groups, there are papers like <a href="https://arxiv.org/pdf/2101.01674.pdf">this</a> that show a relationship between modular tensor categories and Seifert fibered spaces. Even though there is still a focus on the application to physics, the relationship between Seifert manifolds and braided monoidal categories is, I think, interesting in its own right.</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

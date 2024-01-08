@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Hi everybody, I hope this isn't off-topic. I've been teaching a category theory class this semester in the computer science department at the University of Michigan (<a href=\"http://maxsnew.com/teaching/eecs-598-w22/\">http://maxsnew.com/teaching/eecs-598-w22/</a>) and for the last lecture I want to provide the students with some advertisements for different areas that they should now be empowered to explore on their own.</p>\n<p>In the course, I've focused on mostly \"programming language\" examples, such as simply typed lambda calculus, Lawvere's fixed point theorem, Hoare Logic, logical relations, and monads. For my final lecture I plan to put brief pointers to dependent/homotopy type theory, polymorphism using reflexive graph categories, linear/substructural logic as monoidal categories/multicategories and its influence on languages like Rust, probabilistic programming using sheaves, as well  as my own research on gradual typing and call-by-push-value.</p>\n<p>So are there any suggestions for other topics to briefly cover? Shameless self-promotion is completely encouraged!</p>",
+        "id": 278891634,
+        "sender_full_name": "Max New",
+        "timestamp": 1649884531
+    },
+    {
+        "content": "<p>I think that categorical models of relational databases are a nice complement to PLT applications for a CT in CS course. One can put bells and whistles on it, but the basic model of Spivak's <a href=\"https://arxiv.org/abs/1009.1166\">functorial data migration</a> is pleasingly simple: database schemas are finitely presented categories and database instances are set-valued functors (copresheaves) on the schema. With this setup, there is a dictionary between many standard CT and database concepts.</p>",
+        "id": 278902615,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1649891050
+    },
+    {
+        "content": "<p>Ok, shameless self-promotion then: Peio Borthelle, <span class=\"user-mention\" data-user-id=\"276696\">@Ambroise</span> Lafont, and I used category theory to prove <a href=\"https://hal.archives-ouvertes.fr/hal-02966439v5\">a general congruence theorem for applicative bisimilarity</a>, recasting and generalising Howe's standard format in terms of cellularity.</p>\n<p>There is also the literature on high-level constructions for syntax with variable binding. E.g., a recent, impressive achievement is <span class=\"user-mention\" data-user-id=\"358258\">@Daniel Gratzer</span> and <span class=\"user-mention\" data-user-id=\"297784\">@Jon Sterling</span>'s <a href=\"https://arxiv.org/abs/2012.10783\">method for presenting type theories</a>. Or the <a href=\"https://hal.archives-ouvertes.fr/hal-03633933\">preprint</a> I recently advertised here.</p>\n<p>Finally, let's ping <span class=\"user-mention\" data-user-id=\"275900\">@Stelios Tsampas</span>, who might have something to add.</p>",
+        "id": 278940075,
+        "sender_full_name": "Tom Hirschowitz",
+        "timestamp": 1649926949
+    },
+    {
+        "content": "<p>Thanks for the assist <span class=\"user-mention\" data-user-id=\"383799\">@Tom Hirschowitz</span>. </p>\n<p>Hey Max :). Since you're going to mention DTT and HTT, how about pointing them towards Agda, it's CT library and it's cubical version? And then coalgebras, they're a natural fit with computer science, right?</p>",
+        "id": 278942527,
+        "sender_full_name": "Stelios Tsampas",
+        "timestamp": 1649928584
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275900\">Stelios Tsampas</span> <a href=\"#narrow/stream/229952-theory.3A-type-theory/topic/Applications.20of.20Category.20Theory.20in.20Computer.20Science/near/278942527\">said</a>:</p>\n<blockquote>\n<p>Thanks for the assist <span class=\"user-mention silent\" data-user-id=\"383799\">Tom Hirschowitz</span>. </p>\n<p>Hey Max :). Since you're going to mention DTT and HTT, how about pointing them towards Agda, it's CT library and it's cubical version? And then coalgebras, they're a natural fit with computer science, right?</p>\n</blockquote>\n<p>Could you be more specific on \"coalgebra\" ? Kind of a broad area</p>",
+        "id": 279038706,
+        "sender_full_name": "Max New",
+        "timestamp": 1649983574
+    },
+    {
+        "content": "<p>You could start broadly by explaining coalgebras as a generic framework to model systems exhibiting observable behavior. Two nice, elementary instantiations of this framework (to mention to students) is that directed graphs are <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"script\">P</mi></mrow><annotation encoding=\"application/x-tex\">\\mathcal{P}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathcal\" style=\"margin-right:0.08222em;\">P</span></span></span></span>-coalgebras (coalgebras of the powerset functor) and that labelled transitions systems are <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"script\">P</mi><mo stretchy=\"false\">(</mo><mi>A</mi><mo>×</mo><mo>−</mo><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">\\mathcal{P}(A \\times -)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathcal\" style=\"margin-right:0.08222em;\">P</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">×</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">−</span><span class=\"mclose\">)</span></span></span></span>-coalgebras for some set of labels <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi></mrow><annotation encoding=\"application/x-tex\">A</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\">A</span></span></span></span>.</p>\n<p>Also, if you're feeling adventurous and your students are comfortable with SOS-style rules, you would point them towards Turi and Plotkin's bialgebraic framework (<a href=\"https://homepages.inf.ed.ac.uk/gdp/publications/Math_Op_Sem.pdf\">https://homepages.inf.ed.ac.uk/gdp/publications/Math_Op_Sem.pdf</a>), presenting GSOS systems as natural transformations of a certain shape.</p>",
+        "id": 279069631,
+        "sender_full_name": "Stelios Tsampas",
+        "timestamp": 1650019985
+    }
+]

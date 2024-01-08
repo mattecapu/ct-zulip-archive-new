@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p><strong>Private, shared history</strong> stream created by <span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span>. <strong>Description:</strong></p>\n<blockquote>\n<p><em>No description.</em></p>\n</blockquote>",
+        "id": 398037853,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698050423
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> changed the description for this stream.</p>\n<ul>\n<li><strong>Old description:</strong></li>\n</ul>\n<blockquote>\n<p><em>No description.</em></p>\n</blockquote>\n<ul>\n<li><strong>New description:</strong></li>\n</ul>\n<blockquote>\n<p>One-way mirror of <a href=\"mailto:categories@mq.edu.au\">categories@mq.edu.au</a></p>\n</blockquote>",
+        "id": 398040504,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698051458
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>categories mailing list</strong> to <strong>general: mailing list mirror</strong>.</p>",
+        "id": 398040505,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698051458
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> changed the description for this stream.</p>\n<ul>\n<li><strong>Old description:</strong></li>\n</ul>\n<blockquote>\n<p>One-way mirror of <a href=\"mailto:categories@mq.edu.au\">categories@mq.edu.au</a></p>\n</blockquote>\n<ul>\n<li><strong>New description:</strong></li>\n</ul>\n<blockquote>\n<p>One-way mirror of <a href=\"mailto:categories@mq.edu.au\">categories@mq.edu.au</a>, the official CT mailing list maintained by JS Lemay</p>\n</blockquote>",
+        "id": 398422429,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698216861
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> changed the <a href=\"/help/stream-permissions\">access permissions</a> for this stream from <strong>Private, shared history</strong> to <strong>Web-public</strong>.</p>",
+        "id": 398422495,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698216898
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>general: mailing list mirror</strong> to <strong>community: mailing list mirror</strong>.</p>",
+        "id": 399474739,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698749550
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> changed the <a href=\"/help/stream-sending-policy\">posting permissions</a> for this stream:</p>\n<ul>\n<li><strong>Old permissions</strong>: All stream members can post.</li>\n<li><strong>New permissions</strong>: Only organization administrators and moderators can post.</li>\n</ul>",
+        "id": 399761660,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698856926
+    }
+]

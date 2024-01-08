@@ -1,0 +1,248 @@
+[
+    {
+        "content": "<p>We know every bicategory is equivalent to a 2-category, and every tricategory is equivalent to a Gray-category. </p>\n<p>But what do we know about semistrictification results for tetracategories à la Trimble? That is, have people verified any of the various semistrictification conjectures for n=4? I'm thinking strict everything except interchange, or <a href=\"https://ncatlab.org/nlab/show/Simpson%27s+conjecture\">strict everything except units</a>. Degenerate versions of this may have been checked, for instance braided monoidal bicategories, but I'm feeling a bit lazy to track something down. This is pretty much at the limit of what is feasible, perhaps, clearly higher versions need different definitions of n-categories. But just as Gordon, Power and Street's work was a catalyst for finding out subtleties of (3,3)-categories (i.e. not (3,1)-categories!), might there be fun things hiding in the tetracategorical case?</p>",
+        "id": 280983481,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1651567931
+    },
+    {
+        "content": "<p>The person to ask is Nick Gurski.</p>",
+        "id": 281036982,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651594281
+    },
+    {
+        "content": "<p>Doesn't <a href=\"http://globular.science/\">globular</a> rely on some conjectural semistrictification theorem? It might be illuminating to take a look at their \"semistrictification hypothesis\"...</p>",
+        "id": 281043386,
+        "sender_full_name": "Tim Campion",
+        "timestamp": 1651596942
+    },
+    {
+        "content": "<p>That's true.   </p>\n<p>James Dolan had a semistrictification hypothesis.  He showed it was false: it breaks down precisely for tetracategories.   Day and Street had a very similar semistrictification hypothesis, that every weak n-category was equivalent to something called a \"file\".   But this also broke down for tetracategories, for very similar reasons.   So someone should check to see if globular is implicitly making the same mistake.</p>",
+        "id": 281044002,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651597201
+    },
+    {
+        "content": "<p>Here is a relevant <a href=\"http://www.tac.mta.ca/tac/volumes/30/11/30-11.pdf\">paper by Bourke and Gurski</a>.</p>",
+        "id": 281083439,
+        "sender_full_name": "Todd Trimble",
+        "timestamp": 1651615253
+    },
+    {
+        "content": "<p>That's very interesting, John, I didn't know (or had forgotten) about those.  Is anything written down about how exactly their conjectures failed?</p>",
+        "id": 281105694,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1651633518
+    },
+    {
+        "content": "<p>The failure of full strictification of tricategories to strict 3-categories is already visible in the doubly-degenerate case of braided monoidal categories.  Was the failure of Dolan's and Day-Street's semistrictification hypotheses visible in degenerate cases?</p>",
+        "id": 281107226,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1651635321
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/semistrictification.20theorem.20for.20tetracats.3F/near/281105694\">said</a>:</p>\n<blockquote>\n<p>That's very interesting, John, I didn't know (or had forgotten) about those.  Is anything written down about how exactly their conjectures failed?</p>\n</blockquote>\n<p>See the paper I had linked.</p>",
+        "id": 281156690,
+        "sender_full_name": "Todd Trimble",
+        "timestamp": 1651671798
+    },
+    {
+        "content": "<p>Ah, thanks.  I'd forgotten that they had that section 4.8 at the end.  It looks like that conjecture was about the possibility of making a <em>definition</em> of 4-file by iterated enrichment, not about whether or not tetracategories are equivalent to an actually defined notion of 4-file.  So that's a somewhat different situation from Globular, which I believe does have a complete (non-enrichment-based) definition of \"semistrict n-category\" for all n.</p>",
+        "id": 281166813,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1651675909
+    },
+    {
+        "content": "<p>Globular is based on <a href=\"https://ncatlab.org/nlab/show/associative+n-category\">\"associative n-categories\"</a>, which have weak units and interchange, but strict associativity.</p>",
+        "id": 281167270,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651676075
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/semistrictification.20theorem.20for.20tetracats.3F/near/281167270\">said</a>:</p>\n<blockquote>\n<p>Globular is based on <a href=\"https://ncatlab.org/nlab/show/associative+n-category\">\"associative n-categories\"</a>, which have weak units and interchange, but strict associativity.</p>\n</blockquote>\n<p>Ah... so in that case I think this semistrictification hypothesis was conjectured by Carlos Simpson, right?</p>",
+        "id": 281167383,
+        "sender_full_name": "Tim Campion",
+        "timestamp": 1651676128
+    },
+    {
+        "content": "<p>I thought Simpson's hypothesis was about weak units and strict interchange (and strict associativity).</p>",
+        "id": 281168225,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1651676420
+    },
+    {
+        "content": "<p>Ah right -- so the appropriate hypothesis used here seems to be strictly weaker than Simpson's conjecture.</p>",
+        "id": 281168370,
+        "sender_full_name": "Tim Campion",
+        "timestamp": 1651676483
+    },
+    {
+        "content": "<p>no pun intended</p>",
+        "id": 281168408,
+        "sender_full_name": "Tim Campion",
+        "timestamp": 1651676498
+    },
+    {
+        "content": "<p>A strictly weaker conjecture about making weak things strict</p>",
+        "id": 281168533,
+        "sender_full_name": "Tim Campion",
+        "timestamp": 1651676532
+    },
+    {
+        "content": "<p>My head is about to explode</p>",
+        "id": 281168567,
+        "sender_full_name": "Tim Campion",
+        "timestamp": 1651676544
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277991\">Tim Campion</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/semistrictification.20theorem.20for.20tetracats.3F/near/281168370\">said</a>:</p>\n<blockquote>\n<p>Ah right -- so the appropriate hypothesis used here seems to be strictly weaker than Simpson's conjecture.</p>\n</blockquote>\n<p>Actually, if I understand correctly, their conjecture is that every n-category is equivalent to a <em>strictly unital</em> associative n-category.</p>",
+        "id": 281168820,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651676647
+    },
+    {
+        "content": "<p>So they are conjecturing weak interchange is sufficient.</p>",
+        "id": 281168848,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651676658
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/semistrictification.20theorem.20for.20tetracats.3F/near/281168820\">said</a>:</p>\n<blockquote>\n<p>Actually, if I understand correctly, their conjecture is that every n-category is equivalent to a <em>strictly unital</em> associative n-category.</p>\n</blockquote>\n<p>I feel like at this point I should actually read the literature, but I think just perusing the nlab pages <a href=\"https://ncatlab.org/nlab/show/associative+n-category\">here</a> and <a href=\"https://ncatlab.org/nlab/show/semi-strict+infinity-category\">here</a> I see 3 different conjectures. It sounds like you're talking about the third:</p>\n<ol>\n<li>\n<p>Simpson's conjecture : every weak n-category is equivalent to one whose associators and interchangers are strict.</p>\n</li>\n<li>\n<p>The Dorn-Douglas-Vicary hypothesis: every weak n-category is equivalent to one whose associators are strict.</p>\n</li>\n<li>\n<p>The strong Dorn-Douglas-Vicary or \"Gray\" hypothesis: every weak n-category is equivalent to one whose associators and unitors are strict.</p>\n</li>\n</ol>",
+        "id": 281169959,
+        "sender_full_name": "Tim Campion",
+        "timestamp": 1651677135
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/semistrictification.20theorem.20for.20tetracats.3F/near/281166813\">said</a>:</p>\n<blockquote>\n<p>Ah, thanks.  I'd forgotten that they had that section 4.8 at the end.  It looks like that conjecture was about the possibility of making a <em>definition</em> of 4-file by iterated enrichment, not about whether or not tetracategories are equivalent to an actually defined notion of 4-file. </p>\n</blockquote>\n<p>Right.   Maybe I should have made that clear.  Jim Dolan's attempted recursive definition of semistrict n-categories via iterated enrichment broke down at n = 4 for essentially the same reasons.</p>\n<blockquote>\n<p>So that's a somewhat different situation from Globular, which I believe does have a complete (non-enrichment-based) definition of \"semistrict n-category\" for all n.</p>\n</blockquote>\n<p>I hope so.   I haven't checked to see if their definition is consistent.   <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span>   </p>\n<p>But I hope Jamie Vicary <em>et al</em> have figured out exactly how and why their approach gets around the problem that Day and Street and Dolan encountered.</p>",
+        "id": 281170526,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651677397
+    },
+    {
+        "content": "<p>At this point, it seems reasonable to consider the \"X-strictness conjecture\" for X any subset of {U, A, I}, meaning \"every weak n-category is equivalent to a weak n-category with strict X\" (e.g. Simpson's conjecture takes X = { A, I }).</p>",
+        "id": 281170572,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651677426
+    },
+    {
+        "content": "<p>And if I understand correctly the only established result is that the {U, A, I}-strictness conjecture is false.</p>",
+        "id": 281170678,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651677482
+    },
+    {
+        "content": "<p>And there are a few positive results for other X at n = 3.</p>",
+        "id": 281170754,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651677509
+    },
+    {
+        "content": "<p>Simon Henry <a href=\"https://arxiv.org/abs/1807.02627\">has proven</a> that weak n-groupoids are modelled by n-groupoids with strict associativity and interchange + \"non-algebraic\" weak units (given by a fibrancy condition), but with a restriction on what the composable pasting diagrams are (compared with \"globular\" n-categories).</p>",
+        "id": 281280637,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651747051
+    },
+    {
+        "content": "<p>Then in <a href=\"https://arxiv.org/abs/2007.14505\">this paper</a> I have a precise conjecture (Conjecture 6.45) that a similar model of n-categories with strict associativity, interchange and <em>algebraic</em> weak units is a model of all weak n-categories.</p>",
+        "id": 281280667,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651747076
+    },
+    {
+        "content": "<p>I also know that Simona Paoli has been making attempts at versions of Simpson's conjecture, but I do not understand her work well enough to tell how close she is.</p>",
+        "id": 281280845,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651747194
+    },
+    {
+        "content": "<p>(By \"precise conjecture\" I mean it's not of the form \"there is 'some' equivalence with a model of weak n-categories\", as most of these conjectures are, but of the form \"<em>these specific</em> strictification morphisms are weak equivalences\").</p>",
+        "id": 281280974,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651747319
+    },
+    {
+        "content": "<p>I think Henry's result is the strongest and best strictification result at the moment, but to appreciate it one needs to give up the idea that n-categories with \"globular, binary composition operations\" are paradigmatic.</p>",
+        "id": 281281258,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651747524
+    },
+    {
+        "content": "<p>I've grown to think that this is actually wrong; I think that <em>strict</em> 4-categories are both too strict and not strict enough, in that there are some \"directed 4-homotopies\" that are <em>not</em> identified by the axioms of 4-categories, but should actually be identified.</p>",
+        "id": 281281408,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651747633
+    },
+    {
+        "content": "<p>(The example has been pointed out to me by Felix Loubaton, but its interpretation as a failure of 4-category axioms is mine and debatable.)</p>",
+        "id": 281281621,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651747811
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276363\">Amar Hadzihasanovic</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/semistrictification.20theorem.20for.20tetracats.3F/near/281281408\">said</a>:</p>\n<blockquote>\n<p>I've grown to think that this is actually wrong; I think that <em>strict</em> 4-categories are both too strict and not strict enough, in that there are some \"directed 4-homotopies\" that are <em>not</em> identified by the axioms of 4-categories, but should actually be identified.</p>\n</blockquote>\n<p>Can you say precisely which extra axioms you think ought to be added?</p>",
+        "id": 281303739,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651759743
+    },
+    {
+        "content": "<p>Something to the effect that, if you can apply a pair of cells to disjoint parts of a pasting diagram in either order, then the order should not matter. As it stands, this fails in general for 4-cells applied to 3d pasting diagrams in 4-categories.</p>",
+        "id": 281308956,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651762044
+    },
+    {
+        "content": "<p>I think the \"directed homotopy hypothesis\", which for me is the guiding principle to higher categories, leads to the idea that diagrams in an n-category should be \"directed balls\" in it, which should be topological balls + a cell structure + a well-formed orientation.</p>\n<p>In the example above, you have two 4-diagrams defining the exact same \"directed 4-ball\" (I can make this precise) but corresponding to different 4-morphisms.</p>",
+        "id": 281309751,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651762337
+    },
+    {
+        "content": "<p>Btw I have no idea if the kind of equality I suggest is even finitely axiomatisable as a \"globular theory\".</p>",
+        "id": 281310206,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651762528
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276363\">Amar Hadzihasanovic</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/semistrictification.20theorem.20for.20tetracats.3F/near/281308956\">said</a>:</p>\n<blockquote>\n<p>Something to the effect that, if you can apply a pair of cells to disjoint parts of a pasting diagram in either order, then the order should not matter. As it stands, this fails in general for 4-cells applied to 3d pasting diagrams in 4-categories.</p>\n</blockquote>\n<p>Hmm, interesting. Do you know if there are similar issues for n-fold categories? That is, some identifications that seem natural to make, but are not implied by the axioms for, say, quadruple categories. In other words: is this specifically a problem with globular structures, or more generally structured defined naïvely using iteration?</p>",
+        "id": 281312053,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651763265
+    },
+    {
+        "content": "<p>(I appreciate this is a very loosely-defined question.)</p>",
+        "id": 281312422,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651763414
+    },
+    {
+        "content": "<p>Well, considering that this is a problem with what one thinks the \"right\" diagrams are for a certain structure, there is some debate that already double categories fail in that respect, because they <a href=\"https://ncatlab.org/nlab/show/double+category#Unbiased\">cannot compose the \"pinwheel\"</a>.</p>",
+        "id": 281316187,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651765096
+    },
+    {
+        "content": "<p>(Although things go wrong in different ways -- in a 4-category you may have \"two possible composites for the same diagram\" and in a double category you may have \"no composites\".)</p>",
+        "id": 281316391,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651765187
+    },
+    {
+        "content": "<p>I don't know enough about n-fold categories to say if there is a closer example.</p>",
+        "id": 281316573,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651765250
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/semistrictification.20theorem.20for.20tetracats.3F/near/281170526\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/semistrictification.20theorem.20for.20tetracats.3F/near/281166813\">said</a>:</p>\n<blockquote>\n<p>So that's a somewhat different situation from Globular, which I believe does have a complete (non-enrichment-based) definition of \"semistrict n-category\" for all n.</p>\n</blockquote>\n<p>I hope so.   I haven't checked to see if their definition is consistent.   <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span>   </p>\n<p>But I hope Jamie Vicary <em>et al</em> have figured out exactly how and why their approach gets around the problem that Day and Street and Dolan encountered.</p>\n</blockquote>\n<p>I didn't know much about the history of this interaction of Bourke, Dolan and Street, and I have just this evening done some reading to educate myself. As far as I now understand these points, it seems that they concern the appropriate notion of enrichment for an iterative internal definition of semistrict n-category. However our various definitions of semistrict n-category (<a href=\"https://arxiv.org/abs/2007.08307\">arXiv:2007.08307</a>, <a href=\"https://arxiv.org/abs/2109.01513\">arXiv:2109.01513</a>, <a href=\"https://arxiv.org/abs/2205.08952\">arXiv:2205.08952</a>, also <a href=\"https://ora.ox.ac.uk/objects/uuid:9f9d8668-a48a-4b30-9883-b11e4edbfc54/files/m0a15c0f51a3cf4101fd344694c844ee9\">Christoph Dorn's thesis</a>) do not work in this way; we don't use any enrichment of semistrict (n+1)-categories in semistrict n-categories, nor do we build any tensor product of semistrict n-categories.</p>\n<p>So at first glance it seems that we conveniently sidestep these issues. If there is nonetheless some way to express this historic problem in a way that we can then query against our definitions, we would be keen to do that.</p>",
+        "id": 315132131,
+        "sender_full_name": "Jamie Vicary",
+        "timestamp": 1670710402
+    },
+    {
+        "content": "<p>Hi!  For the problematic earlier attempts, the problem kicks in at the level of tetracategories.  So, if you can check that your concept of semistrict tetracategory (or whatever you call it) gives a concept of tetagroupoid that adequately models homotopy 4-types, that'll be strong evidence that you're doing things right.  I guess there are a bunch of easier checks as well.</p>",
+        "id": 315132768,
+        "sender_full_name": "John Baez",
+        "timestamp": 1670710934
+    }
+]

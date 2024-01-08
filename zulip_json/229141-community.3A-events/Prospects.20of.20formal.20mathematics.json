@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>I have a question concerning the trimester <a href=\"https://www.him.uni-bonn.de/programs/future-programs/future-trimester-programs/prospects-of-formal-mathematics/app-prospects/\">Prospects of formal mathematics</a> on May - August 2024 at the HIM. (Probably for <span class=\"user-mention\" data-user-id=\"276656\">@Valeria de Paiva</span> and <span class=\"user-mention\" data-user-id=\"296322\">@Jacques Carette</span> ) To apply we need to write a 1-4 pages letter of intent describing the research projects we want to work on during the stay. Is it supposed to be research only on formal mathematics? </p>\n<p>They say also concerning the trimester \"At the same time the goal is to provide a platform for junior researchers to enter Formal Mathematics.\" This is why I would want to come: to enter formal mathematics. But I don't have research projects in formal mathematics now even if I could think to a few things but not very precise. I can describe research projects on the kind of math I'm doing but it's not exactly research on formal mathematics. It's very formal and probalby very formalizable, but not \"formal mathematics\" per se.</p>",
+        "id": 396210033,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1697083674
+    },
+    {
+        "content": "<p>Now I remember, I was a bit afraid by this point the first time I looked at the website.</p>",
+        "id": 396210219,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1697083771
+    },
+    {
+        "content": "<p>hi <span class=\"user-mention\" data-user-id=\"428716\">@Jean-Baptiste Vienney</span> , I think you write exactly what you just said above in the application, plus the formalizable research you're already doing and if possible which routes you envisaged using: which prover, how do you intend to go about it, who do you want to talk to, etc.. caveat:I've never being to a HIM program so this is just my gut feeling, as I'm also finding very difficult to discover how things work there.</p>",
+        "id": 396301847,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1697121322
+    },
+    {
+        "content": "<p>Indeed: we haven't been told that much from HIM. I think this is just the standard way they do it. At the end of the day, I believe it will be the organizers who choose, so we're the audience to aim for.</p>",
+        "id": 396517585,
+        "sender_full_name": "Jacques Carette",
+        "timestamp": 1697207549
+    },
+    {
+        "content": "<p>Ok, thank you both!</p>",
+        "id": 396528336,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1697211099
+    },
+    {
+        "content": "<p>not to make too much of the coincidence of names, I think the area of \"formal category theory\" is a natural one for formalization projects: the theory of 2-categories is (dependently typed) algebraic, so 2-categorical axiomatics of higher categorical structures can be formalized in a \"cold\" proof assistant like Lean.  If someone would start a project like this on GitHub that others could join, there would be plenty of work for people to do - more than enough for a working group at the Hausdorff Trimester.  Another possibility would be a project using the new Rzk proof assistant  being developed by <span class=\"user-mention\" data-user-id=\"277432\">@Emily Riehl</span> , <span class=\"user-mention\" data-user-id=\"277106\">@Jonathan Weinberger</span> , and <span class=\"user-mention\" data-user-id=\"498761\">@Nikolai Kudasov</span> -- but I'll let one of them fill you in on that!</p>",
+        "id": 397863770,
+        "sender_full_name": "Steve Awodey",
+        "timestamp": 1697907699
+    },
+    {
+        "content": "<p>I was thinking to 2-categorical structure in some way me too. I'm going to propose to formalize cut elimination for logical systems based on the structures in the theory of differential categories: differential categories, cartesian differential categories, tangent categories. That's more a niche subject that formal category theory. But I 100% agree with your proposal <span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span></p>",
+        "id": 397864592,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1697908546
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276770\">Steve Awodey</span> <a href=\"#narrow/stream/229141-general.3A-events/topic/Prospects.20of.20formal.20mathematics/near/397863770\">said</a>:</p>\n<blockquote>\n<p>not to make too much of the coincidence of names, but I think the area of \"formal category theory\" is a natural one for formalization projects: the language of 2-categories is algebraic, so 2-categorical axiomatics of higher categorical structures in can be formalized in a \"cold\" proof assistant like Lean.  If someone would start a project like this on GitHub that others could join, there would be plenty of work for other people to do - more than enough for a working group at the Hausdorff Trimester.  Another possibility would be a project using the new Rzk proof assistant  being developed by <span class=\"user-mention silent\" data-user-id=\"277432\">Emily Riehl</span> , <span class=\"user-mention silent\" data-user-id=\"277106\">Jonathan Weinberger</span> , and <span class=\"user-mention silent\" data-user-id=\"498761\">Nikolai Kudasov</span> -- but I'll let one of them fill you in on that!</p>\n</blockquote>\n<p>Indeed I mentioned this as a proposed collaborative project (in Lean) in my Letter of Intent for the trimester program. I think it would be relatively accessible to newcomers.</p>",
+        "id": 397864727,
+        "sender_full_name": "Emily Riehl",
+        "timestamp": 1697908649
+    },
+    {
+        "content": "<p>Thanks <span class=\"user-mention\" data-user-id=\"276770\">@Steve Awodey</span>! We do invite contributions and collaborations on <a href=\"https://github.com/rzk-lang/rzk\">rzk's</a> sHoTT library, see the GitHub pages:<br>\n<a href=\"https://github.com/rzk-lang/sHoTT\">https://github.com/rzk-lang/sHoTT</a></p>\n<p>Of course, the Hausdorff trimester would be a great venue to work on this.</p>",
+        "id": 397894474,
+        "sender_full_name": "Jonathan Weinberger",
+        "timestamp": 1697938940
+    }
+]

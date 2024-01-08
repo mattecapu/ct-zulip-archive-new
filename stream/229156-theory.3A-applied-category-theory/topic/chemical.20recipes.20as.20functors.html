@@ -1,0 +1,698 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>chemical recipes as functors · theory: applied category theory · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/index.html">theory: applied category theory</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html">chemical recipes as functors</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="226223801"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226223801" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226223801">(Feb 13 2021 at 03:32)</a>:</h4>
+<p><a href="/user_uploads/21317/1htvSWFM17xMqT1cgl7wWwhw/Combustion_reaction_of_methane.jpg">Combustion_reaction_of_methane.jpg</a></p>
+<div class="message_inline_image"><a href="/user_uploads/21317/1htvSWFM17xMqT1cgl7wWwhw/Combustion_reaction_of_methane.jpg" title="Combustion_reaction_of_methane.jpg"><img src="/user_uploads/21317/1htvSWFM17xMqT1cgl7wWwhw/Combustion_reaction_of_methane.jpg"></a></div>
+
+
+
+<a name="226223806"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226223806" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226223806">(Feb 13 2021 at 03:32)</a>:</h4>
+<p>Hi <span class="user-mention" data-user-id="275920">@John Baez</span> (and anyone else who is reading) I had an idea that I thought you might like or have helpful feedback on. If P and Q are Petri nets, then I think a sort of chemical recipe can be described as a symmetric monoidal functor</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>R</mi><mo>:</mo><mi>F</mi><mi>P</mi><mo>→</mo><mi>F</mi><mi>Q</mi></mrow><annotation encoding="application/x-tex">R: FP \to FQ</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord mathnormal">Q</span></span></span></span></p>
+<p>where F gives the free commutative monoidal category on each Petri net. The idea is that the places of Q are all the different chemicals you're working with and the transitions of Q give all relevant reactions between those chemicals. Then P is a Petri net whose places represent macroscale quantities of chemicals and whose transitions represent steps in your chemical recipe. For example Q could contain the reaction in the image above as a transition and P could contain a transition which mixes one mole of methane with 2 moles of oxygen to produce one mole of carbon dioxide and two moles of water.</p>
+
+
+
+<a name="226224009"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226224009" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226224009">(Feb 13 2021 at 03:37)</a>:</h4>
+<p>Then the functor R would map the place representing on mole of CH4 to the making of Q which has about 6.02 x 10^23 tokens in the place representing CH4.</p>
+
+
+
+<a name="226224098"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226224098" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226224098">(Feb 13 2021 at 03:39)</a>:</h4>
+<p>And the step in the recipe, represented by the transition combining one mole of methane with two moles of oxygen, could get mapped to one mole of the transition instances in Q.</p>
+
+
+
+<a name="226224152"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226224152" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226224152">(Feb 13 2021 at 03:40)</a>:</h4>
+<p>...and the rest of the data of R is determined similarly, making sure that everything is symmetric monoidal.</p>
+
+
+
+<a name="226224240"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226224240" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226224240">(Feb 13 2021 at 03:42)</a>:</h4>
+<p>I didn't describe this in my example but some features of this approach is that one step in the recipe could get mapped to (a sum of) a sequence of chemical reactions in Q. Maybe this is something like a mechanism? Also the firing sequences of P could represent steps which must be performed in parallel.</p>
+
+
+
+<a name="226224272"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226224272" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226224272">(Feb 13 2021 at 03:43)</a>:</h4>
+<p>My question is if this really represents things that chemists really do. So if there are any chemists reading then lmk :)</p>
+
+
+
+<a name="226224562"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226224562" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226224562">(Feb 13 2021 at 03:51)</a>:</h4>
+<p>I guess that the absurd numbers of tokens in Q is probably impractical for most purposes...</p>
+
+
+
+<a name="226224640"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226224640" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226224640">(Feb 13 2021 at 03:52)</a>:</h4>
+<p>Also this relates to <span class="user-mention" data-user-id="276438">@Fabrizio Genovese</span>'s ideas about extensions of Petri nets. This is an example of an extension in the sense you've been exploring I believe i.e. functorial semantics from the category of executions of a net.</p>
+
+
+
+<a name="226228250"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226228250" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Joe Moeller <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226228250">(Feb 13 2021 at 05:29)</a>:</h4>
+<p>Are there any transitions in these Petri nets?</p>
+
+
+
+<a name="226232531"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226232531" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226232531">(Feb 13 2021 at 07:41)</a>:</h4>
+<p>Lots! In Q they represent chemical reactions and in P they represent steps in your recipe. I should draw some pictures to explain better... maybe tomorrow.</p>
+
+
+
+<a name="226237017"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226237017" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabrizio Genovese <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226237017">(Feb 13 2021 at 09:50)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276037">Jade Master</span> <a href="#narrow/stream/229156-practice.3A-applied.20ct/topic/Chemical.20Recipes.20as.20Functors/near/226224009">said</a>:</p>
+<blockquote>
+<p>Then the functor R would map the place representing on mole of CH4 to the making of Q which has about 6.02 x 10^23 tokens in the place representing CH4.</p>
+</blockquote>
+<p>I'd refine this a bit: If you are going micro-to-macro, probably what you want to really describe is a functor that maps a Petri net to a stochastic net</p>
+
+
+
+<a name="226237025"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226237025" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabrizio Genovese <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226237025">(Feb 13 2021 at 09:51)</a>:</h4>
+<p>I never really tackled stochastic nets yet, but the criticism that all chemists move when we do Petri nets is that the quantities are too big to make them useful in practice. So what you want is a way to extract a system of differential equations from the net, that you can numerically plot</p>
+
+
+
+<a name="226237071"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226237071" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabrizio Genovese <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226237071">(Feb 13 2021 at 09:52)</a>:</h4>
+<p>I should also mention that the equation attached to a stochastic net is called the "Master Equation", you may interpret this as a sign if you like <span aria-label="grinning" class="emoji emoji-1f600" role="img" title="grinning">:grinning:</span></p>
+
+
+
+<a name="226251079"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226251079" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226251079">(Feb 13 2021 at 15:50)</a>:</h4>
+<p>It's actually macro to micro...but you're right this would make more sense with some stochasticisty. The problem is that I don't know a correct categorical operational semantics for stochastic nets. Do chemists ever do discrete simulations, maybe when the reactions are on a very small scale (maybe something happening inside a single cell)</p>
+
+
+
+<a name="226251319"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226251319" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226251319">(Feb 13 2021 at 15:54)</a>:</h4>
+<p>Probably those discrete simulations are still stochastic.</p>
+
+
+
+<a name="226254472"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226254472" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226254472">(Feb 13 2021 at 16:47)</a>:</h4>
+<p><a href="https://en.m.wikipedia.org/wiki/Artificial_chemistry">https://en.m.wikipedia.org/wiki/Artificial_chemistry</a> I think I've described an artificial chemistry</p>
+
+
+
+<a name="226255264"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226255264" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226255264">(Feb 13 2021 at 17:03)</a>:</h4>
+<p>Hi, Jade!   It's weird - I was talking to Evan Patterson and others about this sort of map</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>R</mi><mo>:</mo><mi>F</mi><mi>P</mi><mo>→</mo><mi>F</mi><mi>Q</mi></mrow><annotation encoding="application/x-tex"> R : FP \to FQ </annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord mathnormal">Q</span></span></span></span></p>
+<p>in our discussion last Thursday, because it came up in something Evan was doing.  But he was doing something else with these maps.</p>
+<p>One cool thing is that these maps are more or less morphisms in the <em>Kleisli category</em> of the monad coming from the adjunction</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mo>:</mo><mrow><mi mathvariant="sans-serif">P</mi><mi mathvariant="sans-serif">e</mi><mi mathvariant="sans-serif">t</mi><mi mathvariant="sans-serif">r</mi><mi mathvariant="sans-serif">i</mi></mrow><mo>→</mo><mrow><mi mathvariant="sans-serif">C</mi><mi mathvariant="sans-serif">o</mi><mi mathvariant="sans-serif">m</mi><mi mathvariant="sans-serif">m</mi><mi mathvariant="sans-serif">M</mi><mi mathvariant="sans-serif">o</mi><mi mathvariant="sans-serif">n</mi><mi mathvariant="sans-serif">C</mi><mi mathvariant="sans-serif">a</mi><mi mathvariant="sans-serif">t</mi></mrow><mo separator="true">,</mo></mrow><annotation encoding="application/x-tex"> F : \mathsf{Petri} \to \mathsf{CommMonCat},</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord"><span class="mord mathsf">P</span><span class="mord mathsf">e</span><span class="mord mathsf">t</span><span class="mord mathsf" style="margin-right:0.01389em;">r</span><span class="mord mathsf">i</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathsf">C</span><span class="mord mathsf">o</span><span class="mord mathsf">m</span><span class="mord mathsf">m</span><span class="mord mathsf">M</span><span class="mord mathsf">o</span><span class="mord mathsf">n</span><span class="mord mathsf">C</span><span class="mord mathsf">a</span><span class="mord mathsf">t</span></span><span class="mpunct">,</span></span></span></span><br>
+<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>U</mi><mo>:</mo><mrow><mi mathvariant="sans-serif">C</mi><mi mathvariant="sans-serif">o</mi><mi mathvariant="sans-serif">m</mi><mi mathvariant="sans-serif">m</mi><mi mathvariant="sans-serif">M</mi><mi mathvariant="sans-serif">o</mi><mi mathvariant="sans-serif">n</mi><mi mathvariant="sans-serif">C</mi><mi mathvariant="sans-serif">a</mi><mi mathvariant="sans-serif">t</mi></mrow><mo>→</mo><mrow><mi mathvariant="sans-serif">P</mi><mi mathvariant="sans-serif">e</mi><mi mathvariant="sans-serif">t</mi><mi mathvariant="sans-serif">r</mi><mi mathvariant="sans-serif">i</mi></mrow><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex"> U : \mathsf{CommMonCat} \to \mathsf{Petri} .</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">U</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord"><span class="mord mathsf">C</span><span class="mord mathsf">o</span><span class="mord mathsf">m</span><span class="mord mathsf">m</span><span class="mord mathsf">M</span><span class="mord mathsf">o</span><span class="mord mathsf">n</span><span class="mord mathsf">C</span><span class="mord mathsf">a</span><span class="mord mathsf">t</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord"><span class="mord mathsf">P</span><span class="mord mathsf">e</span><span class="mord mathsf">t</span><span class="mord mathsf" style="margin-right:0.01389em;">r</span><span class="mord mathsf">i</span></span><span class="mord">.</span></span></span></span></p>
+
+
+
+<a name="226255689"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226255689" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226255689">(Feb 13 2021 at 17:10)</a>:</h4>
+<p>Oh yes true, I see that.</p>
+
+
+
+<a name="226255695"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226255695" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226255695">(Feb 13 2021 at 17:11)</a>:</h4>
+<p>They would be morphisms in the Kleisli category of the monad <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>U</mi><mi>F</mi></mrow><annotation encoding="application/x-tex">U F</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">U</span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span></span></span></span> if <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="sans-serif">C</mi><mi mathvariant="sans-serif">o</mi><mi mathvariant="sans-serif">m</mi><mi mathvariant="sans-serif">m</mi><mi mathvariant="sans-serif">M</mi><mi mathvariant="sans-serif">o</mi><mi mathvariant="sans-serif">n</mi><mi mathvariant="sans-serif">C</mi><mi mathvariant="sans-serif">a</mi><mi mathvariant="sans-serif">t</mi></mrow><annotation encoding="application/x-tex">\mathsf{CommMonCat}</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord"><span class="mord mathsf">C</span><span class="mord mathsf">o</span><span class="mord mathsf">m</span><span class="mord mathsf">m</span><span class="mord mathsf">M</span><span class="mord mathsf">o</span><span class="mord mathsf">n</span><span class="mord mathsf">C</span><span class="mord mathsf">a</span><span class="mord mathsf">t</span></span></span></span></span> were the category of algebras of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>U</mi><mi>F</mi></mrow><annotation encoding="application/x-tex">U F</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">U</span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span></span></span></span>.    We've never answered this question, and it's a good pure math problem.</p>
+
+
+
+<a name="226255725"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226255725" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226255725">(Feb 13 2021 at 17:11)</a>:</h4>
+<p>Anyway, these morphisms you're talking about are good things <em>regardless</em> of whether Petri nets are exactly the same as algebras of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>U</mi><mi>F</mi></mrow><annotation encoding="application/x-tex">U F</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">U</span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span></span></span></span>.</p>
+
+
+
+<a name="226255796"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226255796" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226255796">(Feb 13 2021 at 17:12)</a>:</h4>
+<p>I hadn't thought of how <em>you</em> are wanting to use them: as a way to scale up the number of tokens in a Petri net.</p>
+
+
+
+<a name="226255816"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226255816" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226255816">(Feb 13 2021 at 17:13)</a>:</h4>
+<p>The kind of example I got excited about was a bit different.</p>
+
+
+
+<a name="226256327"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226256327" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226256327">(Feb 13 2021 at 17:22)</a>:</h4>
+<p>For example, oxidation of sugar in a cell can be described as this reaction:</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="normal">C</mi><mn>6</mn></msub><msub><mi mathvariant="normal">H</mi><mn>12</mn></msub><msub><mi mathvariant="normal">O</mi><mn>6</mn></msub><mo>+</mo><mn>6</mn><msub><mi mathvariant="normal">O</mi><mn>2</mn></msub><mo>→</mo><mn>6</mn><msub><mrow><mi mathvariant="normal">C</mi><mi mathvariant="normal">O</mi></mrow><mn>2</mn></msub><mo>+</mo><mn>6</mn><msub><mi mathvariant="normal">H</mi><mn>2</mn></msub><mi mathvariant="normal">O</mi></mrow><annotation encoding="application/x-tex"> \mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6              +    6\mathrm{O}_2  \to 6\mathrm{CO}_2    +    6 \mathrm{H}_2\mathrm{O}                 </annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord"><span class="mord mathrm">C</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord"><span class="mord mathrm">H</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord"><span class="mord mathrm">O</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord">6</span><span class="mord"><span class="mord"><span class="mord mathrm">O</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord">6</span><span class="mord"><span class="mord"><span class="mord mathrm">C</span><span class="mord mathrm">O</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord">6</span><span class="mord"><span class="mord"><span class="mord mathrm">H</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">O</span></span></span></span></span></p>
+<p>However, in reality this is just a summary of a reaction with many more steps and many intermediate chemicals!</p>
+<p>We could describe this fact using a map <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>R</mi><mo>:</mo><mi>F</mi><mi>P</mi><mo>→</mo><mi>F</mi><mi>Q</mi></mrow><annotation encoding="application/x-tex">R : FP \to FQ</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord mathnormal">Q</span></span></span></span> where <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi></mrow><annotation encoding="application/x-tex">P</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span></span></span></span> is a simple Petri net and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Q</mi></mrow><annotation encoding="application/x-tex">Q</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">Q</span></span></span></span> is a complicated one.</p>
+
+
+
+<a name="226256353"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226256353" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226256353">(Feb 13 2021 at 17:23)</a>:</h4>
+<p>The single reaction (transition) I wrote above would be mapped to a morphism composed of many reactions.</p>
+
+
+
+<a name="226256457"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226256457" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226256457">(Feb 13 2021 at 17:25)</a>:</h4>
+<p>Evan had other nice examples of maps <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>R</mi><mo>:</mo><mi>F</mi><mi>P</mi><mo>→</mo><mi>F</mi><mi>Q</mi></mrow><annotation encoding="application/x-tex">R: F P \to F Q</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord mathnormal">Q</span></span></span></span>.</p>
+
+
+
+<a name="226256464"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226256464" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226256464">(Feb 13 2021 at 17:25)</a>:</h4>
+<p>So I think your idea of - I'll call them "Kleisli morphisms between Petri nets" - could be pretty generally useful.</p>
+
+
+
+<a name="226256642"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226256642" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Morgan Rogers (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226256642">(Feb 13 2021 at 17:28)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="275920">John Baez</span> <a href="#narrow/stream/229156-practice.3A-applied.20ct/topic/Chemical.20Recipes.20as.20Functors/near/226255695">said</a>:</p>
+<blockquote>
+<p>We've never answered this question, and it's a good pure math problem.</p>
+</blockquote>
+<p>Is the question "Is <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>U</mi></mrow><annotation encoding="application/x-tex">U</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">U</span></span></span></span> monadic?" or something else?</p>
+
+
+
+<a name="226256781"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226256781" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226256781">(Feb 13 2021 at 17:31)</a>:</h4>
+<p>On your other question:</p>
+<blockquote>
+<p>The problem is that I don't know a correct categorical operational semantics for stochastic nets.</p>
+</blockquote>
+<p><span class="user-mention" data-user-id="275965">@Evan Patterson</span> is trying to work that out.  I've wanted to do it for a while, and I think I know roughly how it works, but I didn't have a student who wanted to work on that.     <span aria-label="upside down" class="emoji emoji-1f643" role="img" title="upside down">:upside_down:</span>   </p>
+<blockquote>
+<p>Do chemists ever do discrete simulations, maybe when the reactions are on a very small scale (maybe something happening inside a single cell).</p>
+</blockquote>
+<p>I think so: things work differently when you have small numbers of tokens.  But the people who <em>really</em> do these stochastic simulations of Petri nets are biologists describing the interactions of organisms - population biologists.  There small numbers of tokens can be <em>very</em> important.</p>
+<p>This is a very good how-to book on this stuff:</p>
+<ul>
+<li>Darren James Wilkinson, <em>Stochastic Modelling for Systems Biology</em>, Taylor and Francis, New York, 2006.</li>
+</ul>
+
+
+
+<a name="226267167"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226267167" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabrizio Genovese <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226267167">(Feb 13 2021 at 21:03)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="275920">John Baez</span> <a href="#narrow/stream/229156-practice.3A-applied.20ct/topic/Chemical.20Recipes.20as.20Functors/near/226256327">said</a>:</p>
+<blockquote>
+<p>For example, oxidation of sugar in a cell can be described as this reaction:</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="normal">C</mi><mn>6</mn></msub><msub><mi mathvariant="normal">H</mi><mn>12</mn></msub><msub><mi mathvariant="normal">O</mi><mn>6</mn></msub><mo>+</mo><mn>6</mn><msub><mi mathvariant="normal">O</mi><mn>2</mn></msub><mo>→</mo><mn>6</mn><msub><mrow><mi mathvariant="normal">C</mi><mi mathvariant="normal">O</mi></mrow><mn>2</mn></msub><mo>+</mo><mn>6</mn><msub><mi mathvariant="normal">H</mi><mn>2</mn></msub><mi mathvariant="normal">O</mi></mrow><annotation encoding="application/x-tex"> \mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6              +    6\mathrm{O}_2  \to 6\mathrm{CO}_2    +    6 \mathrm{H}_2\mathrm{O}                 </annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord"><span class="mord mathrm">C</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord"><span class="mord mathrm">H</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord"><span class="mord mathrm">O</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord">6</span><span class="mord"><span class="mord"><span class="mord mathrm">O</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord">6</span><span class="mord"><span class="mord"><span class="mord mathrm">C</span><span class="mord mathrm">O</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord">6</span><span class="mord"><span class="mord"><span class="mord mathrm">H</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">O</span></span></span></span></span></p>
+<p>However, in reality this is just a summary of a reaction with many more steps and many intermediate chemicals!</p>
+<p>We could describe this fact using a map <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>R</mi><mo>:</mo><mi>F</mi><mi>P</mi><mo>→</mo><mi>F</mi><mi>Q</mi></mrow><annotation encoding="application/x-tex">R : FP \to FQ</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord mathnormal">Q</span></span></span></span> where <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi></mrow><annotation encoding="application/x-tex">P</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span></span></span></span> is a simple Petri net and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Q</mi></mrow><annotation encoding="application/x-tex">Q</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathnormal">Q</span></span></span></span> is a complicated one.</p>
+</blockquote>
+<p>Well, this is exactly why in "Petri nets are monoids" morphisms of Petri nets aren't a couple of functions on places/transitions, but a function on places and a <em>homomorphism</em> of multisets on transitions</p>
+
+
+
+<a name="226267244"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226267244" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabrizio Genovese <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226267244">(Feb 13 2021 at 21:05)</a>:</h4>
+<p>The idea is that those morphism are <em>simulations</em>, that are indeed the relevant concept of morphism when you are doing Petri nets in automata theory. A morphism of Petri net is that sense is precisely intended as being able to "Compress/summarize" many transitions into one</p>
+
+
+
+<a name="226271691"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226271691" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226271691">(Feb 13 2021 at 22:10)</a>:</h4>
+<p>Yes, I was going to add that Montanari and Meseguer consider this sort of morphism.  I didn't like it when I was trying to understand the category of Petri nets, because it's not the "obvious" or "basic" sort of map between Petri nets: it involves a mix of syntax and semantics.  But now that I understand <a href="https://arxiv.org/abs/2101.04238">categories of nets</a>, I'm a lot more interested in this more general notion of morphism!</p>
+
+
+
+<a name="226271927"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226271927" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226271927">(Feb 13 2021 at 22:14)</a>:</h4>
+<p>By the way, <span class="user-mention" data-user-id="276037">@Jade Master</span>, here's another way to think about "chemical recipes".   Thanks to your work there's a concept of "real Petri net" where a transition can use any real number amount of something, like:</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0.3</mn><mtext> liters of water</mtext><mo>+</mo><mn>0.4</mn><mtext> kilograms of flour</mtext><mo>→</mo><mn>1</mn><mtext> loaf of bread</mtext></mrow><annotation encoding="application/x-tex"> 0.3 \text{ liters of water} + 0.4 \text{ kilograms of flour} \to 1 \text{ loaf of bread} </annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.77777em;vertical-align:-0.08333em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">3</span><span class="mord text"><span class="mord"> liters of water</span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">4</span><span class="mord text"><span class="mord"> kilograms of flour</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord text"><span class="mord"> loaf of bread</span></span></span></span></span></p>
+<p>And thanks to your work there's a functor from the category of Petri nets to the category of real Petri nets.</p>
+
+
+
+<a name="226272025"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226272025" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226272025">(Feb 13 2021 at 22:16)</a>:</h4>
+<p>So, you can take an ordinary Petri net describing chemical reactions, like this:</p>
+<p><a href="/user_uploads/21317/qz8M3eBb3QwPRoCBkTNLWcNL/Combustion_reaction_of_methane.jpg">Combustion_reaction_of_methane.jpg</a></p>
+<div class="message_inline_image"><a href="/user_uploads/21317/qz8M3eBb3QwPRoCBkTNLWcNL/Combustion_reaction_of_methane.jpg" title="Combustion_reaction_of_methane.jpg"><img src="/user_uploads/21317/qz8M3eBb3QwPRoCBkTNLWcNL/Combustion_reaction_of_methane.jpg"></a></div>
+
+
+
+<a name="226272034"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226272034" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226272034">(Feb 13 2021 at 22:16)</a>:</h4>
+<p>then convert it to a real Petri net where the numbers represent <em>moles</em>, and then "scale it up or down" by any constant factor.</p>
+
+
+
+<a name="226272195"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226272195" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226272195">(Feb 13 2021 at 22:20)</a>:</h4>
+<p>There should also be a functor from Petri nets to real Petri nets where "carbon" gets mapped to "12 grams" because a mole of carbon weighs 12 grams, oxygen gets mapped to "16 grams", and so on.  Then we'd get a real Petri net where chemicals are measured according to mass!</p>
+
+
+
+<a name="226272209"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226272209" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226272209">(Feb 13 2021 at 22:21)</a>:</h4>
+<p>(Above I'm guessing that for any number <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">x</span></span></span></span> there's an endofunctor on the category of real Petri nets where we rescale the amount of all species involved in any transition by multiplying it by <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">x</span></span></span></span>.)</p>
+
+
+
+<a name="226273802"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226273802" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabrizio Genovese <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226273802">(Feb 13 2021 at 23:01)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="275920">John Baez</span> <a href="#narrow/stream/229156-practice.3A-applied.20ct/topic/chemical.20recipes.20as.20functors/near/226271691">said</a>:</p>
+<blockquote>
+<p>Yes, I was going to add that Montanari and Meseguer consider this sort of morphism.  I didn't like it when I was trying to understand the category of Petri nets, because it's not the "obvious" or "basic" sort of map between Petri nets: it involves a mix of syntax and semantics.  But now that I understand <a href="https://arxiv.org/abs/2101.04238">categories of nets</a>, I'm a lot more interested in this more general notion of morphism!</p>
+</blockquote>
+<p>For me it was the opposite. I wasn't interested in the morphisms we defined in categories of nets in the beginning because they weren't the right choice from a Petri net perspective, and ended up complicating my life a lot. Then I gave up and started using the most suitable from a categorical perspective. But I do agree that we could now characterize Petri net (bi?)simulations as extensions of nets, which would be a very cool thing to do</p>
+
+
+
+<a name="226281465"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226281465" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226281465">(Feb 14 2021 at 02:33)</a>:</h4>
+<p><span class="user-mention" data-user-id="277473">@Morgan Rogers (he/him)</span> Yes that is the question. I am currently guessing that it's not monadic but I'm not sure.</p>
+
+
+
+<a name="226281800"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226281800" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226281800">(Feb 14 2021 at 02:43)</a>:</h4>
+<p><span class="user-mention" data-user-id="275920">@John Baez</span> <span class="user-mention" data-user-id="276438">@Fabrizio Genovese</span> know that we understand the operational semantics a bit better I think we might be able to understand the Montanari-Meseguer style morphisms a bit better. They seem like some sort of Kleisli morphisms for some sort of semantics. Is that what you're getting at?</p>
+
+
+
+<a name="226282051"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226282051" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226282051">(Feb 14 2021 at 02:50)</a>:</h4>
+<p><span class="user-mention" data-user-id="275920">@John Baez</span> Regarding the real nets. For what it's worth I do think for every real r, there is an endofunctor <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="double-struck">R</mi><mo>−</mo><mi>N</mi><mi>e</mi><mi>t</mi><mo>→</mo><mi mathvariant="double-struck">R</mi><mo>−</mo><mi>N</mi><mi>e</mi><mi>t</mi></mrow><annotation encoding="application/x-tex">\mathbb{R}-Net \to \mathbb{R}-Net</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.77222em;vertical-align:-0.08333em;"></span><span class="mord"><span class="mord mathbb">R</span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mord mathnormal">e</span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.77222em;vertical-align:-0.08333em;"></span><span class="mord"><span class="mord mathbb">R</span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mord mathnormal">e</span><span class="mord mathnormal">t</span></span></span></span> like you described. You might be able to get it from an endofunctor on the Lawvere theory for R-modules.</p>
+
+
+
+<a name="226282067"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226282067" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226282067">(Feb 14 2021 at 02:51)</a>:</h4>
+<p>Also I am curious about the context and motivation you had for these ideas about real nets.</p>
+
+
+
+<a name="226306385"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226306385" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabrizio Genovese <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226306385">(Feb 14 2021 at 14:18)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276037">Jade Master</span> <a href="#narrow/stream/229156-practice.3A-applied.20ct/topic/chemical.20recipes.20as.20functors/near/226281800">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="275920">John Baez</span> <span class="user-mention silent" data-user-id="276438">Fabrizio Genovese</span> know that we understand the operational semantics a bit better I think we might be able to understand the Montanari-Meseguer style morphisms a bit better. They seem like some sort of Kleisli morphisms for some sort of semantics. Is that what you're getting at?</p>
+</blockquote>
+<p>I tried to partially classify those morphisms in this paper: <a href="https://arxiv.org/abs/1909.03518">https://arxiv.org/abs/1909.03518</a><br>
+which though I have completely rewritten and submitted to a journal. Essentially, I define a net with a semantics as a functor <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mi>S</mi><mo>→</mo><mi>S</mi></mrow><annotation encoding="application/x-tex">PS \to S</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span></span></span></span>, where <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi></mrow><annotation encoding="application/x-tex">S</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span></span></span></span> is any symmetric monoidal category, and a morphism of nets with a semantics as a functor <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mi>S</mi><mo>→</mo><mi>P</mi><mi>Q</mi></mrow><annotation encoding="application/x-tex">PS \to PQ</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mord mathnormal">Q</span></span></span></span> that makes the obvious triangle commute. Notice that when <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi></mrow><annotation encoding="application/x-tex">S</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span></span></span></span> is the terminal category, my definition of morphism completely overlaps with yours</p>
+
+
+
+<a name="226306769"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226306769" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabrizio Genovese <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226306769">(Feb 14 2021 at 14:26)</a>:</h4>
+<p>Now, what I do in that paper is classifying those functors. Essentially, everything relies on the fact that you can do colimits both in Petri nets and in symmetric monoidal categories. There are three kinds of relevant morphisms here:</p>
+<ul>
+<li>Transition-preserving functors are exactly those that we use in categories of nets. These are functors that arise from morphisms of Petri nets.</li>
+<li>Identifications are functors that glue places in a net together. We can use these functors to glue nets together in a slightly weird way: We take two nets <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi><mo separator="true">,</mo><mi>M</mi></mrow><annotation encoding="application/x-tex">N, M</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span></span></span></span> and a witness net <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>W</mi></mrow><annotation encoding="application/x-tex">W</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">W</span></span></span></span>. We define transition preserving functors <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>W</mi><mo>→</mo><mi>N</mi><mo separator="true">,</mo><mi>W</mi><mo>→</mo><mi>M</mi></mrow><annotation encoding="application/x-tex">W \to N, W \to M</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">W</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">W</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span></span></span></span> and we prove that their resulting pushout is an identification from the coproduct of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi><mo separator="true">,</mo><mi>M</mi></mrow><annotation encoding="application/x-tex">N,M</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span></span></span></span> to the glued net. We can recover the pushout formalism from here.</li>
+<li>Synchronizations are functors that send generating morphisms of a net to executions of another net. They do what you were talking about in this discussion, and correspond to simulations in Petri Nets are Monoids. I interpret this as synchronizations: We use a transition in the domain net to trigger an execution in the target net. I also proved that noteworthy synchronizations amount to do a double pushout rewriting of Petri nets, which is kinda cool because this is exactly what the Petri net community uses. I also sketched how we can use this to recover the other open Petri net framework (the one of Sobocinski, Bonchi, Gadducci etc) which is based on identifying transitions of nets.</li>
+</ul>
+<p>Overall I don't like this paper too much because I feel it could be done in a cleaner way categorically. I remember John just saying that what I was doing was kinda obvious since there were colimits in both the categories of Petri nets and Symmetric monoidal categories. I thought of restating things better but it was a time when all my papers were being rejected, so I joust thought "F it" and left it there as it is. The new version is a bit cleaner, but still not as clean as I'd like it to be categorically.</p>
+
+
+
+<a name="226306805"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226306805" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabrizio Genovese <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226306805">(Feb 14 2021 at 14:27)</a>:</h4>
+<p>In any case I'm happy to go into more detail with you if you think it's worthy, it'd be cool to clean this thing up and making it precise. <span aria-label="smile" class="emoji emoji-1f642" role="img" title="smile">:smile:</span></p>
+
+
+
+<a name="226306892"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226306892" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabrizio Genovese <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226306892">(Feb 14 2021 at 14:29)</a>:</h4>
+<p>One small thing: I think considering nets with a semantics is fundamental if you want to do applied stuff. I know this is not important for chemistry but it really is for distributed systems. So the question that I was trying to ask there was "Can I glue things together in a way that respects semantics?" The obvious result was that I was constantly working in a slice category. This has never been really a problem up to now, so I'd suggest to do the same unless we find out that something breaks down really seriously.</p>
+
+
+
+<a name="226315798"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226315798" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226315798">(Feb 14 2021 at 17:32)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276037">Jade Master</span> <a href="#narrow/stream/229156-practice.3A-applied.20ct/topic/chemical.20recipes.20as.20functors/near/226282067">said</a>:</p>
+<blockquote>
+<p>Also I am curious about the context and motivation you had for these ideas about real nets.</p>
+</blockquote>
+<p>In industrial chemistry people don't count always individual molecules; they probably say stuff like "take 5 liters of water and add 6.3 milligrams of quinine", so they are more or less using real number amounts of stuff.</p>
+
+
+
+<a name="226315844"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226315844" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226315844">(Feb 14 2021 at 17:33)</a>:</h4>
+<p>So, the functors I was talking about, where you translate an ordinary Petri net into a real Petri net and can then "scale it up" by any real number, seem like formalizations of things people are already doing.</p>
+
+
+
+<a name="226556042"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226556042" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Spencer Breiner <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226556042">(Feb 16 2021 at 18:34)</a>:</h4>
+<p>Hi all. Thought I would mention that the same sort of morphisms show up in our paper on string diagrams for documenting manufacturing processes (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7580232/">here</a>, NB: the journal murdered the formatting of the diagrams). There the idea is that your morphisms can represent the relationship between a high-level version of a process plan, and a lower-level version. So we might have a factory-level plan <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo>∈</mo><mi mathvariant="script">F</mi></mrow><annotation encoding="application/x-tex">f\in\mathcal{F}</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">∈</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord"><span class="mord mathcal" style="margin-right:0.09931em;">F</span></span></span></span></span> (this machine, then that one, ...) and map that to a plan at the level of individual workstation operations (drill, cut, screw,...). </p>
+<p>In that case, it is also important that we can take colimits of the nets/categories. That allows us to describe each workstation category/net <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="script">W</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">\mathcal{W}_i</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord"><span class="mord mathcal" style="margin-right:0.08222em;">W</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> independently, and then interpret <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi></mrow><annotation encoding="application/x-tex">f</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span></span></span></span> in the colimit <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="script">F</mi><mo>→</mo><mo>⨁</mo><msub><mi mathvariant="script">W</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">\mathcal{F}\to\bigoplus\mathcal{W}_i</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord"><span class="mord mathcal" style="margin-right:0.09931em;">F</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.00001em;vertical-align:-0.25001em;"></span><span class="mop op-symbol small-op" style="position:relative;top:-0.0000050000000000050004em;">⨁</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord"><span class="mord mathcal" style="margin-right:0.08222em;">W</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> (relative to shared resources, say) .</p>
+
+
+
+<a name="226590630"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226590630" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226590630">(Feb 16 2021 at 22:50)</a>:</h4>
+<p>Thank you Spencer, that is very interesting :)</p>
+
+
+
+<a name="226606148"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226606148" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226606148">(Feb 17 2021 at 02:24)</a>:</h4>
+<p>Cool!  Btw, <span class="user-mention" data-user-id="278008">@Spencer Breiner</span>, we continued talking about some technical aspects of these matters <a href="#narrow/stream/229156-practice.3A-applied.20ct/topic/are.20commutative.20monoidal.20categories.20monadic.20over.20Petri.20nets.3F/near/226315961">here</a>.</p>
+
+
+
+<a name="226614521"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226614521" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226614521">(Feb 17 2021 at 05:05)</a>:</h4>
+<p>By the way, <span class="user-mention" data-user-id="278008">@Spencer Breiner</span>, PubMed seems to be a bit snide about category theory:</p>
+<p><a href="/user_uploads/21317/KfcHSsactlE04dHXjdw-oHf3/categorical_models_for_process_planning.jpg">.</a></p>
+<div class="message_inline_image"><a href="/user_uploads/21317/KfcHSsactlE04dHXjdw-oHf3/categorical_models_for_process_planning.jpg" title="."><img src="/user_uploads/21317/KfcHSsactlE04dHXjdw-oHf3/categorical_models_for_process_planning.jpg"></a></div>
+
+
+
+<a name="226670653"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/226670653" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#226670653">(Feb 17 2021 at 15:16)</a>:</h4>
+<p>I sure hope not</p>
+
+
+
+<a name="249488562"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/249488562" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Keith Elliott Peterson <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#249488562">(Aug 15 2021 at 02:39)</a>:</h4>
+<p>Just a suggestion, but can we add in other chemical species other than just atoms and molecules? </p>
+<p>For instance, the oxidation half-reaction,</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mn>6</mn><msup><mtext>Fe</mtext><mrow><mn>2</mn><mo>+</mo></mrow></msup><mo>→</mo><mn>6</mn><msup><mtext>Fe</mtext><mrow><mn>3</mn><mo>+</mo></mrow></msup><mo>+</mo><mn>6</mn><msup><mtext>e</mtext><mo>−</mo></msup><mo separator="true">,</mo></mrow><annotation encoding="application/x-tex">6\text{Fe}^{2+}\to 6\text{Fe}^{3+} + 6\text{e}^-,</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.887338em;vertical-align:0em;"></span><span class="mord">6</span><span class="mord"><span class="mord text"><span class="mord">Fe</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.887338em;"><span style="top:-3.1362300000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span><span class="mord mtight">+</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.970668em;vertical-align:-0.08333em;"></span><span class="mord">6</span><span class="mord"><span class="mord text"><span class="mord">Fe</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.887338em;"><span style="top:-3.1362300000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span><span class="mord mtight">+</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.015771em;vertical-align:-0.19444em;"></span><span class="mord">6</span><span class="mord"><span class="mord text"><span class="mord">e</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.821331em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">−</span></span></span></span></span></span></span></span><span class="mpunct">,</span></span></span></span></span></p>
+<p>takes in 6 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mtext>Fe</mtext><mrow><mo>+</mo><mn>2</mn></mrow></msup></mrow><annotation encoding="application/x-tex">\text{Fe}^{+2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.887338em;vertical-align:0em;"></span><span class="mord"><span class="mord text"><span class="mord">Fe</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.887338em;"><span style="top:-3.1362300000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">+</span><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span> cations, and outputs 6 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mtext>Fe</mtext><mrow><mn>3</mn><mo>+</mo></mrow></msup></mrow><annotation encoding="application/x-tex">\text{Fe}^{3+}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.887338em;vertical-align:0em;"></span><span class="mord"><span class="mord text"><span class="mord">Fe</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.887338em;"><span style="top:-3.1362300000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span><span class="mord mtight">+</span></span></span></span></span></span></span></span></span></span></span></span> cations and 6 electrons.</p>
+
+
+
+<a name="249492142"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/249492142" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#249492142">(Aug 15 2021 at 04:22)</a>:</h4>
+<p>Oh yeah that's a good idea.</p>
+
+
+
+<a name="249502252"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/249502252" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Keith Elliott Peterson <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#249502252">(Aug 15 2021 at 09:19)</a>:</h4>
+<p>A little off-topic digression, but solvated electrons are neat! </p>
+<p>Who would have thought electrons are gold in colour at high concentration?</p>
+<p><a href="https://www.youtube.com/watch?v=tYjQXjUUvwY">Liquid Electrons - Periodic Table of Videos</a></p>
+<div class="youtube-video message_inline_image"><a data-id="tYjQXjUUvwY" href="https://www.youtube.com/watch?v=tYjQXjUUvwY"><img src="https://uploads.zulipusercontent.net/1eb2c2099a8c4895b20ae8e2df9750d287ab1ef7/68747470733a2f2f692e7974696d672e636f6d2f76692f74596a51586a55557677592f64656661756c742e6a7067"></a></div>
+
+
+
+<a name="257672272"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/257672272" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> ww <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#257672272">(Oct 15 2021 at 09:51)</a>:</h4>
+<p>Not to open a can of worms (haha) but what about polymers?</p>
+
+
+
+<a name="257672727"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/257672727" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> ww <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#257672727">(Oct 15 2021 at 09:55)</a>:</h4>
+<p><a href="/user_uploads/21317/i3gkp0hygZbXqYXBerv1gIg5/Screenshot-2021-10-15-at-10.54.57.png">Screenshot-2021-10-15-at-10.54.57.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/21317/i3gkp0hygZbXqYXBerv1gIg5/Screenshot-2021-10-15-at-10.54.57.png" title="Screenshot-2021-10-15-at-10.54.57.png"><img src="/user_uploads/21317/i3gkp0hygZbXqYXBerv1gIg5/Screenshot-2021-10-15-at-10.54.57.png"></a></div>
+
+
+
+<a name="257688077"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/257688077" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#257688077">(Oct 15 2021 at 12:17)</a>:</h4>
+<p>I think there are alternatives to Petri nets / chemical reaction networks that advertise themselves as being more efficient for dealing with polymers, but I've never looked into them very hard.   <a href="http://lucacardelli.name/">Luca Cardelli</a> at Oxford has done a lot of work on the interface of chemistry and computation, and he'd be the one to ask about this.  It just struck me that colored Petri nets might do pretty well.</p>
+
+
+
+<a name="257817210"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/257817210" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> ww <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#257817210">(Oct 16 2021 at 09:24)</a>:</h4>
+<p>Aye, there are. We use graph rewriting for this, but I'm still a bit unsure about the precise relationship between that and (coloured) Petri nets. In practice, they feel very similar. I _think_ that if you restrict to discrete graphs, what you get is like a Petri net. I'm pretty sure you could represent the original question in graph land: the cation looks like a star motif with nucleus in the centre and edges to a bunch of electrons. But that might not be the most efficient way to do it, and writing it out in a textual language with a couple of dozen electrons would be annoyingly verbose.</p>
+
+
+
+<a name="257817594"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/257817594" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> ww <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#257817594">(Oct 16 2021 at 09:30)</a>:</h4>
+<p>Actually, Kappa has recently evolved the idea of counters. That would work pretty well:</p>
+<div class="codehilite"><pre><span></span><code>Fe(e=24), Fe(e=24), Fe(e=24), Fe(e=24), Fe(e=24), Fe(e=24) -&gt;
+Fe(e=23), Fe(e=23), Fe(e=23), Fe(e=23), Fe(e=23), Fe(e=23), e(), e(), e(), e(), e(), e() @ k
+</code></pre></div>
+<p>A little verbose because there's no syntax for just saying "six of these".</p>
+<p>I think this might just be equivalent to a notation for coloured Petri nets, as you say, because here there are no edges/bonds. The colours are the type of particle (e.g. iron atom or electron) and the count of electrons in the case of Fe...</p>
+
+
+
+<a name="257817739"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/257817739" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> ww <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#257817739">(Oct 16 2021 at 09:33)</a>:</h4>
+<p>If we don't mind having potentially very many places, I think we don't even need colours. Just places called Fe23, Fe24 and e would do.</p>
+
+
+
+<a name="257818091"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/257818091" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> ww <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#257818091">(Oct 16 2021 at 09:39)</a>:</h4>
+<p>Feels to me like there is a functor that takes a certain kind of graph rewriting into coloured Petri, and then one that goes to colourless Petri...</p>
+
+
+
+<a name="257818951"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/257818951" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> ww <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#257818951">(Oct 16 2021 at 09:54)</a>:</h4>
+<p>Actually, this is definitely the case because it's what you do when generating ODEs for observables of a graph rewriting system, for example. So long as you don't have rules that do things like generate unbounded polymers, or are happy to truncate the maximum number of electrons that can be bound to an Iron atom (i.e. set of colours), you can do this finitely. Finitely, but still a potentially unreasonably high dimensional ODE system that isn't so computationally helpful. Gillespie still works ok though for the same reason.</p>
+
+
+
+<a name="257834763"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/257834763" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabrizio Genovese <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#257834763">(Oct 16 2021 at 14:13)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="405160">ww</span> <a href="#narrow/stream/229156-practice.3A-applied.20ct/topic/chemical.20recipes.20as.20functors/near/257817594">said</a>:</p>
+<blockquote>
+<p>Actually, Kappa has recently evolved the idea of counters. That would work pretty well:</p>
+<div class="codehilite"><pre><span></span><code>Fe(e=24), Fe(e=24), Fe(e=24), Fe(e=24), Fe(e=24), Fe(e=24) -&gt;
+Fe(e=23), Fe(e=23), Fe(e=23), Fe(e=23), Fe(e=23), Fe(e=23), e(), e(), e(), e(), e(), e() @ k
+</code></pre></div>
+<p>A little verbose because there's no syntax for just saying "six of these".</p>
+<p>I think this might just be equivalent to a notation for coloured Petri nets, as you say, because here there are no edges/bonds. The colours are the type of particle (e.g. iron atom or electron) and the count of electrons in the case of Fe...</p>
+</blockquote>
+<p>There's for sure work by Nicolas Behr and colleagues about representing Kappa and MOD as rule-based graph rewriting systems, I don't know if it's useful: <a href="https://arxiv.org/abs/2003.09395">https://arxiv.org/abs/2003.09395</a></p>
+
+
+
+<a name="257899844"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/257899844" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> ww <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#257899844">(Oct 17 2021 at 08:16)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276438">Fabrizio Genovese</span> <a href="#narrow/stream/229156-practice.3A-applied.20ct/topic/chemical.20recipes.20as.20functors/near/257834763">said</a>:</p>
+<blockquote>
+<p>There's for sure work by Nicolas Behr and colleagues about representing Kappa and MOD as rule-based graph rewriting systems, I don't know if it's useful: <a href="https://arxiv.org/abs/2003.09395">https://arxiv.org/abs/2003.09395</a></p>
+</blockquote>
+<p>I remember Nick well from when he was in Edinburgh, and Jean Krivine was one of the examiners of my thesis, but I hadn't seen that paper. Thank you, one for the reading list.</p>
+<p>Actually, cited in the first paragraph is this one: <em>Rule Algebras for Adhesive Categories</em> [ <a href="https://arxiv.org/abs/1807.00785">https://arxiv.org/abs/1807.00785</a> ]. If I am understanding correctly, it seems to say what I was intuiting above: rules are creatures of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="script">M</mi></mrow><annotation encoding="application/x-tex">\mathcal{M}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathcal">M</span></span></span></span>-adhesive categories, Petri is an example of an <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="script">M</mi></mrow><annotation encoding="application/x-tex">\mathcal{M}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathcal">M</span></span></span></span>-adhesive category which corresponds to rules on discrete graphs.</p>
+
+
+
+<a name="257925175"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/257925175" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabrizio Genovese <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#257925175">(Oct 17 2021 at 15:00)</a>:</h4>
+<p>Yes, I know this line of work only very roughly, but if I recall correctly the definition of adhesive category was created exactly as a categorical answer to the question: "In what environments we can do rewriting in a nice way?" Essentially, when your category is adhesive you can apply a lot of techniques from graph rewriting (DPO rewriting etc) very straightforwardly <span aria-label="smile" class="emoji emoji-1f642" role="img" title="smile">:smile:</span></p>
+
+
+
+<a name="258029685"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/258029685" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#258029685">(Oct 18 2021 at 13:36)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="405160">ww</span> <a href="#narrow/stream/229156-practice.3A-applied.20ct/topic/chemical.20recipes.20as.20functors/near/257818091">said</a>:</p>
+<blockquote>
+<p>Feels to me like there is a functor that takes a certain kind of graph rewriting into coloured Petri, and then one that goes to colourless Petri...</p>
+</blockquote>
+<p>As for the second, yes: it's standard lore in the Petri net world that anything you can do with a colored Petri net you can do with a (bigger, more annoying) Petri net, so that colored Petri nets are introduced only for convenience, not greater computational power.   My students <span class="user-mention" data-user-id="275914">@Joe Moeller</span> and <span class="user-mention" data-user-id="276037">@Jade Master</span> were writing a paper on the functor that turns a colored Petri net into a Petri net, but they gave up when <span class="user-mention" data-user-id="276049">@David Spivak</span> and <span class="user-mention" data-user-id="276438">@Fabrizio Genovese</span> came out with a similar (but not isomorphic!) paper.</p>
+
+
+
+<a name="258029848"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/258029848" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#258029848">(Oct 18 2021 at 13:37)</a>:</h4>
+<p>I kept telling them they were making the newbie mistake of thinking that one paper on a topic diminishes the interest in other related papers on that topic... unless you're proving the exact same theorem it probably has the opposite effect.</p>
+
+
+
+<a name="258061945"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/258061945" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabrizio Genovese <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#258061945">(Oct 18 2021 at 16:56)</a>:</h4>
+<p>Yes, especially since the most important part of both papers was introducing the technique of using the Grothendieck construction to do stuff, an approach that proved so successful that we ended up writing five or six more papers about it lol</p>
+
+
+
+<a name="258062053"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/258062053" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabrizio Genovese <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#258062053">(Oct 18 2021 at 16:57)</a>:</h4>
+<p>(And at this point I'd be very glad if someone could pick it up and investigate things further, we've already too much on our plates right now!)</p>
+
+
+
+<a name="258069233"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/258069233" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Joe Moeller <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#258069233">(Oct 18 2021 at 17:41)</a>:</h4>
+<p>Puzzled over the use of the word "introduced" here, but I'd certainly be happy to pick up some of the threads you've been laying down. My career is essentially based on finding uses of the Grothendieck construction <span aria-label="sweat smile" class="emoji emoji-1f605" role="img" title="sweat smile">:sweat_smile:</span></p>
+
+
+
+<a name="258072552"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/258072552" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabrizio Genovese <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#258072552">(Oct 18 2021 at 18:04)</a>:</h4>
+<p>What I meant is that the idea of using the Grothendieck construction to internalize a coloured Petri net back to a classical Petri net was first exposed in the papers cited above, around 2020. Even if, to be precise, said application is something that me and David figured out in early 2018 when he came visiting in Oxford, but never bothered to write. And indeed I talked about it very excitedly with everyone during ACT in Leiden. Then two years later we decided to finally write it down properly after the Statebox summit in Berlin, and the paper came out. What I definitely did not know in 2018 (and not even in early 2020 to be honest) is that the case of coloured nets was just one of the many applications we could devise, and that indeed this techniques could be adapted to many other extensions of Petri nets, such as bounded and hierarchical. This basically came out in early 2021 and now we have a far better idea of how powerful all this is</p>
+
+
+
+<a name="258072862"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/258072862" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jade Master <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#258072862">(Oct 18 2021 at 18:06)</a>:</h4>
+<p>Fabrizio I remember telling you about it during the Statebox summit in 2018 <span aria-label="thinking" class="emoji emoji-1f914" role="img" title="thinking">:thinking:</span>  Regardless I don't care. John told me about it earlier in a seminar he gave in 2017. There might still be notes from it!</p>
+
+
+
+<a name="258072891"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/258072891" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabrizio Genovese <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#258072891">(Oct 18 2021 at 18:06)</a>:</h4>
+<p>So now I don't see those papers anymore as "describing an application" but as "introducing a general technique to describe extensions of Petri nets", that is far more interesting in my opinion.</p>
+
+
+
+<a name="258073098"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/258073098" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabrizio Genovese <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#258073098">(Oct 18 2021 at 18:07)</a>:</h4>
+<p>I definitely remember telling you about this in Leiden in 2018. I also mentioned how the collage of profunctors could have a role in all this, but that approach was never developed further, not by us at least.</p>
+
+
+
+<a name="258082827"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/258082827" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Joe Moeller <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#258082827">(Oct 18 2021 at 19:09)</a>:</h4>
+<p>I wrote network models (using GC) in 2017, and I was in the middle of writing monoidal Grothendieck construction when I was at ACT in Leiden. I remember chatting with you Fabrizio about the GC, but we should've talked more!</p>
+
+
+
+<a name="258086579"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/258086579" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabrizio Genovese <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#258086579">(Oct 18 2021 at 19:35)</a>:</h4>
+<p>Just to be clear, what I am referring to is the Grothendieck construction applied to the context of Petri nets. I have no doubt that there were - and are - many people using it to do all sort of stuff in ACT, way before I even knew it existed. What I am saying is that the papers John cited before are the first ones applying it to the context of Petri nets, that turned into a well-defined line of research for me in the last year or so.</p>
+
+
+
+<a name="258087226"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/258087226" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Joe Moeller <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#258087226">(Oct 18 2021 at 19:39)</a>:</h4>
+<p>Definitely, I'm not attempting to refute your claim or anything! I'm just trying to map out the common interests, and lamenting not talking with you more!</p>
+
+
+
+<a name="258089689"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/258089689" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabrizio Genovese <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#258089689">(Oct 18 2021 at 19:57)</a>:</h4>
+<p>Well, I've been thinking more about this stuff during covid basically, which for sure didn't help. I'm sure this is true for many things people have been working on</p>
+
+
+
+<a name="258089850"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/258089850" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabrizio Genovese <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#258089850">(Oct 18 2021 at 19:58)</a>:</h4>
+<p>I find it very exciting to be working in person, while interacting online really draws my energy away. So for sure this made, at least for me, communication more difficult <span aria-label="smile" class="emoji emoji-1f642" role="img" title="smile">:smile:</span></p>
+
+
+
+<a name="258172745"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/258172745" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Daniele Palombi <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#258172745">(Oct 19 2021 at 10:35)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276438">Fabrizio Genovese</span> <a href="#narrow/stream/229156-practice.3A-applied.20ct/topic/chemical.20recipes.20as.20functors/near/258089850">said</a>:</p>
+<blockquote>
+<p>I find it very exciting to be working in person, while interacting online really draws my energy away. So for sure this made, at least for me, communication more difficult <span aria-label="smile" class="emoji emoji-1f642" role="img" title="smile">:smile:</span></p>
+</blockquote>
+<p>Pisa was really helpful with that, phew!</p>
+
+
+
+<a name="258173144"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/258173144" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Daniele Palombi <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#258173144">(Oct 19 2021 at 10:39)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276438">Fabrizio Genovese</span> <a href="#narrow/stream/229156-practice.3A-applied.20ct/topic/chemical.20recipes.20as.20functors/near/258062053">said</a>:</p>
+<blockquote>
+<p>(And at this point I'd be very glad if someone could pick it up and investigate things further, we've already too much on our plates right now!)</p>
+</blockquote>
+<p>Yeah, more people should come work on this and join efforts to establish it as a proper subfield of ACT <span aria-label="smile" class="emoji emoji-1f642" role="img" title="smile">:smile:</span></p>
+
+
+
+<a name="258175516"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/258175516" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Daniele Palombi <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#258175516">(Oct 19 2021 at 11:01)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="275914">Joe Moeller</span> <a href="#narrow/stream/229156-practice.3A-applied.20ct/topic/chemical.20recipes.20as.20functors/near/258069233">said</a>:</p>
+<blockquote>
+<p>Puzzled over the use of the word "introduced" here, but I'd certainly be happy to pick up some of the threads you've been laying down. My career is essentially based on finding uses of the Grothendieck construction <span aria-label="sweat smile" class="emoji emoji-1f605" role="img" title="sweat smile">:sweat_smile:</span></p>
+</blockquote>
+<p>To be fair, using the GC for refining types and processes in concurrent systems has been around since <em>at least</em> 1997, so no one here can claim originality on that</p>
+
+
+
+<a name="258176068"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/258176068" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Daniele Palombi <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#258176068">(Oct 19 2021 at 11:06)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="281862">Daniele Palombi</span> <a href="#narrow/stream/229156-practice.3A-applied.20ct/topic/chemical.20recipes.20as.20functors/near/258175516">said</a>:</p>
+<blockquote>
+<p>since <em>at least</em> 1997</p>
+</blockquote>
+<p>I'm talking about <em>Specifying interaction categories</em> by Abramsky and Pavlović. Maybe <span class="user-mention" data-user-id="294557">@dusko</span> can tell us more about the origins of this wonderful idea <span aria-label="grinning" class="emoji emoji-1f600" role="img" title="grinning">:grinning:</span></p>
+
+
+
+<a name="258193580"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/258193580" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> fosco <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#258193580">(Oct 19 2021 at 13:24)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276438">Fabrizio Genovese</span> <a href="#narrow/stream/229156-practice.3A-applied.20ct/topic/chemical.20recipes.20as.20functors/near/258073098">said</a>:</p>
+<blockquote>
+<p>I definitely remember telling you about this in Leiden in 2018. I also mentioned how the collage of profunctors could have a role in all this, but that approach was never developed further, not by us at least.</p>
+</blockquote>
+<p>I have been summoned by the word profunctor.</p>
+
+
+
+<a name="261195443"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/261195443" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> dusko <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#261195443">(Nov 11 2021 at 23:22)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="281862">Daniele Palombi</span> <a href="#narrow/stream/229156-practice.3A-applied.20ct/topic/chemical.20recipes.20as.20functors/near/258176068">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="281862">Daniele Palombi</span> <a href="#narrow/stream/229156-practice.3A-applied.20ct/topic/chemical.20recipes.20as.20functors/near/258175516">said</a>:</p>
+<blockquote>
+<p>since <em>at least</em> 1997</p>
+</blockquote>
+<p>I'm talking about <em>Specifying interaction categories</em> by Abramsky and Pavlović. Maybe <span class="user-mention silent" data-user-id="294557">dusko</span> can tell us more about the origins of this wonderful idea :D</p>
+</blockquote>
+<p>oh sorry, i didn't notice the question. (computers used to be useful to connect us with friends, but now i need friends to connect me with computers.)</p>
+<p>i guess you are talking about the "generalized grothendieck liftings" to arbitrary functors, which we use there. the reason why we use them there are obviously samson's specification structures, which he invented to specify interaction categories. so that was one component. </p>
+<p>the other component is the view of grothendieck construction as 2-comprehension. that was what my thesis was originally about: in toposes, you have the comprehension of predicates, in dependent type theories, you have the comprehension of indexed propositions. grothendieck categorified the correspondence of sheaves and etale spaces as their comprehensions to propose his construction of discrete fibrations as comprehensions of presheaves. then he defined general fibrations as comprehensions of what came to be known as indexed categories, which he needed to define descent data and ascend to stacks. well then you normally ask yourself: what would at this 2-dimensional level correspond to lifting comprehensions from predicates to dependent types in lawvere's doctrinal diagram? and you calculate the answer: the 2-dim predicates are lax functors to some sort of monoids. and the simplest category of monoids is Span. hence Cat/CC ~ [CC,Span]_lax, and the corresponding 2-dim doctrinal diagram.</p>
+<p>but at the time we thought that the purpose of categorical semantics was to better understand type theory and logic, to make programming easier. (like that can be done by math.) the business of going into higher dimensions seemed like a way to construct more things that we don't understand, not a way to understand things that we construct. so none of that higher comprehension stuff went into my thesis. only a bit in the beginning i think. </p>
+<p>hmm. what i said above: "grothendieck categorified the correspondence of sheaves and etale spaces" --- still sits in my throat. the man who invented categorification as the method to localize spectra, and then simplified it to generalize galois descent, and then categorified the comprehensions, and 10 other things --- the only thing he didn't invent was the word "categorification".  i hope he doesn't mind about such things any more.</p>
+
+
+
+<a name="261195918"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/chemical%20recipes%20as%20functors/near/261195918" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> dusko <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/chemical.20recipes.20as.20functors.html#261195918">(Nov 11 2021 at 23:30)</a>:</h4>
+<p>BTW, </p>
+<blockquote>
+<p>i guess you are talking about the "generalized grothendieck liftings" to arbitrary functors, which we use there. the reason why we use them there are obviously samson's specification structures, which he invented to specify interaction categories. so that was one component. </p>
+</blockquote>
+<p>i spent a lot of time thinking about interaction categories, and never wrote anything about them since 1997 --- until last year. and if the 1997 paper was of interest, then this one might also be:<br>
+<a href="http://arxiv-export-lb.library.cornell.edu/abs/2007.10057">http://arxiv-export-lb.library.cornell.edu/abs/2007.10057</a></p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

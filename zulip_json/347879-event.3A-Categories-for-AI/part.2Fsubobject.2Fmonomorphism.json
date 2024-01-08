@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>Since a solution is a part of the totality of all possibles, I was wondering if the notion of part/subobject/monomorphism figures in \"Categories for AI\".  More specifically, are there categories corresponding to, say, the google's Go or microsoft's ChatGPT?  (I might as well add here that I'm not asking for \"the\" category of Go or that of ChatGPT; as we all know, even a simple notion like WEEK can objectified as a set, or as a dynamical system (circle), or as a product of dynamical systems (spiral) depending on the purposes of our investigations).  Along these lines, are the states of Go game (about which I know nothing beyond thinking that it must have something like states and/or configurations) states-of-Becoming (cf. <a href=\"https://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf\">https://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf</a>)?  Continuing in this spirit of graphic display of my ignorance, does ChatGPT have an implicit understanding of how symbols that don't mean anything in particular (e.g., t, c) can be combined to form words (cf. cat) with definite meanings; and how words without truthvlaues (e.g., hat, cat) can be combined into sentences that can be true or false (e.g., the cat is in the hat), or is it a galactic lookup table chatting at the speed of photons/electrons?  It seems to me that the current (3rd reincarnation) of AI is more of an offspring of a fruitful renewed bonding between computer science and engineering, with hardly any or, cautiously speaking, not as much enthusiasm to reconnect computer science to mathematics, which was very pronounced in AI's 1st avatar (e.g., <a href=\"https://zenodo.org/records/3950104\">https://zenodo.org/records/3950104</a>; see also: <a href=\"https://www.nature.com/articles/s42256-023-00703-8\">https://www.nature.com/articles/s42256-023-00703-8</a>, which refers to them as: artefacts of computer science and engineering).</p>",
+        "id": 398051624,
+        "sender_full_name": "Posina Venkata Rayudu",
+        "timestamp": 1698055347
+    },
+    {
+        "content": "<p><a href=\"#narrow/stream/347879-workshop.3A-Categories-for-AI/topic/part.2Fsubject/near/398051624\">A message</a> was moved here from <a class=\"stream-topic\" data-stream-id=\"347879\" href=\"/#narrow/stream/347879-workshop.3A-Categories-for-AI/topic/stream.20events\">#workshop: Categories for AI &gt; stream events</a> by <span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span>.</p>",
+        "id": 398056699,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698057470
+    }
+]

@@ -1,0 +1,158 @@
+[
+    {
+        "content": "<p>In joint work with <span class=\"user-mention\" data-user-id=\"276839\">@Damiano Mazza</span>, a connection between algebra and logic is emerging. Since I'm sure I've seen it somewhere before but can't place the location, can anyone give us a reference of a situation where someone has viewed roots of polynomials as models of a theory, either formally or informally? I thought this might be in the work of someone like Hrushovski, but his papers are hard to navigate in searching for this stuff, and I'm really looking for a more basic/intuitive connection that I might have seen before.</p>",
+        "id": 329300887,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1677016951
+    },
+    {
+        "content": "<p>Don't know but looks very interesting. Models of which kind of theories are you thinking about? Do you mean a connection between algebra and <strong>first order classical</strong> logic?</p>",
+        "id": 329301545,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1677017215
+    },
+    {
+        "content": "<p>I'm interested by connections between algebra and logic but in a very different way (algebra and <strong>linear</strong> logic). I don't know anything about model theory that's why I'm interested to know a little more about what you mean.</p>",
+        "id": 329301856,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1677017349
+    },
+    {
+        "content": "<p>I've read phrases like \"model theory is the second one algebraic geometry\" but have no idea what it means.</p>",
+        "id": 329302130,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1677017447
+    },
+    {
+        "content": "<p>(Sorry not to help you. I'm just interested to be educated.)</p>",
+        "id": 329302841,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1677017708
+    },
+    {
+        "content": "<p>Isn't a root of a polynomial just the same as a model of the theory of the complex numbers (or your favorite commutative ring) together with a constant symbol <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi></mrow><annotation encoding=\"application/x-tex\">x</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">x</span></span></span></span> and some axiom like <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding=\"application/x-tex\">x^3 - 4x^2 + x = 0</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8974em;vertical-align:-0.0833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">x</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8141em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">3</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">−</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.8974em;vertical-align:-0.0833em;\"></span><span class=\"mord\">4</span><span class=\"mord\"><span class=\"mord mathnormal\">x</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8141em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">2</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">x</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">0</span></span></span></span>?</p>",
+        "id": 329304325,
+        "sender_full_name": "John Baez",
+        "timestamp": 1677018311
+    },
+    {
+        "content": "<p>More precisely: you could do this in classical first-order logic using the axioms for an algebraically closed field of characteristic zero, and then a model would be a choice of some such field together with a root of the polynomial.  But since the theory of an algebraically closed field of characteristic zero has just one model (up to isomorphism) for each uncountable cardinality, this is just about as good as what I said.</p>",
+        "id": 329304898,
+        "sender_full_name": "John Baez",
+        "timestamp": 1677018543
+    },
+    {
+        "content": "<p>Or, you could implement this idea in various other forms of logic.</p>",
+        "id": 329304988,
+        "sender_full_name": "John Baez",
+        "timestamp": 1677018581
+    },
+    {
+        "content": "<p>For example, you can think of a scheme as a theory and its <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi></mrow><annotation encoding=\"application/x-tex\">k</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03148em;\">k</span></span></span></span>-points for any commutative ring <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi></mrow><annotation encoding=\"application/x-tex\">k</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03148em;\">k</span></span></span></span> as models of this theory.</p>",
+        "id": 329320553,
+        "sender_full_name": "John Baez",
+        "timestamp": 1677026209
+    },
+    {
+        "content": "<p>This includes the case of roots of polynomials: to recover my example above, take the affine scheme corresponding to the commutative ring <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"double-struck\">Z</mi><mo stretchy=\"false\">[</mo><mi>x</mi><mo stretchy=\"false\">]</mo><mi mathvariant=\"normal\">/</mi><mo stretchy=\"false\">⟨</mo><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo stretchy=\"false\">⟩</mo></mrow><annotation encoding=\"application/x-tex\">\\mathbb{Z}[x]/\\langle x^3 - 4x^2 + x \\rangle </annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1.0641em;vertical-align:-0.25em;\"></span><span class=\"mord mathbb\">Z</span><span class=\"mopen\">[</span><span class=\"mord mathnormal\">x</span><span class=\"mclose\">]</span><span class=\"mord\">/</span><span class=\"mopen\">⟨</span><span class=\"mord\"><span class=\"mord mathnormal\">x</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8141em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">3</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">−</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.8974em;vertical-align:-0.0833em;\"></span><span class=\"mord\">4</span><span class=\"mord\"><span class=\"mord mathnormal\">x</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8141em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">2</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\">x</span><span class=\"mclose\">⟩</span></span></span></span> and take <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi><mo>=</mo><mi mathvariant=\"double-struck\">C</mi></mrow><annotation encoding=\"application/x-tex\">k = \\mathbb{C}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03148em;\">k</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6889em;\"></span><span class=\"mord mathbb\">C</span></span></span></span>.</p>",
+        "id": 329320746,
+        "sender_full_name": "John Baez",
+        "timestamp": 1677026326
+    },
+    {
+        "content": "<p>This stuff about schemes then eventually leads to Grothendieck's ideas on topos theory....</p>",
+        "id": 329320800,
+        "sender_full_name": "John Baez",
+        "timestamp": 1677026364
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/233104-theory.3A-logic/topic/roots.20as.20models/near/329320553\">said</a>:</p>\n<blockquote>\n<p>For example, you can think of a scheme as a theory and its <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi></mrow><annotation encoding=\"application/x-tex\">k</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03148em;\">k</span></span></span></span>-points for any commutative ring <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>k</mi></mrow><annotation encoding=\"application/x-tex\">k</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03148em;\">k</span></span></span></span> as models of this theory.</p>\n</blockquote>\n<p>Yes, this is exactly the idea.  This analogy with logic is clear and is probably \"folklore\".  But I am not aware of anyone having worked it out to the extent of finding a common structure of which schemes (maybe only affine schemes) and logical theories (of some suitable fragment of first-order logic) are particular cases.</p>",
+        "id": 329367084,
+        "sender_full_name": "Damiano Mazza",
+        "timestamp": 1677055256
+    },
+    {
+        "content": "<p>Just to be clear: this is not about axiomatizing ring theory (or specializations of it, like algebraically closed fields of characteristic zero) in first-order logic.  This is about finding some kind of \"generalized logic\" such that commutative ring presentations, given in terms of generators and polynomial equations, and classical first-order theories of some restricted kind (e.g. what Johnstone calls \"Cartesian theories\") presented in terms of sorts, relation symbols and axioms, are both instances of \"generalized theories\" for this \"generalized logic\".</p>",
+        "id": 329368085,
+        "sender_full_name": "Damiano Mazza",
+        "timestamp": 1677055620
+    },
+    {
+        "content": "<p>(I should credit <span class=\"user-mention\" data-user-id=\"277318\">@Ivan Di Liberti</span> for reminding me about Hrushovski via strongly minimal theories)</p>",
+        "id": 329369783,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1677056172
+    },
+    {
+        "content": "<p>For example, in this view, the set-theoretic completeness theorem for whatever fragment of first-order logic that works for the analogy would correspond to the (weak) Nullstellensatz for a certain \"generalized field\", namely the one in which we define our countable set-theoretic models (I am restricting to countable models because, presumably, if we consider arbitrary models there will be size issues with this hypothetical \"generalized field\".   By the downward Löwenheim-Skolem theorem, countable models are enough for Gödel's completeness to hold, and this will keep the size under control, as long as our \"generalized theories\" have countable syntax, of course...).</p>",
+        "id": 329370230,
+        "sender_full_name": "Damiano Mazza",
+        "timestamp": 1677056286
+    },
+    {
+        "content": "<p>I am unaware of anyone having discussed, even informally, this analogy between the Nullstellensatz and the completeness theorem.</p>",
+        "id": 329370472,
+        "sender_full_name": "Damiano Mazza",
+        "timestamp": 1677056392
+    },
+    {
+        "content": "<p>The idea that dualities and in general syntax-semantics adjunctions can be understood as completeness theorems via reconstruction of the theory from its models can't be really associated to anyone in my opinion. </p>\n<p>I do not have much time to write today, but maybe <em>a version</em> of what you want could be in GENERAL AFFINE ADJUNCTIONS, NULLSTELLENSA ̈TZE, AND DUALITIES by Caramello, Spada and Marra.</p>",
+        "id": 329376924,
+        "sender_full_name": "Ivan Di Liberti",
+        "timestamp": 1677058364
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276839\">Damiano Mazza</span> <a href=\"#narrow/stream/233104-theory.3A-logic/topic/roots.20as.20models/near/329370472\">said</a>:</p>\n<blockquote>\n<p>I am unaware of anyone having discussed, even informally, this analogy between the Nullstellensatz and the completeness theorem.</p>\n</blockquote>\n<p>This <a href=\"https://erischel.com/galois-connections-and-nullstellensatzen/\">blog post</a> by <span class=\"user-mention\" data-user-id=\"276165\">@Eigil Rischel</span> (and the tweet linked within) talk about this analogy</p>",
+        "id": 329378627,
+        "sender_full_name": "Dylan Braithwaite",
+        "timestamp": 1677058822
+    },
+    {
+        "content": "<p>It's credited to a tweet of <span class=\"user-mention\" data-user-id=\"276072\">@sarahzrf</span> who was quite active here years ago but hasn't posted in a long time.</p>",
+        "id": 329379360,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1677059079
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"378472\">Dylan Braithwaite</span> <a href=\"#narrow/stream/233104-theory.3A-logic/topic/roots.20as.20models/near/329378627\">said</a>:</p>\n<blockquote>\n<p>This <a href=\"https://erischel.com/galois-connections-and-nullstellensatzen/\">blog post</a> by <span class=\"user-mention silent\" data-user-id=\"276165\">Eigil Rischel</span> (and the tweet linked within) talk about this analogy</p>\n</blockquote>\n<p>Yes, that's it!  Thanks.  This neatly formulates the analogy in terms of an adjunction (I think this is also related to <span class=\"user-mention\" data-user-id=\"277318\">@Ivan Di Liberti</span>'s post, but I haven't yet read the paper he pointed to).  So what I wrote above could be phrased by saying that there is <em>one</em> adjunction which covers, as special cases, both affine varieties and first-order logic (suitably restricted).</p>",
+        "id": 329382273,
+        "sender_full_name": "Damiano Mazza",
+        "timestamp": 1677059972
+    },
+    {
+        "content": "<p>who pings me</p>",
+        "id": 329496268,
+        "sender_full_name": "sarahzrf",
+        "timestamp": 1677089214
+    },
+    {
+        "content": "<p>oh lol im not sure i can be credited with anything like an original observation here</p>",
+        "id": 329496406,
+        "sender_full_name": "sarahzrf",
+        "timestamp": 1677089253
+    },
+    {
+        "content": "<p>I'm not sure I completely understand what you guys are looking for, but maybe <a href=\"https://en.wikipedia.org/wiki/Abstract_algebraic_logic\">algebraic logic</a> and/or the slogan \"<a href=\"https://math.stackexchange.com/questions/418230/meaning-of-quote-model-theory-algebraic-geometry-fields\">model theory = algebraic geometry - fields</a>\" are relevant? There are also <a href=\"https://www.cs.bham.ac.uk/~sjv/6WFTop/BlechschmidtSlides-Birmingham2019.pdf\">these slides</a> by Ingo Blechschmidt.</p>",
+        "id": 329598419,
+        "sender_full_name": "Graham Manuell",
+        "timestamp": 1677105134
+    },
+    {
+        "content": "<p>Thanks for the references <span class=\"user-mention\" data-user-id=\"386922\">@Graham Manuell</span> !</p>",
+        "id": 329660224,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1677142888
+    },
+    {
+        "content": "<p>See tent and ziegler's introductory textbook for a model theoretic proof of the nullstellensatz. it's my understanding that more generally theories that have prime models satisfy a kind of nullstellensatz bur i don't remember the details.</p>",
+        "id": 336379237,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1677204555
+    },
+    {
+        "content": "<p>Spencer Breiner's thesis <a href=\"https://arxiv.org/abs/1402.2600\">scheme representation for first-order logic</a> and <a href=\"https://arxiv.org/abs/2001.09195\">this later paper</a> from his advisor Steve Awodey seem very relevant here. They develop the analogy with algebraic geometry pretty well, such that their \"logical schemes\" can behave analogously to the usual schemes</p>",
+        "id": 338094797,
+        "sender_full_name": "Evan Washington",
+        "timestamp": 1677386184
+    }
+]

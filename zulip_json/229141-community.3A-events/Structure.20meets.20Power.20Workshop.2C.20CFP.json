@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>The 2022 Structure meets Power workshop will take place on July 4th this year, co-located with ICALP in Paris.</p>\n<p>The aim of the workshop is to bridge a divide in the field of logic in Computer Science, between two distinct strands: one focusing on semantics and compositionality (“Structure”), the other on expressiveness and complexity (“Power”). These two fundamental aspects of logic are studied using almost disjoint technical languages and methods, by almost disjoint research communities. We believe that bridging this divide is a major issue in Computer Science, and may hold the key to fundamental advances in the field.</p>\n<p>From the perspective of the this community, category theory is a fundamental component of the \"Structure\" component of the workshop. Typically the \"Power\" component might be represented by (finite) model theory, combinatorics, complexity theory and the study of algorithms.</p>\n<p>The deadline for submissions is 20th May 2022. Details can be found in the call for papers:</p>\n<p><a href=\"https://easychair.org/cfp/smp-2022\">https://easychair.org/cfp/smp-2022</a></p>\n<p>The workshop will be run as a hybrid event, although on site participation is highly recommended.</p>",
+        "id": 276857987,
+        "sender_full_name": "Dan Marsden",
+        "timestamp": 1648466438
+    },
+    {
+        "content": "<p>The Structure meets Power 2022 submission deadline has been extended by one week, to Friday 27th May. We would gladly welcome contributions from this community. Please consider making a submission.</p>",
+        "id": 282260249,
+        "sender_full_name": "Dan Marsden",
+        "timestamp": 1652454397
+    },
+    {
+        "content": "<p>Dear All,</p>\n<p>It is my pleasure to announce the third iteration of the Structure Meets Power workshop. It is taking place on the 25th of June, as one of the LiCS 2023 affiliated workshops.</p>\n<p>Simply put, the aim of the workshop is to foster interactions between the semantics-focused and algorithmic areas of theoretical computer science. From the perspective of the this community, category theory, topology and algebra are fundamental components of the semantics-focused side of the workshop. On the other hand, the algorithmic areas are represented by (finite) model theory, combinatorics, complexity theory and the study of algorithms.</p>\n<p>For details see the workshop website: <a href=\"https://www.cst.cam.ac.uk/conference/structure-meets-power-2023\">https://www.cst.cam.ac.uk/conference/structure-meets-power-2023</a></p>\n<p>Invited speakers</p>\n<ul>\n<li>Alexandra Silva (Cornell University)</li>\n<li>Howard Straubing (Boston College)</li>\n</ul>\n<p>Important dates</p>\n<ul>\n<li>Abstract submission: 14th May 2023</li>\n<li>Author notification: 22nd May 2023</li>\n</ul>",
+        "id": 349361985,
+        "sender_full_name": "Tomáš Jakl",
+        "timestamp": 1681474857
+    }
+]

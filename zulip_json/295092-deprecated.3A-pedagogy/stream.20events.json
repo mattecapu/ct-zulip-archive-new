@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Stream created by <span class=\"user-mention silent\" data-user-id=\"275899\">Christian Williams</span>.</p>",
+        "id": 246489563,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1626717598
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> changed the <a href=\"/help/stream-permissions\">access permissions</a> for this stream from <strong>Public</strong> to <strong>Web-public</strong>.</p>",
+        "id": 397732326,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1697814999
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> changed the description for this stream.</p>\n<ul>\n<li><strong>Old description:</strong></li>\n</ul>\n<blockquote>\n<p>How do we bring categorical thinking to new generations?</p>\n</blockquote>\n<ul>\n<li><strong>New description:</strong></li>\n</ul>\n<blockquote>\n<p>Deprecated, use #practice: communication instead. How do we bring categorical thinking to new generations?</p>\n</blockquote>",
+        "id": 399478769,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698750930
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>practice: pedagogy</strong> to <strong>deprecated: pedagogy</strong>.</p>",
+        "id": 399478770,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698750930
+    }
+]

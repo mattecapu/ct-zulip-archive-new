@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Stream created by <span class=\"user-mention silent\" data-user-id=\"282822\">fosco</span>.</p>",
+        "id": 211356835,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1601121533
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> renamed stream <strong>Our papers</strong> to <strong>practice: our papers</strong>.</p>",
+        "id": 212316013,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1601911825
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> changed the <a href=\"/help/stream-permissions\">access permissions</a> for this stream from <strong>Public</strong> to <strong>Web-public</strong>.</p>",
+        "id": 281746738,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1652130858
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> changed the description for this stream.</p>\n<ul>\n<li><strong>Old description:</strong></li>\n</ul>\n<blockquote>\n<p>Share opinions about our work, ask for advice, advertise onself</p>\n</blockquote>\n<ul>\n<li><strong>New description:</strong></li>\n</ul>\n<blockquote>\n<p>Deprecated, post to #community: our work instead. Share opinions about our work, ask for advice, advertise onself</p>\n</blockquote>",
+        "id": 399476058,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698750004
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>practice: our papers</strong> to <strong>deprecated: our papers</strong>.</p>",
+        "id": 399476060,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698750004
+    }
+]

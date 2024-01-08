@@ -1,0 +1,121 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>encoding algebraic constraints as functors · learning: questions · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/index.html">learning: questions</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/encoding.20algebraic.20constraints.20as.20functors.html">encoding algebraic constraints as functors</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="233492599"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/encoding%20algebraic%20constraints%20as%20functors/near/233492599" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Avi Craimer <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/encoding.20algebraic.20constraints.20as.20functors.html#233492599">(Apr 07 2021 at 14:01)</a>:</h4>
+<p>Hi,</p>
+<p>I'm defining an algebraic structure in terms of a set some functions on that set, and some added constraints that must hold for those functions. Is there a way to translate this into a functor from some index category into Set? </p>
+<p>In my example,  I start by defining the category of free monoids with 3 generators by taking an index category that has three freely composing non-identity arrows, and taking all functors from this category into Set. However, I want to get a sub-category of this, which has a few additional constrains. For example,  if we call the endofunctions f, g, and h, I want to say that if an element is fixed under f and g i.e., if f(x) = g(x) = x , then h(x) must be a special element p. In addition, I want to say that there are three distinct special elements {a,b,c} in the monoid's underlying set, which are such that for all elements x, h(x) is not an element of {a,b,c}. </p>
+<p>I know there is probably some super general/abstract way to do this in general using Yoneda's lemma and such, but I'm wondering if there is a more concrete way to think about this for simple definitions like the example I gave.</p>
+
+
+
+<a name="233493053"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/encoding%20algebraic%20constraints%20as%20functors/near/233493053" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Joe Moeller <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/encoding.20algebraic.20constraints.20as.20functors.html#233493053">(Apr 07 2021 at 14:04)</a>:</h4>
+<p>Perhaps Lawvere theories are what you're looking for?</p>
+
+
+
+<a name="233493985"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/encoding%20algebraic%20constraints%20as%20functors/near/233493985" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Avi Craimer <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/encoding.20algebraic.20constraints.20as.20functors.html#233493985">(Apr 07 2021 at 14:09)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="275914">Joe Moeller</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/Encoding.20algebraic.20constrains.20as.20functors/near/233493053">said</a>:</p>
+<blockquote>
+<p>Perhaps Lawvere theories are what you're looking for?</p>
+</blockquote>
+<p>Do you know of an accessible introduction to this?</p>
+
+
+
+<a name="233496150"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/encoding%20algebraic%20constraints%20as%20functors/near/233496150" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nathanael Arkor <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/encoding.20algebraic.20constraints.20as.20functors.html#233496150">(Apr 07 2021 at 14:21)</a>:</h4>
+<p><a href="https://perso.uclouvain.be/enrico.vitale/gab_CUP2.pdf">Algebraic Theories: A Categorical Introduction to General Algebra</a> is very good.</p>
+
+
+
+<a name="233497372"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/encoding%20algebraic%20constraints%20as%20functors/near/233497372" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fawzi Hreiki <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/encoding.20algebraic.20constraints.20as.20functors.html#233497372">(Apr 07 2021 at 14:28)</a>:</h4>
+<p>If you want something slightly easier and which also deals with the monad approach to universal algebra, you could take a look at Manes' book 'Algebraic Theories'</p>
+
+
+
+<a name="233630731"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/encoding%20algebraic%20constraints%20as%20functors/near/233630731" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Morgan Rogers (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/encoding.20algebraic.20constraints.20as.20functors.html#233630731">(Apr 08 2021 at 10:21)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="312048">Avi Craimer</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/Encoding.20algebraic.20constrains.20as.20functors/near/233492599">said</a>:</p>
+<blockquote>
+<p>In my example,  I start by defining the category of free monoids with 3 generators by taking an index category that has three freely composing non-identity arrows, and taking all functors from this category into Set. </p>
+</blockquote>
+<p>This isn't a category of free monoids..! It's the category of left actions of the free monoid on 3 generators.</p>
+
+
+
+<a name="233667306"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/encoding%20algebraic%20constraints%20as%20functors/near/233667306" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Avi Craimer <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/encoding.20algebraic.20constraints.20as.20functors.html#233667306">(Apr 08 2021 at 14:59)</a>:</h4>
+<p>@_<strong>Morgan Rogers (he&#x2F;him)|277473</strong> <a href="#narrow/stream/229199-learning.3A-questions/topic/Encoding.20algebraic.20constrains.20as.20functors/near/233630731">said</a>:</p>
+<blockquote>
+<p>This isn't a category of free monoids..! It's the category of left actions of the free monoid on 3 generators.</p>
+</blockquote>
+<p>Thanks for this clarification. I know it's not the category of free monoids, but I thought it was the category of free monoids with three generators. Since you can compose the morphisms in either direction, I don't understand the "left actions" part.</p>
+
+
+
+<a name="233672652"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/encoding%20algebraic%20constraints%20as%20functors/near/233672652" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nathanael Arkor <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/encoding.20algebraic.20constraints.20as.20functors.html#233672652">(Apr 08 2021 at 15:18)</a>:</h4>
+<p>A one-object category is a monoid. So if you freely generate a one-object category from 3 arrows, you get the free monoid on 3 generators. Taking presheaves on a monoid gives you the left-actions on that monoid.</p>
+
+
+
+<a name="233675157"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/encoding%20algebraic%20constraints%20as%20functors/near/233675157" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/encoding.20algebraic.20constraints.20as.20functors.html#233675157">(Apr 08 2021 at 15:31)</a>:</h4>
+<p>A <strong>left action</strong> of a monoid M, by the way, is a set S together with a map f(m): S <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\to </annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span> S for each m <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∈</mo></mrow><annotation encoding="application/x-tex">\in</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">∈</span></span></span></span> M such that f(mm') = f(m)f(m') and f(1) = <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mn>1</mn><mi>S</mi></msub></mrow><annotation encoding="application/x-tex">1_S</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.79444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord">1</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.05764em;">S</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>.   So, it's a functor from that monoid to Set.   </p>
+<p>(It's a presheaf on the <em>opposite</em> of that monoid.  But a free monoid is isomorphic to its opposite.)</p>
+
+
+
+<a name="233675311"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/encoding%20algebraic%20constraints%20as%20functors/near/233675311" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/encoding.20algebraic.20constraints.20as.20functors.html#233675311">(Apr 08 2021 at 15:32)</a>:</h4>
+<p>So yeah, <span class="user-mention" data-user-id="312048">@Avi Craimer</span> described the category of left actions of the free monoid with 3 generators.</p>
+
+
+
+<a name="233782139"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/encoding%20algebraic%20constraints%20as%20functors/near/233782139" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Morgan Rogers (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/encoding.20algebraic.20constraints.20as.20functors.html#233782139">(Apr 09 2021 at 07:55)</a>:</h4>
+<p>The point being that there is no multiplication operation on the set <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi></mrow><annotation encoding="application/x-tex">S</annotation></semantics></math></span><span aria-hidden="true" class="katex-html"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span></span></span></span> being acted upon, only operations corresponding to the element of the free monoid.</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

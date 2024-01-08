@@ -1,0 +1,290 @@
+[
+    {
+        "content": "<p>In the paper <a href=\"https://arxiv.org/abs/1709.07504\">\"Hopf monoids and generalized permutahedra\"</a> by Aguiar and Ardila, (also discussed <a href=\"https://golem.ph.utexas.edu/category/2018/01/more_secrets_of_the_associahed.html\">here</a>) they define a connected Hopf monoid in set species: <br>\n<a href=\"/user_uploads/21317/YoEeNloxdcyUHn9Jb7aVqs9U/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/YoEeNloxdcyUHn9Jb7aVqs9U/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/YoEeNloxdcyUHn9Jb7aVqs9U/image.png\"></a></div>",
+        "id": 404269102,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701013470
+    },
+    {
+        "content": "<p>That's a nice, concrete description, that looks like it should have a slick categorical version. I'm thinking of something like \"A Hopf monoid in set species is a (pseudo?) Hopf monoid object in the (bi?)category of ...\", and i'm wondering what is the \"...\" First of all I see something that looks like the conditions for a lax and oplax monoidal functor, and the nlab even uses the same letters <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>μ</mi></mrow><annotation encoding=\"application/x-tex\">\\mu</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.625em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\">μ</span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>σ</mi></mrow><annotation encoding=\"application/x-tex\">\\sigma</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">σ</span></span></span></span>, which makes me wonder if this Hopf monoid in set species construction is well known to the category theorists, possibly in some other contexts.</p>",
+        "id": 404269167,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701013551
+    },
+    {
+        "content": "<p>I guess I'm hoping to see the string diagram for the bialgebra rule <br>\n<a href=\"/user_uploads/21317/uc9re8XgBaR3p6qe7dGgTl87/image.png\">image.png</a><br>\ndone with laxators and colaxators (is that the right terminology?) <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>μ</mi><mo separator=\"true\">,</mo><mi>σ</mi></mrow><annotation encoding=\"application/x-tex\">\\mu,\\sigma</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.625em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\">μ</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">σ</span></span></span></span>.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/uc9re8XgBaR3p6qe7dGgTl87/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/uc9re8XgBaR3p6qe7dGgTl87/image.png\"></a></div>",
+        "id": 404272409,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701016276
+    },
+    {
+        "content": "<p>Now i'm thinking of a monoidal category as a pseudomonoid (in the cartesian bicategory of categories). These pseudomonoids have string diagrams that look like this<br>\n<a href=\"/user_uploads/21317/Fas4-QDu3Kcd2FcbZrQV0M-h/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/Fas4-QDu3Kcd2FcbZrQV0M-h/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/Fas4-QDu3Kcd2FcbZrQV0M-h/image.png\"></a></div>",
+        "id": 404272780,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701016653
+    },
+    {
+        "content": "<p>where this is a sheet for the underlying category, and the monoidal product merging two sheets into one (i use right-to-left direction) and the unit.</p>",
+        "id": 404272857,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701016708
+    },
+    {
+        "content": "<p>there's also associator and unitor 2-cells that look like this <br>\n<a href=\"/user_uploads/21317/2TPVE91qYp-vyVa9-XdMtO11/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/2TPVE91qYp-vyVa9-XdMtO11/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/2TPVE91qYp-vyVa9-XdMtO11/image.png\"></a></div>",
+        "id": 404272904,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701016788
+    },
+    {
+        "content": "<p>that satisfy various equations.. Now if i take another monoidal category <br>\n<a href=\"/user_uploads/21317/kzPD8QDgkPXrdgkYpcLJfEGT/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/kzPD8QDgkPXrdgkYpcLJfEGT/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/kzPD8QDgkPXrdgkYpcLJfEGT/image.png\"></a></div>",
+        "id": 404273022,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701016891
+    },
+    {
+        "content": "<p>then a lax monoidal functor from the grey to the blue monoidal categories will have these pieces<br>\n<a href=\"/user_uploads/21317/43Mwt3yFtqRvEqdUK6zD5M98/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/43Mwt3yFtqRvEqdUK6zD5M98/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/43Mwt3yFtqRvEqdUK6zD5M98/image.png\"></a></div>",
+        "id": 404273099,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701016951
+    },
+    {
+        "content": "<p>And a colax monoidal functor would be the same diagrams reflected vertically <br>\n<a href=\"/user_uploads/21317/Yk1jovyy6slJ0pJp6FiVlRhu/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/Yk1jovyy6slJ0pJp6FiVlRhu/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/Yk1jovyy6slJ0pJp6FiVlRhu/image.png\"></a></div>",
+        "id": 404273709,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701017610
+    },
+    {
+        "content": "<p>and we would require the lax and colax structure to be on the same functor. (I hope i didn't mix anything up so far, let me know if i already went off the rails..)</p>",
+        "id": 404273813,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701017733
+    },
+    {
+        "content": "<p>So my first attempt at the left-hand side of the bialgebra rule looks like this <br>\n<a href=\"/user_uploads/21317/sOHgdV_cDTTYVCp62IgwUFds/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/sOHgdV_cDTTYVCp62IgwUFds/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/sOHgdV_cDTTYVCp62IgwUFds/image.png\"></a></div>",
+        "id": 404274020,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701017940
+    },
+    {
+        "content": "<p>and this is promising, but there's not enough grey sheets coming out of this. As we pull the middle of the blue line over to the left we want it to bifurcate onto four blue lines (four copies of the functor), so this is going to get a bit complicated.</p>",
+        "id": 404274289,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701018115
+    },
+    {
+        "content": "<p>Something more like this <br>\n<a href=\"/user_uploads/21317/ooKXrU8lpVjL9F9T78VDZ8ik/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/ooKXrU8lpVjL9F9T78VDZ8ik/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/ooKXrU8lpVjL9F9T78VDZ8ik/image.png\"></a></div>",
+        "id": 404275548,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701019249
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277321\">Simon Burton</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/Hopf.20monoids.20in.20set.20species/near/404269167\">said</a>:</p>\n<blockquote>\n<p>That's a nice, concrete description, that looks like it should have a slick categorical version. I'm thinking of something like \"A Hopf monoid in set species is a (pseudo?) Hopf monoid object in the (bi?)category of ...\", and i'm wondering what is the \"...\" First of all I see something that looks like the conditions for a lax and oplax monoidal functor, and the nlab even uses the same letters <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>μ</mi></mrow><annotation encoding=\"application/x-tex\">\\mu</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.625em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\">μ</span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>σ</mi></mrow><annotation encoding=\"application/x-tex\">\\sigma</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">σ</span></span></span></span>, which makes me wonder if this Hopf monoid in set species construction is well known to the category theorists, possibly in some other contexts.</p>\n</blockquote>\n<p>Set species are just a symmetric  monoidal category, not bicategory, so I don't think \"pseudo\" does anything for us here.  Set species are the free cocomplete 2-rig on one object and my impression was that those guys were looking at Hopf monoids in there... I should check.  Actually aren't they using Vect-valued species?</p>",
+        "id": 404285315,
+        "sender_full_name": "John Baez",
+        "timestamp": 1701028446
+    },
+    {
+        "content": "<p>These images are great! What tool did you use?</p>",
+        "id": 404303200,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1701044491
+    },
+    {
+        "content": "<p>Is that last drawing the LHS of the bialgebra rule? Why does it involve a braiding (in the grey sheets)?</p>",
+        "id": 404305071,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1701045537
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/Hopf.20monoids.20in.20set.20species/near/404285315\">said</a>:</p>\n<blockquote>\n<p>Set species are just a symmetric  monoidal category, not bicategory, so I don't think \"pseudo\" does anything for us here.</p>\n</blockquote>",
+        "id": 404335279,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701061264
+    },
+    {
+        "content": "<p>A pseudo bimonoid (or pseudo hopf monoid) would involve a pseudomonoid <br>\n<a href=\"/user_uploads/21317/LGt90u6l4dyB6do6yHaIGDMG/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/LGt90u6l4dyB6do6yHaIGDMG/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/LGt90u6l4dyB6do6yHaIGDMG/image.png\"></a></div>",
+        "id": 404335383,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701061301
+    },
+    {
+        "content": "<p>(right to left order)<br>\nand a pseudo comonoid <br>\n<a href=\"/user_uploads/21317/WPkVVymvYfSXmSnxiZl30z1Z/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/WPkVVymvYfSXmSnxiZl30z1Z/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/WPkVVymvYfSXmSnxiZl30z1Z/image.png\"></a></div>",
+        "id": 404335544,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701061338
+    },
+    {
+        "content": "<p>(as well as units, associators, etc.) and then the pseudo bialgebrator would look like this:<br>\n<a href=\"/user_uploads/21317/6TP6b7rpmRJXfYfFyCCyzogT/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/6TP6b7rpmRJXfYfFyCCyzogT/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/6TP6b7rpmRJXfYfFyCCyzogT/image.png\"></a></div>",
+        "id": 404335924,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701061543
+    },
+    {
+        "content": "<p>So this is not what i drew yesterday, but it does involve the pseudo direction, at least diagonally.</p>",
+        "id": 404336064,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701061635
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275899\">Christian Williams</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/Hopf.20monoids.20in.20set.20species/near/404303200\">said</a>:</p>\n<blockquote>\n<p>These images are great! What tool did you use?</p>\n</blockquote>\n<p>Yeah i find string diagrams extremely helpful, pretty much a revolution in my ability to do calculations. This tool is called <a href=\"https://arrowtheory.com/wiggle_demo.pdf\">wiggle.py</a>. I gave a <a href=\"https://arrowtheory.com/wiggle.pdf\">talk</a> about it at <a href=\"https://www.youtube.com/watch?v=WLRXkFXaoAM\">SYCO 11</a>.</p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"WLRXkFXaoAM\" href=\"https://www.youtube.com/watch?v=WLRXkFXaoAM\"><img src=\"https://uploads.zulipusercontent.net/676a09ec6ceaab9c516f6f6e84a814f1e900c7a3/68747470733a2f2f692e7974696d672e636f6d2f76692f574c52586b4658616f414d2f64656661756c742e6a7067\"></a></div>",
+        "id": 404338567,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701063572
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275899\">Christian Williams</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/Hopf.20monoids.20in.20set.20species/near/404305071\">said</a>:</p>\n<blockquote>\n<p>Is that last drawing the LHS of the bialgebra rule? Why does it involve a braiding (in the grey sheets)?</p>\n</blockquote>\n<p>Well, i don't think this is right yet, but the idea was to drag the blue region over to the right<br>\n<a href=\"/user_uploads/21317/KZ4bwMfW5YZ5CS1xuL5RZipn/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/KZ4bwMfW5YZ5CS1xuL5RZipn/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/KZ4bwMfW5YZ5CS1xuL5RZipn/image.png\"></a></div>",
+        "id": 404338666,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701063664
+    },
+    {
+        "content": "<p>that's the bottom layer at least, involving two copied of the oplaxators. Then the middle layer would look like this: <br>\n<a href=\"/user_uploads/21317/J6EH89CWQg37daObxp_QcsG8/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/J6EH89CWQg37daObxp_QcsG8/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/J6EH89CWQg37daObxp_QcsG8/image.png\"></a></div>",
+        "id": 404338738,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701063732
+    },
+    {
+        "content": "<p>so that's at least starting to look like the right hand side of the bialgebra rule, <br>\n<a href=\"/user_uploads/21317/SRCFjKF2CdU12HXOg5du6qLe/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/SRCFjKF2CdU12HXOg5du6qLe/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/SRCFjKF2CdU12HXOg5du6qLe/image.png\"></a></div>",
+        "id": 404338990,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701063992
+    },
+    {
+        "content": "<p>looking into the \"maw\" of the previous diagrams, without the shading.</p>",
+        "id": 404339054,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701064057
+    },
+    {
+        "content": "<p>But you can see it's not going to work when i try to compose the laxators above this. So somehow I need to do something a bit different with the symmetry 1-cells <br>\n<a href=\"/user_uploads/21317/l3x7LAdz2AtGvS1pvRGq_y2P/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/l3x7LAdz2AtGvS1pvRGq_y2P/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/l3x7LAdz2AtGvS1pvRGq_y2P/image.png\"></a></div>",
+        "id": 404339287,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701064220
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/ByGIF3zmh4vUo2QxfI9J-D6v/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/ByGIF3zmh4vUo2QxfI9J-D6v/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/ByGIF3zmh4vUo2QxfI9J-D6v/image.png\"></a></div>",
+        "id": 404339312,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701064241
+    },
+    {
+        "content": "<p>These are symmetric pseudomonoids, which means we have symmetry 2-cells <br>\n<a href=\"/user_uploads/21317/UT4pujcsTg8o7RZhFiMJtgz8/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/UT4pujcsTg8o7RZhFiMJtgz8/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/UT4pujcsTg8o7RZhFiMJtgz8/image.png\"></a></div>",
+        "id": 404339777,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701064574
+    },
+    {
+        "content": "<p>etc. My guess is that these are involved as well.</p>",
+        "id": 404339859,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701064672
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/Hopf.20monoids.20in.20set.20species/near/404285315\">said</a>:</p>\n<blockquote>\n<p>Set species are the free cocomplete 2-rig on one object and my impression was that those guys were looking at Hopf monoids in there... I should check.  Actually aren't they using Vect-valued species?</p>\n</blockquote>\n<p>Ok. They define Vect valued species in section 2.3. But they start with set valued species in section 2.1 and hopf monoids therein.</p>",
+        "id": 404340379,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701064919
+    },
+    {
+        "content": "<p>Okay.  I have a vague memory that most of their examples of Hopf monoids are in Vect-valued species, and I <em>thought</em> there was a good reason why but now I don't see one.  So maybe they do have some nice Hopf monoids in Set-valued species.</p>",
+        "id": 404372282,
+        "sender_full_name": "John Baez",
+        "timestamp": 1701078445
+    },
+    {
+        "content": "<p>In a cartesian category every object is a comonoid in exactly one way, so Hopf monoids are sort of limited as far as their comonoid structure goes.</p>",
+        "id": 404372495,
+        "sender_full_name": "John Baez",
+        "timestamp": 1701078532
+    },
+    {
+        "content": "<p>But when they look at Hopf monoids in Set-valued species, they are (I'm pretty sure) not using the cartesian monoidal category structure on Set-valued species: they're using the \"Day convolution\" monoidal category structure - the most famous way to multiply species.</p>",
+        "id": 404372853,
+        "sender_full_name": "John Baez",
+        "timestamp": 1701078662
+    },
+    {
+        "content": "<p>Thankyou. I guess it's homework for me to see if these Day-convolution Hopf monoids correspond to what I was saying above about lax and oplax structures interacting, and also to check how this relates to the definition in the paper itself.</p>",
+        "id": 404376859,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701079906
+    },
+    {
+        "content": "<p>If you find an example of a Day-convolution Hopf monoid in Set-valued species let me know!  I should probably know some but I'm drawing a blank.</p>",
+        "id": 404415495,
+        "sender_full_name": "John Baez",
+        "timestamp": 1701092856
+    },
+    {
+        "content": "<p>There's Example 2.8 in the paper. The underlying species is the species of linear orders, the product is concatenation and the coproduct is splitting .... is this fitting with the Day-convolution picture? ... i think it might be.<br>\n<a href=\"/user_uploads/21317/2RrkmraS8PwQ0-S6xxqQ6oB9/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/2RrkmraS8PwQ0-S6xxqQ6oB9/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/2RrkmraS8PwQ0-S6xxqQ6oB9/image.png\"></a></div>",
+        "id": 404421257,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701094577
+    },
+    {
+        "content": "<p>Can you tell me which paper that is and where is Example 2.8?  I'm looking at their huge book <a href=\"https://pi.math.cornell.edu/~maguiar/a.pdf\">Monoidal Functors, Species and Hopf Algebras</a> and not finding that, so maybe you're reading something else.</p>",
+        "id": 404497746,
+        "sender_full_name": "John Baez",
+        "timestamp": 1701123269
+    },
+    {
+        "content": "<p>Oh, okay:  <a href=\"https://arxiv.org/abs/1709.07504\">Hopf monoids and generalized permutahedra</a> by Aguiar and Ardila!</p>",
+        "id": 404497824,
+        "sender_full_name": "John Baez",
+        "timestamp": 1701123321
+    },
+    {
+        "content": "<p>Btw, that huge book is really good if you're interested in Hopf monoids in species.</p>",
+        "id": 404497869,
+        "sender_full_name": "John Baez",
+        "timestamp": 1701123351
+    },
+    {
+        "content": "<p>Looking at Def. 2.5 in Aguiar and Ardila's paper, it seems they are indeed defining a Hopf monoid in the monoidal category of species where the monoidal structure is Day convolution with respect to the \"disjoint union\" monoidal structure on the groupoid of finite sets.</p>",
+        "id": 404498187,
+        "sender_full_name": "John Baez",
+        "timestamp": 1701123522
+    },
+    {
+        "content": "<p>I think I see how the species of linear orders is a bimonoid in this way.   The multiplication takes a linear ordering on the finite set <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>S</mi></mrow><annotation encoding=\"application/x-tex\">S</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05764em;\">S</span></span></span></span> and a linear ordering on the finite set <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi></mrow><annotation encoding=\"application/x-tex\">T</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">T</span></span></span></span> and produces a linear ordering on <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>S</mi><mo>⊔</mo><mi>T</mi></mrow><annotation encoding=\"application/x-tex\">S \\sqcup T</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05764em;\">S</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">⊔</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">T</span></span></span></span> in the obvious (highly noncommutative way).</p>",
+        "id": 404498367,
+        "sender_full_name": "John Baez",
+        "timestamp": 1701123634
+    },
+    {
+        "content": "<p>The comultiplication takes a linear ordering on a finite set <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>S</mi></mrow><annotation encoding=\"application/x-tex\">S</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05764em;\">S</span></span></span></span> and a decomposition <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>S</mi><mo>=</mo><mi>T</mi><mo>⊔</mo><msup><mi>T</mi><mo mathvariant=\"normal\" lspace=\"0em\" rspace=\"0em\">′</mo></msup></mrow><annotation encoding=\"application/x-tex\">S  = T \\sqcup T&#x27;</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05764em;\">S</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">T</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">⊔</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.7519em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">T</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.7519em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">′</span></span></span></span></span></span></span></span></span></span></span></span> and gives linear orderings on <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi></mrow><annotation encoding=\"application/x-tex\">T</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">T</span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>T</mi><mo mathvariant=\"normal\" lspace=\"0em\" rspace=\"0em\">′</mo></msup></mrow><annotation encoding=\"application/x-tex\">T&#x27;</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7519em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">T</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.7519em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">′</span></span></span></span></span></span></span></span></span></span></span></span>, again in an obvious way.</p>",
+        "id": 404498817,
+        "sender_full_name": "John Baez",
+        "timestamp": 1701123885
+    },
+    {
+        "content": "<p>But what about the antipode?   The funny thing is that their definition of Hopf monoid, or more precisely \"connected Hopf monoid\", seems to be a definition of what I'd call a bimonoid!  I don't see them mentioning the antipode!</p>",
+        "id": 404498921,
+        "sender_full_name": "John Baez",
+        "timestamp": 1701123952
+    },
+    {
+        "content": "<p>Maybe I'm missing it.  But if they are really talking about bimonoids, not what <em>I'd</em> call Hopf monoids, then it's much easier for me to imagine examples.</p>",
+        "id": 404499031,
+        "sender_full_name": "John Baez",
+        "timestamp": 1701124002
+    },
+    {
+        "content": "<p>Yeah they don't have an antipode on their Hopf monoids in set species.</p>",
+        "id": 404551813,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701150896
+    },
+    {
+        "content": "<p>So I think they just decided that \"Hopf algebra\" sounds sexier than \"bialgebra\".</p>",
+        "id": 404571836,
+        "sender_full_name": "John Baez",
+        "timestamp": 1701160554
+    },
+    {
+        "content": "<p>Using \"Hopf algebra\" to mean \"bialgebra\" is unfortunately fairly common in some circles.  One reason for this in algebraic topology is that a <em>graded</em> bialgebra that is \"connected\" in the sense that its 0-degree part is the ground ring is automatically a Hopf algebra, and these are the sorts that arise as the (co)homology of connected spaces.  We had a bit of a conversation about this <a href=\"https://golem.ph.utexas.edu/category/2009/11/doldkan_question.html#c029660\">a few years ago</a>... (-:</p>",
+        "id": 404584634,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1701165111
+    }
+]

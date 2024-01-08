@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p>I'm trying to apply my knowledge of dynamics to understand open Petri networks. If I understand, both the most general dynamical systems and Petri networks with a stochastic element are computationally more powerful than the non-stochastic models.<br>\nMy question is to verify the enhanced computation from stochastic systems and stochastic Petri networks in particular.</p>",
+        "id": 198386991,
+        "sender_full_name": "Daniel Geisler",
+        "timestamp": 1590101041
+    },
+    {
+        "content": "<p>I'm not sure they are \"computationally more powerful\" - it could be true, but I don't know any results about that, and one has to be careful when comparing deterministic models with stochastic ones.    </p>\n<p>The main difference I know between stochastic models involving Petri nets and deterministic ones is that the former is good for modeling stochastic processes and the latter is good for modeling desterministic processes!  For example in chemistry the behavior of atoms is random and we model it using the \"master equation\", but when there are lots of atoms this randomness may become insignificant and then we use the \"rate equation\", which is deterministic and much simpler.</p>\n<p>I have <a href=\"http://math.ucr.edu/home/baez/stoch_stable.pdf\">a free book</a> about Petri nets, the master equation and the rate equation.</p>",
+        "id": 198387765,
+        "sender_full_name": "John Baez",
+        "timestamp": 1590101459
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"275920\">@John Baez</span> thanks for the book, I'm reading it now.</p>\n<p>What is a list of different systems and their computational power? I've already ordered them as best as I can based on the generality of their matrix representations. For example in dynamics the matrix could be anything.</p>\n<ul>\n<li>Petri nets</li>\n<li>Markov</li>\n<li>Game Theory</li>\n<li>Dynamics</li>\n</ul>",
+        "id": 198397869,
+        "sender_full_name": "Daniel Geisler",
+        "timestamp": 1590110544
+    },
+    {
+        "content": "<p>I don't know much about \"computational power\" so I can't create such a list.  Furthermore there are lots of ways to use Petri nets to compute - I list a bunch in a chapter near the end of my book - and they have different computational power.</p>",
+        "id": 198397969,
+        "sender_full_name": "John Baez",
+        "timestamp": 1590110679
+    },
+    {
+        "content": "<p>I'm definitely one of the worst people on this forum to ask about \"computational power\", since I've never seriously studied computational complexity, or stuff like the Chomsky hierarchy.</p>",
+        "id": 198398078,
+        "sender_full_name": "John Baez",
+        "timestamp": 1590110825
+    },
+    {
+        "content": "<p>There are systems that are stochastic in observation (although they might be deterministic in nature). Can ACT be used in such cases?</p>",
+        "id": 303286798,
+        "sender_full_name": "Siavash Sakhavi",
+        "timestamp": 1665417827
+    },
+    {
+        "content": "<p>the question 'can CT be used for X' is always yes and no because it depends on what exactly you want to do with it<br>\nthere's lots of work in categorical probability, recently people have assembled a list of resources here <a class=\"stream-topic\" data-stream-id=\"253118\" href=\"/#narrow/stream/253118-theory.3A-probability/topic/best.20intro.20in.202022\">#theory: probability &gt; best intro in 2022</a></p>",
+        "id": 303288999,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1665418621
+    },
+    {
+        "content": "<p>using the formalism of <a href=\"http://davidjaz.com/Papers/DynamicalBook.pdf\">categorical system theory</a>, you can arrange a double category of deterministic lenses but stochastic charts, and see what you can do with that</p>",
+        "id": 303289231,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1665418701
+    },
+    {
+        "content": "<p>I think the answer to \"can CT be used for X?\" is always \"yes, if you're smart enough to figure out how - but don't count on us to help you\".   <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 303301146,
+        "sender_full_name": "John Baez",
+        "timestamp": 1665423356
+    },
+    {
+        "content": "<p>well, i didn't want to be mistaken as rude <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span> but yes</p>",
+        "id": 303325714,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1665436080
+    },
+    {
+        "content": "<p>I admit that reply sounds rude, so I usually avoid saying that to people - but unfortunately it's true: we're just beginning to take full advantage of category theory, so there's not a laid-out list of things it can and cannot do.</p>",
+        "id": 303327842,
+        "sender_full_name": "John Baez",
+        "timestamp": 1665437357
+    }
+]

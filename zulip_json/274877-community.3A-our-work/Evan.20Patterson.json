@@ -1,0 +1,620 @@
+[
+    {
+        "content": "<p>OK, I'm going to give this a shot.</p>\n<p>Two things that I just finished doing:</p>\n<ul>\n<li>Helped Angeline Aguinaldo write a short conference paper about a representation language for automated planning based on C-sets and DPO rewriting (not yet published)</li>\n<li>Wrote a <a href=\"https://topos.site/blog/2023/03/structured-cospans-as-a-cocartesian-equipment/\">blog post</a> about structured cospans as a cocartesian equipment</li>\n</ul>",
+        "id": 342719112,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1679122040
+    },
+    {
+        "content": "<p>Some things that I'm currently working on:</p>\n<ul>\n<li>Revising a <a href=\"https://arxiv.org/abs/2301.01445\">paper</a> about biochemical regulatory networks from the AMS MRC on ACT, in preparation for journal submission</li>\n<li>Turning the series of blog post I've written about decorated and structured cospans into a paper for the ACT 2023 conference</li>\n<li>Starting to think about categorical statistics again, after a several year hiatus following my PhD thesis</li>\n</ul>",
+        "id": 342719763,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1679122247
+    },
+    {
+        "content": "<p>What'll the focus be for your ACT2023 paper?  I'm always interested in structured and decorated cospans, and I gave two talks about them at ACT2022: one about turning structured cospans into decorated cospans, and another about StockFlow.jl.</p>",
+        "id": 342863718,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679190674
+    },
+    {
+        "content": "<p>Thid time I might try to talk about ModelCollab, our new graphical user interface for StockFlow.jl, and some of the new math we came up with to give different choices of semantics for stock-flow duagrams.</p>",
+        "id": 342864042,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679190947
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/342864042\">said</a>:</p>\n<blockquote>\n<p>Thid time I might try to talk about ModelCollab, our new graphical user interface for StockFlow.js, and some of the new math we came up with to give different choices of semantics for stock-flow duagrams.</p>\n</blockquote>\n<p>Cool. I've been meaning to dig into that long new paper you wrote with Xiaoyan and others. Would be great to hear a talk about it.</p>",
+        "id": 342885601,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1679209069
+    },
+    {
+        "content": "<p>BTW, I think you mean <a href=\"https://github.com/AlgebraicJulia/StockFlow.jl\">StockFlow.jl</a>, although as a web application, ModelCollab must have a JavaScript implementation of stock-flow diagrams one way or another.</p>",
+        "id": 342885662,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1679209123
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/342863718\">said</a>:</p>\n<blockquote>\n<p>What'll the focus be for your ACT2023 paper?</p>\n</blockquote>\n<p>The overall idea is to argue that using more concepts from double category theory is helpful for understanding structured and decorated cospans. The paper will be mostly based on two blog posts that I wrote over the past year or so. The <a href=\"https://topos.site/blog/2023/03/structured-cospans-as-a-cocartesian-equipment/\">recent post</a>, linked above, is about how structured cospans form a cocartesian double category, the doube-categorical analogue of a cocartesian category.</p>",
+        "id": 342886237,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1679209552
+    },
+    {
+        "content": "<p>Previously, I wrote a <a href=\"https://topos.site/blog/2022/05/decorated-cospans-via-the-grothendieck-construction/\">blog post</a> about how decorated cospans can be derived as an application of the double Grothendieck construction. It's actually quite straightforward---the point is that, until very recently, nobody knew what the double Grothendieck construction was! (Or, at least, if people knew, it wasn't published anywhere.)</p>",
+        "id": 342886591,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1679209763
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276120\">@Nicolas Blanco</span> have a talk about that Grothendieck construction recently, amongst others, it's exciting to learn that it's already got applications!</p>",
+        "id": 342900977,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1679217520
+    },
+    {
+        "content": "<p>Yes, I meant .jl.   Fixed.   </p>\n<p><span class=\"user-mention silent\" data-user-id=\"275965\">Evan Patterson</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/342886237\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/342863718\">said</a>:<br>\nThe overall idea is to argue that using more concepts from double category theory is helpful for understanding structured and decorated cospans. The paper will be based mostly on two blog posts that I wrote over the past year or so. The <a href=\"https://topos.site/blog/2023/03/structured-cospans-as-a-cocartesian-equipment/\">recent post</a>, linked above, is about how structured cospans form a cocartesian double category, the double-categorical analogue of a cocartesian category.</p>\n</blockquote>",
+        "id": 342974461,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679250125
+    },
+    {
+        "content": "<p>Great!  The way that Kenny Courser and I proved structured cospans are a symmetric monoidal double category used something <em>like</em> the fact that they're a cocartesian double category.</p>",
+        "id": 342974589,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679250209
+    },
+    {
+        "content": "<p>As you know, double categories are \"weak category objects\" in Cat - that is, like category objects, but where composition is associative and unital only up to isomorphisms, which in turn obey equations like the pentagon identity.</p>",
+        "id": 342974704,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679250267
+    },
+    {
+        "content": "<p><a href=\"https://arxiv.org/abs/1911.04630\">We showed</a> that structured cospan category objects are better: they are weak category objects in Rex, the 2-category of categories with finite colimits.  And we said this would be important!  </p>\n<p>But then we went ahead and showed they are also weak category objects in SymmMonCat, the 2-category of symmetric monoidal categories.  (This is easy.)   And using that, we showed they are symmetric monoidal double categories.   (This is <em>almost</em> easy.)</p>",
+        "id": 342974975,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679250442
+    },
+    {
+        "content": "<p>When you say \"cocartesian\" do you mean \"with finite coproducts\" or \"with finite colimits\"?   I could check, but I'm too lazy.  I hope you mean the latter, and I bet you do, because that's much more useful for applications: it lets you \"glue together\" models of open systems.</p>",
+        "id": 342975191,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679250565
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/342974975\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://arxiv.org/abs/1911.04630\">We showed</a> that structured cospan category objects are better: they are weak category objects in Rex, the 2-category of categories with finite colimits.  And we said this would be important!  </p>\n</blockquote>\n<p>Right, that does seem important! I would like to understand how that statement is related to having certain double-categorical colimits. I'm sure there is some connection.</p>",
+        "id": 342990008,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1679260505
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/342975191\">said</a>:</p>\n<blockquote>\n<p>When you say \"cocartesian\" do you mean \"with finite coproducts\" or \"with finite colimits\"?   I could check, but I'm too lazy.  I hope you mean the latter, and I bet you do, because that's much more useful for applications: it lets you \"glue together\" models of open systems.</p>\n</blockquote>\n<p>I actually mean finite double-categorical coproducts, which are sufficient to get a symmetric monoidal double category (just like finite coproducts are sufficient to get a symmetric monoidal category). I prove this under the assumption that the functor <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>L</mi><mo>:</mo><mi mathvariant=\"sans-serif\">A</mi><mo>→</mo><mi mathvariant=\"sans-serif\">X</mi></mrow><annotation encoding=\"application/x-tex\">L: \\mathsf{A} \\to \\mathsf{X}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\">L</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathsf\">A</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathsf\">X</span></span></span></span> preserves finite coproducts. Under stronger assumptions, it is probably possible to prove something stronger.</p>",
+        "id": 342990220,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1679260666
+    },
+    {
+        "content": "<blockquote>\n<p>I actually mean finite double-categorical coproducts, which are sufficient to get a symmetric monoidal double category</p>\n</blockquote>\n<p>Is there a reference for this already?</p>",
+        "id": 342999108,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1679267443
+    },
+    {
+        "content": "<p>That is a fair point. I don't know a reference for this statement. So, as it stands, there is a little gap in my argument. I suppose I might have to write out a proof, although I'd really prefer to cite something instead.</p>",
+        "id": 343022220,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1679286385
+    },
+    {
+        "content": "<p>On second thought, this should be true by abstract nonsense. A (co)cartesian double category can be defined as a (co)cartesian object in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">D</mi><mi mathvariant=\"bold\">b</mi><mi mathvariant=\"bold\">l</mi></mrow><annotation encoding=\"application/x-tex\">\\mathbf{Dbl}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord\"><span class=\"mord mathbf\">Dbl</span></span></span></span></span>, whereas a symmetric monoidal double category is a symmetric pseudomonoid in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">D</mi><mi mathvariant=\"bold\">b</mi><mi mathvariant=\"bold\">l</mi></mrow><annotation encoding=\"application/x-tex\">\\mathbf{Dbl}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord\"><span class=\"mord mathbf\">Dbl</span></span></span></span></span>. So it would suffice that for any 2-category <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/x-tex\">\\mathbf{C}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6861em;\"></span><span class=\"mord mathbf\">C</span></span></span></span> with finite 2-products, a (co)cartesian object in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/x-tex\">\\mathbf{C}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6861em;\"></span><span class=\"mord mathbf\">C</span></span></span></span> is automatically a symmetric pseudomonoid in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/x-tex\">\\mathbf{C}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6861em;\"></span><span class=\"mord mathbf\">C</span></span></span></span> in a canonical way.</p>\n<p>Now I don't have a literature reference for that claim either, but the nLab page for <a href=\"https://ncatlab.org/nlab/show/cartesian+object\">cartesian object</a> says that it is true (although it doesn't specifically say \"symmetric\"). I would be grateful if anyone could provide a reference.</p>",
+        "id": 343030425,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1679292060
+    },
+    {
+        "content": "<p>Considering only 2-categories of double categories will impose only a 1-dimensional monoidal structure, akin to a monoidal category rather than a monoidal bicategory. I would have expected it to be necessary to consider monoids in 3-categories instead, since a monoidal double category generalises a monoidal bicategory. (Though this depends on exactly how weak one needs the monoidal structure to be.)</p>",
+        "id": 343104927,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1679315318
+    },
+    {
+        "content": "<p>You might want to have a look at the appendix to the <a href=\"https://arxiv.org/abs/1911.04630\">Baez-Courser paper</a>, which helpfully unpacks the definition of a pseudomonoid in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">D</mi><mi mathvariant=\"bold\">b</mi><mi mathvariant=\"bold\">l</mi></mrow><annotation encoding=\"application/x-tex\">\\mathbf{Dbl}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord\"><span class=\"mord mathbf\">Dbl</span></span></span></span></span>. In essence, this gives: the structure of a weak monoidal product on each of the underlying categories of the double category, which are strictly preserved by the source and target functors, along with coherent isomorphisms interchanging the monoidal product and unit with the external composition. IMO, this is the amount of weakness you would expect to have in a monoidal double category.</p>",
+        "id": 343231701,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1679348643
+    },
+    {
+        "content": "<p>Okay, I see, that's a stricter notion than I was expecting (i.e. asking for structural isomorphisms rather than structural equivalences). I don't know of a reference for cartesian objects being pseudomonoids.</p>",
+        "id": 343237264,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1679351005
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275965\">Evan Patterson</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/343030425\">said</a>:</p>\n<blockquote>\n<p>On second thought, this should be true by abstract nonsense. A (co)cartesian double category can be defined as a (co)cartesian object in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">D</mi><mi mathvariant=\"bold\">b</mi><mi mathvariant=\"bold\">l</mi></mrow><annotation encoding=\"application/x-tex\">\\mathbf{Dbl}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord\"><span class=\"mord mathbf\">Dbl</span></span></span></span></span>, whereas a symmetric monoidal double category is a symmetric pseudomonoid in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">D</mi><mi mathvariant=\"bold\">b</mi><mi mathvariant=\"bold\">l</mi></mrow><annotation encoding=\"application/x-tex\">\\mathbf{Dbl}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord\"><span class=\"mord mathbf\">Dbl</span></span></span></span></span>. So it would suffice that for any 2-category <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/x-tex\">\\mathbf{C}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6861em;\"></span><span class=\"mord mathbf\">C</span></span></span></span> with finite 2-products, a (co)cartesian object in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/x-tex\">\\mathbf{C}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6861em;\"></span><span class=\"mord mathbf\">C</span></span></span></span> is automatically a symmetric pseudomonoid in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/x-tex\">\\mathbf{C}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6861em;\"></span><span class=\"mord mathbf\">C</span></span></span></span> in a canonical way.</p>\n<p>Now I don't have a literature reference for that claim either, but the nLab page for <a href=\"https://ncatlab.org/nlab/show/cartesian+object\">cartesian object</a> says that it is true (although it doesn't specifically say \"symmetric\"). I would be grateful if anyone could provide a reference.</p>\n</blockquote>\n<p>I don't know a reference, but I think you can prove the abstract fact \"by hand\", very much like how Kenny and I argue there's a strict 2-functor from Rex to SymmMonCat.   Our same argument would show there's a strict 2-functor from Cocart to SymmMonCat, and you can undoubtedly show more generally there's one from the 2-category of cocartesian objects in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/x-tex\">\\mathbf{C}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6861em;\"></span><span class=\"mord mathbf\">C</span></span></span></span> to the 2-category of symmetric pseudomonoids in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">C</mi></mrow><annotation encoding=\"application/x-tex\">\\mathbf{C}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6861em;\"></span><span class=\"mord mathbf\">C</span></span></span></span>.</p>",
+        "id": 343253939,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679359783
+    },
+    {
+        "content": "<p>Of course it would be nice if someone had already proved this, but even we category theorists need to do actual work.  <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 343254412,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679359947
+    },
+    {
+        "content": "<p>My main comment here is that if \"cocartesian object\" (like coproduct) is defined by a universal property, you'll probably have to <em>make a choice</em> to turn a cocartesian object into a symmetric pseudomonoid.  Well, I can at least say this for sure: need to choose coproducts  to turn a cocartesian category into a symmetric monoidal category!</p>",
+        "id": 343254924,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679360257
+    },
+    {
+        "content": "<p>I guess this is probably one of those facts that is so obvious to to an Australian that no one has ever felt the need to write it down.  You can probably deduce it from the case of categories and the Cat-enriched Yoneda lemma.</p>",
+        "id": 343254947,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1679360275
+    },
+    {
+        "content": "<p>So yeah, you can include a reference saying \"Obvious in Australia.\"</p>",
+        "id": 343255076,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679360355
+    },
+    {
+        "content": "<p>But seriously, I think it's good to really prove these highly believable facts, both in order to be honest and so that future mathematicians have an actual proof to point to.</p>",
+        "id": 343258007,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679362184
+    },
+    {
+        "content": "<p>I've been doing a lot of that these days, to pay off my debt to society.</p>",
+        "id": 343258078,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679362216
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/343254924\">said</a>:</p>\n<blockquote>\n<p>My main comment here is that if \"cocartesian object\" (like coproduct) is defined by a universal property, you'll probably have to <em>make a choice</em> to turn a cocartesian object into a symmetric pseudomonoid.  Well, I can at least say this for sure: need to choose coproducts  to turn a cocartesian category into a symmetric monoidal category!</p>\n</blockquote>\n<p>Right! Being a cocartesian object means that certain left adjoints <em>exist</em>, but in order to get a pseudomonoid, you'll have to make a choice for those adjoints, which are only unique up to canonical isomorphism.</p>",
+        "id": 343279514,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1679377789
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/343254947\">said</a>:</p>\n<blockquote>\n<p>I guess this is probably one of those facts that is so obvious to to an Australian that no one has ever felt the need to write it down.  You can probably deduce it from the case of categories and the Cat-enriched Yoneda lemma.</p>\n</blockquote>\n<p>Alas, I am not an Australian (much less the right kind of Australian). While this fact seems <em>highly plausible</em> to me based on the analogy to <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">C</mi><mi mathvariant=\"bold\">a</mi><mi mathvariant=\"bold\">t</mi></mrow><annotation encoding=\"application/x-tex\">\\mathbf{Cat}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6861em;\"></span><span class=\"mord\"><span class=\"mord mathbf\">Cat</span></span></span></span></span>, it is not immediately obvious to me how to prove it. So I suppose I had better do it.</p>",
+        "id": 343279897,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1679378012
+    },
+    {
+        "content": "<p>What Mike is saying is that if your ambient 2-category <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"script\">K</mi></mrow><annotation encoding=\"application/x-tex\">\\cal K</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord mathcal\" style=\"margin-right:0.01445em;\">K</span></span></span></span></span> is structured enough (I suspect you need just monoidal structure...), the proof of this fact in Cat, using objects and arrows, carries over formally to <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"script\">K</mi></mrow><annotation encoding=\"application/x-tex\">\\cal K</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord mathcal\" style=\"margin-right:0.01445em;\">K</span></span></span></span></span>, by- the aforementioned variant of the Yoneda lemma.</p>",
+        "id": 343932154,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1679567380
+    },
+    {
+        "content": "<p>I think in this case what you need is that <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"script\">K</mi></mrow><annotation encoding=\"application/x-tex\">\\mathcal{K}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathcal\" style=\"margin-right:0.01445em;\">K</span></span></span></span> has finite products.</p>",
+        "id": 344013203,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1679584908
+    },
+    {
+        "content": "<p>Thanks both. I'll have to think about that.</p>",
+        "id": 344042891,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1679590883
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275965\">Evan Patterson</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/343279897\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/343254947\">said</a>:</p>\n<blockquote>\n<p>I guess this is probably one of those facts that is so obvious to to an Australian that no one has ever felt the need to write it down.  You can probably deduce it from the case of categories and the Cat-enriched Yoneda lemma.</p>\n</blockquote>\n<p>Alas, I am not an Australian (much less the right kind of Australian). While this fact seems <em>highly plausible</em> to me based on the analogy to <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">C</mi><mi mathvariant=\"bold\">a</mi><mi mathvariant=\"bold\">t</mi></mrow><annotation encoding=\"application/x-tex\">\\mathbf{Cat}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6861em;\"></span><span class=\"mord\"><span class=\"mord mathbf\">Cat</span></span></span></span></span>, it is not immediately obvious to me how to prove it. So I suppose I had better do it.</p>\n</blockquote>\n<p>The basic idea would be something like this. Suppose you have a 2-category <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"script\">K</mi></mrow><annotation encoding=\"application/x-tex\">\\mathcal K</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathcal\" style=\"margin-right:0.01445em;\">K</span></span></span></span> with finite 2-products, and a cartesian object <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi></mrow><annotation encoding=\"application/x-tex\">X</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span></span></span></span> therein. Then <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"script\">K</mi><mo stretchy=\"false\">(</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo separator=\"true\">,</mo><mi>X</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">\\mathcal K({-}, X)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathcal\" style=\"margin-right:0.01445em;\">K</span><span class=\"mopen\">(</span><span class=\"mord\"><span class=\"mord\">−</span></span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span><span class=\"mclose\">)</span></span></span></span> is a cartesian object in the 2-presheaf 2-category, because 2-functors preserve adjunctions and the 2-Yoneda embedding preserves 2-products. This means that <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"script\">K</mi><mo stretchy=\"false\">(</mo><mi>Y</mi><mo separator=\"true\">,</mo><mi>X</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">\\mathcal K(Y, X)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathcal\" style=\"margin-right:0.01445em;\">K</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">Y</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span><span class=\"mclose\">)</span></span></span></span> is a cartesian object in Cat for each object <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Y</mi></mrow><annotation encoding=\"application/x-tex\">Y</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">Y</span></span></span></span>, i.e. a cartesian category, and hence a monoidal category, i.e. a pseudomonoid in Cat. Consequently, <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"script\">K</mi><mo stretchy=\"false\">(</mo><mo lspace=\"0em\" rspace=\"0em\">−</mo><mo separator=\"true\">,</mo><mi>X</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">\\mathcal K({-}, X)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathcal\" style=\"margin-right:0.01445em;\">K</span><span class=\"mopen\">(</span><span class=\"mord\"><span class=\"mord\">−</span></span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span><span class=\"mclose\">)</span></span></span></span> is a pseudomonoid in the 2-presheaf 2-category. Finally, since the 2-Yoneda embedding is locally fully faithful, it reflects pseudomonoids, so that <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi></mrow><annotation encoding=\"application/x-tex\">X</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span></span></span></span> is a pseudomonoid in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"script\">K</mi></mrow><annotation encoding=\"application/x-tex\">\\mathcal K</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathcal\" style=\"margin-right:0.01445em;\">K</span></span></span></span>.</p>",
+        "id": 344065535,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1679595472
+    },
+    {
+        "content": "<p>Thanks for spelling it out, <span class=\"user-mention\" data-user-id=\"276092\">@Nathanael Arkor</span>!</p>",
+        "id": 344116322,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679611444
+    },
+    {
+        "content": "<p>Yes, that's very helpful. Thanks!</p>",
+        "id": 344124658,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1679615548
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276092\">@Nathanael Arkor</span>, I took the liberty of transcribing your proof on the nLab for <a href=\"https://ncatlab.org/nlab/show/cartesian+object\">cartesian object</a>. Hopefully I didn't mangle it too badly!</p>",
+        "id": 345552588,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1680145395
+    },
+    {
+        "content": "<p>The proof of the new Proposition 2.1 says that each cartesian object C(Y,X) in Cat is \"canonically\" a symmetric pseudomonoid for each Y <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∈</mo></mrow><annotation encoding=\"application/x-tex\">\\in</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.5782em;vertical-align:-0.0391em;\"></span><span class=\"mrel\">∈</span></span></span></span> C but not does not mention that that for each Y we need to <em>choose</em> a way to make the cartesian category C(Y,X) into a symmetric monoidal category.    Earlier the article says</p>\n<blockquote>\n<p>By making a choice of products, any category with finite products is automatically a symmetric monoidal category in a canonical way.</p>\n</blockquote>\n<p>without saying what it means for A to be canonically B \"by making a choice\".   \"Canonically\" is not the most precise term in the big book of math, but usually it connotes that you <em>don't</em> need to make an arbitrary choice.</p>",
+        "id": 345857340,
+        "sender_full_name": "John Baez",
+        "timestamp": 1680246060
+    },
+    {
+        "content": "<p>The concept of a <a href=\"https://ncatlab.org/nlab/show/stuff%2C+structure%2C+property#generalization_to_categories_and_higher_categories\">property-like structure</a> is relevant here.</p>",
+        "id": 345858313,
+        "sender_full_name": "John Baez",
+        "timestamp": 1680246398
+    },
+    {
+        "content": "<p>Yes, it should really be \"a cartesian object with specified right adjoints\" (rather than merely asking that they exist).</p>",
+        "id": 345864643,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1680248326
+    },
+    {
+        "content": "<p>The thing is that these \"choices\" are not really \"choices\" from a categorical point of view, since they are unique up to unique isomorphism.  In a foundational theory that understands this, like HoTT/UF, no choice is actually required, for essentially the same reason that no choice is required in a set-theoretic foundation to make \"choices\" that are literally unique.  So while I agree the situation could be described more clearly, I would argue that this structure <em>is</em> canonical.</p>",
+        "id": 345974893,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1680274280
+    },
+    {
+        "content": "<p>Nathaniel wrote:</p>\n<blockquote>\n<p>Yes, it should really be \"a cartesian object with specified right adjoints\" (rather than merely asking that they exist).</p>\n</blockquote>\n<p>Right.  But then one can show the 2-category of cartesian objects (with suitably defined morphisms and 2-morphisms) is equivalent to the 2-category of cartesian objects with specified right adjoints (with suitably defined morphisms and 2-morphisms, where the morphisms are compatible with the right adjoints but do not need to preserve the <em>specified</em> right adjoints on the nose).</p>",
+        "id": 345974897,
+        "sender_full_name": "John Baez",
+        "timestamp": 1680274281
+    },
+    {
+        "content": "<p>It takes a bit of work to state this (as hinted in my parenthetical remarks), but when we're done we've formalized our intuition that the choice of right adjoints to <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi><mo>→</mo><mi>C</mi><mo>⊗</mo><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C \\to C \\otimes C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">⊗</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi><mo>→</mo><mn>1</mn></mrow><annotation encoding=\"application/x-tex\">C \\to 1</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">1</span></span></span></span> \"doesn't really matter\".</p>",
+        "id": 345976033,
+        "sender_full_name": "John Baez",
+        "timestamp": 1680274507
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276777\">@Mike Shulman</span> wrote:</p>\n<blockquote>\n<p>In a foundational theory that understands this, like HoTT/UF, no choice is actually required, for essentially the same reason that no choice is required in a set-theoretic foundation to make \"choices\" that are literally unique. So while I agree the situation could be described more clearly, I would argue that this structure is canonical.</p>\n</blockquote>\n<p>Yes, this is a great example of where using better foundations eliminates a lot of hassle.   My previous comment, in case it wasn't obvious, was for category theory founded on traditional set-theoretic foundations (ZFC or whatever).</p>",
+        "id": 346044765,
+        "sender_full_name": "John Baez",
+        "timestamp": 1680292251
+    },
+    {
+        "content": "<p>I think it's good to work out this problem quite clearly using traditional set-theoretic foundations even if the main result is to push you into the arms of HoTT.</p>",
+        "id": 346046790,
+        "sender_full_name": "John Baez",
+        "timestamp": 1680293014
+    },
+    {
+        "content": "<p>So, you see, <span class=\"user-mention\" data-user-id=\"275965\">@Evan Patterson</span>, that this is issue, while not incredibly complicated, is still subtle enough that people start talking about different foundations of mathematics!</p>",
+        "id": 346065585,
+        "sender_full_name": "John Baez",
+        "timestamp": 1680300781
+    },
+    {
+        "content": "<p>The point of using other foundations here is simply to avoid suffering over the issue that a cartesian category can be made into a symmetric monoidal category in many ways, but for any pair of these ways we have a chosen isomorphism between them.  </p>\n<p>If you think of the ways as forming a set, it's a big set.  But if you think of them together with these isomorphisms as forming a groupoid, this groupoid is 'contractible': in other words, it's equivalent to the groupoid with one object and one morphism.  </p>\n<p>So, using better foundations, we say <em>there's just one way</em>.</p>",
+        "id": 346066538,
+        "sender_full_name": "John Baez",
+        "timestamp": 1680301221
+    },
+    {
+        "content": "<p>Thanks! I take your point about the subtleties here. And, even apart from the foundational aspects, I see why it would be jarring to say \"make a choice\" and then immediately say the construction is \"canonical.\" I tried to revise what I wrote on <a href=\"https://ncatlab.org/nlab/show/cartesian+object\">nLab</a> to avoid this confusion. What do you think?</p>",
+        "id": 346078924,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1680306642
+    },
+    {
+        "content": "<p>It's actually annoying enough to make me appreciate why you might want another foundation!</p>",
+        "id": 346079171,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1680306808
+    },
+    {
+        "content": "<p>This looks a lot better!  Getting down into tiny details, I think this phrase could be polished:</p>\n<blockquote>\n<p>a cartesian object in the 2-category of 2-presheaves on C with a choice of right adjoints</p>\n</blockquote>\n<p>since \"with a choice of right adjoints\" superficially seems to apply to \"2-presheaves\".  So maybe try this:</p>\n<blockquote>\n<p>a cartesian object with a choice of right adjoints in the 2-category of 2-presheaves on C</p>\n</blockquote>",
+        "id": 346079350,
+        "sender_full_name": "John Baez",
+        "timestamp": 1680306933
+    },
+    {
+        "content": "<p>Anyway, it's pretty interesting how \"applied\" category theory can force one to pay attention to such sneaky issues.... at least until one understands them well enough to say \"okay, I get it,  I don't need to talk about it!\"  <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 346079797,
+        "sender_full_name": "John Baez",
+        "timestamp": 1680307231
+    },
+    {
+        "content": "<p>Good point. I cleaned up that phrasing.</p>",
+        "id": 346081525,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1680308244
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/346079797\">said</a>:</p>\n<blockquote>\n<p>Anyway, it's pretty interesting how \"applied\" category theory can force one to pay attention to such sneaky issues.... at least until one understands them well enough to say \"okay, I get it,  I don't need to talk about it!\"  <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>\n</blockquote>\n<p>Here I was, just innocently trying to claim that a cocartesian double category is canonically a symmetric monoidal double category :)</p>",
+        "id": 346081675,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1680308328
+    },
+    {
+        "content": "<p>Just put quotes around \"is\" and \"canonically\" and you're fine.  <span aria-label=\"thumbs up\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"thumbs up\">:thumbs_up:</span></p>",
+        "id": 346084428,
+        "sender_full_name": "John Baez",
+        "timestamp": 1680309880
+    },
+    {
+        "content": "<p>Or, if you join HoTT, you can remove the quotes.</p>",
+        "id": 346084505,
+        "sender_full_name": "John Baez",
+        "timestamp": 1680309932
+    },
+    {
+        "content": "<p>It just costs $8 per month.</p>",
+        "id": 346085020,
+        "sender_full_name": "John Baez",
+        "timestamp": 1680310236
+    },
+    {
+        "content": "<p>I would pay $8/month to make my vague statements be meaningful and correct!</p>",
+        "id": 346085366,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1680310439
+    },
+    {
+        "content": "<p>I'd pay a lot more, but unfortunately HoTT doesn't handle most of my vague statements.</p>",
+        "id": 346085670,
+        "sender_full_name": "John Baez",
+        "timestamp": 1680310603
+    },
+    {
+        "content": "<p>A few updates:</p>\n<ul>\n<li>\n<p>Updated the <a href=\"https://arxiv.org/abs/2301.01445\">biochemical regulatory networks</a> on arXiv and submitted it for publication.<br>\n  Besides various minor revisions in response to feedback, this version has several new substantial examples.</p>\n</li>\n<li>\n<p>Submitted to arXiv a <a href=\"https://arxiv.org/abs/2304.00447\">new paper</a> about structured and decorated cospans.<br>\n  This is the work that motivated the recent discussions in this thread. Thanks a bunch to everyone who helped me with the 2-categorical issues lurking in the background!</p>\n</li>\n</ul>",
+        "id": 347020128,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1680669790
+    },
+    {
+        "content": "<p>Where did you submit the biochemical regulatory networks paper?   (You can whisper it in my ear if you don't want to reveal it publicly.)</p>",
+        "id": 347192103,
+        "sender_full_name": "John Baez",
+        "timestamp": 1680710345
+    },
+    {
+        "content": "<p>I'm just always curious about where to submit papers like this.</p>",
+        "id": 347192192,
+        "sender_full_name": "John Baez",
+        "timestamp": 1680710366
+    },
+    {
+        "content": "<p>I'm never quite sure how open to be about such things---best not to count your chickens until they're hatched---but I'll go ahead and say that we submitted it to Compositionality. My coauthors and I had a long discussion about where to submit it, with the main contenders being Compositionality or a mathematical biology journal. I like the idea of writing for scientists in the application domain, and I was pleased that a recent paper on diagrammatic differential equations got accepted in an engineering mathematics journal, but in this case we felt that the emphasis on the category theory was too high for the math bio journals that we were looking at. We have hopes of writing another paper with less category theory and more simulation and submitting that to a math bio journal, but work on that project has not even started.</p>",
+        "id": 347294479,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1680751643
+    },
+    {
+        "content": "<p>In general, I struggle a lot with the question of where to submit papers like this and I don't have any clear principles about how to make the decisions. There is, of course, always a lot of uncertainty about what kind of reviewers you'll get.</p>",
+        "id": 347294626,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1680751744
+    },
+    {
+        "content": "<p>I've noticed that you've published a number of CT-heavy papers in the Journal of Mathematical Physics over the years, so there must be somebody there tolerant of category theory :)</p>",
+        "id": 347295049,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1680751970
+    },
+    {
+        "content": "<p>I often try to publish applied category work in non-categorical journals because I figure it increases the credibility of category theory, and also my work, among people who work in those other subjects.   To put it simplistically, publishing a paper about categories of open Markov processes in <em>Journal of Mathematical Physics</em> signals \"now mathematical physicists are getting interested in using categories to study Markov processes\", while publishing the same paper in a category theory journal signals \"now category theorists are getting interested in using categories to study Markov processes\" - and I find the former message more exciting and useful.</p>",
+        "id": 347304654,
+        "sender_full_name": "John Baez",
+        "timestamp": 1680758067
+    },
+    {
+        "content": "<p>But I still publish a lot in <em>TAC</em> and a bit in <em>Compositionality</em>.  I feel limited in how much I publish in <em>Compositionality</em> because I'm on the steering board of that journal.  But I feel publishing there a bit is important because I'd hate to be perceived as shunning it!</p>",
+        "id": 347304950,
+        "sender_full_name": "John Baez",
+        "timestamp": 1680758240
+    },
+    {
+        "content": "<p>I wrote a blog post on unbiased monoidal categories and unbiased SMCs: <a href=\"https://topos.site/blog/2023/08/unbiased-monoidal-categories-are-pseudo-elements/\">Unbiased monoidal categories are pseudo-elements</a></p>\n<p>The main idea is that the observation that multicategories already \"know about\" monoids can be categorified to recover pseudomonoids, and in particular monoidal categories, from 2-multicategories. The monoidal categories that you get are unbiased. But, as I argue in the post, I think that's actually good!</p>",
+        "id": 385299496,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1692141314
+    },
+    {
+        "content": "<p>deleted message, I saw that you already read the brilliant paper of Hermida</p>",
+        "id": 385303598,
+        "sender_full_name": "Cole Comfort",
+        "timestamp": 1692144337
+    },
+    {
+        "content": "<p>Loved that blog post! It feels good to see a definition of symmetric monoidal category with diagrams which don't seem to come from nowhere -- contrary to the usual coherence diagrams.</p>",
+        "id": 385306886,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1692145951
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277391\">Cole Comfort</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/385303598\">said</a>:</p>\n<blockquote>\n<p>deleted message, I saw that you already read the brilliant paper of Hermida</p>\n</blockquote>\n<p>Yes, it was by reading Hermida's paper \"Representable multicategories\" that I came to appreciate why multicategories are such a natural concept. Nowadays I'm trying to use multicategories by default when both multicategories and monoidal categories would work, but of course sometimes you actually do need a monoidal category, namely when you need to map <em>into</em> a product.</p>",
+        "id": 385309664,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1692146943
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275965\">Evan Patterson</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/385309664\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"277391\">Cole Comfort</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/385303598\">said</a>:</p>\n<blockquote>\n<p>deleted message, I saw that you already read the brilliant paper of Hermida</p>\n</blockquote>\n<p>Yes, it was by reading Hermida's paper \"Representable multicategories\" that I came to appreciate why multicategories are such a natural concept. Nowadays I'm trying to use multicategories by default when both multicategories and monoidal categories would work, but of course sometimes you actually do need a monoidal category, namely when you need to map <em>into</em> a product.</p>\n</blockquote>\n<p>Well you could also use poly categories, then you can have an unbiased view of monoidal categories in the input and in the output... although you can't cut along more than one wire at a time.  What I really want is a structure where you have this unbiased notion of tensor product, and you can cut along multiple wires at the same time, so that the appropriate notion of pseudofunctor 1-&gt;Prof would be coherent structure of unbiased (cauchy complete) monoidal category, and the grothendieck construction of which would be essentially a strict monoidal category. If multicategories categorify monoids, and poly categories categorify frobenius monoids, then what is the appropriate categorification of special frobenius monoids</p>",
+        "id": 385414793,
+        "sender_full_name": "Cole Comfort",
+        "timestamp": 1692175588
+    },
+    {
+        "content": "<blockquote>\n<p>What I really want is a structure where you have this unbiased notion of tensor product, and you can cut along multiple wires at the same time</p>\n</blockquote>\n<p>This is the notion of a <a href=\"https://ncatlab.org/nlab/show/properad\">[[properad]]</a>. If you permit composition along \"no wires\", then you get the notion of a <a href=\"https://ncatlab.org/nlab/show/PROP\">[[PROP]]</a>.</p>",
+        "id": 385421836,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1692177867
+    },
+    {
+        "content": "<p>Or \"colored prop\" for emphasis.  Unlike in the case of operads / multicategories and dioperads / polycategories, in the case of props there doesn't seem to be a different word for the multi-object case.</p>",
+        "id": 385481752,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1692197825
+    },
+    {
+        "content": "<p>I'm happy to say that my paper with Michael Lambert on <a href=\"https://arxiv.org/abs/2310.05384\">Cartesian double theories: A double-categorical framework for categorical doctrines</a> is finally out on arXiv.</p>\n<p>The paper isn't as scary its length might suggest :) It's long because we have a lot of examples and we try to present the definitions and proofs with attention to the details, but the main idea can be stated in one sentence: we combine cartesian double categories and lax double functors to formalize doctrines using double-categorical functorial semantics. A cartesian double theory is thus a kind of categorified algebraic theory.</p>",
+        "id": 395806505,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1696912737
+    },
+    {
+        "content": "<p>Nice!</p>\n<p>If I were you I would be a less deprecating of presentations of 2-monads.  There's a notion of 2-Lawvere theory, for instance, that I don't think is substantially more complex than ordinary Lawvere theories, and also plenty of other technology for presenting 2-theories such as operads, clubs, cartesian 2-multicategories, etc.</p>\n<p>On a quick glance it looks like many of your examples have theories that are actually cartesian 2-categories, i.e. finite product 2-theories.  What are some examples of double theories that don't fit into that framework?</p>",
+        "id": 395914190,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1696953628
+    },
+    {
+        "content": "<p>Is it actually in the literature somewhere how any of these notions present 2-monads, though? I admit I haven't read all Kelly's papers on clubs but that's older than the main 2-monad papers, anyway...The only literature I'm aware of on 2-Lawvere theories is a few words in Bourke's \"flexible aspects\", and if you could import some straight enriched category theory to get the free 2-monad on a 2-Lawvere theory without working for it you'd still surely have to work to understand whether the two pictures give the same pseudo and lax morphisms, etc. (Besides, I'm pretty sure you don't get this from the plain enriched case;  Jason Parker just put up a preprint today that should be state of the art, but only handles cartesian closed enrichment bases generated by the terminal object.) Maybe you and Riley and Licata do something about this somewhere in your project?</p>",
+        "id": 395922828,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1696956653
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/395914190\">said</a>:</p>\n<blockquote>\n<p>On a quick glance it looks like many of your examples have theories that are actually cartesian 2-categories, i.e. finite product 2-theories.  What are some examples of double theories that don't fit into that framework?</p>\n</blockquote>\n<p>Thanks for your questions/comments. You're right that a decent number of the theories are actually 2-categorical. These theories have a nice property: they always give a (pseudo) double category of models, rather than merely a virtual one. But we also consider quite a few theories that aren't of this form. One that I like quite a bit is the \"theory of promonoids\" (Theory 6.8), whose (lax) models are multicategories. This theory isn't \"2-categorical,\" although one might say that it is \"bi-categorical.\" For an example using everything available in a double theory, see Theories 6.11 and 6.12, whose models are (symmetric) monoidal copresheaves. This example is extended further in Theory 6.15.</p>",
+        "id": 395927433,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1696958487
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/395914190\">said</a>:</p>\n<blockquote>\n<p>If I were you I would be a less deprecating of presentations of 2-monads.</p>\n</blockquote>\n<p>Thanks, I'll be more careful in my phrasing; I don't want to annoy people. It would be helpful to know, though, if I'm missing something: my understanding of what is \"a presentation of a 2-monad\" comes from Sec 5 of Lack's helpful expository paper, \"A 2-categories companion.\" Is there any other notion of presentation that you have mind? In that regard, I share Kevin's questions.</p>",
+        "id": 395928230,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1696958835
+    },
+    {
+        "content": "<p>There are several different approaches, but one convenient method is via enriched theories. For instance, Bourke and Garner show how to present a 2-monad for monoidal categories in Example 13 of <a href=\"https://arxiv.org/abs/1805.04346\">Monads and theories</a>, while Lucyshyn-Wright and Parker do the same using slightly different techniques in Example 6.2 of <a href=\"https://arxiv.org/abs/2207.05184\">Diagrammatic presentations of enriched monads and varieties for a subcategory of arities</a>.</p>",
+        "id": 395930843,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1696959974
+    },
+    {
+        "content": "<p>Thanks! It should be illuminating to see how the 2-monad for monoidal categories is presented using these approaches.</p>",
+        "id": 395931305,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1696960194
+    },
+    {
+        "content": "<p>Ah, those are very interesting papers, which disprove my parenthetical about whether you can present a good notion of 2-theory using enriched category theory, thanks!</p>\n<p>As far as I can tell these two papers only define, for instance, the 2-category of monoidal categories and <em>strict</em> monoidal functors directly as models of their theories. Thus you'd have to pass to the associated 2-monad to get your hands on a notion of pseudo, lax, and oplax morphisms. I'd argue that gap means that these just are not actually theories of 2-theories, and more than the theory of cat-enriched monads is the theory of 2-monads, though it's clearly a very useful start.</p>",
+        "id": 395943952,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1696964148
+    },
+    {
+        "content": "<p>Great! Really excited to read this!! </p>\n<p>Wanted to point you to this, which I didn't see a reference to in the paper at a glance: Paré has a <a href=\"https://www.mscs.dal.ca/%7Epare/Mar2010.pdf\">few</a> <a href=\"https://www.mscs.dal.ca/%7Epare/FstOrdTh.pdf\">lecture</a> <a href=\"https://www.mscs.dal.ca/%7Epare/CapeTown2009.pdf\">notes</a> on treating coherent first-order theories as 'double Lawvere theories' which seem to be the same sort of thing except (a) Paré's double Lawvere theories have 'local coproducts' and so may be more properly called 'coherent double theories' and (b) models are strong rather than lax double functors. </p>\n<p>I also have lots of questions, like: Do you see prospects for going in the other direction on the hierarchy of categorical logics? e.g. should there be some useful notions of double Markov categories?</p>",
+        "id": 395947177,
+        "sender_full_name": "Evan Washington",
+        "timestamp": 1696965548
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"609515\">Kevin Arlin</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/395943952\">said</a>:</p>\n<blockquote>\n<p>I'd argue that gap means that these just are not actually theories of 2-theories, and more than the theory of cat-enriched monads is the theory of 2-monads, though it's clearly a very useful start.</p>\n</blockquote>\n<p>Yes, I agree with this, but I think the phrase Mike was objecting to was \"By contrast, there is no simple way to present a 2-monad\". Certainly presentations are only part of the story, but I think it is reasonable to say there are simple ways to present 2-monads.</p>",
+        "id": 395950853,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1696967185
+    },
+    {
+        "content": "<p>I seem to have a different calibration for what is \"simple\" but the point is well taken: I will find another way to make the comparison that doesn't depend on anyone's opinion about what is or isn't simple.</p>",
+        "id": 395962894,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1696973180
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"278070\">Evan Washington</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/395947177\">said</a>:</p>\n<blockquote>\n<p>Great! Really excited to read this!! </p>\n<p>Wanted to point you to this, which I didn't see a reference to in the paper at a glance: Paré has a <a href=\"https://www.mscs.dal.ca/%7Epare/Mar2010.pdf\">few</a> <a href=\"https://www.mscs.dal.ca/%7Epare/FstOrdTh.pdf\">lecture</a> <a href=\"https://www.mscs.dal.ca/%7Epare/CapeTown2009.pdf\">notes</a> on treating coherent first-order theories as 'double Lawvere theories'...</p>\n</blockquote>\n<p>Thanks for the comment and the pointer! At one point I looked through these slides enough to convince myself that it was an appreciably different story,  although there are certainly similarities too. I agree that it would be helpful to include a comparison in the paper.</p>\n<p>As I understand it, Pare's story is related to the one that <span class=\"user-mention\" data-user-id=\"275899\">@Christian Williams</span> has been telling in his own thread: the double category Rel suggests the interpretation that objects of a double category are types, arrows are terms, proarrows are predicates/relations/judgments, and cells are implications/inferences. The models of such a theory (strict or strong functors into Rel) feel \"one-dimensional\" in that they are like models of an algebraic theory but also allow the specification of relations and implications between those. Looking at <em>lax</em> functors into Span, or equivantly unitary/normal lax functors into Prof, has big consequences: it ensures that all the objects in the theory become categories and hence that models are objects of the expected two-dimensional structure. The cells of this structure are modulations, which crucially use the laxators to recover natural transformations.</p>\n<p>This makes me wonder what kind of cells Pare is using in his double category of models. I will have to look more closely, but perhaps they are modifications between vertical and horizontal transformations? If so, you're looking at a double category of models that has different proarrows and different cells, hence is overall quite different.</p>",
+        "id": 395965189,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1696974515
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"278070\">Evan Washington</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/395947177\">said</a>:</p>\n<blockquote>\n<p>I also have lots of questions, like: Do you see prospects for going in the other direction on the hierarchy of categorical logics? e.g. should there be some useful notions of double Markov categories?</p>\n</blockquote>\n<p>Our approach seems to have good coverage of the hierarchy of categorical logic up to and including cartesian and cocartesian categories. One notable exception is that it seems <em>not</em> to include Markov categories. The reason is that Markov categories do something that is arguably not very categorical: they specify a not-necessarily-natural transformation, namely the family of copying operations. By contrast, in a model of double theory, all transformations are automatically natural. Now usually that's a feature, but in this case it's an obstruction! I find this mismatch quite annoying because in a different strand of my work, I have used Markov categories heavily.</p>\n<p>As for the other direction in the hierarchy, while I have a pretty good feeling that there should be ways to extend this formalism to cover more expressive doctrines, the doctrines that people typically associate with categorical logic, I don't know for sure how to do it and my ideas are currently quite vague. So I guess we'll have to see what happens. I hoping that other people will have ideas too.</p>",
+        "id": 395982632,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1696985137
+    },
+    {
+        "content": "<p>I have been thinking about lax functors C -&gt; Span recently where C is a pseudo double category.<br>\nIt occurred to me that lax functors into Span can be described in terms of a certain 2-categorical universal property.<br>\nI am working on writing down a proof of this theorem at the moment. Perhaps there are difficulties with the coherence conditions that I don't anticipate, so I don't assert fully that this is a definite theorem but it should be true.<br>\nAnyway.<br>\nConsider the 2-category Cat. A pseudo double category is a \"bicategory internal to Cat\", although apparently the term is pseudocategory, which is fine.<br>\nThere's a 2-categorical slice category Cat/Set, whose objects are categories C equipped with a functor C -&gt; Set. 1-cells are triangles that commute up to a lax natural transformation. 2-cells are natural transformations commuting with the triangles. This can be seen as a kind of 2-categorical grothendieck construction for the representable 2-presheaf Hom_{Cat}(-, Set).<br>\nOf course it is fibred over Cat by the forgetful functor.</p>\n<p>I now claim that for a pseudocategory C in Cat,  lax functors C -&gt; Span are in one to one correspondence with lifts of the pseudocategory structure C along the forgetful functor Cat/Set -&gt; Cat.<br>\nMoreover there is a 2-presheaf on (double categories, lax functors, horizontal natural transformations), or Pseudocat(Cat)<br>\n which sends each pseudocategory C to the category whose objects are \"extensions of C to a category structure C -&gt; Set\"<br>\nand this 2-presheaf is represented by the double category of spans.</p>\n<p>This claim is basically 2-categorical in nature and makes sense in defining the \"pseudocategory of spans\" internal to any 2-category, not just Cat. I posted about this in an earlier thread but I've developed my thoughts more.</p>",
+        "id": 395984333,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1696985984
+    },
+    {
+        "content": "<p>In rigorously proving this, there are some ancillary issues I got distracted by, i.e. in proving that this is actually a 2-presheaf you start to want to work out general facts about universal algebra in a 2-category and general results about 2-fibrations like Cat/Set -&gt; Cat. So it may take me a while to assemble the pieces. But the core interesting claim that Span has this 2-categorical universal property is not hard, I think.</p>",
+        "id": 395984647,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1696986114
+    },
+    {
+        "content": "<p>And in some situations this reformulation may make it easier to construct and work with lax functors into Span, which is, as this page points out, <a href=\"https://ncatlab.org/nlab/show/double+profunctor\">https://ncatlab.org/nlab/show/double+profunctor</a>, is the right notion of profunctor between double categories (or, specializing to the case where one category is <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn></mrow><annotation encoding=\"application/x-tex\">1</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">1</span></span></span></span>, the right notion of presheaf on a single double category.)<br>\nThis was my motivation for proving this, anyway.</p>",
+        "id": 395985316,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1696986445
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"424412\">Patrick Nicodemus</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/395984333\">said</a>:</p>\n<blockquote>\n<p>I now claim that for a pseudocategory C in Cat,  lax functors C -&gt; Span are in one to one correspondence with lifts of the pseudocategory structure C along the forgetful functor Cat/Set -&gt; Cat.</p>\n</blockquote>\n<p>Cool! It's an appealing idea because it gives another perspective on why Span is the natural receiving object for lax double functors. (For some other justifications, have a look at Pare's paper \"Yoneda theory for double categories,\" if you haven't already.)</p>\n<p>FWIW, I used essentially the same idea in Section 3 of <a href=\"https://topos.site/blog/2022/05/grothendieck-construction-for-double-categories/\">this blog post</a> back when I was trying to figure out what the double Grothendieck construction is. I didn't get to your further ideas about a 2-presheaf on double categories, though. Interesting stuff.</p>",
+        "id": 395998654,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1696993886
+    },
+    {
+        "content": "<p>Ah, ok. Yeah, that makes sense. The application I had in mind was that Grandis and Pare also suggest that this works well at the three dimensional level, for \"intercategories\", which are triple categories weak along two directions. They again define the \"intercategory of sets\" as the triple category Span(Span(Sets)), which made me think that some formal treatment of the construction  X |-&gt; Span(X) was needed</p>",
+        "id": 396004993,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1696997665
+    },
+    {
+        "content": "<p>I am trying to do something possibly similar with your blog post but in 3 dimensions and for profunctors. If you think of the grothendieck construction as converting a more standard notion of presheaf C^op -&gt; Sets nto an \"internal profunctor\" 1 -|-&gt; C</p>",
+        "id": 396005241,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1696997834
+    },
+    {
+        "content": "<p>then the grothendieck construction is giving some correspondence between these two formalisms for profunctors, I guess, though I don't fully know how to make that precise in general. I guess \"Internal profunctors\" can be thought of as profunctor tabulations.</p>",
+        "id": 396005425,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1696997951
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"424412\">Patrick Nicodemus</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/395984333\">said</a>:</p>\n<blockquote>\n<p>A pseudo double category is a \"bicategory internal to Cat\", although apparently the term is pseudocategory, which is fine.</p>\n</blockquote>\n<p>There's a conceptual difference between a pseudocategory and an internal bicategory: in a pseudocategory, one specifies 0-cells and 1-cells as data, but requires the category laws to hold only up to invertible 2-cell in the 2-category in which the pseudocategory is being considered. In an internal bicategory, one specifies 0-cells, 1-cells, and 2-cells as data.</p>",
+        "id": 396025369,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697008598
+    },
+    {
+        "content": "<p>In your paper you say (on page 39) that symmetric multicategories (aka colored operads) do not seem be models of any cartesian double theory.<br>\nProbably you are not aware of <a href=\"https://arxiv.org/pdf/2208.07028.pdf\">my paper</a> (see also <a href=\"https://bryceclarke.github.io/virtual-double-categories-workshop/slides/claudio-pisani.pdf\">these slides</a>), where it is shown that <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><msup><mi mathvariant=\"normal\">b</mi><mrow><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">p</mi></mrow></msup></mrow><annotation encoding=\"application/x-tex\">\\rm Pb^{op}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord\"><span class=\"mord mathrm\">P</span><span class=\"mord\"><span class=\"mord mathrm\">b</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6644em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathrm mtight\">op</span></span></span></span></span></span></span></span></span></span></span></span></span>, the opposite of the double category of pullback squares in finite sets, is in fact such a theory.<br>\n(The double category of pullback squares in any extensive category has sums, so that its opposite is cartesian.)</p>\n<p>The idea is that to a symmetric multicategory <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi></mrow><annotation encoding=\"application/x-tex\">O</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">O</span></span></span></span> there corresponds a product preserving double lax functor <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>F</mi><mi>O</mi></msub><mo>:</mo><mrow><mi mathvariant=\"normal\">P</mi><msup><mi mathvariant=\"normal\">b</mi><mrow><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">p</mi></mrow></msup><mo>→</mo><mi mathvariant=\"normal\">S</mi><mi mathvariant=\"normal\">p</mi><mi mathvariant=\"normal\">a</mi><mi mathvariant=\"normal\">n</mi></mrow></mrow><annotation encoding=\"application/x-tex\">F_O:\\rm Pb^{op} \\to Span</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3283em;\"><span style=\"top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\" style=\"margin-right:0.02778em;\">O</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord\"><span class=\"mord mathrm\">P</span><span class=\"mord\"><span class=\"mord mathrm\">b</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6644em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathrm mtight\">op</span></span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mord mathrm\">Span</span></span></span></span></span>, which </p>\n<ul>\n<li>takes a finite set <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi></mrow><annotation encoding=\"application/x-tex\">n</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">n</span></span></span></span> to the set of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi></mrow><annotation encoding=\"application/x-tex\">n</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">n</span></span></span></span>-indexed families of objects <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><mi>o</mi><mi>b</mi><mi>j</mi><mi>O</mi><msup><mo stretchy=\"false\">)</mo><mi>n</mi></msup></mrow><annotation encoding=\"application/x-tex\">(obj O)^n</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">o</span><span class=\"mord mathnormal\" style=\"margin-right:0.05724em;\">bj</span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">O</span><span class=\"mclose\"><span class=\"mclose\">)</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6644em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">n</span></span></span></span></span></span></span></span></span></span></span>;</li>\n<li>takes an arrow <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>n</mi><mo>→</mo><mi>m</mi></mrow><annotation encoding=\"application/x-tex\">n\\to m</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">n</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">m</span></span></span></span> to the reindexing map <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><mi>o</mi><mi>b</mi><mi>j</mi><mi>O</mi><msup><mo stretchy=\"false\">)</mo><mi>m</mi></msup><mo>→</mo><mo stretchy=\"false\">(</mo><mi>o</mi><mi>b</mi><mi>j</mi><mi>O</mi><msup><mo stretchy=\"false\">)</mo><mi>n</mi></msup></mrow><annotation encoding=\"application/x-tex\">(obj O)^m \\to (obj O)^n</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">o</span><span class=\"mord mathnormal\" style=\"margin-right:0.05724em;\">bj</span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">O</span><span class=\"mclose\"><span class=\"mclose\">)</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6644em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">m</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">o</span><span class=\"mord mathnormal\" style=\"margin-right:0.05724em;\">bj</span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">O</span><span class=\"mclose\"><span class=\"mclose\">)</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6644em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">n</span></span></span></span></span></span></span></span></span></span></span>;</li>\n<li>takes a proarrow (which is also a mapping) <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo>:</mo><mi>n</mi><mo>→</mo><mi>m</mi></mrow><annotation encoding=\"application/x-tex\">f:n\\to m</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">n</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">m</span></span></span></span> to the set of m-families of multiarrows in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi></mrow><annotation encoding=\"application/x-tex\">O</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">O</span></span></span></span> which respect the profile given by <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi></mrow><annotation encoding=\"application/x-tex\">f</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span></span></span></span>, with the obvious span structure.</li>\n<li>takes a pullback square to a \"reindexing\" square (of families of multiarrows).</li>\n<li>laxity squares give (or are given by) composition in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>O</mi></mrow><annotation encoding=\"application/x-tex\">O</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">O</span></span></span></span>.</li>\n</ul>\n<p>The only reason why <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><msup><mi mathvariant=\"normal\">b</mi><mrow><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">p</mi></mrow></msup></mrow><annotation encoding=\"application/x-tex\">\\rm Pb^{op}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord\"><span class=\"mord mathrm\">P</span><span class=\"mord\"><span class=\"mord mathrm\">b</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6644em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathrm mtight\">op</span></span></span></span></span></span></span></span></span></span></span></span></span> does not fit your definition of cartesian double theory seems to me the fact that it is not small.<br>\nTo set this, one can consider a skeleton of finite sets, even if this seems to me rather unnatural. Indeed I think that many of the complications in the classical theory of symmetric multicategories can be overcome by allowing families with arbitrary indexing set, that is by becoming non-skeletal.</p>",
+        "id": 396160936,
+        "sender_full_name": "Claudio Pisani",
+        "timestamp": 1697056407
+    },
+    {
+        "content": "<p>Wow, it's amazing that you can do this! I haven't yet grokked all the details but I think I get the idea. Thanks for pointing this out.</p>",
+        "id": 396193098,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1697075800
+    },
+    {
+        "content": "<p>Smallness of the double theory doesn't actually play a role in our paper. We just assume it because that's what's often done for theories, but this example suggests that it can also be useful to consider non-small theories.</p>",
+        "id": 396193355,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1697076001
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275965\">Evan Patterson</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/396193355\">said</a>:</p>\n<blockquote>\n<p>Smallness of the double theory doesn't actually play a role in our paper. We just assume it because that's what's often done for theories, but this example suggests that it can also be useful to consider non-small theories.</p>\n</blockquote>\n<p>If your theories are not small, presumably you no longer have large double categories of models, but rather \"very large\" ones. In the one-dimensional setting, this would mean losing properties like local presentability. (Also, if I understand correctly, one would want to restrict to the skeleton of finite sets to recover precisely the definition of symmetric multicategory, rather than something merely equivalent to it?)</p>",
+        "id": 396232465,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697096401
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275965\">Evan Patterson</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/396193098\">said</a>:</p>\n<blockquote>\n<p>Wow, it's amazing that you can do this! I haven't yet grokked all the details but I think I get the idea. Thanks for pointing this out.</p>\n</blockquote>\n<p>Thank you. I think that it fits well with your general framework, being a significant instance of cartesian double theory.</p>",
+        "id": 396274986,
+        "sender_full_name": "Claudio Pisani",
+        "timestamp": 1697112490
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Evan.20Patterson/near/396232465\">said</a>:</p>\n<blockquote>\n<p>If your theories are not small, presumably you no longer have large double categories of models, but rather \"very large\" ones. In the one-dimensional setting, this would mean losing properties like local presentability.</p>\n</blockquote>\n<p>Yeah, that makes sense. In the paper we don't establish any properties of the double category or equipment of models beyond that it exists, but it stands to reason that certain nice double-categorical properties (whatever those might be) would then fail if the theory weren't small.</p>",
+        "id": 396328259,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1697129461
+    },
+    {
+        "content": "<p>I think the question here is really just about small vs essentially small theories, of which the models are certainly going to be equivalent to an ordinary large double category. So it really shouldn't matter at all.</p>",
+        "id": 396342143,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1697134805
+    },
+    {
+        "content": "<p>Some bonus content following up the paper: a <a href=\"https://topos.site/blog/2023/10/retrotransformations/\">blog post</a> on \"retrotransformations\", a <em>third</em> kind of morphism between models of double theories which are to <a href=\"https://ncatlab.org/nlab/show/cofunctor\">cofunctors</a> as natural transformations are to functors and modules are to profunctors.</p>",
+        "id": 397746343,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1697820402
+    }
+]

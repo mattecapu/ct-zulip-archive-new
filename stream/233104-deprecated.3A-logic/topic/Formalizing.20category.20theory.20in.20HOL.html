@@ -1,0 +1,123 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>Formalizing category theory in HOL · deprecated: logic · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/233104-deprecated.3A-logic/index.html">deprecated: logic</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/233104-deprecated.3A-logic/topic/Formalizing.20category.20theory.20in.20HOL.html">Formalizing category theory in HOL</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="324485106"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/233104-deprecated%3A%20logic/topic/Formalizing%20category%20theory%20in%20HOL/near/324485106" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/233104-deprecated.3A-logic/topic/Formalizing.20category.20theory.20in.20HOL.html#324485106">(Jan 29 2023 at 20:17)</a>:</h4>
+<p>There are lots of papers on formalizing category theory in ZFC or NBG set theory, or ZFC+ some number of universes.<br>
+There are also lots of papers on formalizing category theory in Coq, Lean or other dependent type theories.</p>
+<p>I am interested in what has been done theoretically regarding the possibility of carrying out the development of category theory in HOL, perhaps + extra axioms. HOL is a weaker logic than the calculus of constructions and dependent types are very natural for encoding category theory, so this is arguably an uphill battle, but I think the question is still interesting because automation in HOL leads automation in dependent type theory by a considerable margin at the moment. Reasoning in category theory is often very simple (equational reasoning is often all that is necessary for proving a diagram commutes) and so one would like to be able to take advantage of automation.</p>
+
+
+
+<a name="324485249"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/233104-deprecated%3A%20logic/topic/Formalizing%20category%20theory%20in%20HOL/near/324485249" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/233104-deprecated.3A-logic/topic/Formalizing.20category.20theory.20in.20HOL.html#324485249">(Jan 29 2023 at 20:18)</a>:</h4>
+<p>There are papers in the Isabelle/HOL archive of formal proofs. i have been reading the papers by Eugene Stark. it is very interesting but honestly his conception of a "category of sets" is utterly foreign to me, I am very taken aback. I am wondering if there has been much other theoretical work on this topic</p>
+
+
+
+<a name="324513964"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/233104-deprecated%3A%20logic/topic/Formalizing%20category%20theory%20in%20HOL/near/324513964" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ryan Wisnesky <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/233104-deprecated.3A-logic/topic/Formalizing.20category.20theory.20in.20HOL.html#324513964">(Jan 30 2023 at 02:35)</a>:</h4>
+<p>Which paper has the unexpected definition of the category of sets?  The "Types" mailing list is probably a good place to ask this question.  <a href="https://lists.seas.upenn.edu/mailman/listinfo/types-list">https://lists.seas.upenn.edu/mailman/listinfo/types-list</a></p>
+
+
+
+<a name="324788392"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/233104-deprecated%3A%20logic/topic/Formalizing%20category%20theory%20in%20HOL/near/324788392" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Max New <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/233104-deprecated.3A-logic/topic/Formalizing.20category.20theory.20in.20HOL.html#324788392">(Jan 30 2023 at 22:19)</a>:</h4>
+<p>Maybe not exactly what you are asking for, but this describes a development of some category theory in Isabelle/HOL: <a href="https://link.springer.com/chapter/10.1007/3-540-44755-5_11">https://link.springer.com/chapter/10.1007/3-540-44755-5_11</a></p>
+
+
+
+<a name="324799419"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/233104-deprecated%3A%20logic/topic/Formalizing%20category%20theory%20in%20HOL/near/324799419" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/233104-deprecated.3A-logic/topic/Formalizing.20category.20theory.20in.20HOL.html#324799419">(Jan 30 2023 at 23:39)</a>:</h4>
+<p>Now I'm curious about what an utterly foreign concept of "a category of sets" could look like!</p>
+
+
+
+<a name="324810231"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/233104-deprecated%3A%20logic/topic/Formalizing%20category%20theory%20in%20HOL/near/324810231" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/233104-deprecated.3A-logic/topic/Formalizing.20category.20theory.20in.20HOL.html#324810231">(Jan 31 2023 at 01:14)</a>:</h4>
+<p><a href="https://www.isa-afp.org/browser_info/current/AFP/Category3/outline.pdf">https://www.isa-afp.org/browser_info/current/AFP/Category3/outline.pdf</a><br>
+Chapters 9 and 10<br>
+For any category S, the set of all terminal objects  in S are thought of as "elements", I do not know if these behave like urelements or if they can have nontrivial internal structure.<br>
+Fix a distinguished terminal object 1.<br>
+Then we define, for each object X, a map from Hom(1, X) into the set of terminal objects of S, which sends each map a : 1 -&gt; X to the "element" that it picks out. The idea is for a nice enough "category of sets" S, every object can be uniquely recovered from its underlying "set of elements" - the set of terminal objects under this correspondence</p>
+
+
+
+<a name="324831328"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/233104-deprecated%3A%20logic/topic/Formalizing%20category%20theory%20in%20HOL/near/324831328" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jason Erbele <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/233104-deprecated.3A-logic/topic/Formalizing.20category.20theory.20in.20HOL.html#324831328">(Jan 31 2023 at 05:38)</a>:</h4>
+<p>That's a pretty nifty definition of a category of sets.  Using Hom(1, X) in Set to pick out the elements of X is not unusual, so it looks promising just at a glance.  Would it be too much to expect that if T is a terminal object in S, the map from Hom(1, T) to the terminal objects of S would pick out T?  I don't suppose this is necessary, but it probably could be done for convenience.  Ah.  Looks like this is addressed on pp. 62–63 on the pdf you linked, with roughly the conclusion I expected:</p>
+<blockquote>
+<p>The locale assumption <em>stable-img</em> forces t ∈ set t in case t is a terminal object. This is very convenient, as it results in the characterization of terminal objects as identities t for which set t = {t}. However, it is not absolutely necessary to have this.</p>
+</blockquote>
+<p>My first thought on how to make this definition appear more foreign (besides turning it into computer code, but given what stream this conversation is in, maybe that's me) is to take S to be a category with a unique terminal object (not just unique up to isomorphism), like <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mrow><mi mathvariant="normal">S</mi><mi mathvariant="normal">e</mi><mi mathvariant="normal">t</mi></mrow><mrow><mi mathvariant="normal">o</mi><mi mathvariant="normal">p</mi></mrow></msup></mrow><annotation encoding="application/x-tex">\mathrm{Set}^{\mathrm{op}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7376em;"></span><span class="mord"><span class="mord"><span class="mord mathrm">Set</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7376em;"><span style="top:-3.1362em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathrm mtight">op</span></span></span></span></span></span></span></span></span></span></span></span></span>.  Glossing along as best I can on the linked pdf, it seems like that would be the context for a set theory where there is only one element and thus only one non-empty set.  This situation also gets a mention (on p. 75) in the pdf as "the case of a degenerate universe with only a single element."</p>
+<p>The pdf at least indirectly mentions another "perverse" sort of situation that can happen that I didn't think of:</p>
+<blockquote>
+<p>We call a set category <em>replete</em> if there is an object corresponding to every subset of the universe.</p>
+</blockquote>
+<p>So a set category that is not replete would have sets that don't have objects of S to represent them.</p>
+
+
+
+<a name="325056150"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/233104-deprecated%3A%20logic/topic/Formalizing%20category%20theory%20in%20HOL/near/325056150" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/233104-deprecated.3A-logic/topic/Formalizing.20category.20theory.20in.20HOL.html#325056150">(Feb 01 2023 at 02:09)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="309257">Jason Erbele</span> <a href="#narrow/stream/233104-theory.3A-logic/topic/Formalizing.20category.20theory.20in.20HOL/near/324831328">said</a>:</p>
+<blockquote>
+<blockquote>
+<p>We call a set category <em>replete</em> if there is an object corresponding to every subset of the universe.</p>
+</blockquote>
+<p>So a set category that is not replete would have sets that don't have objects of S to represent them.</p>
+</blockquote>
+<p>For my intuition, this seems to be the less perverse case, if we think of the collection of all terminal objects as forming the elements of which all sets are composed, then it seems reasonable that many collections may be "proper classes", i.e. not small sets. If the objects represent small sets then I would think not all collections can be represented as objects.</p>
+<p>So for a replete category presumably it does not have an internal notion of powerset /power-object in general, else what would represent the power-object of the object containing all terminal objects?</p>
+<p>Of course not all constructions of set theory are necessary to do basic elementwise reasoning, so this is fine.</p>
+
+
+
+<a name="325056528"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/233104-deprecated%3A%20logic/topic/Formalizing%20category%20theory%20in%20HOL/near/325056528" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/233104-deprecated.3A-logic/topic/Formalizing.20category.20theory.20in.20HOL.html#325056528">(Feb 01 2023 at 02:15)</a>:</h4>
+<p>He constructs these categories of sets in an ad-hoc local way, corresponding to the problem that needs to be solved. So given two categories C and D and functors F : C -&gt; D and G : D-&gt; C he constructs a category of sets in some sense generated by |C| \coprod |D| so that he can formulate what it means for F and G to be adjoint. I have not read this portion yet so I don't know how he does this freely generating a category of sets from a given set.</p>
+
+
+
+<a name="325056859"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/233104-deprecated%3A%20logic/topic/Formalizing%20category%20theory%20in%20HOL/near/325056859" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/233104-deprecated.3A-logic/topic/Formalizing.20category.20theory.20in.20HOL.html#325056859">(Feb 01 2023 at 02:19)</a>:</h4>
+<p>When I said it was foreign I mostly meant the extensionality principle of interpreting one object as directly representing a collection of other objects,  it's not a categorical definition imo. Also fine but feels strange.</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

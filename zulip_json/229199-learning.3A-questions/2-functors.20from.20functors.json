@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>I am working on something related to the following question:</p>\n<blockquote>\n<p>Let <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"sans-serif\">C</mi></mrow><annotation encoding=\"application/x-tex\">\\mathsf  C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathsf\">C</span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"sans-serif\">D</mi></mrow><annotation encoding=\"application/x-tex\">\\mathsf D</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathsf\">D</span></span></span></span> be bicategories and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>:</mo><mi>h</mi><mi mathvariant=\"sans-serif\">C</mi><mo>→</mo><mi>h</mi><mi mathvariant=\"sans-serif\">D</mi></mrow><annotation encoding=\"application/x-tex\">F:h\\mathsf C\\to h\\mathsf D</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">h</span><span class=\"mord mathsf\">C</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">h</span><span class=\"mord mathsf\">D</span></span></span></span> be a functor between the underlying categories. Under which conditions does <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi></mrow><annotation encoding=\"application/x-tex\">F</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span></span></span></span> come from an pseudofunctor <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"sans-serif\">C</mi><mo>→</mo><mi mathvariant=\"sans-serif\">D</mi></mrow><annotation encoding=\"application/x-tex\">\\mathsf C\\to\\mathsf D</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathsf\">C</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathsf\">D</span></span></span></span>?</p>\n</blockquote>\n<p>Of course this is too broad, just checking to see if anybody got some leads</p>",
+        "id": 304541431,
+        "sender_full_name": "Daniel Teixeira",
+        "timestamp": 1666034939
+    },
+    {
+        "content": "<p>There is a model structure on bicategories: Steve Lack, A Quillen Model Structure for Biategories, K-Theory 33: 185-197, 2004 (couldn't find a link to the article). If C and/or D are cofibrant and/or fibrant in that structure, you might be in a good position to find a lift.</p>",
+        "id": 304618850,
+        "sender_full_name": "Peter Arndt",
+        "timestamp": 1666075473
+    },
+    {
+        "content": "<p>(deleted)</p>",
+        "id": 304619092,
+        "sender_full_name": "Peter Arndt",
+        "timestamp": 1666075591
+    },
+    {
+        "content": "<p>Just saying things I would check - not sure it will lead anywhere...</p>",
+        "id": 304619201,
+        "sender_full_name": "Peter Arndt",
+        "timestamp": 1666075660
+    },
+    {
+        "content": "<p>This MO post seems related to not finding a link to the article.<br>\n<a href=\"https://mathoverflow.net/questions/136465/what-happened-to-online-articles-published-in-k-theory-springer-journal\">https://mathoverflow.net/questions/136465/what-happened-to-online-articles-published-in-k-theory-springer-journal</a></p>",
+        "id": 304757654,
+        "sender_full_name": "Joe Moeller",
+        "timestamp": 1666107194
+    },
+    {
+        "content": "<p>Ah, and it contains <a href=\"https://access.portico.org/Portico/auView?auId=ark%253A%252F27927%252Fpgg1zfpbjd1&amp;auViewType1=PDF\">a link</a> ... that doesn't work at the moment.</p>",
+        "id": 304819483,
+        "sender_full_name": "Peter Arndt",
+        "timestamp": 1666118914
+    }
+]

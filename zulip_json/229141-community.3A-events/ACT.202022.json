@@ -1,0 +1,116 @@
+[
+    {
+        "content": "<p>Call for participation</p>\n<p>Dear all</p>\n<p>The 5th International Conference on Applied Category Theory will take place at the University of Strathclyde from 18 to 22 July 2022. This conference follows previous events at Cambridge (2021), MIT (2020), Oxford (2019) and Leiden (2018).</p>\n<p>HYBRID FORMAT</p>\n<p>The conference will be fully hybrid, that is, it will be possible for both the audience and presenters to participate remotely over Zoom, if preferred.</p>\n<p>REGISTRATION</p>\n<p>We are asking in-person participants to register and pay a nominal registration fee of GB£20 (about US$25) at the following link:<br>\n<a href=\"https://onlineshop.strath.ac.uk/conferences-and-events/science-faculty/computer-and-information-science/5th-international-conference-on-applied-category-theory-act-2022\">https://onlineshop.strath.ac.uk/conferences-and-events/science-faculty/computer-and-information-science/5th-international-conference-on-applied-category-theory-act-2022</a> <br>\nIf the fee is a financial burden for you, please contact us.</p>\n<p>Online attendance will be free, although we ask that you nevertheless register using the above link. This will allow us to keep track of the numbers of participants, send out zoom links, etc.</p>\n<p>The university's covid regulations change unpredictably, and we still don't know what the capacity of the room will be. In the event that we are over-subscribed, we have some side rooms where participants can watch the livestream together while still participating normally in coffee breaks etc. The reason for the registration fee is to give us the option to limit participation if it becomes necessary, and if that happens then places will be first-come-first-served except for accepted speakers.</p>\n<p>FINANCIAL SUPPORT</p>\n<p>We have a budget for financial assistance for participants thanks to our sponsors, for which priority will be given to accepted speakers, PhD students and early career researchers. Please contact the organisers if this would be useful to you, including information about your status, and your estimated costs.</p>\n<p>Financial support application deadline: Friday 10 June 2022 Anywhere on Earth<br>\nFinancial support notification: Monday 13 June 2022</p>\n<p>TRAVEL AND ACCOMMODATION:</p>\n<p>Central Glasgow has many hotels and Airbnbs, but can be busy in the summer months. The conference will be held in the McCance building on the Strathclyde campus:<br>\n<a href=\"https://www.openstreetmap.org/way/86419875\">https://www.openstreetmap.org/way/86419875</a> <br>\nThe nearest hotel is the Premier Inn, about 30 seconds walk away.</p>\n<p>Glasgow is well served by trains in the UK (e.g. London Euston is 4.5 hours away), and can be reached from the European continent via a Eurostar train to London. Note that advance train tickets can be considerably cheaper in the UK. Glasgow has an international airport, and is also quite easily reachable from Edinburgh airport. </p>\n<p>We look forward to welcoming you in Glasgow!</p>\n<p>-- The organisers<br>\nJules Hedges (<a href=\"mailto:jules.hedges@strath.ac.uk\">jules.hedges@strath.ac.uk</a>)<br>\nFredrik Nordvall Forsberg (<a href=\"mailto:fredrik.nordvall-forsberg@strath.ac.uk\">fredrik.nordvall-forsberg@strath.ac.uk</a>)<br>\nJade Master (<a href=\"mailto:jade.master@strath.ac.uk\">jade.master@strath.ac.uk</a>)<br>\nJames Fairbanks (<a href=\"mailto:fairbanksj@ufl.edu\">fairbanksj@ufl.edu</a>)</p>",
+        "id": 284904600,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1654275173
+    },
+    {
+        "content": "<p>Question: what does the 'camera-ready' deadline entail? Is it just that after that date the files on EasyChair will be linked on the website?</p>",
+        "id": 285675759,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1654867935
+    },
+    {
+        "content": "<p>Yeah, polished versions of the papers will be hosted on the conference website. \"Camera-ready\" is technically a lie, the actual camera-ready versions for EPTCS will happen some time after the conference</p>",
+        "id": 285688092,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1654873314
+    },
+    {
+        "content": "<p>Reminder: Sunday is the last day to register for in-person ACT. Also for online please register (for free) if you want to get sent zoom links<br>\n<a href=\"https://onlineshop.strath.ac.uk/conferences-and-events/science-faculty/computer-and-information-science/5th-international-conference-on-applied-category-theory-act-2022\">https://onlineshop.strath.ac.uk/conferences-and-events/science-faculty/computer-and-information-science/5th-international-conference-on-applied-category-theory-act-2022</a></p>",
+        "id": 288506379,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1657016198
+    },
+    {
+        "content": "<p>By the way, a <a href=\"https://msp.cis.strath.ac.uk/act2022/programme.html\">tentative program</a> is now available for ACT2022!</p>\n<p>I get to give a talk at 6 am on Monday.   <span aria-label=\"tada\" class=\"emoji emoji-1f389\" role=\"img\" title=\"tada\">:tada:</span></p>",
+        "id": 289066885,
+        "sender_full_name": "John Baez",
+        "timestamp": 1657406140
+    },
+    {
+        "content": "<p>(Because I have the misfortune to be in California.)</p>",
+        "id": 289066894,
+        "sender_full_name": "John Baez",
+        "timestamp": 1657406161
+    },
+    {
+        "content": "<p>There is now a dedicated stream for the conference and related events</p>\n<blockquote>\n<p><a class=\"stream\" data-stream-id=\"330541\" href=\"/#narrow/stream/330541-conference.3A-ACT22\">#conference: ACT22</a></p>\n</blockquote>",
+        "id": 289167497,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1657532862
+    },
+    {
+        "content": "<p>Make sure to subscribe if you're attending--virtually or not! We plan to use it for all conversations regarding talks and social gatherings</p>",
+        "id": 289167587,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1657532899
+    },
+    {
+        "content": "<p>Will I get a zoom link in my email?   I'm giving my talk virtually, and it starts at 6 am Monday my time, so I want to know what I'm doing.</p>",
+        "id": 289670032,
+        "sender_full_name": "John Baez",
+        "timestamp": 1657846714
+    },
+    {
+        "content": "<p>We are sending out the zoom link today to everyone who registered!</p>",
+        "id": 289693919,
+        "sender_full_name": "Fredrik Nordvall Forsberg",
+        "timestamp": 1657869629
+    },
+    {
+        "content": "<p>Thanks.</p>",
+        "id": 289761723,
+        "sender_full_name": "John Baez",
+        "timestamp": 1657908044
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/geSS8jGqUUHCrpxcaWmqKIUc/FXtNe8MVEAEpPeu.jpg\">It's going to be hot for ACT2022:</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/geSS8jGqUUHCrpxcaWmqKIUc/FXtNe8MVEAEpPeu.jpg\" title=\"It's going to be hot for ACT2022:\"><img src=\"/user_uploads/21317/geSS8jGqUUHCrpxcaWmqKIUc/FXtNe8MVEAEpPeu.jpg\"></a></div>",
+        "id": 289797663,
+        "sender_full_name": "John Baez",
+        "timestamp": 1657930391
+    },
+    {
+        "content": "<p>Those are literally ideal temperatures to me! Lol</p>",
+        "id": 289827340,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1657976720
+    },
+    {
+        "content": "<p>Yeah, as global warming proceeds Italians are going to take over Europe like an invasive species.  <span aria-label=\"smirk\" class=\"emoji emoji-1f60f\" role=\"img\" title=\"smirk\">:smirk:</span></p>",
+        "id": 289834740,
+        "sender_full_name": "John Baez",
+        "timestamp": 1657987334
+    },
+    {
+        "content": "<p>In Portugal, down south in Alentejo, temperatures could reach 46-47 Celsius.   <span aria-label=\"hot\" class=\"emoji emoji-1f525\" role=\"img\" title=\"hot\">:hot:</span></p>",
+        "id": 289834759,
+        "sender_full_name": "John Baez",
+        "timestamp": 1657987384
+    },
+    {
+        "content": "<p>That is too hot even for me. I thrive until 36 Celsius, give or take <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span></p>",
+        "id": 289838408,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1657992648
+    },
+    {
+        "content": "<p>Where will recordings be posted?</p>",
+        "id": 290128489,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1658249448
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275899\">Christian Williams</span> <a href=\"#narrow/stream/229141-general.3A-events/topic/ACT.202022/near/290128489\">said</a>:</p>\n<blockquote>\n<p>Where will recordings be posted?</p>\n</blockquote>\n<p>The recordings of the first 2 days have been posted in the Applied Category theory Youtube Channel<a href=\"https://www.youtube.com/channel/UC1Kxtc6DOexi4JT-t57Ey9g\"> LINK</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"channel\" href=\"https://www.youtube.com/channel/UC1Kxtc6DOexi4JT-t57Ey9g\"><img src=\"https://uploads.zulipusercontent.net/1476da0df5fee77805dce548fc04444608bb654b/68747470733a2f2f692e7974696d672e636f6d2f76692f6368616e6e656c2f64656661756c742e6a7067\"></a></div>",
+        "id": 290143953,
+        "sender_full_name": "Amartya",
+        "timestamp": 1658256631
+    },
+    {
+        "content": "<p>thanks!</p>",
+        "id": 290178986,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1658277651
+    }
+]

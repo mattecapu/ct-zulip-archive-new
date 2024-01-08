@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>VIRTUAL DOUBLE CATEGORIES WORKSHOP</p>\n<p>Dates: Monday 28 November - Friday 2 December 2022</p>\n<p>Location: virtually on Zoom</p>\n<p>Website: <a href=\"https://bryceclarke.github.io/virtual-double-categories-workshop/\">https://bryceclarke.github.io/virtual-double-categories-workshop/</a></p>\n<p>Research seminars: <a href=\"https://researchseminars.org/seminar/VirtualDoubleCategoriesWorkshop\">https://researchseminars.org/seminar/VirtualDoubleCategoriesWorkshop</a></p>\n<p>The goal of the workshop is to bring together researchers to share recent <br>\nwork on double categories and their applications to domains such as <br>\ncomputer science, type theory, applied category theory, and higher <br>\ncategory theory. The workshop will be open for everyone to attend online, <br>\nwith recordings of the talks being uploaded after the workshop is finished.</p>\n<p>Speakers have been invited to give talks all along the <br>\n“expository–technical” scale, so the workshop will hopefully be of interest <br>\nto both those who are new to double categories and want to learn about <br>\nthe fundamental techniques and viewpoints, and also to domain <br>\nspecialists who are interested in technical results and current topics of <br>\nactive research.</p>\n<p>We hope that this workshop will create a snapshot of the research area <br>\nas it currently stands together with directions for future work, as well as <br>\nprovide an invitation to people wanting to know more about the area, or<br>\nwho are wondering if the tools or ideas in double category theory might <br>\nbe useful to their own research.</p>\n<p>FORMAT AND REGISTRATION</p>\n<p>The workshop will be hosted on Zoom, and we welcome all participants. <br>\nIf you are interested in joining the workshop, then please use the <br>\nregistration link below so that we can contact you closer to the time with <br>\nthe Zoom link and other participation information.</p>\n<p>After the workshop has finished, all the recorded talks will be made <br>\npublicly available.</p>\n<p>Registration link: <a href=\"https://forms.gle/ZyFu9R1GZ41aRyG59\">https://forms.gle/ZyFu9R1GZ41aRyG59</a></p>\n<p>SPEAKERS</p>\n<p>Nicolas Behr<br>\nJohn Bourke<br>\nMatteo Capucci<br>\nMatthew Di Meglio<br>\nBojana Femić<br>\nSeerp Roald Koudenburg<br>\nMichael Lambert<br>\nJade Master<br>\nLyne Moser<br>\nChad Nester<br>\nSusan Niefield<br>\nJuan Orendain<br>\nSimona Paoli<br>\nRobert Paré<br>\nClaudio Pisani<br>\nDorette Pronk<br>\nBrandon Shapiro<br>\nChristina Vasilakopoulou<br>\nPaula Verdugo</p>\n<p>PROGRAM</p>\n<p>The full schedule for the workshop is available on the website <br>\nand at the link below (where it will be displayed in your own timezone):<br>\n<a href=\"https://researchseminars.org/seminar/VirtualDoubleCategoriesWorkshop\">https://researchseminars.org/seminar/VirtualDoubleCategoriesWorkshop</a><br>\nTitles and abstracts will be made available over the coming weeks. <br>\nThe workshop will be held:</p>\n<p>Monday 28th Nov. at 17:30 - 20:30 UTC<br>\nTuesday 29th Nov. to Friday 2nd Dec. at 15:00 - 19:30 UTC</p>\n<p>CONTACT</p>\n<p>For any questions, please contact the organisers (email both): <br>\nBryce Clarke &lt;<a href=\"mailto:bryce.clarke@inria.fr\">bryce.clarke@inria.fr</a>&gt; <br>\nTim Hosgood &lt;<a href=\"mailto:tim.hosgood@math.su.se\">tim.hosgood@math.su.se</a>&gt;</p>",
+        "id": 307304520,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1667307304
+    },
+    {
+        "content": "<p>Cool!  I presume the pun on \"virtual\" is intended?</p>",
+        "id": 307418340,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1667343569
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/229141-general.3A-events/topic/Virtual.20Double.20Categories.20Workshop/near/307418340\">said</a>:</p>\n<blockquote>\n<p>Cool!  I presume the pun on \"virtual\" is intended?</p>\n</blockquote>\n<p>Absolutely :)</p>",
+        "id": 307449290,
+        "sender_full_name": "Bryce Clarke",
+        "timestamp": 1667364196
+    },
+    {
+        "content": "<p>I'm looking forward to the talks, but the name of the workshop is a little misleading <span aria-label=\"grimacing\" class=\"emoji emoji-1f62c\" role=\"img\" title=\"grimacing\">:grimacing:</span> (I imagine only Seerp Roald Koudenburg's talk will actually be about virtual double categories.)</p>",
+        "id": 307517803,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1667394279
+    },
+    {
+        "content": "<p>Hi everyone, just a reminder that this workshop kicks off tomorrow, Monday 28 November at 17:30 UTC!</p>",
+        "id": 312500434,
+        "sender_full_name": "Bryce Clarke",
+        "timestamp": 1669571639
+    },
+    {
+        "content": "<p>To view the schedule in your own time zone, you may visit the research seminars website <a href=\"https://researchseminars.org/seminar/VirtualDoubleCategoriesWorkshop\">here</a>.</p>",
+        "id": 312500608,
+        "sender_full_name": "Bryce Clarke",
+        "timestamp": 1669571740
+    },
+    {
+        "content": "<p>I believe this should display the time in each reader's own time zone: <time datetime=\"2022-11-28T17:30:00Z\">2022-11-28T17:30:00 UTC</time>.</p>",
+        "id": 312649891,
+        "sender_full_name": "Joe Moeller",
+        "timestamp": 1669648273
+    },
+    {
+        "content": "<p>You can now find the recordings of the talks on the workshop webpage, and we should have all of the slides uploaded in the near future.<br>\n<a href=\"https://bryceclarke.github.io/virtual-double-categories-workshop/\">https://bryceclarke.github.io/virtual-double-categories-workshop/</a></p>",
+        "id": 313963616,
+        "sender_full_name": "Bryce Clarke",
+        "timestamp": 1670247046
+    }
+]

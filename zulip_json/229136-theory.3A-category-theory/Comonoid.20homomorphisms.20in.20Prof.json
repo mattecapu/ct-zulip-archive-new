@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>In connection with work I am doing on double categories, I finally trying to understand <a href=\"https://ncatlab.org/nlab/show/cartesian%20bicategories\">[[cartesian bicategories]]</a> in the general (non-locally posetal) case. The two ur-examples of a cartesian bicategory are Rel and Span. In these good examples, the maps (1-cells with right adjoints) are isomorphic to functions, as one would hope. An apparently less nice example is Prof since I gather from the <a href=\"https://ncatlab.org/nlab/show/semifunctor#relation_to_profunctors\">nLab</a> that the maps in Prof are not functors but <a href=\"https://ncatlab.org/nlab/show/semifunctors\">[[semifunctors]]</a>!</p>\n<p>In a cartesian bicategory, every object has the structure of a comonoid (with laws holding up to iso) and so one can ask whether a 1-cell is a comonoid homorphism (again up to iso). My understanding is that maps are always comonoid homomorphisms but the converse need not hold unless the \"Frobenius condition\" is satisfied. Moreover, my impression again from the <a href=\"https://ncatlab.org/nlab/show/cartesian+bicategory#frobenius\">nLab</a> is that Prof does not satisfy this condition unless the objects are restricted to be groupoids. If all this is true, then it stands to reason that Prof could have comonoid homomorphisms that are not even maps. Does it?</p>",
+        "id": 405248389,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1701395991
+    },
+    {
+        "content": "<p>Just noting that I cross-posed this question to <a href=\"https://mathoverflow.net/q/459787\">MO</a>. I will report back if I get an answer.</p>",
+        "id": 405984120,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1701757621
+    },
+    {
+        "content": "<p>I'll report that I answered at MO, where it reaches a larger audience (who are not privy to this zulip). I remarked that it's easier to analyze the case of posets and profunctors between them. But yes, everything you said is correct. For example -- </p>\n<p>Yes, if <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>B</mi></mrow><annotation encoding=\"application/x-tex\">B</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span></span></span></span> is a cartesian bicategory satisfying the Frobenius conditions, then we can say that the bicategory where the 1-cells are the maps is locally groupoidal, i.e., the hom-categories are groupoids.</p>",
+        "id": 406421940,
+        "sender_full_name": "Todd Trimble",
+        "timestamp": 1701912451
+    },
+    {
+        "content": "<p>Thanks, this is great! Smart to sidestep some complications by looking at profunctors between posets. It's helpful to know that comonoid homomorphisms and left adjoints separate even in this case.</p>",
+        "id": 406455534,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1701922845
+    }
+]

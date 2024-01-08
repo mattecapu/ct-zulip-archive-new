@@ -1,0 +1,380 @@
+[
+    {
+        "content": "<p>I was thinking about the following:</p>\n<p>Given a category <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi></mrow><annotation encoding=\"application/x-tex\">A</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\">A</span></span></span></span> , if we can construct <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>A</mi><mo mathvariant=\"normal\" lspace=\"0em\" rspace=\"0em\">′</mo></msup></mrow><annotation encoding=\"application/x-tex\">A&#x27;</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7519em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">A</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.7519em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">′</span></span></span></span></span></span></span></span></span></span></span></span> the category of equivalence classes in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi></mrow><annotation encoding=\"application/x-tex\">A</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\">A</span></span></span></span>, using isomorphism as an equivalence relation, then it seems that we have the theorem that two arbitrary categories <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>D</mi></mrow><annotation encoding=\"application/x-tex\">D</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">D</span></span></span></span> are equivalent iff <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>C</mi><mo mathvariant=\"normal\" lspace=\"0em\" rspace=\"0em\">′</mo></msup></mrow><annotation encoding=\"application/x-tex\">C&#x27;</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7519em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.7519em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">′</span></span></span></span></span></span></span></span></span></span></span></span> is isomorphic to <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>D</mi><mo mathvariant=\"normal\" lspace=\"0em\" rspace=\"0em\">′</mo></msup></mrow><annotation encoding=\"application/x-tex\">D&#x27;</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7519em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">D</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.7519em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">′</span></span></span></span></span></span></span></span></span></span></span></span>.</p>\n<p>Is this legit?</p>\n<p>I seem to have seen this equivalence class category, but only for preorders, I think.</p>",
+        "id": 364551694,
+        "sender_full_name": "Jencel Panic",
+        "timestamp": 1686228761
+    },
+    {
+        "content": "<p>I think you'll find a counter example pretty quickly when you think about categories as preorders which can have multiple relations between objects, instead of just some yes/no. For example, consider the category with one point and just the identity morphism, and the category with just one point but with one (or more) non-trivial self-isomorphism(s). Then \"the\" functor from the former to the latter will never be full (i.e. it won't be surjective on morphisms), and any functor from the latter to the former will never be faithful (i.e. it won't be injective on morphisms), so they're not equivalent as categories, but their category of equivalence classes are the same: a single point in each.</p>",
+        "id": 364564561,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1686231373
+    },
+    {
+        "content": "<p>related is the notion of a <a href=\"https://ncatlab.org/nlab/show/skeleton\">[[skeleton]]</a> of a category</p>",
+        "id": 364572365,
+        "sender_full_name": "Josselin Poiret",
+        "timestamp": 1686232941
+    },
+    {
+        "content": "<p>Two categories are equivalent iff their skeletons are isomorphic</p>",
+        "id": 364594743,
+        "sender_full_name": "Martti Karvonen",
+        "timestamp": 1686236795
+    },
+    {
+        "content": "<p>That's true in the presence of the axiom of choice. You'll find that quite a bit more difficult to prove otherwise...</p>",
+        "id": 364607293,
+        "sender_full_name": "Jacques Carette",
+        "timestamp": 1686239138
+    },
+    {
+        "content": "<p>I guess the issue is that you can't prove that an arbitrary cat has a skeleton without AC?</p>",
+        "id": 364611824,
+        "sender_full_name": "Martti Karvonen",
+        "timestamp": 1686240081
+    },
+    {
+        "content": "<p>Correct: consider an arbitrarily large indiscrete category. It's contractible. But you still have to \"choose\" an object to contract it to. You can likewise be forced to choose an arbitrarily large number of things.</p>",
+        "id": 364613863,
+        "sender_full_name": "Jacques Carette",
+        "timestamp": 1686240481
+    },
+    {
+        "content": "<p>I think it's just a bit unclear what \"the category of equivalence classes\" was supposed to be here, and trying to construct that more explicitly might be clarifying.</p>",
+        "id": 364619740,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1686241863
+    },
+    {
+        "content": "<p>Yes, it probably can be defined in a ways that work and ones that doesn't.   </p>\n<p>What I had in mind was basically the same concept as that of the skeleton of a category, only instead of taking one object in each isomorphism class to take the whole class.<br>\n<a href=\"/user_uploads/21317/9mNQcm4FnoXRWHcLk9RJW77J/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/9mNQcm4FnoXRWHcLk9RJW77J/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/9mNQcm4FnoXRWHcLk9RJW77J/image.png\"></a></div>",
+        "id": 364621495,
+        "sender_full_name": "Jencel Panic",
+        "timestamp": 1686242274
+    },
+    {
+        "content": "<p>Yes, but I'm suggesting you try to spell that all the way out to notice something enlightening. (What are the morphisms between two equivalence classes, and how can you show that the set of morphisms is well-defined if you switch objects representing a class?)</p>",
+        "id": 364626942,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1686243594
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"296322\">@Jacques Carette</span> that's a bad example, I don't need the axiom of choice to make a single choice, but I guess the point was the end of the sentence that as soon as there are infinitely many isomorphism classes we need some version of AC to deduce that we can collapse them all in a reversible way.</p>",
+        "id": 364653590,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1686250830
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"609515\">@Kevin Arlin</span> I guess the main reason it works with skeletons, but not equivalence classes directly is that with skeletons you can represent all morphisms that go between objects that are part of the equivalence class as a morphisms between your object of choice and itself, whereas if you go with equivalence classes there is no simple way to represent them.</p>",
+        "id": 364760307,
+        "sender_full_name": "Jencel Panic",
+        "timestamp": 1686296867
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/TFFCleEtentEv0p7ry4fans7/image.jpg\">image.jpg</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/TFFCleEtentEv0p7ry4fans7/image.jpg\" title=\"image.jpg\"><img src=\"/user_uploads/21317/TFFCleEtentEv0p7ry4fans7/image.jpg\"></a></div>",
+        "id": 364760688,
+        "sender_full_name": "Jencel Panic",
+        "timestamp": 1686296957
+    },
+    {
+        "content": "<p>I think most people agree that taking a category C and trying to form a new category C' where objects are equivalence classes of objects of C is an idea that runs into problems when you try to make it precise, and that taking a <a href=\"https://ncatlab.org/nlab/show/skeleton\">[[skeleton]]</a> is the closest thing that actually works (thought it requires being able to choose a representative of each isomorphism class, which fails in some contexts).   But I don't actually know a <em>theorem</em> that makes precise the sense in which this idea inevitably runs into problems.</p>",
+        "id": 364877818,
+        "sender_full_name": "John Baez",
+        "timestamp": 1686321537
+    },
+    {
+        "content": "<p>Maybe you could try to do this: assume <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>:</mo><mrow><mi mathvariant=\"bold\">C</mi><mi mathvariant=\"bold\">a</mi><mi mathvariant=\"bold\">t</mi></mrow><mo>→</mo><mrow><mi mathvariant=\"bold\">C</mi><mi mathvariant=\"bold\">a</mi><mi mathvariant=\"bold\">t</mi></mrow></mrow><annotation encoding=\"application/x-tex\">F: \\mathbf{Cat} \\to \\mathbf{Cat}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6861em;\"></span><span class=\"mord\"><span class=\"mord mathbf\">Cat</span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6861em;\"></span><span class=\"mord\"><span class=\"mord mathbf\">Cat</span></span></span></span></span> is a 2-functor that maps any category <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span> to <em>some</em> category <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo stretchy=\"false\">(</mo><mi>C</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">F(C)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mclose\">)</span></span></span></span> for which the set of objects is the set of isomorphism classes of objects of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span>.   (There are various 2-functors like this.)   Also assume that <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo stretchy=\"false\">(</mo><mi>C</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">F(C)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mclose\">)</span></span></span></span> is equivalent to <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span> for all <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span>.   Is that enough to get a contradiction?  If not, maybe also assume there is a <em>natural</em> equivalence </p>\n<p><span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>α</mi><mo>:</mo><msub><mn>1</mn><mrow><mi mathvariant=\"bold\">C</mi><mi mathvariant=\"bold\">a</mi><mi mathvariant=\"bold\">t</mi></mrow></msub><mo>⇒</mo><mi>F</mi></mrow><annotation encoding=\"application/x-tex\">\\alpha: 1_{\\mathbf{Cat}} \\Rightarrow F</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.0037em;\">α</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.7944em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord\">1</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3303em;\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\"><span class=\"mord mathbf mtight\">Cat</span></span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">⇒</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span></span></span></span>.   </p>\n<p>Is that enough to get a contradiction?   If not, assume also that for each <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi><mo>∈</mo><mrow><mi mathvariant=\"bold\">C</mi><mi mathvariant=\"bold\">a</mi><mi mathvariant=\"bold\">t</mi></mrow></mrow><annotation encoding=\"application/x-tex\">C \\in \\mathbf{Cat}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7224em;vertical-align:-0.0391em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">∈</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6861em;\"></span><span class=\"mord\"><span class=\"mord mathbf\">Cat</span></span></span></span></span>, </p>\n<p><span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>α</mi><mi>C</mi></msub><mo>:</mo><mi>C</mi><mo>→</mo><mi>F</mi><mo stretchy=\"false\">(</mo><mi>C</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">\\alpha_C : C \\to F(C)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.5806em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.0037em;\">α</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3283em;\"><span style=\"top:-2.55em;margin-left:-0.0037em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\" style=\"margin-right:0.07153em;\">C</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mclose\">)</span></span></span></span> </p>\n<p>sends each object of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span> to its isomorphism class.   Is that enough to get a contradiction?</p>",
+        "id": 364879390,
+        "sender_full_name": "John Baez",
+        "timestamp": 1686321857
+    },
+    {
+        "content": "<p>If not, maybe also assume that <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>α</mi><mi>C</mi></msub></mrow><annotation encoding=\"application/x-tex\">\\alpha_C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.5806em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.0037em;\">α</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3283em;\"><span style=\"top:-2.55em;margin-left:-0.0037em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\" style=\"margin-right:0.07153em;\">C</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span> sends each functor <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo>:</mo><mi>C</mi><mo>→</mo><mi>D</mi></mrow><annotation encoding=\"application/x-tex\">f: C \\to D</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">D</span></span></span></span> to a functor <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo stretchy=\"false\">(</mo><mi>f</mi><mo stretchy=\"false\">)</mo><mo>:</mo><mi>F</mi><mo stretchy=\"false\">(</mo><mi>C</mi><mo stretchy=\"false\">)</mo><mo>→</mo><mi>F</mi><mo stretchy=\"false\">(</mo><mi>D</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">F(f) : F(C) \\to F(D)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">D</span><span class=\"mclose\">)</span></span></span></span> that maps each isomorphism class <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">[</mo><mi>c</mi><mo stretchy=\"false\">]</mo></mrow><annotation encoding=\"application/x-tex\">[c]</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">[</span><span class=\"mord mathnormal\">c</span><span class=\"mclose\">]</span></span></span></span> to the isomorphism class <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">[</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>c</mi><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">]</mo></mrow><annotation encoding=\"application/x-tex\">[f(c)]</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">[</span><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">c</span><span class=\"mclose\">)]</span></span></span></span>.  Is that enough to get a contradiction?</p>",
+        "id": 364881158,
+        "sender_full_name": "John Baez",
+        "timestamp": 1686322222
+    },
+    {
+        "content": "<p>And so on: keep on listing the desired properties of this desired 2-functor <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi></mrow><annotation encoding=\"application/x-tex\">F</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span></span></span></span> until you're able to prove a contradiction, and thus make precise the sense in which this idea is a bad idea.</p>",
+        "id": 364881578,
+        "sender_full_name": "John Baez",
+        "timestamp": 1686322311
+    },
+    {
+        "content": "<p>It could be that you get a contradiction only if you assume the negation of the axiom of choice.</p>",
+        "id": 364881847,
+        "sender_full_name": "John Baez",
+        "timestamp": 1686322354
+    },
+    {
+        "content": "<p>Well, if you assume AC, then it's possible to define a skeleton of C whose objects are the isomorphism classes of C.</p>",
+        "id": 364884860,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1686322956
+    },
+    {
+        "content": "<p>Okay, so you're saying that in this outline of mine you'll only hit a contradiction if you assume some <em>anti-choice</em>, e.g. assume that it's <em>not</em> possible to find, for every category <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span>, a map sending isomorphism classes of objects of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span> to objects of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span>, that's a left inverse to the map sending objects to their isomorphism classes.</p>",
+        "id": 364894894,
+        "sender_full_name": "John Baez",
+        "timestamp": 1686324890
+    },
+    {
+        "content": "<p>Yeah, I think so.</p>",
+        "id": 364900902,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1686326224
+    },
+    {
+        "content": "<p>Yeah, I don't know how to do this myself but I would hope you could show that in some models of set theory there exists a specific category <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span> such that the set of isomorphism classes of its objects admits no category structure equivalent to <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi><mi mathvariant=\"normal\">.</mi></mrow><annotation encoding=\"application/x-tex\">C.</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mord\">.</span></span></span></span></p>",
+        "id": 364913945,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1686329107
+    },
+    {
+        "content": "<p>By the way, this is fairly easy (and also important) if instead of working with ordinary small categories (which are \"internal to the category of sets\") we look at categories internal to something else, like categories internal to the category of smooth manifolds.</p>",
+        "id": 364916864,
+        "sender_full_name": "John Baez",
+        "timestamp": 1686329775
+    },
+    {
+        "content": "<p>All this stuff about \"failures of the axiom of choice\" becomes a lot more vivid, at least to me, if we leave the category of sets and go to categories that topologists and differential topologists care about.</p>",
+        "id": 364917793,
+        "sender_full_name": "John Baez",
+        "timestamp": 1686330029
+    },
+    {
+        "content": "<p>We don't need to talk about specific models at all -- we can just show that <em>if</em> such a thing can be done for every category <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span>, then we can prove AC.  This then implies contrapositively that in a model where AC fails, our statement must be false.  And this is pretty easy: for any surjection <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi><mo>:</mo><mi>E</mi><mo>→</mo><mi>B</mi></mrow><annotation encoding=\"application/x-tex\">p:E\\to B</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.625em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\">p</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05764em;\">E</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span></span></span></span>, let <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>B</mi></mrow><annotation encoding=\"application/x-tex\">B</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span></span></span></span> be a discrete category and let <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>E</mi></mrow><annotation encoding=\"application/x-tex\">E</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05764em;\">E</span></span></span></span> be a category in such a way that <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi></mrow><annotation encoding=\"application/x-tex\">p</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.625em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\">p</span></span></span></span> is fully faithful.  Then <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>B</mi></mrow><annotation encoding=\"application/x-tex\">B</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span></span></span></span> is isomorphic to the set of isomorphisms classes of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>E</mi></mrow><annotation encoding=\"application/x-tex\">E</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05764em;\">E</span></span></span></span>, so if the latter were equivalent to <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>E</mi></mrow><annotation encoding=\"application/x-tex\">E</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05764em;\">E</span></span></span></span>, then <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>p</mi></mrow><annotation encoding=\"application/x-tex\">p</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.625em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\">p</span></span></span></span> would have a section.</p>",
+        "id": 364923105,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1686331372
+    },
+    {
+        "content": "<p>Ahh, nice, it's the same thing as saying that if every ffeso functor is an equivalence then AC holds, which somehow feels more obvious.</p>",
+        "id": 364924019,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1686331584
+    },
+    {
+        "content": "<p>Nice - I was figuring that out that as I ate breakfast.   By the way, is \"ffeso\" something people actually write?  I've seen \"eso\" and \"bijo\".</p>",
+        "id": 364936215,
+        "sender_full_name": "John Baez",
+        "timestamp": 1686334717
+    },
+    {
+        "content": "<p>I haven't seen \"ffeso\" or \"bijo\", though I have seen \"bo\" and \"bo+ff\" and \"ff+eso\".</p>",
+        "id": 364936708,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1686334851
+    },
+    {
+        "content": "<p>Those are fun words to pronounce, though probably nobody actually says them.</p>",
+        "id": 364937576,
+        "sender_full_name": "John Baez",
+        "timestamp": 1686335103
+    },
+    {
+        "content": "<p>Thanks for the responses.</p>",
+        "id": 365158226,
+        "sender_full_name": "Jencel Panic",
+        "timestamp": 1686414805
+    },
+    {
+        "content": "<p>In general, it seems like equivalence is much easier to define for pre-orders than for categories. You can just say that two functors <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi></mrow><annotation encoding=\"application/x-tex\">F</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>G</mi></mrow><annotation encoding=\"application/x-tex\">G</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\">G</span></span></span></span> are isomorphic if <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>≅</mo><mi>F</mi><mo stretchy=\"false\">(</mo><mi>G</mi><mo stretchy=\"false\">(</mo><mi>a</mi><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">a \\cong F(G(a))</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.589em;\"></span><span class=\"mord mathnormal\">a</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">≅</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">G</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">a</span><span class=\"mclose\">))</span></span></span></span></p>",
+        "id": 370652544,
+        "sender_full_name": "Jencel Panic",
+        "timestamp": 1688020247
+    },
+    {
+        "content": "<p>For future reference, here is a summary of my findings on this topic:</p>\n<ul>\n<li>\n<p>Two categories are equivalent when there is a functor that is fully faithful and essentially surjective.</p>\n</li>\n<li>\n<p>Two preorders are equivalent when there is an essentially surjective functor (as all functors in orders are fully faithful). </p>\n</li>\n<li>\n<p>If we have an essentially surjective functor, then the categories' <em>equivalence classes</em> are isomorphic.</p>\n</li>\n<li>\n<p>If we have an fully-faithful and essentially surjective functor, then the categories' <em>skeletons</em> are isomorphic (and the categories are equivalent).</p>\n</li>\n</ul>",
+        "id": 386381855,
+        "sender_full_name": "Jencel Panic",
+        "timestamp": 1692622246
+    },
+    {
+        "content": "<p>It's not quite clear what you mean by \"the categories' equivalence classes.\"</p>",
+        "id": 386419432,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1692631542
+    },
+    {
+        "content": "<p>Seems to be \"set/class of isomorphism classes\".</p>",
+        "id": 386426628,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1692633217
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"612694\">Jencel Panic</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/Category.20equivalence.20and.20equivalence.20classes/near/386381855\">said</a>:</p>\n<blockquote>\n<ul>\n<li>Two preorders are equivalent when there is an essentially surjective functor [....]</li>\n</ul>\n</blockquote>\n<p>I don't think so.  Let 1 stand for a preorder with just one object.  Then for any preorder P there exists a unique functor from P to 1.  This is essentially surjective whenever P has at least one object.  But that does not imply that every preorder with at least one object is equivalent to 1.</p>\n<blockquote>\n<ul>\n<li>If we have an essentially surjective functor, then the categories' <em>equivalence classes</em> are isomorphic.</li>\n</ul>\n</blockquote>\n<p>The same counterexample disproves this claim.</p>",
+        "id": 386429502,
+        "sender_full_name": "John Baez",
+        "timestamp": 1692634089
+    },
+    {
+        "content": "<p>The rest of the claims in your bulleted list look correct to me.  </p>\n<p>This is an example of why it's very good for us to summarize what we've learned in discussions here, but maybe not so good to mark topics as \"resolved\".</p>",
+        "id": 386430410,
+        "sender_full_name": "John Baez",
+        "timestamp": 1692634443
+    },
+    {
+        "content": "<p>Thanks for the response, <span class=\"user-mention\" data-user-id=\"275920\">@John Baez</span> </p>\n<blockquote>\n<p>but maybe not so good to mark topics as \"resolved\".</p>\n</blockquote>\n<p>Just to make sure, is this a joke? I am getting it as such.</p>",
+        "id": 386463845,
+        "sender_full_name": "Jencel Panic",
+        "timestamp": 1692648029
+    },
+    {
+        "content": "<p>Or you meant to say that someone might get confused by the fact that the topic is resolved by thinking that everything is correct?</p>",
+        "id": 386464068,
+        "sender_full_name": "Jencel Panic",
+        "timestamp": 1692648126
+    },
+    {
+        "content": "<p>It's not a joke.  I've been trying to convince people here that the ability to \"resolve\" topics on Zulip is good for teams of programmers who want to know which issues with their software have been resolved, but not so good in math.  In math almost any discussion is potentially endless.  Even when it seems like a question has been settled there can be useful new points of view.   And if someone declares a question is officially \"resolved\", it may reduce the chance that people will look at the discussion and catch mistakes.</p>",
+        "id": 386472663,
+        "sender_full_name": "John Baez",
+        "timestamp": 1692650594
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/Category.20equivalence.20and.20equivalence.20classes/near/386472663\">said</a>:</p>\n<blockquote>\n<p>It's not a joke.  I've been trying to convince people here that the ability to \"resolve\" topics on Zulip is good for teams of programmers who want to know which issues with their software have been resolved, but not so good in math.  In math almost any discussion is potentially endless.  Even when it seems like a question has been settled there can be useful new points of view.   And if someone declares a question is officially \"resolved\", it may reduce the chance that people will look at the discussion and catch mistakes.</p>\n</blockquote>\n<p>I wouldn't say it's necessarily a math vs. programming question, you've surely heard of bike-shedding, and that can apply equally well to math or to code imo</p>",
+        "id": 386613492,
+        "sender_full_name": "Josselin Poiret",
+        "timestamp": 1692712224
+    },
+    {
+        "content": "<p>I hadn't heard of bikeshedding. Apparently it refers to \"Futile expenditure of time and energy in discussion of marginal technical issues.\"<br>\nSince the point of this stream is to discuss technical issues (and there is no objective point of view from which to judge them as marginal...), time and energy expended to that end is unlikely to be futile.</p>",
+        "id": 386617887,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1692713241
+    },
+    {
+        "content": "<p>I hadn't heard of bikeshedding, either.  You beat me to the clarification by a few seconds, Morgan.  (:</p>",
+        "id": 386618136,
+        "sender_full_name": "Jason Erbele",
+        "timestamp": 1692713296
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"275920\">@John Baez</span>  Noted, I agree that marking topics as resolved does not make sense for the way discussions are held here, even for the #questions channel.</p>",
+        "id": 386631501,
+        "sender_full_name": "Jencel Panic",
+        "timestamp": 1692716707
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/Category.20equivalence.20and.20equivalence.20classes/near/386429502\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"612694\">Jencel Panic</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/Category.20equivalence.20and.20equivalence.20classes/near/386381855\">said</a>:</p>\n<blockquote>\n<ul>\n<li>Two preorders are equivalent when there is an essentially surjective functor [....]</li>\n</ul>\n</blockquote>\n<p>I don't think so.  Let 1 stand for a preorder with just one object.  Then for any preorder P there exists a unique functor from P to 1.  This is essentially surjective whenever P has at least one object.  But that does not imply that every preorder with at least one object is equivalent to 1.</p>\n</blockquote>\n<p>Whoa, I didn't see that coming :)<br>\nNow I am wondering whether there is a way to <em>make it correct</em> by adding more conditions. I will look into it.</p>",
+        "id": 386633776,
+        "sender_full_name": "Jencel Panic",
+        "timestamp": 1692717287
+    },
+    {
+        "content": "<p>A map between preorders is always faithful, but not necessarily full. You need the map to be order-reflecting as well as order-preserving to get an equivalence!</p>",
+        "id": 386656423,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1692723708
+    },
+    {
+        "content": "<p>I found it interesting to figure out why the unique functor from a discrete preorder 2 (with two objects) to a discrete preorder 1 (with one object) isn't full. I think this is because there's no morphism between the two objects in 2, but there is a morphism between the images of these objects in 1.</p>",
+        "id": 386658570,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1692724424
+    },
+    {
+        "content": "<p>I think this is a nice example of why you usually shouldn't say \"a morphism between two objects\", but instead say \"a morphism from one object to another\".  The direction matters a lot!</p>",
+        "id": 386685239,
+        "sender_full_name": "John Baez",
+        "timestamp": 1692735006
+    },
+    {
+        "content": "<p>There's definitely a morphism between the two objects of 2.  Namely, there's a morphism from the first object to the second object.   But there's not a morphism from the second object to the first object.   And that's why the functor from 2 to 1 is not full!</p>",
+        "id": 386685530,
+        "sender_full_name": "John Baez",
+        "timestamp": 1692735130
+    },
+    {
+        "content": "<p>Saying \"there's a morphism between two objects\" is a bit like saying \"a gunshot was exchanged between Fred and John\".   It leaves you wondering about something very important: who shot whom!</p>",
+        "id": 386685673,
+        "sender_full_name": "John Baez",
+        "timestamp": 1692735204
+    },
+    {
+        "content": "<p>Note that I define 2 as a discrete preorder with two objects. So, there are no morphisms between the two objects of my 2. Maybe there's a better name I could have given this category!</p>",
+        "id": 386686082,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1692735364
+    },
+    {
+        "content": "<p>Oh, yikes!  Well, you are using 2 differently than most category theorists.  Often it means the ordinal 2, which is the poset </p>\n<p><span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>0</mn><mo>→</mo><mn>1</mn></mrow><annotation encoding=\"application/x-tex\"> 0 \\to 1</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">0</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">1</span></span></span></span></p>",
+        "id": 386686459,
+        "sender_full_name": "John Baez",
+        "timestamp": 1692735547
+    },
+    {
+        "content": "<p>The unique a functor from this 2 of mine to 1 isn't full, even though \"there's a morphism between the two objects in 2\".</p>",
+        "id": 386686913,
+        "sender_full_name": "John Baez",
+        "timestamp": 1692735751
+    },
+    {
+        "content": "<p>Thanks for pointing that out! That's another nice example that helps me better understand what fullness looks like.</p>",
+        "id": 386687088,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1692735842
+    },
+    {
+        "content": "<p>Yes, I think it's cute!</p>\n<p>But if I'd been reading more carefully I would have seen you said your 2 was a discrete preorder, so I can't accuse you of not explaining yourself clearly!</p>",
+        "id": 386687149,
+        "sender_full_name": "John Baez",
+        "timestamp": 1692735859
+    },
+    {
+        "content": "<p>I have seen the category with two objects and no morphisms aside from the requisite identity morphisms referred to as <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/x-tex\">1+1</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7278em;vertical-align:-0.0833em;\"></span><span class=\"mord\">1</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">1</span></span></span></span>.  Taking <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn></mrow><annotation encoding=\"application/x-tex\">2</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">2</span></span></span></span> to be the ordinal as described by John, we find that in category theory, <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/x-tex\">1+1</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7278em;vertical-align:-0.0833em;\"></span><span class=\"mord\">1</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">1</span></span></span></span> is not equivalent to <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn></mrow><annotation encoding=\"application/x-tex\">2</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">2</span></span></span></span>, which is also cute, but takes a bit of getting used to.</p>",
+        "id": 386706982,
+        "sender_full_name": "Jason Erbele",
+        "timestamp": 1692744000
+    },
+    {
+        "content": "<p>At least there's a functor <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>+</mo><mn>1</mn><mo>→</mo><mn>2</mn></mrow><annotation encoding=\"application/x-tex\">1 + 1 \\to 2</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7278em;vertical-align:-0.0833em;\"></span><span class=\"mord\">1</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">1</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">2</span></span></span></span> that's bijective on objects.   So when you go to math grad school you learn that</p>\n<p><span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/x-tex\"> 1 + 1 = 2 </annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7278em;vertical-align:-0.0833em;\"></span><span class=\"mord\">1</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">1</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">2</span></span></span></span></p>\n<p>is not quite right: there's a map going one way, but it doesn't have an inverse.   <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 386770569,
+        "sender_full_name": "John Baez",
+        "timestamp": 1692772221
+    },
+    {
+        "content": "<p>On posets there's an \"ordinal sum\" operation (disjoint union then make everything on the left less than everything on the right) that does satisfy <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>⊕</mo><mn>1</mn><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/x-tex\">1 \\oplus 1 = 2</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7278em;vertical-align:-0.0833em;\"></span><span class=\"mord\">1</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">⊕</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">1</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">2</span></span></span></span>. I never checked it extends to a monoidal product on <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">C</mi><mi mathvariant=\"bold\">a</mi><mi mathvariant=\"bold\">t</mi></mrow><annotation encoding=\"application/x-tex\">\\mathbf{Cat}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6861em;\"></span><span class=\"mord\"><span class=\"mord mathbf\">Cat</span></span></span></span></span>, but I think it probably should</p>",
+        "id": 386804835,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1692784376
+    },
+    {
+        "content": "<p>Personally speaking I prefer to always define <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn></mrow><annotation encoding=\"application/x-tex\">2</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">2</span></span></span></span> as <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/x-tex\">1 + 1</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7278em;vertical-align:-0.0833em;\"></span><span class=\"mord\">1</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">1</span></span></span></span> whenever that has a reasonable interpretation. I call the category with 2 objects and 1 nontrivial morphism \"<span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>→</mo></mrow><annotation encoding=\"application/x-tex\">\\to</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.3669em;\"></span><span class=\"mrel\">→</span></span></span></span>\", which has the nice property that if you write <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>G</mi><mi>H</mi></msup></mrow><annotation encoding=\"application/x-tex\">G^H</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8413em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">G</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8413em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\" style=\"margin-right:0.08125em;\">H</span></span></span></span></span></span></span></span></span></span></span> for the exponential in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">C</mi><mi mathvariant=\"bold\">a</mi><mi mathvariant=\"bold\">t</mi></mrow><annotation encoding=\"application/x-tex\">\\mathbf{Cat}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6861em;\"></span><span class=\"mord\"><span class=\"mord mathbf\">Cat</span></span></span></span></span>, ie. the category whose objects are functors <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>H</mi><mo>→</mo><mi>G</mi></mrow><annotation encoding=\"application/x-tex\">H \\to G</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\">G</span></span></span></span>, then the arrow category of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>G</mi></mrow><annotation encoding=\"application/x-tex\">G</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\">G</span></span></span></span> is <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>G</mi><mo>→</mo></msup></mrow><annotation encoding=\"application/x-tex\">G^\\to</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">G</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6198em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mrel mtight\">→</span></span></span></span></span></span></span></span></span></span></span></p>",
+        "id": 386805095,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1692784478
+    },
+    {
+        "content": "<p>I agree that <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>→</mo></mrow><annotation encoding=\"application/x-tex\">\\to</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.3669em;\"></span><span class=\"mrel\">→</span></span></span></span> is clearer than 2, but <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>→</mo><mo>→</mo><mo>→</mo><mo>→</mo><mo>→</mo><mo>→</mo></mrow><annotation encoding=\"application/x-tex\">\\to\\to\\to\\to\\to\\to</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.3669em;\"></span><span class=\"mrel\">→→→→→→</span></span></span></span> is harder to write than 7, and when we get to <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>ω</mi></mrow><annotation encoding=\"application/x-tex\">\\omega</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">ω</span></span></span></span> I think ordinal notation is definitely better.</p>",
+        "id": 386813284,
+        "sender_full_name": "John Baez",
+        "timestamp": 1692787301
+    },
+    {
+        "content": "<p>But I'm just kidding: people who study simplicial sets write [7] for the ordinal <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>→</mo><mo>→</mo><mo>→</mo><mo>→</mo><mo>→</mo><mo>→</mo></mrow><annotation encoding=\"application/x-tex\">\\to\\to\\to\\to\\to\\to</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.3669em;\"></span><span class=\"mrel\">→→→→→→</span></span></span></span>, not 7.  So you can do that.</p>",
+        "id": 386813564,
+        "sender_full_name": "John Baez",
+        "timestamp": 1692787379
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275901\">Jules Hedges</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/Category.20equivalence.20and.20equivalence.20classes/near/386804835\">said</a>:</p>\n<blockquote>\n<p>On posets there's an \"ordinal sum\" operation (disjoint union then make everything on the left less than everything on the right) that does satisfy <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>1</mn><mo>⊕</mo><mn>1</mn><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/x-tex\">1 \\oplus 1 = 2</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7278em;vertical-align:-0.0833em;\"></span><span class=\"mord\">1</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">⊕</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">1</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">2</span></span></span></span>. I never checked it extends to a monoidal product on <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">C</mi><mi mathvariant=\"bold\">a</mi><mi mathvariant=\"bold\">t</mi></mrow><annotation encoding=\"application/x-tex\">\\mathbf{Cat}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6861em;\"></span><span class=\"mord\"><span class=\"mord mathbf\">Cat</span></span></span></span></span>, but I think it probably should.</p>\n</blockquote>\n<p>We discussed this recently <a href=\"#narrow/stream/229199-learning.3A-questions/topic/Linear.20sums.20in.20categories/near/379826319\">here</a>: to add two categories <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>D</mi></mrow><annotation encoding=\"application/x-tex\">D</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">D</span></span></span></span> this way, take the collage of the terminal profunctor from <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span> to <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>D</mi></mrow><annotation encoding=\"application/x-tex\">D</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">D</span></span></span></span>.   On the nLab it's called the <a href=\"https://ncatlab.org/nlab/show/ordinal+sum#ordinal_sum_of_categories\">ordinal sum of categories</a>.</p>",
+        "id": 386814281,
+        "sender_full_name": "John Baez",
+        "timestamp": 1692787608
+    },
+    {
+        "content": "<p>I also prefer the meaning <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn>2</mn><mo>=</mo><mn>1</mn><mo>+</mo><mn>1</mn></mrow><annotation encoding=\"application/x-tex\">2=1+1</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">2</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.7278em;vertical-align:-0.0833em;\"></span><span class=\"mord\">1</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">1</span></span></span></span>.  Sometimes I write <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>→</mo></mrow><annotation encoding=\"application/x-tex\">\\to</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.3669em;\"></span><span class=\"mrel\">→</span></span></span></span> for the walking arrow, other times <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"bold\">2</mn></mrow><annotation encoding=\"application/x-tex\">\\mathbf{2}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord mathbf\">2</span></span></span></span> or <code>\\mathbb{2}</code> (the latter from package <code>bbold</code>), and the latter generalize better to higher ordinals.</p>",
+        "id": 386932099,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1692816302
+    },
+    {
+        "content": "<p>By the way, the simplicial notation is actually offset by one: the walking arrow is <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">[</mo><mn>1</mn><mo stretchy=\"false\">]</mo></mrow><annotation encoding=\"application/x-tex\">[1]</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">[</span><span class=\"mord\">1</span><span class=\"mclose\">]</span></span></span></span>, not <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">[</mo><mn>2</mn><mo stretchy=\"false\">]</mo></mrow><annotation encoding=\"application/x-tex\">[2]</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">[</span><span class=\"mord\">2</span><span class=\"mclose\">]</span></span></span></span>.</p>",
+        "id": 386932161,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1692816333
+    }
+]

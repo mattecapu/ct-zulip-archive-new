@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>A new paper of mine, joint with <span class=\"user-mention\" data-user-id=\"276777\">@Mike Shulman</span>,  just went live on the arxiv!</p>\n<p>It may be accessed here: <a href=\"https://arxiv.org/abs/2311.18781\">https://arxiv.org/abs/2311.18781</a></p>\n<p>We construct a new type theory in which it is possible to coinductively construct semi-simplicial types in full semantic generality. In particular, the discrete mode of our theory has semantics in any CwF with pi-types, universes, and ω-limits; any ∞-topos model will satisfy these properties. We accomplish this through a syntactic primitive called <em>display</em>, which is, in semantics, the fibrant counterpart of décalage on augmented semi-simplicial diagrams.</p>\n<p>I am opening this thread to start a discussion on our results! <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span></p>",
+        "id": 405257102,
+        "sender_full_name": "Astra Kolomatskaia",
+        "timestamp": 1701399096
+    },
+    {
+        "content": "<p>Congrats! ^_^</p>",
+        "id": 405275270,
+        "sender_full_name": "Chris Grossack (they/them)",
+        "timestamp": 1701406087
+    },
+    {
+        "content": "<p>Wow, this is amazing! I need to read the whole paper soon; the intro is extremely clear and insightful.</p>",
+        "id": 406644967,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1701995382
+    }
+]

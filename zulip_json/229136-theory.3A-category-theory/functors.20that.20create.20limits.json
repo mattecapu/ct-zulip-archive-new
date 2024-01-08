@@ -1,0 +1,110 @@
+[
+    {
+        "content": "<p>Are there any interesting hypotheses on a functor which guarantee it creates limits, other than the well known theorem that monadic functors create limits.</p>\n<p>I would accept something close to this such as some weird more general notion of monadicity.</p>",
+        "id": 376351308,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1689687116
+    },
+    {
+        "content": "<p>I am trying to prove this functor creates limits but my impression from the literature is that it is probably not monadic.</p>",
+        "id": 376351594,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1689687169
+    },
+    {
+        "content": "<p>Here is a toy example. Let <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span> be a category. Let <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo>:</mo><mi>a</mi><mo>→</mo><mi>b</mi></mrow><annotation encoding=\"application/x-tex\">f  : a\\to b</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">a</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">b</span></span></span></span> be a distinguished morphism in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span>.<br>\nCall an <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi></mrow><annotation encoding=\"application/x-tex\">f</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span></span></span></span>-injective object any pair <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><mi>c</mi><mo separator=\"true\">,</mo><mi>h</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">(c,h)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">c</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\">h</span><span class=\"mclose\">)</span></span></span></span> where <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>c</mi></mrow><annotation encoding=\"application/x-tex\">c</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">c</span></span></span></span> is an object of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>h</mi></mrow><annotation encoding=\"application/x-tex\">h</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">h</span></span></span></span> is a section of the map <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>−</mo><mo>∘</mo><mi>f</mi><mo>:</mo><mi>H</mi><mi>o</mi><mi>m</mi><mo stretchy=\"false\">(</mo><mi>b</mi><mo separator=\"true\">,</mo><mi>c</mi><mo stretchy=\"false\">)</mo><mo>→</mo><mi>H</mi><mi>o</mi><mi>m</mi><mo stretchy=\"false\">(</mo><mi>a</mi><mo separator=\"true\">,</mo><mi>c</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">-\\circ f : Hom(b,c)\\to Hom(a,c)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6667em;vertical-align:-0.0833em;\"></span><span class=\"mord\">−</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">∘</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\">Ho</span><span class=\"mord mathnormal\">m</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">b</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\">c</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\">Ho</span><span class=\"mord mathnormal\">m</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">a</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\">c</span><span class=\"mclose\">)</span></span></span></span>. <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>h</mi></mrow><annotation encoding=\"application/x-tex\">h</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">h</span></span></span></span> associates to every map <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi><mo>→</mo><mi>c</mi></mrow><annotation encoding=\"application/x-tex\">a\\to c</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">a</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">c</span></span></span></span> a choice of extension along <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi></mrow><annotation encoding=\"application/x-tex\">f</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span></span></span></span>.</p>\n<p>A morphism of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi></mrow><annotation encoding=\"application/x-tex\">f</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span></span></span></span>-injective objects is a morphism of objects in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span> respecting the extension functions.</p>\n<p>Then this functor creates limits, but it is not monadic in general.</p>",
+        "id": 376354303,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1689687606
+    },
+    {
+        "content": "<p>I am trying to prove a more general version of this theorem using double categories and I am wondering if there is some intermediate lemma I could prove which would help.</p>",
+        "id": 376354846,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1689687682
+    },
+    {
+        "content": "<p>Can you think of any broader hypothesis which guarantees this?</p>",
+        "id": 376355183,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1689687744
+    },
+    {
+        "content": "<p>The forgetful functors from categories of algebras for (pointed) endofunctors create limits. More generally, the forgetful functors from categories of algebras for the <a href=\"https://ncatlab.org/nlab/show/relative+monad\">relative</a> analogue of pointed endofunctors create limits. In particular, categories of algebras for algebraic injectives (i.e. the structure you describe) are categories of algebras for pointed functors in this latter sense, and so this captures your example.</p>",
+        "id": 376372068,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1689690626
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276092\">@Nathanael Arkor</span>  Thank you, that is precisely what I meant by \"weird more general notion of monadicity\", amazing hahahahaha. I will look into this.</p>\n<p>As a follow up, although I am pushing my luck here, are you aware of anything like this for 2-categories where we have a notion of limit/colimit, maybe endowed with equipments or yoneda structures, or having enough comma objects to talk about pointwise Kan extensions?</p>\n<p>For context, I am thinking about the 2-category of double categories and \"algebraic injectives\" with respect to a double category.</p>",
+        "id": 376428499,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1689701956
+    },
+    {
+        "content": "<p>It's probably worth mentioning that I don't know a reference for the limit creation result for \"pointed functors\", but the proof is essentially the same as for algebraic injectives.</p>",
+        "id": 376435104,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1689703488
+    },
+    {
+        "content": "<p>Regarding the follow up question: do you mean that you'd like some notion of \"object of algebraic injectives\" and a statement that the forgetful 1-cell creates limits, which specialises to your example in the 2-category of small categories?</p>",
+        "id": 376436364,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1689703811
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/functors.20that.20create.20limits/near/376436364\">said</a>:</p>\n<blockquote>\n<p>Regarding the follow up question: do you mean that you'd like some notion of \"object of algebraic injectives\" and a statement that the forgetful 1-cell creates limits, which specialises to your example in the 2-category of small categories?</p>\n</blockquote>\n<p>Yes, something like that. There is a concrete definition of the \"double category of algebraic injectives\" in a paper by Garner, characterized by a universal property (which is not very 2-categorical afaict) and I am trying to prove right now that the forgetful functor creates limits (more generally, creates pointwise right Kan extensions, which is a bit stronger.) If this stuff about relative pointed endofunctors / relative monads generalizes cleanly to the 2-categorical setting, that seems promising.</p>",
+        "id": 376452465,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1689708090
+    },
+    {
+        "content": "<p>The definition of algebra object for a relative monad in <a href=\"https://arxiv.org/abs/2302.14014\">The formal theory of relative monads</a> can be adapted to algebra object for a \"pointed functor\" by dropping the extension operator condition. The proof that the forgetful 1-cell creates (weighted) limits in <a href=\"https://arxiv.org/abs/2305.10405\">Relative monadicity</a> should then carry across directly. (You would need to check Garner's definition satisfies the universal property, though; I'm not sure I've come across his definition.)</p>",
+        "id": 376459718,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1689709995
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276092\">@Nathanael Arkor</span> Is there a standard virtual equipment on double categories whose tight cells are strict double functors and whose underlying 2 category of tight cells has horizontal natural transformations for 2-cells</p>",
+        "id": 377111354,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1689887143
+    },
+    {
+        "content": "<p>i guess loose cells A-&gt;B are profunctors taking values in the double category of sets, functions and spans.  these might need to be lax functors rather than pseudo functors though.</p>",
+        "id": 377111960,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1689887328
+    },
+    {
+        "content": "<p><a href=\"https://ncatlab.org/nlab/show/double%20profunctor\">[[double profunctor]]</a>?</p>",
+        "id": 377123888,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1689891466
+    },
+    {
+        "content": "<p>The relevant part being </p>\n<blockquote>\n<p>Namely, internal categories, functors, and profunctors in any category with pullbacks always form a virtual double category, and in fact a virtual equipment. Thus, in particular, there is a virtual equipment DblProf of double categories, double functors, and double profunctors.</p>\n</blockquote>",
+        "id": 377124106,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1689891536
+    },
+    {
+        "content": "<p>Yep, that's probably it. I still have to understand how to work with virtual equipments though. I understand Yoneda structures but it will probably take me some time to understand what is going on here.</p>",
+        "id": 377164196,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1689910338
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276092\">@Nathanael Arkor</span> I gave a simple toy example before but sometimes toy examples omit important information. I will explain my problem more fully. <br>\n<a href=\"https://arxiv.org/abs/1412.6559\">https://arxiv.org/abs/1412.6559</a><br>\nI am interested in the left and right double pitchfork operators described in Proposition 18 (equation 6.2) of this paper, which assign to a double category over C a category of maps with the algebraic right lifting property (or left lifting property) with respect to all maps in C.<br>\nI want to prove that in general, if <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>j</mi><mo>:</mo><mi>A</mi><mo>→</mo><mi>S</mi><mi>q</mi><mo stretchy=\"false\">(</mo><mi>C</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">j : A \\to Sq(C)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.854em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05724em;\">j</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\">A</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">Sq</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mclose\">)</span></span></span></span> is a double category over <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span>, the double pitchfork <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>A</mi><mrow><mo>⋔</mo><mo>⋔</mo></mrow></msup></mrow><annotation encoding=\"application/x-tex\">A^{\\pitchfork\\pitchfork}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8476em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">A</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8476em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mrel amsrm mtight\">⋔⋔</span></span></span></span></span></span></span></span></span></span></span></span> creates limits and more generally creates certain kinds of pointwise right Kan extensions. I was wondering if this double pitchfork could somehow be realized as the category of algebras of a (perhaps relative, perhaps loose) monad or pointed endofunctor. Does anything jump out at you about this? I don't think in general it will be truly monadic except in special cases, but it would be interesting if it was always \"Pro-monadic\" in some sense.</p>",
+        "id": 378259079,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1690229334
+    },
+    {
+        "content": "<p>I'm not familiar with this construction, but perhaps a first step is to check whether the double pitchfork operation is a conservative functor? Then you can reduce creation of limits to preservation of limits.</p>",
+        "id": 378393027,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1690276309
+    }
+]

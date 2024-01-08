@@ -1,0 +1,94 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>polynomial functors · deprecated: algebra &amp; CT · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230123-deprecated.3A-algebra-.26-CT/index.html">deprecated: algebra &amp; CT</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230123-deprecated.3A-algebra-.26-CT/topic/polynomial.20functors.html">polynomial functors</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="346500388"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/230123-deprecated%3A%20algebra%20%26%20CT/topic/polynomial%20functors/near/346500388" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Corfield <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230123-deprecated.3A-algebra-.26-CT/topic/polynomial.20functors.html#346500388">(Apr 03 2023 at 09:16)</a>:</h4>
+<p>Having watched David Spivak's very interesting talk "<a href="https://www.youtube.com/watch?v=Z5fdB6aUNBw">Dynamic organizational systems</a>", it seems the polynomial functors are everywhere in computer science. And all these even before generalising to dependent polynomials, which also find their use in CS, in e.g. <a href="https://arxiv.org/abs/2203.15544">Graph Neural Networks are Dynamic Programmers</a>.</p>
+<div class="youtube-video message_inline_image"><a data-id="Z5fdB6aUNBw" href="https://www.youtube.com/watch?v=Z5fdB6aUNBw"><img src="https://uploads.zulipusercontent.net/0e296339d89e787c1b64fb5d5e345a6479abee1f/68747470733a2f2f692e7974696d672e636f6d2f76692f5a356664423661554e42772f64656661756c742e6a7067"></a></div><p>What prospects then for dependent polynomial functors with symmetries? Not just working in a topos like G-Set, but allowing data types to have symmetries, as in Joachin Kock's <a href="https://arxiv.org/abs/1210.0828">Data types with symmetries and polynomial functors over groupoids</a>. Perhaps some form of equivariant learner?</p>
+<p>There must be plenty of useful work already done in mathematics. There's the use of generalised polynomials in representation theory, known there as <a href="https://arxiv.org/pdf/1205.2516.pdf#page=24">Tambara functors</a>. And we were seeing <a href="https://twitter.com/alfonsi_luigi/status/1641798815731658754">here</a> that double dimension reduction from physics is also an instance.</p>
+<div class="inline-preview-twitter"><div class="twitter-tweet"><a href="https://twitter.com/alfonsi_luigi/status/1641798815731658754"><img class="twitter-avatar" src="https://uploads.zulipusercontent.net/76f0f49fcb267e40f677597602cf0274eedad241/68747470733a2f2f7062732e7477696d672e636f6d2f70726f66696c655f696d616765732f313438383835303838353933333436393639382f466a5561304159675f6e6f726d616c2e6a7067"></a><p><a href="https://twitter.com/DavidCorfield8">@DavidCorfield8</a> <a href="https://twitter.com/myers_jaz">@myers_jaz</a> <a href="https://twitter.com/mattecapu">@mattecapu</a> <a href="https://twitter.com/bgavran3">@bgavran3</a> Hi, I had a similar curiosity in the past!
+
+Suppose we consider nLab polynomial (∞,1)-functors [<a href="https://t.co/BS1d3iJm5n">https://ncatlab.org/nlab/show/polynomial+%28%E2%88%9E%2C1%29-functor</a>] for ∞-groupoids.
+
+If I choose f: pt --&gt; BG, it sounds like I should have a polynomial of the form p(X) = Hom(G,X)//G. Makes sense?</p><span>- Luigi Alfonsi (@alfonsi_luigi)</span></div></div>
+
+
+
+<a name="346768801"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/230123-deprecated%3A%20algebra%20%26%20CT/topic/polynomial%20functors/near/346768801" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Corfield <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230123-deprecated.3A-algebra-.26-CT/topic/polynomial.20functors.html#346768801">(Apr 04 2023 at 08:23)</a>:</h4>
+<p>It seems that the direction of travel  is towards  higher h-level, as with the polynomials in groupoids in <a href="https://arxiv.org/abs/2112.14050">A Cartesian Bicategory of Polynomial Functors in Homotopy Type Theory</a>. We might imagine then a double-category formulation, following Mike Shulman <a href="https://golem.ph.utexas.edu/category/2018/09/cartesian_double_categories.html">here</a>:</p>
+<blockquote>
+<p>The notion of cartesian bicategory was defined (by Carboni, Walters, Kelly, Verity, and Wood) to capture examples like these, but it is quite complicated. Moreover, to someone familiar with double categories, it is crying out to be reformulated in double-category language</p>
+</blockquote>
+
+
+
+<a name="346936629"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/230123-deprecated%3A%20algebra%20%26%20CT/topic/polynomial%20functors/near/346936629" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230123-deprecated.3A-algebra-.26-CT/topic/polynomial.20functors.html#346936629">(Apr 04 2023 at 18:15)</a>:</h4>
+<p>That article was from 2018.  I'd be sort of amazed if nobody had formulated cartesian bicategories using double categories yet.   Maybe someone like Mike has done it by now?</p>
+
+
+
+<a name="346963662"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/230123-deprecated%3A%20algebra%20%26%20CT/topic/polynomial%20functors/near/346963662" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nathanael Arkor <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230123-deprecated.3A-algebra-.26-CT/topic/polynomial.20functors.html#346963662">(Apr 04 2023 at 20:34)</a>:</h4>
+<p>It is shown in Proposition 3.1 of Lambert's <a href="http://www.tac.mta.ca/tac/volumes/38/33/38-33abs.html">Double Categories of Relations</a> that the underlying loose bicategory of a cartesian equipment is a cartesian bicategory.</p>
+
+
+
+<a name="346977810"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/230123-deprecated%3A%20algebra%20%26%20CT/topic/polynomial%20functors/near/346977810" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Evan Patterson <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230123-deprecated.3A-algebra-.26-CT/topic/polynomial.20functors.html#346977810">(Apr 04 2023 at 22:05)</a>:</h4>
+<p>In addition to Michael's nice paper, Aleiferi's <a href="https://arxiv.org/abs/1809.06940">PhD thesis</a> is all about cartesian double categories and cartesian equipments, which are the double-categorical analogue of the ideas around cartesian bicategories.</p>
+
+
+
+<a name="347054842"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/230123-deprecated%3A%20algebra%20%26%20CT/topic/polynomial%20functors/near/347054842" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Corfield <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230123-deprecated.3A-algebra-.26-CT/topic/polynomial.20functors.html#347054842">(Apr 05 2023 at 08:10)</a>:</h4>
+<p>Double categories of polynomial functors go back at least to Gambino and Kock's <a href="https://arxiv.org/abs/0906.4931">Polynomial functors and polynomial monads</a>.</p>
+
+
+
+<a name="353462534"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/230123-deprecated%3A%20algebra%20%26%20CT/topic/polynomial%20functors/near/353462534" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jacques Carette <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230123-deprecated.3A-algebra-.26-CT/topic/polynomial.20functors.html#353462534">(Apr 27 2023 at 19:42)</a>:</h4>
+<p>"Dependent polynomials with symmetries": isn't the first case of that Species?</p>
+<p>The mathematics of that is, of course, well understood. The applications to Computer Science are much more elusive. "Mathematician's symmetry" is rather hard to achieve in a computational setting. Oh, it's possible to do single cases in ad hoc ways, but what's hard is to do it <em>uniformly</em>, as the theory promises that it is possible to do.</p>
+<p>Conor McBride and I are actively working on that. We put out various cryptic comments about that on Mastodon, and our working notes are public on github.</p>
+<p>[And yes, we do know about QITs in HoTT. No, that's not a good answer.]</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

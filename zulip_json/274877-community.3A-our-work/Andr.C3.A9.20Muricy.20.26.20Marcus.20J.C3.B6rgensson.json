@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Our master's thesis on implementing Poly and mode-dependent dynamical systems in Cubical Agda was finally published :)</p>\n<p><a href=\"https://odr.chalmers.se/server/api/core/bitstreams/774ba4a2-58b4-407f-aa6b-b0209b6c7d70/content\">https://odr.chalmers.se/server/api/core/bitstreams/774ba4a2-58b4-407f-aa6b-b0209b6c7d70/content</a></p>",
+        "id": 411596397,
+        "sender_full_name": "André Muricy Santos",
+        "timestamp": 1704629673
+    },
+    {
+        "content": "<p>Congratulations!  Do you think someone will apply this?</p>",
+        "id": 411601922,
+        "sender_full_name": "John Baez",
+        "timestamp": 1704635503
+    },
+    {
+        "content": "<p>Thank you John! I don't know, but I want to see if poly is helpful to dynamical systems experts, I have a meeting with a researcher at Chalmers later this month where I'll show this and other work, maybe something comes out of that :)</p>",
+        "id": 411602322,
+        "sender_full_name": "André Muricy Santos",
+        "timestamp": 1704635826
+    }
+]

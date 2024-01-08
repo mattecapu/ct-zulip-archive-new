@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>Hi!  I'd like us AMS MRC chemistry folks - as many as can make it - to meet this Thursday, May 12, at noon Pacific Time.</p>",
+        "id": 281732147,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652123713
+    },
+    {
+        "content": "<p>Last time I explained the basics of how to get a dynamical system from a Petri net with rates; this time we can go a bit further with that and also talk more about projects.</p>",
+        "id": 281732218,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652123752
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"497033\">@Layla</span>  shall we video meet at 9 pm Sudan time (3 pm US eastern,  12 pm US western) this coming Tuesday, to learn a bit about how to write our own Algebraic Petri program?</p>",
+        "id": 282985771,
+        "sender_full_name": "Sam Tenka",
+        "timestamp": 1652991175
+    },
+    {
+        "content": "<p>I've asked Sophie if she can meet you then.</p>",
+        "id": 283027273,
+        "sender_full_name": "John Baez",
+        "timestamp": 1653026134
+    },
+    {
+        "content": "<p>As you've heard, <span class=\"user-mention\" data-user-id=\"281272\">@Sam Tenka</span> and <span class=\"user-mention\" data-user-id=\"497033\">@Layla</span>, Sophie can't meet then... sorry!  But she can meet an hour before my Thursday meeting: 2 pm Eastern Time.</p>",
+        "id": 283248470,
+        "sender_full_name": "John Baez",
+        "timestamp": 1653248994
+    },
+    {
+        "content": "<p>Thank you John for all your efforts and energy. Have been trying to just run the same code from last time but I got the following errors</p>\n<p><a href=\"/user_uploads/21317/4summencZzXwk05xEIIsgEI6/Screenshot-from-2022-05-23-17-38-35.png\">Screenshot-from-2022-05-23-17-38-35.png</a> <a href=\"/user_uploads/21317/lT4wyYSiW39EyZOxGSDqOrt8/Screenshot-from-2022-05-23-17-38-21.png\">Screenshot-from-2022-05-23-17-38-21.png</a> <a href=\"/user_uploads/21317/VG372oIPCQiFSwpzpz1RzOvC/Screenshot-from-2022-05-23-15-25-13.png\">Screenshot-from-2022-05-23-15-25-13.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/4summencZzXwk05xEIIsgEI6/Screenshot-from-2022-05-23-17-38-35.png\" title=\"Screenshot-from-2022-05-23-17-38-35.png\"><img src=\"/user_uploads/21317/4summencZzXwk05xEIIsgEI6/Screenshot-from-2022-05-23-17-38-35.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/21317/lT4wyYSiW39EyZOxGSDqOrt8/Screenshot-from-2022-05-23-17-38-21.png\" title=\"Screenshot-from-2022-05-23-17-38-21.png\"><img src=\"/user_uploads/21317/lT4wyYSiW39EyZOxGSDqOrt8/Screenshot-from-2022-05-23-17-38-21.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/21317/VG372oIPCQiFSwpzpz1RzOvC/Screenshot-from-2022-05-23-15-25-13.png\" title=\"Screenshot-from-2022-05-23-15-25-13.png\"><img src=\"/user_uploads/21317/VG372oIPCQiFSwpzpz1RzOvC/Screenshot-from-2022-05-23-15-25-13.png\"></a></div>",
+        "id": 283674676,
+        "sender_full_name": "Layla",
+        "timestamp": 1653345853
+    },
+    {
+        "content": "<p>Hi Layla, try replacing <code>using LabelledPetriNet</code> with <code>using AlgebraicPetri</code>. The keyword <code>using</code> is used to load packages. In this case, the package is AlgebraicPetri and <code>LabelledPetriNet</code> is a specific data type provided by the package.</p>",
+        "id": 283676490,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1653347086
+    },
+    {
+        "content": "<p>Thanks, Evan!   </p>\n<p>Evan and Sophie know how this software works - and maybe other people here?  Not me, alas.   But you should just ask questions, <span class=\"user-mention\" data-user-id=\"497033\">@Layla</span>, and I'll try to make sure they get answered.</p>",
+        "id": 283679022,
+        "sender_full_name": "John Baez",
+        "timestamp": 1653349094
+    },
+    {
+        "content": "<p>Yep, and Kris also knows how it works.</p>",
+        "id": 283781438,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1653414231
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"275965\">@Evan Patterson</span> i'm eager to meet with <span class=\"user-mention\" data-user-id=\"497033\">@Layla</span> and <span class=\"user-mention\" data-user-id=\"276589\">@Sophie Libkind</span> (pinging you rn instead of them because you're active on zulip rn) and am hoping to do some last-minute preparation so as not to waste their time.  I've installed <code>Julia</code> and I'm wondering how or where-to-learn-how to get set up with <code>AlgebraicPetri</code> as well.  Might you point me the way?</p>",
+        "id": 284037914,
+        "sender_full_name": "Sam Tenka",
+        "timestamp": 1653587365
+    },
+    {
+        "content": "<p>The short answer is that you install AlgebraicPetri the same way as any other Julia package, so once you learn that, you'll be in a good shape.</p>",
+        "id": 284038146,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1653587462
+    },
+    {
+        "content": "<p>Danke, will google!</p>",
+        "id": 284039159,
+        "sender_full_name": "Sam Tenka",
+        "timestamp": 1653587903
+    }
+]

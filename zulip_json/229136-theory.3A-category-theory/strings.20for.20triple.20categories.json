@@ -1,0 +1,392 @@
+[
+    {
+        "content": "<p>Hello all, I think I've found a way to draw string diagrams in 3 dimensions. Here is a cube of a triple category. <a href=\"/user_uploads/21317/NcrUiNRbPXAJC8GjeEDD6mh9/cube.png\">cube.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/NcrUiNRbPXAJC8GjeEDD6mh9/cube.png\" title=\"cube.png\"><img src=\"/user_uploads/21317/NcrUiNRbPXAJC8GjeEDD6mh9/cube.png\"></a></div>",
+        "id": 299466014,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663526962
+    },
+    {
+        "content": "<p>The cube connects the inner square to the outer square. The four beads are the side faces of the cube.</p>",
+        "id": 299466080,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663527020
+    },
+    {
+        "content": "<p>Cubes compose in three ways: horizontal, vertical, and transversal. <a href=\"/user_uploads/21317/oPkkBHWJ3MbqFOOIqT6-mdc2/cube-comp-h.png\">cube-comp-h.png</a> <a href=\"/user_uploads/21317/v8BwA-PhpcS4_pmpKg57361Q/cube-comp-v.png\">cube-comp-v.png</a> <a href=\"/user_uploads/21317/RU5Vhp5OH4Z1kdYsz3KgJw1A/cube-comp-t.png\">cube-comp-t.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/oPkkBHWJ3MbqFOOIqT6-mdc2/cube-comp-h.png\" title=\"cube-comp-h.png\"><img src=\"/user_uploads/21317/oPkkBHWJ3MbqFOOIqT6-mdc2/cube-comp-h.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/21317/v8BwA-PhpcS4_pmpKg57361Q/cube-comp-v.png\" title=\"cube-comp-v.png\"><img src=\"/user_uploads/21317/v8BwA-PhpcS4_pmpKg57361Q/cube-comp-v.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/21317/RU5Vhp5OH4Z1kdYsz3KgJw1A/cube-comp-t.png\" title=\"cube-comp-t.png\"><img src=\"/user_uploads/21317/RU5Vhp5OH4Z1kdYsz3KgJw1A/cube-comp-t.png\"></a></div>",
+        "id": 299466102,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663527044
+    },
+    {
+        "content": "<p>Let me know what you think!</p>",
+        "id": 299466545,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663527397
+    },
+    {
+        "content": "<p>If the cube isn't obvious, here's a picture: <a href=\"/user_uploads/21317/V6rDV0Eqbj5PJpXJ9ltd8GGM/cube-exp.png\">cube-exp.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/V6rDV0Eqbj5PJpXJ9ltd8GGM/cube-exp.png\" title=\"cube-exp.png\"><img src=\"/user_uploads/21317/V6rDV0Eqbj5PJpXJ9ltd8GGM/cube-exp.png\"></a></div>",
+        "id": 299466677,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663527495
+    },
+    {
+        "content": "<p>Interesting.  Am I right that the horizontal and vertical compositions don't graphically enforce that the entire faces being composed along match up?</p>",
+        "id": 299477672,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1663537065
+    },
+    {
+        "content": "<p>It is enforced: you compose along one of the four beads, which is an entire face of the cube. If two cubes are composable along a face, they share a bead on the left &amp; right or top &amp; bottom - but the two will appear as mirror images of each other, because the cube is viewed from inner to outer.</p>",
+        "id": 299479766,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663539247
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/qs7UKm8NO8CBDN_lv4ajbrxh/cube-comp-h-exp.png\">cube-comp-h-exp.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/qs7UKm8NO8CBDN_lv4ajbrxh/cube-comp-h-exp.png\" title=\"cube-comp-h-exp.png\"><img src=\"/user_uploads/21317/qs7UKm8NO8CBDN_lv4ajbrxh/cube-comp-h-exp.png\"></a></div>",
+        "id": 299479961,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663539484
+    },
+    {
+        "content": "<p>You have to learn to read from inner to outer. It feels weird at first, because diagrams appear \"upside down\" on the top face and \"backwards\" on the left face; but it's actually been easy to become normal.</p>",
+        "id": 299480410,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663540017
+    },
+    {
+        "content": "<p>What I mean is that it's possible to draw a picture in which those two brown beads are different.  The fact that they have to be the same is an extra requirement, not imposed by the shape of the pictures.</p>",
+        "id": 299482652,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1663542561
+    },
+    {
+        "content": "<p>In contrast to how in an ordinary string diagram, the fact that domains and codomains match in a composition is enforced by the fact that each string in the picture has a single label, rather than an extra requirement that two distinct objects in the picture must have the same label.</p>",
+        "id": 299482725,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1663542646
+    },
+    {
+        "content": "<p>I understand.</p>\n<p>Okay, so I drew it this way to show the face of composition; but in practice, \"the middle disappears\" when you compose - these two beads matching is a rule on composition, and then you just get a cube like this: <a href=\"/user_uploads/21317/eGdXYe1ucG5taRwAbGCgw0Bd/cube-comp-h-red.png\">cube-comp-h-red.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/eGdXYe1ucG5taRwAbGCgw0Bd/cube-comp-h-red.png\" title=\"cube-comp-h-red.png\"><img src=\"/user_uploads/21317/eGdXYe1ucG5taRwAbGCgw0Bd/cube-comp-h-red.png\"></a></div>",
+        "id": 299483353,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663543452
+    },
+    {
+        "content": "<p>Does that version provide a place to label the vertical arrow in the \"outside\" of the face being composed along?</p>",
+        "id": 299497567,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1663559808
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275899\">Christian Williams</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/strings.20for.20triple.20categories/near/299466014\">said</a>:</p>\n<blockquote>\n<p>Hello all, I think I've found a way to draw string diagrams in 3 dimensions. Here is a cube of a triple category. <a href=\"/user_uploads/21317/NcrUiNRbPXAJC8GjeEDD6mh9/cube.png\">cube.png</a></p>\n</blockquote>\n<p>ha, very clever!</p>",
+        "id": 299533561,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1663581027
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/strings.20for.20triple.20categories/near/299497567\">said</a>:</p>\n<blockquote>\n<p>Does that version provide a place to label the vertical arrow in the \"outside\" of the face being composed along?</p>\n</blockquote>\n<p>No - I first drew the \"rule of composition\", conditioned by matching in the middle, as in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>→</mo><mi>y</mi><mo>→</mo><mi>z</mi></mrow><annotation encoding=\"application/x-tex\">x\\to y\\to z</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">x</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.625em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">y</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.04398em;\">z</span></span></span></span>. But then in this cube above it disappears, as in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>→</mo><mi>z</mi></mrow><annotation encoding=\"application/x-tex\">x\\to z</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">x</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.04398em;\">z</span></span></span></span>; it can no longer be composed along, so it is not needed in the diagram. </p>\n<p>But just as in ordinary composition, one can still use supplemental notation to record how the composite was formed, ie <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">Γ</mi><msub><mo>∗</mo><mi>τ</mi></msub><mi mathvariant=\"normal\">Δ</mi></mrow><annotation encoding=\"application/x-tex\">\\Gamma \\ast_\\tau \\Delta</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord\">Γ</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\"><span class=\"mbin\">∗</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.1514em;\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\" style=\"margin-right:0.1132em;\">τ</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\">Δ</span></span></span></span> for horizontally composing along the transformation <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>τ</mi></mrow><annotation encoding=\"application/x-tex\">\\tau</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.1132em;\">τ</span></span></span></span>.</p>",
+        "id": 299594955,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663603081
+    },
+    {
+        "content": "<p>so you have two ways of drawing, one \"reduced\" with no conditions and you lose the middle label, and one \"full\" with the middle label plus the condition that the two face-beads match. I think this is all analogous to lower dimensions.</p>",
+        "id": 299596372,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663603550
+    },
+    {
+        "content": "<p>In an ordinary string diagram, the string being composed along is still present and labeled in the diagram.</p>",
+        "id": 299596527,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1663603592
+    },
+    {
+        "content": "<p>I'm not trying to be too critical of your syntax; it looks intriguing!  I'm just trying to understand the differences.</p>",
+        "id": 299596578,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1663603611
+    },
+    {
+        "content": "<p>yes, I understand. I think there's just a couple necessary but small caveats to drawing in the third dimension.</p>",
+        "id": 299597260,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663603829
+    },
+    {
+        "content": "<p>one just has to understand that composing is matching faces, not only edges.</p>",
+        "id": 299597486,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663603915
+    },
+    {
+        "content": "<p>update: the general form of a cube is a bit more than I first drew; see below.<br>\n<a href=\"/user_uploads/21317/JyUIr26QUpo3UkQhoQSvK-kx/cube-2.png\">cube-2.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/JyUIr26QUpo3UkQhoQSvK-kx/cube-2.png\" title=\"cube-2.png\"><img src=\"/user_uploads/21317/JyUIr26QUpo3UkQhoQSvK-kx/cube-2.png\"></a></div>",
+        "id": 299865677,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663718689
+    },
+    {
+        "content": "<p>the outward edges and faces can be arbitrary composites, so we need a notation to delineate where the face starts and stops. for now, using dotted black lines seems to work fine.</p>",
+        "id": 299865783,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663718770
+    },
+    {
+        "content": "<p>for example, here is the associator of a double category, an invertible 3-cell: <a href=\"/user_uploads/21317/ZQhA8un0nkJq1lbdtFnONYFY/cube-assoc.png\">cube-assoc.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/ZQhA8un0nkJq1lbdtFnONYFY/cube-assoc.png\" title=\"cube-assoc.png\"><img src=\"/user_uploads/21317/ZQhA8un0nkJq1lbdtFnONYFY/cube-assoc.png\"></a></div>",
+        "id": 299865981,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663718914
+    },
+    {
+        "content": "<p>I think it also helps to make the third dimension more clear.</p>",
+        "id": 299866153,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663719042
+    },
+    {
+        "content": "<p>yesterday <span class=\"user-mention\" data-user-id=\"276777\">@Mike Shulman</span> noticed that so far these cubes have composite domain 2-cell but only a single codomain 2-cell (the outer square, with a big transparent \"bead\" covering up the inner square). how can we draw a cube with a composite codomain?</p>",
+        "id": 300266453,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663890039
+    },
+    {
+        "content": "<p>well one way to get a cube from a composite to a composite, we can of course compose two cubes, as drawn above horizontally and vertically. then, how do we generalize that picture to denote that the connecting faces are not just composites of single ones for each part of the composite?</p>",
+        "id": 300266734,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663890199
+    },
+    {
+        "content": "<p>here's my attempt so far - just draw one big bead from the inner composite to the outer composite. <a href=\"/user_uploads/21317/-1fbRV9QQtdYASAoFxvC7xn2/comp-cod.png\">comp-cod.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/-1fbRV9QQtdYASAoFxvC7xn2/comp-cod.png\" title=\"comp-cod.png\"><img src=\"/user_uploads/21317/-1fbRV9QQtdYASAoFxvC7xn2/comp-cod.png\"></a></div>",
+        "id": 300266896,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663890279
+    },
+    {
+        "content": "<p>it may look silly, but it might be sufficient. I'm not sure</p>",
+        "id": 300266906,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663890290
+    },
+    {
+        "content": "<p>I think there's probably no need for the bending, actually; just a big bead straight across</p>",
+        "id": 300267820,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663890786
+    },
+    {
+        "content": "<p>okay, I was misleading myself by starting with a horizontal composite. there is no need for the middle brown bead, it's much simpler.</p>",
+        "id": 300269249,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663891642
+    },
+    {
+        "content": "<p>hm, but you still need the brown string to show that the outer face is a composite.</p>",
+        "id": 300269443,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663891748
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/smHdX-8cH7wuGWl0WraWgGIL/comp-cod-2.png\">comp-cod-2.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/smHdX-8cH7wuGWl0WraWgGIL/comp-cod-2.png\" title=\"comp-cod-2.png\"><img src=\"/user_uploads/21317/smHdX-8cH7wuGWl0WraWgGIL/comp-cod-2.png\"></a></div>",
+        "id": 300270257,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663892209
+    },
+    {
+        "content": "<p>the middle dotted lines mean \"no connection between light green and dark green, except for however they are connected by the big bead\"</p>",
+        "id": 300270501,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663892350
+    },
+    {
+        "content": "<p>it's like a bridge passing over, and the light colors passing under, no connection between them</p>",
+        "id": 300271817,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663893358
+    },
+    {
+        "content": "<p>whatever notation works best so that the brown string can be there, to show the outer face as a composite</p>",
+        "id": 300271917,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1663893440
+    },
+    {
+        "content": "<p>I don't understand what this means.</p>",
+        "id": 300595236,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1664065373
+    },
+    {
+        "content": "<p>to draw a cube whose source and targets are both horizontal composites, I'm saying all we need to add to the picture is the vertical morphism along which the target square is a composite. and I'm noticing that it's consistent to simply draw the brown string there between them, floating above the source square; it's not blocking the view of anything below it, because displaying the composite source square requires duplicating its middle vertical morphism (the beige string connecting light green to light yellow) inside each \"window bead\" of the target.</p>",
+        "id": 300668858,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1664123394
+    },
+    {
+        "content": "<p>Could you perhaps give names to all the objects and morphisms and cells?  I have a lot of trouble referring to them as \"the brown string\" and \"the beige string\".</p>",
+        "id": 300715814,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1664166106
+    },
+    {
+        "content": "<p>And label them in the diagram?</p>",
+        "id": 300715819,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1664166113
+    },
+    {
+        "content": "<p>ah yes, sorry about that. here it is <a href=\"/user_uploads/21317/cmpl3LALfWbuwQsyBr5nx7B9/cube-hcomp-label.png\">cube-hcomp-label.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/cmpl3LALfWbuwQsyBr5nx7B9/cube-hcomp-label.png\" title=\"cube-hcomp-label.png\"><img src=\"/user_uploads/21317/cmpl3LALfWbuwQsyBr5nx7B9/cube-hcomp-label.png\"></a></div>",
+        "id": 300858733,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1664211219
+    },
+    {
+        "content": "<p>the source is the composite <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>H</mi><msub><mi>V</mi><mn>11</mn></msub><mo>∘</mo><mi>H</mi><msub><mi>V</mi><mn>21</mn></msub></mrow><annotation encoding=\"application/x-tex\">HV_{11} \\circ HV_{21}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">11</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">∘</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">21</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span>, and the target is the composite <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>H</mi><msub><mi>V</mi><mn>12</mn></msub><mo>∘</mo><mi>H</mi><msub><mi>V</mi><mn>22</mn></msub></mrow><annotation encoding=\"application/x-tex\">HV_{12}\\circ HV_{22}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">12</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">∘</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">22</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span></p>",
+        "id": 300858930,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1664211267
+    },
+    {
+        "content": "<p>the cube is framed by <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>H</mi><msub><mi>T</mi><mn>1</mn></msub><mo>:</mo><msub><mi>H</mi><mn>11</mn></msub><mo>∘</mo><msub><mi>H</mi><mn>31</mn></msub><mo>⇒</mo><mo stretchy=\"false\">(</mo><msub><mi>H</mi><mn>12</mn></msub><mo>∘</mo><msub><mi>H</mi><mn>32</mn></msub><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">(</mo><msub><mi>T</mi><mn>1</mn></msub><mo separator=\"true\">,</mo><msub><mi>T</mi><mn>3</mn></msub><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">HT_1: H_{11}\\circ H_{31}\\Rightarrow (H_{12}\\circ H_{32})(T_1,T_3)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">T</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">1</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.0813em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">11</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">∘</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.0813em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">31</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">⇒</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.0813em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">12</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">∘</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.0813em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">32</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mclose\">)</span><span class=\"mopen\">(</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">T</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">1</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">T</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">3</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mclose\">)</span></span></span></span>, etc. (I forgot to label the transversal <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>T</mi><mn>1</mn></msub><mo separator=\"true\">,</mo><mi mathvariant=\"normal\">.</mi><mi mathvariant=\"normal\">.</mi><mi mathvariant=\"normal\">.</mi><mo separator=\"true\">,</mo><msub><mi>T</mi><mn>4</mn></msub></mrow><annotation encoding=\"application/x-tex\">T_1, ..., T_4</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">T</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">1</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">...</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">T</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">4</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span> but one can infer them.</p>",
+        "id": 300859557,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1664211468
+    },
+    {
+        "content": "<p>any way, what I was saying is that if we duplicate <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>V</mi><mn>2</mn></msub></mrow><annotation encoding=\"application/x-tex\">V_2</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">2</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span>, so the beads of the source composite sit inside the beads of the target composite, then we can include <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>V</mi><mn>4</mn></msub></mrow><annotation encoding=\"application/x-tex\">V_4</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">4</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span> in the drawing, the string along which the target beads are composed. we only need some notation like these dotted lines to indicate \"no connection between <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>V</mi><mn>2</mn></msub></mrow><annotation encoding=\"application/x-tex\">V_2</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">2</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>V</mi><mn>4</mn></msub></mrow><annotation encoding=\"application/x-tex\">V_4</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">4</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span>, former is in the source and latter is in the target\"</p>",
+        "id": 300860684,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1664211806
+    },
+    {
+        "content": "<p>it's just like poking two holes in a box, rather than one.</p>",
+        "id": 300861028,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1664211907
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275899\">Christian Williams</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/strings.20for.20triple.20categories/near/300858930\">said</a>:</p>\n<blockquote>\n<p>the source is the composite <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>H</mi><msub><mi>V</mi><mn>11</mn></msub><mo>∘</mo><mi>H</mi><msub><mi>V</mi><mn>21</mn></msub></mrow><annotation encoding=\"application/x-tex\">HV_{11} \\circ HV_{21}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">11</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">∘</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">21</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span>, and the target is the composite <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>H</mi><msub><mi>V</mi><mn>12</mn></msub><mo>∘</mo><mi>H</mi><msub><mi>V</mi><mn>22</mn></msub></mrow><annotation encoding=\"application/x-tex\">HV_{12}\\circ HV_{22}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">12</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">∘</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">22</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span></p>\n</blockquote>\n<p>I don't see anything labeled <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>H</mi><msub><mi>V</mi><mn>11</mn></msub></mrow><annotation encoding=\"application/x-tex\">HV_{11}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">11</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span> or any of those other things.</p>\n<p>Could you maybe draw the same thing in ordinary notation, so I can compare?</p>",
+        "id": 300918290,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1664236639
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/ew24J5vxRlgKIwkEZq8aoGp2/cube-hcomp-diagram.png\">cube-hcomp-diagram.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/ew24J5vxRlgKIwkEZq8aoGp2/cube-hcomp-diagram.png\" title=\"cube-hcomp-diagram.png\"><img src=\"/user_uploads/21317/ew24J5vxRlgKIwkEZq8aoGp2/cube-hcomp-diagram.png\"></a></div>",
+        "id": 300920353,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1664238071
+    },
+    {
+        "content": "<p>Thanks!  So where are the cells <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>H</mi><msub><mi>V</mi><mn>11</mn></msub><mo separator=\"true\">,</mo><mi>H</mi><msub><mi>V</mi><mn>12</mn></msub><mo separator=\"true\">,</mo><mi>H</mi><msub><mi>V</mi><mn>21</mn></msub><mo separator=\"true\">,</mo><mi>H</mi><msub><mi>V</mi><mn>22</mn></msub></mrow><annotation encoding=\"application/x-tex\">HV_{11}, HV_{12}, HV_{21}, HV_{22}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">11</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">12</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">21</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">22</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span> notated in the string diagram picture?</p>",
+        "id": 301036180,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1664292435
+    },
+    {
+        "content": "<p><span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>H</mi><msub><mi>V</mi><mn>11</mn></msub></mrow><annotation encoding=\"application/x-tex\">HV_{11}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">11</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>H</mi><msub><mi>V</mi><mn>21</mn></msub></mrow><annotation encoding=\"application/x-tex\">HV_{21}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">21</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span> are the two inner beads, <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>H</mi><msub><mi>V</mi><mn>12</mn></msub></mrow><annotation encoding=\"application/x-tex\">HV_{12}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">12</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>H</mi><msub><mi>V</mi><mn>22</mn></msub></mrow><annotation encoding=\"application/x-tex\">HV_{22}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:-0.2222em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">22</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span> are the two outer beads.</p>",
+        "id": 301069889,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1664300283
+    },
+    {
+        "content": "<p>Can you label them please?</p>",
+        "id": 301070427,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1664300455
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/BtmG5-7YwgaDY3pwzt4u7ZcG/cube-hcomp-labels.png\">cube-hcomp-labels.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/BtmG5-7YwgaDY3pwzt4u7ZcG/cube-hcomp-labels.png\" title=\"cube-hcomp-labels.png\"><img src=\"/user_uploads/21317/BtmG5-7YwgaDY3pwzt4u7ZcG/cube-hcomp-labels.png\"></a></div>",
+        "id": 301082686,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1664302482
+    },
+    {
+        "content": "<p>Okay.  So what would you draw if the transversal domain is just a single cell and the codomain is a composite pair of them?</p>",
+        "id": 301102770,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1664307222
+    },
+    {
+        "content": "<p>we can make either one the inner beads the identity. the two choices are equal</p>",
+        "id": 301103098,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1664307329
+    },
+    {
+        "content": "<p>What if the transversal domain is a composite of three cells?</p>",
+        "id": 301103314,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1664307401
+    },
+    {
+        "content": "<p>Or if the transversal domain is the composite of two cells horizontally and the transversal codomain is the composite of two cells vertically?</p>",
+        "id": 301103375,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1664307421
+    },
+    {
+        "content": "<p>I'm proposing that in general we can add identities as needed, to express domain and codomain as the same form of composite</p>",
+        "id": 301105022,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1664307974
+    },
+    {
+        "content": "<p>That seems very artificial.</p>",
+        "id": 301105262,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1664308053
+    },
+    {
+        "content": "<p>I think I would find it easier to read with the codomain just given as a separate 2D diagram if necessary.</p>",
+        "id": 301123847,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1664315547
+    },
+    {
+        "content": "<p>I really think it's fine. identities are very useful in 2D strings, to make more clear standard forms. <a href=\"/user_uploads/21317/Z6Z_lZcbgUetIawSt51xmgH7/std-form.png\">std-form.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/Z6Z_lZcbgUetIawSt51xmgH7/std-form.png\" title=\"std-form.png\"><img src=\"/user_uploads/21317/Z6Z_lZcbgUetIawSt51xmgH7/std-form.png\"></a></div>",
+        "id": 301127079,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1664317120
+    },
+    {
+        "content": "<p>in all my drawings, beads are rectangles, giving both domain and codomain the same amount of space, even if they are very different sizes of composites. it gives each concept a clear and standard appearance.</p>",
+        "id": 301127382,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1664317274
+    },
+    {
+        "content": "<p>now the issue is just more obvious in 3D, because there is the aspect of depth and visibility. but it's the same idea</p>",
+        "id": 301127437,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1664317286
+    },
+    {
+        "content": "<p>if you see a serious problem, let me know. otherwise it's a matter of preference; one can always slice the cube as needed.</p>",
+        "id": 301128301,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1664317653
+    },
+    {
+        "content": "<p>Indeed, I was just letting you know what my preference would be.  (-:</p>",
+        "id": 301144310,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1664328433
+    },
+    {
+        "content": "<p>I'm impressed at how much you've managed to expressed in a (beautifully colourful) planar diagram <span class=\"user-mention\" data-user-id=\"275899\">@Christian Williams</span>! How are you producing these?</p>",
+        "id": 301182000,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1664354293
+    },
+    {
+        "content": "<p>thanks! I'm drawing them on Notability</p>",
+        "id": 301247488,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1664375001
+    },
+    {
+        "content": "<p>when I finish the thesis, I hope to work with a programmer to make an interactive app for string diagrams</p>",
+        "id": 301254613,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1664376937
+    }
+]

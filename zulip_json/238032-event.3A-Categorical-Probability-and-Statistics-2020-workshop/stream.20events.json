@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Stream created by <span class=\"user-mention silent\" data-user-id=\"276702\">Tobias Fritz</span>.</p>",
+        "id": 196931931,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1588962067
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> changed the <a href=\"/help/stream-permissions\">access permissions</a> for this stream from <strong>Public</strong> to <strong>Web-public</strong>.</p>",
+        "id": 397854235,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1697898674
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>Categorical Probability and Statistics 2020 workshop</strong> to <strong>event: Categorical Probability and Statistics 2020 workshop</strong>.</p>",
+        "id": 399480486,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698751578
+    }
+]

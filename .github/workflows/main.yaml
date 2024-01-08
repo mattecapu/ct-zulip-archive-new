@@ -1,0 +1,22 @@
+on:
+  workflow_dispatch:
+  schedule:
+   - cron: '0 12 * * *'
+
+jobs:
+  publish_archive_job:
+    runs-on: ubuntu-latest
+    name: A job to publish zulip-archive in GitHub pages
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Run archive
+      id: archive
+      uses: mattecapu/zulip-archive@master
+      with:
+        zuliprc: ${{ secrets.ZULIPRC }}
+        # Using the GitHub Token that is provided automatically by GitHub Actions
+        # (no setup needed).
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        delete_history: true
+        archive_branch: main

@@ -1,0 +1,176 @@
+[
+    {
+        "content": "<p>Come spend the summer at the Topos Institute! For early-career researchers, we’re excited to open up applications for our summer research associate (RA) program.</p>",
+        "id": 274211404,
+        "sender_full_name": "John Baez",
+        "timestamp": 1646444439
+    },
+    {
+        "content": "<p>Summer RAs are an important part of life at Topos — they help explore new directions relevant to Topos projects, and they bring new ideas, energy, and expertise to our research groups. This year we’ll welcome a new cohort of RAs to our offices in Berkeley, CA, with the program running from June to August.</p>",
+        "id": 274211410,
+        "sender_full_name": "John Baez",
+        "timestamp": 1646444445
+    },
+    {
+        "content": "<p>RAs will be responsible for performing an in-depth research or teaching project, mentored by a Topos faculty mentor or advisor. This year possible mentors may include Conal Elliott, Valeria de Paiva, Evan Patterson, Dana Scott, David Spivak, and others. RAs will work closely with their mentor to define and pursue a research project.</p>",
+        "id": 274211428,
+        "sender_full_name": "John Baez",
+        "timestamp": 1646444476
+    },
+    {
+        "content": "<p>Along the way, RAs will also participate in our weekly lunches and seminars, blog about their time here, and produce papers, books, software, or policy, according to the parameters of their project.</p>",
+        "id": 274211432,
+        "sender_full_name": "John Baez",
+        "timestamp": 1646444480
+    },
+    {
+        "content": "<p>Applications are now open. The position is full-time (~40 hours per week) and paid hourly starting at $30/hour. Unfortunately, Topos is not able to sponsor US work visas for participants.</p>\n<p>Please apply by Sunday March 27th. Offers of positions will be made in early April.</p>",
+        "id": 274211513,
+        "sender_full_name": "John Baez",
+        "timestamp": 1646444560
+    },
+    {
+        "content": "<p>For some more information, and to apply, <a href=\"https://topos.site/blog/2022/03/call-for-2022-summer-research-associates/\">go here</a>.</p>",
+        "id": 274211535,
+        "sender_full_name": "John Baez",
+        "timestamp": 1646444593
+    },
+    {
+        "content": "<p>Out of curiosity, are there any plans to host RAs in the Oxford office?</p>",
+        "id": 274238893,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1646481013
+    },
+    {
+        "content": "<p>That's an interesting idea, but I think not: Brendan Fong said </p>\n<blockquote>\n<p>Good: Dana Scott is excited about mentoring a project! He's suggested a project about a recent preprint of Peter Hines 'On strict reflexive extensionality in compact closed categories', but seems open to other topics too. So you could get paid to spend a summer learning from Dana Scott!</p>\n</blockquote>\n<blockquote>\n<p>Bad: We can't sponsor US work visas, so it's mostly an opportunity for people already based in the US in some way.</p>\n</blockquote>",
+        "id": 274255239,
+        "sender_full_name": "John Baez",
+        "timestamp": 1646501409
+    },
+    {
+        "content": "<p>Hi everyone, the call for applications for the 2023 Summer Research Associate program at Topos Institute is now open: <a href=\"https://topos.site/files/2023_Topos_Summer_RA_Announcement.pdf\">https://topos.site/files/2023_Topos_Summer_RA_Announcement.pdf</a></p>\n<p>This is a paid opportunity to do ACT research under the mentorship of research staff at Topos Institute. The position is in-person in Berkeley, CA. To get a sense of what people have done in the past, check out this website: <a href=\"https://topos.site/summer/\">https://topos.site/summer/</a></p>\n<p>The application deadline is <strong>February 15, 2023.</strong> If you have questions, feel free to ask!</p>",
+        "id": 309069085,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1668110709
+    },
+    {
+        "content": "<p>\"Topos is not able to sponsor visas for applicants.\" means that this is only open to US candidates?</p>",
+        "id": 309135812,
+        "sender_full_name": "Bryce Clarke",
+        "timestamp": 1668147848
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"275965\">@Evan Patterson</span></p>",
+        "id": 309136171,
+        "sender_full_name": "Bryce Clarke",
+        "timestamp": 1668148123
+    },
+    {
+        "content": "<p>AFAIU, it means that non-US candidates would have to already possess US work rights or get them through their own devices. If you'd like further clarification, I could put you in touch with someone in Topos Institute admin who is more qualified to answer this question.</p>",
+        "id": 309261922,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1668201619
+    },
+    {
+        "content": "<p>By the way, someone on Mathstodon asked why \"geometry of interaction\" is listed as a possible research topic.   Who is doing that?   (I associate it with French mathematicians, linear logic, etc.)</p>",
+        "id": 311025655,
+        "sender_full_name": "John Baez",
+        "timestamp": 1668867751
+    },
+    {
+        "content": "<p>Among non French people, I know Phil Scott and Abramsky who worked on that. As far as I understand GoI is something advanced based on linear logic such as Ludics which is even more obscure to me, or differential linear logic that nobody know unfortunately and yet other things, so the people who work on them obviously know well linear logic. At Topos, maybe <span class=\"user-mention\" data-user-id=\"276656\">@Valeria de Paiva</span> ?</p>",
+        "id": 311026828,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1668868294
+    },
+    {
+        "content": "<p>hi <span class=\"user-mention\" data-user-id=\"428716\">@Jean-Baptiste Vienney</span>  I'm afraid nothing to do with me. But you're right, I'm interested in the Geometry of Interaction as well as Differential Linear Logic and Automatic Differentiation amongst others.</p>",
+        "id": 311035935,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1668872904
+    },
+    {
+        "content": "<p>Ichiro Hasuo published a paper a few years ago about using GoI as a semantics for higher-order quantum computing. IIRC Claudia Faggian and Benoît Valiron, <span class=\"user-mention\" data-user-id=\"296986\">@Benoit Valiron</span>, used tools inspired from GoI for probabilistic/quantum computing too.<br>\nGirard was inspired by quantum physics when he introduced some more recent formulation of GoI based on Von Neumann algebras.<br>\nAs <span class=\"user-mention\" data-user-id=\"428716\">@Jean-Baptiste Vienney</span> mentioned, Abramsky also worked on it, connecting it to the Int construction.<br>\nThere is also a link with abstract machines that is used in some of the work above, but I don't know enough about the topic to really say more than that.<br>\nFor the link with QC, I think I remember that Kostia Chardonnet has done some work in that direction too.</p>",
+        "id": 311117443,
+        "sender_full_name": "Nicolas Blanco",
+        "timestamp": 1668938591
+    },
+    {
+        "content": "<p>There's a so-called \"Transcendentalist Circle\" of people (mostly young researchers I think) who work on GoI-related stuff: <a href=\"https://www.engboris.fr/ts/\">https://www.engboris.fr/ts/</a></p>",
+        "id": 311713478,
+        "sender_full_name": "Alex Gryzlov",
+        "timestamp": 1669152926
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275965\">Evan Patterson</span> <a href=\"#narrow/stream/245502-general.3A-positions/topic/Topos.20Institute.20summer.20research.20positions/near/309261922\">said</a>:</p>\n<blockquote>\n<p>AFAIU, it means that non-US candidates would have to already possess US work rights or get them through their own devices.</p>\n</blockquote>\n<p>To elaborate, I somehow forgot that there is precedent for this: one of our RAs last summer is not a US national but is a PhD student at a US university, and the visa she obtained through her university sufficed to employ her for the summer. So that's at least one way this can happen. I'm sure there are other ways but I'm not knowledgeable enough to advise on that.</p>",
+        "id": 311750952,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1669176349
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276047\">Alex Gryzlov</span> <a href=\"#narrow/stream/245502-general.3A-positions/topic/Topos.20Institute.20summer.20research.20positions/near/311713478\">said</a>:</p>\n<blockquote>\n<p>There's a so-called \"Transcendentalist Circle\" of people (mostly young researchers I think) who work on GoI-related stuff: <a href=\"https://www.engboris.fr/ts/\">https://www.engboris.fr/ts/</a></p>\n</blockquote>\n<p>Cool!</p>",
+        "id": 311775643,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1669192350
+    },
+    {
+        "content": "<p>Well hm it's more like a Zulip forum with a bunch of people vaguely interested in Girard's latest musings :p Boris and Valentin actually work on transcendental syntax though (which is something I personally feel is career suicide for young researchers and also kinda scientifically dubious…)</p>",
+        "id": 311811043,
+        "sender_full_name": "Lê Thành Dũng (Tito) Nguyễn",
+        "timestamp": 1669205346
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"278835\">@Lê Thành Dũng (Tito) Nguyễn</span> I work at the lab in which Valentin is doing his PhD; fortunately, he is surrounded by people who are more sceptical of the integrity of Girard's work.</p>",
+        "id": 311827835,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1669210791
+    },
+    {
+        "content": "<p>Yeah I know I spent nearly 4 years in that lab ^^</p>",
+        "id": 311837963,
+        "sender_full_name": "Lê Thành Dũng (Tito) Nguyễn",
+        "timestamp": 1669213933
+    },
+    {
+        "content": "<p>Haha sorry Tito, hadn't made the connection of who you were!</p>",
+        "id": 311838506,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1669214116
+    },
+    {
+        "content": "<p>All this information about geometry of interaction is great... but it doesn't answer the question I was trying to ask: <strong>who at the Topos Institute would mentor research assistants at Topos wanting to work on the geometry of interactions?</strong></p>",
+        "id": 312022404,
+        "sender_full_name": "John Baez",
+        "timestamp": 1669298531
+    },
+    {
+        "content": "<p>I guess people interpreted my question rather more broadly.</p>",
+        "id": 312022558,
+        "sender_full_name": "John Baez",
+        "timestamp": 1669298586
+    },
+    {
+        "content": "<p>Last summer Dana Scott mentored two RAs through this program, and he <em>might</em> mentor again this summer. I think that geometry of interaction is there because Dana has interest in it. But Dana is interested in many things, so I'm not sure how helpful that is as a guide to possible topics.</p>",
+        "id": 312066617,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1669314466
+    },
+    {
+        "content": "<p>Hi everyone, as a friendly reminder, the deadline to apply for the Topos Institute summer research program is next week, <strong>February 15</strong>. If you are interested, please do apply!</p>\n<p>The call for applications is here: <a href=\"https://topos.site/files/2023_Topos_Summer_RA_Announcement.pdf\">https://topos.site/files/2023_Topos_Summer_RA_Announcement.pdf</a></p>",
+        "id": 326263589,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1675729676
+    },
+    {
+        "content": "<p>Hi everyone, the time has come to annouce next summer's program. The call for applications for the 2024 Summer Research Associate program at Topos Institute is now open. Details and instructions on how to apply are here: <a href=\"https://topos.site/files/2024_Summer_RA_Announcement.pdf\">https://topos.site/files/2024_Summer_RA_Announcement.pdf</a></p>\n<p>As in past summers, this is a paid, in-person position located at our offices in Berkeley, California. The application deadline is <strong>February 1, 2024</strong>. Any questions are welcome.</p>",
+        "id": 402342960,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1700089428
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275965\">Evan Patterson</span> <a href=\"#narrow/stream/245502-community.3A-positions/topic/Topos.20Institute.20summer.20research.20positions/near/402342960\">said</a>:</p>\n<blockquote>\n<p>Hi everyone, the time has come to annouce next summer's program. The call for applications for the 2024 Summer Research Associate program at Topos Institute is now open. Details and instructions on how to apply are here: <a href=\"https://topos.site/files/2024_Summer_RA_Announcement.pdf\">https://topos.site/files/2024_Summer_RA_Announcement.pdf</a></p>\n<p>As in past summers, this is a paid, in-person position located at our offices in Berkeley, California. The application deadline is <strong>February 1, 2024</strong>. Any questions are welcome.</p>\n</blockquote>\n<p>we might as well recall that the Topos Institute cannot provide visas, so only people allowed to work in the US can be chosen.</p>",
+        "id": 402562888,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1700171394
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>Hi Everyone,</p>\n<p>What are books to start with to learn string diagrams?</p>\n<p>Thanks</p>",
+        "id": 404648516,
+        "sender_full_name": "Abderrahim Adrabi",
+        "timestamp": 1701182092
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"636904\">Abderrahim Adrabi</span> <a href=\"#narrow/stream/232160-learning.3A-reading-.26-references/topic/String.20diagrams/near/404648516\">said</a>:</p>\n<blockquote>\n<p>Hi Everyone,</p>\n<p>What are books to start with to learn string diagrams?</p>\n<p>Thanks</p>\n</blockquote>\n<p><a href=\"https://www.amazon.com/dp/1009317865/\">https://www.amazon.com/dp/1009317865/</a></p>",
+        "id": 404652289,
+        "sender_full_name": "JR",
+        "timestamp": 1701183197
+    },
+    {
+        "content": "<p>It's not a book, but <a href=\"https://arxiv.org/abs/0908.3347\">Peter Selinger's survey</a> seems to me like a good place to start.</p>",
+        "id": 404653918,
+        "sender_full_name": "Damiano Mazza",
+        "timestamp": 1701183658
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276839\">Damiano Mazza</span> <a href=\"#narrow/stream/232160-learning.3A-reading-.26-references/topic/String.20diagrams/near/404653918\">said</a>:</p>\n<blockquote>\n<p>It's not a book, but <a href=\"https://arxiv.org/abs/0908.3347\">Peter Selinger's survey</a> seems to me like a good place to start.</p>\n</blockquote>\n<p>Thank you</p>",
+        "id": 404681344,
+        "sender_full_name": "Abderrahim Adrabi",
+        "timestamp": 1701191827
+    },
+    {
+        "content": "<p>It's not a book, but <a href=\"https://youtube.com/playlist?list=PL50ABC4792BD0A086&amp;si=-NmwQnuw3HzKTDgu\">the Catsters videos</a> is the place I started at.</p>",
+        "id": 404683926,
+        "sender_full_name": "Ralph Sarkis",
+        "timestamp": 1701192793
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"658891\">JR</span> <a href=\"#narrow/stream/232160-learning.3A-reading-.26-references/topic/String.20diagrams/near/404652289\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"636904\">Abderrahim Adrabi</span> <a href=\"#narrow/stream/232160-learning.3A-reading-.26-references/topic/String.20diagrams/near/404648516\">said</a>:</p>\n<blockquote>\n<p>Hi Everyone,</p>\n<p>What are books to start with to learn string diagrams?</p>\n<p>Thanks</p>\n</blockquote>\n<p><a href=\"https://www.amazon.com/dp/1009317865/\">https://www.amazon.com/dp/1009317865/</a></p>\n</blockquote>\n<p>I didn't know about this book! Weirldy enough they don't even talk about monoidal categories which I thought were the origin of string diagrams and the main structure they are useful for <span aria-label=\"man shrugging\" class=\"emoji emoji-1f937-200d-2642\" role=\"img\" title=\"man shrugging\">:man_shrugging:</span></p>",
+        "id": 404688390,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1701194501
+    },
+    {
+        "content": "<p>Like in Picturing Quantum Processes, they seem to think that talking about monoidal categories would be scary and that drawings are a good way to make people think that category theory is cool. That's not a bad idea after all. Maybe the pictures are more important than were they come from, I don't know. Except the marketing argument, they are somehow part of our physical world. But still, I like monoidal categories.</p>",
+        "id": 404689202,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1701194764
+    },
+    {
+        "content": "<p>The pictures in that book <em>don't</em> come from monoidal categories, but from the 2-category of categories. Monoidal categories are the special case where there's only one object, or only one color of region in terms of the string diagrams.</p>",
+        "id": 404691601,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1701195799
+    },
+    {
+        "content": "<p>Okay, thanks for the explanation :)</p>",
+        "id": 404716503,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1701204986
+    },
+    {
+        "content": "<p>It really depends what you want to learn about string diagrams for. String diagrams for Cat (the kind you see in Hinze and Marsden's book) have a different flavour to to string diagrams for monoidal categories (the sort you see in Selinger's survey paper). You can mostly divide the resources into these two categories:</p>\n<p><strong> String diagrams for categories and functors: </strong></p>\n<ul>\n<li><a href=\"https://www.amazon.com/dp/1009317865/\">Introducing String Diagrams: The Art of Category Theory</a></li>\n<li>One of the authors of this book has some lecture notes on the same topic on <a href=\"https://stringdiagram.com/teaching/\">his website</a></li>\n<li><a href=\"https://youtube.com/playlist?list=PL50ABC4792BD0A086\">The catster's videos</a></li>\n<li>A bit more advanced: David Jaz Myers has a <a href=\"https://arxiv.org/abs/1612.02762\">paper on string diagrams for double categories</a> that generalises this perspective to allow you to talk about profunctors too</li>\n</ul>\n<p><strong> String diagrams for monoidal categories: </strong></p>\n<ul>\n<li><a href=\"https://arxiv.org/abs/2305.08768\">An introduction to string diagrams for computer scientists</a></li>\n<li><a href=\"https://arxiv.org/abs/0908.3347\">A survey of graphical languages for monoidal categories</a></li>\n</ul>\n<p><strong> More specialised topics that heavily use string diagrams for monoidal categories:</strong></p>\n<ul>\n<li><a href=\"https://www.cambridge.org/core/books/picturing-quantum-processes/1119568B3101F3A685BE832FEEC53E52\">Picturing quantum processes</a></li>\n<li><a href=\"https://www.amazon.co.uk/Categories-Quantum-Theory-Introduction-Mathematics/dp/0198739613\">Categories for Quantum Theory: An Introduction</a></li>\n<li><a href=\"https://www.amazon.co.uk/Programs-Diagrams-Categorical-Computability-Applications/dp/3031348265\">Programs as Diagrams</a></li>\n</ul>",
+        "id": 404729066,
+        "sender_full_name": "Dylan Braithwaite",
+        "timestamp": 1701209833
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>I'm having a hard time finding a definition of normal homomorphism in Lack's papers. What is it? A pseudofunctor that preserves identities strictly? Why do we need that to get a bicat of bicats with icons as 2-morphisms?</p>",
+        "id": 401049765,
+        "sender_full_name": "Daniel Teixeira",
+        "timestamp": 1699491763
+    },
+    {
+        "content": "<p>well it seems that you can put virtually anything as 1-morphisms and still get a 2-category<br>\n<a href=\"/user_uploads/21317/lldmNl_7igarQPFXZE3X-Z3n/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/lldmNl_7igarQPFXZE3X-Z3n/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/lldmNl_7igarQPFXZE3X-Z3n/image.png\"></a></div><p>(from the Johnson-Yau book)</p>",
+        "id": 401050309,
+        "sender_full_name": "Daniel Teixeira",
+        "timestamp": 1699492067
+    },
+    {
+        "content": "<p>I bet you haven't actually seen a claim by Lack that normality of homomorphisms is relevant to constructing a 2-category of bicategories, since he's the one who fully <a href=\"https://arxiv.org/pdf/0711.4657.pdf\">introduced</a> icons and the original paper barely mentions normal homomorphisms. But yes, they're the strictly unital pseudofunctors.</p>",
+        "id": 401052082,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1699493234
+    },
+    {
+        "content": "<p>yeah, you're right. I think I was asking this because I first saw icons in his paper with Paoli, where it is the normal morphisms that are taken as 1-morphisms</p>",
+        "id": 401052272,
+        "sender_full_name": "Daniel Teixeira",
+        "timestamp": 1699493374
+    }
+]

@@ -1,0 +1,224 @@
+[
+    {
+        "content": "<p>Has anyone read Alain Badiou's work <a href=\"http://www.elimeyerhoff.com/books/Badiou/Badiou-Being_and_Event_Searchable.pdf\">being and event</a>? I seem to have a similar view of the world, however I consider myself mathematics first, philosophy second (or third, after physics). </p>\n<p>His thesis is that ontology = mathematics. I'm unsure exactly how he sees ontology, it seems somewhere in between Heidegger and Spivak. I lean heavily towards Spivak, i.e. that categories are ontologies (<a href=\"https://math.mit.edu/~dspivak/informatics/olog.pdf\">ologs</a>). In my view, <em>any</em> structured collection of things form an ontology. So categories, but also spaces, groups, sSets, etc. In this sense, I naively agree with the notion that \"mathematics = ontology\". Again, I'm not actually sure this is how Badiou sees ontology, and to be perfectly transparent I have not yet finished the book.</p>\n<p>It seems to me that the goal of HoTT, and other modern foundations, is to ontologize mathematics: Turning the nebulous \"proof statements\" of math, into <em>things</em> (objects, like spaces) inside of ontologies (higher/formal categories). </p>\n<p>In this sense, would you agree or disagree with the statement that \"Ontology = Mathematics\" or even \"Ontology <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>≃</mo></mrow><annotation encoding=\"application/x-tex\">\\simeq</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4637em;\"></span><span class=\"mrel\">≃</span></span></span></span> Mathematics\"?</p>",
+        "id": 390548683,
+        "sender_full_name": "Noah Chrein",
+        "timestamp": 1694533787
+    },
+    {
+        "content": "<p>I like Badiou but I haven’t finished Being and Event. I somewhat disagree with the association he makes: I assume ontology and epistemology (ways of knowing) are equal, something which I’m not quite ready to divorce from mathematics.</p>\n<p>I don’t place philosophy second to mathematics. I think rather they are “dual” ways of thinking and explaining that are forced to be separate by historical and material processes (the different priorities of societies in which each developed, changing ways of organizing knowledge, the priorities and organization of the academy)</p>",
+        "id": 390564345,
+        "sender_full_name": "Matt Cuffaro (he/him)",
+        "timestamp": 1694539234
+    },
+    {
+        "content": "<p>ultimately i think Badiou is making an effort into mathematics not many other philosophers else did and should be encouraged, but i was confused after my first pass at his formalism. i think he has something to say, and then looks to mathematics to say it, rather than examine the differences between both ways of explanation. from what I remember, this is capital-F Formalism: using formal expression to replace the content of your argument. </p>\n<p>a caveat: a lot of this is based off of my memory from when i wanted to take a critical look from a mathematical and philosophical point of view.</p>",
+        "id": 390564999,
+        "sender_full_name": "Matt Cuffaro (he/him)",
+        "timestamp": 1694539516
+    },
+    {
+        "content": "<p>When I say \"mathematics first\" I mean I'm more praticed in math than philosophy.</p>\n<p>I too encourage philosophers to brave into mathematics.</p>\n<p>Yes this capital F-Formalism is where category theory helps, identifying certain  statements with structure. </p>\n<p>Does Epistemology=ontology=math? this seems to imply that the mind is purely physical.</p>",
+        "id": 390584292,
+        "sender_full_name": "Noah Chrein",
+        "timestamp": 1694547373
+    },
+    {
+        "content": "<p>I recognize formalism has handy for, as you say, identifying structure in certain statements, but I recognize capital-F Formalism as an error: for me, it means an over-valuation of formal presentation. I think that’s why a lot of mathematicians reading Badiou find it somewhat distasteful.  some philosophers (Lacan, e.g,) have had a tendency to be formalistic in this way.</p>",
+        "id": 390585146,
+        "sender_full_name": "Matt Cuffaro (he/him)",
+        "timestamp": 1694547782
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277976\">Noah Chrein</span> <a href=\"#narrow/stream/229134-philosophy/topic/Mathematics.20.3D.20Ontology.20.28Badiou.29/near/390584292\">said</a>:</p>\n<blockquote>\n<p>When I say \"mathematics first\" I mean I'm more praticed in math than philosophy.</p>\n<p>I too encourage philosophers to brave into mathematics.</p>\n<p>Yes this capital F-Formalism is where category theory helps, identifying certain  statements with structure. </p>\n<p>Does Epistemology=ontology=math? this seems to imply that the mind is purely physical.</p>\n</blockquote>\n<p>Good q, but I don’t think of epistemology and ontology as “equal,” but in a constant tension with one another. whether ontology “equals” or is “equivalent” to math is another question</p>",
+        "id": 390585462,
+        "sender_full_name": "Matt Cuffaro (he/him)",
+        "timestamp": 1694547949
+    },
+    {
+        "content": "<p>Okay good, it's yet to be settled for me as well. </p>\n<p>It seems from my perspective that Philosophy has a bad taste for \"Formalism\" because past formalisms usually meant tons of error and hence loss of human life. Maybe in the future, our models will accommodate for all the small complexities. Maybe even those that govern the mind. </p>\n<p>Maybe after we solve for the mind, we will find there to be a zoo of cognitive structures. Whence <br>\nmath &amp; epistomogy <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>↪</mo></mrow><annotation encoding=\"application/x-tex\">\\hookrightarrow</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.522em;vertical-align:-0.011em;\"></span><span class=\"mrel\">↪</span></span></span></span> ontology</p>",
+        "id": 390587848,
+        "sender_full_name": "Noah Chrein",
+        "timestamp": 1694548985
+    },
+    {
+        "content": "<p>I read some of Badiou's later stuff, where he incorporates elements of topos theory, years ago during my Masters. I was very critical of it, not just for the Formalism problem <span class=\"user-mention\" data-user-id=\"275940\">@Matt Cuffaro (he/him)</span> describes but because he imports concepts from topos theory as-is, without due consideration for whether they are appropriate. That is, he talks about why the ingredients of topos theory are important for his philosophical development without properly addressing how they're relevant.</p>",
+        "id": 390671031,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1694593157
+    },
+    {
+        "content": "<p>I hear you but I think that’s precisely the consequence with a “Formalist error:” not critically evaluating _why_ such a connection is relevant. It’s part of an intellectual disconnection between “Mathematics” and “Philosophy” where the latter seeks the rigor of the first through formal argument without carving a path to it first, but instead jumping over to it</p>",
+        "id": 390715211,
+        "sender_full_name": "Matt Cuffaro (he/him)",
+        "timestamp": 1694609064
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/229134-philosophy/topic/Mathematics.20.3D.20Ontology.20.28Badiou.29/near/390671031\">said</a>:</p>\n<p>I do the same thing when I am out of my natural field. For example, I'm not very well versed in the philosophy views on ontology so I cite people like Heidegger without <em>really</em> knowing.  Though I should mention I have been thinking about ologs for a long time. </p>\n<p>I know what you mean though, about arbitrary choice of structure. He can do better but may need help from ct people. CT does it too; I love virtual double categories, yet it is not the perfect \"synthetic\" structure to describe many ideas.  vdcs help to frame the yet-to-be-discovered, more expressive structures. I think if I am groping for higher math to help me, he should be able to do it too, to an extent. e.g. he shouldn't be able to print mis-information.</p>\n<p>Anyway,  in my view, the notion of \"choice of structure\" needs to be taken seriously in a good theory of ontology.</p>",
+        "id": 390779111,
+        "sender_full_name": "Noah Chrein",
+        "timestamp": 1694629464
+    },
+    {
+        "content": "<p>I will take issue with your claim that proof statements were nebulous prior to homotopy type theory. I don't know what you had in mind when you wrote that, but presumably you did not mean the concept of formal proof, which has been around for at least a hundred years.</p>",
+        "id": 391440108,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1694915216
+    },
+    {
+        "content": "<p>If I take set theory as my foundation, and formalize the concept of proof as a syntax tree in a certain formal system, where the concept of \"tree\" and \"well-formed formula\" are defined internally to set theory, perhaps using the hereditarily finite sets, I have certainly turned my proof into a \"thing\" inside of an \"ontology\" (or, I would say, semantics)</p>",
+        "id": 391440617,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1694915621
+    },
+    {
+        "content": "<p>But even if you do not accept set theory as a foundation/\"ontology\", there are obviously perfectly rigorous and precise definitions of a \"formal proof in a formal system\", so your use of the term \"nebulous\" seems to be unjustified.</p>",
+        "id": 391441596,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1694916361
+    },
+    {
+        "content": "<p>Patrick, thank you for your ideas. I do see set theory as a theory of ontology, for me \"an ontology\" is a structured collection of things. Sets carry structure, so do syntax trees, groupoids, and spaces. By \"nebulous proof\" I refer to a proof that isn't <em>explicitly</em> stated as an entity of an ontology. For example proof <em>in</em> HoTT is interpreted as an element of a path space. \"nebulous\" is not meant as pejorative, it refers to its lack of an explicit ontology whose structure interprets the proof. </p>\n<p>One could go back and retrace the steps of older proofs and translate them into entities of some ontology (paths in spaces), like some people in HoTT do, but that translation is done using a <em>choice</em> of foundations. If I go and retrace the steps in one version of HoTT v.s. another, I may get two different paths for a proof, one may not even exist, and the two may not even be isomorphic in any sense. e.g. if one includes a law of excluded middle, but the other does not. </p>\n<p>When I say \"nebulous\" I don't mean a proof is not rigorous, I mean that it has no ontology to live in. HoTT, and the other modern type theories, will state explicitly what ontology, or structured collection of things, a proof lives in.</p>",
+        "id": 391925187,
+        "sender_full_name": "Noah Chrein",
+        "timestamp": 1695133781
+    },
+    {
+        "content": "<p>I have a lot to say about this. First, what is \"an ontology\"? I don't mean what sorts of things do you point to and label \"ontology\" (in this case \"a structured collection of things\"). I mean what kind of role would you want the concept of \"an ontology\" to play? And second, why should the sort of mathematical objects you point to be identified as 'ontologies'? To me, it seems like a weird way of talking, but maybe that's just my analytic philosopher brain. </p>\n<p>It's weird to me because the concept of 'ontology' is already loaded (many people have different ideas of what that word means) and confusing (I often don't understand the answers people, like Badiou, give to what the word means). And pointing to a mathematical structure doesn't really elucidate things for me. </p>\n<p>Third, I just don't think HoTT is unique here. Any time we do proof theory we study proofs as objects in their own right, as Patrick pointed out with proof trees. As another example: to prove Gödel's incompleteness theorems, you need to treat proofs as statements of arithmetic. </p>\n<p>And finally, re: Badiou in general, I'd say be very careful to take his analysis or explication of mathematics as sacrosanct. My impression is that his style of philosophy can be rather loose and even sloppy, which is not something I think is desirable in philosophy of mathematics.</p>",
+        "id": 391952564,
+        "sender_full_name": "Evan Washington",
+        "timestamp": 1695141309
+    },
+    {
+        "content": "<p>After reading your message I am thinking that what you're calling \"ontologizing mathematics\" is what I would call \"providing semantics for proofs\". From this perspective what you're saying makes sense to me. HoTT has an interesting semantics for proofs, whereas ZFC does not have a really interesting semantics for proofs besides the tautological one (a proof is a well formed syntax tree). Old school intuitionism has a nebulous proof semantics - a proof is a mental construction, a proof is a piece of evidence that witnesses the validity of a proposition. Modern constructive type theories allow us to make the old school intuitionist proof semantics more precise/rigorous.</p>\n<p>I don't know if I'm missing something here, but maybe you can clarify how your concept of ontologizing mathematics ties into the research program of proof-theoretic semantics? To take a simple example, Girard's notion of coherence spaces. Is this an ontologization of linear logic?</p>",
+        "id": 391963784,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1695145589
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"278070\">Evan Washington</span> <a href=\"#narrow/stream/229134-philosophy/topic/Mathematics.20.3D.20Ontology.20.28Badiou.29/near/391952564\">said</a>:</p>\n<blockquote>\n<p>What kind of role would you want the concept of \"an ontology\" to play? </p>\n</blockquote>\n<p>An ontology should behave like both a meta-theory and a theory. I think many people have written about this as n-theories, where the n+1-theory is seen as a sort of \"doctrine\" for the kinds of n-theories within it.  An ontology, as a structured collection of things, reasons about its entities using its structure. For example, a LCCC provides the structure for expressing dependent products and sums. In this sense, the category of LCCCs is an ontology (like a 2-theory), a specific LCCC is an ontology (like a 1-theory), and ostensibly the objects of an LCCC are ontologies, though this requires extra work.   As a more simple example: a group is an ontology, the monoidal category of groups is an ontology, the 2-category of monoidal categories is an ontology, and so on. Ontologies all the way down. </p>\n<blockquote>\n<p>second, why should the sort of mathematical objects you point to be identified as 'ontologies'?</p>\n</blockquote>\n<p>In my view, any mathematical object should be considered as an ontology. If in philosophy \"ontology\" means a theory of existence, \"an ontology\", as I have defined it, is a collection of things that exist. For example, an element of a group exists within the group itself. In this sense, <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>π</mi></mrow><annotation encoding=\"application/x-tex\">\\pi</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">π</span></span></span></span>:SO(2): Group is a <em>different</em> thing than <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>π</mi></mrow><annotation encoding=\"application/x-tex\">\\pi</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">π</span></span></span></span>:SO(2):TopGrp, because topological groups can express more things about their elements than groups can. but both SO(2): Group and SO(2): TopGrp are ontologies, they provide a notion of existence for their elements. </p>\n<blockquote>\n<p>It's weird to me because the concept of 'ontology' is already loaded ... And pointing to a mathematical structure doesn't really elucidate things for me. </p>\n</blockquote>\n<p>I'm saying that <em>all</em> mathematical structures are ontologies, but I'm willing to concede this is an opinion. </p>\n<blockquote>\n<p>I just don't think HoTT is unique here.  </p>\n</blockquote>\n<p>I completely agree, there are many other examples. I brought up HoTT because this is the CT server.  </p>\n<blockquote>\n<p>re: Badiou in general, I'd say be very careful to take his analysis or explication of mathematics as sacrosanct. My impression is that his style of philosophy can be rather loose and even sloppy, which is not something I think is desirable in philosophy of mathematics.</p>\n</blockquote>\n<p>good advice! Thanks. I find it helpful to move between rigorous and intuitive. However, when there are no definitions, I'm almost certain to misunderstand the work.</p>\n<p>(All the above is in response to Evan)</p>",
+        "id": 391965811,
+        "sender_full_name": "Noah Chrein",
+        "timestamp": 1695146233
+    },
+    {
+        "content": "<p>This is an old thread, but I have found this idea very interesting in the past. The way that I've ended up interpreting Badiou's ideas, for myself, is that mathematics is AN ontology, of a sort, but maybe not THE ontology of what exists. </p>\n<p>In some sense we can't actually guarantee that anything at all actually exists, except maybe ourselves as perceiving agents I guess, or thinking agents. And from that we can perform this sort of magical act of considering multiplicities as unities. But if we don't know that anything exists then all we can really consider, at the start, is _nothing_, whence the empty set. </p>\n<p>And so to an extent mathematics is sort of what happens if you agree that \"reason\" or \"a reasoning agent\" exists, but doesn't a priori have anything to reason about.</p>",
+        "id": 394128434,
+        "sender_full_name": "Jonathan Beardsley",
+        "timestamp": 1696122143
+    },
+    {
+        "content": "<p>Probably though that's a lot less far reaching than what Badiou wants....</p>",
+        "id": 394128745,
+        "sender_full_name": "Jonathan Beardsley",
+        "timestamp": 1696122331
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276679\">Jonathan Beardsley</span> <a href=\"#narrow/stream/229134-philosophy/topic/Mathematics.20.3D.20Ontology.20.28Badiou.29/near/394128434\">said</a>:</p>\n<blockquote>\n<p>And so to an extent mathematics is sort of what happens if you agree that \"reason\" or \"a reasoning agent\" exists, but doesn't a priori have anything to reason about.</p>\n</blockquote>\n<p>To me this sounds like the assumption that Frege tried build mathematics on: That we have the rules of logical reasoning (aggregating things can be seen as syntactic sugar, sets are formulas). Then Russell and Whitehead, fixing the paradoxes in that foundation, had to restrict the aggregation power, and in order to get back mathematics had to assume little bit more than just logic, namely set theory. And set theory contains the axiom of infinity: There exists an infinite set. That is one thing to reason about (on top of the empty set). I think for all that we know today, this is the level of ontological commitment that a classical mathematician has to adopt.</p>",
+        "id": 395677217,
+        "sender_full_name": "Peter Arndt",
+        "timestamp": 1696851014
+    },
+    {
+        "content": "<p>Having met some non-ironic finitists, you don't need to accept that infinity formally <em>exists</em>, but in mathematical practice the ontological status of infinity is rarely at issue. You need to accept some deduction principles to do any maths, though, and I find those are typically taken for granted much more readily than infinity.</p>",
+        "id": 395710505,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1696861369
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"303936\">Peter Arndt</span> <a href=\"#narrow/stream/229134-philosophy/topic/Mathematics.20.3D.20Ontology.20.28Badiou.29/near/395677217\">said</a>:</p>\n<blockquote>\n<p>To me this sounds like the assumption that Frege tried build mathematics on</p>\n</blockquote>\n<p>Yeah I think I even stole \"considering a multiplicity as a unity\" from Frege haha.</p>",
+        "id": 396717658,
+        "sender_full_name": "Jonathan Beardsley",
+        "timestamp": 1697347275
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276679\">Jonathan Beardsley</span> <a href=\"#narrow/stream/229134-philosophy/topic/Mathematics.20.3D.20Ontology.20.28Badiou.29/near/394128434\">said</a>:</p>\n<blockquote>\n<p>mathematics is AN ontology ... not THE ontology of what exists. </p>\n</blockquote>\n<p>Agreed. So my question is, what is \"an ontology\" precisely?</p>\n<p>All attempted definitions seem to rely on some <em>choice</em> of perspective. A topologist creates spaces to collect things, algebraists create algebras, accountants create excel spreadsheets.  Category theorists might say something like \"A cosmos is an ontology of category theories\".  But typically a cosmos just looks like a category with a bunch of extra structure, which reinforces a bias towards categories as a meta-theory. If we try to define a cosmos, meant as an ontology of category theories, as some other structure, say a set, ring, or a space, we will be met with ideas that we couldn't express with categories, and lose ideas we needed categories for. </p>\n<p>As another example, Tiechmuller spaces are like ontologies of complex structures, as a category theorist I would have naively tried to create a <em>category</em> of complex structures, i.e. a Tiechmuller \"category\". The goal was to create an ontology whose structure is expressive enough to reason about what you set out to reason about. I'm no expert in TM spaces, but I assume continuity, and other geometric/complex notions were more relevant to what Tiechmuller set out to express. </p>\n<p>It's my contention that a precise definition of ontology should be structurally agnostic, in the sense that something is an ontology regardless of the choice of mathematical structure given to it. A space, group, set, graph, category, simplicial set, (oo,n)-topos, etc. should all be regarded as ontologies. </p>\n<p>\"An ontology\" (to me) is \"A mathematical structure\". Hence the statement that math = ontology is almost a tautology.</p>",
+        "id": 398947878,
+        "sender_full_name": "Noah Chrein",
+        "timestamp": 1698430677
+    },
+    {
+        "content": "<p>Sounds like Max Tegmark's philosophy, that every consistent mathematical structure represents a possible universe, and thus that his job as a physicist is to identify which mathematical structure corresponds to/\"is\" our universe</p>",
+        "id": 398948968,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1698431206
+    },
+    {
+        "content": "<p>I certainly agree with physicists here, except for the following point:</p>\n<blockquote>\n<p>\"is\" our universe</p>\n</blockquote>\n<p>Which counters the difference between AN and THE ontology </p>\n<p>The structures we <em>understand</em> are encoded into our neural structure.  Its not obvious that neural structure is the most general structure for knowledge representation (general would be if neural cognition could represent all structural paradigms). Some models for physics might be provably uninterpretable by neural cognition. Hence some great theory of physics may lie beyond neural understanding. I differ from most physicists on the practical position that to be a great physicist today you actually need to study cognition (and ontology). </p>\n<p>To say \"Humans can understand THE model of our universe\" sounds like \"God created us in his image\" . I prefer to remain structurally agnostic. </p>\n<p>Just to make sure my tone comes across correctly, I really look up to Max Tegmark and I find this kind of dialog exciting! I feel like Tegmark would actually agree, he has a book \"Life 3.0\", which probably touches upon these ideas</p>",
+        "id": 399051450,
+        "sender_full_name": "Noah Chrein",
+        "timestamp": 1698499923
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277976\">Noah Chrein</span> <a href=\"#narrow/stream/229134-philosophy/topic/Mathematics.20.3D.20Ontology.20.28Badiou.29/near/399051450\">said</a>:</p>\n<blockquote>\n<p>I differ from most physicists on the practical position that to be a great physicist today you actually need to study cognition (and ontology).</p>\n</blockquote>\n<p>If that's a mainstream position, this is the first I'm hearing of it <span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span></p>\n<blockquote>\n<p>To say \"Humans can understand THE model of our universe\" sounds like \"God created us in his image\" . I prefer to remain structurally agnostic. </p>\n</blockquote>\n<p>Isn't the study of physics predicated on the idea that we can have at least partial success in understanding the universe? Given historical successes, I don't think it's hubris to suppose that we could.</p>",
+        "id": 399149284,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1698582819
+    },
+    {
+        "content": "<p>The mainstream position seems to center around finding a theory of everything but its unclear that humans will solve it. Even if we get close I believe a unifying human physics model will be generalized by the coming higher forms of cognition. </p>\n<p>We are absolutely allowed and <em>should</em> make better models, as long as we acknowledge that there will always be a more synthetic, more expressive model we have yet invented. This is important psychologically; if we don't accept that there is something better, we get trapped in local maxima. </p>\n<p>If you at least acknowledge that there will always be a more general \"unifying theory\" then it is not arrogant to work on <em>A</em> unifying theory.</p>",
+        "id": 399178442,
+        "sender_full_name": "Noah Chrein",
+        "timestamp": 1698606406
+    },
+    {
+        "content": "<p>And just to reiterate the topic:  \"An\" ontology v.s  \"The\" ontology. </p>\n<p>I am arguing that \"The\" doesn't exist, I'd also like to argue that this is relevant to \"working\" math/science and isn't just a philosophical exercise</p>",
+        "id": 399178664,
+        "sender_full_name": "Noah Chrein",
+        "timestamp": 1698606643
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/229134-philosophy/topic/Mathematics.20.3D.20Ontology.20.28Badiou.29/near/399149284\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"277976\">Noah Chrein</span> <a href=\"#narrow/stream/229134-philosophy/topic/Mathematics.20.3D.20Ontology.20.28Badiou.29/near/399051450\">said</a>:</p>\n<blockquote>\n<p>I differ from most physicists on the practical position that to be a great physicist today you actually need to study cognition (and ontology).</p>\n</blockquote>\n<p>If that's a mainstream position, this is the first I'm hearing of it <span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span></p>\n</blockquote>\n<p>I think (and hope) that Noah was trying to say this is <em>not</em> the mainstream position: it's his position, which differs from what most physicists believe.</p>\n<p>That would be true: most physicists don't think this.</p>",
+        "id": 399262316,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698658942
+    },
+    {
+        "content": "<p>Ah, I see, I misread the position as being attributed to 'most physicists', rather than to Noah. Thanks.<br>\nOut of interest <span class=\"user-mention\" data-user-id=\"277976\">@Noah Chrein</span>, it seems like there are two interpretations of what you've said: that there is no absolute ontology to discover, because (for example) there is an infinite tower of increasingly subtle theories that we could never exhaust, or that there is some absolute theory that human cognition is in some way insufficient to attain. As far as human cognition is concerned, do you have a specific idea of how we might be limited?</p>",
+        "id": 399274378,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1698662383
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> </p>\n<p>sorry for taking so long to respond, I think I wrote 8 different responses to this. I'll just elucidate my position</p>\n<ul>\n<li>Ontology = mathematical structure</li>\n<li>(but math structure may not = math)</li>\n<li>The human brain, as dynamics of neural representations, is an ontology </li>\n<li>Human math is derived from neural representations</li>\n<li>Consider human math as a sub-ontology of some ontology of ontologies (deep breath)</li>\n<li>The span of this sub-ontology is all math that is possible for creations of human brains to represent</li>\n<li>ex: humans make computers, computers make CPU architecture we don't make by hand.</li>\n<li>This example shows there are concepts out of reach of neural representation purely due to complexity</li>\n<li>So human ontologies &lt; span(human ontologies)</li>\n<li>I'm positing that there may be concepts that cannot be derived from neural representation (thought), regardless of complexity</li>\n<li>human ontologies &lt; span(human ontologies) &lt;? all ontologies</li>\n</ul>\n<p>Just like 1-categories have a hard time interpreting homotopy, so we move to oo-cats by changing the appropriate structural paradigm - maybe there are concepts that humans cannot interpret, but if we change the structure of neural cognition, we could.</p>\n<p>And maybe some fundamental understanding of physics is out of reach until we do this, hence my position above that the next great physicist will not be a purely neural cognition (human)</p>",
+        "id": 400558027,
+        "sender_full_name": "Noah Chrein",
+        "timestamp": 1699285106
+    },
+    {
+        "content": "<p>That is indeed a non-mainstream view!<br>\nThe comment about \"concepts out of reach of neural representation purely due to complexity\" sounds like the infinite tower of theories - or even if it's not infinite, your claim is that the true model could be too intricate for us to fully understand. But that doesn't sound like a fundamental obstruction. There are software packages and libraries out there which no individual knows in their entirety but which it would be disingenuous to claim that no one understands. A complex model could still be comprehensible locally, even if it were too big for a person to understand the entirety of within their lifetime; we could still hope to collectively understand it. For this reason I think it's not inherently fair to say \"human ontologies &lt; span(hand ontologies)\", although there's almost definitionally no way to prove or disprove that claim.</p>\n<p>Can we produce technology that is fundamentally more capable than us in its reasoning, outside of sheer processing power? From a computational point of view, the Church-Turing thesis claims that we cannot, at least as far as computation on the integers (and by extension anything that can be encoded into integers) is concerned. That said, we work with non-discrete structures all the time, so that might be short-sighted.</p>",
+        "id": 400585981,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1699293857
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/229134-theory.3A-philosophy/topic/Mathematics.20.3D.20Ontology.20.28Badiou.29/near/400585981\">said</a>:</p>\n<blockquote>\n<p>Can we produce technology that is fundamentally more capable than us in its reasoning, outside of sheer processing power? From a computational point of view, the Church-Turing thesis claims that we cannot</p>\n</blockquote>\n<p>Uh, could you elaborate?</p>",
+        "id": 400589975,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1699295566
+    },
+    {
+        "content": "<p>The Church-Turing thesis asserts that there is no larger class of effectively computable functions than those computable by a Turing machine (and hence, by us). If the power of our reasoning is to some extent captured by the things we are capable of calculating, then this would be in conflict with the possibility of more capable reasoning. This is probably irrelevant, though, since the topic is more about what mathematical structures we're able to conceptualize than about how good we are at computing within a well-established one.</p>",
+        "id": 400598004,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1699299088
+    },
+    {
+        "content": "<p>Uhm I see</p>",
+        "id": 401352366,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1699615821
+    },
+    {
+        "content": "<p>Though I disagree with it -- I don't think that Church-Turing says that we can't produce something more computationally capable than we are. Once we bring in the pragmatic facts of our computational devices, which are not ideal, infinitistic Turing machines but finite systems, C-T stops to apply. And surely a small system can, over time, build a larger system which can outperform it. We do it all the time.</p>",
+        "id": 401353169,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1699616008
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/229134-theory.3A-philosophy/topic/Mathematics.20.3D.20Ontology.20.28Badiou.29/near/401353169\">said</a>:</p>\n<blockquote>\n<p>And surely a small system can, over time, build a larger system which can outperform it. We do it all the time.</p>\n</blockquote>\n<p>There's a significant difference between a system that can do something that we can't do because of limitations of human strength or mortality and one that performs tasks that we are incapable of understanding.</p>",
+        "id": 401412915,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1699635704
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Is topos offering an alternative way of formulating dynamical system than differential equations? I looked at this document which seems to say something like this but I couldn't understand it very well. <a href=\"http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf\">http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf</a></p>",
+        "id": 266526193,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1640988639
+    },
+    {
+        "content": "<p>Topos theory gives a different way of thinking about differential equations, but not really an \"alternative\" to differential equations.  As usual, we don't \"throw things out\" - we just do them better.   I wrote about Lawvere's work on topos theory, synthetic differential geometry and dynamical systems <a href=\"https://math.ucr.edu/home/baez/week200.html\">here</a>.</p>",
+        "id": 266526629,
+        "sender_full_name": "John Baez",
+        "timestamp": 1640989388
+    },
+    {
+        "content": "<p>However, I should add that very little work has been done on dynamical systems using topos theory, and if I wanted to study dynamical systems more (which I occasionally do), topos theory would not be near the top of my list for things to learn about.</p>",
+        "id": 266527051,
+        "sender_full_name": "John Baez",
+        "timestamp": 1640990108
+    }
+]

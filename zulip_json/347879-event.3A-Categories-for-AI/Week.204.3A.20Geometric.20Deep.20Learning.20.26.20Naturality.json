@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>Hi all,</p>\n<p>Thanks so much for attending the first three lectures and participating so actively in the Q&amp;A and Zulip! Coming Monday, I'll be giving the fourth lecture on <strong>Geometric Deep Learning &amp; Naturality</strong></p>\n<p>This seminar is held <strong>Monday October 31st on 4PM UTC</strong>. Please note that this is a different UTC offset from last lecture.<br>\nThe zoom link to join the lecture is: <a href=\"https://uva-live.zoom.us/j/83816139841\">https://uva-live.zoom.us/j/83816139841</a>.<br>\nThe lecture will also be live-streamed to <a href=\"https://youtu.be/2tPcSYLBnxg\">https://youtu.be/2tPcSYLBnxg</a> and be permanently available there afterwards.</p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"2tPcSYLBnxg\" href=\"https://youtu.be/2tPcSYLBnxg\"><img src=\"https://uploads.zulipusercontent.net/3eaa600d0bdf612920b311c724a5aad675d4267c/68747470733a2f2f692e7974696d672e636f6d2f76692f3274506353594c426e78672f64656661756c742e6a7067\"></a></div><p>See you on Monday!<br>\nPim</p>",
+        "id": 306889133,
+        "sender_full_name": "Pim de Haan",
+        "timestamp": 1667078618
+    },
+    {
+        "content": "<p>Hi all, just a reminder that this lecture starts in little under an hour! </p>\n<p>Thought I'd just write it here since there might be some confusion over the daylight savings time which happened this Sunday in the UK. It <em>might</em> be the case that the calendar invite didn't update properly for some of you (if you've subscribed using the .ical file instead of clicking on the link)</p>",
+        "id": 307130331,
+        "sender_full_name": "Bruno Gavranović",
+        "timestamp": 1667228782
+    },
+    {
+        "content": "<p>In case your calendar had the wrong time (which I assume was due to usage of the .ical file), you can get the updated calendar <a href=\"https://calendar.google.com/calendar/u/0?cid=OTUyY2E0ZDYwYzNmNDBmMmM3N2NhNWViYjk0MjFiMjViZmE0OWIyMWU4ZTY3OTE0MzU0NzM3OGI4MGYwMmNmYUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t\">here</a> (this is the same link as the one in the original email). If you use this link all future changes to the schedule should be automatically visible.</p>",
+        "id": 307132609,
+        "sender_full_name": "Bruno Gavranović",
+        "timestamp": 1667229423
+    },
+    {
+        "content": "<p>Today's <a href=\"https://drive.google.com/file/d/1xo4B8QaHeOmCwdCHeUpxQrZVuNyjaiSI/view?usp=sharing\">slides</a></p>",
+        "id": 307169465,
+        "sender_full_name": "Pim de Haan",
+        "timestamp": 1667239694
+    },
+    {
+        "content": "<p>In the lecture, Pim said he can provide some overview papers on whether Equivariant NNs outperform traditional NNs on certain tasks. Would be nice to take a look!</p>",
+        "id": 315518719,
+        "sender_full_name": "Denis Volk",
+        "timestamp": 1670912269
+    },
+    {
+        "content": "<p><a href=\"https://arxiv.org/abs/2201.02756\">https://arxiv.org/abs/2201.02756</a> categorical hopfield networks may be off interest</p>",
+        "id": 325527466,
+        "sender_full_name": "Sichu Lu",
+        "timestamp": 1675385709
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"281702\">@Pim de Haan</span></p>",
+        "id": 325633532,
+        "sender_full_name": "Bruno Gavranović",
+        "timestamp": 1675431773
+    }
+]

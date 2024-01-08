@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>I'm pretty sure Grothendieck fibrations are algebras of a K Z monad. Anyone have a reference? I am particularly interested in like, 2 categorical fibrations or bicategorical fibrations but I'll take the 1 categorical case if that's all we have a reference for</p>",
+        "id": 410937343,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1704245987
+    },
+    {
+        "content": "<p>A reference is §3 of Street's <a href=\"http://www.numdam.org/item/?id=CTGDC_1980__21_2_111_0\">Fibrations in bicategories</a>.</p>",
+        "id": 410969454,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1704267303
+    },
+    {
+        "content": "<p>I believe that Street's <a href=\"https://doi.org/10.1007/BFb0063102\">Fibrations and Yoneda's lemma in a 2-category</a> is also a reference, but I do not have institutional access at the moment to check.</p>",
+        "id": 410976858,
+        "sender_full_name": "Bryce Clarke",
+        "timestamp": 1704271520
+    },
+    {
+        "content": "<p>IIRC it is also explained in one of the last chapters of Jacobs' book on categorical logic</p>",
+        "id": 410978610,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1704272454
+    }
+]

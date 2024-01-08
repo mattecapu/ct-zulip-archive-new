@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>Dear Attendees,<br>\nWith the core series of five lectures finishing, it is now time to dive into our exciting <strong>guest lectures</strong>!</p>\n<p>The first guest lecture will be given by <span class=\"user-mention\" data-user-id=\"562555\">@Pietro Vertechi</span>, titled: <strong>\"Neural network layers as parametric spans\"</strong></p>\n<p>The abstract for Pietro's lecture is as follows:<br>\nProperties such as composability and automatic differentiation made artificial neural networks a pervasive tool in applications. Tackling more challenging problems caused neural networks to progressively become more complex and thus difficult to define from a mathematical perspective. In this talk, we will discuss a general definition of linear layer arising from a categorical framework based on the notions of integration theory and parametric spans. This definition generalizes and encompasses classical layers (e.g., dense, convolutional), while guaranteeing existence and computability of the layer's derivatives for backpropagation.</p>\n<p>Pietro's guest lecture will take place in the usual slot, next week (Monday 14 November, starting 4PM UK Time). The lecture will be given on Zoom and live-streamed on YouTube, just as before (the Zoom link should be the same as in previous weeks, but we will confirm the details in advance of the lectures).</p>\n<p>This guest lecture will help explain key parts of <a href=\"https://arxiv.org/abs/2208.00809\">Neural network layers as parametric spans</a> (Bergomi and Vertechi, SYCO 9).</p>\n<p>Lastly, on behalf of the entire organising team of Cats4AI <span aria-label=\"cat\" class=\"emoji emoji-1f408\" role=\"img\" title=\"cat\">:cat:</span> , I'd like to thank you all for actively engaging with the course so far! <span aria-label=\"blush\" class=\"emoji emoji-1f60a\" role=\"img\" title=\"blush\">:blush:</span> <br>\nI'm sure I can speak for all five of us when I say that this was such a daunting but extremely valuable experience: for several of us it was the first time presenting these concepts to such a diverse audience, but seeing you all engaging with the content (whether it be on Zulip, Zoom, or otherwise) made it all the more worthwhile! <span aria-label=\"boom\" class=\"emoji emoji-1f4a5\" role=\"img\" title=\"boom\">:boom:</span> <br>\nWe will be sure to send out a feedback form in the future, to get a better feel on what could have been done better (for future years? :) )</p>",
+        "id": 308826053,
+        "sender_full_name": "Petar Veličković",
+        "timestamp": 1668012068
+    },
+    {
+        "content": "<p>The public link is <a href=\"https://uva-live.zoom.us/j/83816139841\">https://uva-live.zoom.us/j/83816139841</a> (same as before)<br>\nThe talk will be live-streamed to <a href=\"https://youtu.be/83a-MwlDy6s\">https://youtu.be/83a-MwlDy6s</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"83a-MwlDy6s\" href=\"https://youtu.be/83a-MwlDy6s\"><img src=\"https://uploads.zulipusercontent.net/b97a96f01b43512c7f3badd7d0f70ad2fddd3453/68747470733a2f2f692e7974696d672e636f6d2f76692f3833612d4d776c447936732f64656661756c742e6a7067\"></a></div>",
+        "id": 309006480,
+        "sender_full_name": "Pim de Haan",
+        "timestamp": 1668092332
+    },
+    {
+        "content": "<p>Thoughts during the lecture: it looks like there's a correspondence between Propositions 1. and 2. in Pietro's talk and the Definition 3.5.2.16.  in the <a href=\"http://davidjaz.com/Papers/DynamicalBook.pdf\">Categorical Systems Theory</a> book.</p>",
+        "id": 309899999,
+        "sender_full_name": "Bruno Gavranović",
+        "timestamp": 1668443488
+    },
+    {
+        "content": "<p>An in fact, Pietro does say that this can be interpreted as a general lens <img alt=\":grothendieck:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/21317/emoji/images/19128.jpg\" title=\"grothendieck\"></p>",
+        "id": 309900336,
+        "sender_full_name": "Bruno Gavranović",
+        "timestamp": 1668443586
+    },
+    {
+        "content": "<p>Fantastic talk <span class=\"user-mention\" data-user-id=\"562555\">@Pietro Vertechi</span> (I watched over YouTube as I was in the office :) )</p>",
+        "id": 309905091,
+        "sender_full_name": "Petar Veličković",
+        "timestamp": 1668445037
+    },
+    {
+        "content": "<p>Yes! It was very interesting <span class=\"user-mention\" data-user-id=\"562555\">@Pietro Vertechi</span>, I especially enjoyed your animated illustrations - made everything instantly intuitive :)</p>",
+        "id": 309905578,
+        "sender_full_name": "Ieva Cepaite",
+        "timestamp": 1668445165
+    },
+    {
+        "content": "<p>The idea of permuting the legs of a span to compute the backward pass reminds me of how you'd implement this differentiation in terms of einsum. Turns out the derivative can be implemented by <a href=\"https://stackoverflow.com/questions/43686534/how-does-tf-einsum-in-tensorflow-calculates-gradients-for-matrix-multiplicatio/47609896#47609896\">permuting the indices</a>.</p>",
+        "id": 309907100,
+        "sender_full_name": "Bruno Gavranović",
+        "timestamp": 1668445536
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276875\">@Bruno Gavranovic</span> ,  I'm a bit late to the party, but I realized that this can be a very helpful comparison (thinking of discrete parametric spans as a generalized Einstein summation). Many layers can be implemented that way (well, I'm not sure the second one is  accepted in <code>einsum</code>, but it's a useful notation)</p>\n<div class=\"codehilite\" data-code-language=\"Python\"><pre><span></span><code><span class=\"n\">y</span><span class=\"p\">[</span><span class=\"n\">j</span><span class=\"p\">]</span> <span class=\"o\">+=</span> <span class=\"n\">x</span><span class=\"p\">[</span><span class=\"n\">i</span><span class=\"p\">]</span> <span class=\"o\">*</span> <span class=\"n\">w</span><span class=\"p\">[</span><span class=\"n\">i</span><span class=\"p\">,</span> <span class=\"n\">j</span><span class=\"p\">]</span> <span class=\"c1\"># dense</span>\n<span class=\"n\">y</span><span class=\"p\">[</span><span class=\"n\">j</span><span class=\"p\">,</span> <span class=\"n\">k</span><span class=\"p\">]</span> <span class=\"o\">+=</span> <span class=\"n\">x</span><span class=\"p\">[</span><span class=\"n\">i</span><span class=\"p\">,</span> <span class=\"n\">k</span><span class=\"o\">-</span><span class=\"n\">l</span><span class=\"p\">]</span> <span class=\"o\">*</span> <span class=\"n\">w</span><span class=\"p\">[</span><span class=\"n\">i</span><span class=\"p\">,</span> <span class=\"n\">j</span><span class=\"p\">,</span> <span class=\"n\">l</span><span class=\"p\">]</span> <span class=\"c1\"># convolutional</span>\n</code></pre></div>\n<p>The general discrete parametric span is of the form</p>\n<div class=\"codehilite\" data-code-language=\"Python\"><pre><span></span><code><span class=\"n\">y</span><span class=\"p\">[</span><span class=\"n\">t</span><span class=\"p\">(</span><span class=\"n\">p</span><span class=\"p\">)]</span> <span class=\"o\">+=</span> <span class=\"n\">x</span><span class=\"p\">[</span><span class=\"n\">s</span><span class=\"p\">(</span><span class=\"n\">p</span><span class=\"p\">)]</span> <span class=\"o\">*</span> <span class=\"n\">w</span><span class=\"p\">[</span><span class=\"n\">π</span><span class=\"p\">(</span><span class=\"n\">p</span><span class=\"p\">)]</span>\n</code></pre></div>\n<p>where <code>p</code> lives in some generalize index space $E$.</p>",
+        "id": 312199591,
+        "sender_full_name": "Pietro Vertechi",
+        "timestamp": 1669386563
+    }
+]

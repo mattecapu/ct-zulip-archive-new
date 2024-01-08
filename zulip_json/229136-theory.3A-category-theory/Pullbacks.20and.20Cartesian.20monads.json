@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>While I would <em>like</em> to believe that pullbacks in the Kleisli category of a Cartesian monad have some nice relationship with pullbacks in the underlying category, I am having a surprising amount of trouble either coming up with references on this or proving it myself.</p>",
+        "id": 319256681,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1672771041
+    },
+    {
+        "content": "<p>(Probably it's either: 1) So easy from a certain viewpoint that nobody has bothered writing it down and I'm looking at it completely the wrong way or 2) not true at all.)</p>",
+        "id": 319257276,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1672771207
+    },
+    {
+        "content": "<p>The Kleisli category is a full subcategory of the Eilenberg-Moore category.  The subcategory inclusion therefore reflects limits.  The forgetful functor from the Eilenberg-Moore category creates all limits that exist in the underlying category, including pullbacks in the case of a Cartesian monad.  Therefore pullbacks in the Kleisli category are reflected from pullbacks in the underlying category, via the inclusion in the EM category.  This doesn't mean they necessarily exist because the pullback of two free algebras may not be free.  Even with a Cartesian monad pullbacks seem to only be guaranteed to stay free when both of the morphisms being pulled back are \"free morphisms\", which is usually not the case.  <em>However</em>, in general the pullback can still exist in the Kleisli category even when there isn't a reflected pullback, because the pullback might not be preserved by the inclusion!  So I really seem to be back where I started, and messing around with diagram chases hasn't seemed more helpful.</p>",
+        "id": 319262797,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1672773141
+    },
+    {
+        "content": "<p>The following diagram where all faces are pullbacks and the vertical arrows are multiplications is actually a pullback diagram in the arrow category <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"script\">C</mi><mo>→</mo></msup></mrow><annotation encoding=\"application/x-tex\"> \\mathcal{C}^\\rightarrow </annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord mathcal\" style=\"margin-right:0.05834em;\">C</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6198em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mrel mtight\">→</span></span></span></span></span></span></span></span></span></span></span> where <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"script\">C</mi></mrow><annotation encoding=\"application/x-tex\"> \\mathcal{C} </annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathcal\" style=\"margin-right:0.05834em;\">C</span></span></span></span> is the base category for the monad <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>T</mi></mrow><annotation encoding=\"application/x-tex\"> T </annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">T</span></span></span></span>.</p>\n<p><a href=\"/user_uploads/21317/kMaaq56EQnF6nHM7Ktp8D80j/kleisli.png\">kleisli.png</a> </p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/kMaaq56EQnF6nHM7Ktp8D80j/kleisli.png\" title=\"kleisli.png\"><img src=\"/user_uploads/21317/kMaaq56EQnF6nHM7Ktp8D80j/kleisli.png\"></a></div><p>Its universal property in the Kleisli category is the expected one though, as the horizontal faces are pullbacks in particular.</p>",
+        "id": 319362009,
+        "sender_full_name": "El Mehdi Cherradi",
+        "timestamp": 1672829132
+    },
+    {
+        "content": "<p>Thank you for the beautiful illustration of the pullback of two free arrows!  (And it looks like all the faces are pullbacks!)</p>",
+        "id": 319390493,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1672839326
+    }
+]

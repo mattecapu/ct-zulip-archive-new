@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Stream created by <span class=\"user-mention silent\" data-user-id=\"280178\">Tim Hosgood</span>.</p>",
+        "id": 230349768,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1615817257
+    },
+    {
+        "content": "<p>This is the stream for the upcoming workshop on Polynomial Functors that starts later today! There will be topics for each individual talks, as well as a topic for general information.</p>",
+        "id": 230350547,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1615817535
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> changed the <a href=\"/help/stream-permissions\">access permissions</a> for this stream from <strong>Public</strong> to <strong>Web-public</strong>.</p>",
+        "id": 397854334,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1697898758
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>workshop: Polynomial Functors @ Topos</strong> to <strong>event: Polynomial Functors @ Topos</strong>.</p>",
+        "id": 399479776,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698751308
+    }
+]

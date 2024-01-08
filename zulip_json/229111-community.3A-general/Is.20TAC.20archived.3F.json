@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p>Wait, was the problem caused by the fact that no-one is at Mount Allison anymore? <br>\nIf so, is TAC safe?</p>",
+        "id": 397662440,
+        "sender_full_name": "Paolo Perrone",
+        "timestamp": 1697791952
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275989\">Paolo Perrone</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397662440\">said</a>:</p>\n<blockquote>\n<p>Wait, was the problem caused by the fact that no-one is at Mount Allison anymore? <br>\nIf so, is TAC safe?</p>\n</blockquote>\n<p>Has anyone archived TAC?</p>",
+        "id": 397662974,
+        "sender_full_name": "Cole Comfort",
+        "timestamp": 1697792138
+    },
+    {
+        "content": "<p>On the TAC website the following information is available: </p>\n<div class=\"codehilite\" data-code-language=\"mirror\"><pre><span></span><code>For various reasons, such as temporary shut-downs and archival diversity, it is useful to maintain \"mirrors\" of the journal which are complete copies of the articles and other information. You may find one of the locations listed below provides convenient alternate access. The definitive current version of the journal is that maintained on its server.\n\nIf you access the journal from a mirror site and find it not up to date, follow the Home site link on the journal home page.\n\nThe mirrors are:\n\nThe National Library of Canada\nat http://epe.lac-bac.gc.ca/100/201/300/tac/index.html as part of its Electronic Collection\nThe Electronic Library\nof the European Mathematical Society at http://www.emis.de/journals/TAC/. The journals at this site are further mirrored at http://www.emis.de/tech/mirrors.html\n</code></pre></div>",
+        "id": 397663468,
+        "sender_full_name": "Bryce Clarke",
+        "timestamp": 1697792326
+    },
+    {
+        "content": "<p>I'm glad TAC is safely archived. Does its website still work though, for updates, for example new articles being published?</p>",
+        "id": 397672829,
+        "sender_full_name": "Paolo Perrone",
+        "timestamp": 1697795767
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275989\">Paolo Perrone</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397672829\">said</a>:</p>\n<blockquote>\n<p>I'm glad TAC is safely archived. Does its website still work though, for updates, for example new articles being published?</p>\n</blockquote>\n<p>The TAC website has been inaccessible for about a week, I think. I'd also be interested to hear more about what's going to happen with it.</p>",
+        "id": 397792164,
+        "sender_full_name": "Graham Manuell",
+        "timestamp": 1697848017
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"386922\">@Graham Manuell</span>  <a href=\"http://www.tac.mta.ca/tac/\">http://www.tac.mta.ca/tac/</a> loaded just fine for me now.</p>",
+        "id": 397824241,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1697871801
+    },
+    {
+        "content": "<p>Ah great. It seems to be back today. Hopefully this lasts.</p>",
+        "id": 397830575,
+        "sender_full_name": "Graham Manuell",
+        "timestamp": 1697878124
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"386922\">Graham Manuell</span> <a href=\"#narrow/stream/229111-general/topic/Is.20TAC.20archived.3F/near/397830575\">said</a>:</p>\n<blockquote>\n<p>Ah great. It seems to be back today. Hopefully this lasts.</p>\n</blockquote>\n<p>Yes the TAC website doesn't always work for me either, but after a few hours or changing browsers, it usually works.</p>",
+        "id": 398013594,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1698039396
+    },
+    {
+        "content": "<p>But I am not worried about loosing the TAC archive or the website</p>",
+        "id": 398013617,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1698039422
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275989\">Paolo Perrone</span> <a href=\"#narrow/stream/229111-general/topic/Is.20TAC.20archived.3F/near/397662440\">said</a>:</p>\n<blockquote>\n<p>Wait, was the problem caused by the fact that no-one is at Mount Allison anymore? <br>\nIf so, is TAC safe?</p>\n</blockquote>\n<p>Geoff Cruttwell, the managing editor of TAC, is still a Mount Allison (and might be acting dean or something). Geoff is still very much active! (unless I injure his back again...) and will stay Mount Allison University until he dies (Geoff's still young, we've got some time)</p>",
+        "id": 398013939,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1698039690
+    },
+    {
+        "content": "<p>Long live the editor! :D</p>",
+        "id": 398036861,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1698050015
+    }
+]

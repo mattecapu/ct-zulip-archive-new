@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Hi all, just a small reminder that the guest lecture from <span class=\"user-mention\" data-user-id=\"299060\">@Tai-Danae Bradley</span>  will be held on Monday, 12th of December, at the same time as usual.</p>\n<p><strong>Title</strong>: <br>\nCategory Theory Inspired by LLMs</p>\n<p><strong>Abstract</strong>:<br>\nThe success of today's large language models (LLMs) is striking, especially given that the training data consists of raw, unstructured text. In this talk, we'll see that category theory can provide a natural framework for investigating this passage from texts—and probability distributions on them—to a more semantically meaningful space. To motivate the mathematics involved, we will open with a basic, yet curious, analogy between linear algebra and category theory. We will then define a category of expressions in language enriched over the unit interval and afterwards pass to enriched copresheaves on that category. We will see that the latter setting has rich mathematical structure and comes with ready-made tools to begin exploring that structure.</p>",
+        "id": 311603272,
+        "sender_full_name": "Bruno Gavranović",
+        "timestamp": 1669126870
+    },
+    {
+        "content": "<p>The talk will be live-streamed to Youtube: <a href=\"https://youtu.be/_LgWD3UTKfw\">https://youtu.be/_LgWD3UTKfw</a><br>\nAnd available on zoom: <a href=\"https://uva-live.zoom.us/j/83816139841\">https://uva-live.zoom.us/j/83816139841</a><br>\nLook forward to seeing you all today at 4PM UTC!</p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"_LgWD3UTKfw\" href=\"https://youtu.be/_LgWD3UTKfw\"><img src=\"https://uploads.zulipusercontent.net/ee76b46b3e63fd8ddc0a96e153c2349fbe517b4f/68747470733a2f2f692e7974696d672e636f6d2f76692f5f4c6757443355544b66772f64656661756c742e6a7067\"></a></div>",
+        "id": 315330165,
+        "sender_full_name": "Pim de Haan",
+        "timestamp": 1670840258
+    },
+    {
+        "content": "<p>The slides and the recording are up on the <a href=\"https://cats.for.ai/program/\">website</a>.</p>",
+        "id": 315434029,
+        "sender_full_name": "Bruno Gavranović",
+        "timestamp": 1670870236
+    }
+]

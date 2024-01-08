@@ -1,0 +1,82 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>categorical Bayes · theory: categorical probability · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/253118-theory.3A-categorical-probability/index.html">theory: categorical probability</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/253118-theory.3A-categorical-probability/topic/categorical.20Bayes.html">categorical Bayes</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="410039531"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/253118-theory%3A%20categorical%20probability/topic/categorical%20Bayes/near/410039531" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jorge Soto-Andrade <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/253118-theory.3A-categorical-probability/topic/categorical.20Bayes.html#410039531">(Dec 26 2023 at 15:35)</a>:</h4>
+<p>Hi!  I have a naive question on a categorical approach to Bayes.  Say, the classical Bayesian setting where you have a bunch of urns with coloured balls, with different compositions, you choose blindly an urn at random, draw a ball, get Black and wonder about the probability of having chosen such and such urn.<br>
+ I wonder whether the following remark is well known: <br>
+what you have in the Bayesian situation <br>
+<a href="/user_uploads/21317/rIt5JbbFbjWzxyh9UnjEuLvJ/Bayes_urnes_full_flow_ETM6.jpg.pdf">Bayes_urnes_full_flow_ETM6.jpg.pdf</a><br>
+ is a stochastic mapping from the set U of urns to the set C of colours. Bayes calculates the "dual" stochastic mapping from C to U.  You have then a  sort  of "reversible" stochastic process: if you feed it with a random urn, you get a random colour, if you apply the dual stoch mapping to this random colour you get back your random urn.   Bayesian updating boils down to  figuring out which random urn you get if you feed the Bayesian machine with a random colour like "Black for sure".   I enclose an iconic rendering of this in a toy example (two urns, two colours), corresponding <br>
+<a href="/user_uploads/21317/bfIM8v9MX3rFucn7GK84iMs_/Bayes_urnes_pedestrian_etm6.pdf">Bayes_urnes_pedestrian_etm6.pdf</a><br>
+to a fluid approach (hydraulic metaphor activated) to Bayes, and also a "pedestrian approach".  <br>
+Does this ring a categorical bell to anyone?</p>
+
+
+
+<a name="410040203"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/253118-theory%3A%20categorical%20probability/topic/categorical%20Bayes/near/410040203" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jorge Soto-Andrade <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/253118-theory.3A-categorical-probability/topic/categorical.20Bayes.html#410040203">(Dec 26 2023 at 15:41)</a>:</h4>
+<p>PS In the fluid iconic rendering the stoch mapping going from urns to colours is given by the four blue diagonal weighted arrows, the dual stochastic mapping is given by the four green diagonal weighted arrows.  The horizontal and vertical weighted arrows represent the initial random urn and the ensuing random colour.  This could be an example  of diagrammatic linear algebra too...</p>
+
+
+
+<a name="410133811"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/253118-theory%3A%20categorical%20probability/topic/categorical%20Bayes/near/410133811" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/253118-theory.3A-categorical-probability/topic/categorical.20Bayes.html#410133811">(Dec 27 2023 at 10:32)</a>:</h4>
+<p>You seem to be sketching the usual categorical approach to Bayes' theorem!  You might like this:</p>
+<ul>
+<li>Bob Coecke and Robert W. Spekkens, <a href="https://arxiv.org/abs/1102.2368">Picturing classical and quantum Bayesian inference</a>.</li>
+</ul>
+
+
+
+<a name="410139039"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/253118-theory%3A%20categorical%20probability/topic/categorical%20Bayes/near/410139039" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tobias Fritz <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/253118-theory.3A-categorical-probability/topic/categorical.20Bayes.html#410139039">(Dec 27 2023 at 11:08)</a>:</h4>
+<p>Actually I wouldn't recommend that paper. It's been one of the earlier ones on the topic, but it's confusingly written, and their formalism has lots of extra structure that is not needed to talk about Bayesian updating (or anything else in probability), and that extra structure does not exist once you go beyond discrete probability with finite sets. An improved account of Bayesian updating is given here:</p>
+<ul>
+<li>Kenta Cho and Bart Jacobs, <a href="https://arxiv.org/abs/1709.00322">Disintegration and Bayesian Inversion via String Diagrams</a></li>
+</ul>
+
+
+
+<a name="410164634"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/253118-theory%3A%20categorical%20probability/topic/categorical%20Bayes/near/410164634" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jorge Soto-Andrade <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/253118-theory.3A-categorical-probability/topic/categorical.20Bayes.html#410164634">(Dec 27 2023 at 14:50)</a>:</h4>
+<p><span aria-label="pray" class="emoji emoji-1f64f" role="img" title="pray">:pray:</span>  <span aria-label="pray" class="emoji emoji-1f64f" role="img" title="pray">:pray:</span></p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

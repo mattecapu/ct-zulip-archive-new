@@ -1,0 +1,129 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>Epimorphisms of 2-algebras · theory: category theory · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/index.html">theory: category theory</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/Epimorphisms.20of.202-algebras.html">Epimorphisms of 2-algebras</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="410861624"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/Epimorphisms%20of%202-algebras/near/410861624" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Chris Grossack (they/them) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/Epimorphisms.20of.202-algebras.html#410861624">(Jan 02 2024 at 15:21)</a>:</h4>
+<p>Given a group <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi></mrow><annotation encoding="application/x-tex">G</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">G</span></span></span></span> we can build its category of (Vect-valued) representations <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>Mod</mtext><mo stretchy="false">(</mo><mi>G</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\text{Mod}(G)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord text"><span class="mord">Mod</span></span><span class="mopen">(</span><span class="mord mathnormal">G</span><span class="mclose">)</span></span></span></span>. This is a "2-algebra" in the sense that it's a presentable category with a tensor product that respects colimits.</p>
+<p>I'm curious if, in the 2-category of 2-algebras, we understand what the "epis" are. I know the 1-morphisms should be functors preserving the tensor and all colimits, but for some reason I'm worried the obvious guess of "essentially surjective 1-morhpisms" feels wrong (but I haven't tried to work this out).</p>
+<p>What I'm especially curious about is whether you can detect that <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mo>↠</mo><mi>H</mi></mrow><annotation encoding="application/x-tex">G \twoheadrightarrow H</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6969em;vertical-align:-0.0135em;"></span><span class="mord mathnormal">G</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel amsrm">↠</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.08125em;">H</span></span></span></span> is an epi at the level of groups by looking at the tensor structure on their module categories. This is because what I'm <em>especially</em> interested in is playing this game at the level of quantum groups, and trying to detect epis at the level of braided monoidal categories.</p>
+<p>Thanks in advance!</p>
+
+
+
+<a name="410873516"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/Epimorphisms%20of%202-algebras/near/410873516" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/Epimorphisms.20of.202-algebras.html#410873516">(Jan 02 2024 at 16:47)</a>:</h4>
+<p>Well, the first thing to ask is what notion of "epi" in a 2-category to use.  For many purposes the right notion of "monomorphism" in a 2-category is a representably fully faithful map, but the straightforward duals of those are often not the right notion of "epimorphism".  One notion of "(regular) epimorphism" that's often more useful is the maps that are left orthogonal to the monomorphisms.  Did you have a particular notion of "epimorphism" in mind?</p>
+
+
+
+<a name="410873836"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/Epimorphisms%20of%202-algebras/near/410873836" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/Epimorphisms.20of.202-algebras.html#410873836">(Jan 02 2024 at 16:49)</a>:</h4>
+<p>Offhand I don't recall any references discussing epimorphisms of locally presentable categories, with or without monoidal structure.  But my first guess would be the 1-morphisms that are "surjective up to colimits", i.e. such that the colimit-closure of their full image is the whole codomain.</p>
+
+
+
+<a name="410873970"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/Epimorphisms%20of%202-algebras/near/410873970" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/Epimorphisms.20of.202-algebras.html#410873970">(Jan 02 2024 at 16:50)</a>:</h4>
+<p>Specifically, I would guess that those are the morphisms that are left orthogonal to the monomorphisms.</p>
+
+
+
+<a name="410894937"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/Epimorphisms%20of%202-algebras/near/410894937" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Reid Barton <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/Epimorphisms.20of.202-algebras.html#410894937">(Jan 02 2024 at 19:32)</a>:</h4>
+<p>There's more than one notion of "epimorphism" of groups, as well; which one do you have in mind?</p>
+
+
+
+<a name="410921264"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/Epimorphisms%20of%202-algebras/near/410921264" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Chris Grossack (they/them) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/Epimorphisms.20of.202-algebras.html#410921264">(Jan 02 2024 at 23:42)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276480">Reid Barton</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/Epimorphisms.20of.202-algebras/near/410894937">said</a>:</p>
+<blockquote>
+<p>There's more than one notion of "epimorphism" of groups, as well; which one do you have in mind?</p>
+</blockquote>
+<p>Is there? In the usual category of groups, there's the usual notion of epi, which (iirc) agrees with the surjective homs. What else do you have in mind?</p>
+
+
+
+<a name="410932509"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/Epimorphisms%20of%202-algebras/near/410932509" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/Epimorphisms.20of.202-algebras.html#410932509">(Jan 03 2024 at 01:02)</a>:</h4>
+<p>Indeed, <a href="https://ncatlab.org/nlab/show/epimorphisms%20of%20groups%20are%20surjective">[[epimorphisms of groups are surjective]]</a> (the converse being fairly trivial).</p>
+
+
+
+<a name="410932753"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/Epimorphisms%20of%202-algebras/near/410932753" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Reid Barton <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/Epimorphisms.20of.202-algebras.html#410932753">(Jan 03 2024 at 01:04)</a>:</h4>
+<p>Oh sorry, I was confusing this with rings or monoids or something.</p>
+
+
+
+<a name="410933098"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/Epimorphisms%20of%202-algebras/near/410933098" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/Epimorphisms.20of.202-algebras.html#410933098">(Jan 03 2024 at 01:06)</a>:</h4>
+<p>Of course in any category we can also ask about regular epimorphisms, strong epimorphisms, and so on, but the "first isomorphism theorem" implies that any surjection of groups is a regular epi, and hence also pretty much any other kind of epi.</p>
+
+
+
+<a name="410942936"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/Epimorphisms%20of%202-algebras/near/410942936" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Chris Grossack (they/them) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/Epimorphisms.20of.202-algebras.html#410942936">(Jan 03 2024 at 02:19)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276777">Mike Shulman</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/Epimorphisms.20of.202-algebras/near/410873516">said</a>:</p>
+<blockquote>
+<p>Well, the first thing to ask is what notion of "epi" in a 2-category to use.  For many purposes the right notion of "monomorphism" in a 2-category is a representably fully faithful map, but the straightforward duals of those are often not the right notion of "epimorphism".  One notion of "(regular) epimorphism" that's often more useful is the maps that are left orthogonal to the monomorphisms.  Did you have a particular notion of "epimorphism" in mind?</p>
+</blockquote>
+<p>I didn't even know about this subtlety about multiple notions of epi in a 2-category, so I certainly didn't have a particular resolution in mind. </p>
+<p>Do you (or, does anyone) have suggestions for papers/books about this topic? I'm confident that someone will have worked out how to recognize an epi of groups by looking at their (monoidal) categories of representations. But I'm also interested in these 2-categorical subtleties (and higher algebra) more broadly</p>
+
+
+
+<a name="410943649"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/Epimorphisms%20of%202-algebras/near/410943649" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/Epimorphisms.20of.202-algebras.html#410943649">(Jan 03 2024 at 02:26)</a>:</h4>
+<p>Probably <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mi mathvariant="normal">∞</mi><mo separator="true">,</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(\infty,1)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">∞</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">1</span><span class="mclose">)</span></span></span></span>-categorical notions of epimorphism have been studied more than 2-categorical ones, e.g.:</p>
+<ul>
+<li><a href="https://ncatlab.org/nlab/show/effective%20epimorphism%20in%20an%20%28infinity%2C1%29-category">[[effective epimorphism in an (infinity,1)-category]]</a></li>
+<li><a href="https://ncatlab.org/nlab/show/epimorphism%20in%20an%20%28infinity%2C1%29-category">[[epimorphism in an (infinity,1)-category]]</a></li>
+<li>
+<p><a href="https://ncatlab.org/nlab/show/n-epimorphism">[[n-epimorphism]]</a><br>
+The notion that I suggested as probably the best is described at</p>
+</li>
+<li>
+<p><a href="https://ncatlab.org/nlab/show/eso%20morphism">[[eso morphism]]</a><br>
+One reference for the 2-categorical notion is Ross Street's "Characterization of bicategories of stacks".  I don't know much about categories of group representations though.</p>
+</li>
+</ul>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

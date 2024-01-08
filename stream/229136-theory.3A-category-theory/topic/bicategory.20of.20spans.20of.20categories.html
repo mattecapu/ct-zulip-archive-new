@@ -1,0 +1,141 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>bicategory of spans of categories · theory: category theory · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/index.html">theory: category theory</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/bicategory.20of.20spans.20of.20categories.html">bicategory of spans of categories</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="408281651"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/bicategory%20of%20spans%20of%20categories/near/408281651" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/bicategory.20of.20spans.20of.20categories.html#408281651">(Dec 16 2023 at 00:53)</a>:</h4>
+<p>I gather that there is a tricategory of spans of categories. I'm interested in showing that "partially monoidal categories" i.e. categories that have a partially defined monoidal structure, are pseudomonoids of some form in some ?-category of spans of categories. Does anyone know of a reference for this sort of thing? In particular, is it possible to just ignore the tricategory structure?</p>
+
+
+
+<a name="408281813"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/bicategory%20of%20spans%20of%20categories/near/408281813" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/bicategory.20of.20spans.20of.20categories.html#408281813">(Dec 16 2023 at 00:54)</a>:</h4>
+<p>I've seen people say things like "partial monoidal categories are pseudomonoids in the bicategory of categories and partial functors" but I'd like to try to say this just in Span(Cat) without having to build up the bicategory of partial functors</p>
+
+
+
+<a name="408282000"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/bicategory%20of%20spans%20of%20categories/near/408282000" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/bicategory.20of.20spans.20of.20categories.html#408282000">(Dec 16 2023 at 00:56)</a>:</h4>
+<p>For instance, I was trying to write down the necessary "associativity" for such a thing being a "pseudomonoid" but I realized I probably don't have a map of spans "on the nose." Instead, I seem to have a map of spans which is mediated by some equivalences.</p>
+
+
+
+<a name="408283234"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/bicategory%20of%20spans%20of%20categories/near/408283234" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/bicategory.20of.20spans.20of.20categories.html#408283234">(Dec 16 2023 at 01:05)</a>:</h4>
+<p>Maybe I should say something like.... what does it mean to say a "diagram commutes," in particular, what is the correct notion of a "map of spans?"</p>
+
+
+
+<a name="408287601"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/bicategory%20of%20spans%20of%20categories/near/408287601" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/bicategory.20of.20spans.20of.20categories.html#408287601">(Dec 16 2023 at 01:52)</a>:</h4>
+<p>A bicategory itself is one kind of partial monoidal category, isn't it? Is your partial monoidal bicategory a bicategory or is it more general than that</p>
+
+
+
+<a name="408290636"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/bicategory%20of%20spans%20of%20categories/near/408290636" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/bicategory.20of.20spans.20of.20categories.html#408290636">(Dec 16 2023 at 02:28)</a>:</h4>
+<p>Oh I'm only starting with partially monoidal 1-category.</p>
+
+
+
+<a name="408307469"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/bicategory%20of%20spans%20of%20categories/near/408307469" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Evan Patterson <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/bicategory.20of.20spans.20of.20categories.html#408307469">(Dec 16 2023 at 05:50)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276679">Jonathan Beardsley</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/bicategory.20of.20spans.20of.20categories/near/408281651">said</a>:</p>
+<blockquote>
+<p>Does anyone know of a reference for this sort of thing? In particular, is it possible to just ignore the tricategory structure?</p>
+</blockquote>
+<p>Yes. Since Cat is a 2-category, as opposed to a genuinely weak bicategory, it has an underlying category and so there is a perfectly fine double category Span(Cat) as well as a bicategory Span(Cat). There are ways to upgrade these to three-dimensional structures but nothing forces you to do that.</p>
+
+
+
+<a name="408307701"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/bicategory%20of%20spans%20of%20categories/near/408307701" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Evan Patterson <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/bicategory.20of.20spans.20of.20categories.html#408307701">(Dec 16 2023 at 05:53)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276679">Jonathan Beardsley</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/bicategory.20of.20spans.20of.20categories/near/408283234">said</a>:</p>
+<blockquote>
+<p>Maybe I should say something like.... what does it mean to say a "diagram commutes," in particular, what is the correct notion of a "map of spans?"</p>
+</blockquote>
+<p>There are different notions of a "map of spans" depending on whether you work in a bicategory or a double category of spans. In a bicategory of spans, a map from a span <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>←</mo><mi>s</mi><mo>→</mo><mi>y</mi></mrow><annotation encoding="application/x-tex">x \leftarrow s \rightarrow y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">←</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">s</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span></span></span></span> to another span <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>←</mo><mi>t</mi><mo>→</mo><mi>y</mi></mrow><annotation encoding="application/x-tex">x \leftarrow t \rightarrow y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">←</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span></span></span></span> (with the same feet) is a map <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>s</mi><mo>→</mo><mi>t</mi></mrow><annotation encoding="application/x-tex">s \to t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">s</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span></span></span></span> making the two triangles commute. In a double category of spans, a map from a span <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>←</mo><mi>s</mi><mo>→</mo><mi>y</mi></mrow><annotation encoding="application/x-tex">x \leftarrow s \rightarrow y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">←</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">s</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span></span></span></span> to another span <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>w</mi><mo>←</mo><mi>t</mi><mo>→</mo><mi>z</mi></mrow><annotation encoding="application/x-tex">w \leftarrow t \rightarrow z</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.02691em;">w</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">←</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.04398em;">z</span></span></span></span> (now with possibly different feet) consists of maps <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>→</mo><mi>w</mi></mrow><annotation encoding="application/x-tex">x \to w</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.02691em;">w</span></span></span></span>, <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo>→</mo><mi>z</mi></mrow><annotation encoding="application/x-tex">y \to z</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.04398em;">z</span></span></span></span>, and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>s</mi><mo>→</mo><mi>t</mi></mrow><annotation encoding="application/x-tex">s \to t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">s</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span></span></span></span> making the two squares commute.</p>
+
+
+
+<a name="408308230"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/bicategory%20of%20spans%20of%20categories/near/408308230" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/bicategory.20of.20spans.20of.20categories.html#408308230">(Dec 16 2023 at 06:00)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="275965">Evan Patterson</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/bicategory.20of.20spans.20of.20categories/near/408307701">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="276679">Jonathan Beardsley</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/bicategory.20of.20spans.20of.20categories/near/408283234">said</a>:</p>
+<blockquote>
+<p>Maybe I should say something like.... what does it mean to say a "diagram commutes," in particular, what is the correct notion of a "map of spans?"</p>
+</blockquote>
+<p>There are different notions of a "map of spans" depending on whether you work in a bicategory or a double category of spans. In a bicategory of spans, a map from a span $x \leftarrow s \rightarrow y$ to another span $x \leftarrow t \rightarrow y$ (with the same feet) is a map $s \to t$ making the two triangles commute. In a double category of spans, a map from a span $x \leftarrow s \rightarrow y$ to another span $w \leftarrow t \rightarrow z$ (now with possibly different feet) consists of maps $x \to w$, $y \to z$, and $s \to t$ making the two squares commute.</p>
+</blockquote>
+<p>Oh nice. Thank you. The latter seemed to be what I was getting but I thought somehow that wasn't a thing.</p>
+
+
+
+<a name="408436461"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/bicategory%20of%20spans%20of%20categories/near/408436461" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/bicategory.20of.20spans.20of.20categories.html#408436461">(Dec 17 2023 at 11:54)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276679">Jonathan Beardsley</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/bicategory.20of.20spans.20of.20categories/near/408290636">said</a>:</p>
+<blockquote>
+<p>Oh I'm only starting with partially monoidal 1-category.</p>
+</blockquote>
+<p>Yes, there's nothing 2-categorical going on in my message, my point is to forget about the 2-categorical structure of bicategories and view them 1-categorically. I mean if you forget about the 0-cells of a bicategory, and regard the 1-cells of the bicategory as objects in a category <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="script">C</mi></mrow><annotation encoding="application/x-tex">\mathcal{C}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathcal" style="margin-right:0.05834em;">C</span></span></span></span>, with "vertical" 2-cells between them as morphisms, then horizontal composition of 1-cells and 2-cells is a partially defined monoidal product on the "total"1-category of 1-cells. The 0-cells just control the domain of definition of the monoidal product.<br>
+It just so happens that there are no morphisms at all between objects that fail to have the same domain and codomain 2-cell, but this makes no difference to understanding it as a 1-category.</p>
+
+
+
+<a name="408436783"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/bicategory%20of%20spans%20of%20categories/near/408436783" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/bicategory.20of.20spans.20of.20categories.html#408436783">(Dec 17 2023 at 12:00)</a>:</h4>
+<p>This "monoidal category" would have multiple non-isomorphic units, which is very weird, but it makes sense that if you cannot define <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>⊗</mo><msup><mn>1</mn><mo mathvariant="normal" lspace="0em" rspace="0em">′</mo></msup></mrow><annotation encoding="application/x-tex">1\otimes 1&#x27;</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⊗</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7519em;"></span><span class="mord"><span class="mord">1</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7519em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span></span></span></span> because the pair <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mn>1</mn><mo separator="true">,</mo><msup><mn>1</mn><mo mathvariant="normal" lspace="0em" rspace="0em">′</mo></msup><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(1, 1&#x27;)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0019em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord">1</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7519em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span> is not in the domain of the monoidal product, you cannot argue that <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mo>≅</mo><mn>1</mn><mo>⊗</mo><msup><mn>1</mn><mo mathvariant="normal" lspace="0em" rspace="0em">′</mo></msup><mo>≅</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">1\cong 1\otimes 1&#x27;\cong 1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≅</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⊗</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.7519em;"></span><span class="mord"><span class="mord">1</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7519em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≅</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span>,  so it's natural that the unit fails to be unique.</p>
+
+
+
+<a name="408656982"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/bicategory%20of%20spans%20of%20categories/near/408656982" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/bicategory.20of.20spans.20of.20categories.html#408656982">(Dec 18 2023 at 17:31)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="424412">Patrick Nicodemus</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/bicategory.20of.20spans.20of.20categories/near/408436461">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="276679">Jonathan Beardsley</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/bicategory.20of.20spans.20of.20categories/near/408290636">said</a>:</p>
+<blockquote>
+<p>Oh I'm only starting with partially monoidal 1-category.</p>
+</blockquote>
+<p>Yes, there's nothing 2-categorical going on in my message, my point is to forget about the 2-categorical structure of bicategories and view them 1-categorically. I mean if you forget about the 0-cells of a bicategory, and regard the 1-cells of the bicategory as objects in a category <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="script">C</mi></mrow><annotation encoding="application/x-tex">\mathcal{C}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathcal" style="margin-right:0.05834em;">C</span></span></span></span>, with "vertical" 2-cells between them as morphisms, then horizontal composition of 1-cells and 2-cells is a partially defined monoidal product on the "total"1-category of 1-cells. The 0-cells just control the domain of definition of the monoidal product.<br>
+It just so happens that there are no morphisms at all between objects that fail to have the same domain and codomain 2-cell, but this makes no difference to understanding it as a 1-category.</p>
+</blockquote>
+<p>I see. Sorry, I didn't read carefully. I hadn't thought about whether or not the particular partial monoidal category I was looking at was just a special kind of bicategory (I wasn't aware of this characterization). It's a pretty simple category though, so it wouldn't surprise me. I'll have to look at it.</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

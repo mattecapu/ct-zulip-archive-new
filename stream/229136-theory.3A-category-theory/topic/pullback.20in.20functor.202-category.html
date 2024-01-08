@@ -1,0 +1,255 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>pullback in functor 2-category · theory: category theory · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/index.html">theory: category theory</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html">pullback in functor 2-category</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="409267747"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409267747" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409267747">(Dec 20 2023 at 22:03)</a>:</h4>
+<p>Say I've got a 1-category C so that I have a 2-category of functors Fun(C,Cat). In particular, given F, G:C→Cat, I have a category of natural transformations Nat(F,G). Now suppose I've got another functor E and a natural transformation E→F. This give a functor Nat(F,G)→Nat(E,G). I would like to say that this is left adjoint to a sort of "C-indexed" left Kan extension. Is this true? I'm happy to assume that C is complete and cocomplete and that F and G (but not necessarily E) factor through complete and cocomplete categories.</p>
+
+
+
+<a name="409268676"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409268676" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409268676">(Dec 20 2023 at 22:11)</a>:</h4>
+<p>Assuming that all works, is it then true that this recovers the normal restriction-extension adjunction if I restrict to one particular object x∈C and look at pulling back along the functor E(x)→F(x)?</p>
+
+
+
+<a name="409269705"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409269705" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> fosco <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409269705">(Dec 20 2023 at 22:20)</a>:</h4>
+<p>you might want to reach out to <span class="user-mention" data-user-id="386779">@Luca Mesiti</span> as he might have something to say here, given the <a href="https://progetto-itaca.github.io/ItaCa-23/assets/abstracts/mesiti.pdf">talk</a> he gave.. last monday!</p>
+
+
+
+<a name="409269840"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409269840" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> fosco <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409269840">(Dec 20 2023 at 22:21)</a>:</h4>
+<p>(the way in which you compute Kan extensions is related to the GConstruction. But in any case, I believe he might have thought about something relevant to your problem! Good luck!)</p>
+
+
+
+<a name="409270438"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409270438" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409270438">(Dec 20 2023 at 22:27)</a>:</h4>
+<p><span class="user-mention" data-user-id="282822">@fosco</span> that's a good point. maybe it's easier to understand as something fibered over C</p>
+
+
+
+<a name="409271279"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409271279" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409271279">(Dec 20 2023 at 22:34)</a>:</h4>
+<p>It's funny. I think I more or less know where this is worked out for quasicategories in Lurie's work.</p>
+
+
+
+<a name="409271571"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409271571" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409271571">(Dec 20 2023 at 22:36)</a>:</h4>
+<p>I suppose in this case however I could just say that the "left adjoint" is the levelwise left Kan extension and then try to check that it's the right thing globally.</p>
+
+
+
+<a name="409272051"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409272051" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409272051">(Dec 20 2023 at 22:40)</a>:</h4>
+<p>Certainly feels like it should be "formal."</p>
+
+
+
+<a name="409274755"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409274755" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409274755">(Dec 20 2023 at 23:03)</a>:</h4>
+<p>I think Mac Lane calls these things "adjunctions with parameter" or "conjugate natural transformations."</p>
+
+
+
+<a name="409275358"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409275358" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> fosco <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409275358">(Dec 20 2023 at 23:08)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276679">Jonathan Beardsley</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category/near/409274755">said</a>:</p>
+<blockquote>
+<p>I think Mac Lane calls these things "adjunctions with parameter" or "conjugate natural transformations."</p>
+</blockquote>
+<p>really, are they the same thing?</p>
+
+
+
+<a name="409275419"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409275419" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409275419">(Dec 20 2023 at 23:08)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="282822">fosco</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category/near/409275358">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="276679">Jonathan Beardsley</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category/near/409274755">said</a>:</p>
+<blockquote>
+<p>I think Mac Lane calls these things "adjunctions with parameter" or "conjugate natural transformations."</p>
+</blockquote>
+<p>really, are they the same thing?</p>
+</blockquote>
+<p>No, I take that back. They're related I think, but not the same thing. I was misunderstanding. I'm interested in the former.</p>
+
+
+
+<a name="409275508"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409275508" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409275508">(Dec 20 2023 at 23:09)</a>:</h4>
+<p>I think this turns out to be pretty straightforward since all I really want, I think, is a 2-functor Adj×C→Cat.</p>
+
+
+
+<a name="409275550"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409275550" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> fosco <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409275550">(Dec 20 2023 at 23:09)</a>:</h4>
+<p>anyway, Street's "Conspectus of variable categories" deals, among other things, with equipping pseudofunctors C -&gt; Cat with a yoneda structure, which then gives a formula for pointwise Kan extensions. You might want to look into that if you haven't already</p>
+
+
+
+<a name="409275802"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409275802" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> fosco <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409275802">(Dec 20 2023 at 23:11)</a>:</h4>
+<p>(I recall having a hard time finding pseudo-Lan's in the category of prederivators, and I recall having a hard time reading that paper <span aria-label="stuck out tongue" class="emoji emoji-1f61b" role="img" title="stuck out tongue">:stuck_out_tongue:</span>)</p>
+
+
+
+<a name="409275827"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409275827" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409275827">(Dec 20 2023 at 23:11)</a>:</h4>
+<p>Haha yeah looks like it might be tough going.</p>
+
+
+
+<a name="409275911"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409275911" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409275911">(Dec 20 2023 at 23:12)</a>:</h4>
+<p>For the moment I sort of am trusting my intuition above that in this special case this is really very straightforward. But I'll guess I'll see if I get stuck.</p>
+
+
+
+<a name="409278423"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409278423" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409278423">(Dec 20 2023 at 23:37)</a>:</h4>
+<blockquote>
+<p>I would like to say that this is left adjoint to a sort of "C-indexed" left Kan extension</p>
+</blockquote>
+<p>(I assume you mean either that it <em>is right</em> adjoint to a left Kan extension, or that it is left adjoint to a <em>right</em> Kan extension.)  What happens is, as you suggest, analogous to ordinary categories, but one has to be careful to make <em>everything</em> indexed.  In the caseto of a left Kan extension, there is an indexed left Kan extension as long as <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi></mrow><annotation encoding="application/x-tex">G</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">G</span></span></span></span> is "indexed cocomplete" and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi></mrow><annotation encoding="application/x-tex">E</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span></span></span></span> is "indexed small".</p>
+<p>There are some variations in what those phrases can mean, but one version is that <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi></mrow><annotation encoding="application/x-tex">G</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">G</span></span></span></span> is indexed-cocomplete if it lands in cocomplete categories <em>and</em> cocontinuous functors, plus each of its transition functors have left adjoints satisfying the Beck-Chevalley condition; and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi></mrow><annotation encoding="application/x-tex">E</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span></span></span></span> is "indexed small" if it is generated by a small diagram of a certain kind, of internal categories and profunctors in <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span>.  Another version requires <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi></mrow><annotation encoding="application/x-tex">G</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">G</span></span></span></span> to land only in finitely cocomplete categories and finitely cocontinuous functors (but still to have left adjoints to transition functors), while <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi></mrow><annotation encoding="application/x-tex">E</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span></span></span></span> must be induced by a single internal category in <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span>.</p>
+<p>This is worked out in even greater generality in my paper on <a href="http://www.tac.mta.ca/tac/volumes/28/21/28-21abs.html">enriched indexed categories</a>, although unfortunately the extra generality means it is probably no easier to read than Street's.</p>
+
+
+
+<a name="409280482"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409280482" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409280482">(Dec 20 2023 at 23:59)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276777">Mike Shulman</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category/near/409278423">said</a>:</p>
+<blockquote>
+<blockquote>
+<p>I would like to say that this is left adjoint to a sort of "C-indexed" left Kan extension</p>
+</blockquote>
+<p>(I assume you mean either that it <em>is right</em> adjoint to a left Kan extension, or that it is left adjoint to a <em>right</em> Kan extension.)  What happens is, as you suggest, analogous to ordinary categories, but one has to be careful to make <em>everything</em> indexed.  In the caseto of a left Kan extension, there is an indexed left Kan extension as long as <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi></mrow><annotation encoding="application/x-tex">G</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">G</span></span></span></span> is "indexed cocomplete" and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi></mrow><annotation encoding="application/x-tex">E</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span></span></span></span> is "indexed small".</p>
+<p>There are some variations in what those phrases can mean, but one version is that <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi></mrow><annotation encoding="application/x-tex">G</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">G</span></span></span></span> is indexed-cocomplete if it lands in cocomplete categories <em>and</em> cocontinuous functors, plus each of its transition functors have left adjoints satisfying the Beck-Chevalley condition; and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi></mrow><annotation encoding="application/x-tex">E</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span></span></span></span> is "indexed small" if it is generated by a small diagram of a certain kind, of internal categories and profunctors in <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span>.  Another version requires <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi></mrow><annotation encoding="application/x-tex">G</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">G</span></span></span></span> to land only in finitely cocomplete categories and finitely cocontinuous functors (but still to have left adjoints to transition functors), while <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi></mrow><annotation encoding="application/x-tex">E</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span></span></span></span> must be induced by a single internal category in <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span>.</p>
+<p>This is worked out in even greater generality in my paper on <a href="http://www.tac.mta.ca/tac/volumes/28/21/28-21abs.html">enriched indexed categories</a>, although unfortunately the extra generality means it is probably no easier to read than Street's.</p>
+</blockquote>
+<p>Thanks very much Mike. What do you mean by transition functors here? Are those the functors in the image of G?</p>
+
+
+
+<a name="409280798"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409280798" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409280798">(Dec 21 2023 at 00:01)</a>:</h4>
+<p>I'll have to think about this situation of indexed cocompleteness. For me C is quite simple, it's <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mi>i</mi><msub><mi>n</mi><mo>∗</mo></msub></mrow><annotation encoding="application/x-tex">Fin_*</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord mathnormal">i</span><span class="mord"><span class="mord mathnormal">n</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1757em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∗</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>, and G is the functor describing the smash product symmetric monoidal structure on <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mi>e</mi><msub><mi>t</mi><mo>∗</mo></msub></mrow><annotation encoding="application/x-tex">Set_*</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mord mathnormal">e</span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1757em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∗</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>, all pointed sets.</p>
+
+
+
+<a name="409280974"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409280974" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409280974">(Dec 21 2023 at 00:03)</a>:</h4>
+<p>Ah, and actually, right, I want my "pullback" functor to be a _left adjoint_ and therefore have a right Kan extension in the other direction. So presumably I need indexed completeness.</p>
+
+
+
+<a name="409281294"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409281294" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409281294">(Dec 21 2023 at 00:06)</a>:</h4>
+<p>But I think this is a problem because I don't think the smash product will preserve limits!</p>
+
+
+
+<a name="409281325"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409281325" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409281325">(Dec 21 2023 at 00:07)</a>:</h4>
+<p>And that's one of the functors in the image of G.</p>
+
+
+
+<a name="409281969"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409281969" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409281969">(Dec 21 2023 at 00:14)</a>:</h4>
+<p>(the reason my case isn't precisely asking for a symmetric monoidal adjunction is that not all of my Segal maps associated to E and F are necessarily equivalences)</p>
+
+
+
+<a name="409282163"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409282163" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409282163">(Dec 21 2023 at 00:16)</a>:</h4>
+<p>But it's hard for me to see what goes wrong, in this simple case, if one simply takes the levelwise right Kan extension.  You really need every functor in the image of G to preserve all small limits??</p>
+
+
+
+<a name="409283063"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409283063" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409283063">(Dec 21 2023 at 00:28)</a>:</h4>
+<p>Hm, maybe this is related <a href="https://link.springer.com/chapter/10.1007/3-540-57867-6_14">https://link.springer.com/chapter/10.1007/3-540-57867-6_14</a></p>
+
+
+
+<a name="409283332"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409283332" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409283332">(Dec 21 2023 at 00:32)</a>:</h4>
+<p>Yeesh, there are several papers out there on fibered and indexed adjunctions, and none of them are available to me, haha.</p>
+
+
+
+<a name="409283937"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409283937" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409283937">(Dec 21 2023 at 00:41)</a>:</h4>
+<p>It seems like there's a pretty tractable indexed adjoint functor theorem. <a href="https://ncatlab.org/nlab/show/indexed+adjoint+functor+theorem">https://ncatlab.org/nlab/show/indexed+adjoint+functor+theorem</a></p>
+
+
+
+<a name="409288737"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409288737" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409288737">(Dec 21 2023 at 01:51)</a>:</h4>
+<p>Yes, by transition functors I mean the functors in the image of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi></mrow><annotation encoding="application/x-tex">G</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">G</span></span></span></span>.</p>
+
+
+
+<a name="409289897"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409289897" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409289897">(Dec 21 2023 at 02:05)</a>:</h4>
+<p>The indexed AFT uses the same kinds of indexed limits and colimits that I was talking about.  I'm not sure that it's helpful for you, though: it's about defining <em>indexed</em> adjoints to indexed functors between indexed categories, a.k.a. adjoint (pseudo)natural transformations between Cat-valued functors.  You're looking instead for an adjoint to a functor between ordinary categories whose <em>objects</em> happen to be indexed functors.</p>
+
+
+
+<a name="409290093"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409290093" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409290093">(Dec 21 2023 at 02:07)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276679">Jonathan Beardsley</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category/near/409282163">said</a>:</p>
+<blockquote>
+<p>But it's hard for me to see what goes wrong, in this simple case, if one simply takes the levelwise right Kan extension.</p>
+</blockquote>
+<p>Have you tried to show that what you get is a natural transformation?</p>
+
+
+
+<a name="409303391"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/pullback%20in%20functor%202-category/near/409303391" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Beardsley <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/pullback.20in.20functor.202-category.html#409303391">(Dec 21 2023 at 03:49)</a>:</h4>
+<p>Right. Blergh. Ok. I'll have to try to think through this tomorrow. I'm getting stuck.</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

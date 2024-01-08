@@ -1,0 +1,244 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>Automated proving? · practice: software · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/index.html">practice: software</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html">Automated proving?</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="307360004"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/307360004" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jacques Carette <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#307360004">(Nov 01 2022 at 17:07)</a>:</h4>
+<p>Anyone have recommendations for software (like say Prover9) that might let me experiment with for conjectures in category theory?  More precisely, say I have a conjecture about equality of some morphisms in a new kind of category (ex: with a couple of monoidal structures, an involution, a couple more gadgets), and fiddling on paper leads nowhere. I'd like to throw this at an automated tool, just to see.</p>
+<p>Most automated provers are untyped, which makes reasoning about morphisms hell (partiality is not fun, especially when you know for a fact that it's all total). Advice?</p>
+<p>I've been thinking of seeing if something like one of Isabelle's sledgehammers might help. At least that would mostly hide the lack of types from me. But I find encoding category theory in HOL tedious, compared with doing it in dependent type theory, so I'm a little loath to pursue that route. [Plus I can only read Isabelle/HOL right now, I've never written any!]</p>
+
+
+
+<a name="307398251"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/307398251" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nathanael Arkor <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#307398251">(Nov 01 2022 at 20:30)</a>:</h4>
+<p>Have you seen the work of Hamana on SOL (one paper with several examples is <a href="https://www.cambridge.org/core/journals/journal-of-functional-programming/article/how-to-prove-decidability-of-equational-theories-with-secondorder-computation-analyser-sol/82CDDB6C015422563D5043CFABC677BC">this one</a>)? I've not yet tried it myself, but it seems pretty powerful.</p>
+
+
+
+<a name="307406806"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/307406806" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jacques Carette <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#307406806">(Nov 01 2022 at 21:30)</a>:</h4>
+<p>I had not! Thanks, that does look intriguing.</p>
+
+
+
+<a name="307727628"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/307727628" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Simon Burton <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#307727628">(Nov 03 2022 at 13:25)</a>:</h4>
+<p>I've experimented with using Prover9  (and mace4) to prove category theory statements. You can see some of my mace files <a href="https://github.com/punkdit/pyfinder/tree/master/pyfinder/theories">here</a>. I was aiming to formalize rig categories, but I eventually gave up. It's pretty tricky, mainly because composition is a partial operation. The usual way to get around this is to have an "undefined" object, and this ends up polluting every (or most) predicates...</p>
+
+
+
+<a name="307763153"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/307763153" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jules Hedges <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#307763153">(Nov 03 2022 at 15:59)</a>:</h4>
+<p>I think the Connexus tool <em>can</em> be used in this way, as a theorem prover for working with finite presentations of categories</p>
+
+
+
+<a name="307800101"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/307800101" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jacques Carette <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#307800101">(Nov 03 2022 at 17:32)</a>:</h4>
+<p><span class="user-mention" data-user-id="277321">@Simon Burton</span> you do know that <code>agda-categories</code> does have a formalization of rig categories?</p>
+<p>I was definitely afraid that "losing the types" would end up being a nightmare. This is what I learned from <span class="user-mention" data-user-id="276026">@Philip Zucker</span> 's experience <a href="https://www.philipzucker.com/category-theory-in-the-e-automated-theorem-prover/">with E</a> and experiments <a href="https://www.philipzucker.com/notes-on-synthesis-and-equation-proving-for-catlab-jl/">around Catlab</a>.   Christoph Benzmuller's <a href="http://aitp-conference.org/2018/slides/CBDS.pdf">experiments</a> did not fill me with hope either!  But then, this morning, I saw the paper <a href="https://hal.inria.fr/hal-03814635/document">Seventeen Provers under the Hammer</a> which gave me renewed hope.</p>
+
+
+
+<a name="307800996"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/307800996" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jacques Carette <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#307800996">(Nov 03 2022 at 17:36)</a>:</h4>
+<p><span class="user-mention" data-user-id="275901">@Jules Hedges</span> Thanks - but I'm not really working on presentations of categories, rather I'm trying to prove some equalities in something akin to special dagger rig categories. Specifically whether a model we've constructed satisfies axioms C1-C20 that Selinger et al enumerate on p.3 of <a href="https://arxiv.org/abs/2204.02217">this paper</a>.</p>
+
+
+
+<a name="307810856"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/307810856" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Philip Zucker <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#307810856">(Nov 03 2022 at 18:25)</a>:</h4>
+<p>FYI The line of thinking that was kicked off by those experiments is still progressing. There is a new system in the works <a href="https://github.com/mwillsey/egg-smol">https://github.com/mwillsey/egg-smol</a> (publication in progress, still not really intended for external users quite yet) that can be seen as a much more powerful and performant version of this prototype <a href="https://www.philipzucker.com/egglog/">https://www.philipzucker.com/egglog/</a> in collaboration with some of the egg people at UW. The system is heavily based in the idea of partial functions, datalog, and equational (egraph based) rewriting with sophisticated guard conditions. Proof production is definitely in the roadmap and people are flirting with the question of how to do a sound CAS. I've also been wondering if I should revisit my E/Vampire encodings in light of a year or two of more experience. I think heavily leaning into a Maybe monad style encoding to make everything partial could work, especially with a metaprogramming environment to make it  less burdensome. I know of a group of people attempting to integrate egg1 into lean and another into coq, but I am unaware of anyone trying to do something similar for Agda, which I know is your playground. Would be interested to understand good example problems in rig categories or otherwise if they are digestible by a mere mortal like myself, as we are always seeking more good applications of these systems.</p>
+
+
+
+<a name="307830847"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/307830847" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jacques Carette <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#307830847">(Nov 03 2022 at 20:18)</a>:</h4>
+<p><span class="user-mention" data-user-id="276026">@Philip Zucker</span> We're in the middle of a paper where we need to see if C1-C20 of Selinger's paper (see link in response to Jules) hold. I think you'll get a good idea of the scope by just reading pages 1-3 of that paper.</p>
+
+
+
+<a name="307833962"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/307833962" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Philip Zucker <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#307833962">(Nov 03 2022 at 20:36)</a>:</h4>
+<p>If I'm reading this correctly, It is a pure group? Do you need n&gt;2 or where n changes?</p>
+
+
+
+<a name="307898091"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/307898091" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jacques Carette <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#307898091">(Nov 04 2022 at 07:36)</a>:</h4>
+<p>For that part, yes, actually, it is just the group. I've been so used to the general case that I did not notice that for this part, that's all we need. [We eventually want n&gt;2, but n=2  is already hard.]</p>
+
+
+
+<a name="307928736"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/307928736" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Simon Burton <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#307928736">(Nov 04 2022 at 10:50)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="296322">Jacques Carette</span> <a href="#narrow/stream/229125-practice.3A-software/topic/Automated.20proving.3F/near/307800101">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="277321">Simon Burton</span> you do know that <code>agda-categories</code> does have a formalization of rig categories?<br>
+...</p>
+</blockquote>
+<p>Thanks for that overview. I did review the work done in agda. One thing that's fun about using Prover9 is that the sister program mace4 looks for models that provide a counterexample to statements. But I see now that I ran into many of the same issues that <span class="user-mention" data-user-id="276026">@Philip Zucker</span> <a href="https://www.philipzucker.com/category-theory-in-the-e-automated-theorem-prover/">had</a>: "<em>Just because it says proved is not very convincing. It is very easy to have your axioms and/or conjecture stated incorrectly. Forall ! and Exists ? bind tighter than I naively expect them to in the syntax. I ended up putting parenthesis nearly everywhere. I had a lot of very difficult to debug problems due to bad binding assumptions.</em>"</p>
+<p>Proving things in CT is often as easy as falling off a log. The arrows already tell you what to do. So the feeling is that a prover tailored to CT should work well. Even classical logic seems to be overkill for most CT, we only need very weak logic. Coherence results are more subtle, those are more like proving confluence of a rewrite system. But otherwise, we should be able to solve the word problem in various free higher-categories, such as a monoidal bicategory. Using stuff like Lean just seems like an impedance mismatch. So anyway, I'm pretty excited to see other people are working on this. I should probably let the professionals sort it out and stop shooting myself in the foot repeatedly, even though I still have some foot leftover...</p>
+
+
+
+<a name="307944355"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/307944355" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jacques Carette <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#307944355">(Nov 04 2022 at 12:24)</a>:</h4>
+<p>Yeah, I might get around to working on that. Might happen in the second quarter of 2023 even.</p>
+
+
+
+<a name="411524958"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/411524958" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#411524958">(Jan 06 2024 at 17:54)</a>:</h4>
+<p><span class="user-mention" data-user-id="296322">@Jacques Carette</span> The KWARC research group has implemented an IDE for an extensional dependent type theory which translates the dependent type theory to HOL under the hood and then uses the automated theorem prover Leo III to try and solve theorems automatically. <a href="https://arxiv.org/abs/2305.15382">https://arxiv.org/abs/2305.15382</a></p>
+
+
+
+<a name="411530805"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/411530805" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jacques Carette <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#411530805">(Jan 06 2024 at 19:21)</a>:</h4>
+<p>Thanks <span class="user-mention" data-user-id="424412">@Patrick Nicodemus</span> . I guess neither Florian nor Christoph had seen my query here, as I would have expected to mention this when we were all in the same place last October. But test results of section 6.1 of the paper do not leave me optimistic.</p>
+
+
+
+<a name="411545353"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/411545353" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#411545353">(Jan 06 2024 at 23:01)</a>:</h4>
+<p><span class="user-mention" data-user-id="296322">@Jacques Carette</span> The tests don't reflect the way I imagine the software being most useful to category theorists. A more modest goal would be to assess only the purely equational reasoning involved in category theory. For example, the category theorist should supply the definition of a functor on objects and morphisms and let the HOL prover check that the functor preserves identity and composition. Equational reasoning should be trivial indeed but in Coq and Agda category theory libraries there are long chains of equational reasoning that require user knowledge of the library to solve, it would be good if this could be limited. Really by this point equational reasoning in a category should be a solved problem and there should be off the shelf tooling available.</p>
+
+
+
+<a name="411545482"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/411545482" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#411545482">(Jan 06 2024 at 23:03)</a>:</h4>
+<p>The tests in the paper all involve existential reasoning, which I think is a high bar to clear in general - there <em>exists</em> an isomorphism... I would be more than happy with a formal proof system which realistically allows us to only define things and takes care of the coherence conditions for us automatically.<br>
+For a more complex example, when building a bifunctor i think it's realistic for the user to manually supply the unitor and associator isomorphisms and ask that the coherence isomorphisms like the mac lane pentagon are manually checked.</p>
+
+
+
+<a name="411545870"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/411545870" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#411545870">(Jan 06 2024 at 23:10)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="277321">Simon Burton</span> <a href="#narrow/stream/229125-practice.3A-software/topic/Automated.20proving.3F/near/307928736">said</a>:</p>
+<blockquote>
+<p>Using stuff like Lean just seems like an impedance mismatch.</p>
+</blockquote>
+<p>Yes, I really agree. It's strange that category theory is at once so simple and so complicated. Simple in that it is merely equational reasoning in large part, and seems to not need too many alternating quantifiers at its worst - universal properties are usually "for all, there exist".<br>
+Yet because we talk about classes we want type theories with universes, and because we talk about partially defined functions like composition we reach for dependent types as a principled solution to this, and now we stumble into all the problems with intensional equality.</p>
+
+
+
+<a name="411546073"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/411546073" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#411546073">(Jan 06 2024 at 23:14)</a>:</h4>
+<p><span class="user-mention" data-user-id="275901">@Jules Hedges</span> Do you think that the Connexus software could prove the simplicial identities for the simplex category automatically if i specified it as the free monoidal category with distinguished monoid and wrote down the presentation by the generating object and the rules for a monoid</p>
+
+
+
+<a name="411546206"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/411546206" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#411546206">(Jan 06 2024 at 23:16)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="277321">Simon Burton</span> <a href="#narrow/stream/229125-practice.3A-software/topic/Automated.20proving.3F/near/307928736">said</a>:</p>
+<blockquote>
+<p>Thanks for that overview. I did review the work done in agda. One thing that's fun about using Prover9 is that the sister program mace4 looks for models that provide a counterexample to statements. </p>
+</blockquote>
+<p>Isabelle has <code>nitpick</code> now, which is a very good counterexample tool. Honestly, I don't know much about automated theorem proving but why not use Isabelle instead of Prover9? this is uninformed here but I would expect to be able to do anything you can do in Prover9 in Isabelle and Sledgehammer's portfolio strategy seems like it would work better than using a single theorem prover.</p>
+
+
+
+<a name="411546354"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/411546354" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#411546354">(Jan 06 2024 at 23:19)</a>:</h4>
+<p>More generally my uninformed assumption is that Isabelle probably has a more developed interface for specifying your theory. And I don't find the syntax confusing generally. (Well, using <code>=</code> for iff results in weird binding conventions.)</p>
+
+
+
+<a name="411559820"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/411559820" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ryan Wisnesky <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#411559820">(Jan 07 2024 at 02:14)</a>:</h4>
+<p>Conexus CQL provides decision procedures for the word problem in finitely presented categories using an algorithm that is complete for equational theories which admit length non-decreasing re-write systems.  It also provides decision procedures for the word problem in product categories, for example "entropic groupoid presentations", although those are a lot tougher.  I'd be happy to work together to try to formalize the result about simplex categories you are looking for</p>
+
+
+
+<a name="411571363"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/411571363" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#411571363">(Jan 07 2024 at 05:29)</a>:</h4>
+<p><span class="user-mention" data-user-id="281326">@Ryan Wisnesky</span> I guess what I'm asking is whether it would be reasonable to extend this to finitely presented monoidal categories, where "finitely presented" refers to the fact that only finitely many objects and morphisms need to be specified, although the category may have infinitely many objects.</p>
+
+
+
+<a name="411572028"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/411572028" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ryan Wisnesky <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#411572028">(Jan 07 2024 at 05:42)</a>:</h4>
+<p>I think the completion algorithm in question throws the sorts/objects away, so that seems reasonable, you'd need to provide an equational theory over a single sort.  The monoidal aspect you'd similarly need to encode, using e.g. extra morphisms.  I don't know much about the simplex equations but I was able to write and have CQL decide a toy theory that looks like my erroneous understanding of it for a small N:</p>
+<blockquote>
+<p>schema simplicial = literal : empty {<br>
+    entities<br>
+        S<br>
+    foreign_keys<br>
+        d1 d2 s0 s1 : S -&gt; S<br>
+    path_equations<br>
+        S.d2.d1 = S.d1.d1   <br>
+        S.s1.s0 = S.s0.s0<br>
+        S.d2.s1 = S.s0.d2<br>
+}</p>
+</blockquote>
+
+
+
+<a name="411572041"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/411572041" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ryan Wisnesky <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#411572041">(Jan 07 2024 at 05:43)</a>:</h4>
+<p>fwiw, to decide the word problem CQL generated a system that includes length-preserving re-write rules, so this isn't an "easy" theory to decide</p>
+
+
+
+<a name="411627275"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/411627275" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jacques Carette <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#411627275">(Jan 07 2024 at 19:43)</a>:</h4>
+<p>Using software for mere categorical reasoning wouldn't really help that much - it's so easy humans can do it easily too.</p>
+<p>Where things get hairy are when you get to bicategories and (separately) to say symmetric rig groupoids. The number of coherences (i.e. rewrites) get crazy (somewhat over 100). That's what I'd like automation for!</p>
+
+
+
+<a name="411630541"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/411630541" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ryan Wisnesky <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#411630541">(Jan 07 2024 at 20:39)</a>:</h4>
+<p>When we deploy CQL at companies to do data integration, it routinely decides equational theories with thousands of equations or more in seconds.  Most of these theories are never seen by people, they are induced by e.g. SQL schemas and OWL ontologies and datalog programs and ... .</p>
+
+
+
+<a name="411636355"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229125-practice%3A%20software/topic/Automated%20proving%3F/near/411636355" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229125-practice.3A-software/topic/Automated.20proving.3F.html#411636355">(Jan 07 2024 at 22:14)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="296322">Jacques Carette</span> <a href="#narrow/stream/229125-practice.3A-software/topic/Automated.20proving.3F/near/411627275">said</a>:</p>
+<blockquote>
+<p>Using software for mere categorical reasoning wouldn't really help that much - it's so easy humans can do it easily too.</p>
+<p>Where things get hairy are when you get to bicategories and (separately) to say symmetric rig groupoids. The number of coherences (i.e. rewrites) get crazy (somewhat over 100). That's what I'd like automation for!</p>
+</blockquote>
+<p>Sure, I meant bicategories and stuff like that. The point is it's equational.</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,1136 @@
+[
+    {
+        "content": "<p>I guess everyone here is at least aware that nLab has been having technical difficulties in the last months. But I only just saw these words written by Urs: (<a href=\"http://128.2.67.219/schreiber/show/What+is...+the+nLab#fn:1\">http://128.2.67.219/schreiber/show/What+is...+the+nLab#fn:1</a>)</p>\n<p>\"The operation of the main web of the nnLab had been abruptly suspended on 29 Dec. 2021 by its single volunteer installation administrator at that time, without notice or discussion. (The forum page with the shutdown announcement is now down, too.) Authors have been locked out of all their pages since (in particular I continue being locked out of my home page, please check by email whether information given there is still accurate, in case it matters).<br>\nThe currently remaining rudimentary page display is hence outdated, besides having been partially broken in the shutdown process; and readers should please beware that the nnLab pages they currently get to see have not been, are not being and cannot be maintained until further notice. (Some pages are not even displaying their latest content as of the shutdown moment anymore.)<br>\nRequests to at least post an alert to this effect on displayed pages have been turned down without reason; and a succession of announcements of system recovery have all passed without effect, instead further functionality has been switched off since. In short, the nnLab installation has de facto died on 29 Dec. 2021, and it is unclear if or when it will be revived in the future, and in which state of coherence or trustworthiness. Myself, I have unfortunately no control or command over the installation, having trusted in volunteer help on this crucial point.<br>\nA hard restart of the entire nnLab project seems to be necessary, and maybe there is some value to this, dire as it feels at this point. If anyone reading this sees themselves willing and capable to set up, host and administrate a research wiki vaguely like the nnLab was, possibly better, then please contact me.\"</p>",
+        "id": 280875240,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1651499160
+    },
+    {
+        "content": "<p>My first thought is that if we talk to our ACT friends in industry it probably would be quite easy to get enough money to pay a professional sysadmin, and not rely on volunteers.</p>",
+        "id": 280875921,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1651499504
+    },
+    {
+        "content": "<p>The important thing isn't not to rely on volunteers, but insofar as possible not to rely.  The main thing is to have a process by which the service can be set up again without help from whoever is currently running it, like always having up-to-date backups in the hands of the wiki administrators (and if possible, slightly-less-up-to-date backups available to the general public).</p>",
+        "id": 280877685,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1651500307
+    },
+    {
+        "content": "<p>(Also, the domain should be held by an organization composed of the wiki administrators, rather than by any unrelated org 'on their behalf'.  This is secondary though--links being broken is bad, but not nearly as bad as links being broken <em>unsystematically</em>.)</p>",
+        "id": 280878005,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1651500510
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275901\">Jules Hedges</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/280875921\">said</a>:</p>\n<blockquote>\n<p>My first thought is that if we talk to our ACT friends in industry it probably would be quite easy to get enough money to pay a professional sysadmin, and not rely on volunteers.</p>\n</blockquote>\n<p>From an industry perspective, the scarcest resource is time.</p>",
+        "id": 280880656,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1651501846
+    },
+    {
+        "content": "<p>Putting someone to work on this means paying someone part-time to do it. At least for a startup-like reality, this is just not possible. Also I wouldn't be too happy knowing that ncatlab is privately managed.</p>",
+        "id": 280880735,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1651501886
+    },
+    {
+        "content": "<p>The best strategy imho would be to request some sort of grant for this task, and use that money to pay some freelance professional to take care of it. Also, I'd request monthly or at least quarterly backups so that if something like this happens again in the future the project can be restarted easily. I really hope Urs has some backups of the ncatlab.</p>",
+        "id": 280880985,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1651501999
+    },
+    {
+        "content": "<p>Yes, I had in mind grants or donations from industry</p>",
+        "id": 280882560,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1651502707
+    },
+    {
+        "content": "<p>Sounds like something that an institute could help with ;)</p>",
+        "id": 280882729,
+        "sender_full_name": "Jade Master",
+        "timestamp": 1651502785
+    },
+    {
+        "content": "<p>Does anyone know what the problem with the nForum currently is?</p>",
+        "id": 280882956,
+        "sender_full_name": "Paolo Perrone",
+        "timestamp": 1651502884
+    },
+    {
+        "content": "<p>It may be difficult to revive the old nLab even with the page source code... I recall the engine was heavily customised.</p>",
+        "id": 280883308,
+        "sender_full_name": "Zhen Lin Low",
+        "timestamp": 1651503022
+    },
+    {
+        "content": "<p>29 Dec 2021 is a long time ago, and the nLab has been \"running\" much more recently than that.  I suggest asking Urs whether that quoted text is just an out-of-date leftover.</p>\n<p>However, I do certainly agree that the reliance on the current volunteer labor is a bad situation, for many reasons.</p>",
+        "id": 280891654,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1651506421
+    },
+    {
+        "content": "<p>I didn't explicitly ask, but he tweeted a screenshot of this same text today, so I would assume it still stands</p>",
+        "id": 280892947,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1651506978
+    },
+    {
+        "content": "<p>The nForum has a SSL certificate problem, apparently.</p>\n<p>There were funds collected for the nLab migration (<a href=\"https://golem.ph.utexas.edu/category/2021/03/funding_of_the_nlab.html\">here</a>) . When the nForum is running again, you'll be able to see how much was collected from the final comment in the thread.</p>",
+        "id": 280898683,
+        "sender_full_name": "David Corfield",
+        "timestamp": 1651509444
+    },
+    {
+        "content": "<p>The best way to avoid certificate problems is to use the Electronic Frontier Foundations <a href=\"https://letsencrypt.org\">https://letsencrypt.org</a><br>\nIt is quite easy to use and automatically fetches new certificates on a regular basis.</p>",
+        "id": 280899140,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1651509654
+    },
+    {
+        "content": "<p>Ah, reading more closely I see that Urs is referring to the shutdown of <em>editing</em>, which has indeed been going on that long.  I wish I were able to help with solving the problem myself, but I have too much on my plate at the moment already.</p>\n<p>I do think that there are backups of the page source, in at least some form.  My personal workstation has been running daily backups for a while, and I think Urs and possibly one or two others also have.  It looks like they stopped working this March, but I still have backups from December, January, and February -- I haven't looked at them, but the gzipped files are 1.2G, so they have <em>something</em> in them.</p>",
+        "id": 280901178,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1651510597
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275901\">Jules Hedges</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/280882560\">said</a>:</p>\n<blockquote>\n<p>Yes, I had in mind grants or donations from industry</p>\n</blockquote>\n<p>Industry usually gives money to develop things. You finance an institute or a startup to get a slice of the possible earnings. From this point of view financing the nlab is a bit of a dead end: It is not intrinsically novel per sé, it's just a repository. Industry investors have little incentives to invest in something like this instead of moving their money towards something that deliver novel, exploitable research. The only incentive I can think of is philanthropy, which is a very rare thing to find lol</p>",
+        "id": 280903978,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1651511711
+    },
+    {
+        "content": "<p>Clearly if something like the Topos Institute acquires a staggering valuation, then they could use part of the money to maintain the nlab. The problem is getting to that valuation. Almost all startups in this space are pretty early on, in a stage where every penny counts <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span></p>",
+        "id": 280904159,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1651511787
+    },
+    {
+        "content": "<p>Richard estimates that costs will be &lt; $6 a month (<a href=\"https://nforum.ncatlab.org/discussion/13776/nlab-migration-to-the-cloud/?Focus=97893#Comment_97893\">https://nforum.ncatlab.org/discussion/13776/nlab-migration-to-the-cloud/?Focus=97893#Comment_97893</a>). So securing funding is not a top priority.</p>\n<p>Urs seems to be being overly dramatic about the whole thing. This migration was necessary to create the kind of robust technology for the nLab that we all want. It's now running on AWS; whereas before it was running on a single box in someone's office. The plan is also to open-source all the code.</p>\n<p>Also, the search is now infinitely faster than it was before, which anyone who experienced the old search will know is an absolute blessing.</p>",
+        "id": 280908505,
+        "sender_full_name": "Oscar Cunningham",
+        "timestamp": 1651513723
+    },
+    {
+        "content": "<p>I don't think shutting down fundamental features for months on end is a normal way of migrating to a cloud server and developing new code.</p>",
+        "id": 280908628,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1651513792
+    },
+    {
+        "content": "<p>I suppose what Urs says can be summed up in one sentence as \"the admin is not cooperating or communicating\", which is a pretty bad situation</p>",
+        "id": 280910174,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1651514447
+    },
+    {
+        "content": "<p>I'd guess the nForum is probably down for an unrelated reason; I just checked that the nCafe has no post about the nLab's technical problems, so probably this very thread is 3rd in line to the throne of places that anyone can even talk about this. (Which isn't ideal because Urs himself isn't signed up here, I think)</p>",
+        "id": 280911959,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1651515293
+    },
+    {
+        "content": "<p>Sure. And Urs' post made some sense when he originally made it. I just don't understand why he's sounding the alarm again by retweeting it now that most of the trouble is over. It's lead to a post on reddit declaring 'Apparently nLab is dead' at the top of r/math with 105 votes. This is frustrating because it will discourage people from interacting with the nLab at exactly the moment when editing is being reopened.</p>",
+        "id": 280912047,
+        "sender_full_name": "Oscar Cunningham",
+        "timestamp": 1651515356
+    },
+    {
+        "content": "<p>It seems like everyone here is running to panic stations, when in fact we've already reached the point where we're sorting out the finer details.</p>",
+        "id": 280912208,
+        "sender_full_name": "Oscar Cunningham",
+        "timestamp": 1651515425
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"281126\">Henry Story</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/280899140\">said</a>:</p>\n<blockquote>\n<p>The best way to avoid certificate problems is to use the Electronic Frontier Foundations <a href=\"https://letsencrypt.org\">https://letsencrypt.org</a><br>\nIt is quite easy to use and automatically fetches new certificates on a regular basis.</p>\n</blockquote>\n<p>The certificate is already from Let's Encrypt, so it's not as automatic as one would hope.</p>",
+        "id": 280912366,
+        "sender_full_name": "Oscar Cunningham",
+        "timestamp": 1651515510
+    },
+    {
+        "content": "<p>Ah, I see..... communication problems coming from the nForum being down at the time it's most needed!</p>",
+        "id": 280912430,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1651515542
+    },
+    {
+        "content": "<p>But it is not actually down... just has an expired certificate</p>",
+        "id": 280912580,
+        "sender_full_name": "Reid Barton",
+        "timestamp": 1651515602
+    },
+    {
+        "content": "<p>Right, I can still post there by telling my browser to access it anyway. (For some reason my phone gives me this option but my laptop does not.)</p>",
+        "id": 280912701,
+        "sender_full_name": "Oscar Cunningham",
+        "timestamp": 1651515648
+    },
+    {
+        "content": "<p>And at <a href=\"https://nforum.ncatlab.org/discussion/13776/3/nlab-migration-to-the-cloud/\">https://nforum.ncatlab.org/discussion/13776/3/nlab-migration-to-the-cloud/</a> there are like a dozen posts from Richard Williamson in the past week.</p>",
+        "id": 280912724,
+        "sender_full_name": "Reid Barton",
+        "timestamp": 1651515656
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276480\">Reid Barton</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/280912580\">said</a>:</p>\n<blockquote>\n<p>But it is not actually down... just has an expired certificate</p>\n</blockquote>\n<p>Most modern browsers will refuse to allow you to visit a site with an expired certificate nowadays.</p>",
+        "id": 280912741,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651515665
+    },
+    {
+        "content": "<p>Firefox tells me \"you can't add an exception to visit this site\", so for me it's functionally down</p>",
+        "id": 280912797,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1651515686
+    },
+    {
+        "content": "<p>Well, I can't help all of you with broken browsers <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 280912908,
+        "sender_full_name": "Reid Barton",
+        "timestamp": 1651515726
+    },
+    {
+        "content": "<p>Maybe download Internet Explorer?  <span aria-label=\"octopus\" class=\"emoji emoji-1f419\" role=\"img\" title=\"octopus\">:octopus:</span></p>",
+        "id": 280913004,
+        "sender_full_name": "Jason Erbele",
+        "timestamp": 1651515777
+    },
+    {
+        "content": "<p>For what it's worth, here <a href=\"https://stackoverflow.com/questions/67707027/how-to-get-through-security-error-pages-in-firefox-browser\">https://stackoverflow.com/questions/67707027/how-to-get-through-security-error-pages-in-firefox-browser</a> are instructions to override for Firefox, although I'm not going to do so</p>",
+        "id": 280913253,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1651515885
+    },
+    {
+        "content": "<p>(Using Firefox) I just clicked the \"allow anyways\" button, don't know why it is different for others.</p>",
+        "id": 280913465,
+        "sender_full_name": "Reid Barton",
+        "timestamp": 1651515974
+    },
+    {
+        "content": "<p>Oh yeah, I just opened my personal laptop and I have that button. So this is a recent change to Firefox, they took that button away, presumably so that anyone capable of finding and carrying out the override instructions is more likely to understand the risks</p>",
+        "id": 280913754,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1651516112
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275901\">Jules Hedges</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/280911959\">said</a>:</p>\n<blockquote>\n<p>I'd guess the nForum is probably down for an unrelated reason; I just checked that the nCafe has no post about the nLab's technical problems, so probably this very thread is 3rd in line to the throne of places that anyone can even talk about this. (Which isn't ideal because Urs himself isn't signed up here, I think)</p>\n</blockquote>\n<p>Urs quit posting on the nCafe years ago, so any such post would most likely emanate from Mike Shulman or David Corfield.</p>",
+        "id": 280923481,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651520638
+    },
+    {
+        "content": "<p>I have up-to-date Firefox and I have no trouble seeing nLab pages.  Maybe at some point I said I was okay with an expired certificate.  Or maybe it's back up now?  I can't tell.</p>",
+        "id": 280924597,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651521205
+    },
+    {
+        "content": "<p>I still cannot access the nForum.</p>",
+        "id": 280924714,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651521255
+    },
+    {
+        "content": "<p>It may be that Richard Williamson is unaware of the certificate issues if his browser is not complaining. Perhaps someone who can access the nForum could send a post notifying him about the certificate issues if no-one has done already?</p>",
+        "id": 280924785,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651521295
+    },
+    {
+        "content": "<p>I tried going to the nForum.  I got a warning about an expired security certificate on my up-to-date Firefox 99.0.1 (64-bit Windows version).  It allowed me to take a chance and go ahead.    It works fine.</p>",
+        "id": 280925609,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651521689
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/280924597\">said</a>:</p>\n<blockquote>\n<p>I have up-to-date Firefox and I have no trouble seeing nLab pages.  Maybe at some point I said I was okay with an expired certificate.  Or maybe it's back up now?  I can't tell.</p>\n</blockquote>\n<p>Only the nForum is affected by the expired certificate. It's unrelated to any issues with the nLab.</p>",
+        "id": 280926029,
+        "sender_full_name": "Oscar Cunningham",
+        "timestamp": 1651521894
+    },
+    {
+        "content": "<p>Oh, thanks for that correction.</p>\n<p>I posted a comment <a href=\"https://nforum.ncatlab.org/discussion/13776/nlab-migration-to-the-cloud/?Focus=98023#Comment_98023\">here</a> on the nForum:</p>\n<blockquote>\n<p>Maybe you folks already know this, but the security certificate on the nForum has expired. Thus, my Firefox browser warned me not to go ahead and visit these sites... but I said I was willing to take the risk and went ahead. Other less brave users think something really bad has happened.</p>\n</blockquote>",
+        "id": 280926084,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651521920
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/280924785\">said</a>:</p>\n<blockquote>\n<p>It may be that Richard Williamson is unaware of the certificate issues if his browser is not complaining. Perhaps someone who can access the nForum could send a post notifying him about the certificate issues if no-one has done already?</p>\n</blockquote>\n<p>Toby Bartels posted 5 hours ago confirming that Richard knows about the certificate issue and aimed to fix it today.</p>",
+        "id": 280926145,
+        "sender_full_name": "Oscar Cunningham",
+        "timestamp": 1651521939
+    },
+    {
+        "content": "<p>Okay.  So I guess Urs' dire warning concerns our inability to edit the nLab, and maybe some other issues.</p>",
+        "id": 280926511,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651522112
+    },
+    {
+        "content": "<p>There have been a number of assurances from Richard that editing functionality will be available by such-and-such date, but it seems the goalposts keep getting moved. I assume that and the licensing problem with the nForum are the things frustrating Urs. (And him above anyone else, since he had made the nLab inseparable from his research life.)</p>",
+        "id": 280934355,
+        "sender_full_name": "Todd Trimble",
+        "timestamp": 1651525660
+    },
+    {
+        "content": "<p>It is indeed quite unfortunate that Richard is deciding on the fate of the nLab almost unilaterally at this point, but at least it's clear he is approaching the goal<br>\nSome pages are being reopened, like <a href=\"https://ncatlab.org/nlab/show/homotopy%20Kan%20fibration\">this one</a></p>",
+        "id": 280976261,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1651563073
+    },
+    {
+        "content": "<p>I totally get Urs's frustration... it'd be as if someone took my laptop for repairs and resisted giving it back. I would have too bought a new laptop by now.</p>",
+        "id": 280976287,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1651563112
+    },
+    {
+        "content": "<p>More concerningly, the nLab is now down and the nForum is an email server. <a href=\"/user_uploads/21317/VJEA9Q6XivUYH5euoNG4aLh1/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/VJEA9Q6XivUYH5euoNG4aLh1/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/VJEA9Q6XivUYH5euoNG4aLh1/image.png\"></a></div>",
+        "id": 280999198,
+        "sender_full_name": "Oscar Cunningham",
+        "timestamp": 1651577642
+    },
+    {
+        "content": "<p>I hope this is just a temporary stage as Richard mucks about with stuff to fix the certificate issue.</p>",
+        "id": 280999339,
+        "sender_full_name": "Oscar Cunningham",
+        "timestamp": 1651577734
+    },
+    {
+        "content": "<p>In fact the website \"<a href=\"https://ncatlab.org/\">https://ncatlab.org/</a>\" is still down, and the domain \"<a href=\"https://nlab-pages.s3.us-east-2.amazonaws.com/\">https://nlab-pages.s3.us-east-2.amazonaws.com/</a>\" seems to be down too.</p>",
+        "id": 281009937,
+        "sender_full_name": "Beppe Metere",
+        "timestamp": 1651583244
+    },
+    {
+        "content": "<p><a href=\"https://ncatlab.org\">https://ncatlab.org</a> is up for me :-)</p>",
+        "id": 281011819,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1651584180
+    },
+    {
+        "content": "<p>Are you sure you're not just looking at a cached version, <span class=\"user-mention\" data-user-id=\"280178\">@Tim Hosgood</span>? These checking-websites also report <a href=\"https://ncatlab.org\">https://ncatlab.org</a> as down: <a href=\"https://downforeveryoneorjustme.com/ncatlab.org\">https://downforeveryoneorjustme.com/ncatlab.org</a> &amp; <a href=\"https://www.isitdownrightnow.com/ncatlab.org.html\">https://www.isitdownrightnow.com/ncatlab.org.html</a></p>",
+        "id": 281012271,
+        "sender_full_name": "Tom de Jong",
+        "timestamp": 1651584394
+    },
+    {
+        "content": "<p>I'm pretty sure — I clicked on a random page I've never been to before (<a href=\"https://ncatlab.org/nlab/show/nonstandard+analysis\">https://ncatlab.org/nlab/show/nonstandard+analysis</a>) and it works, even with a forced reload.</p>\n<p>Edit: yeah, I've clicked around a bunch and everything loads fine for me <span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span></p>",
+        "id": 281012631,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1651584582
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/6TFzndXrtJqj2jw2Zr2CM0of/Screen-Shot-2022-05-03-at-15.29.38.png\">I have access to ncatlab.org using MS Edge</a>. It is using an Amazon certificate from Feb.</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/6TFzndXrtJqj2jw2Zr2CM0of/Screen-Shot-2022-05-03-at-15.29.38.png\" title=\"I have access to ncatlab.org using MS Edge\"><img src=\"/user_uploads/21317/6TFzndXrtJqj2jw2Zr2CM0of/Screen-Shot-2022-05-03-at-15.29.38.png\"></a></div>",
+        "id": 281012871,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1651584688
+    },
+    {
+        "content": "<p>Same <a href=\"/user_uploads/21317/6z8THnSL9QtxGd7muKuIhjR5/Screen-Shot-2022-05-03-at-15.32.28.png\">with Safari</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/6z8THnSL9QtxGd7muKuIhjR5/Screen-Shot-2022-05-03-at-15.32.28.png\" title=\"with Safari\"><img src=\"/user_uploads/21317/6z8THnSL9QtxGd7muKuIhjR5/Screen-Shot-2022-05-03-at-15.32.28.png\"></a></div>",
+        "id": 281013031,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1651584773
+    },
+    {
+        "content": "<p>I think you might have a cached DNS record for <a href=\"http://ncatlab.org\">ncatlab.org</a>, since that seems to be the problem for me.</p>",
+        "id": 281013124,
+        "sender_full_name": "Reid Barton",
+        "timestamp": 1651584832
+    },
+    {
+        "content": "<p>it's down for me</p>",
+        "id": 281013480,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1651584984
+    },
+    {
+        "content": "<p>This is what I have in the command line</p>\n<div class=\"codehilite\" data-code-language=\"Bash\"><pre><span></span><code>$ nslookup ncatlab.org\nServer:     <span class=\"m\">192</span>.168.178.1\nAddress:    <span class=\"m\">192</span>.168.178.1#53\n\nNon-authoritative answer:\nName:   ncatlab.org\nAddress: <span class=\"m\">18</span>.66.192.74\nName:   ncatlab.org\nAddress: <span class=\"m\">18</span>.66.192.43\nName:   ncatlab.org\nAddress: <span class=\"m\">18</span>.66.192.97\nName:   ncatlab.org\nAddress: <span class=\"m\">18</span>.66.192.57\n</code></pre></div>",
+        "id": 281013481,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1651584984
+    },
+    {
+        "content": "<p>Perhaps n &lt; 4 of the servers has a good certificate and 4 - n a broken one?</p>",
+        "id": 281013763,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1651585096
+    },
+    {
+        "content": "<p>Wow MIT sold a lot of IP addresses.</p>",
+        "id": 281013931,
+        "sender_full_name": "Reid Barton",
+        "timestamp": 1651585185
+    },
+    {
+        "content": "<p>FWIW</p>\n<div class=\"codehilite\"><pre><span></span><code>$ nslookup ncatlab.org\nServer:     192.168.1.1\nAddress:    192.168.1.1#53\n\nNon-authoritative answer:\n*** Can&#39;t find ncatlab.org: No answer\n</code></pre></div>",
+        "id": 281014286,
+        "sender_full_name": "Tom de Jong",
+        "timestamp": 1651585350
+    },
+    {
+        "content": "<p>Anyways, hopefully it's a sign that stuff is Happening, rather than Not Happening</p>",
+        "id": 281015191,
+        "sender_full_name": "Reid Barton",
+        "timestamp": 1651585729
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276945\">Oscar Cunningham</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/280908505\">said</a>:</p>\n<blockquote>\n<p>Richard estimates that costs will be &lt; $6 a month (<a href=\"https://nforum.ncatlab.org/discussion/13776/nlab-migration-to-the-cloud/?Focus=97893#Comment_97893\">https://nforum.ncatlab.org/discussion/13776/nlab-migration-to-the-cloud/?Focus=97893#Comment_97893</a>). So securing funding is not a top priority.</p>\n<p>Urs seems to be being overly dramatic about the whole thing. This migration was necessary to create the kind of robust technology for the nLab that we all want. It's now running on AWS; whereas before it was running on a single box in someone's office. The plan is also to open-source all the code.</p>\n<p>Also, the search is now infinitely faster than it was before, which anyone who experienced the old search will know is an absolute blessing.</p>\n</blockquote>\n<p>Cost of cloud renting is indeed negligible, no doubt about that. I was referring to the cost of hiring a sysadmin, which is not negligible at all.</p>",
+        "id": 281016635,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1651586338
+    },
+    {
+        "content": "<div class=\"codehilite\"><pre><span></span><code>&gt; dig ncatlab.org\n\n; &lt;&lt;&gt;&gt; DiG 9.10.6 &lt;&lt;&gt;&gt; ncatlab.org\n;; global options: +cmd\n;; Got answer:\n;; -&gt;&gt;HEADER&lt;&lt;- opcode: QUERY, status: NOERROR, id: 13405\n;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; QUESTION SECTION:\n;ncatlab.org.           IN  A\n\n;; ANSWER SECTION:\nncatlab.org.        60  IN  A   54.230.99.79\nncatlab.org.        60  IN  A   54.230.99.20\nncatlab.org.        60  IN  A   54.230.99.4\nncatlab.org.        60  IN  A   54.230.99.56\n\n;; Query time: 198 msec\n;; SERVER: 193.11.30.200#53(193.11.30.200)\n;; WHEN: Tue May 03 15:59:10 CEST 2022\n;; MSG SIZE  rcvd: 104\n</code></pre></div>",
+        "id": 281016700,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1651586362
+    },
+    {
+        "content": "<p>weird when I go through my French cell phone I get </p>\n<div class=\"codehilite\" data-code-language=\"Bash\"><pre><span></span><code> dig ncatlab.org\n\n\n<span class=\"p\">;</span> &lt;&lt;&gt;&gt; DiG <span class=\"m\">9</span>.10.6 &lt;&lt;&gt;&gt; ncatlab.org\n<span class=\"p\">;;</span> global options: +cmd\n<span class=\"p\">;;</span> Got answer:\n<span class=\"p\">;;</span> -&gt;&gt;HEADER<span class=\"s\">&lt;&lt;- opco</span>de: QUERY, status: NOERROR, id: <span class=\"m\">57763</span>\n<span class=\"p\">;;</span> flags: qr rd ra<span class=\"p\">;</span> QUERY: <span class=\"m\">1</span>, ANSWER: <span class=\"m\">0</span>, AUTHORITY: <span class=\"m\">1</span>, ADDITIONAL: <span class=\"m\">1</span>\n\n<span class=\"p\">;;</span> OPT PSEUDOSECTION:\n<span class=\"p\">;</span> EDNS: version: <span class=\"m\">0</span>, flags:<span class=\"p\">;</span> udp: <span class=\"m\">4096</span>\n<span class=\"p\">;;</span> QUESTION SECTION:\n<span class=\"p\">;</span>ncatlab.org.           IN  A\n\n<span class=\"p\">;;</span> AUTHORITY SECTION:\nncatlab.org.        <span class=\"m\">3600</span>    IN  SOA candy.ns.cloudflare.com. dns.cloudflare.com. <span class=\"m\">2277071908</span> <span class=\"m\">10000</span> <span class=\"m\">2400</span> <span class=\"m\">604800</span> <span class=\"m\">3600</span>\n\n<span class=\"p\">;;</span> Query time: <span class=\"m\">10</span> msec\n<span class=\"p\">;;</span> SERVER: <span class=\"m\">172</span>.20.10.1#53<span class=\"o\">(</span><span class=\"m\">172</span>.20.10.1<span class=\"o\">)</span>\n<span class=\"p\">;;</span> WHEN: Tue May <span class=\"m\">03</span> <span class=\"m\">16</span>:00:56 CEST <span class=\"m\">2022</span>\n<span class=\"p\">;;</span> MSG SIZE  rcvd: <span class=\"m\">103</span>\n</code></pre></div>",
+        "id": 281017167,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1651586514
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276438\">Fabrizio Genovese</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281016635\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"276945\">Oscar Cunningham</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/280908505\">said</a>:</p>\n<blockquote>\n<p>Richard estimates that costs will be &lt; $6 a month (<a href=\"https://nforum.ncatlab.org/discussion/13776/nlab-migration-to-the-cloud/?Focus=97893#Comment_97893\">https://nforum.ncatlab.org/discussion/13776/nlab-migration-to-the-cloud/?Focus=97893#Comment_97893</a>). So securing funding is not a top priority.</p>\n<p>Urs seems to be being overly dramatic about the whole thing. This migration was necessary to create the kind of robust technology for the nLab that we all want. It's now running on AWS; whereas before it was running on a single box in someone's office. The plan is also to open-source all the code.</p>\n<p>Also, the search is now infinitely faster than it was before, which anyone who experienced the old search will know is an absolute blessing.</p>\n</blockquote>\n<p>Cost of cloud renting is indeed negligible, no doubt about that. I was referring to the cost of hiring a sysadmin, which is not negligible at all.</p>\n</blockquote>\n<p>Also I want to stress how the problem here is not renting cloud, but exactly that no sysadmin is getting paid for the job. <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span></p>",
+        "id": 281017315,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1651586557
+    },
+    {
+        "content": "<p>From the german provider I get </p>\n<div class=\"codehilite\" data-code-language=\"Bash\"><pre><span></span><code> dig ncatlab.org\n\n\n<span class=\"p\">;</span> &lt;&lt;&gt;&gt; DiG <span class=\"m\">9</span>.10.6 &lt;&lt;&gt;&gt; ncatlab.org\n<span class=\"p\">;;</span> global options: +cmd\n<span class=\"p\">;;</span> Got answer:\n<span class=\"p\">;;</span> -&gt;&gt;HEADER<span class=\"s\">&lt;&lt;- opco</span>de: QUERY, status: NOERROR, id: <span class=\"m\">49505</span>\n<span class=\"p\">;;</span> flags: qr rd ra<span class=\"p\">;</span> QUERY: <span class=\"m\">1</span>, ANSWER: <span class=\"m\">4</span>, AUTHORITY: <span class=\"m\">0</span>, ADDITIONAL: <span class=\"m\">1</span>\n\n<span class=\"p\">;;</span> OPT PSEUDOSECTION:\n<span class=\"p\">;</span> EDNS: version: <span class=\"m\">0</span>, flags:<span class=\"p\">;</span> udp: <span class=\"m\">512</span>\n<span class=\"p\">;;</span> QUESTION SECTION:\n<span class=\"p\">;</span>ncatlab.org.           IN  A\n\n<span class=\"p\">;;</span> ANSWER SECTION:\nncatlab.org.        <span class=\"m\">3</span>   IN  A   <span class=\"m\">18</span>.66.192.97\nncatlab.org.        <span class=\"m\">3</span>   IN  A   <span class=\"m\">18</span>.66.192.57\nncatlab.org.        <span class=\"m\">3</span>   IN  A   <span class=\"m\">18</span>.66.192.43\nncatlab.org.        <span class=\"m\">3</span>   IN  A   <span class=\"m\">18</span>.66.192.74\n\n<span class=\"p\">;;</span> Query time: <span class=\"m\">20</span> msec\n<span class=\"p\">;;</span> SERVER: <span class=\"m\">192</span>.168.178.1#53<span class=\"o\">(</span><span class=\"m\">192</span>.168.178.1<span class=\"o\">)</span>\n<span class=\"p\">;;</span> WHEN: Tue May <span class=\"m\">03</span> <span class=\"m\">16</span>:05:17 CEST <span class=\"m\">2022</span>\n<span class=\"p\">;;</span> MSG SIZE  rcvd: <span class=\"m\">104</span>\n</code></pre></div>\n<p>I hope this is not the beginning of a russian cyber attack on the DNS. They all seem to be giving different answers.</p>",
+        "id": 281017943,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1651586807
+    },
+    {
+        "content": "<p>DNS results depend on the requester's IP for well over 20 years now.</p>",
+        "id": 281018094,
+        "sender_full_name": "Reid Barton",
+        "timestamp": 1651586867
+    },
+    {
+        "content": "<p>These appear to all be CloudFront edge IPs (try entering one of the IP addresses directly in your browser) and there may be some amount of caching as well as client geolocation going on.</p>",
+        "id": 281018639,
+        "sender_full_name": "Reid Barton",
+        "timestamp": 1651587070
+    },
+    {
+        "content": "<p>yes, it can also take time for new dns results to propagate.</p>",
+        "id": 281018720,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1651587101
+    },
+    {
+        "content": "<p>This is the command to find the certificate I think</p>\n<div class=\"codehilite\" data-code-language=\"Bash\"><pre><span></span><code> openssl s_client -showcerts -connect <span class=\"m\">18</span>.66.192.57:443\n</code></pre></div>\n<p>with the ip address replaced with the one you want to test.<br>\nIt works well on my server</p>\n<div class=\"codehilite\" data-code-language=\"Bash\"><pre><span></span><code>openssl s_client -showcerts -connect bblfish.net:443\n</code></pre></div>",
+        "id": 281019166,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1651587247
+    },
+    {
+        "content": "<p>Google's DNS servers reports different results for who is in charge of <a href=\"http://ncatlab.org\">ncatlab.org</a>:</p>\n<div class=\"codehilite\"><pre><span></span><code>$ dig +short @8.8.8.8 SOA ncatlab.org\ncandy.ns.cloudflare.com. dns.cloudflare.com. 2277071908 10000 2400 604800 3600\n$ dig +short @8.8.8.8 SOA ncatlab.org\nns-1407.awsdns-47.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400\n</code></pre></div>\n<p>(These were a few seconds apart.) Which suggests the DNS provider is being changed from Cloudflare to AWS (or the other way around).</p>\n<p>Cloudflare does not return any IP addresses, but AWS does</p>\n<div class=\"codehilite\"><pre><span></span><code>$ dig +short @candy.ns.cloudflare.com ncatlab.org\n$ dig +short @ns-1407.awsdns-47.org ncatlab.org\n54.230.206.35\n54.230.206.9\n54.230.206.53\n54.230.206.5\n</code></pre></div>",
+        "id": 281020227,
+        "sender_full_name": "Dylan McDermott",
+        "timestamp": 1651587689
+    },
+    {
+        "content": "<p>Now the nForum is back, but the nLab is 404ing except for <a href=\"http://ncatlab.org\">ncatlab.org</a> which redirects to the forum.</p>",
+        "id": 281024799,
+        "sender_full_name": "Oscar Cunningham",
+        "timestamp": 1651589504
+    },
+    {
+        "content": "<p><a href=\"https://twitter.com/schreiberurs/status/1521516991344959489?s=21&amp;t=H-yB2W4oCcZE72iIjFZTmw\">https://twitter.com/schreiberurs/status/1521516991344959489?s=21&amp;t=H-yB2W4oCcZE72iIjFZTmw</a></p>\n<div class=\"inline-preview-twitter\"><div class=\"twitter-tweet\"><a href=\"https://twitter.com/schreiberurs/status/1521516991344959489?s=21&amp;t=H-yB2W4oCcZE72iIjFZTmw\"><img class=\"twitter-avatar\" src=\"https://uploads.zulipusercontent.net/84f0025a8170dc239a636a5e7aa02d9a8fc93bb9/68747470733a2f2f7062732e7477696d672e636f6d2f70726f66696c655f696d616765732f313032313336333130313337383237333238312f6b773576307a334d5f6e6f726d616c2e6a7067\"></a><p>Just to update:\nA minute ago nLab's pre-previous volunteer admin, Adeel Khan, has kindly jumped in and restored the installation in its latest state before shutdown on 29 Dec 2021 \nRight now the nLab is again accessible, under this slightly modified url:\n<a href=\"https://t.co/lvv34LxV6e\">http://nlab.preschema.com/nlab/show/HomePage</a></p><span>- Urs Schreiber (@SchreiberUrs)</span></div></div>",
+        "id": 281044938,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1651597547
+    },
+    {
+        "content": "<p>Richard Williamson has said that <a href=\"https://nforum.ncatlab.org/discussion/13776/nlab-migration-to-the-cloud/?Focus=98028#Comment_98028\">he is resigning</a> from administrating the nLab.</p>",
+        "id": 281045071,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651597592
+    },
+    {
+        "content": "<p>The nForum and nLab are both back online. I hope Urs' copy doesn't lead to a confusing fork in the project.</p>",
+        "id": 281045771,
+        "sender_full_name": "Oscar Cunningham",
+        "timestamp": 1651597909
+    },
+    {
+        "content": "<p>The \"official\" nLab currently isn't in a state where it can be edited, so if Richard steps down now, it seems a fork is inevitable.</p>",
+        "id": 281045974,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651597998
+    },
+    {
+        "content": "<p>Ah, it seems like Adeel has now reverted to official nLab to its Dec 2021 state. <a href=\"https://nforum.ncatlab.org/discussion/13776/nlab-migration-to-the-cloud/?Focus=98034#Comment_98034\">https://nforum.ncatlab.org/discussion/13776/nlab-migration-to-the-cloud/?Focus=98034#Comment_98034</a> Presumably the fork is now unnecessary.</p>",
+        "id": 281046307,
+        "sender_full_name": "Oscar Cunningham",
+        "timestamp": 1651598146
+    },
+    {
+        "content": "<p>I'm kind of surprised at how informal the <a href=\"https://ncatlab.org/nlab/show/Organization%20of%20the%20nLab\">organization of the nlab</a> remains (at least officially?).  For example, <a href=\"https://www.lmfdb.org/acknowledgment\">LMFDB</a> seems to be of a similar age to the nlab, and seems to have a more formal sense of organization. (And they seem to do it basically with academic rather than industrial funding sources.) Am I looking at the wrong webpage about nlab organization?</p>",
+        "id": 281049229,
+        "sender_full_name": "Tim Campion",
+        "timestamp": 1651599397
+    },
+    {
+        "content": "<p>I think this is a correct understanding.</p>",
+        "id": 281049513,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651599526
+    },
+    {
+        "content": "<p>Why would you expect it to have a formal organization?   It's mainly one guy writing web pages at a maniacal pace, together with about half a dozen others who write quite a few, and then some people who have volunteered to give tech support.</p>",
+        "id": 281049585,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651599561
+    },
+    {
+        "content": "<p>I'm always amazed by how people treat it as some sort of \"establishment\" - using the terminology there as if it were standard and didn't require explanation, etc.</p>",
+        "id": 281049787,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651599623
+    },
+    {
+        "content": "<p>Of course it's good that the terminology invented there is catching on, because generally it's quite well-chosen terminology.</p>",
+        "id": 281049918,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651599693
+    },
+    {
+        "content": "<p>Well, it's a testament to Urs et al's work that the nlab plays an outsize role in my professional life, anyway. On mathoverflow, for instance, it's listed <a href=\"https://mathoverflow.net/help/on-topic\">right next to wikipedia and the arxiv</a> as a \"standard online reference\" (see 4th paragraph at that link). By contrast, <a href=\"https://encyclopediaofmath.org/wiki/Main_Page\">encyclopedia of math</a> is not listed there :). Hmm... perhaps that's an oversight...</p>",
+        "id": 281050750,
+        "sender_full_name": "Tim Campion",
+        "timestamp": 1651599999
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281049787\">said</a>:</p>\n<blockquote>\n<p>I'm always amazed by how people treat it as some sort of \"establishment\" - using the terminology there as if it were standard and didn't require explanation, etc.</p>\n</blockquote>\n<p>The nLab has become such an important resource that I think this is an unsurprising assumption.</p>",
+        "id": 281051007,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651600107
+    },
+    {
+        "content": "<p>I suppose the Stacks project is also mostly the work of one person, and has a similarly \"official\" sort of status in its field.</p>",
+        "id": 281051320,
+        "sender_full_name": "Tim Campion",
+        "timestamp": 1651600229
+    },
+    {
+        "content": "<p>Looks like <a href=\"https://stacks.math.columbia.edu/acknowledgements\">Stacks governance</a> is comparably light. For another point of comparison, consider <a href=\"https://kerodon.net/about\">Kerodon</a>.</p>",
+        "id": 281051486,
+        "sender_full_name": "Tim Campion",
+        "timestamp": 1651600305
+    },
+    {
+        "content": "<p>well, I have never seen a list of project money donated to the nLab as you can see in the LMFDB  link above!</p>",
+        "id": 281051490,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1651600306
+    },
+    {
+        "content": "<p>What nLab funding information exists is available here <a href=\"https://ncatlab.org/nlab/show/funding+of+the+nLab\">https://ncatlab.org/nlab/show/funding+of+the+nLab</a></p>",
+        "id": 281051930,
+        "sender_full_name": "Oscar Cunningham",
+        "timestamp": 1651600484
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281051007\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281049787\">said</a>:</p>\n<blockquote>\n<p>I'm always amazed by how people treat it as some sort of \"establishment\" - using the terminology there as if it were standard and didn't require explanation, etc.</p>\n</blockquote>\n<p>The nLab has become such an important resource that I think this is an unsurprising assumption.</p>\n</blockquote>\n<p>I guess so.  Since it's mainly some friends of mine, and my wife Lisa made up the name \"nLab\", I have a different view of it.</p>",
+        "id": 281052639,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651600764
+    },
+    {
+        "content": "<p>it would be bad, and ominous, if nlab is lost. not just for the people who invested work into it but also for the web itself --- which evolved from a place to exchange CERN preprints and post CT blogs to a place where people are tracked, profiled, sold, and steered. the reason why we are offered this zulip service, tweets and so on is in exchange for carrying with us the cookies which these providers kindly leave in the browsers that they kindly provide, unless you use the onion...</p>\n<p>so maybe this is a good moment to rethink the whole thing: what is the place of science in all that? suppose the nLab resurrects tomorrow. who will run it 30 years from now? if the nLab content is offered to elsevier or one of the angel or venture investors into science, they will happily throw money at it. alternatives? </p>\n<p>the problem is not the operating costs but the incentive for persistence: some sort of entity that does not suffer from human shortcomings such as limited attention span or even limited life span.</p>\n<p>the certificate thing (and the web browsers that protect you from the grave dangers of expired certificates) says that any web site that is not helping trackers track people nowadays needs a survival strategy, which may or may not be a business model.</p>",
+        "id": 281055334,
+        "sender_full_name": "dusko",
+        "timestamp": 1651601948
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281045071\">said</a>:</p>\n<blockquote>\n<p>Richard Williamson has said that <a href=\"https://nforum.ncatlab.org/discussion/13776/nlab-migration-to-the-cloud/?Focus=98028#Comment_98028\">he is resigning</a> from administrating the nLab.</p>\n</blockquote>\n<p>Uh, now the nForum is back up it's clear this is an even more unfortunate situation than I thought yesterday</p>",
+        "id": 281056969,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1651602685
+    },
+    {
+        "content": "<p>Science is made of people, as I like to say</p>",
+        "id": 281057386,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1651602883
+    },
+    {
+        "content": "<p>Projects seem to reach a point in their lifetime when they need some kind of \"administrator/organizer\" whose job is to take care of the boring, non-technical bits of having a project \"exist\".  Clearly LMFDB has that, but the nLab does not. The importance of that task is typically extremely under-valued, especially by technical people (in fact, the deeper the technical expertise, the more I see a lack of understanding of the importance of those managements tasks).</p>\n<p>The <a href=\"https://haskell.foundation/\">Haskell Foundation</a> is a good example of a community \"waking up\" to the need for such an entity.</p>",
+        "id": 281322681,
+        "sender_full_name": "Jacques Carette",
+        "timestamp": 1651767754
+    },
+    {
+        "content": "<p>I would hope that <span class=\"user-mention\" data-user-id=\"276049\">@David Spivak</span> and the topos institute could step in with regular funding and institutional support.</p>",
+        "id": 281351122,
+        "sender_full_name": "Gershom",
+        "timestamp": 1651780642
+    },
+    {
+        "content": "<p>\"we need funds to maintain the central CT community resource on the internet\" is a pretty good story to go to potential sponsors with!</p>",
+        "id": 281351824,
+        "sender_full_name": "Gershom",
+        "timestamp": 1651780954
+    },
+    {
+        "content": "<p>Urs doesn't seem to be here, but I'm in touch with him by private email, and I think I can reassure everyone that the nLab will pull through.  Right now we are focusing on getting things stable again in the short term, but after that I hope we will be able to establish a more secure arrangement for funding and control moving forwards.</p>",
+        "id": 281352267,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1651781214
+    },
+    {
+        "content": "<p>I hope so!</p>",
+        "id": 281352530,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651781365
+    },
+    {
+        "content": "<p>me too!</p>",
+        "id": 281353451,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1651781826
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281352116\">said</a>:</p>\n<blockquote>\n<p>Yes, but it's still extra work compared to having the nLab people take care of themselves.</p>\n</blockquote>\n<p>The whole point is that the nLab people were <strong>not</strong> taking care of it. The cool parts (i.e. the contents, which is why it became so popular), sure. But the hidden, boring things? Clearly not, since this crisis would not have existed otherwise.  This week is the first time I've heard the name \"Richard Williamson\" and \"Adeel Kahn\", even though I've been using the nLab for years. This shows you how hidden their work was, until it stopped being done.</p>",
+        "id": 281355703,
+        "sender_full_name": "Jacques Carette",
+        "timestamp": 1651782989
+    },
+    {
+        "content": "<p>Broadly generalizing, nobody really _likes_ working on the infrastructure of hosting a wiki and updating the software and ensuring backups happen, etc. They do it because they feel it is important. If possible, it is much better to pay people to work on such things, rather than relying on volunteers, and additionally, this ensures that what people other than the volunteers value is what gets prioritized (because the volunteers, by virtue of being the ones donating all the work, otherwise really get to set agendas however they see fit, and work on things only when they have time and energy, and also may be called away at any point due to paid job demands or family or a thousand other things). So I am less concerned about funding for hosting, and more about the larger funding required to get stable development and administration of the system itself. (I say this as someone who has been involved in infrastructure work as a volunteer for many years, and who is working with the HF on professionalizing chunks of such work into the hands of paid staff)</p>",
+        "id": 281356402,
+        "sender_full_name": "Gershom",
+        "timestamp": 1651783357
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"296322\">Jacques Carette</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281355703\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281352116\">said</a>:</p>\n<blockquote>\n<p>Yes, but it's still extra work compared to having the nLab people take care of themselves.</p>\n</blockquote>\n<p>The whole point is that the nLab people were <strong>not</strong> taking care of it. The cool parts (i.e. the contents, which is why it became so popular), sure. But the hidden, boring things? Clearly not, since this crisis would not have existed otherwise.  This week is the first time I've heard the name \"Richard Williamson\" and \"Adeel Kahn\", even though I've been using the nLab for years. This shows you how hidden their work was, until it stopped being done.</p>\n</blockquote>\n<p>Since I read the nForum I was aware of this stuff all the time.    Anyone who contributes to the nLab instead of just passively using it is urged to note changes on the nForum, and then you see what's going on.  It's just like Wikipedia: you don't notice the details of how it works until you start trying to contribute.</p>\n<p>Folks at the nLab were trying to improve the software, but it was going slowly - you can read about it <a href=\"https://nforum.ncatlab.org/discussion/13776/1/nlab-migration-to-the-cloud/\">here</a>.</p>",
+        "id": 281356786,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651783540
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"296322\">Jacques Carette</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281355703\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281352116\">said</a>:</p>\n<blockquote>\n<p>Yes, but it's still extra work compared to having the nLab people take care of themselves.</p>\n</blockquote>\n<p>The whole point is that the nLab people were <strong>not</strong> taking care of it. The cool parts (i.e. the contents, which is why it became so popular), sure. But the hidden, boring things? Clearly not, since this crisis would not have existed otherwise.  This week is the first time I've heard the name \"Richard Williamson\" and \"Adeel Kahn\", even though I've been using the nLab for years. This shows you how hidden their work was, until it stopped being done.</p>\n</blockquote>\n<p>As John was suggesting, it's clear from this that you weren't tuned into the nForum much, where the names of Adeel and Richard were very well known. </p>\n<p>One thing the nLab folks were not good at is soliciting funding, whether institutionally or through private donations.</p>",
+        "id": 281363393,
+        "sender_full_name": "Todd Trimble",
+        "timestamp": 1651787048
+    },
+    {
+        "content": "<p>Maybe they didn't try very hard yet?   One thing it took to create the Topos Institute is for a good mathematician, Brendan Fong, to almost give up on research and focus on building an institution and soliciting funds.   It's kind of a sacrifice for the greater good.</p>",
+        "id": 281366790,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651789187
+    },
+    {
+        "content": "<p>Luckily the nLab should not require as much money or organization.</p>",
+        "id": 281366869,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651789223
+    },
+    {
+        "content": "<p>No, I don't think anyone has tried very hard yet.</p>",
+        "id": 281367495,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1651789636
+    },
+    {
+        "content": "<p>Yes, <span class=\"user-mention\" data-user-id=\"275920\">@John Baez</span> and <span class=\"user-mention\" data-user-id=\"277611\">@Todd Trimble</span> you are quite right that I only dipped my toes into the nForum, every few years. The volume of posts was too high, I just couldn't keep up. [Same reason I left the Lean Zulip and unsubscribed to the proposals stream for Haskell.]</p>",
+        "id": 281367610,
+        "sender_full_name": "Jacques Carette",
+        "timestamp": 1651789757
+    },
+    {
+        "content": "<p>BTW, The previous funding drive seeming to be successful, as hosted by the Topos Institute, see <a href=\"https://ncatlab.org/nlab/show/funding%20of%20the%20nLab\">[[funding of the nLab]]</a> with corresponding <a href=\"https://nforum.ncatlab.org/discussion/12385/funding-of-the-nlab/\">nForum thread</a>.<br>\n(Apparently, the plan to update that page monthly fell by the wayside, but it seems there would have been enough money last December to have rescued the old installation so that it was usable while the cloud migration was ongoing.)</p>",
+        "id": 281392115,
+        "sender_full_name": "Ulrik Buchholtz",
+        "timestamp": 1651816128
+    },
+    {
+        "content": "<p>And I just checked that on the <a href=\"https://crm.bloomerang.co/HostedDonation?ApiKey=pub_ea742ae0-60bf-11eb-ad37-023f69b29baf&amp;WidgetId=18432\">Topos Institute donation page</a>, you can still earmark donations to go to the nLab.</p>",
+        "id": 281392203,
+        "sender_full_name": "Ulrik Buchholtz",
+        "timestamp": 1651816256
+    },
+    {
+        "content": "<p>I don't want to derail the conversation but I find it a bit confusing that whenever there is a problem with the community the new silver bullet is to say \"Topos will fix it.\" But I can't bare but think _why_ is it Topos that should fix it, a large number of us are in huge established institutions, I vouch to claim that a large number of us are using the nlab. _We_ should solve the problem with some guidance from established people in this domain (such as John and Jacques). I am also concerned generally about this reliance (at least intellectually in our minds) on Topos, as John said it's a new institution, it needs time money and people to grow and establish itself. These problems we discuss here really don't feel suited or perhaps a good use of _their_ time (if imposed implicitly or explicitly by the community). I'd rather they make category theory more useful and applicable and establish it as a reasonable applied field.</p>",
+        "id": 281397058,
+        "sender_full_name": "Georgios Bakirtzis",
+        "timestamp": 1651817940
+    },
+    {
+        "content": "<p>My impression of the whole ordeal is not that there were not people willing to volunteer for maintenance (there's at least two, and on the migration thread on the nForum I've seen a bunch more offering their services), but that migration wasn't well-planned nor communicated with the community. That, plus a lack of redundancy (Richard was alone in doing this when he started), was recipe for a disaster (that didn't happen at the scale it could have). It doesn't seem the case that paying Richard would have sped up things considerably, not that we <em>needed</em> a paid figure at all.<br>\nOf course having a paid professional would help tremendously, but I don't see the case (yet).</p>",
+        "id": 281399269,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1651818902
+    },
+    {
+        "content": "<p>Also, strong agreement with Georgios. Why should Topos fix this? It's not their project. Keeping the nLab running is something we, as a community, could and should manage to support and fund alone.</p>",
+        "id": 281399298,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1651818947
+    },
+    {
+        "content": "<p>Speaking of funding, it'd be very cool to have nLab merchandise around. Someone was selling t-shirts a while ago and they were amazing. I didn't buy them only because it felt like money should go to the project.  (this proposal comes with a personal volunteering candidature attached)</p>",
+        "id": 281399412,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1651819066
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"275932\">@Matteo Capucci (he/him)</span>  I was going to be selling T-shirts and donating the $$ to the Topos-managed fund. It's a bit subtle to get the money to where it needs to do.</p>",
+        "id": 281405148,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1651823615
+    },
+    {
+        "content": "<p>I have one design already, a very retro vapourwave-inspired design, a riff on the 80s Adidas logo and the current nlab one (since I designed that, and put it in the public domain, I guess anyone could do it, but I want to set up a T-shirt selling account anyway for other things...)</p>",
+        "id": 281405289,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1651823710
+    },
+    {
+        "content": "<p>Yes, I think self-reliance is a good direction --- and also considering ways to have tools that don't actually need regular volunteer maintenance beyond someone dropping in to kick the tires every couple years. The nlab had a single point of failure, and in this case, poor planning led to an immense failure.</p>",
+        "id": 281407805,
+        "sender_full_name": "Jon Sterling",
+        "timestamp": 1651825325
+    },
+    {
+        "content": "<p>The thing that those of us with technical/computer abilities need to think about when we offer our volunteer work to help the mathematical community is: we should not go in directions that ensure _dependence_ on us, because we may have personal emergencies or just get tired of working on it. When we offer our services, we should be doing so with the aim of making mathematicians relatively independent. One consequence of that is, we probably should not be developing and planning amazing cloud services or things that are harder to deploy than \"one click\".</p>",
+        "id": 281408141,
+        "sender_full_name": "Jon Sterling",
+        "timestamp": 1651825558
+    },
+    {
+        "content": "<p>It may seem like you are doing mathematicians a huge favor by putting in all this work, but the reality is more like \"If I have a personal emergency, Urs Schreiber's research notebook gets held hostage for months\". It is a very negative result of a very positive impulse to be of service, and part of our responsibility as engineers is to take that into account.  Do no harm.</p>",
+        "id": 281408309,
+        "sender_full_name": "Jon Sterling",
+        "timestamp": 1651825669
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275902\">Georgios Bakirtzis</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281397058\">said</a>:</p>\n<blockquote>\n<p>I don't want to derail the conversation but I find it a bit confusing that whenever there is a problem with the community the new silver bullet is to say \"Topos will fix it.\" But I can't bare but think _why_ is it Topos that should fix it, a large number of us are in huge established institutions, I vouch to claim that a large number of us are using the nlab. </p>\n</blockquote>\n<p>Right...... I can't speak for the financial situation of Topos, but looking in from the outside I believe that they're partly existing grant-to-grant, they have some \"regular\" funding but not enough to guarantee to sustain them at the size they've already grown to, and definitely not enough to throw resources around. Compare the arXiv, which brings in lots of funding but is in the end maintained by people at Cornell</p>",
+        "id": 281408704,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1651825880
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276422\">David Michael Roberts</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281405289\">said</a>:</p>\n<blockquote>\n<p>I have one design already, a very retro vapourwave-inspired design, a riff on the 80s Adidas logo and the current nlab one (since I designed that, and put it in the public domain, I guess anyone could do it, but I want to set up a T-shirt selling account anyway for other things...)</p>\n</blockquote>\n<p>I just wanted to say that I'll buy everything vaporwave. Like, right now. At least for me this is the best funding idea for this community I've heard in ages. But I'm pretty fixated with Vapor and Retro, so it's probably just that you hit my very niche interests.</p>",
+        "id": 281434943,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1651842131
+    },
+    {
+        "content": "<p>(Apologies, the following comment might be better suited for an nforum discsussion, but I couldn't quite figure out the most appropriate thread to bring it up on the nforum.)</p>\n<p><span class=\"user-mention silent\" data-user-id=\"277991\">Tim Campion</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281049229\">said</a>:</p>\n<blockquote>\n<p>I'm kind of surprised at how informal the <a href=\"https://ncatlab.org/nlab/show/Organization%20of%20the%20nLab\">organization of the nlab</a> remains (at least officially?).  For example, <a href=\"https://www.lmfdb.org/acknowledgment\">LMFDB</a> seems to be of a similar age to the nlab, and seems to have a more formal sense of organization. (And they seem to do it basically with academic rather than industrial funding sources.) Am I looking at the wrong webpage about nlab organization?</p>\n</blockquote>\n<p>Possibly I <em>was</em> looking at the wrong page for information about the organization of the nlab. The <a href=\"https://ncatlab.org/nlab/show/Organization%20of%20the%20nLab\">page</a> I linked to, as well as <a href=\"https://ncatlab.org/nlabmeta/show/Organization+of+the+nLab\">this variant</a> don't mention the \"steering committee\" named at <a href=\"https://ncatlab.org/nlabmeta/show/steering+committee\">this page</a> and linked from <a href=\"https://ncatlab.org/nlab/show/steering+committee\">this variant</a>. Interestingly, although the <a href=\"https://ncatlab.org/nlabmeta/show/Organization+of+the+nLab\">Organization of the nLab</a> page I linked does not refer to the steering committee, it kind of appears that the \"steering committee\" idea has at least been discussed years ago on the <a href=\"https://nforum.ncatlab.org/discussion/36/organization-of-the-nlab/\">associated nforum discussion</a>.</p>",
+        "id": 281438075,
+        "sender_full_name": "Tim Campion",
+        "timestamp": 1651843585
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277611\">Todd Trimble</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281363393\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"296322\">Jacques Carette</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281355703\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281352116\">said</a>:</p>\n<blockquote>\n<p>Yes, but it's still extra work compared to having the nLab people take care of themselves.</p>\n</blockquote>\n<p>The whole point is that the nLab people were <strong>not</strong> taking care of it. The cool parts (i.e. the contents, which is why it became so popular), sure. But the hidden, boring things? Clearly not, since this crisis would not have existed otherwise.  This week is the first time I've heard the name \"Richard Williamson\" and \"Adeel Kahn\", even though I've been using the nLab for years. This shows you how hidden their work was, until it stopped being done.</p>\n</blockquote>\n<p>As John was suggesting, it's clear from this that you weren't tuned into the nForum much, where the names of Adeel and Richard were very well known. (For instance, neither of them is named in any of the organizational nlab pages I linked above.)</p>\n<p>One thing the nLab folks were not good at is soliciting funding, whether institutionally or through private donations.</p>\n</blockquote>\n<p>I do think it would be nice if people like Richard and Adeel's contributions could somehow be more visible to the average nlab user, who probably never visits the nforum at all. (For instance, neither of them seems to be named in any of the organizational pages I linked above.)</p>",
+        "id": 281438236,
+        "sender_full_name": "Tim Campion",
+        "timestamp": 1651843679
+    },
+    {
+        "content": "<p>The nLab \"steering committee\" doesn't do very much; mainly we deal with the occasional hard-to-discourage crackpot.  It's not really a directorial or technical body.  As it happens, we are discussing right now the possibility of constituting a more technical directive committee.</p>",
+        "id": 281466431,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1651856420
+    },
+    {
+        "content": "<p>Did I miss that discussion, Mike? </p>\n<p>I seem to recall Urs withdrew from the <a href=\"https://ncatlab.org/nlabmeta/show/steering%20committee\">Steering Committee</a>, and it relied on people often with tenuous academic jobs. Note also the massive imbalance in recent contributions on the nLab for those who don't realise:</p>\n<p><a href=\"/user_uploads/21317/rJUm1_kv_Mr2Q8JumKZDLHQb/Screenshot-2022-05-06-17.58.36.png\">Screenshot-2022-05-06-17.58.36.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/rJUm1_kv_Mr2Q8JumKZDLHQb/Screenshot-2022-05-06-17.58.36.png\" title=\"Screenshot-2022-05-06-17.58.36.png\"><img src=\"/user_uploads/21317/rJUm1_kv_Mr2Q8JumKZDLHQb/Screenshot-2022-05-06-17.58.36.png\"></a></div>",
+        "id": 281467924,
+        "sender_full_name": "David Corfield",
+        "timestamp": 1651857173
+    },
+    {
+        "content": "<p>Well, by \"we are discussing\" I really meant \"the possibility was raised in an email\".  It hasn't really been discussed yet.  I haven't had a chance to deal much with the whole thing beyond the immediate need of getting the server fixed up.</p>",
+        "id": 281468546,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1651857487
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275902\">Georgios Bakirtzis</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281397058\">said</a>:</p>\n<blockquote>\n<p>I don't want to derail the conversation but I find it a bit confusing that whenever there is a problem with the community the new silver bullet is to say \"Topos will fix it.\" But I can't bare but think <em>why</em> is it Topos that should fix it, a large number of us are in huge established institutions, I vouch to claim that a large number of us are using the nLab.</p>\n</blockquote>\n<p>I'd something similar in previous comments.   Later I deleted those comments because they weren't quite phrased right: I'd forgotten that the Topos Institute <a href=\"https://ncatlab.org/nlab/show/funding+of+the+nLab\">already is</a> helping raise money for the nLab.   But only in a minimal way, I believe.  Namely, they have a webpage where you can make a donation.   That probably took just a couple person-hours of work to set up.  </p>\n<p>So I still agree it's not good not to think of the Topos Institute as a big powerful thing that can solve all our problems!  Think of it as a small chick that may someday grow into a majestic eagle - but only if we help it.</p>\n<p>I'm trying to help them develop a 'killer app' that they can wave around to show people that applied category theory is really useful.  Right now this 'killer app' is software for public health modeling.   (Yes, the quoted term is ironic.)</p>\n<p><span class=\"user-mention silent\" data-user-id=\"275901\">Jules Hedges</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281408704\">said</a>:</p>\n<blockquote>\n<p>Right...... I can't speak for the financial situation of Topos, but looking in from the outside I believe that they're partly existing grant-to-grant, they have some \"regular\" funding but not enough to guarantee to sustain them at the size they've already grown to, and definitely not enough to throw resources around. </p>\n</blockquote>\n<p>I'm not aware of any faucet that continuously pours or even drips money into the Topos Institute bank account.   As far as I know, they get their money from donations from a few Silicon Valley bigshots together with grants that various people have been able to get, e.g. David Spivak and Evan Patterson / James Fairbanks.</p>",
+        "id": 281469524,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651857982
+    },
+    {
+        "content": "<p>I want to make sure everyone knows that work is already underway on stabilizing the nLab in both the short and long term, both technically and financially. Thanks to everyone who's offered suggestions and help; we will be sure to reach out to the community if anything is needed.</p>\n<p>I also want to say that while it's unfortunate that this drama is playing out publicly, it's even more unfortunate that only <em>part</em> of the drama is publicly visible.  I don't think the solution to that is to try to make everything public, but I would like to caution all observers not to leap to conclusions based only on what you can see.</p>",
+        "id": 281480382,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1651863454
+    },
+    {
+        "content": "<p>Let me try to explain why I suggested Topos play a role, and also why I do not advocate that Topos per se play a role given the useful comments here. The Haskell Foundation and the Topos institute were launched at relatively similar times. Of course the two communities are very different, but within that setting they seemed to share some similar goals. In particular, at least initially, my understanding was that Topos could act as a centralizing body for \"general community infrastructure\" much as the HF aims to do, and has a similar goal of stabilizing core resources for a broader group. Now, it may be that's not the direction Topos is going in -- fine! But, the concern is again that there comes a certain point in which relying on individual volunteer work reaches its limits, and the stopgap solution is to scale up a bit the existing thing, but the real solution is necessarily going to involve some more regular funding that can pay not just for hardware costs (relatively cheap!) but for individuals to have the time to responsibly and consistently put in effort, and further, to establish some publicly known chain of ownership and responsibility, which involves an institution with some legal standing, and ideally with a 501(c) so it can handle nonprofit status for donations, and also have enough infrastructure to organize paying people. Ideally, you save some work by not having too many institutions which have to replicate that structure. But again, maybe Topos is not going to be that. My opinion is simply that, at a certain point, which is perhaps near, perhaps not, _something_ should be that, or, through no fault of any hardworking individual involved, there will be sporadic frustrating messes for want of such a thing.</p>\n<p>(and the point is not certainly that \"topos should pay\" but rather whatever centralizing institution is established can be a centralized conduit for funds and effort, in terms both of responsibility and synchronization, so that organizations can pay and know their funds are using in a fashion their administrators are comfortable is well accounted for)</p>",
+        "id": 281506972,
+        "sender_full_name": "Gershom",
+        "timestamp": 1651881660
+    },
+    {
+        "content": "<p>Btw, how big is the Haskell Foundation?</p>",
+        "id": 281507787,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651882634
+    },
+    {
+        "content": "<p>2 full time salaried employees and a fair number of other people doing unpaid volunteer work in various ways including a 13 member board,  and also various committees and working groups. (which sometimes are semi-formalizing things that would have existed anyway, but now have a more cohered structure -- and also independent projects have now loosely affiliated, which again is just a modest formalization of a relationship that offers sort of the promise of coordination and help in directing resources but without much official Teeth).</p>\n<p>HF looks as though it expends relatively fewer resources -- fewer employees, no physical office, and no funding of research work. It seems the visions ended up being quite different, with Topos worrying about actually centralizing and driving research, while HF is focused on \"filling in gaps\" and coordinating administration and infrastructure -- but you would be much better able to explain the Topos side of things than whatever my inferences are!</p>",
+        "id": 281558171,
+        "sender_full_name": "Gershom",
+        "timestamp": 1651954003
+    },
+    {
+        "content": "<p>Topos is a research institute and there seems to be a misunderstand. That while Topos might be part of the community, we are not part of Topos. As any other institute it has goals of its own and researchers of its own, that draft a particular trajectory within ACT. It is not _for_ the ACT community, even if it does things to benefit us. It might be better to compare Topos to a research lab rather than HF.</p>",
+        "id": 281561128,
+        "sender_full_name": "Georgios Bakirtzis",
+        "timestamp": 1651958421
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276438\">@Fabrizio Genovese</span>  how about this? </p>\n<p><a href=\"https://twitter.com/HigherGeometer/status/1523136537868734465\">https://twitter.com/HigherGeometer/status/1523136537868734465</a></p>\n<div class=\"inline-preview-twitter\"><div class=\"twitter-tweet\"><a href=\"https://twitter.com/HigherGeometer/status/1523136537868734465\"><img class=\"twitter-avatar\" src=\"https://uploads.zulipusercontent.net/fb764eda73406e8041ffbf71a24f9d8420c205ec/68747470733a2f2f7062732e7477696d672e636f6d2f70726f66696c655f696d616765732f313130323533303735363939383335363939322f5767657268534a715f6e6f726d616c2e6a7067\"></a><p>Imagine being the envy of all your friends wearing this retro hat and also supporting the nLab financially at the same time... <a href=\"https://t.co/7hUGUTcFGr\">https://twitter.com/HigherGeometer/status/1523136537868734465/photo/1</a></p><span>- theHigherGeometer 💉💉 (@HigherGeometer)</span><div class=\"twitter-image\"><a href=\"https://t.co/7hUGUTcFGr\"><img src=\"https://uploads.zulipusercontent.net/9c7322e2f44a26c9608d3eed06aa2d928df01de0/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f46534e45543834555541455f6e58772e706e673a6c61726765\"></a></div></div></div><p>I'm happy for feedback on designs, I've not done actual market research or learned design in any formal way :-)</p>",
+        "id": 281584315,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1651993834
+    },
+    {
+        "content": "<p>It's actually quite a good idea to use git to publish a wiki as <a href=\"https://cemulate.github.io/the-mlab/#EyrF-co-universal+image\">the mlab does</a>. <br>\nPerhaps that would be safer long term, and allow for wide distribution of clones?</p>\n<p>If am not sure how problematic math notation was on github, but it works on gitlab. That is why I started <a href=\"https://web-cats.gitlab.io/?msclkid=8afe62cecebd11ecbdca1329e225aef1\">web-cats</a> on gitlab.</p>",
+        "id": 281593108,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1652007419
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276422\">David Michael Roberts</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281584315\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"276438\">Fabrizio Genovese</span>  how about this? </p>\n<p><a href=\"https://twitter.com/HigherGeometer/status/1523136537868734465\">https://twitter.com/HigherGeometer/status/1523136537868734465</a></p>\n<p>I'm happy for feedback on designs, I've not done actual market research or learned design in any formal way :-)</p>\n</blockquote>\n<p>I wat thinking more something along the lines of <a href=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/%22Evolution%22_and_life_in_vaporwave_flavours._%2848475685782%29.png/640px-%22Evolution%22_and_life_in_vaporwave_flavours._%2848475685782%29.png\">https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/%22Evolution%22_and_life_in_vaporwave_flavours._%2848475685782%29.png/640px-%22Evolution%22_and_life_in_vaporwave_flavours._%2848475685782%29.png</a></p>\n<div class=\"message_inline_image\"><a href=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/%22Evolution%22_and_life_in_vaporwave_flavours._%2848475685782%29.png/640px-%22Evolution%22_and_life_in_vaporwave_flavours._%2848475685782%29.png\"><img src=\"https://uploads.zulipusercontent.net/9148af7e72ee27e0cd1842f19eb3aede3f93fbc4/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f352f35652f25323245766f6c7574696f6e2532325f616e645f6c6966655f696e5f7661706f72776176655f666c61766f7572732e5f25323834383437353638353738322532392e706e672f36343070782d25323245766f6c7574696f6e2532325f616e645f6c6966655f696e5f7661706f72776176655f666c61766f7572732e5f25323834383437353638353738322532392e706e67\"></a></div>",
+        "id": 281597901,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1652014613
+    },
+    {
+        "content": "<p>Or also this, that is arguably more retrowave than vaporware <a href=\"https://wallpaperaccess.com/full/1246974.jpg\">https://wallpaperaccess.com/full/1246974.jpg</a></p>\n<div class=\"message_inline_image\"><a href=\"https://wallpaperaccess.com/full/1246974.jpg\"><img src=\"https://uploads.zulipusercontent.net/135289508e98fb0c251feb93eb41b6558515f344/68747470733a2f2f77616c6c70617065726163636573732e636f6d2f66756c6c2f313234363937342e6a7067\"></a></div>",
+        "id": 281597910,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1652014639
+    },
+    {
+        "content": "<p>As for feedback, personally the more absurd, kitsch and flashy you make it the more it is likely that I'll buy it <span aria-label=\"stuck out tongue\" class=\"emoji emoji-1f61b\" role=\"img\" title=\"stuck out tongue\">:stuck_out_tongue:</span></p>",
+        "id": 281597958,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1652014690
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276438\">Fabrizio Genovese</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281597910\">said</a>:</p>\n<blockquote>\n<p>Or also this, that is arguably more retrowave than vaporware <a href=\"https://wallpaperaccess.com/full/1246974.jpg\">https://wallpaperaccess.com/full/1246974.jpg</a></p>\n</blockquote>\n<p>I think you mean vaporwave rather than vaporware.</p>",
+        "id": 281598614,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1652015718
+    },
+    {
+        "content": "<p>Or, in the case of clothing that never actually becomes available, vaporwear?</p>",
+        "id": 281600428,
+        "sender_full_name": "Reid Barton",
+        "timestamp": 1652018278
+    },
+    {
+        "content": "<p>A while ago I made this, it may have a niche market in the UK <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span> <br>\n<a href=\"/user_uploads/21317/zPrxw68aetPQGTF6-sTfRJN9/nlabour.png\">nlabour.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/zPrxw68aetPQGTF6-sTfRJN9/nlabour.png\" title=\"nlabour.png\"><img src=\"/user_uploads/21317/zPrxw68aetPQGTF6-sTfRJN9/nlabour.png\"></a></div>",
+        "id": 281600929,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1652018904
+    },
+    {
+        "content": "<p>Absolutely incredible.</p>",
+        "id": 281601018,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1652019039
+    },
+    {
+        "content": "<p>How about a shirt saying things like \"a monad is a monoid in the category of endofunctors\"?</p>",
+        "id": 281607213,
+        "sender_full_name": "Paolo Perrone",
+        "timestamp": 1652027504
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275989\">Paolo Perrone</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281607213\">said</a>:</p>\n<blockquote>\n<p>How about a shirt saying things like \"a monad is a monoid in the category of endofunctors\"?</p>\n</blockquote>\n<p>I used that recently to make a point about how being able to repeat a sentence or just knowing every single word in it does not amount to understanding. That requires something more. like watching <br>\nBartosz Milewski's course <a href=\"https://www.youtube.com/watch?v=GmgoPd7VQ9Q\">https://www.youtube.com/watch?v=GmgoPd7VQ9Q</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"GmgoPd7VQ9Q\" href=\"https://www.youtube.com/watch?v=GmgoPd7VQ9Q\"><img src=\"https://uploads.zulipusercontent.net/876fee9187a6ba190266e218682b71a9f0321536/68747470733a2f2f692e7974696d672e636f6d2f76692f476d676f506437565139512f64656661756c742e6a7067\"></a></div>",
+        "id": 281607770,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1652028302
+    },
+    {
+        "content": "<p>How did that become such a universal catchphrase anyway? Shouldn't it be \"a monad is a monoid in the monoidal category of endofunctors and composition\"?</p>",
+        "id": 281607942,
+        "sender_full_name": "Tim Campion",
+        "timestamp": 1652028593
+    },
+    {
+        "content": "<p>Maybe it would be even more nlab to say \"a monad is a lax point\".</p>",
+        "id": 281608150,
+        "sender_full_name": "Paolo Perrone",
+        "timestamp": 1652028883
+    },
+    {
+        "content": "<p>And on the back of the shirt it says 'a monoid is an algebra of the list monad'.</p>",
+        "id": 281608308,
+        "sender_full_name": "Oscar Cunningham",
+        "timestamp": 1652029153
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275989\">Paolo Perrone</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281607213\">said</a>:</p>\n<blockquote>\n<p>How about a shirt saying things like \"a monad is a monoid in the category of endofunctors\"?</p>\n</blockquote>\n<p>FTFY: a monad is <strong>just</strong> a monoid in the category of endofunctors</p>",
+        "id": 281608449,
+        "sender_full_name": "Ralph Sarkis",
+        "timestamp": 1652029248
+    },
+    {
+        "content": "<p>Yeah, the <strong>just</strong> transforms it from a fact into an attitude bound to set off arguments.</p>",
+        "id": 281608554,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652029428
+    },
+    {
+        "content": "<p>Let's pick the wording that sells the most t-shirts. Let's fund the nLab!</p>",
+        "id": 281609535,
+        "sender_full_name": "Paolo Perrone",
+        "timestamp": 1652030877
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281608554\">said</a>:</p>\n<blockquote>\n<p>Yeah, the <strong>just</strong> transforms it from a fact into an attitude bound to set off arguments.</p>\n</blockquote>\n<p>A long time ago on the Cafe, a post (I think one of John's) started off with a link to a YouTube video, no longer available AFAIK, where the narrator complains \"The monads make my head hurt!\" There seems to be a kind of myth, maybe especially prominent among students of Haskell, that monads are some sort of hurdle or rite of passage that everyone has to get through, typically after a struggle. [Actually, I think maybe they mean a strong monad on a cartesian closed category, but never mind that.] </p>\n<p>I would like to think of the deployment of \"just\" not as a sign of arrogance and therefore a negative attitude, but more a positive attitude of trying to be helpful: \"look here, it's not so bad, if you remember it like this\". I think I can honestly say that I never had a problem with monads, having learnt about them from Mac Lane.</p>",
+        "id": 281609810,
+        "sender_full_name": "Todd Trimble",
+        "timestamp": 1652031306
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277991\">Tim Campion</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281607942\">said</a>:</p>\n<blockquote>\n<p>How did that become such a universal catchphrase anyway? Shouldn't it be \"a monad is a monoid in the monoidal category of endofunctors and composition\"?</p>\n</blockquote>\n<p>The history of this meme is explained at the beginning of this stackoverflow answer: <a href=\"https://stackoverflow.com/a/3870310/3016387\">https://stackoverflow.com/a/3870310/3016387</a></p>",
+        "id": 281610148,
+        "sender_full_name": "Max New",
+        "timestamp": 1652031791
+    },
+    {
+        "content": "<p>Many years ago I recall a conversation about \"category theory purity tests\", that involved coming up with short statements like this that would only make sense to someone who was \"sufficiently categorically impure\".  I think the best one we came up with was \"the center of a set is 'true'\".</p>",
+        "id": 281610159,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1652031820
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277611\">Todd Trimble</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281609810\">said</a>:</p>\n<blockquote>\n<p>I think maybe they mean a strong monad on a cartesian closed category, but never mind that.</p>\n</blockquote>\n<p>Actually I think they mean a map from sets to sets with unit and bind (without axioms). There is no way to ask for more in Haskell, is there?</p>",
+        "id": 281618313,
+        "sender_full_name": "Tom Hirschowitz",
+        "timestamp": 1652043980
+    },
+    {
+        "content": "<p>Well, the Haskellers do care about the laws --- though without either an established equational theory for the Haskell language nor an actual semantic model (e.g. some proper domain theory), it is a bit unclear what exactly is meant by these laws in the context of Haskell.</p>",
+        "id": 281619784,
+        "sender_full_name": "Jon Sterling",
+        "timestamp": 1652046281
+    },
+    {
+        "content": "<p>But I think if pressed, an enlightened Haskell programmer would say something like \"I am imagining a XXX-enriched monad on the the fragment of haskell that can actually be modeled in XXX\" where XXX is some variety of domains.</p>",
+        "id": 281619881,
+        "sender_full_name": "Jon Sterling",
+        "timestamp": 1652046451
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"284005\">Ralph Sarkis</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281608449\">said</a>:</p>\n<div class=\"codehilite\"><pre><span></span><code>FTFY: a monad is **just** a monoid in the category of endofunctors\n</code></pre></div>\n<p>I thought <a href=\"http://james-iry.blogspot.com/2009/05/brief-incomplete-and-mostly-wrong.html\">the sentence attributed to Wadler was</a>:</p>\n<blockquote>\n<p>\"a monad is a monoid in the category of endofunctors, what's the problem?\"</p>\n</blockquote>",
+        "id": 281620398,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1652047241
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276438\">Fabrizio Genovese</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281597958\">said</a>:</p>\n<blockquote>\n<p>As for feedback, personally the more absurd, kitsch and flashy you make it the more it is likely that I'll buy it :P</p>\n</blockquote>\n<p>I think you vastly overestimate my artistic ability here :-)</p>",
+        "id": 281621143,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1652048506
+    },
+    {
+        "content": "<p>All: I'd rather not perpetuate memes that only serve to cement the perceived elitism of category theory and/or the nLab. I'm making nLab merch, some of which will be humorous self-deprecation, but obviously so (\"A <em>moduli stack of elliptic cuvres</em> is a <a href=\"https://ncatlab.org/nlab/show/moduli%20stack\">moduli stack</a> of <a href=\"https://ncatlab.org/nlab/show/elliptic+curve\">elliptic curves</a>\" is too good to pass up as a mug quote...), not generic CT meme material. Anyone who wants to sell that can do so! I'm operating my own product account, and donating the money, so I'm aware of what sort of messages I might be choosing to send.</p>",
+        "id": 281623212,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1652051699
+    },
+    {
+        "content": "<p>Imho aesthetics work better than catchphrases. I'd never wear a tshirt that says \"a monad is a monoid in the category of endofunctors\". But I'd wear a tshirt with cool colors and decorations. If there's also the nlab logo in it then it becomes a nice way to make the logo - and what it represents - cool and trendy <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span></p>",
+        "id": 281624688,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1652054106
+    },
+    {
+        "content": "<p>\"I came for the art and stayed for the math\" seems like a good strategy here <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+        "id": 281624735,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1652054171
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276363\">Amar Hadzihasanovic</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281600929\">said</a>:</p>\n<blockquote>\n<p>A while ago I made this, it may have a niche market in the UK <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span> <br>\n<a href=\"/user_uploads/21317/zPrxw68aetPQGTF6-sTfRJN9/nlabour.png\">nlabour.png</a></p>\n</blockquote>\n<p>Just take my money</p>",
+        "id": 281650700,
+        "sender_full_name": "Daniele Palombi",
+        "timestamp": 1652083316
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275989\">Paolo Perrone</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281608150\">said</a>:</p>\n<blockquote>\n<p>Maybe it would be even more nlab to say \"a monad is a lax point\".</p>\n</blockquote>\n<p>\"A topological space is a relational β-module\"</p>",
+        "id": 281650832,
+        "sender_full_name": "Daniele Palombi",
+        "timestamp": 1652083429
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275989\">Paolo Perrone</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281608150\">said</a>:</p>\n<blockquote>\n<p>Maybe it would be even more nlab to say \"a monad is a lax point\".</p>\n</blockquote>\n<p>It just occurred to me that this is even a correct (informal) definition of the <a href=\"https://ncatlab.org/nlab/show/infinitesimal+neighborhood#in_nonstandard_analysis\">other notion of monad</a>.</p>",
+        "id": 281651444,
+        "sender_full_name": "Tobias Fritz",
+        "timestamp": 1652083853
+    },
+    {
+        "content": "<p>Can it say a monoid is a monad in a one object bicategory on the back?</p>",
+        "id": 281657518,
+        "sender_full_name": "Dan Marsden",
+        "timestamp": 1652087904
+    },
+    {
+        "content": "<p>A monad is a monad in the 2-category of categories.</p>",
+        "id": 281660480,
+        "sender_full_name": "Alexander Campbell",
+        "timestamp": 1652089626
+    },
+    {
+        "content": "<p>OK, the relational <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>β</mi></mrow><annotation encoding=\"application/x-tex\">\\beta</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05278em;\">β</span></span></span></span>-module line is classic enough, and was (re-?)popularised on the n-category café, I'd definitely use that one. But in a format to be revealed...</p>",
+        "id": 281666248,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1652093562
+    },
+    {
+        "content": "<p>Where at the Cafe?  There's the briefest possible mention <a href=\"https://golem.ph.utexas.edu/category/2006/10/australian_category_theory.html\">here</a>.</p>",
+        "id": 281669716,
+        "sender_full_name": "Todd Trimble",
+        "timestamp": 1652095871
+    },
+    {
+        "content": "<p>I think I was thinking of that, yes. Though that is a while before the current generation of students in CT were active, so I'm showing my age. But there might be another source, that went through and explained this (and maybe it was you, Todd!)</p>",
+        "id": 281676094,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1652099442
+    },
+    {
+        "content": "<p>It was mostly me writing about this in the <a href=\"https://ncatlab.org/nlab/show/relational+beta-module\">nLab</a>, although I think I remember Tim Campion finding a mistake (which I think was corrected?), and maybe Mike was involved too. The editing history will reveal all.</p>",
+        "id": 281690385,
+        "sender_full_name": "Todd Trimble",
+        "timestamp": 1652105712
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277611\">Todd Trimble</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281690385\">said</a>:</p>\n<blockquote>\n<p>It was mostly me writing about this in the <a href=\"https://ncatlab.org/nlab/show/relational+beta-module\">nLab</a>, although I think I remember Tim Campion finding a mistake (which I think was corrected?), and maybe Mike was involved too. The editing history will reveal all.</p>\n</blockquote>\n<p>Oh wow, I definitely remember thinking about relational <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>β</mi></mrow><annotation encoding=\"application/x-tex\">\\beta</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05278em;\">β</span></span></span></span>-modules back then, but I had completely forgotten about the story of the nlab page! Interestingly, there are <a href=\"https://nforum.ncatlab.org/discussion/2788/relational-betamodules/\">two</a> nforum <a href=\"https://nforum.ncatlab.org/discussion/5131/relational-betamodule/\">discussions</a> on this page. As far as I can tell, the two of us ended up agreeing at the time that the mistake I caught was satisfactorily corrected. So if past Todd and Tim are to be trusted, the page should be sound :P.</p>\n<p>Notes to self:</p>\n<ol>\n<li>At some point between 2015 and 2022, the nlab must have changed the default way that theorem-numbering is done, because the theorem numbers referenced on the nforum do not match up with the theorem numbers in the revision history.</li>\n<li>I really need to post a note about countably-generated spaces and relational <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>β</mi></mrow><annotation encoding=\"application/x-tex\">\\beta</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05278em;\">β</span></span></span></span>-modules.</li>\n</ol>",
+        "id": 281695372,
+        "sender_full_name": "Tim Campion",
+        "timestamp": 1652107738
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276438\">Fabrizio Genovese</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281624688\">said</a>:</p>\n<blockquote>\n<p>Imho aesthetics work better than catchphrases. I'd never wear a tshirt that says \"a monad is a monoid in the category of endofunctors\". But I'd wear a tshirt with cool colors and decorations. If there's also the nlab logo in it then it becomes a nice way to make the logo - and what it represents - cool and trendy :)</p>\n</blockquote>\n<p>just to throw my 2 cents on this, just one person's preference: I wear graphic tees pretty exclusively, and I don't like ones with words beyond the name of a band or similar. So I'd buy one with \"nLab\" but not \"a monad is a monoid in the category of endofunctors\".</p>",
+        "id": 281711639,
+        "sender_full_name": "Joe Moeller",
+        "timestamp": 1652114383
+    },
+    {
+        "content": "<p>Yeah, me too.</p>",
+        "id": 281720542,
+        "sender_full_name": "Oscar Cunningham",
+        "timestamp": 1652118359
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277459\">Alexander Campbell</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281660480\">said</a>:</p>\n<blockquote>\n<p>A monad is a monad in the 2-category of categories.</p>\n</blockquote>\n<p>To be really annoying:</p>\n<p>A monad is <strong>just</strong> a monad in the 2-category of categories.</p>",
+        "id": 281732620,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652123930
+    },
+    {
+        "content": "<p><span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mtext>Just</mtext><mtext>TM</mtext></msup></mrow><annotation encoding=\"application/x-tex\">\\text{Just}^{\\text{TM}}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.9146em;\"></span><span class=\"mord\"><span class=\"mord text\"><span class=\"mord\">Just</span></span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.9146em;\"><span style=\"top:-3.1362em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord text mtight\"><span class=\"mord mtight\">TM</span></span></span></span></span></span></span></span></span></span></span></span></span></p>",
+        "id": 281732918,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1652124072
+    },
+    {
+        "content": "<p><a href=\"https://twitter.com/Joe_DoesMath/status/1394624957645197320?s=20&amp;t=Jn4uZjD3MKHwpPnQ5eQtrw\">https://twitter.com/Joe_DoesMath/status/1394624957645197320?s=20&amp;t=Jn4uZjD3MKHwpPnQ5eQtrw</a></p>\n<div class=\"inline-preview-twitter\"><div class=\"twitter-tweet\"><a href=\"https://twitter.com/Joe_DoesMath/status/1394624957645197320?s=20&amp;t=Jn4uZjD3MKHwpPnQ5eQtrw\"><img class=\"twitter-avatar\" src=\"https://uploads.zulipusercontent.net/1b8fc2da9ce6ff44a4f8661a485a5f8a7c06c88b/68747470733a2f2f7062732e7477696d672e636f6d2f70726f66696c655f696d616765732f313530373835323836393834333830303036392f397066476248676b5f6e6f726d616c2e6a7067\"></a><p>Idea: the expression of a mathematical concept in categorical terms should be called \"justification\". A Lie group is JUST a group object in Diff. The term \"justification\" pairs nicely with \"categorification\".</p><span>- dr. pseudomonoid (@Joe_DoesMath)</span></div></div>",
+        "id": 281738999,
+        "sender_full_name": "Joe Moeller",
+        "timestamp": 1652126862
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281608554\">said</a>:</p>\n<blockquote>\n<p>Yeah, the <strong>just</strong> transforms it from a fact into an attitude bound to set off arguments.</p>\n</blockquote>\n<p>lol Nike-style logo saying only 'just'</p>",
+        "id": 281806244,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1652179620
+    },
+    {
+        "content": "<p>On the <a href=\"https://faculty.math.illinois.edu/~rezk/discord.html\">algebraic topology discord server</a> there is a custom emoji reaction which is the word \"just\", but crossed out.</p>",
+        "id": 281831217,
+        "sender_full_name": "Tim Campion",
+        "timestamp": 1652192693
+    },
+    {
+        "content": "<p>At MSP we have a 'just' jar where we are supposed to put money whenever we justify unjustifiably... incidentally, this might be a good way to fund the nLab lmao</p>",
+        "id": 281930535,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1652256141
+    },
+    {
+        "content": "<p>I vaguely remember Matteo is in debt to the just-a-jar by an infinite amount due to some infinite regress situation</p>",
+        "id": 281939699,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1652261808
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275901\">Jules Hedges</span> <a href=\"#narrow/stream/229111-general/topic/nLab/near/281939699\">said</a>:</p>\n<blockquote>\n<p>I vaguely remember Matteo is in debt to the just-a-jar by an infinite amount due to some infinite regress situation</p>\n</blockquote>\n<p>Damn <span aria-label=\"face palm\" class=\"emoji emoji-1f926\" role=\"img\" title=\"face palm\">:face_palm:</span></p>",
+        "id": 281941650,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1652262991
+    },
+    {
+        "content": "<p>Is a justification printed with a ragged-right alignment justified?  (and would it preserve limits?) <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 281991658,
+        "sender_full_name": "Jason Erbele",
+        "timestamp": 1652286422
+    },
+    {
+        "content": "<p>weird I also had a problem on all my web sites with a renewal of the <a href=\"https://letsencrypt.org\">https://letsencrypt.org</a> certificate this month. Just fixed it now.</p>",
+        "id": 282259864,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1652454229
+    },
+    {
+        "content": "<p>Some nLab news:</p>\n<ul>\n<li>Urs Schreiber, <a href=\"https://nforum.ncatlab.org/discussion/14186/the-nlab-technical-board/\">The nLab technical board</a>.</li>\n</ul>",
+        "id": 282371093,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652560723
+    },
+    {
+        "content": "<p>Some people here might be interested in helping out the nLab:</p>\n<blockquote>\n<p>[....] if you are a technical expert on the required IT issues and would like to lend a hand with keeping the nLab installation alive and well, then please drop a note, either here or directly to one of the technical board members. (You don’t have to become a formal member of the “technical board”.)</p>\n</blockquote>",
+        "id": 282371113,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652560763
+    },
+    {
+        "content": "<p>I'm getting this error when trying to visit the nForum:<br>\n<a href=\"/user_uploads/21317/SrTeU-xEDPJH8CLiAMKVvlAn/image.png\">image.png</a><br>\nAnyone know what's happening?</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/SrTeU-xEDPJH8CLiAMKVvlAn/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/SrTeU-xEDPJH8CLiAMKVvlAn/image.png\"></a></div>",
+        "id": 301777401,
+        "sender_full_name": "Oscar Cunningham",
+        "timestamp": 1664607860
+    },
+    {
+        "content": "<p>Not sure. I couldn't access it earlier today, either, but it's back now</p>",
+        "id": 301800453,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1664620881
+    },
+    {
+        "content": "<p>The nLab recently moved to a new server and DNS and there was a bug in the configuration, I think it's been fixed now.</p>",
+        "id": 301878157,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1664668981
+    },
+    {
+        "content": "<p>Nice to hear that work is ongoing.</p>",
+        "id": 301911033,
+        "sender_full_name": "Oscar Cunningham",
+        "timestamp": 1664703306
+    },
+    {
+        "content": "<p>The permanent move to the new nLab server is happening at <time datetime=\"2022-10-07T13:00:00Z\">2022-10-07T06:00:00-07:00</time> (UTC 13:00).  At that time the nLab and nForum will temporarily be switched to read-only.  During the move, which is projected to last \"between 10 minutes and 6 hours\", you will get an error message if you try to edit the nLab or post in the nForum.  At the end of the migration, the nLab and nForum will be switched to the new server and editing/posting will work again.  It may be that some things are broken afterwards; if you notice any, please report them on the <a href=\"https://nforum.ncatlab.org/discussion/15224/server-migration-friday-7-oct-2022/\">nForum</a>.</p>",
+        "id": 302498580,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1664988037
+    }
+]

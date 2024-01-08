@@ -1,0 +1,98 @@
+[
+    {
+        "content": "<p>I'm entertaining using 'ambicartesian' to refer to categories with finite biproducts, since 'bicartesian' is taken by categories with finite products &amp; coproducts, which however might not coincide.<br>\nThe prefix 'ambi' denotes something which is 'both' two things at once, so it fits like a glove. Moreover it hints at the fact that having finite biproducts means having an <a href=\"https://ncatlab.org/nlab/show/ambidextrous%2Badjoint\">[[ambidextrous+adjoint]]</a> to the diagonal functor.</p>\n<p>Thoughts?</p>",
+        "id": 404379121,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1701080469
+    },
+    {
+        "content": "<p>Aren't these usually called <em>semiadditive categories</em>?</p>",
+        "id": 404380613,
+        "sender_full_name": "Damiano Mazza",
+        "timestamp": 1701080903
+    },
+    {
+        "content": "<p>Maybe you don't like very much the name \"semiadditive\" and are looking for an alternative?  I think the terminology is pretty well-established though, I'm not sure it's a good idea to introduce a new one...</p>",
+        "id": 404381110,
+        "sender_full_name": "Damiano Mazza",
+        "timestamp": 1701081002
+    },
+    {
+        "content": "<p>Semiadditive categories are enriched in commutative monoids. All categories with finite biproducts are semiadditive, but I don't think the converse is true!</p>",
+        "id": 404381475,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1701081072
+    },
+    {
+        "content": "<p>In fact, that's why I'm here</p>",
+        "id": 404381544,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1701081091
+    },
+    {
+        "content": "<p>I'm pretty sure that the converse <em>is</em> true.  I don't have time to look for a reference now, I'll come back to this later!  (Or someone else will correct me or beat me to it, it's more likely <span aria-label=\"big smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"big smile\">:big_smile:</span>)</p>",
+        "id": 404388718,
+        "sender_full_name": "Damiano Mazza",
+        "timestamp": 1701083368
+    },
+    {
+        "content": "<p>(By the converse being true I mean that a category enriched in commutative monoids <em>and</em> with finite products is the same as a category with finite biproducts.  Of course enrichement alone does not automatically give products).</p>",
+        "id": 404389827,
+        "sender_full_name": "Damiano Mazza",
+        "timestamp": 1701083820
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/348484-practice.3A-terminology-.26-notation/topic/ambicartesian.20categories/near/404381475\">said</a>:</p>\n<blockquote>\n<p>Semiadditive categories are enriched in commutative monoids. All categories with finite biproducts are semiadditive, but I don't think the converse is true!</p>\n</blockquote>\n<p>A semiadditive category is defined to be a category with finite biproducts: see <a href=\"https://ncatlab.org/nlab/show/biproduct\">[[biproduct]]</a>. It is equivalent to asking for a CommMon-enriched category with products/coproducts/absolute (co)limits, as spelled out later on that nLab page.</p>",
+        "id": 404397244,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1701086495
+    },
+    {
+        "content": "<p>That being said, I do like the prefix \"ambi-\" over \"bi-\" for coincident structure, since \"bi-\" is often ambiguous.</p>",
+        "id": 404397707,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1701086629
+    },
+    {
+        "content": "<p>If you use the terminology \"ambiproduct\" rather than \"biproduct\" (so long as you mention that such things are also called biproducts), then I think \"ambicartesian category\" is reasonable.</p>",
+        "id": 404397872,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1701086683
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> <a href=\"#narrow/stream/348484-practice.3A-terminology-.26-notation/topic/ambicartesian.20categories/near/404397244\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/348484-practice.3A-terminology-.26-notation/topic/ambicartesian.20categories/near/404381475\">said</a>:</p>\n<blockquote>\n<p>Semiadditive categories are enriched in commutative monoids. All categories with finite biproducts are semiadditive, but I don't think the converse is true!</p>\n</blockquote>\n<p>A semiadditive category is defined to be a category with finite biproducts: see <a href=\"https://ncatlab.org/nlab/show/biproduct\">[[biproduct]]</a>. It is equivalent to asking for a CommMon-enriched category with products/coproducts/absolute (co)limits, as spelled out later on that nLab page.</p>\n</blockquote>\n<p>Damn, I got properly confused! Probably because I was reading a paper that defined semiadditve as cmon-enriched.</p>",
+        "id": 404406049,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1701089742
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> <a href=\"#narrow/stream/348484-practice.3A-terminology-.26-notation/topic/ambicartesian.20categories/near/404397872\">said</a>:</p>\n<blockquote>\n<p>If you use the terminology \"ambiproduct\" rather than \"biproduct\" (so long as you mention that such things are also called biproducts), then I think \"ambicartesian category\" is reasonable.</p>\n</blockquote>\n<p>Funnily, the bi in biproducts makes sense because a biproduct has a product  and coproduct structure which <em>don't</em> coincide in general</p>",
+        "id": 404406262,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1701089809
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276839\">Damiano Mazza</span> <a href=\"#narrow/stream/348484-practice.3A-terminology-.26-notation/topic/ambicartesian.20categories/near/404389827\">said</a>:</p>\n<blockquote>\n<p>(By the converse being true I mean that a category enriched in commutative monoids <em>and</em> with finite products is the same as a category with finite biproducts.  Of course enrichement alone does not automatically give products).</p>\n</blockquote>\n<p>Yeah I wasn't thinking of requirjng products</p>",
+        "id": 404406371,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1701089853
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/348484-practice.3A-terminology-.26-notation/topic/ambicartesian.20categories/near/404406262\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> <a href=\"#narrow/stream/348484-practice.3A-terminology-.26-notation/topic/ambicartesian.20categories/near/404397872\">said</a>:</p>\n<blockquote>\n<p>If you use the terminology \"ambiproduct\" rather than \"biproduct\" (so long as you mention that such things are also called biproducts), then I think \"ambicartesian category\" is reasonable.</p>\n</blockquote>\n<p>Funnily, the bi in biproducts makes sense because a biproduct has a product  and coproduct structure which <em>don't</em> coincide in general</p>\n</blockquote>\n<p>What do you mean by \"don't coincide\"?</p>",
+        "id": 404434580,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1701098564
+    },
+    {
+        "content": "<p>They're just different: the projections and the injections are different morphisms. But now that I say it again, I don't think it makes much sense, since with this attitude I'd end up also saying a category with finite biproducts has different cartesian and cocartesian structures...</p>",
+        "id": 404445174,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1701101754
+    },
+    {
+        "content": "<p>The bigger problem with \"bi-\" is that it's sometimes used to denote things that are bicategorical, in place of \"2-\" for strict 2-categorical.</p>",
+        "id": 404445726,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1701101936
+    }
+]

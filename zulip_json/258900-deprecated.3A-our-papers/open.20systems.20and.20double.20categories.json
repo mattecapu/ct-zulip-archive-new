@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>A while ago I blogged about Kenny Courser's thesis:</p>\n<ul>\n<li><a href=\"https://golem.ph.utexas.edu/category/2020/08/open_systems_a_double_categori.html\">Open Systems: A Double Categorical Perspective (Part 1)</a>.</li>\n</ul>\n<p>Now I've finally continued:</p>\n<ul>\n<li><a href=\"https://golem.ph.utexas.edu/category/2020/09/open_systems_a_double_categorical_perspective_part_2.html\">Open Systems: A Double Categorical Perspective (Part 2)</a>.</li>\n</ul>\n<p>This time I <em>finally</em> explain all the problems with decorated cospans!   A lot of work relying on them is broken.  Luckily Kenny's thesis explains how to fix all these problems.</p>",
+        "id": 210302617,
+        "sender_full_name": "John Baez",
+        "timestamp": 1600281565
+    },
+    {
+        "content": "<p>I just wrote a blog article continuing my explanation of Kenny Courser's thesis:</p>\n<ul>\n<li><a href=\"https://johncarlosbaez.wordpress.com/2021/01/23/open-systems-a-double-categorical-perspective-part-3/\">Open Systems: A Double Categorical Perspective (Part 3)</a>.</li>\n</ul>\n<p>Last time I explained the problems with Brendan Fong's original decorated cospans - or more precisely, the problems with many attempts to apply them. This time I explain the \"new improved\" decorated cospans that solve all these problems.</p>",
+        "id": 223788301,
+        "sender_full_name": "John Baez",
+        "timestamp": 1611450777
+    }
+]

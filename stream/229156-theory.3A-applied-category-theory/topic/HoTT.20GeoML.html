@@ -1,0 +1,264 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>HoTT GeoML · theory: applied category theory · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/index.html">theory: applied category theory</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html">HoTT GeoML</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="366321090"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366321090" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ryan Wisnesky <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366321090">(Jun 14 2023 at 23:01)</a>:</h4>
+<p>I'm interested in trying to translate GeoML (GML: <a href="https://en.wikipedia.org/wiki/Geography_Markup_Language">https://en.wikipedia.org/wiki/Geography_Markup_Language</a>), a coordinate-based markup language for expressing 3d shapes, into homotopy type theory, in such a way that the topological structure of the GML is reflected in the proof theory (the groupoids induced by propositional equality) of the resulting HoTT code.  In the same way that in <a href="https://arxiv.org/pdf/1301.3443.pdf">https://arxiv.org/pdf/1301.3443.pdf</a> the authors calculated the homotopy groups of spheres using HoTT, I'm wondering if we could e.g. calculate some simpler thing about a real world structure for which GML exists (like a famous Church etc) using HoTT methods.  Any thoughts?</p>
+
+
+
+<a name="366328382"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366328382" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ryan Wisnesky <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366328382">(Jun 15 2023 at 00:03)</a>:</h4>
+<p>To elaborate, I know how to write individual shapes such as toruses in HoTT, and I have coordinate lists for shapes in the GeoML file format, such as toruses, I’m just not sure what to do to corresponding HoTT code when those shapes are found to e.g. intersect or touch.  Presumably, I should push them out or create suspensions or sewing or do other topological things, but I don't know what these would be.  I think there's probably a cool quick demo here (perhaps a 'functional pearl') if this can be worked out.</p>
+
+
+
+<a name="366334368"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366334368" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Spencer Breiner <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366334368">(Jun 15 2023 at 00:55)</a>:</h4>
+<p>Looks cool!</p>
+<p>As far as I know, actually extracting computation from a HoTT proof is still intractable. From a <a href="https://homotopytypetheory.org/2022/06/09/the-brunerie-number-is-2/">2022 blog post</a></p>
+<blockquote>
+<p>This result is quite remarkable in that even though it is a constructive proof, it is not at all obvious how to actually compute this n. At the time of writing, we still haven’t managed to extract its value from its definition.</p>
+</blockquote>
+
+
+
+<a name="366334632"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366334632" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Spencer Breiner <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366334632">(Jun 15 2023 at 00:57)</a>:</h4>
+<p>On the plus side, the "coverages" in GML (geospatial/temporal data) look like (sections of) sheaves <span aria-label="harvest" class="emoji emoji-1f33e" role="img" title="harvest">:harvest:</span><span aria-label="harvest" class="emoji emoji-1f33e" role="img" title="harvest">:harvest:</span></p>
+
+
+
+<a name="366334732"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366334732" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ryan Wisnesky <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366334732">(Jun 15 2023 at 00:58)</a>:</h4>
+<p>there's a lot of good stuff in GML, imo</p>
+
+
+
+<a name="366335139"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366335139" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Spencer Breiner <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366335139">(Jun 15 2023 at 01:01)</a>:</h4>
+<p>I just glanced over the Wikipedia page briefly. Are you thinking more about the feature set or the available data sets (or both)</p>
+
+
+
+<a name="366335151"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366335151" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ryan Wisnesky <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366335151">(Jun 15 2023 at 01:01)</a>:</h4>
+<p>Here's an even more precise statement of my "ask".  GML defines the concept of polygon, and assume we know how to translate polygons into HoTT (they are like e.g. squares but more so).  I'm asking for help exhaustively enumerating all the ways two polygons can overlap, and for each such way, figuring out what to do with the associated HoTT code.  For example, assume we have six squares that form a cube.  This gives six HoTT inductive types.  Based on the fact that the squares overlap on edges, these six types should get merged into one type with six "square" constructors, resulting in the HoTT code for the cube.  Presumably, there is some systematic way of doing this that I'm asking for help finding.</p>
+
+
+
+<a name="366335483"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366335483" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ryan Wisnesky <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366335483">(Jun 15 2023 at 01:03)</a>:</h4>
+<p>btw not all GML is topologically "consistent" (meaning it deviates from ISO spec as well as not specifying anything mathematical). <a href="https://www.researchgate.net/publication/333795484_Evaluation_of_Topological_Consistency_in_CityGML">https://www.researchgate.net/publication/333795484_Evaluation_of_Topological_Consistency_in_CityGML</a></p>
+
+
+
+<a name="366335595"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366335595" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Spencer Breiner <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366335595">(Jun 15 2023 at 01:04)</a>:</h4>
+<p>Do you want intersections in general or shared faces (as in CW-complexes)</p>
+
+
+
+<a name="366335941"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366335941" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ryan Wisnesky <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366335941">(Jun 15 2023 at 01:07)</a>:</h4>
+<p>whatever would be given by coordinate lists</p>
+
+
+
+<a name="366336014"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366336014" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ryan Wisnesky <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366336014">(Jun 15 2023 at 01:07)</a>:</h4>
+<p>all that comes out of GML is a bunch of polygon definitions, each with a coordinate list.  everything else has to be computed.  Other formats like CityML have keywords to specify such relationships, such as "disjoint from"</p>
+
+
+
+<a name="366336128"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366336128" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ryan Wisnesky <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366336128">(Jun 15 2023 at 01:08)</a>:</h4>
+<p>To be hyper concrete, I can see how to go from six of<br>
+  **data Square {A : Type} {a00 : A} : <br>
+              {a01 a10 a11 : A} → a00 == a01 -&gt; a00 == a10 -&gt; a01 == a11 -&gt; a10 == a11 -&gt; Type where <br>
+    id : Square id id id id** <br>
+to one  of   <br>
+**data Cube {A : Type} {a000 : A} : <br>
+    {a010 a100 a110 a001 a011 a101 a111 : A}<br>
+    {p0-0 : a000 == a010}<br>
+    {p-00 : a000 == a100}<br>
+    {p-10 : a010 == a110}<br>
+    {p1-0 : a100 == a110}<br>
+    (f--0 : Square p0-0 p-00 p-10 p1-0) -- left<br>
+    {p0-1 : a001 == a011}<br>
+    {p-01 : a001 == a101}<br>
+    {p-11 : a011 == a111}<br>
+    {p1-1 : a101 == a111}<br>
+    (f--1 : Square p0-1 p-01 p-11 p1-1) -- right<br>
+    {p00- : a000 == a001}<br>
+    {p01- : a010 == a011}<br>
+    {p10- : a100 == a101}<br>
+    {p11- : a110 == a111}<br>
+    (f0-- : Square p0-0 p00- p01- p0-1) -- back<br>
+    (f-0- : Square p-00 p00- p10- p-01) -- top<br>
+    (f-1- : Square p-10 p01- p11- p-11) -- bot<br>
+    (f1-- : Square p1-0 p10- p11- p1-1) -- front<br>
+    → Type where<br>
+    id : Cube id id id id id id**</p>
+<p>when squares match exactly by coordinates (not shown), but there must be a general way to do this for all shapes.  No doubt something like this already exists for scene reconstruction, just not targeting HoTT</p>
+
+
+
+<a name="366336478"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366336478" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Spencer Breiner <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366336478">(Jun 15 2023 at 01:11)</a>:</h4>
+<p>In this case, the squares share edges, but in general they might pass through each other, or overlap in a 2-dimensional patch. </p>
+<p>You would like to recognize that there is an intersection, even though this is not part of any boundary path</p>
+
+
+
+<a name="366336599"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366336599" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Spencer Breiner <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366336599">(Jun 15 2023 at 01:12)</a>:</h4>
+<p>You could also get families of polygons if the initial patches are not convex</p>
+
+
+
+<a name="366336625"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366336625" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ryan Wisnesky <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366336625">(Jun 15 2023 at 01:12)</a>:</h4>
+<p>right, and I have no idea how to do geometry or topology or whatever this would be called.  would anyone like to figure all this out for the glory of writing a paper?</p>
+
+
+
+<a name="366337391"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366337391" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Spencer Breiner <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366337391">(Jun 15 2023 at 01:18)</a>:</h4>
+<p>I once audited a cool course in computational geometry, but I think I've forgotten everything (except a dim memory of present wrapping making an appearance)</p>
+
+
+
+<a name="366337591"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366337591" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ryan Wisnesky <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366337591">(Jun 15 2023 at 01:20)</a>:</h4>
+<p>anyone on zulip we might ask?</p>
+
+
+
+<a name="366339412"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366339412" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ryan Wisnesky <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366339412">(Jun 15 2023 at 01:32)</a>:</h4>
+<p>I think we can assume that given two polygons there is an algorithm to say 'disjoint' or produce a polygon of their intersection (presumably one dimension lower but I can see how two squares might overlap in the same plane).  For example <a href="http://www.csun.edu/~ctoth/Handbook/chap42.pdf">http://www.csun.edu/~ctoth/Handbook/chap42.pdf</a> .  The part that is tricky, that I think requires topology, is figuring out how to act on the corresponding HoTT code.  For example, if the six squares touch in a way that forms a chain, then they become a single bigger rectangle, which in my mind would be implemented by e.g. simplification of a presentation.  In other words, from a topological perspective, how many ways are there for two shapes to intersect, and how would each of these yield a presentation of the combined object from presentations of the input objects?</p>
+
+
+
+<a name="366343112"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366343112" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ryan Wisnesky <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366343112">(Jun 15 2023 at 02:04)</a>:</h4>
+<p>perhaps what is needed is <a href="https://en.wikipedia.org/wiki/Surgery_theory">https://en.wikipedia.org/wiki/Surgery_theory</a> but with arbitrary shapes, not spheres, and in terms of presentations</p>
+
+
+
+<a name="366499972"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366499972" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Emilio Minichiello <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366499972">(Jun 15 2023 at 13:28)</a>:</h4>
+<p>It sounds to me like you want something like a proof assistant but with tools to manipulate simplicial complexes, something like <a href="https://polymake.org/doku.php/user_guide/tutorials/latest/apps_topaz">https://polymake.org/doku.php/user_guide/tutorials/latest/apps_topaz</a> . Is there a specific homotopical thing you want to exploit using HoTT?</p>
+
+
+
+<a name="366522901"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366522901" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ryan Wisnesky <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366522901">(Jun 15 2023 at 14:37)</a>:</h4>
+<p>I don't have a clue what to do with the HoTT code that would arise from the GML, but I'm sure we could think of something cool :-)</p>
+
+
+
+<a name="366586456"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366586456" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Alex Gryzlov <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366586456">(Jun 15 2023 at 18:11)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="278008">Spencer Breiner</span> <a href="#narrow/stream/229156-practice.3A-applied-ct/topic/HoTT.20GeoML/near/366334368">said</a>:</p>
+<blockquote>
+<p>As far as I know, actually extracting computation from a HoTT proof is still intractable. </p>
+</blockquote>
+<p>There is some recent work on speeding this stuff up, like <a href="https://github.com/AndrasKovacs/cctt">https://github.com/AndrasKovacs/cctt</a> :</p>
+<blockquote>
+<p>we have two variations of the Brunerie number. These can be both computed here but only one can be computed in Agda</p>
+</blockquote>
+
+
+
+<a name="366590218"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366590218" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Spencer Breiner <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366590218">(Jun 15 2023 at 18:26)</a>:</h4>
+<p>Nice! Glad to hear about that</p>
+
+
+
+<a name="366934787"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366934787" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ryan Wisnesky <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366934787">(Jun 16 2023 at 19:55)</a>:</h4>
+<p>Looks like there is a standard for describing all the ways shapes can overlap, called DE-9IM.  <a href="https://en.wikipedia.org/wiki/DE-9IM">https://en.wikipedia.org/wiki/DE-9IM</a> .  It defines predicates like "touches" and "crosses" and "covers"</p>
+
+
+
+<a name="366935370"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366935370" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366935370">(Jun 16 2023 at 19:59)</a>:</h4>
+<p>By the way, I'm curious to know how homotopy type theory might help here: I don't see it.  For example homotopy type theory has a slick way of defining the circle, but as far as I know the really quick thing to define is the <em>homotopy type</em> of the circle, not the circle as a topological space or the circle as a manifold with a geometry like a Riemannian metric.</p>
+
+
+
+<a name="366935645"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366935645" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366935645">(Jun 16 2023 at 20:00)</a>:</h4>
+<p>Of course you must be able to define the usual round circle in <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi mathvariant="double-struck">R</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">\mathbb{R}^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord mathbb">R</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> using homotopy type theory, but I'm not seeing how that offers advantages over the usual way of working with it.... at least not in relatively "mundane" applications like GeoML.</p>
+
+
+
+<a name="366938150"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366938150" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Awodey <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366938150">(Jun 16 2023 at 20:15)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="278008">Spencer Breiner</span> <a href="#narrow/stream/229156-practice.3A-applied-ct/topic/HoTT.20GeoML/near/366334368">said</a>:</p>
+<blockquote>
+<p>Looks cool!</p>
+<p>As far as I know, actually extracting computation from a HoTT proof is still intractable. From a <a href="https://homotopytypetheory.org/2022/06/09/the-brunerie-number-is-2/">2022 blog post</a></p>
+<blockquote>
+<p>This result is quite remarkable in that even though it is a constructive proof, it is not at all obvious how to actually compute this n. At the time of writing, we still haven’t managed to extract its value from its definition.<br>
+</p>
+</blockquote>
+</blockquote>
+<p>The big news since a year or so is that HoTT now <em>does</em> compute, using cubical Agda.  <br>
+See:<br>
+<a href="https://homotopytypetheory.org/2022/06/09/the-brunerie-number-is-2/">https://homotopytypetheory.org/2022/06/09/the-brunerie-number-is-2/</a><br>
+It's very impressive!</p>
+
+
+
+<a name="366938856"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/366938856" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Steve Awodey <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#366938856">(Jun 16 2023 at 20:20)</a>:</h4>
+<p>the 2022 blog post that <span class="user-mention" data-user-id="278008">@Spencer Breiner</span> linked to is quoting from Brunerie's 2016 thesis <em>in order to say that the problem referred to there has now been solved</em>.</p>
+
+
+
+<a name="367013050"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/HoTT%20GeoML/near/367013050" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ryan Wisnesky <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/HoTT.20GeoML.html#367013050">(Jun 16 2023 at 22:21)</a>:</h4>
+<p>I'm not really sure if there will be any interesting information left as a result of this GML to HoTT translation; I don't really know if computing the homotopy type of the EU parliament will be useful for anything more than a cool demo (to, say, the EU parliament).  My interest here is actually about automated deduction: I'm keen to explore 'correct-by-construction' ways of manipulating not just coordinate data but things derived from it (such as topologies or homotopy types).  The realization that GML needs to be checked for consistency was eye-opening, for example.  As another  example people can prove SQL queries equivalent using HoTT (<a href="https://homotopytypetheory.org/2016/09/26/hottsql-proving-query-rewrites-with-univalent-sql-semantics/">https://homotopytypetheory.org/2016/09/26/hottsql-proving-query-rewrites-with-univalent-sql-semantics/</a>) and this kind of trick might work for e.g. GeoSPARQL too, which use primitives based on homotopy type (connectedness and whatnot), in addition to coordinates.  (And don't get me started about trying to use  RDF/OWL for this purpose).</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

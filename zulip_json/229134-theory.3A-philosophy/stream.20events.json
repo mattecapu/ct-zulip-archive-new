@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p>Stream created by <span class=\"user-mention silent\" data-user-id=\"275940\">Matt Cuffaro</span>.</p>",
+        "id": 191514372,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1584987083
+    },
+    {
+        "content": "<p>Hey, would you want to rename this stream to just \"philosophy\", \"math philosophy\" or \"categorical philosophy\", etc?</p>",
+        "id": 191928850,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1585247145
+    },
+    {
+        "content": "<p>Yes, toposophy really is an ugly name!</p>",
+        "id": 191930841,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1585248029
+    },
+    {
+        "content": "<p>haha it was a reference to a phrase I read in Moerdijk. Categorical Philosophy would be fine pending another suggestion</p>",
+        "id": 191934009,
+        "sender_full_name": "Matt Cuffaro (he/him)",
+        "timestamp": 1585249570
+    },
+    {
+        "content": "<p>Considering that the whole zulip thing is about CT, I think Philosophy would suffice, as <span class=\"user-mention\" data-user-id=\"275899\">@Christian Williams</span> suggests</p>",
+        "id": 191934384,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1585249756
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275899\">Christian Williams</span> renamed stream <strong>toposophy</strong> to <strong>philosophy</strong>.</p>",
+        "id": 191940810,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1585252829
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> changed the <a href=\"/help/stream-permissions\">access permissions</a> for this stream from <strong>Public</strong> to <strong>Web-public</strong>.</p>",
+        "id": 397732240,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1697814969
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> changed the description for this stream.</p>\n<ul>\n<li><strong>Old description:</strong></li>\n</ul>\n<blockquote>\n<p>philosophy and category theory | stream named borrowed from Moerdijk.</p>\n</blockquote>\n<ul>\n<li><strong>New description:</strong></li>\n</ul>\n<blockquote>\n<p>Deprecated, use #theory: science instead. Philosophy and category theory | stream named borrowed from Moerdijk.</p>\n</blockquote>",
+        "id": 399478052,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698750656
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>philosophy</strong> to <strong>deprecated: philosophy</strong>.</p>",
+        "id": 399478053,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698750656
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> changed the description for this stream.</p>\n<ul>\n<li><strong>Old description:</strong></li>\n</ul>\n<blockquote>\n<p>Deprecated, use #theory: science instead. Philosophy and category theory | stream named borrowed from Moerdijk.</p>\n</blockquote>\n<ul>\n<li><strong>New description:</strong></li>\n</ul>\n<blockquote>\n<p>Philosophy and category theory.</p>\n</blockquote>",
+        "id": 399914956,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698924726
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>deprecated: philosophy</strong> to <strong>theory: philosophy</strong>.</p>",
+        "id": 399914958,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698924727
+    }
+]

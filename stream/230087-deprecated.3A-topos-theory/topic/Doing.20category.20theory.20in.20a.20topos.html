@@ -1,0 +1,140 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>Doing category theory in a topos · deprecated: topos theory · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230087-deprecated.3A-topos-theory/index.html">deprecated: topos theory</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230087-deprecated.3A-topos-theory/topic/Doing.20category.20theory.20in.20a.20topos.html">Doing category theory in a topos</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="354593822"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/230087-deprecated%3A%20topos%20theory/topic/Doing%20category%20theory%20in%20a%20topos/near/354593822" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230087-deprecated.3A-topos-theory/topic/Doing.20category.20theory.20in.20a.20topos.html#354593822">(Apr 30 2023 at 01:46)</a>:</h4>
+<p>Recently researchers have formalized various cool things in Isabelle/HOL, such as schemes <a href="https://arxiv.org/abs/2104.09366">https://arxiv.org/abs/2104.09366</a> and strict omega categories <a href="https://devel.isa-afp.org/entries/StrictOmegaCategories.html">https://devel.isa-afp.org/entries/StrictOmegaCategories.html#</a></p>
+<p>The internal logic of Isabelle is that of a classical topos. Well, it is slightly stronger than that because it has polymorphism, so one can define various endofunctors on this topos, like the endofunctor X -&gt; X^A for some fixed object A. Intuitively I would expect that any construction in topos theory which is parametric in a fixed number of arbitrary objects <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>A</mi><mn>1</mn></msub><mo separator="true">,</mo><mo>…</mo><mo separator="true">,</mo><msub><mi>A</mi><mi>n</mi></msub></mrow><annotation encoding="application/x-tex">A_1,\dots, A_n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner">…</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> could be formalized as an "endofunctor" in Isabelle.</p>
+<p>I would like to ask for resources on doing mathematics internal to a topos. I am familiar with Sheaves in Geometry and Logic and other classic books but I want stuff that scales more realistically than that. In particular I would like to do category theory in Isabelle and I am wondering how topos theorists have generally axiomatized stuff like this.</p>
+<p>I do not want to just do category theory per se but category theory which is actually applicable to the rest of mathematics in this topos, so that results from category theory can be applied to the category of groups, rings, fields, etc. internally in this topos. How would you define something like the category of groups in a topos? How would you say that this has all small limits? Especially, how would you state and prove Yoneda, what is the category of presheaves relative to an internal category, etc. What are weighted colimits?</p>
+<p>One thing you could do is assume additional axioms stating that some fixed object is a model of ZFC in the internal language of topos theory, and then you would have an internal category of sets, groups, etc. and that would presumably take you pretty far. Has this approach been studied? What do you call "topos theory over an internal topos?"</p>
+<p>At the time being I am thinking Jean Benabou's work on category theory internal to a fibration is most relevant.</p>
+
+
+
+<a name="354603174"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/230087-deprecated%3A%20topos%20theory/topic/Doing%20category%20theory%20in%20a%20topos/near/354603174" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230087-deprecated.3A-topos-theory/topic/Doing.20category.20theory.20in.20a.20topos.html#354603174">(Apr 30 2023 at 03:42)</a>:</h4>
+<p>Defining the category of models of a finite-product (aka Lawvere) theory like groups, or more generally a finite-limit theory (aka essentially algebraic theory) in a topos is actually rather easy, since it only uses the finite limits that exist in the topos, and so one might as well assume the much more general case. It's when one has a geometric theory, like that of local rings, for instance, that dealing with the internal logic of a topos with all its bells and whistles starts to get interesting.</p>
+
+
+
+<a name="354603395"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/230087-deprecated%3A%20topos%20theory/topic/Doing%20category%20theory%20in%20a%20topos/near/354603395" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230087-deprecated.3A-topos-theory/topic/Doing.20category.20theory.20in.20a.20topos.html#354603395">(Apr 30 2023 at 03:44)</a>:</h4>
+<p>If you want to say a given fixed object is a model of ZFC (or, more charitably, a structural version of set theory), you might want to consider Algebraic Set Theory, which works with a pretopos with axioms that give a category of classes, inside which is an object that is V, familiar from traditional set theory, albeit flexible enough to deal with things like IZF and CZF as well.</p>
+
+
+
+<a name="354682083"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/230087-deprecated%3A%20topos%20theory/topic/Doing%20category%20theory%20in%20a%20topos/near/354682083" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Graham Manuell <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230087-deprecated.3A-topos-theory/topic/Doing.20category.20theory.20in.20a.20topos.html#354682083">(Apr 30 2023 at 13:08)</a>:</h4>
+<p>It's not difficult to handle these things constructively, but is question behind the question about how to deal with proper classes in a topos? You might want to look at the nlab page for <a href="https://ncatlab.org/nlab/show/locally%20internal%20category">[[locally internal category]]</a>, as well as Shulman's paper on <a href="https://arxiv.org/abs/1004.3802">stack semantics</a>. The latter also discusses the link to material set theories such as ZFC.</p>
+
+
+
+<a name="355449144"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/230087-deprecated%3A%20topos%20theory/topic/Doing%20category%20theory%20in%20a%20topos/near/355449144" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matteo Capucci (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230087-deprecated.3A-topos-theory/topic/Doing.20category.20theory.20in.20a.20topos.html#355449144">(May 03 2023 at 13:48)</a>:</h4>
+<p>Obligatory plug of Ingo Blechschmidt's PhD thesis (you find it on google). He does a bunch of algebraic geometry in the topos of sheaves over a space.</p>
+
+
+
+<a name="356547572"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/230087-deprecated%3A%20topos%20theory/topic/Doing%20category%20theory%20in%20a%20topos/near/356547572" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230087-deprecated.3A-topos-theory/topic/Doing.20category.20theory.20in.20a.20topos.html#356547572">(May 07 2023 at 20:45)</a>:</h4>
+<p><span class="user-mention" data-user-id="276777">@Mike Shulman</span> Hi Mike. I am currently reviewing your paper on Set Theory for Category Theory and I do not fully understand what is meant formally when you discuss indexed categories and fibrations over a topos.</p>
+<p>What is the intended formalism? Presumably these large categories cannot be purely discussed within the internal language of topos theory. So if one is intending to take fibrations or indexed categories over a topos as a foundation for mathematics, including the discussion of large categories, what is the formal language that one associates to this? How do I say "Let J be an indexed category" in such a formalism?</p>
+
+
+
+<a name="356548523"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/230087-deprecated%3A%20topos%20theory/topic/Doing%20category%20theory%20in%20a%20topos/near/356548523" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230087-deprecated.3A-topos-theory/topic/Doing.20category.20theory.20in.20a.20topos.html#356548523">(May 07 2023 at 20:56)</a>:</h4>
+<p>I am interested in developing mathematics in a topos without reference to an external category of sets and I am trying to understand how I can speak about indexed categories and fibrations without assuming a background set theory in which to work.</p>
+<p>I understand the idea that we do not want to rely on an external notion of limit, which is why we are working with the family fibrations, so that we can discuss limits and colimits via quantifiers (adjoints). But sometimes I read (in various sources) paragraphs that say something along the lines of "Instead of working with a category, we associate to each object in our topos a category" and I do not understand what is meant by the word "category" here. </p>
+<p>I understand how one defines various concrete categories (family fibrations) like the category of groups - you start with S/X and then consider the group objects in that category. But are we restricted to these concrete categories like groups, topological spaces and so on? I don't see how to generalize this to give a general definition of a "category" (i.e. a fibration with potentially large fibers)</p>
+
+
+
+<a name="356578251"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/230087-deprecated%3A%20topos%20theory/topic/Doing%20category%20theory%20in%20a%20topos/near/356578251" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230087-deprecated.3A-topos-theory/topic/Doing.20category.20theory.20in.20a.20topos.html#356578251">(May 08 2023 at 02:41)</a>:</h4>
+<p>Good question.  One approach is to treat large categories in the same way that one does in ZFC, as proper classes that are determined by a logical formula, which can then be interpreted in any slice.  In ZFC it is also not possible to state a single theorem of the sort "for any large category" -- any statement of that form is technically a theorem-schema, with one instance for every logical formula that could define a large category.</p>
+
+
+
+<a name="356578372"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/230087-deprecated%3A%20topos%20theory/topic/Doing%20category%20theory%20in%20a%20topos/near/356578372" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230087-deprecated.3A-topos-theory/topic/Doing.20category.20theory.20in.20a.20topos.html#356578372">(May 08 2023 at 02:42)</a>:</h4>
+<p>However, if you want something more like NBG or ZFC+U, then I think the way to go is what I sketched in <a href="http://home.sandiego.edu/~shulman/papers/cambridge-stacksem.pdf">this talk</a>.  I haven't managed to write that up formally yet.</p>
+
+
+
+<a name="361781064"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/230087-deprecated%3A%20topos%20theory/topic/Doing%20category%20theory%20in%20a%20topos/near/361781064" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230087-deprecated.3A-topos-theory/topic/Doing.20category.20theory.20in.20a.20topos.html#361781064">(May 28 2023 at 15:57)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276777">Mike Shulman</span> <a href="#narrow/stream/230087-theory.3A-topos-theory/topic/Doing.20category.20theory.20in.20a.20topos/near/356578372">said</a>:</p>
+<blockquote>
+<p>However, if you want something more like NBG or ZFC+U, then I think the way to go is what I sketched in <a href="http://home.sandiego.edu/~shulman/papers/cambridge-stacksem.pdf">this talk</a>.  I haven't managed to write that up formally yet.</p>
+</blockquote>
+<p>I am interested (in this thread at least) in formalizing category theory in Isabelle/HOL, which is essentially a classical Boolean topos with some additional features like type polymorphism I'm not sure how to describe well categorically. On the other hand it has some painful features which disqualify it from being a topos. There are no empty types and subset comprehension is restricted to predicates which you can prove hold at at least one point.</p>
+<p>I think the most likely bet here is using the notion of universes in a topos. <a href="https://ncatlab.org/nlab/show/universe+in+a+topos">https://ncatlab.org/nlab/show/universe+in+a+topos</a><br>
+ What is the current status of developing large scale mathematics (like category theory) in a topos with a universe? Can this be done in a way that it integrates well with normal topos theory without a universe, or would most of the work have to be done with terms of universe type?</p>
+<p>I think you would want to work, practically speaking, in the family fibration associated to the universe.</p>
+
+
+
+<a name="361788851"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/230087-deprecated%3A%20topos%20theory/topic/Doing%20category%20theory%20in%20a%20topos/near/361788851" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230087-deprecated.3A-topos-theory/topic/Doing.20category.20theory.20in.20a.20topos.html#361788851">(May 28 2023 at 16:49)</a>:</h4>
+<p>I don't know whether anything like that has been done formally.  It <em>should</em> be straightforward, especially if you work in an internal dependent type theory, but I don't know if it's been written down.</p>
+
+
+
+<a name="361789415"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/230087-deprecated%3A%20topos%20theory/topic/Doing%20category%20theory%20in%20a%20topos/near/361789415" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Ryan Wisnesky <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230087-deprecated.3A-topos-theory/topic/Doing.20category.20theory.20in.20a.20topos.html#361789415">(May 28 2023 at 16:52)</a>:</h4>
+<p>One precise way to do HOL in CoC is here: <a href="https://www.researchgate.net/publication/2641362_The_Calculus_of_Constructions_and_Higher_Order_Logic">https://www.researchgate.net/publication/2641362_The_Calculus_of_Constructions_and_Higher_Order_Logic</a></p>
+
+
+
+<a name="361794850"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/230087-deprecated%3A%20topos%20theory/topic/Doing%20category%20theory%20in%20a%20topos/near/361794850" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230087-deprecated.3A-topos-theory/topic/Doing.20category.20theory.20in.20a.20topos.html#361794850">(May 28 2023 at 17:28)</a>:</h4>
+<p>I think this is an important practical question. Because HOL is a simpler logic than CoC, automation for HOL will likely always be 10-15 years ahead of that of CoC, it seems doubtful to me that the gap will ever close - I am not saying CoC will never have good automation, I'm speaking in purely relative terms. Most researchers at the intersection of formal methods and category theory have been interested in MLTT/CoC but if real, genuine category theory can be done in a faithful elegant way inside HOL in such a way that it's actually applicable to prove general results of topology and algebra, I think it is worth doing. Essentially I am saying, you have a topos, you can assume whatever axioms you want <em>in the internal logic</em>, universes, etc. (but not small cocompleteness!) Somebody asks you "Can you state and prove that the category of small topological spaces is small-cocomplete?" Do we have a good answer? Kevin Buzzard has speculated that the answer is no. Schemes and some stuff on infinity categories have recently been formalized in HOL but I'm not yet convinced that those definitions are "right" in the sense that they actually allow interesting mathematics to accumulate on top of them, i.e. you can hack together a reasonable definition of a presheaf in a weak logic but if you can't state and prove the Yoneda lemma, is there really a point?<br>
+There's also a substantial amount of category theory in Isabelle/HOL formalized inside a type which is axiomatized to satisfy the ZFC axioms, which is definitely expressive enough to do all your math, but you are not really taking advantage of the HOL at that point. How can we do large-scale category theory in a way which actually takes advantage of HOL?</p>
+<p>I wonder how practical it would be (for formalizing) to work in an internal language of dependent type theory inside HOL.</p>
+
+
+
+<a name="361801899"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/230087-deprecated%3A%20topos%20theory/topic/Doing%20category%20theory%20in%20a%20topos/near/361801899" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/230087-deprecated.3A-topos-theory/topic/Doing.20category.20theory.20in.20a.20topos.html#361801899">(May 28 2023 at 18:22)</a>:</h4>
+<p>I'm doubtful that there is a very <em>elegant</em> way to do serious category theory inside HOL, due to the lack of a congenial way to represent families of types.  However, it should certainly be <em>possible</em>.  What is Kevin worried about?  Obviously one needs to assume that the universe is closed under small products and coproducts, but given that there shouldn't be any problem proving small-(co)completeness of small topological spaces or anything similar.</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

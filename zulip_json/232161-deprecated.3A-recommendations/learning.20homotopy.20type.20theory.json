@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>I've recently learned about the existence of Homotopy type theory. The subject seems very interesting. I'm wondering about prerequisites, and good introductory books. To give some context, I have a masters in applied mathematics, and I'm currently undertaking a phd also in applied math, with focus on applied category theory. References, tips, and comments are very welcomed .</p>",
+        "id": 281218425,
+        "sender_full_name": "Davi Sales Barreira",
+        "timestamp": 1651697871
+    },
+    {
+        "content": "<p>The free <a href=\"https://homotopytypetheory.org/book/\">HoTT book</a> is the canonical introduction.   There are <a href=\"https://www.google.com/search?q=+homotopy+type+theory&amp;client=firefox-b-1-d&amp;biw=1268&amp;bih=519&amp;tbm=vid&amp;ei=aP9yYsSkMuWc_QaN3KT4Ag&amp;ved=0ahUKEwjE-PTN88b3AhVlTt8KHQ0uCS8Q4dUDCAw&amp;uact=5&amp;oq=+homotopy+type+theory&amp;gs_lcp=Cg1nd3Mtd2l6LXZpZGVvEAMyCggAELEDEIMBEEMyBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIFCAAQgAQyBQgAEIAEMgQIABAeMgQIABAeMgQIABAeULEBWLEBYOkDaABwAHgAgAHLAYgBjAOSAQUwLjEuMZgBAKABAcABAQ&amp;sclient=gws-wiz-video\">lots of videos of talks on YouTube</a>, at various levels.</p>",
+        "id": 281229601,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651703689
+    },
+    {
+        "content": "<p>There are probably lots of other introductory materials that experts here will know about.</p>",
+        "id": 281229706,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651703748
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"498398\">@Davi Sales Barreira</span> you're welcome to join the Summer school this Summer on HoTT: <a href=\"https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest_summer_school_2022.html\">https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest_summer_school_2022.html</a><br>\nWe'll use <span class=\"user-mention\" data-user-id=\"277055\">@Egbert Rijke</span> 's introductory book; if you follow the link to the discord server, you can find the book in the <code>#resources</code> channel.</p>",
+        "id": 281255402,
+        "sender_full_name": "Ulrik Buchholtz",
+        "timestamp": 1651730008
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"278656\">Ulrik Buchholtz</span> <a href=\"#narrow/stream/232161-learning.3A-recommendations/topic/Learning.20Homotopy.20Type.20Theory/near/281255402\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"498398\">Davi Sales Barreira</span> you're welcome to join the Summer school this Summer on HoTT: <a href=\"https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest_summer_school_2022.html\">https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest_summer_school_2022.html</a><br>\nWe'll use <span class=\"user-mention silent\" data-user-id=\"277055\">Egbert Rijke</span> 's introductory book; if you follow the link to the discord server, you can find the book in the <code>#resources</code> channel.</p>\n</blockquote>\n<p>Thanks a lot! The summer school looks awesome! I'll definitely attend</p>",
+        "id": 281288138,
+        "sender_full_name": "Davi Sales Barreira",
+        "timestamp": 1651752037
+    },
+    {
+        "content": "<p>There's also the <a href=\"https://hott.zulipchat.com/\">HoTT Zulip</a>.</p>",
+        "id": 281599941,
+        "sender_full_name": "Jonathan Weinberger",
+        "timestamp": 1652017454
+    }
+]

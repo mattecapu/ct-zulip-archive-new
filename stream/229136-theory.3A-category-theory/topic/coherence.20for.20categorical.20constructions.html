@@ -1,0 +1,260 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>coherence for categorical constructions · theory: category theory · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/index.html">theory: category theory</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html">coherence for categorical constructions</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="327773591"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327773591" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matteo Capucci (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327773591">(Feb 14 2023 at 13:21)</a>:</h4>
+<p>In category theory often one has a sense of 'inevitability' of certain constructions, which are basically the only possible things one can do in a given context. And yet, very often I find myself having to prove lots of coherence and well-posedness conditions... and that seems a waste a time, because <em>I know</em> everything's gonna work out, <em>because how else could it end?</em><br>
+Hence it seems to me there is some very general coherence result lurking in the background, telling us that if I don't do anything bizarre, whatever I do categorically is gonna yield well-defined (functorial, natural, you name it) constructions.</p>
+<p>I know it's very vague, but does anyone have an idea about what this result might look like?</p>
+
+
+
+<a name="327775246"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327775246" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matteo Capucci (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327775246">(Feb 14 2023 at 13:28)</a>:</h4>
+<p>One example above all, due to Leinster: Yoneda lemma. If you have a category and a presheaf, there's not much you can talk about. You have  <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi></mrow><annotation encoding="application/x-tex">F</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span></span></span></span> and the representables <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi><mo stretchy="false">(</mo><mo>−</mo><mo separator="true">,</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">C(- ,x)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mopen">(</span><span class="mord">−</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">x</span><span class="mclose">)</span></span></span></span>. You can ask about morphisms in and out of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi></mrow><annotation encoding="application/x-tex">F</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span></span></span></span> from this one. And if you look at morphisms <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi><mo stretchy="false">(</mo><mo>−</mo><mo separator="true">,</mo><mi>x</mi><mo stretchy="false">)</mo><mo>→</mo><mi>F</mi></mrow><annotation encoding="application/x-tex">C(-,x) \to F</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mopen">(</span><span class="mord">−</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">x</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span></span></span></span>, you get a presheaf again.</p>
+
+
+
+<a name="327776161"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327776161" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matteo Capucci (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327776161">(Feb 14 2023 at 13:33)</a>:</h4>
+<p>Then one might speculate they are the same, and indeed one finds it's trivial to find maps between <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">Fx</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord mathnormal">x</span></span></span></span> and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi><mo stretchy="false">(</mo><mo>−</mo><mo separator="true">,</mo><mi>x</mi><mo stretchy="false">)</mo><mo>→</mo><mi>F</mi></mrow><annotation encoding="application/x-tex">C(-,x) \to F</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mopen">(</span><span class="mord">−</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">x</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span></span></span></span>, which are evidently inverse to each other. At this point we should be able to argue: <strong>we didn't do anything weird, so we can conclude the object we constructed (the iso <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi><mo stretchy="false">(</mo><mo>−</mo><mo separator="true">,</mo><mi>x</mi><mo stretchy="false">)</mo><mo>→</mo><mi>F</mi><mo>≅</mo><mi>F</mi></mrow><annotation encoding="application/x-tex">C(-,x) \to F \cong F</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mopen">(</span><span class="mord">−</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">x</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≅</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span></span></span></span>) is a bona fide natural transformation</strong>. Even more, we should be able to argue that such an isomorphism is itself picked out 'naturally', somehow (what do I mean here? idk)</p>
+
+
+
+<a name="327793007"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327793007" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Amar Hadzihasanovic <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327793007">(Feb 14 2023 at 14:45)</a>:</h4>
+<p>My own experience of category theory is that it is full of “inevitable” things which turn out to be not inevitable at all and in fact wrong.</p>
+
+
+
+<a name="327793321"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327793321" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Amar Hadzihasanovic <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327793321">(Feb 14 2023 at 14:46)</a>:</h4>
+<p>(A famous example is that distributive monoidal categories satisfy all equations of linearly distributive categories except one, which they can satisfy if and only if they are posetal.)</p>
+
+
+
+<a name="327818848"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327818848" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nathanael Arkor <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327818848">(Feb 14 2023 at 16:28)</a>:</h4>
+<p><span class="user-mention" data-user-id="275932">@Matteo Capucci (he/him)</span>: two papers you might be interested in are Lack's <a href="https://www.sciencedirect.com/science/article/pii/S0022404911001769">Non-canonical isomorphisms</a> and Nunes's later paper <a href="https://link.springer.com/article/10.1007/s10485-018-9541-3">Pseudoalgebras and Non-canonical Isomorphisms</a>.</p>
+
+
+
+<a name="327822317"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327822317" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327822317">(Feb 14 2023 at 16:43)</a>:</h4>
+<p>While there probably isn't a universal theorem that puts category theorists out of business by saying "all commutative diagrams that deserve to commute, do", there are lots of super-general coherence theorems known and probably more waiting to be discovered.  So I applaud Matteo's desire to find them!   </p>
+<p>Homotopy theorists are probably the best experts at proving theorems that let them avoid (infinite towers of) coherence laws.</p>
+
+
+
+<a name="327822374"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327822374" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Amar Hadzihasanovic <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327822374">(Feb 14 2023 at 16:43)</a>:</h4>
+<p>Possibly also relevant: <a href="https://www.sciencedirect.com/science/article/pii/S0001870811000144">this paper by Shulman</a></p>
+
+
+
+<a name="327822935"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327822935" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Amar Hadzihasanovic <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327822935">(Feb 14 2023 at 16:46)</a>:</h4>
+<p>(While the title states a negative, it also begins with a review of positives, conditions under which there is a general "coherence theorem".)</p>
+
+
+
+<a name="327823999"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327823999" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matteo Capucci (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327823999">(Feb 14 2023 at 16:51)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276363">Amar Hadzihasanovic</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions/near/327793007">said</a>:</p>
+<blockquote>
+<p>My own experience of category theory is that it is full of “inevitable” things which turn out to be not inevitable at all and in fact wrong.</p>
+</blockquote>
+<p>Yeah maybe this is the most important fact. Can we have a list of 'forbidden spells' that break coherence?</p>
+
+
+
+<a name="327824117"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327824117" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matteo Capucci (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327824117">(Feb 14 2023 at 16:51)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276092">Nathanael Arkor</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions/near/327818848">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="275932">Matteo Capucci (he/him)</span>: one paper you might be interested in is Lack's <a href="https://www.sciencedirect.com/science/article/pii/S0022404911001769">Non-canonical isomorphisms</a> and Nunes's later paper <a href="https://link.springer.com/article/10.1007/s10485-018-9541-3">Pseudoalgebras and Non-canonical Isomorphisms</a>.</p>
+</blockquote>
+<p>Thanks Nathanael, you're always very helpful with literature :) I'll look into them</p>
+
+
+
+<a name="327839013"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327839013" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fernando Yamauti <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327839013">(Feb 14 2023 at 17:59)</a>:</h4>
+<p>Isn't Grothendieck's Homotopy Hypothesis something along these lines? It looks like inevitable at first (one simply adds the obvious coherences in a coherator). Maybe you can argue that there are too many non-canonical choices though.</p>
+<p>More interesting examples would be isomorphisms of stuff induced by non-canonical morphisms. Something like the arrow in Beck-Chevalley, or Frobenius reciprocity, or in a commutativity of limits and colimits such that the domain and codomain are isomorphic but the canonical morphism fails to be so. Does anyone know explicit examples in those cases?</p>
+
+
+
+<a name="327851061"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327851061" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327851061">(Feb 14 2023 at 18:57)</a>:</h4>
+<blockquote>
+<p>Isn't Grothendieck's Homotopy Hypothesis something along these lines?</p>
+</blockquote>
+<p>Hmm.  This hypothesis says that homotopy types are the same as <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∞</mi></mrow><annotation encoding="application/x-tex">\infty</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord">∞</span></span></span></span>-groupoids.    If you believe it, you don't need to give an independent definition of "<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∞</mi></mrow><annotation encoding="application/x-tex">\infty</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord">∞</span></span></span></span>-groupoid".  So in that sense it does absolve you from writing down lots of coherence laws that might appear in the definition of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∞</mi></mrow><annotation encoding="application/x-tex">\infty</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord">∞</span></span></span></span>-groupoid: we can just define homotopy types using topological spaces or Kan complexes.  </p>
+<p>But notice that as soon as you start trying to work with homotopy types, the coherence issues reappear.  For example an <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>A</mi><mi mathvariant="normal">∞</mi></msub></mrow><annotation encoding="application/x-tex">A_\infty</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">∞</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> space is a homotopy that's a monoid "up to homotopy", where the homotopies obey the pentagon identity up to homotopy, where these homotopies make the 3d Stasheff polytope commute up to homotopy, etc.  </p>
+<p>Of course you can avoid all this mess by simply decreeing that an <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>A</mi><mi mathvariant="normal">∞</mi></msub></mrow><annotation encoding="application/x-tex">A_\infty</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">∞</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> space is a space equipped with a (weak) homotopy equivalence to a topological monoid.   But this only works if you are willing to <em>believe</em> (or prove) that all the coherence issues work fine.  And so on.</p>
+
+
+
+<a name="327851429"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327851429" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327851429">(Feb 14 2023 at 18:59)</a>:</h4>
+<p>This has been a long story within homotopy theory; I'm only talking about things that happened before 1972.</p>
+
+
+
+<a name="327872042"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327872042" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fernando Yamauti <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327872042">(Feb 14 2023 at 20:57)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="275920">John Baez</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions/near/327851061">said</a>:</p>
+<blockquote>
+<blockquote>
+<p>Isn't Grothendieck's Homotopy Hypothesis something along these lines?</p>
+</blockquote>
+<p>Hmm.  This hypothesis says that homotopy types are the same as <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∞</mi></mrow><annotation encoding="application/x-tex">\infty</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord">∞</span></span></span></span>-groupoids.    If you believe it, you don't need to give an independent definition of "<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∞</mi></mrow><annotation encoding="application/x-tex">\infty</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord">∞</span></span></span></span>-groupoid".  So in that sense it does absolve you from writing down lots of coherence laws that might appear in the definition of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∞</mi></mrow><annotation encoding="application/x-tex">\infty</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord">∞</span></span></span></span>-groupoid: we can just define homotopy types using topological spaces or Kan complexes.  </p>
+<p>But notice that as soon as you start trying to work with homotopy types, the coherence issues reappear.  For example an <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>A</mi><mi mathvariant="normal">∞</mi></msub></mrow><annotation encoding="application/x-tex">A_\infty</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">∞</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> space is a homotopy that's a monoid "up to homotopy", where the homotopies obey the pentagon identity up to homotopy, where these homotopies make the 3d Stasheff polytope commute up to homotopy, etc.  </p>
+<p>Of course you can avoid all this mess by simply decreeing that an <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>A</mi><mi mathvariant="normal">∞</mi></msub></mrow><annotation encoding="application/x-tex">A_\infty</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">∞</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> space is a space equipped with a (weak) homotopy equivalence to a topological monoid.   But this only works if you are willing to <em>believe</em> (or prove) that all the coherence issues work fine.  And so on.</p>
+</blockquote>
+<p>In my comment, I was referring to Grothendieck's model for weak <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ω</mi></mrow><annotation encoding="application/x-tex">\omega</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">ω</span></span></span></span>-groupoids. In a coherator, one iteratively forces all the possible obvious diagrams, that one would expect to commute, to commute up to higher cells. Still, it's not obvious if that's enough to codify all the coherences in a homotopy type. So my point was that, in this case, one only proceeds the construction doing "what's obvious", but, in the end, no one knows if it's going to work.</p>
+
+
+
+<a name="327882962"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327882962" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327882962">(Feb 14 2023 at 22:07)</a>:</h4>
+<p>Okay, thanks.  I was referring to the homotopy hypothesis in its more general meaning as "weak <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∞</mi></mrow><annotation encoding="application/x-tex">\infty</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord">∞</span></span></span></span>-groupoids (in some definition thereof) are equivalent (in some sense) to homotopy types".</p>
+
+
+
+<a name="327883088"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327883088" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327883088">(Feb 14 2023 at 22:08)</a>:</h4>
+<p>By the way, who was the first one who actually wrote the phrase "homotopy hypothesis" with this meaning?</p>
+
+
+
+<a name="327884442"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327884442" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327884442">(Feb 14 2023 at 22:18)</a>:</h4>
+<p>It might have been me, in my June 2004 talk called <a href="https://math.ucr.edu/home/baez/n_categories/index.html#why">Why n-Categories?</a> at the workshop <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span>-Categories: Foundations and Applications.   On page 17 of my slides I state a version of the homotopy hypothesis.</p>
+<p>Or it might have been someone much earlier!  The <em>idea</em> clearly goes back at least to Grothendieck.  I'm just wondering about the <em>phrase</em> "homotopy hypothesis".   I have the feeling I made it up, but it seems hard to believe.</p>
+
+
+
+<a name="327884648"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327884648" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327884648">(Feb 14 2023 at 22:19)</a>:</h4>
+<p>Later, in 2007, I gave a talk at the Fields Institute called <a href="https://math.ucr.edu/home/baez/homotopy/">The Homotopy Hypothesis</a>.</p>
+
+
+
+<a name="327905107"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327905107" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327905107">(Feb 15 2023 at 01:06)</a>:</h4>
+<p>I do have the sense that the "inevitable facts that turn out to be wrong" are memorable because they're surprising, because we're used to diagrams commuting most of the time, as Matteo said.  In addition to the answers already given, another possible answer is "parametricity" in the computer science sense: in some cases, if some operation can be defined <em>constructively</em>, then it is automatically functorial or natural.</p>
+
+
+
+<a name="327958224"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327958224" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Josselin Poiret <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327958224">(Feb 15 2023 at 09:21)</a>:</h4>
+<p>An hypothetical "directed type theory" would help formalize this behavior: the terms that you would be able to construct using it would be automatically functorial/natural/etc. without explicitely having to prove it. This remains hypothetical for now though AFAIK.</p>
+
+
+
+<a name="327959426"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327959426" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Robin Piedeleu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327959426">(Feb 15 2023 at 09:28)</a>:</h4>
+<p>This discussion made me want to create a <a href="https://ncatlab.org/nlab/show/counterexamples%20in%20category%20theory">[[counterexamples in category theory]]</a> page on the nlab. Turns out it already exists, but could be expanded with the counter-examples discussed here!</p>
+
+
+
+<a name="327987762"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/327987762" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matteo Capucci (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#327987762">(Feb 15 2023 at 11:50)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276777">Mike Shulman</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions/near/327905107">said</a>:</p>
+<blockquote>
+<p>I do have the sense that the "inevitable facts that turn out to be wrong" are memorable because they're surprising, because we're used to diagrams commuting most of the time, as Matteo said.  In addition to the answers already given, another possible answer is "parametricity" in the computer science sense: in some cases, if some operation can be defined <em>constructively</em>, then it is automatically functorial or natural.</p>
+</blockquote>
+<p>Parametricity is definitely a key word here. Constructively too. I believe that's because in most case this 'natural feel' of coherence arises from constructing things coherently using from other coherent things. The kind of coherence you need in the previous sentence is what defies me a bit. I know functorial/natural can do, but that's a bit too vague...</p>
+
+
+
+<a name="328270944"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/328270944" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#328270944">(Feb 16 2023 at 15:44)</a>:</h4>
+<p>"Constructing things coherently from other coherent things" is also part of what directed type theory should achieve, as Josselin said.</p>
+
+
+
+<a name="328665683"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/328665683" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matteo Capucci (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#328665683">(Feb 18 2023 at 13:14)</a>:</h4>
+<p>Somehow I missed their message! Maybe it's obvious if I think enough about it, but how would that work? It's the same idea as stuff written in hott is automatically coherent once interpreted in any <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mi mathvariant="normal">∞</mi><mo separator="true">,</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(\infty,1)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">∞</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">1</span><span class="mclose">)</span></span></span></span>-categories?</p>
+
+
+
+<a name="328688373"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/328688373" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#328688373">(Feb 18 2023 at 15:32)</a>:</h4>
+<p>Yeah, basically.</p>
+
+
+
+<a name="328811679"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/328811679" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Josselin Poiret <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#328811679">(Feb 19 2023 at 13:59)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="275932">Matteo Capucci (he/him)</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions/near/328665683">said</a>:</p>
+<blockquote>
+<p>Somehow I missed their message! Maybe it's obvious if I think enough about it, but how would that work? It's the same idea as stuff written in hott is automatically coherent once interpreted in any <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mi mathvariant="normal">∞</mi><mo separator="true">,</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(\infty,1)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">∞</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">1</span><span class="mclose">)</span></span></span></span>-categories?</p>
+</blockquote>
+<p>Note that you can't interpret HoTT in any <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mi mathvariant="normal">∞</mi><mo separator="true">,</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex"> (\infty, 1) </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">∞</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">1</span><span class="mclose">)</span></span></span></span>-category unfortunately, you need it to be an <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mi mathvariant="normal">∞</mi><mo separator="true">,</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex"> (\infty, 1) </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">∞</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">1</span><span class="mclose">)</span></span></span></span> -(Grothendieck) topos</p>
+
+
+
+<a name="328812001"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/328812001" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Josselin Poiret <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#328812001">(Feb 19 2023 at 14:01)</a>:</h4>
+<p>basically, the parallel between HoTT and DTT would be that HoTT lets you synthetically manipulate groupoids, whereas DTT lets you synthetically manipulate categories instead.</p>
+
+
+
+<a name="328829903"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/328829903" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#328829903">(Feb 19 2023 at 16:06)</a>:</h4>
+<p>(Although you can embed any <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mi mathvariant="normal">∞</mi><mo separator="true">,</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(\infty,1)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">∞</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">1</span><span class="mclose">)</span></span></span></span>-category in its presheaf <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mi mathvariant="normal">∞</mi><mo separator="true">,</mo><mn>1</mn><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(\infty,1)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">∞</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">1</span><span class="mclose">)</span></span></span></span>-topos and interpret HoTT there.)</p>
+
+
+
+<a name="328980579"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/328980579" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Josselin Poiret <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#328980579">(Feb 20 2023 at 13:29)</a>:</h4>
+<p>Is there a good synthetic way to talk about representable objects in MLTT? Something like a universe of representable types?</p>
+
+
+
+<a name="329028536"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/coherence%20for%20categorical%20constructions/near/329028536" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/coherence.20for.20categorical.20constructions.html#329028536">(Feb 20 2023 at 16:59)</a>:</h4>
+<p>Yes, you would postulate a particular universe that's closed under whatever constructions your original category theory has that are preserved by the Yoneda embedding, like <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Σ</mi></mrow><annotation encoding="application/x-tex">\Sigma</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Σ</span></span></span></span>-types and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">I</mi><mi mathvariant="normal">d</mi></mrow><annotation encoding="application/x-tex">\rm Id</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord"><span class="mord mathrm">Id</span></span></span></span></span>-types (if it has finite limits) and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Π</mi></mrow><annotation encoding="application/x-tex">\Pi</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Π</span></span></span></span>-types if it's LCCC.</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

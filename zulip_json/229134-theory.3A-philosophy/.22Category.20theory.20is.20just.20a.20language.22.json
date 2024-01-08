@@ -1,0 +1,500 @@
+[
+    {
+        "content": "<p>This is a philosophy question/thread.<br>\nSome non-category theorists believe that category theory is \"just a language.\"<br>\nOthers (probably most people here!) believe that category theory has \"mathematical content.\"<br>\nI personally heavily lean towards the \"mathematical content\" side as well, so there will be no real debate here, if I tried to argue \"Category theory does have mathematical content!\" I would only be preaching to the choir!</p>\n<p>But there are a sea of new papers in category theory published each year, and very many claim to be making some exciting new conceptual insight through the lens of category, a certain new reformulation or reinterpretation or reframing of a problem which has unlocked a valuable new perspective. I would assume each of us has on occasion picked up an enthusiastic category theory paper which reformulated everything in a different language and thought \"Ok, but ... what is the point?\"</p>\n<p>Applied category theory has expanded the domain of category theory quite drastically. In each new domain where category theory is applied, practitioners in that subject will ask \"Ok... but what is the point?\" This question will continue to be asked forever.</p>\n<p>In this thread I would like to ask for your thoughts on the following.</p>\n<ul>\n<li>Person X reads about or discovers a new lens, reinterpretation, reformulation, or view of an old problem P. Person X tries to convince Person Y of the utility of this reformulation. In general, what principles should X appeal to in their argument? What are the foundational principles by which we justify that a mathematical interpretation, viewpoint or reframing has merit, either absolutely or relative to existing viewpoints? Contrapositively, if Y is unconvinced, on what grounds do they say \"I am unconvinced\"; what principles or standards should they rely on when they make such a decision?</li>\n<li>Same question as above but replace \"utility\" with any of \"beauty\", \"interest\", \"appeal\". These are overlapping but distinct, probably the questions have different answers so we could focus on only one.</li>\n<li>What do we mean when we say something is \"just a language?\" When we say a mathematical theory (or perspective, or reformulation, or interpretation) has \"content\", what does this mean? How do we defend this claim? If someone dismisses a perspective as not having any \"content\" or \"substance\", on what grounds are they dismissing it?</li>\n</ul>\n<p>In other words I am asking for your thoughts on what our principles should be when we have conversations or debates of the form \"This perspective is valuable, and this theory has content\" vs \"This perspective is not very valuable and it does not have very much content.\" On what foundations should we carry out this debate or discussion?</p>\n<p>Two observations:</p>\n<ul>\n<li>This is a small piece of the larger question of \"What gives scientific (specifically, mathematical work) merit?\" or \"What makes one piece of mathematical work more meritorious than another?\" and you may feel free to voice your thoughts on that larger question as well.</li>\n<li>It is possible very little can be said in a vacuum or in general about abstract principles that justify this, and we must in large part deal with specific examples and concrete instances in order to have useful conversations, so I am open to the perspective \"this conversation is futile at a sufficiently abstract level\" if anyone wants to take up that position. ;)</li>\n</ul>",
+        "id": 399734722,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1698848324
+    },
+    {
+        "content": "<p>I feel like one \"point\" of these reformulations is that they increase the power of applied category theorists. I.e., if I don't understand a certain subject, and I can pick it up as \"oh this is just a co-X in Y\", that's useful. I don't think that you have to read every paper published in a year; the point of publishing papers is to add them to the scientific record, so that they can be read when relevant.</p>",
+        "id": 399735659,
+        "sender_full_name": "Owen Lynch",
+        "timestamp": 1698848604
+    },
+    {
+        "content": "<p>Well,  I agree that category theory is a language. But it's a good one. In particular it's a language used at the same time in mathematics and computer science. I think writing mathematics using category theory is a good way to make category theory more popular. It's good to use this language to do mathematics and not only continue indefinite considerations about the structure of the language itself. This is like writing books about the letters of the alphabet. For instance probabilty with category theory, quantum computers with category theory, programming languages with category theory or differentiation with category theory are good applications of this language. There is not much combinatorial content in category theory itself, this is why there are barely no theorems in category theory.</p>",
+        "id": 399737444,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1698849193
+    },
+    {
+        "content": "<p>Sorry, I didn't really answer the precise questions. It was all very abstract to me and I wanted to say something more simple.</p>",
+        "id": 399738180,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1698849442
+    },
+    {
+        "content": "<p>Patrick wrote:</p>\n<blockquote>\n<p>If someone dismisses a perspective as not having any \"content\" or \"substance\", on what grounds are they dismissing it?</p>\n</blockquote>\n<p>Often the person has a specific set of goals they want to achieve, and they don't see how the perspective will help them achieve those goals.   Often the perspective is actually good for achieving some <em>other</em> goals - but the person in question doesn't know or care about those other goals.  Sometimes the perspective could actually help the person achieve their <em>own</em> goals... but only if they thought about that perspective for a while.   Often people don't have time!    </p>\n<p>For most people, it's hard to justify spending time trying to understand a new perspective it they don't see good evidence that the work is worthwhile.</p>",
+        "id": 399739172,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698849749
+    },
+    {
+        "content": "<p>For people who know enough category theory, it becomes <em>fun</em> to learn more, because each new piece adds to the overall framework in a pleasant way.  But most people don't know that much category theory, so for them each new piece is painful to learn.</p>",
+        "id": 399739933,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698849996
+    },
+    {
+        "content": "<p>Of course the last paragraph is not just true of category theory; it's true of many things.</p>",
+        "id": 399740156,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698850068
+    },
+    {
+        "content": "<blockquote>\n<p>Person X reads about or discovers a new lens, reinterpretation, reformulation, or view of an old problem P. Person X tries to convince Person Y of the utility of this reformulation. In general, what principles should X appeal to in their argument? </p>\n</blockquote>\n<p>I approach this question from the perspective of having just finished my MSc in electrical/computer engineering, where I did research on developing new approaches for medical imaging. As my advisor liked to remind me, in this context the ultimate assessment of some new idea or perspective for building imaging systems is often that \"it works\". That is, the idea results in some actual imaging technique that then yields images in an experiment that are comparable to or better than existing approaches, at least in certain contexts.</p>\n<p>So, if you want to convince people who do engineering research of the value of some mathematical perspective, I suspect it will be helpful if you can point to things that people have built that actually work (at least in experiments) using that perspective. And it is also helpful if it is relatively easy to observe that the thing built using these ideas is actually working.</p>\n<p>That being said, I find it fun and interesting to learn math even without immediately applying the ideas I learn about to a particular application. But I admit I wouldn't be able to easily convince my engineering friends of the immediate \"utility\" of this, in terms of solving engineering problems!</p>",
+        "id": 399753528,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1698854312
+    },
+    {
+        "content": "<p>These questions are all very relevant to my interests. I want to try to clarify some things about this \"debate,\" mainly for myself.</p>\n<p>(1) What are people trying to get at when they say CT is ‘just language’? </p>\n<p>I think the thought is supposed to be something like this: Taking one theory and expressing it in a new language doesn’t yield anything new if the new language is expressively equivalent to the old one. As a concrete toy example, we can write down a theory of plane geometry with just a notion of ‘line’ or we can write down a theory of plane geometry with a notion of ‘points’ and ‘lines’. The two ways of going are equivalent, we can prove essentially all the same theorems (because points are definable from lines.) </p>\n<p>(2) What are people trying to get at when they, in reaction to the ‘just language’ claim, say that CT has mathematical content?</p>\n<p>I’m less clear on this point. The idea might be (a) any formal tool or framework that we happen to find convenient or expedient for proving theorems or understanding mathematical concepts has mathematical content, and CT does just that. Or it could be something like (b) making abstractions away from the particulars is a large part of what mathematics does, and CT seems to be a good tool for making those abstractions. (Poincaré once claimed that the only non-trivial mathematical principle was induction, precisely because it allowed you to make universal generalizations from particular cases. I don’t think that’s true, but it’s something people have been attracted to.) </p>\n<p>Or it could be something even more simple, like (c) categories are just particular kinds of algebraic structures, like groups or monoids. To the extent the theory of groups has mathematical content, the theory of categories does too. </p>\n<p>(3) So what should we make of all this?</p>\n<p>First, obviously all languages are not expressively equivalent (here I’m speaking intentionally vaguely about what exactly a ‘language’ is). Some can express things for which there just is no proper equivalent in another language. This is just to say that every choice of language need not be, even superficially, content-free. For example, scientists once used to talk about a fluid called ‘caloric’ that flowed from hotter objects to cooler objects in heat transfers. But it turns out that’s wrong; there is no such fluid. So scientists do not include ‘caloric’ in their language now. Other examples abound in the sciences: luminiferous aether, miasma in the theory of disease, vitalism. </p>\n<p>Second, languages which are equivalent in one respect need not be equivalent in <em>every</em> respect. My go-to example here are programming languages. Why is there more than one programming language? Lambda calculus and C and Haskell can all express the same computable functions. But there’s a reason working programmers don’t write everything in machine code. Different choices of language are better for writing different kinds of programs. The choice of language can be extremely important, depending on what you want to express and why. </p>\n<p>I think the choosing between expressively equivalent languages to do mathematics is very similar to the problem faced by scientists in choosing between empirically equivalent theories. We cannot decide between empirically equivalent theories on the basis of differing predictions, so we turn to other virtues the theories might exhibit: simplicity, beauty, efficiency, tractability, unifying power, explanatory power, et cetera. Likewise, for mathematics we choose between (likely) expressively equivalent languages, and we might choose between them on the basis of other virtues: simplicity, convenience, beauty, comprehensibility, computability, efficacy, unifying power, et cetera. </p>\n<p>Pointing to those virtues is what I was trying to do in my reconstruction in (2), and I think that’s what generally has to happen, at bottom, if you want to convince someone to adopt your language or theory. How do you convince someone that their computer program would be better written in high-level language, rather than a low-level one (or the reverse)? I think that conversation has the same sort of structure as convincing someone to use CT over, say, set theory, at any given time. </p>\n<p>What do people think about this?</p>",
+        "id": 399765500,
+        "sender_full_name": "Evan Washington",
+        "timestamp": 1698858400
+    },
+    {
+        "content": "<p>I love this question. I've had many discussions along these lines with colleagues before.<br>\nI might characterize the \"mathematical content\" of a domain as the extent to which it enables practitioners to ask and resolve mathematical questions. Considering Evan's statement \"Some [languages] can express things for which there just is no proper equivalent in another language,\" I'm claiming that the 'linguistic' ability to just express questions can itself be/generate mathematical content. There is a spectrum of questions which arise here:</p>\n<ul>\n<li>At the most insular end, there are questions that concern only the objects of study of the domain in question. To appreciate that kind of content (including how insightful or original it is), you need significant experience within the domain, and a non-specialist is unlikely to see the value of such questions; they may even find them confusing or incomprehensible. I had an experience like this in a K-theory lecture recently, but I can imagine that work on different models of infinity categories would have this impact on an outsider. We're lucky in category theory that we can find special cases of our results applying to categories coming from all sorts of domains, so even when a result concerns only categories, we can usually communicate the value of our results to a specialist in another domain with a carefully crafted example. I tend to feel that we collectively don't do that anywhere near enough, but I understand that such work is time-consuming and requires some auxiliary understanding of domains in which the results are applicable.</li>\n<li>In the middle, where category theory can really outshine the accusation of being \"just a language\", are situations where presenting objects or constructions from a particular perspective makes apparent the ways in which they are the same or different. These are situations where we don't necessarily derive anything new about specific objects, but provide direction for how analogies may yield new results. For instance, monoids are intuitively like groups in various ways, and one can explore those differences very concretely through particular examples or decompositions of these objects, but to answer the question of whether one can do homological algebra with commutative monoids in place of abelian groups, or replace group actions with monoid actions, only an understanding of categories of these objects can adequately answer these questions. (I'm sure there are better examples from algebraic geometry here).</li>\n<li>At the other end of the spectrum are questions ostensibly concerning objects of study in other domains. When one applies complex analysis to a generating function corresponding to a probability distribution or a modular form corresponding to a polynomial, it's not the fact that one can interpret a sequence of values as coefficients in a power series that makes this interesting, it's that the maths one does on the other side provides information about the original problem. It's not surprising, therefore, when folks from other domains are unimpressed with articles expressing new dualities or categorical equivalences which stop short of exploiting them to actually say something original about the things which interest them.</li>\n</ul>\n<p><strong>Laying the groundwork for a categorical approach to any other area of maths takes a lot of time and effort</strong> -- more than a PhD thesis' worth of work, in particular, so that if one hasn't been able to develop a convincing \"proof of concept\" (cf John and David's messages) by the end of their thesis the work can simply grind to a halt and possibly fall into obscurity. It's no coincidence that the biggest applications of CT today are those that have arisen from concerted community efforts led by individuals who managed to convince others to invest in their work.</p>",
+        "id": 399903678,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1698921601
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"278070\">@Evan Washington</span> wrote:</p>\n<blockquote>\n<p>Second, languages which are equivalent in one respect need not be equivalent in every respect. My go-to example here are programming languages. Why is there more than one programming language? Lambda calculus and C and Haskell can all express the same computable functions. But there’s a reason working programmers don’t write everything in machine code. Different choices of language are better for writing different kinds of programs. The choice of language can be extremely important, depending on what you want to express and why. </p>\n</blockquote>\n<p>I think this is a valid and extremely important point.  I think we have to be careful when we use the term \"expressively equivalent\".    Here's one fairly clear-cut notion of whether two languages are expressively equivalent: everything you can express in one can be translated to the other, and vice versa.   Of course this needs to be clarified to become fully precise... but my main point (and yours, I think) is that this <em>does not</em> mean the two languages are equally good for every task!</p>",
+        "id": 399907446,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698922720
+    },
+    {
+        "content": "<p>As you say, this is why there are lots of different programming languages, and why people keep inventing new programming languages.</p>",
+        "id": 399907600,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698922766
+    },
+    {
+        "content": "<p>So, one should <strong>never</strong> fall for arguments like \"since language A can express everything expressed by language B, we don't need language B\".</p>",
+        "id": 399908046,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698922866
+    },
+    {
+        "content": "<p>I like to respond by saying \"Yeah, right.  And since you can swim across the English channel, there was no need to build boats or the channel tunnel.\"</p>",
+        "id": 399908288,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698922922
+    },
+    {
+        "content": "<p>Perhaps there's a subtler point to that kind of criticism of CT, namely that it's not very useful to have a better language to say things we already said. In other words, the better language needs to be used to say new things that (1) nobody said before and (2) are actually interesting to speakers of the 'old' language.</p>",
+        "id": 399911968,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1698923821
+    },
+    {
+        "content": "<p>There's not an abundance of ACT work that squarely passes mark (1) and (2) unfortunately (I put myself in this category). Much more common is stuff passing (1) and not (2), but simply because the problems the categorical approach solves are not fashionable in the subject matter.</p>",
+        "id": 399912994,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1698924053
+    },
+    {
+        "content": "<p>You're reminding me of how Mike Barr or someone claimed the advantage of category theory made trivial results <em>trivially</em> trivial.  And then, much later, Tim Gowers said something like</p>\n<blockquote>\n<p>People say category theory makes trivial results <em>trivially</em> trivial.  But I'm content for them to be trivial.</p>\n</blockquote>",
+        "id": 399913002,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698924055
+    },
+    {
+        "content": "<p>Indeed! That's another aspect: a categorical approach might be able to deliver some new insight, but with significant technical overhead for outsiders. Hence one might prefer to simply speak the hard language and be done in a sentence instead of using cat-speak and having to talk for pages and pages.</p>",
+        "id": 399913377,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1698924175
+    },
+    {
+        "content": "<p>But anyway, I completely disagree that category theory is mainly a language for saying things we already said.  Take a random tiny little result in category theory: \"split coequalizers are preserved by all functors\".  How are you going to say this without category theory?    You can say particular instances of it without category theory.   But you can't really say it in generality - you can't even think it.</p>",
+        "id": 399913596,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698924244
+    },
+    {
+        "content": "<p>And I also completely disagree that category theory <em>mainly</em> is good for making trivial things trivially trivial.  Maybe the statement \"split coequalizers are preserved by all functors\" makes trivial things trivially trivial.  But there's a lot of nontrivial stuff we do with category theory.</p>",
+        "id": 399913836,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698924332
+    },
+    {
+        "content": "<p>I completely agree! Though I am talking about ACT, so perhaps your example is not the best one.</p>",
+        "id": 399913845,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1698924335
+    },
+    {
+        "content": "<p>(I'm playing devil's advocate here)</p>",
+        "id": 399914028,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1698924386
+    },
+    {
+        "content": "<p>Right; I was talking about category theory.   In my opinion ACT is not mainly about short snappy theorems.  It's very different.  A lot of it is about bulding <em>tools</em>.   For example, our software for compositional modeling in epidemiology is a tool, which would be somewhat hard to conceive of without category theory.  </p>\n<p>For example, we can stratify models using pullbacks.  How exactly would you do it without category theory?  You could do it for one particular sort of model.    But in AlgebraicJulia we can do pullbacks in arbitrary presheaf categories, which gives the ability to write very <em>general</em> modeling software.   (Admittedly we haven't fully taken advantage of that generality, but we're heading in that direction, because it's easy to do.)</p>",
+        "id": 399914374,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698924516
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/411259-theory.3A-science/topic/.22Category.20theory.20is.20just.20a.20language.22/near/399914028\">said</a>:</p>\n<blockquote>\n<p>(I'm playing devil's advocate here)</p>\n</blockquote>\n<p>I don't think you are. If we're playing the version of this discussion with a sceptic who wants convincing that they should bother learning any CT (or should take your CT approach to their subject seriously), you really do need to pass the hurdles you described to have a chance of convincing the sceptic.</p>",
+        "id": 399914462,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1698924551
+    },
+    {
+        "content": "<p>This topic was moved here from <a class=\"stream-topic\" data-stream-id=\"411259\" href=\"/#narrow/stream/411259-theory.3A-science/topic/.22Category.20theory.20is.20just.20a.20language.22\">#theory: science &gt; \"Category theory is just a language\"</a> by <span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span>.</p>",
+        "id": 399915566,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698924986
+    },
+    {
+        "content": "<p>(sorry <span class=\"user-mention\" data-user-id=\"277473\">@Morgan Rogers (he/him)</span> <span class=\"user-mention\" data-user-id=\"275920\">@John Baez</span> <span class=\"user-mention\" data-user-id=\"424412\">@Patrick Nicodemus</span> <span class=\"user-mention\" data-user-id=\"278070\">@Evan Washington</span> <span class=\"user-mention\" data-user-id=\"277503\">@David Egolf</span> <span class=\"user-mention\" data-user-id=\"280755\">@Owen Lynch</span> <span class=\"user-mention\" data-user-id=\"428716\">@Jean-Baptiste Vienney</span>, I moved this to its rightful stream but maybe you're not subscribed)</p>",
+        "id": 399915741,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1698925062
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/229134-theory.3A-philosophy/topic/.22Category.20theory.20is.20just.20a.20language.22/near/399914462\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/411259-theory.3A-science/topic/.22Category.20theory.20is.20just.20a.20language.22/near/399914028\">said</a>:</p>\n<blockquote>\n<p>(I'm playing devil's advocate here)</p>\n</blockquote>\n<p>I don't think you are. If we're playing the version of this discussion with a sceptic who wants convincing that they should bother learning any CT (or should take your CT approach to their subject seriously), you really do need to pass the hurdles you described to have a chance of convincing the sceptic.</p>\n</blockquote>\n<p>Indeed. What I meant is that I don't hold that position myself, and I'm just putting myself in a sceptic's shoes.</p>",
+        "id": 399916620,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1698925391
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229134-theory.3A-philosophy/topic/.22Category.20theory.20is.20just.20a.20language.22/near/399908288\">said</a>:</p>\n<blockquote>\n<p>I like to respond by saying \"Yeah, right.  And since you can swim across the English channel, there was no need to build boats or the channel tunnel.\"</p>\n</blockquote>\n<p>Some exceptional people still do prefer to swim as a matter of course: <a href=\"https://www.chrissawyergames.com/faq3.htm\">https://www.chrissawyergames.com/faq3.htm</a></p>",
+        "id": 399931318,
+        "sender_full_name": "JR",
+        "timestamp": 1698930156
+    },
+    {
+        "content": "<p>A distinct minority, to be sure.</p>",
+        "id": 399942497,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698933579
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229134-theory.3A-philosophy/topic/.22Category.20theory.20is.20just.20a.20language.22/near/399913002\">said</a>:</p>\n<blockquote>\n<p>You're reminding me of how Mike Barr or someone claimed the advantage of category theory made trivial results <em>trivially</em> trivial.</p>\n</blockquote>\n<p>Peter May likes to say that a better phrase would be that category theory makes <em>formal</em> results <em>formally formal</em>, because something can be formal without being trivial.</p>",
+        "id": 399973319,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1698940671
+    },
+    {
+        "content": "<p>One thing I find very exciting about category theory is the idea that it can provide a framework to think about a huge variety of mathematical (and hopefully application-modelling) problems. It can be a lot harder to imagine how to apply other fields of math to a specific application of interest. For example, the field of differential equations is I think often considered to be \"applied\". However, to use things I know about differential equations, I first have to have an application that is well-modelled by differential equations: something should be changing smoothly enough over time, or space, or with respect to some other parameter. That feels like a pretty restrictive requirement!</p>\n<p>That being said, learning category theory has made learning other math more interesting for me as well! Instead of thinking \"this is a highly specialized result about a very specific kind of object - I'm unlikely to ever use this\", I can now think things like \"what about the structure of this setting made this result possible? what examples of more general ideas does this specific construction provide?\". Learning about specific not-immediately-applied things has become exciting to me again, because I feel I have just enough of a larger perspective (often provided by category theory) so that I can connect thoughts about particular things to more general things. This helps me better understand the more general concepts, which are flexible enough to (hopefully) be applied to specific applications of interest to me.</p>\n<p>In summary:</p>\n<ul>\n<li>The flexibility of category theory makes it appealing to me as a language for modelling applications.</li>\n<li>Category theory helps provide a framework that makes learning other math more exciting and fun, by providing a \"bridge\" from the specific to the general. This can also allow for the easier observation of connections between various specific things.</li>\n</ul>",
+        "id": 399992328,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1698946699
+    },
+    {
+        "content": "<blockquote>\n<p>Instead of thinking \"this is a highly specialized result about a very specific kind of object - I'm unlikely to ever use this\", I can now think things like \"what about the structure of this setting made this result possible? what examples of more general ideas does this specific construction provide?\". </p>\n</blockquote>\n<p>I sometimes say \"Ordinary mathematicians ask: what's an example of this?  Category theorists ask: what's this an example of?\"</p>",
+        "id": 399993013,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698946960
+    },
+    {
+        "content": "<p>Of course ordinary mathematicians <em>also</em> try to see isolated results as special cases of more general results, but category theory takes it to a new level.</p>",
+        "id": 399993104,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698947001
+    },
+    {
+        "content": "<p>(all that follows IMO, of course) this conversation is the old \"physics is to mathematics what sex is to masturbation\", just up a notch and with more philosophical language.</p>\n<blockquote>\n<p>(1) What are people trying to get at when they say CT is ‘just language’?</p>\n</blockquote>\n<p>They are prey of the hallucination that there is something else, opposed to \"just language\". Paraphrasng Bohr, putting under a microscope anything we call \"real\", one hits a limit where the thing-in-study is a purely linguistic object. So, I see the statement that category theory, as a primitive way to think mathematical objects is \"just\" language a triviality: at a deep enough scale, there can't be anything else than language.</p>\n<blockquote>\n<p>(2) What are people trying to get at when they, in reaction to the ‘just language’ claim, say that CT has mathematical content?</p>\n</blockquote>\n<p>They get defensive because they have been accused of being compulsive masturbators; instead, one has to <a href=\"https://www.smbc-comics.com/comic/escape-2\">be unbound from the unceasing whirl of judgment</a>.</p>\n<blockquote>\n<p>(3) So what should we make of all this?</p>\n</blockquote>\n<p>Ignore it completely and carry on with one's life, whenever it is impossible to have a conversation similar to the point I'm making (which means: essentially always); mathematics is not a language to describe the universe; it's the precondition for language to exist, then used to study the world, because if you want it to be a tool it's a really flexible one.</p>\n<p>In short, I dont feel the need to let category theory \"outshine the <em>accusation</em> (?) of being just a language\", and in fact, I am amused to see that very experienced people still get defensive about it. Like, what else can it (and anything) possibly be?</p>",
+        "id": 400286507,
+        "sender_full_name": "fosco",
+        "timestamp": 1699094927
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"282822\">@fosco</span> most people learn languages because there is something they want to understand in that language. Consider esperanto. Someone could (reasonably?) dismiss esperanto as \"just a language\" because there is so little literature written in esperanto; compared to any living or classical language, it carries very little content or practical value. This is the kind of dismissal that we're discussing here, which is why I called it an accusation.<br>\nIt's great that you are happy to do CT in a cave somewhere, but sociologically that's not really sustainable, and for almost any application of CT we need to build bridges with experts in other domains. I don't think we're merely being \"defensive\" by wanting other researchers to take our discipline seriously.</p>",
+        "id": 400291295,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1699097693
+    },
+    {
+        "content": "<ul>\n<li>there is so little literature written in Esperanto</li>\n</ul>\n<p>This is false, by design (which means, by Zamenhof choice) the set of Esperanto literature contains every single piece of literature written in Esperanto, as well as the ones translated into Esperanto. So, the Bible and the Quran are \"Esperanto literature\" by definition.</p>",
+        "id": 400292446,
+        "sender_full_name": "fosco",
+        "timestamp": 1699098747
+    },
+    {
+        "content": "<p>And how would I benefit from reading texts translated into esperanto, rather than reading them in a language I already know?</p>",
+        "id": 400292564,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1699098856
+    },
+    {
+        "content": "<p>A quote attributed to Tomáš Masaryk sounds something like \"as many language one speaks, that many times they are a human being\".</p>",
+        "id": 400292846,
+        "sender_full_name": "fosco",
+        "timestamp": 1699099188
+    },
+    {
+        "content": "<p>Do you feel that this quote answers my question?</p>",
+        "id": 400292957,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1699099256
+    },
+    {
+        "content": "<p>Yes, I would say that you will benefit from reading Esperanto (but this is just an example) by becoming more of a human being. But that would sound a bit snarky, as if I am implying you are not a human being.</p>\n<p>I don't learn things to \"benefit\" from them. \"Gaining something\" is not a parameter with which I judge my education.</p>",
+        "id": 400293167,
+        "sender_full_name": "fosco",
+        "timestamp": 1699099373
+    },
+    {
+        "content": "<p>If you do, you're free to, but you're missing the point. The point being that I don't need to \"[convince] other researchers to take our discipline seriously.\" If they don't, they are ignorant and educating them is not my role --my role is to make category theory accessible and nonsense-free to everyone who <em>wants</em> to learn it. </p>\n<p>No doctor shoves medicine down the throat of a patient who doesn't want to be cured.</p>",
+        "id": 400293332,
+        "sender_full_name": "fosco",
+        "timestamp": 1699099530
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"282822\">fosco</span> <a href=\"#narrow/stream/229134-theory.3A-philosophy/topic/.22Category.20theory.20is.20just.20a.20language.22/near/400286507\">said</a>:</p>\n<blockquote>\n<blockquote>\n<p>(1) What are people trying to get at when they say CT is ‘just language’?</p>\n</blockquote>\n<p>They are prey of the hallucination that there is something else, opposed to \"just language\". Paraphrasng Bohr, putting under a microscope anything we call \"real\", one hits a limit where the thing-in-study is a purely linguistic object. So, I see the statement that category theory, as a primitive way to think mathematical objects is \"just\" language a triviality: at a deep enough scale, there can't be anything else than language.</p>\n</blockquote>\n<p>Love this!</p>",
+        "id": 400293665,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1699099791
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"282822\">fosco</span> <a href=\"#narrow/stream/229134-theory.3A-philosophy/topic/.22Category.20theory.20is.20just.20a.20language.22/near/400293167\">said</a>:</p>\n<blockquote>\n<p>Yes, I would say that you will benefit from reading Esperanto (but this is just an example) by becoming more of a human being. But that would sound a bit snarky, as if I am implying you are not a human being.</p>\n<p>I don't learn things to \"benefit\" from them. \"Gaining something\" is not a parameter with which I judge my education.</p>\n</blockquote>\n<p>My question was more from the perspective of someone interested in the content of the texts. If I were a Bible scholar, say, what would I learn by reading an Esperanto version of the Bible? If the answer only regards the interpretation of that text by the translator, necessarily quite a modern one, then I think I would be justified in scepticism of that pursuit.<br>\nLearning many languages is a nice ideal, but people have limited time! If a researcher is making a choice between picking up CT and another area of maths and your answer to \"why should I learn CT\" is \"to become more human\", I think anyone would be justified in taking any other option.</p>",
+        "id": 400293869,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1699100016
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"282822\">fosco</span> <a href=\"#narrow/stream/229134-theory.3A-philosophy/topic/.22Category.20theory.20is.20just.20a.20language.22/near/400286507\">said</a>:</p>\n<blockquote>\n<p>In short, I dont feel the need to let category theory \"outshine the <em>accusation</em> (?) of being just a language\", and in fact, I am amused to see that very experienced people still get defensive about it. Like, what else can it (and anything) possibly be?</p>\n</blockquote>\n<p>This is the position of a stilist monk lol I think you're 100% right but, as Morgan said, there is value in (a) having other mathematicians appreciate this and (b) let them know we're having so much fun here and they should join us instead!</p>",
+        "id": 400293931,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1699100045
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"282822\">fosco</span> <a href=\"#narrow/stream/229134-theory.3A-philosophy/topic/.22Category.20theory.20is.20just.20a.20language.22/near/400293332\">said</a>:</p>\n<blockquote>\n<p>No doctor shoves medicine down the throat of a patient who doesn't want to be cured.</p>\n</blockquote>\n<p>No legitimate doctor should offer homeopathic remedies. If you're claiming to have something of value to offer, you should have something to back up that claim.</p>",
+        "id": 400293947,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1699100078
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/229134-theory.3A-philosophy/topic/.22Category.20theory.20is.20just.20a.20language.22/near/400293931\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"282822\">fosco</span> <a href=\"#narrow/stream/229134-theory.3A-philosophy/topic/.22Category.20theory.20is.20just.20a.20language.22/near/400286507\">said</a>:</p>\n<blockquote>\n<p>In short, I dont feel the need to let category theory \"outshine the <em>accusation</em> (?) of being just a language\", and in fact, I am amused to see that very experienced people still get defensive about it. Like, what else can it (and anything) possibly be?</p>\n</blockquote>\n<p>This is the position of a stilist monk lol I think you're 100% right but, as Morgan said, there is value in (a) having other mathematicians appreciate this and (b) let them know we're having so much fun here and they should join us instead!</p>\n</blockquote>\n<p>BTW, nothing wrong in <em>not</em> doing it, but that's why some people <em>want</em> to do it</p>",
+        "id": 400293984,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1699100146
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/229134-theory.3A-philosophy/topic/.22Category.20theory.20is.20just.20a.20language.22/near/400292564\">said</a>:</p>\n<blockquote>\n<p>And how would I benefit from reading texts translated into esperanto, rather than reading them in a language I already know?</p>\n</blockquote>\n<p>Perhaps not so much <em>reading</em> a translation as the act of (actively) <em>translating</em> to a new language stands to benefit the translator. </p>\n<p>Walter Benjamin suggested that translation as a bridging process between different languages (representations) improves humanity’s description of the world, if considered as some kind of “pure” abstract language.</p>",
+        "id": 400294554,
+        "sender_full_name": "Eran Meir",
+        "timestamp": 1699100726
+    },
+    {
+        "content": "<p>Regarding the question</p>\n<blockquote>\n<p>What do we mean when we say something is \"just a language?\"</p>\n</blockquote>\n<p>I kind of agree with <span class=\"user-mention\" data-user-id=\"282822\">@fosco</span>: in my experience, if someone says \"category theory is just a language\" with the intent of being dismissive, then with all probability the discussion is not happening at a scientific level and there's little point in trying to convince them that it \"has mathematical content\".  In fact, I don't think that the above question can be answered scientifically: if there existed other areas of mathematics which are sometimes dismissed as being \"just a language\", then we could try and extract a pattern.  However, as far as I know, this \"treatment\" is reserved exclusively to category theory.</p>\n<p>Regarding the question</p>\n<blockquote>\n<p>what our principles should be when we have conversations or debates of the form \"This perspective is valuable\", </p>\n</blockquote>\n<p>I think that \"it helps make progress\" (in one or more research fields) is a good answer.  Luckily, there's lots of reasonable people around, who will be convinced that category theory is useful by seeing that it helps make progress in mathematical sciences of all kinds, even if none of them is related to their own research field (if they are, all the better).  I think that such progress is undeniable in some areas of mathematics, computer science and, possibly, theoretical physics (I hope I am not mistaken!).  In others (like logic, combinatorics, etc.) it's more debatable, maybe it will require more time.  There are applications outside of math/computer science/physics too, many perhaps are still at an early stage, but I think that all this is enough to convince any reasonable person that category theory should be \"taken seriously\", even if it's not directly related to one's own discipline (for example, I rarely use any non-trivial graph theory, and yet I would never think that it's not a serious research field).</p>",
+        "id": 400307580,
+        "sender_full_name": "Damiano Mazza",
+        "timestamp": 1699111730
+    },
+    {
+        "content": "<p>I feel like a lot of the history of category theory is the project of mathematizing the practice/substance of mathematics in the same way that the history of logic has been about mathematizing the theory/material of mathematics.  The early part of this project involved group theory.  Both group theory and logic have gotten a lot of flak from people in other areas of mathematics and this probably isn't a coincidence.</p>",
+        "id": 400308333,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1699112343
+    },
+    {
+        "content": "<p>Yes, probably it's related.  And maybe it gets better with time: set theory is older than category theory, and after all it is, literally, \"just a language\", but I don't think I've ever heard anyone saying it with a dismissive tone.  It may be an area of mathematics which is perhaps considered a bit marginal by people in more \"acclaimed\" fields (the ones where you have Fields medalists, for example), but my impression is that it is still unanimously treated as something \"serious\", not as a completely worthless endeavor, as some detractors are known to have more or less explicitly qualified category theory.</p>\n<p>Maybe the difference is also that, like you say, logic/set theory operate at a purely foundational level, without any pretense of giving any structuring principle to the <em>practice</em> of other areas of mathematics.  A logician can't go to another mathematician and tell them how they should define their objects of study.  By contrast, a category theorist could in principle go to, say, a graph theorist and tell them \"a finite directed (multi)graph is just a functor  <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><mo>⋅</mo><mo>⇉</mo><mo>⋅</mo><mo stretchy=\"false\">)</mo><mo>⟶</mo><mrow><mi mathvariant=\"bold\">F</mi><mi mathvariant=\"bold\">i</mi><mi mathvariant=\"bold\">n</mi><mi mathvariant=\"bold\">S</mi><mi mathvariant=\"bold\">e</mi><mi mathvariant=\"bold\">t</mi></mrow></mrow><annotation encoding=\"application/x-tex\">(\\cdot\\rightrightarrows\\cdot)\\longrightarrow\\mathbf{FinSet}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord\">⋅</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel amsrm\">⇉</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">⋅</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">⟶</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord\"><span class=\"mord mathbf\">FinSet</span></span></span></span></span>\", which might, at least initially, badly irritate the graph theorist! <span aria-label=\"big smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"big smile\">:big_smile:</span></p>\n<p>(By the way, notice the \"just\" in the last sentence: maybe, if we don't want people to tell us that category theory is \"just\" a language, we should ourselves avoid going around throwing \"just\" adverbs with that falsely-unintended air of superiority, as in the famous \"a monad is just a monoid in the category of endofunctors\"...  This has already been discussed in another thread, I know that many disagree with me here <span aria-label=\"wink\" class=\"emoji emoji-1f609\" role=\"img\" title=\"wink\">:wink:</span>).</p>",
+        "id": 400310887,
+        "sender_full_name": "Damiano Mazza",
+        "timestamp": 1699114251
+    },
+    {
+        "content": "<p>I haven't been very clear, and absolutely not nuanced when I said something before so I want to clarify what I wanted to say. For me category theory is mainly a language, but it is a mathematical language. Therefore, there is a mathematical content to category theory. And this mathematical content is somehow the mathematical linguistic of mathematics. I like a lot language so this is not a defect for me that we call category theory a language. Wittgenstein said that doing philosophy is clarifying the grammar of language, ie. understanding what logics is hidden behind the words. In the same way, we can maybe say that category theory is about clarifying the grammar of mathematics. </p>\n<p>Now, Wittgenstein puts emphasis on the language but he's doing it always in a practical context. For instance, he could think about a random phrase \"go take a red flower in a field\", and from this think about \"what is red?\", \"How are you going to know if the flower is really red?\" etc... He's not talking at all about grammar in the usual sense, he doesn't think about what is a verb, what is a noun etc... In the same way, I think that it is not good to think only about functors, natural transformations etc... It is interesting and important but it should not be the only focus. You can't reduce all mathematics to the study of the basic components of its grammar. </p>\n<p>For me, all the power of category theory is that it focuses on processes, algebra and constructivity. It is more about how things work that about what things are. Set theory allows you to build things, starting from points and using cartesian products etc.. Category theory doesn't talk a lot about what really is an object in a category because it doesn't matter. All which matters is how things work and what laws are verified. Also it has a very concrete side, because it makes you look at things from the outside and not from the inside which is more how we see the world in our everyday life. </p>\n<p>To me, we see the main qualities of category theory when we put it in application. It allows us to make mathematics in the right way and I think that using category theory to clarify all the other fields is what we have to do to convice people that it is usefull. </p>\n<p>Honnestly, I just say a few things, I don't think it's very clear. I'm very confused about everything all the time. But this is probably a bit better that my first message.</p>",
+        "id": 400314119,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1699117445
+    },
+    {
+        "content": "<blockquote>\n<p>My question was more from the perspective of someone interested in the content of the texts. If I were a Bible scholar, say, what would I learn by reading an Esperanto version of the Bible? </p>\n</blockquote>\n<p>I think one's understanding can be enriched in comparing different translations of the Bible. Or to put it in terms of a different holy book, a blind man's understanding of the elephant can be enriched by approaching the elephant from different angles.</p>\n<p>Anyway, my answer was from the perspective of someone who belongs to a small minority. I felt the need to enrich the discussion by bringing a voice out from the pack. </p>\n<p>Being part of a community, for me, serves the sole purpose of measuring what, for my peer group, constitutes work of reasonably good quality, and bend myself to the rat race. That's pretty much it.<br>\nWhen it comes to \"my\" mathematics however, I have no interest in discussing it with people who do not accept the point I start from. It would be like preaching someone else to adopt my religion, or my sexual orientation: a fairly pointless endeavour, tied to an aspect of someone's life too private for me to have any authority over.</p>",
+        "id": 400314533,
+        "sender_full_name": "fosco",
+        "timestamp": 1699117887
+    },
+    {
+        "content": "<blockquote>\n<p>Maybe the difference is also that, like you say, logic/set theory operate at a purely foundational level, without any pretense of giving any structuring principle to the practice of other areas of mathematics. </p>\n</blockquote>\n<p>Indeed, category theory is unique in this respect, as it tries to regiment the <em>practice</em> of mathematics and not only its form; probably, partially in the belief that there is a set of \"best practices\" to do mathematics (focus on universal properties ascending a level from implementation details, find simple overarching principles underlying things...), and in the belief that you having done thing X for a lifetime doesn't mean you're aware about these best practices. </p>\n<p>From here, it's a very slippery slope to \"let me explain how to do your job\".</p>",
+        "id": 400314955,
+        "sender_full_name": "fosco",
+        "timestamp": 1699118327
+    },
+    {
+        "content": "<p>To me, a very good reason to makes mathematics into the language of category theory is that it is much easier then to find the computer science version of this piece of mathematics and e.g. program it: for instance linear algebra <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>→</mo></mrow><annotation encoding=\"application/x-tex\">\\rightarrow</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.3669em;\"></span><span class=\"mrel\">→</span></span></span></span> linear logic <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>→</mo></mrow><annotation encoding=\"application/x-tex\">\\rightarrow</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.3669em;\"></span><span class=\"mrel\">→</span></span></span></span> linear programming language? or topology <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>→</mo></mrow><annotation encoding=\"application/x-tex\">\\rightarrow</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.3669em;\"></span><span class=\"mrel\">→</span></span></span></span> toposes <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>→</mo></mrow><annotation encoding=\"application/x-tex\">\\rightarrow</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.3669em;\"></span><span class=\"mrel\">→</span></span></span></span> toposic programming language as our friend did. And then these programming languages could be use to understand better the mathematics and we would have virtuous circles between mathematics and computer science, through category theory. But sadly, mathematicians are so much used to make mathematics on paper and without a computer and computer scientists are not very interested by the abstract kind of mathematics which is the only kind which can be translated into computer science in a clean way. It follows that these virtous circles don't happen and the global progress of everything is limited by the restricted vision of the full scientific spectrum by people.</p>",
+        "id": 400321453,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1699125532
+    },
+    {
+        "content": "<p>The idea is that category theory allows to formulate a mathematics theory into a version where equality is replaced by oriented arrows. Then this oriented theory becomes a computational language. On the contrary, forgetting the orientation in the computational language, gives us the mathematical associated theory. All the interest of algorithms is to be paths from one side of an equality to the other side.</p>",
+        "id": 400322078,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1699126259
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"282822\">fosco</span> <a href=\"#narrow/stream/229134-theory.3A-philosophy/topic/.22Category.20theory.20is.20just.20a.20language.22/near/400286507\">said</a>:</p>\n<blockquote>\n<p>mathematics is not a language to describe the universe; it's the precondition for language to exist<br>\n(...)</p>\n</blockquote>\n<p>We should distinguish between mathematics as a social activity carried out by mathematicians and \"mathematics\" as the object of study of this social activity, i.e., abstract structure, \"rhyme and reason\" to the universe and so on.</p>\n<p>I perhaps agree some amount of \"rhyme and reason\" in the universe is necessary as a precondition for language.<br>\nI don't think mathematics as a social activity of mathematicians is necessary for language, unless we take it in a very broad sense to encompass all reasoning. Even then I think language would still have things like \"I'm hungry\" and \"That's hot!\"</p>",
+        "id": 400322202,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1699126408
+    },
+    {
+        "content": "<p>Secondly, Fosco, although I think that it's a perfectly legitimate answer to say that the critique of \"just being language\" is nonsensical, I think that a constructive follow-up would be to ask -<br>\nIf a mathematician says \"category theory is just a language\", what are their motivations for saying that? Even if you say the critique is poor or nonsensical, can we speculate on what motivates the critique and address that motivation instead?</p>\n<p>Third, I think that pursuing your personal passions and hobbies is good and we should all make time in our lives to do what fulfills us and brings us pleasure. But I also think that some questions in mathematics are important in a way which can be articulated and defended. The importance of these questions is not purely subjective, in the sense that \"it is to my taste\" or \"it is not to my taste.\" I may respect the importance of certain questions in mathematics even if I don't find them interesting and they are unpopular. Conversely there may be questions that elite mathematicians at Harvard are working on because of their personal preference and I think that they are unimportant questions in spite of the fact that they are profiled in Quanta. For this reason I think that there is more meat to this conversation than just \"Study what makes you happy.\"</p>\n<p>Anyway even if you fully disagree with this in principle, the issue of convincing others of the importance still matters - what kind of mathematicians get hired to work on what kinds of problems? Who gets funding for their research projects? If you were on a hiring committee how would you choose between many mathematicians to hire who all propose different projects? If your colleague said \"We should not hire this category theorist because category theory is just a language\" you will still have to have a polite and respectful discussion with them.</p>",
+        "id": 400323007,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1699127325
+    },
+    {
+        "content": "<p>What I refuse is the premise that being \"just\" a language is a remark made in order to diminish the importance of category theory, and what I find nonsensical is to engage in a discussion with someone on the basis of them thinking that category theory is \"just a language\": so, instead of having a polite conversation with them, I simply disconnect from the chat. When I am <em>forced</em> to explain myself, the people who know me can confirm that I am everything but polite, as it happens in all situations where one is called to justify their existence.</p>\n<p>I understand that my tone sounds a bit harsh -but it's not, I am just trying to convey in a short sentence what I think, or otherwise I would be writing forever, because -as you can imagine- there is a history (<em>my</em> history) behind these ideas.</p>",
+        "id": 400324855,
+        "sender_full_name": "fosco",
+        "timestamp": 1699129274
+    },
+    {
+        "content": "<p>Probably I can try to share part of it. But that would be a big off-topic from this conversation, just to convince you that trying to straighten me into being less Dyogenes is, as grown-up and solidified as a character as I am, useless.</p>",
+        "id": 400324952,
+        "sender_full_name": "fosco",
+        "timestamp": 1699129377
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"282822\">fosco</span> <a href=\"#narrow/stream/229134-theory.3A-philosophy/topic/.22Category.20theory.20is.20just.20a.20language.22/near/400286507\">said</a>:</p>\n<blockquote>\n<p>They are prey of the hallucination that there is something else, opposed to \"just language\". Paraphrasing Bohr, putting under a microscope anything we call \"real\", one hits a limit where the thing-in-study is a purely linguistic object. So, I see the statement that category theory, as a primitive way to think mathematical objects is \"just\" language a triviality: at a deep enough scale, there can't be anything else than language.</p>\n</blockquote>\n<p>I'm not sure I quite buy this. As I understand it, here you're saying something like: all there is, is our representations of things. To me, the more reasonable (modest) claim to make would be something like: all we can <em>know</em> is our representations. I think that's like the difference between the ontic structural realist (all that's real in true scientific theories is the structure they describe) and the epistemic structural realist (all that we can know from true scientific theories is the structure they describe). I think when we set out to carve up the world with our words, there's really something we're trying to describe; our words really have intended referents; our representations are meant to represent <em>something</em>. Of course, I don't think there's anything wrong with holding the idealist all-there-is-is-representation view, I would just require argument to be moved toward it, since it would require thinking my ideas about representation are radically false, even hallucinatory, as you suggest.</p>",
+        "id": 400330680,
+        "sender_full_name": "Evan Washington",
+        "timestamp": 1699136563
+    },
+    {
+        "content": "<p>(Thanks <span class=\"user-mention\" data-user-id=\"424412\">@Patrick Nicodemus</span> for starting this thread, I'm really enjoying the different threads that people are pulling on in discussing your question <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span>)</p>",
+        "id": 400330983,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1699136864
+    },
+    {
+        "content": "<p>Sure Morgan. I think there is interesting variation on how broadly people took the question vs how specific it was to category theory.</p>\n<p>I strongly favor Peter May's formulation \"formally formal\" over \"trivially trivial.\" I would not want to describe any of my work as \"trivially trivial.\" Even things that are simple may take time and effort. For example, a good deal of reasoning in category theory is equational  and thus in some sense \"simple\" but nobody says that checking the coherence conditions for a lax functor between bicategories is something you do in the 10 minutes between lectures at a conference.</p>",
+        "id": 400331569,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1699137433
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276839\">Damiano Mazza</span> <a href=\"#narrow/stream/229134-theory.3A-philosophy/topic/.22Category.20theory.20is.20just.20a.20language.22/near/400310887\">said</a>:</p>\n<blockquote>\n<p>Yes, probably it's related.  And maybe it gets better with time: set theory is older than category theory, and after all it is, literally, \"just a language\", but I don't think I've ever heard anyone saying it with a dismissive tone.  It may be an area of mathematics which is perhaps considered a bit marginal by people in more \"acclaimed\" fields (the ones where you have Fields medalists, for example), but my impression is that it is still unanimously treated as something \"serious\", not as a completely worthless endeavor, as some detractors are known to have more or less explicitly qualified category theory.</p>\n<p>Maybe the difference is also that, like you say, logic/set theory operate at a purely foundational level, without any pretense of giving any structuring principle to the <em>practice</em> of other areas of mathematics.  A logician can't go to another mathematician and tell them how they should define their objects of study.  By contrast, a category theorist could in principle go to, say, a graph theorist and tell them \"a finite directed (multi)graph is just a functor  <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><mo>⋅</mo><mo>⇉</mo><mo>⋅</mo><mo stretchy=\"false\">)</mo><mo>⟶</mo><mrow><mi mathvariant=\"bold\">F</mi><mi mathvariant=\"bold\">i</mi><mi mathvariant=\"bold\">n</mi><mi mathvariant=\"bold\">S</mi><mi mathvariant=\"bold\">e</mi><mi mathvariant=\"bold\">t</mi></mrow></mrow><annotation encoding=\"application/x-tex\">(\\cdot\\rightrightarrows\\cdot)\\longrightarrow\\mathbf{FinSet}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord\">⋅</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel amsrm\">⇉</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">⋅</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">⟶</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord\"><span class=\"mord mathbf\">FinSet</span></span></span></span></span>\", which might, at least initially, badly irritate the graph theorist! <span aria-label=\"big smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"big smile\">:big_smile:</span></p>\n</blockquote>\n<p>I think this is half-true. In a way, logicians are exactly in the business of telling other mathematicians how they <em>ought</em> to define their object of study (were they being perfectly rigorous). We might say \"a directed graph is just a multiset of ordered pairs!\" The graph theorist really thought of a graph as a kind of geometric object, but somehow the logicians actually managed to  convince them to do the bookkeeping in set-talk. </p>\n<p>I don't know the history for certain, but I wonder if you would find people making dismissive claims about set theory as 'just a language' if you went back to the late 1890s or so. </p>\n<p>BTW someone did win a Fields Medal for set theory: Paul Cohen.</p>",
+        "id": 400331710,
+        "sender_full_name": "Evan Washington",
+        "timestamp": 1699137598
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"278070\">Evan Washington</span> <a href=\"#narrow/stream/229134-theory.3A-philosophy/topic/.22Category.20theory.20is.20just.20a.20language.22/near/400331710\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"276839\">Damiano Mazza</span> <a href=\"#narrow/stream/229134-theory.3A-philosophy/topic/.22Category.20theory.20is.20just.20a.20language.22/near/400310887\">said</a>:</p>\n<blockquote>\n<p>I don't know the history for certain, but I wonder if you would find people making dismissive claims about set theory as 'just a language' if you went back to the late 1890s or so. <br>\n</p>\n</blockquote>\n</blockquote>\n<p>One of the first real transformations in the foundations of mathematics as a result of set theory was the new field of point-set topology built on it. Brouwer and others recognized that this would be necessary for the further development of geometry, for example they recognized that current foundations would be inadequate for a real attack on Hilbert's 5th problem.</p>\n<p>Here is a quote I reprint from T. Hawkins \"Weyl and the topology of continuous groups.\" <br>\nIt can be found in I. M. James' \"History of Topology.\"</p>\n<blockquote>\n<p>Brouwer's work on continuous groups was reviewed for the abstracting journal Fortschritte der Mathematik by Engel. In his review of [Brouwer, 1909b] Engel justifiably complained about the overly succinct definition of a continuous group which, in so far as he could understand it, did not seem to cover all the possibilities for groups in Lie's sense [1912, p. 194]. Brouwer objected to Engel's unspecific criticisms and so began a brief correspondence with Engel, which Freudenthal has described as \"a discussion between people living in different worlds: Engel, the co-author of Lie's great treatise, who could not grasp a group except in its analytical setting, and Brouwer, who had shaken off the algorithmic yoke and from his conceptual viewpoint could not comprehend his  correspondent's difficulties.\"6 Although Freudenthal's evaluation is essentially correct, Engel's difficulty in comprehension was certainly magnified by Brouwer's excessively compressed writing style. But even after Brouwer patiently explained the meaning and implications of his terms, Engel remained overwhelmed by and suspicious of Brouwer's topological approach. Thus in his review of Brouwer's second paper [1910], Engel began with some clarifying remarks about the first: \"I am still of the opinion that everyone who is not an inveterate set-theoretician will find, as I did, that the general assumptions of § 1 are not worded clearly enough... I cannot conceal the fact that, in general, the vast generality of the investigation and the great number and multiplicity of the necessary lines of reasoning strikes me with a slight dread. It is actually inconceivable to me that on the first try everything should have been settled\" [1913, p. 182]. As we shall see in Section 5, a similar sentiment was expressed by Elie Cartan, Lie's greatest disciple, when in 1925 he advocated avoiding the use of topological reasoning in dealing with Lie groups because of the great \"delicacy\" of its arguments.</p>\n</blockquote>\n<p>In Section 5 we see an excerpt of a letter from Cartan to Weyl discussing the complete reducibility problem for semisimple Lie groups.</p>\n<blockquote>\n<p>The advantage of his approach, Cartan explained in a letter to Weyl, was that complete reducibility could be proved \"without being obligated to devote oneself to studies of analysis situs, which are always delicate\". However, as Borel has pointed out, Cartan's proof takes for granted results which seem to require the sort of topological reasoning he wished to avoid. In his reply to Cartan's letter, Weyl defended his use of topology explaining that the \"consideration of Analysis situs is very simple and applies to all semisimple groups without distinguishing cases. This approach lies closer to my whole way of thinking than your more algebraic method, which at the moment I only half understand\".</p>\n</blockquote>\n<p>Cartan was later convinced of the necessity of point-set topology and used it heavily in his arguments.</p>",
+        "id": 400336325,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1699142691
+    },
+    {
+        "content": "<p>Thanks for your comments, <span class=\"user-mention\" data-user-id=\"278070\">@Evan Washington</span> and <span class=\"user-mention\" data-user-id=\"424412\">@Patrick Nicodemus</span>!  I guess we can confirm that there's a tendency of people to oppose resistance to emerging mathematical theories playing a foundational role of some sort.  I think the reason has already been pointed out more or less explicitly in this thread: by nature, giving foundations requires one to re-think pre-existing structures in a novel, often disorienting way, which in turn requires time and effort that people may not have or may not be willing to spend.  Sometimes this resistance becomes dismissiveness or hostility.</p>\n<p>We could think of it with a metaphor.  Mathematicians are like people who build roads, bridges, etc.  To do that of course they need tools, so these people are are also tool-builders to some extent, but road-building is what's considered the ultimate goal.  With time, construction becomes harder and harder and radically new tools are needed, to the point that some of these people (the foundationally-inclined ones) start devoting most (or all) of their time to tool-building rather than road and bridge construction.  In some cases, the merits of tool-builders are readily understood by the road-builders, because they see that the new tools enable constructions hitherto considered impossible.</p>\n<p>However, in many cases, road-builders are reluctant to welcome new tools: they don't trust them, they don't understand how to operate them and don't feel like it's worth spending time learning how to, especially when the value of these tools is questionable, maybe because they do not clearly allow to build roads in new places, so far they're only known to build better/safer roads in old places, etc.  Since the underlying culture still considers the expansion of the road network to have priority over everything else, there will always be road-builders who will think that tool-building is just a secondary activity and that, after all, it is them who do the real work.  \"It's just a tool, I already have mine and that's how I'll keep building my roads!\".  But the reasonable road-builders will always understand that tool-building is fundamental to their endeavor and, eventually, the new tools will show their worth (if they have one), it's just a matter of time!</p>",
+        "id": 400388237,
+        "sender_full_name": "Damiano Mazza",
+        "timestamp": 1699184611
+    },
+    {
+        "content": "<p>One further addition to this collective historical inquiry into mathematical languages.  The \"revolution\" of algebraic geometry that happened in the 1950s and 60s was grounded on two (at the time) new theories that people explicitly referred to as \"languages\": the <em>language of schemes</em> and <em>functorial language</em>.  The latter, as we learned here on Zulip, is just an ancient name for category theory, and we all know how disorienting it may feel to newcomers.  My impression is that the former is also pretty radical with respect to the tradition: the idea that every commutative ring is the coordinate ring of some \"affine variety\", the emphasis on morphisms rather than objects, etc. must all have felt a bit disorienting to well-established algebraic geometers.  And yet, my understanding is that the language of schemes met very little resistance: within a decade or so, there was no question that that's how one should do algebraic geometry.</p>\n<p>I think that category theory too came to be quickly and universally accepted as an indispensable tool by algebraic geometers.  However, this did not prevent algebraic geometers like Miles Reid to claim that, when developed for its own sake (therefore as a general tool for mathematical thinking), category theory was \"surely one of the most sterile of all intellectual pursuits\".  I also heard a \"giant\" like Serre explicitly say in an interview that he \"did not like category theory\".  And I'm sure the list could be made longer.</p>\n<p>So it seems that the \"sin\" of category theory has been, unlike scheme theory, to aspire to give foundations to more than just algebraic geometry (or algebraic topology, or one field in particular).  As long as the tools build the roads that people want to build, they're great, they make them win Fields medals and everyone's happy.  But if the tools are developed for a different purpose, in this case, not necessarily to build roads but to change the very way one thinks of road-building, then all of a sudden they are \"just tools\"... <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 400403469,
+        "sender_full_name": "Damiano Mazza",
+        "timestamp": 1699198674
+    },
+    {
+        "content": "<p>That's the point I was trying to make; I reject the premise that they are \"just\" tools, they are totipotent tools, which is a remarkable property for a tool. Anyway, it took me a while to find this, but the words of Rota apply here:</p>\n<blockquote>\n<p>G.-C. Rota writes in `Indiscrete thoughts' (1997):<br>\n\"What can you prove with exterior algebra that you cannot prove without it?\" Whenever you hear this question raised about some new piece of mathematics, be assured that you are likely to be in the presence of something important. In my time, I have heard it repeated for random variables, Laurent Schwartz' theory of distributions, ideles and Grothendieck's schemes, to mention only a few. A proper retort might be: \"You are right. There is nothing in yesterday's mathematics that could not also be proved without it. Exterior algebra is not meant to prove old facts, it is meant to disclose a new world. Disclosing new worlds is as worthwhile a mathematical enterprise as proving old conjectures. \"</p>\n</blockquote>",
+        "id": 400406387,
+        "sender_full_name": "fosco",
+        "timestamp": 1699201395
+    },
+    {
+        "content": "<p>Imho 'tool' comes before 'language'. I'm a strong believer of the Everettian hypothesis that language itself arises as a tool to solve problems.</p>",
+        "id": 400407582,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1699202472
+    },
+    {
+        "content": "<p>This is backed up by some evidence. For instance, languages that can be whistled are mainly developed in areas where there's need to communicate over long distances.<br>\nSo, for me, category theory is a tool exactly like language is. The more generic the tool, and the wider its range of applicability, the more useful it is.</p>",
+        "id": 400407667,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1699202573
+    },
+    {
+        "content": "<p>Like all truths, it admits an opposite dialectic moment: tools tend to specialize over time, and specialized tools supplant general-purpose ones in the long run</p>",
+        "id": 400493235,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1699263474
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/lhDH_hp0j-vv-WTYW9Ez5kb3/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/lhDH_hp0j-vv-WTYW9Ez5kb3/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/lhDH_hp0j-vv-WTYW9Ez5kb3/image.png\"></a></div><p>I stand by my point that this kind of take is quite sad, and has the only effect of making the author of such a sentence a pompous prick. Given this, what you gonna do? Talk with them?  Convince them otherwise? I have better things to do with my time, and this guy is a lost cause...</p>",
+        "id": 400748466,
+        "sender_full_name": "fosco",
+        "timestamp": 1699366489
+    },
+    {
+        "content": "<p>As long as renowned mathematician (either because they have the spotlight, or because they work on mainstream topics) will take this vetero-anti-categorial stance towards us (\"the most sterile intellectual pursuit\"...), I think the only reasonable reply to their colourfully expressed skepticism is \"haha, this is very funny; now go choke on a turd\" instead of calmly unwinding it into a more moderate opinion.</p>",
+        "id": 400749210,
+        "sender_full_name": "fosco",
+        "timestamp": 1699366733
+    },
+    {
+        "content": "<p>Who wrote that tiresome remark you're quoting?</p>",
+        "id": 400752130,
+        "sender_full_name": "John Baez",
+        "timestamp": 1699367650
+    },
+    {
+        "content": "<p>Terry Gannon. His book is lovely</p>",
+        "id": 400752315,
+        "sender_full_name": "JR",
+        "timestamp": 1699367732
+    },
+    {
+        "content": "<p>The first word that came to mind wasn't \"lovely\" <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+        "id": 400752619,
+        "sender_full_name": "fosco",
+        "timestamp": 1699367838
+    },
+    {
+        "content": "<p>Yeah, I really liked parts of his book on moonshine!   Was this from that book?   No matter where... why was he even bothering to talk about category theory?   I guess he was about to use it for something - something involving braided monoidal categories.</p>",
+        "id": 400753981,
+        "sender_full_name": "John Baez",
+        "timestamp": 1699368235
+    },
+    {
+        "content": "<p>Yes it's from that book. On my shelf.</p>",
+        "id": 400754096,
+        "sender_full_name": "JR",
+        "timestamp": 1699368263
+    },
+    {
+        "content": "<p><em>\"Category theory is intended as a universal language of mathematics, so all concepts should be translated into it\"</em></p>\n<p><em>\"no one can be immune to the charm of treating knot invariants with braided monoidal categories\"</em></p>\n<p>Seems a bit much to call him a lost cause.</p>\n<p>The \"you people\"ness of the bit between those two snippets is ugly but IMO a healthy way to view it is as an opportunity for reflection and to be more self-aware than the author was.</p>",
+        "id": 400754325,
+        "sender_full_name": "JR",
+        "timestamp": 1699368335
+    },
+    {
+        "content": "<p>Yes, rereading it I think he's sort of afraid some readers will be intimidated that he's using braided monoidal categories, and trying to reassure these people that he's an ordinary guy, not one of those weird <em>category theorists</em>.</p>",
+        "id": 400754957,
+        "sender_full_name": "John Baez",
+        "timestamp": 1699368518
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"282822\">fosco</span> <a href=\"#narrow/stream/229134-theory.3A-philosophy/topic/.22Category.20theory.20is.20just.20a.20language.22/near/400748466\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/21317/lhDH_hp0j-vv-WTYW9Ez5kb3/image.png\">image.png</a></p>\n<p>I stand by my point that this kind of take is quite sad, and has the only effect of making the author of such a sentence a pompous prick. Given this, what you gonna do? Talk with them?  Convince them otherwise? I have better things to do with my time, and this guy is a lost cause...</p>\n</blockquote>\n<p>Wait is he wrong? Lol</p>",
+        "id": 401605603,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1699788245
+    },
+    {
+        "content": "<p>Like, the comment about beavers is 100% on point. He also says that a lot of times categories are useful. Al in all it seems quite the opposite of criticism to me, lol</p>",
+        "id": 401605674,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1699788328
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276438\">@Fabrizio Genovese</span> to paraphrase, I read it as \"categories can be handy, but watch out for those industrious category theorists!\" which is a straightforward dismissal of our discipline, even if you are happy to own the comparison to beavers. Certainly I've seen worse dismissals, although I don't really want to bring them here.</p>",
+        "id": 401628444,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1699810202
+    },
+    {
+        "content": "<p>Well, if we have to discuss the Semiotics of that text extract then we can talk forever.</p>",
+        "id": 401628608,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1699810381
+    }
+]

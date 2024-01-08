@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>This is the topic for <span class=\"user-mention\" data-user-id=\"275901\">@Jules Hedges</span> 's talk </p>\n<p><strong>Introduction to Categorical Cybernetics</strong></p>\n<p>which is scheduled on March 20th. <br>\nYou can find the abstact below:</p>\n<blockquote>\n<p>Categorical cybernetics is based on two things: (1) the abstract theory of categories of optics and related things, and (2) a whole bunch of specific examples. These tend to arise in topics that historically were called \"cybernetics\" (before that term drifted beyond recognition) - AI, control theory, game theory, systems theory. Specific examples of \"things that compose optically\" are derivatives (well known as backprop), exact and approximate Bayesian inverses, payoffs in game theory, values in control theory and reinforcement learning, updates of data (the original setting for lenses), and updates of state machines. I'll do a gentle tour through these, emphasising their shared structure and the field we're developing to study it.</p>\n</blockquote>",
+        "id": 339796718,
+        "sender_full_name": "Bruno Gavranović",
+        "timestamp": 1678089351
+    },
+    {
+        "content": "<p>The Youtube streaming link for tomorrow's talk is <a href=\"https://www.youtube.com/watch?v=_EShi5y3b0E&amp;list=PLSdFiFTAI4sQ0Rg4BIZcNnU-45I9DI-VB&amp;index=9\">here</a>, and the Zoom link <a href=\"https://uva-live.zoom.us/j/83816139841\">here</a> (same Zoom link as before)</p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"_EShi5y3b0E\" href=\"https://www.youtube.com/watch?v=_EShi5y3b0E&amp;list=PLSdFiFTAI4sQ0Rg4BIZcNnU-45I9DI-VB&amp;index=9\"><img src=\"https://uploads.zulipusercontent.net/311e2330038a12d5ab407146a231da032e2f9dac/68747470733a2f2f692e7974696d672e636f6d2f76692f5f455368693579336230452f64656661756c742e6a7067\"></a></div>",
+        "id": 342951921,
+        "sender_full_name": "Bruno Gavranović",
+        "timestamp": 1679239037
+    },
+    {
+        "content": "<p>See you in slightly under two hours! P.S. The US has had their daylight savings already, but not the UK, so it might be worth double checking your schedule <span aria-label=\"time\" class=\"emoji emoji-1f557\" role=\"img\" title=\"time\">:time:</span> </p>\n<p>(You can also see the time remaining on the Youtube countdown)</p>",
+        "id": 343131647,
+        "sender_full_name": "Bruno Gavranović",
+        "timestamp": 1679321772
+    }
+]

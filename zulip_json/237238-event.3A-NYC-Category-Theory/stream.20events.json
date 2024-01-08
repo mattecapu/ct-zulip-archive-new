@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Stream created by <span class=\"user-mention silent\" data-user-id=\"285161\">Oliver Shetler</span>.</p>",
+        "id": 196125907,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1588544006
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> changed the <a href=\"/help/stream-permissions\">access permissions</a> for this stream from <strong>Public</strong> to <strong>Web-public</strong>.</p>",
+        "id": 397854518,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1697898926
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>NYC Category Theory</strong> to <strong>event: NYC Category Theory</strong>.</p>",
+        "id": 399477969,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698750615
+    }
+]

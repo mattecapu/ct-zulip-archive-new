@@ -1,0 +1,104 @@
+[
+    {
+        "content": "<p>This stream is for people who want to talk about category theory in computing, using dialectica constructions... especially Valeria de Paiva's students at the American Mathematical Society <a href=\"https://www.ams.org/programs/research-communities/2022MRC-Categories\">mathematical research community on applied category theor</a>y, but also anyone else who's interested.</p>",
+        "id": 280517508,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1651162204
+    },
+    {
+        "content": "<p>dear all, sorry for the delay in creating this stream!</p>\n<p>I have subscribed everyone in the MRC that the system allowed me to, so I expect that Colin Bloomfield hasn't got access to zulip.</p>\n<p>We had our first meeting this last Tuesday, just to introduce ourselves. This coming Tuesday, 05/03/22, at  8 am PST I want to have 10 min to discuss my talk  <a href=\"https://www.youtube.com/watch?v=hJrJSZlO-Ic\">Dialectica for Friends</a> and Jeremie will lead with a 20 min talk on how he sees the relationship between games and dialectica constructions.  Please try to watch and have questions! <br>\nLooking forward to seeing you!</p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"hJrJSZlO-Ic\" href=\"https://www.youtube.com/watch?v=hJrJSZlO-Ic\"><img src=\"https://uploads.zulipusercontent.net/f927296fe8c3b817c70bd257ca8d2438f3428bf3/68747470733a2f2f692e7974696d672e636f6d2f76692f684a724a535a6c4f2d49632f64656661756c742e6a7067\"></a></div>",
+        "id": 280521034,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1651163677
+    },
+    {
+        "content": "<p>Hi everyone! Thanks a lot for the nice week, it was great to meet you all. I hope you had a smooth trip home, whether that was to Rochester or to Glasgow. Jeremy, Colin and I will continue to work on the game stuff and will try to report our progress here on Zullip every now and then. Until next time!</p>",
+        "id": 285304304,
+        "sender_full_name": "Jan Rooduijn",
+        "timestamp": 1654631048
+    },
+    {
+        "content": "<p>For sure, it was a really great time and I look forward to seeing your progress as well as sharing ours on the Petri net verification project. Maybe we can all have a Zoom debrief at some point once people get settled back in at home?</p>",
+        "id": 285304820,
+        "sender_full_name": "Charlotte Aten",
+        "timestamp": 1654631363
+    },
+    {
+        "content": "<p>I would love a debrief session <span class=\"user-mention\" data-user-id=\"496984\">@Charlotte Aten</span> ! I don't know what exactly you guys decided and I'd love to!</p>",
+        "id": 285304947,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1654631436
+    },
+    {
+        "content": "<p>Great! Once I'm not technically at work I can put up a when2meet if no one else does first so we can find a good time. Talk more soon! :)</p>",
+        "id": 285305437,
+        "sender_full_name": "Charlotte Aten",
+        "timestamp": 1654631726
+    },
+    {
+        "content": "<p><a href=\"https://www.when2meet.com/?15869337-ixmcB\">https://www.when2meet.com/?15869337-ixmcB</a><br>\nI made the above when2meet for next week (June 13-17) from 8am to 8pm California time. Despite making this myself I won't fill it out yet as my schedule remains quite flexible at the moment, so I will do my best to keep whatever time people settle on open.</p>",
+        "id": 285340365,
+        "sender_full_name": "Charlotte Aten",
+        "timestamp": 1654658510
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"496984\">Charlotte Aten</span> <a href=\"#narrow/stream/323208-practice.3A-Dialectica/topic/welcome/near/285340365\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://www.when2meet.com/?15869337-ixmcB\">https://www.when2meet.com/?15869337-ixmcB</a><br>\nI made the above when2meet for next week (June 13-17) from 8am to 8pm California time. Despite making this myself I won't fill it out yet as my schedule remains quite flexible at the moment, so I will do my best to keep whatever time people settle on open.</p>\n</blockquote>\n<p>We appear to be converging to Thursday, June 16, at 12pm Pacific time as a possible date. Does this work for people?</p>",
+        "id": 285600820,
+        "sender_full_name": "Charlotte Aten",
+        "timestamp": 1654811774
+    },
+    {
+        "content": "<p>Thanks <span class=\"user-mention\" data-user-id=\"496984\">@Charlotte Aten</span> I now have a meeting at 1pm Pacific time, but 12 pm I can still make it.</p>",
+        "id": 285602316,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1654812733
+    },
+    {
+        "content": "<p>Sounds good <span class=\"user-mention\" data-user-id=\"276656\">@Valeria de Paiva</span> ! Does 12pm Pacific time on Thursday, June 16, work for everyone else as well?</p>",
+        "id": 285610778,
+        "sender_full_name": "Charlotte Aten",
+        "timestamp": 1654819673
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"496984\">@Charlotte Aten</span> oops, I forgot when I filled that out that the Poly subgroup had scheduled a meeting among ourselves for exactly that time (I updated my schedule to reflect this). I’m noticing 11am pacific that same day also works for all of us though, maybe that would work?</p>",
+        "id": 285610840,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1654819696
+    },
+    {
+        "content": "<p>With a few minutes grace,  it works. Thursday is Topos Colloquium, 10--11 am.</p>",
+        "id": 285611039,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1654819914
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"343715\">@Nelson Niu</span> Sure, 11am Pacific time should work for me as well. I just have to make sure to defend it now haha.</p>",
+        "id": 285611403,
+        "sender_full_name": "Charlotte Aten",
+        "timestamp": 1654820254
+    },
+    {
+        "content": "<p>Hey, sorry I miss these messages</p>",
+        "id": 285654374,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1654855113
+    },
+    {
+        "content": "<p>I put my availabilities in the when2meet</p>",
+        "id": 285654439,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1654855152
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"496984\">Charlotte Aten</span> <a href=\"#narrow/stream/323208-practice.3A-Dialectica/topic/welcome/near/285610778\">said</a>:</p>\n<blockquote>\n<p>Sounds good <span class=\"user-mention silent\" data-user-id=\"276656\">Valeria de Paiva</span> ! Does 12pm Pacific time on Thursday, June 16, work for everyone else as well?</p>\n</blockquote>\n<p>I can make it for June 16th, 12pm PST <span aria-label=\"thumbs up\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"thumbs up\">:thumbs_up:</span></p>",
+        "id": 285654641,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1654855262
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"496984\">Charlotte Aten</span> <a href=\"#narrow/stream/323208-practice.3A-Dialectica/topic/welcome/near/285611403\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"343715\">Nelson Niu</span> Sure, 11am Pacific time should work for me as well. I just have to make sure to defend it now haha.</p>\n</blockquote>\n<p>11am even better <span aria-label=\"smiley\" class=\"emoji emoji-1f603\" role=\"img\" title=\"smiley\">:smiley:</span></p>",
+        "id": 285654665,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1654855280
+    }
+]

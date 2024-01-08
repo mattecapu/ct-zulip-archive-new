@@ -1,0 +1,82 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>Categories of (co)sieves · theory: category theory · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/index.html">theory: category theory</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/Categories.20of.20.28co.29sieves.html">Categories of (co)sieves</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="411675901"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/Categories%20of%20%28co%29sieves/near/411675901" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Josh Chen <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/Categories.20of.20.28co.29sieves.html#411675901">(Jan 08 2024 at 05:59)</a>:</h4>
+<p>Does anyone know of references about categories of (co)sieves?</p>
+<p>The <a href="https://ncatlab.org/nlab/show/cosieve">nLab page</a> on cosieves gives a brief definition organizing them into a category coSv(c) (which I think is equivalent to the full subcategory, in <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">[</mo><mi>C</mi><mo separator="true">,</mo><mi>S</mi><mi>e</mi><mi>t</mi><msup><mo stretchy="false">]</mo><mo lspace="0em" rspace="0em">→</mo></msup></mrow><annotation encoding="application/x-tex">[C, Set]^{\rightarrow}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mord mathnormal">e</span><span class="mord mathnormal">t</span><span class="mclose"><span class="mclose">]</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6198em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mrel mtight">→</span></span></span></span></span></span></span></span></span></span></span></span>, on subfunctors of corepresentables), and I can show that e.g. the forgetful functor coSv(C) -&gt; C sending cosieves to apexes has left adjoint, while I don't think it's a Grothendieck fibration. But in general, I'm not sure know how to intuit the idea behind the definition of coSv(C) in that page.</p>
+
+
+
+<a name="411682298"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/Categories%20of%20%28co%29sieves/near/411682298" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/Categories.20of.20.28co.29sieves.html#411682298">(Jan 08 2024 at 07:19)</a>:</h4>
+<p>Well, in topos theory, for a small category <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span> one studies the presheaf <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Ω</mi></mrow><annotation encoding="application/x-tex">\Omega</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Ω</span></span></span></span> on <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span> where <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Ω</mi><mo stretchy="false">(</mo><mi>c</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\Omega(c)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">Ω</span><span class="mopen">(</span><span class="mord mathnormal">c</span><span class="mclose">)</span></span></span></span> is the set of all sieves with codomain <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>c</mi></mrow><annotation encoding="application/x-tex">c</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">c</span></span></span></span>. This presheaf is important because it is the subobject classifier for the topos of presheaves, and then Grothendieck topologies can be defined in terms of Lawvere-Tierney topologies on <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Ω</mi></mrow><annotation encoding="application/x-tex">\Omega</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Ω</span></span></span></span>. I would imagine that, all things being dualized, this category coSv(C) is just the category of elements of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Ω</mi></mrow><annotation encoding="application/x-tex">\Omega</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Ω</span></span></span></span>.</p>
+<p>I'm not sure why the category of elements is of particular interest rather than the (co)presheaf itself though.</p>
+
+
+
+<a name="411682496"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/Categories%20of%20%28co%29sieves/near/411682496" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Patrick Nicodemus <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/Categories.20of.20.28co.29sieves.html#411682496">(Jan 08 2024 at 07:21)</a>:</h4>
+<p>Toby Bartels, the last person to edit that page, is active here, so you might ping him. They might know why it's important.</p>
+
+
+
+<a name="411684920"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/Categories%20of%20%28co%29sieves/near/411684920" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Morgan Rogers (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/Categories.20of.20.28co.29sieves.html#411684920">(Jan 08 2024 at 07:45)</a>:</h4>
+<p>Sometimes it can be more natural to work with copresheaves. For example, the classifying topos of an essentially algebraic theory is the category of copresheaves on its category of finitely presentable models. Subtoposes of this topos correspond to quotients of the theory (theories obtained by adding axioms in geometric logic to the original theory) and the corresponding Grothendieck topologies may be more intuitively expressed in terms of cosieves in the category of fp-models rather than sieves in the opposite category.</p>
+
+
+
+<a name="411686581"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/Categories%20of%20%28co%29sieves/near/411686581" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Josh Chen <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/Categories.20of.20.28co.29sieves.html#411686581">(Jan 08 2024 at 07:59)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="424412">Patrick Nicodemus</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/Categories.20of.20.28co.29sieves/near/411682298">said</a>:</p>
+<blockquote>
+<p>I would imagine that, all things being dualized, this category coSv(C) is just the category of elements of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Ω</mi></mrow><annotation encoding="application/x-tex">\Omega</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Ω</span></span></span></span>.</p>
+<p>I'm not sure why the category of elements is of particular interest rather than the (co)presheaf itself though.</p>
+</blockquote>
+<p>If I'm not mistaken, I think the category of elements of the copresheaf gives almost but not quite the nLab's definition of coSv(C); the nLab asks for (R' ⚬ f) to be a subset of R, where the category of elements would require equality. But that's a very nice observation, given that I was in fact wanting to use the latter version instead of the nLab's. Thank you! Though now I wonder even more about the former...</p>
+
+
+
+<a name="411688743"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/Categories%20of%20%28co%29sieves/near/411688743" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Josh Chen <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/Categories.20of.20.28co.29sieves.html#411688743">(Jan 08 2024 at 08:16)</a>:</h4>
+<p>Interestingly, I think the adjunction I mentioned earlier also no longer holds for the category of elements version, though I'm a bit jetlagged so I'll have to doublecheck everything again.</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+[
+    {
+        "content": "<p>As described in Part 0 of Lambek &amp; Scott, many duality theorems between algebra and geometry, such as Stone duality, Pontrjagin duality and Gelfand duality, arise as follows: there's a special mathematical entity E that can be regarded both as an object of an algebraic category Alg and as an object of a geometric category Geo (so it's both a space and an algebraic structure). (In the context of Stone duality E is Z/(2), which is both a ring and a topological space; in the context of Pontrjagin duality E is R/Z, which is both an abelian group and a topological abelian group.) Then one considers two functors: to each space X in Geo one assigns the object Hom(X,E) of Alg (its algebraic structure is inherited by that of E) and, similarly, to each \"algebra\" A one assigns the object Hom(A,E) of Geo. Hopefully, these two contravariant functors Alg -&gt; Geo and Geo -&gt; Alg constitute a pair of adjoint functors and restrict to an equivalence between two interesting subcategories of Alg and Geo^op.<br>\nIt's interesting that this pattern shows up again and again, the nLab has a whole page about it: <a href=\"https://ncatlab.org/nlab/show/duality+between+algebra+and+geometry\">https://ncatlab.org/nlab/show/duality+between+algebra+and+geometry</a>. My question is: can we make the analogy between all these dualities precise? Is there a hidden categorical principle behind all these dualities that generalizes the phenomenon described above?<br>\nI picked up the book <em>Stone spaces</em> by Johnstone and saw that chapter VI contains an approach to generalizing these kinds of dualities via ind- and pro-completions. But this doesn't look like what I'm searching for (I want to see a generalization of the process of picking the special object E and then considering Hom(-,E)).<br>\nAlso, what I find a bit mysterious: how to pick the right E?</p>",
+        "id": 247558376,
+        "sender_full_name": "Leopold Schlicht",
+        "timestamp": 1627548717
+    },
+    {
+        "content": "<p>You may be interested in <a href=\"https://ora.ox.ac.uk/objects/uuid:440a291d-7533-493d-b5aa-f6db30ca03cf\">Yoshihiro Maruyama's PhD thesis</a>.</p>",
+        "id": 247567394,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1627555493
+    },
+    {
+        "content": "<p>It's mainly about this question.</p>",
+        "id": 247567426,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1627555521
+    },
+    {
+        "content": "<p>At least in some cases, E is the tensor unit object.</p>",
+        "id": 247583096,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1627565403
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276363\">@Amar Hadzihasanovic</span>  Thanks! So it's a current research topic and there's no established approach for a general duality \"framework\"?</p>",
+        "id": 247598518,
+        "sender_full_name": "Leopold Schlicht",
+        "timestamp": 1627571960
+    },
+    {
+        "content": "<p>Duality theorems have been well-studied in category theory. Take a look at some of the references at the bottom of the <a href=\"https://ncatlab.org/nlab/show/dualizing+object\">nLab page for dualising object</a>, for instance.</p>",
+        "id": 247598765,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1627572075
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276363\">Amar Hadzihasanovic</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/Duality.20theorems/near/247567394\">said</a>:</p>\n<blockquote>\n<p>You may be interested in <a href=\"https://ora.ox.ac.uk/objects/uuid:440a291d-7533-493d-b5aa-f6db30ca03cf\">Yoshihiro Maruyama's PhD thesis</a>.</p>\n</blockquote>\n<p>This is probably far afield from what's afoot here, but since you linked to a very broad context, I'll go  ahead and link to a point where one brand of duality has returned to my thoughts.&nbsp;  This time it was a <a href=\"https://rjlipton.wpcomstaging.com/2020/11/12/the-art-of-math/\">post</a> on Gödel's Lost Letter, so now we both know who to blame.</p>\n<p>Cf: <a href=\"https://inquiryintoinquiry.com/2020/11/12/animated-logical-graphs-45/\">Animated Logical Graphs &bull; 45</a></p>\n<p>Regards,<br>\nJon</p>",
+        "id": 247601812,
+        "sender_full_name": "Jon Awbrey",
+        "timestamp": 1627573559
+    },
+    {
+        "content": "<p>In effectus theory you have a class of such duality-like statements that Bart Jacobs refers to as \"state-state triangles\". <a href=\"https://arxiv.org/abs/1703.09034\">https://arxiv.org/abs/1703.09034</a><br>\nHere the dualizing object is the underlying set of scalars of your theory (for instance {0,1} or [0,1]).</p>",
+        "id": 247702839,
+        "sender_full_name": "John van de Wetering",
+        "timestamp": 1627649221
+    },
+    {
+        "content": "<p>Relatedly, you also get a Stone duality between directed-complete effect monoids and Stonean spaces with a designated clopen subspace. Here the dualizing object is [0,1]. See <a href=\"https://arxiv.org/abs/1912.10040\">https://arxiv.org/abs/1912.10040</a></p>",
+        "id": 247702878,
+        "sender_full_name": "John van de Wetering",
+        "timestamp": 1627649251
+    },
+    {
+        "content": "<p>In the context of Makkai duality, E is Set, which is both an ultracategory and a pretopos. Just to add one more example. <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 248632463,
+        "sender_full_name": "Leopold Schlicht",
+        "timestamp": 1628266781
+    },
+    {
+        "content": "<p>Update: I just found out that in his 1987 paper \"Stone Duality for First Order Logic\", Makkai proposes the exact same idea of making the analogy between all dualities precise: this is discussed in chapter 8, especially in the paragraph that begins with: \"Although the idea behind the general concept of a Stone adjunction is very simple, we do not have a satisfactory general formulation of it.\"</p>",
+        "id": 250702329,
+        "sender_full_name": "Leopold Schlicht",
+        "timestamp": 1629937510
+    },
+    {
+        "content": "<p>The paper <em>Concrete Dualities</em> by Porst and Tholen looks very related to my original question.</p>",
+        "id": 275922609,
+        "sender_full_name": "Leopold Schlicht",
+        "timestamp": 1647714213
+    },
+    {
+        "content": "<p>I just realized that Nathanael Arkor already mentioned it implicitly.</p>",
+        "id": 275926120,
+        "sender_full_name": "Leopold Schlicht",
+        "timestamp": 1647719081
+    }
+]

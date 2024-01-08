@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"275920\">@John Baez</span> has a list of introductions to category theory in another thread in this Zulip by Peter Smith. I have also personally recommended Peter Smith's guide \"Teach Yourself Logic\" to people on occasion. There are lots of good resources on his blog.</p>\n<p>However, Peter Smith is a bad person and should be persona non grata in the community of logicians and category theorists. He has committed some horrifying crimes, the specifics of which are perhaps better left unsaid. Certainly I would strongly encourage any convention or conference not to invite him. I would like to pose it as an open question for discussion: if the person themselves is absolutely unwelcome in the community because of their behavior, should that extend to their published work, blogs and so on?</p>\n<p>Would it be better to compose alternative resources? I don't know, honestly. Is there any real harm in linking somebody to his blog or website? Is it worth warning people \"Oh, yes, this is also a really bad guy who should not be welcome here\"</p>",
+        "id": 370470297,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1687965469
+    },
+    {
+        "content": "<blockquote>\n<p>if the person themselves is absolutely unwelcome in the community because of their behavior, should that extend to their published work, blogs and so on?</p>\n</blockquote>\n<p>I think there are three categories.</p>\n<p>If your research builds on the research of another person it is academically dishonest not to cite them.</p>\n<p>If on the otherhand someone is a serial plagiarist then it is academically dishonest to cite them.</p>\n<p>If you don't want to give someone a promotion because there is some non-academic reason why people don't like them, that is a different issue.</p>",
+        "id": 370472516,
+        "sender_full_name": "Cole Comfort",
+        "timestamp": 1687965802
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277391\">Cole Comfort</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/When.20to.20exclude.20someone's.20written.20works.20or.20sources/near/370472516\">said</a>:</p>\n<blockquote>\n<p>If your research builds on the research of another person it is academically dishonest not to cite them.</p>\n</blockquote>\n<p>This much is the part that everyone agrees on, which sometimes makes life easier when dealing with very complicated issues</p>\n<p>A gnarlier situation is when it goes beyond citing someone, to honouring them with naming scientific concepts. In our field, the big one is Freyd.</p>",
+        "id": 370479553,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1687966853
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275901\">Jules Hedges</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/When.20to.20exclude.20someone's.20written.20works.20or.20sources/near/370479553\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"277391\">Cole Comfort</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/When.20to.20exclude.20someone's.20written.20works.20or.20sources/near/370472516\">said</a>:</p>\n<blockquote>\n<p>If your research builds on the research of another person it is academically dishonest not to cite them.</p>\n</blockquote>\n<p>This much is the part that everyone agrees on, which sometimes makes life easier when dealing with very complicated issues</p>\n<p>A gnarlier situation is when it goes beyond citing someone, to honouring them with naming scientific concepts. In our field, the big one is Freyd.</p>\n</blockquote>\n<p>We shouldn't name things after people in the first place, no matter how great they are.  I think it is better to have well structured naming conventions.</p>",
+        "id": 370481326,
+        "sender_full_name": "Cole Comfort",
+        "timestamp": 1687967130
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"277391\">@Cole Comfort</span> I agree in general, but theorems tend somewhat inevitably to get people's names attached to them, and avoiding those is trickier (although it's possible to be bullheaded about it and just drop a name sometimes)</p>",
+        "id": 370559592,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1687982045
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/When.20to.20exclude.20someone's.20written.20works.20or.20sources/near/370559592\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"277391\">Cole Comfort</span> I agree in general, but theorems tend somewhat inevitably to get people's names attached to them, and avoiding those is trickier (although it's possible to be bullheaded about it and just drop a name sometimes)</p>\n</blockquote>\n<p>Sometimes there are other names that are good alternatives.  For a purely pragmatic reason I much prefer to use the term \"effectful category\" over \"Freyd category.\"  But it is not as entrenched as say, Yoneda's Lemma, which could just as easily be called something like \"the embedding theorem\" or the \"representation theorem\"</p>",
+        "id": 370573042,
+        "sender_full_name": "Cole Comfort",
+        "timestamp": 1687985804
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"424412\">Patrick Nicodemus</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/When.20to.20exclude.20someone's.20written.20works.20or.20sources/near/370470297\">said</a>:</p>\n<blockquote>\n<p>However, Peter Smith is a bad person and should be persona non grata in the community of logicians and category theorists. He has committed some horrifying crimes, the specifics of which are perhaps better left unsaid. </p>\n</blockquote>\n<p>I am quite opposed to this. If you or someone else has some specific behavior you would like to condemn, go ahead and do it publicly.</p>",
+        "id": 370597817,
+        "sender_full_name": "Spencer Breiner",
+        "timestamp": 1687995309
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"278008\">Spencer Breiner</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/When.20to.20exclude.20someone's.20written.20works.20or.20sources/near/370597817\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"424412\">Patrick Nicodemus</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/When.20to.20exclude.20someone's.20written.20works.20or.20sources/near/370470297\">said</a>:</p>\n<blockquote>\n<p>However, Peter Smith is a bad person and should be persona non grata in the community of logicians and category theorists. He has committed some horrifying crimes, the specifics of which are perhaps better left unsaid. </p>\n</blockquote>\n<p>I am quite opposed to this. If you or someone else has some specific behavior you would like to condemn, go ahead and do it publicly.</p>\n</blockquote>\n<p>I would like to condemn my referee who assumed that morphisms are invertible</p>",
+        "id": 370625040,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1688011814
+    },
+    {
+        "content": "<p>That's probably a very controversial opinion but I don't feel a need to judge people by myself. If someone should be condemned for his crimes, courts are here for that. If the person wrote a good book on logic or category theory, I don't think that his book should be forgotten forever in addition to the proportionate punishment that would have been  decided by relevant authorities, in accordance to the laws, if the crime has been recognized. Justice is something complex and I think judges are better than me to judge people. We no longer condemn people to death, in the same way I don't think that mob justice is something good in the panel of primitive ways to do justice. No need to \"kill socially\" someone because I think he is a bad person. Was someone be considered as a monster, I will not forbid myself to read his book on something completely unrelated to these crimes. I can accept that someone has dark and bright sides. Let's say people are \"compositional systems\". The mathematical intelligence of a person is something different than the rest of this person. It can be found in different persons, bad or not bad in terms of other components.</p>",
+        "id": 370639083,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1688016571
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"278008\">Spencer Breiner</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/When.20to.20exclude.20someone's.20written.20works.20or.20sources/near/370597817\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"424412\">Patrick Nicodemus</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/When.20to.20exclude.20someone's.20written.20works.20or.20sources/near/370470297\">said</a>:</p>\n<blockquote>\n<p>However, Peter Smith is a bad person and should be persona non grata in the community of logicians and category theorists. He has committed some horrifying crimes, the specifics of which are perhaps better left unsaid. </p>\n</blockquote>\n<p>I am quite opposed to this. If you or someone else has some specific behavior you would like to condemn, go ahead and do it publicly.</p>\n</blockquote>\n<p>I agree with Spencer, since it's too easy to say someone has done something horrible while providing no evidence.    In this particular case it's fairly easy to find newspaper accounts of Peter Smith's conviction <a href=\"https://web.archive.org/web/20120306223635/https://www.cambridge-news.co.uk/Home/Cambridge-don-sentenced-for-child-porn-charges-02032012.htm\">here</a> and <a href=\"https://www.dailymail.co.uk/news/article-2127450/Cambridge-University-allow-child-pornography-don-continue-teaching-lectures.html\">here</a>.</p>",
+        "id": 370945211,
+        "sender_full_name": "John Baez",
+        "timestamp": 1688080313
+    },
+    {
+        "content": "<p>Thanks. Googling \"Peter Smith\" led nowhere</p>",
+        "id": 370945813,
+        "sender_full_name": "Spencer Breiner",
+        "timestamp": 1688080571
+    },
+    {
+        "content": "<p>I would tell you what keywords I googled, but the specifics are perhaps better left unsaid.  <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 370945900,
+        "sender_full_name": "John Baez",
+        "timestamp": 1688080611
+    }
+]

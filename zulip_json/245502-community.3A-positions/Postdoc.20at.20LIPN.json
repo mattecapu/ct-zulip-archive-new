@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>A postdoc position is open at Université Sorbonne Paris Nord (USPN), located in the northern suburbs of Paris, at either LIPN (the CS lab) or LAGA (the math lab).  The opening is very broad but category-theory-related research is among the possible topics.  I copy and paste the official announcement (the person who translated it failed to explicitly explain that \"STIC\" in french means \"Information and Communication Sciences and Technologies\"):</p>\n<p>The MathSTIC federation is part of the Sorbonne Paris Nord University's project to create a real research center in the fields of Mathematics, Computer science and Communication and Information Technology in the heart of the north of the Ile de France, more precisely on the Villetaneuse site. The objective of this project is to promote cross-research math-STIC and their applications, and to bring out innovative research at the interface of 3 laboratories: the LAGA (Laboratory of Analysis, Geometry and Applications), the LIPN (Laboratory of Computer Science of Paris-Nord) and the L2TI (Laboratory of Communication and Information Technology). The federation is structured in four research axes: Axis 1 Optimization and Machine Learning applied to Data, Axis 2 High-Performance Computing, Distributed Systems, Axis 3 Mathematical Physics, Statistical Physics, Combinatorics and Axis 4 Categories: Computation and Topology.</p>\n<p>The MathSTIC research federation can fund up to 8 months of staff costs (post-doc or engineer). This amount may be completed by funding obtained elsewhere (ANR or other).</p>\n<p>Proposals must be sent to Roberto Wolfler Calvo (<a href=\"mailto:wolfler@lipn.fr\">wolfler@lipn.fr</a>) no later than <em>May 30, 2023</em>, in order to notify the selected project(s) from June 2023. The selection will be made by the steering committee of MathSTIC.</p>\n<p>The salary is 2970€ gross per month.</p>\n<p>The application package will include</p>\n<ul>\n<li>the name of the advisor(s),</li>\n<li>the description of the complete, but concise, scientific project (1 page maximum), clearly explaining the work program of the person who would be hired, the inter-laboratory or inter-team collaborations and the interest for at least one of the axes of MathSTIC,</li>\n<li>the starting date of the recruitment and its duration,</li>\n<li>the CV of the candidate.</li>\n</ul>",
+        "id": 350508638,
+        "sender_full_name": "Damiano Mazza",
+        "timestamp": 1681736881
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276839\">Damiano Mazza</span> <a href=\"#narrow/stream/245502-general.3A-positions/topic/Postdoc.20at.20LIPN/near/350508638\">said</a>:</p>\n<blockquote>\n<p>The MathSTIC research federation can fund up to 8 months of staff costs (post-doc or engineer). This amount may be completed by funding obtained elsewhere (ANR or other).</p>\n</blockquote>\n<p>Am I correct in understanding that this is a postdoc for the duration of 8 months? I'm not sure what the second sentence means.</p>",
+        "id": 351722995,
+        "sender_full_name": "Bruno Gavranović",
+        "timestamp": 1682107615
+    },
+    {
+        "content": "<p>Maybe it means: if you can find more money, you're allowed to work longer.  <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 351738650,
+        "sender_full_name": "John Baez",
+        "timestamp": 1682113810
+    },
+    {
+        "content": "<p>Several members of the lab have access to ANR grants (a type of funding for large research projects in France), so if you get to the point of designing a project which fits into the themes of one of those grants, you will be able to stay for more than 8 months. Get in contact people there to see if this is viable!</p>",
+        "id": 351844999,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1682160902
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276875\">Bruno Gavranović</span> <a href=\"#narrow/stream/245502-general.3A-positions/topic/Postdoc.20at.20LIPN/near/351722995\">said</a>:</p>\n<blockquote>\n<p>Am I correct in understanding that this is a postdoc for the duration of 8 months? I'm not sure what the second sentence means.</p>\n</blockquote>\n<p>Sorry I see this only now.  What John and Morgan say is correct: the MathSTIC federation only has funds to support 8 months.  It is possible to do a longer post-doc if the person with whom you submit the project has additional funds of their own, via existing grants.</p>",
+        "id": 352004860,
+        "sender_full_name": "Damiano Mazza",
+        "timestamp": 1682232436
+    }
+]

@@ -1,0 +1,194 @@
+[
+    {
+        "content": "<p>Has anybody else found that the eptcs template is broken? I just downloaded a fresh copy from <code>eptcs.org</code> and it complains of a missing file <code>letterpaper.sty</code> ..... I wonder if that's something that used to be included with MacTeX but now is not</p>",
+        "id": 281424465,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1651836185
+    },
+    {
+        "content": "<p>Uh, does it change from year to year? I've shamelessly copied the one we used last year</p>",
+        "id": 281431092,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1651840307
+    },
+    {
+        "content": "<p>Never mind, I am in fact an idiot</p>",
+        "id": 281431192,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1651840344
+    },
+    {
+        "content": "<p>Speaking of which - we never advertised the ACT call for papers here! I hope nobody is surprised by this. The deadline was just extended by 2 days, to next Wednesday</p>",
+        "id": 281443059,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1651845956
+    },
+    {
+        "content": "<p>I did my best to advertise the call for papers on Twitter and my blogs...  I'm not going to tell my coauthors that the deadline has been extended, I want our paper done today.   <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 281467875,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651857142
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"275899\">@Christian Williams</span> and I were never able to get the eptcs template to work, so I'll only attempt that when it's absolutely necessary.</p>",
+        "id": 281467939,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651857186
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"275932\">@Matteo Capucci (he/him)</span> the template doesn’t change much, but it’s slowly getting better, latest here</p>\n<p><a href=\"https://github.com/EPTCS/style\">https://github.com/EPTCS/style</a></p>",
+        "id": 281717566,
+        "sender_full_name": "Kartik",
+        "timestamp": 1652116910
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275901\">Jules Hedges</span> <a href=\"#narrow/stream/229156-practice.3A-applied-ct/topic/ACT22/near/281443059\">said</a>:</p>\n<blockquote>\n<p>Speaking of which - we never advertised the ACT call for papers here! I hope nobody is surprised by this. The deadline was just extended by 2 days, to next Wednesday</p>\n</blockquote>\n<p>Nice, that's a bit helpful <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span> <br>\nbtw, what does the  \"abstract deadline\" (as opposed to the \"submission deadline\") refer to? Are there different deadlines for the proceedings track and the presentation track?</p>",
+        "id": 281738527,
+        "sender_full_name": "Tomáš Gonda",
+        "timestamp": 1652126632
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"302756\">Tomáš Gonda</span> <a href=\"#narrow/stream/229156-practice.3A-applied-ct/topic/ACT22/near/281738527\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275901\">Jules Hedges</span> <a href=\"#narrow/stream/229156-practice.3A-applied-ct/topic/ACT22/near/281443059\">said</a>:</p>\n<blockquote>\n<p>Speaking of which - we never advertised the ACT call for papers here! I hope nobody is surprised by this. The deadline was just extended by 2 days, to next Wednesday</p>\n</blockquote>\n<p>Nice, that's a bit helpful :D <br>\nbtw, what does the  \"abstract deadline\" (as opposed to the \"submission deadline\") refer to? Are there different deadlines for the proceedings track and the presentation track?</p>\n</blockquote>\n<p>By the way, \"next Wednesday\" is <em>this</em> Wednesday, May 11 2022.</p>\n<p>Yes, there are two tracks for submissions, as explained <a href=\"https://msp.cis.strath.ac.uk/act2022/cfp.html\">on the conference webpage</a>.</p>",
+        "id": 281739748,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652127188
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"302756\">Tomáš Gonda</span> <a href=\"#narrow/stream/229156-practice.3A-applied-ct/topic/ACT22/near/281738527\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275901\">Jules Hedges</span> <a href=\"#narrow/stream/229156-practice.3A-applied-ct/topic/ACT22/near/281443059\">said</a>:</p>\n<blockquote>\n<p>Speaking of which - we never advertised the ACT call for papers here! I hope nobody is surprised by this. The deadline was just extended by 2 days, to next Wednesday</p>\n</blockquote>\n<p>Nice, that's a bit helpful :D <br>\nbtw, what does the  \"abstract deadline\" (as opposed to the \"submission deadline\") refer to? Are there different deadlines for the proceedings track and the presentation track?</p>\n</blockquote>\n<p>It is true that there are two tracks for submissions, but the deadlines are the same for both. The \"abstract deadline\" (now hopefully clarified to \"title and abstract deadline\") also applies to both of them, and refers to a plea for the submission of <em>just</em> the title and a short (~ one-paragraph) abstract of the planned full submission. The idea is that reviewing duties can then be distributed among the Program Committee as soon as possible based on these short abstracts, leaving more time for reviewers to check the correctness of proofs etc.</p>\n<p>The title and abstract submission deadline is soon, at <time datetime=\"2022-05-10T11:59:00Z\">2022-05-09T23:59:00-12:00</time>, and the full submission deadline two days later at <time datetime=\"2022-05-12T11:59:00Z\">2022-05-11T23:59:00-12:00</time> .</p>",
+        "id": 281749217,
+        "sender_full_name": "Fredrik Nordvall Forsberg",
+        "timestamp": 1652132175
+    },
+    {
+        "content": "<p>I see \"Tuesday\" and \"Thursday\" in Fredrik's post here, so I'll just warn everyone that the conference website says</p>\n<blockquote>\n<p>Title and Abstract deadline: Monday 9 May<br>\nFull submission deadline: Wednesday 11 May </p>\n</blockquote>\n<p>If these deadlines are \"anywhere in the world\", maybe this is consistent with what Fredrik wrote.</p>\n<p>To play it safe, I recommend having already submitted your abstract.   <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 281750770,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652133122
+    },
+    {
+        "content": "<p>Zulip should show you the above \"Anywhere on Earth\" times in your local time zone. If you are currently on <a href=\"https://en.wikipedia.org/wiki/Howland_and_Baker_Islands\">Howland or Baker Island</a>, that will be one minute to midnight on Monday (and Wednesday, respectively), but for many of us, it will be Tuesday (and Thursday) instead.Personally I like to think of an Anywhere on Earth deadline as being at the end of the day in my timezone, with the day ending early in the morning of the next day if required.</p>",
+        "id": 281752955,
+        "sender_full_name": "Fredrik Nordvall Forsberg",
+        "timestamp": 1652134402
+    },
+    {
+        "content": "<p>Okay, my suspicions were correct, it all makes sense.   So if I sought maximal procrastination I'd postpone my full submission to 4:59 am Pacific Daylight Time on Thursday May 12th, and worry about whether that's the time I need to <em>start</em> my submission or the time I need to <em>finish</em> it.   <span aria-label=\"nervous\" class=\"emoji emoji-1f62c\" role=\"img\" title=\"nervous\">:nervous:</span>  But in fact I did my submissions last week.</p>",
+        "id": 281753704,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652134909
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229156-practice.3A-applied-ct/topic/ACT22/near/281467939\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275899\">Christian Williams</span> and I were never able to get the eptcs template to work, so I'll only attempt that when it's absolutely necessary.</p>\n</blockquote>\n<p>Missed this message before, but if you face any problems with the template, please file an issue at <a href=\"https://github.com/EPTCS/style/issues\">https://github.com/EPTCS/style/issues</a> I recently started volunteering to improve EPTCS TeX infrastructure.</p>",
+        "id": 281771781,
+        "sender_full_name": "Kartik",
+        "timestamp": 1652151736
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"277960\">@Fredrik Nordvall Forsberg</span> how do we go about submitting Title and Abstract? On EasyChair I'm asked to upload a file as well</p>",
+        "id": 281805834,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1652179359
+    },
+    {
+        "content": "<p>That field should be optional</p>",
+        "id": 281805880,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1652179400
+    },
+    {
+        "content": "<p>Unless the time zone settings are slightly wrong, in which case we have a problem</p>",
+        "id": 281805930,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1652179431
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/229156-practice.3A-applied-ct/topic/ACT22/near/281805834\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"277960\">Fredrik Nordvall Forsberg</span> how do we go about submitting Title and Abstract? On EasyChair I'm asked to upload a file as well</p>\n</blockquote>\n<p>Indeed you should just be able to submit without choosing to upload a file.</p>",
+        "id": 281806032,
+        "sender_full_name": "Fredrik Nordvall Forsberg",
+        "timestamp": 1652179479
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276622\">Kartik</span> <a href=\"#narrow/stream/229156-practice.3A-applied-ct/topic/ACT22/near/281771781\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229156-practice.3A-applied-ct/topic/ACT22/near/281467939\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275899\">Christian Williams</span> and I were never able to get the eptcs template to work, so I'll only attempt that when it's absolutely necessary.</p>\n</blockquote>\n<p>Missed this message before, but if you face any problems with the template, please file an issue at <a href=\"https://github.com/EPTCS/style/issues\">https://github.com/EPTCS/style/issues</a> I recently started volunteering to improve EPTCS TeX infrastructure.</p>\n</blockquote>\n<p>Thanks!  That's good to know!</p>",
+        "id": 281920325,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652246768
+    },
+    {
+        "content": "<p>A lot of basic questions about ACT2022 are still not answered on the <a href=\"https://msp.cis.strath.ac.uk/act2022/\">conference website</a>, and some people are starting to go crazy wondering about these questions.   Most of all:</p>\n<ul>\n<li>Will the conference be in hybrid format?   This is two questions:  Can we speak at the conference without being physically present?   Can we listen to the talks without being physical present?</li>\n</ul>\n<p>I asked <span class=\"user-mention\" data-user-id=\"275901\">@Jules Hedges</span>about this and he seemed to say <em>yes</em>, but unless this is on the conference website people can't make travel plans!</p>",
+        "id": 284882182,
+        "sender_full_name": "John Baez",
+        "timestamp": 1654264659
+    },
+    {
+        "content": "<p><a href=\"https://golem.ph.utexas.edu/category/2022/02/applied_category_theory_2022.html#c061398\">James Sheppard</a> raised some other questions, too:</p>\n<blockquote>\n<p>There are six working weeks between now and the conference. Prospective participants need to know such things as whether the conference will be in-person, on-line or hybrid and what fees if any will be charged. Then of course they need to be able to register so that they know they have a place, and make their travel and accommodation arrangements.</p>\n</blockquote>",
+        "id": 284882426,
+        "sender_full_name": "John Baez",
+        "timestamp": 1654264756
+    },
+    {
+        "content": "<p>So:</p>\n<ul>\n<li>\n<p>Do people need to register to attend?   If so, how should they do it?</p>\n</li>\n<li>\n<p>Is there a fee?   (I hope not.)</p>\n</li>\n</ul>",
+        "id": 284882513,
+        "sender_full_name": "John Baez",
+        "timestamp": 1654264799
+    },
+    {
+        "content": "<p>These need to be addressed on the conference website <em>now</em>.</p>",
+        "id": 284882607,
+        "sender_full_name": "John Baez",
+        "timestamp": 1654264821
+    },
+    {
+        "content": "<p>There is now a call for participation here: <a class=\"stream-topic\" data-stream-id=\"229141\" href=\"/#narrow/stream/229141-general.3A-events/topic/ACT.202022\">#general: events &gt; ACT 2022</a></p>",
+        "id": 284904758,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1654275250
+    },
+    {
+        "content": "<p>tl;dr If you want to attend in person, please register at <a href=\"https://onlineshop.strath.ac.uk/conferences-and-events/science-faculty/computer-and-information-science/5th-international-conference-on-applied-category-theory-act-2022\">https://onlineshop.strath.ac.uk/conferences-and-events/science-faculty/computer-and-information-science/5th-international-conference-on-applied-category-theory-act-2022</a> and pay a nominal registration fee</p>",
+        "id": 284904813,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1654275279
+    },
+    {
+        "content": "<p>Please copy in relevant places!</p>",
+        "id": 284904829,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1654275287
+    },
+    {
+        "content": "<p>With a minimal amount of reading between the lines you can see the sort of reason things are happening so late. It seems nobody in the university can tell us what the current covid regulations are because they don't know either. We still really have no idea what the capacity of the room will be</p>",
+        "id": 284904940,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1654275353
+    },
+    {
+        "content": "<p>The website has also be updated with this information</p>",
+        "id": 284905613,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1654275667
+    },
+    {
+        "content": "<p>I'm very sorry to be the first ACT to charge a registration fee, even if it's very small. We needed to give ourselves the ability to limit registration later once anyone at the university can tell us how many people can be in the room, so this is a psychological nudge (like charging 20c for a plastic carrier bag) to stop people from registering if they don't really mean it</p>",
+        "id": 284906011,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1654275847
+    },
+    {
+        "content": "<p>There are still covid restrictions in Scotland?  I thought it was over in the UK, but I guess it is just England.</p>",
+        "id": 284919870,
+        "sender_full_name": "Cole Comfort",
+        "timestamp": 1654282720
+    },
+    {
+        "content": "<p>Rules requiring masks have just been reinstated in some California counties, so I imagine the future of COVID remains difficult to predict.</p>",
+        "id": 284938858,
+        "sender_full_name": "John Baez",
+        "timestamp": 1654294503
+    },
+    {
+        "content": "<p>There's no regulations coming from the Scottish government, but there are coming from the university</p>",
+        "id": 284975191,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1654342959
+    }
+]

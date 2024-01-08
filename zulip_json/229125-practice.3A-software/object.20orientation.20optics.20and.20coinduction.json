@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>I am in preparing presentations based on my previous work \"Prototypes: Object-Orientation, Functionally\" <a href=\"https://github.com/metareflection/poof\">https://github.com/metareflection/poof</a> and I'm looking for help to understand how best to formalize the optics involved in advanced OO constructs: nested or mutually recursive objects or classes, multimethods, method combinations, etc. — and maybe also to understand how the coinductive and potentially non-terminating aspects of the fixed-points involved in OO specifications can be reconciled with using them to describe inductive and definitely-terminating computations in dependent type theory.</p>",
+        "id": 399237325,
+        "sender_full_name": "Faré",
+        "timestamp": 1698649420
+    }
+]

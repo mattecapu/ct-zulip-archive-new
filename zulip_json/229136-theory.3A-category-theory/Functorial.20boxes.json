@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277391\">Cole Comfort</span> <a href=\"#narrow/stream/229136-theory.3A-category.20theory/topic/category.20theory.20in.20chemistry/near/224808154\">said</a>:</p>\n<blockquote>\n<p>They go back much earlier, like in <a href=\"https://core.ac.uk/download/pdf/82281996.pdf\">this paper of Cockett and Seely</a>. But I don't know who invented them, or if they are just folklore.</p>\n</blockquote>\n<p>Huh, I believed that Aleks Kissinger invented functorial boxes about 10 years after that paper, so much for that</p>",
+        "id": 224853460,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1612262160
+    },
+    {
+        "content": "<p>I learnt about them from <a href=\"https://www.irif.fr/~mellies/mpri/mpri-ens/articles/mellies-functorial-boxes.pdf\">this paper</a> by Paul-André Melliès who credits Cockett, Seely, and Blute with their invention.</p>",
+        "id": 224855210,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1612263255
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"275901\">@Jules Hedges</span> are you sure you are not thinking of Aleks's !-boxes?</p>",
+        "id": 224855346,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1612263329
+    },
+    {
+        "content": "<p>Can !-boxes be seen as functor boxes for monoidal (co)monads?</p>",
+        "id": 224856459,
+        "sender_full_name": "Cole Comfort",
+        "timestamp": 1612263944
+    },
+    {
+        "content": "<p>Or are they completely unrelated, I wonder</p>",
+        "id": 224856527,
+        "sender_full_name": "Cole Comfort",
+        "timestamp": 1612263967
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276363\">Amar Hadzihasanovic</span> <a href=\"#narrow/stream/229136-theory.3A-category.20theory/topic/category.20theory.20in.20chemistry/near/224855346\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275901\">Jules Hedges</span> are you sure you are not thinking of Aleks's !-boxes?</p>\n</blockquote>\n<p>I'm sure I was thinking of them. I guess !-boxes are a special case of functorial boxes</p>",
+        "id": 224874111,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1612274327
+    },
+    {
+        "content": "<p>I think there may be a translation between the two formalisms (where a diagram with !-boxes becomes a “diagram with holes”, aka a context, and the holes are inside functorial boxes) but it's not immediate... <br>\nFor example an instantiation of a !-box can attribute a different type to nodes that are <em>outside</em> the !-box, which a functorial box can never do. </p>\n<p>Perhaps we can ask <span class=\"user-mention\" data-user-id=\"295673\">@Aleks Kissinger</span> if he tried to make a connection.</p>",
+        "id": 224875976,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1612275206
+    },
+    {
+        "content": "<p>(I split the topic too since this is no longer about chemistry)</p>",
+        "id": 224889318,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1612280888
+    },
+    {
+        "content": "<p>a long time ago, Ross Duncan and I were looking for some kind of categorical interpretation of !-boxes as comonads or similar, but never got anywhere. as Amar said, the challenge is instantiating them within a diagram changes the types of morphisms around them, which is very much not functor-like. We ultimately settled on them being described purely as syntax, living at the level of graphs</p>",
+        "id": 224983623,
+        "sender_full_name": "Aleks Kissinger",
+        "timestamp": 1612338786
+    },
+    {
+        "content": "<p>the earliest i've seen something like functorial box (or \"functorial bubble\") notation is in the appendix of Spinors and Spacetime (Penrose and Rindler, 1984). the authors introduce string diagram notations for various differential operations on tensors by drawing different kinds of bubbles around them</p>",
+        "id": 224983887,
+        "sender_full_name": "Aleks Kissinger",
+        "timestamp": 1612339024
+    },
+    {
+        "content": "<p>however, they don't insist that composition (aka tensor contraction) is preserved, so they are an instance of something more general than a functorial box. also, many times there are different numbers of wires on the outside of a box than the inside. for instance, taking the gradient of a scalar field yields a vector field. this is pictured as a box with no wires inside and 1 wire outside</p>",
+        "id": 224984204,
+        "sender_full_name": "Aleks Kissinger",
+        "timestamp": 1612339287
+    }
+]

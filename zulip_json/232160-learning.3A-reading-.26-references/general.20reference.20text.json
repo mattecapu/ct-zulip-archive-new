@@ -1,0 +1,140 @@
+[
+    {
+        "content": "<p>Apologies for rehashing something that I'm sure has been asked before. But I am currently working through Emily Riehl's \"Category Theory in Context\". It's a great text, but I'm definitely lacking some of the math background needed to grasp many of the examples. My understanding of category theory thus far is mostly limited to the context of sets + programming analogies, and I'd like to slowly expand that to some of the more interesting and common crossover topics.</p>\n<p>Can anyone recommend a good general math reference text? My criteria is pretty loose, but I think I'm looking for a relatively broad text that covers some common topics in category theory in an introductory manner but with enough depth to work through some of the interesting applications of CT. Others probably know better than I do what counts as \"common crossover topics\", but I'm thinking along the lines of groups, rings, fields, topology, etc.</p>",
+        "id": 298614596,
+        "sender_full_name": "gio",
+        "timestamp": 1663083991
+    },
+    {
+        "content": "<p>In other words, how do I replace a proper mathematics education with a few textbooks? <span aria-label=\"grimacing\" class=\"emoji emoji-1f62c\" role=\"img\" title=\"grimacing\">:grimacing:</span></p>",
+        "id": 298615013,
+        "sender_full_name": "gio",
+        "timestamp": 1663084116
+    },
+    {
+        "content": "<p>Hi gio!<br>\nI also am chipping away at that book as I'm able to. And I also find that I don't have the math background to follow many of the examples. In addition, I sometimes find the presentation a little bit tricky to follow.</p>\n<p>I'm currently very happy with <a href=\"https://arxiv.org/pdf/1912.10642.pdf\">this</a> book \"Notes on Category Theory: with examples from basic mathematics\" by Perrone. It's based on that book by Riehl, but I've found it a little more friendly to follow given my background. The author suggests that Riehl's book could also be used as a second book after \"Notes on Category Theory\".</p>\n<p><a href=\"https://math.mit.edu/~dspivak/teaching/sp18/7Sketches.pdf\">This</a> book \"Seven Sketches in Compositionality: An Invitation to Applied Category Theory\" by Fong and Spivak is also excellent, with lots of examples/applications. Some parts of it are tough for me to follow, but a lot of it is really accessible.</p>\n<p>You might also possibly enjoy \"Conceptual Mathematics\" by Lawvere and Schanuel. (You can find a pdf by googling the title). I found the parts of this book that I've read really thought provoking - almost philosophical in nature at times.</p>\n<p>(I've also found it really helpful to have access to textbooks intended as a first introduction to crossover topics of interest. It can be quite fun to bounce back and forth between these books and then books that work with these topics in a category theory context. Usually one can find elementary textbooks on popular topics via googling.)</p>",
+        "id": 298615607,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1663084311
+    },
+    {
+        "content": "<p>I remember Harold Simmons' intro to category theory being relatively unassuming, if you instead would like a book with fewer requirements.</p>",
+        "id": 298615963,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1663084426
+    },
+    {
+        "content": "<p>(caveat: it has been about 7 years since I read that)</p>",
+        "id": 298616055,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1663084450
+    },
+    {
+        "content": "<p>Thanks all! I will definitely check those out. I should have been a bit more specific, but I am actually working through a whole stack of CT books (Riehl, Awodey's Category Theory, Fong and Spivak's Seven Sketches, and Milewski's CT for Programmers). It has been very helpful to jump around between books and often see the same things approached from different perspectives -- exploring the \"primordial ooze\" as Seven Sketches refers to it.</p>\n<p>I am definitely on the lookout for more CT books, but I'm also feeling like I've exhausted my non-CT math knowledge a bit, and would be able to understand CT topics more thoroughly if I also dove into the basics of some other math topics.</p>",
+        "id": 298617428,
+        "sender_full_name": "gio",
+        "timestamp": 1663084877
+    },
+    {
+        "content": "<p>Ah, I see. I don't know exactly what your background is, but I can share some of the books that I've found helpful for myself (I took the math classes required for an engineering undergraduate degree). </p>\n<p>Some introductory books I liked:<br>\nFor topology, \"Introduction to Topology: Pure and Applied\" by Colin Adams<br>\nFor analysis, \"Understanding Analysis\" by Stephan Abbott<br>\nI never found one I really liked for group theory. I ended up learning some from \"Algebra: Chapter 0\" by Aluffi, but it was a bit too hard to be efficient. I also tried working a bit on \"Contemporary Abstract Algebra\" by Gallian, but I found that a bit boring.<br>\nWhen I go back to learn a bit more group theory, I'm intending to use \"An Invitation to Representation Theory\" by R. Michael Howe.<br>\nFor linear algebra, I used the first part of \"Advanced Linear Algebra\" by Stephen Roman. This also got me interested in modules, although at the time I was reading this I found the section on modules a bit tough.</p>\n<p>A couple other books that look promising to me at an introductory level but I haven't tried to read yet: \"Linearity, Symmetry, and Prediction in the Hydrogen Atom\" by Singer; and \"Algebraic Topology\" by Butscher and Rubinstein-Salzedo.</p>",
+        "id": 298620037,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1663085665
+    },
+    {
+        "content": "<p>Thanks David, this is a super helpful list.</p>\n<p>My math background is very limited and almost entirely ad-hoc, with the exception of a lot of calculus that I have since forgotten. So, any and all recommendations that might be relevant to CT (or just basic need-to-know math background) are very welcome.</p>",
+        "id": 298623795,
+        "sender_full_name": "gio",
+        "timestamp": 1663086930
+    },
+    {
+        "content": "<p>Analysis is one topic that I hadn't considered before you mentioned it, but I suspect it might be a great place to start building up some mathematical background knowledge.</p>",
+        "id": 298624138,
+        "sender_full_name": "gio",
+        "timestamp": 1663087064
+    },
+    {
+        "content": "<p><a href=\"https://www2.math.upenn.edu/~ghrist/notes.html\">Elementary Applied Topology</a> is pretty interesting, with lots of pictures and examples. You might also like Conway's book \"The Symmetries of Things\".</p>",
+        "id": 298665551,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1663102341
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"543051\">gio</span> <a href=\"#narrow/stream/232160-learning.3A-reading-groups/topic/General.20reference.20text/near/298614596\">said</a>:</p>\n<blockquote>\n<p>Can anyone recommend a good general math reference text? </p>\n</blockquote>\n<p>Math is such a huge subject that it's hard to introduce even the basics in one book.   You mention \"groups, rings, fields, topology, etc.\"  If we skip the \"etc.\" and focus on those 4 things you can learn about them from an introductory algebra book and an introductory topology book.</p>",
+        "id": 298671679,
+        "sender_full_name": "John Baez",
+        "timestamp": 1663105180
+    },
+    {
+        "content": "<p>Everyone who goes into  pure math winds up studying some algebra and some topology, and they'll have different opinions on books.  Without much confidence I might recommend Jacobson's <em><a href=\"https://www.amazon.co.uk/Basic-Algebra-Dover-Books-Mathematics/dp/0486471896\">Basic Algebra I</a></em> and Munkres' <em><a href=\"https://www.amazon.co.uk/Topology-Classic-Version-Math-Classics/dp/0134689518/ref=sr_1_1?crid=W6PJHGKHGLX0&amp;keywords=munkres+topology&amp;qid=1663105537&amp;s=books&amp;sprefix=munkres+topology%2Cstripbooks%2C238&amp;sr=1-1\">Topology</a></em> - they are, at least, famous standard treatments that cover the basic stuff.</p>",
+        "id": 298672558,
+        "sender_full_name": "John Baez",
+        "timestamp": 1663105588
+    },
+    {
+        "content": "<p>If you want a less thorough introduction to topology that emphasizes its connection to category theory, try Bradley, Bryerson and Terilla's <em><a href=\"https://mitpress.mit.edu/9780262359627/topology/\">Topology: a Categorical Approach</a></em>.  I really like this book.  You won't come out of it knowing all the standard basic stuff, but you'll probably have more fun and understand some things more deeply.</p>",
+        "id": 298673117,
+        "sender_full_name": "John Baez",
+        "timestamp": 1663105844
+    },
+    {
+        "content": "<p>For a truly general overview of math written by one of inventors of category theory, I recommend <em><a href=\"https://www.amazon.co.uk/Mathematics-Form-Function-Saunders-MacLane/dp/0387962174\">Mathematics: Form and Function</a></em> by Mac Lane.   It's not a substitute for books on specific topics.</p>",
+        "id": 298673395,
+        "sender_full_name": "John Baez",
+        "timestamp": 1663105970
+    },
+    {
+        "content": "<p>Just in case it might be helpful, here are a couple things I've learned when self-studying math:</p>\n<ul>\n<li>For me, it's tempting to work on books that are a bit too hard. But I find that it really is worth it to try and find books that are easy enough - it feels like it's a more sustainable activity for me when I don't have to push myself too hard to make progress in a book. Gradually books become easier as I learn more, and it's exciting to return to a book that used to be too hard, but isn't anymore.</li>\n<li>If a book has solutions/hints/answers to exercises, that can be incredibly helpful. Otherwise it can take a really long time to realize one is missing something simple.</li>\n<li>I think it's mostly true that one \"uses everything one learns\" in a math context. So if you're not in a hurry to learn a particular thing, just learning about whatever seems accessible and fun/interesting can be a good way to go. It's hard to know how interesting/relevant a given topic is until one learns at least a tiny bit about it.</li>\n</ul>",
+        "id": 298680793,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1663110981
+    },
+    {
+        "content": "<p>Concerning algebra, I suggest you to have a look at \"Algebra: chapter 0\", by Paolo Aluffi.</p>",
+        "id": 298723095,
+        "sender_full_name": "Beppe Metere",
+        "timestamp": 1663143563
+    },
+    {
+        "content": "<p>Thanks all!</p>\n<p>Without really knowing what I was looking for, I think I had in mind something like the nLab, but with more depth on non-CT topics. It’s easy to google what a topological space is, but trying to understand why the Sierpinski space represents a contravariant functor Top -&gt; Set is much harder without a cohesive reference.</p>\n<p>It sounds like a much better route is to find a decent introductory book for each topic, and to use those books to broaden my mathematical horizons a bit.</p>",
+        "id": 298757638,
+        "sender_full_name": "gio",
+        "timestamp": 1663157105
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"543051\">gio</span> <a href=\"#narrow/stream/232160-learning.3A-reading-groups/topic/general.20reference.20text/near/298757638\">said</a>:</p>\n<blockquote>\n<p>Without really knowing what I was looking for, I think I had in mind something like the nLab, but with more depth on non-CT topics. It’s easy to google what a topological space is, but trying to understand why the Sierpinski space represents a contravariant functor Top -&gt; Set is much harder without a cohesive reference.</p>\n</blockquote>\n<p>It certainly would help to know what the Sierpinski space <em>is</em> with some context about other topological spaces. To go from there to understanding that example, you need to know that:</p>\n<ul>\n<li><em>Any</em> object <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi></mrow><annotation encoding=\"application/x-tex\">X</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span></span></span></span> in a locally small category represents a contravariant functor from that category to the category of sets; this is the functor that sends <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Y</mi></mrow><annotation encoding=\"application/x-tex\">Y</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">Y</span></span></span></span> to <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mrow><mi mathvariant=\"normal\">H</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">m</mi></mrow><mo stretchy=\"false\">(</mo><mi>Y</mi><mo separator=\"true\">,</mo><mi>X</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">\\mathrm{Hom}(Y,X)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\"><span class=\"mord mathrm\">Hom</span></span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">Y</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span><span class=\"mclose\">)</span></span></span></span> and a morphism <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi></mrow><annotation encoding=\"application/x-tex\">f</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span></span></span></span> to precomposition with that morphism.</li>\n<li>The reason that your example matters is that open sets of a topological space are in natural, bijective correspondence with the continuous maps to the Sierpinski space, so the representable functor in question is isomorphic to the one sending a space <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Y</mi></mrow><annotation encoding=\"application/x-tex\">Y</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">Y</span></span></span></span> to its set of opens.</li>\n</ul>",
+        "id": 298767980,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1663161073
+    },
+    {
+        "content": "<p>Incidentally, \"<a href=\"https://arxiv.org/pdf/1912.10642.pdf\">Notes on Category Theory</a>\" gives an explanation of the connection between continuous maps to the Sierpinski space from a topological space <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi></mrow><annotation encoding=\"application/x-tex\">X</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span></span></span></span> and the open sets of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi></mrow><annotation encoding=\"application/x-tex\">X</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span></span></span></span> on page 68.</p>",
+        "id": 298791845,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1663168904
+    },
+    {
+        "content": "<p>If you want a quick and easy introduction to how the Sierpinksi space represents open subset, try this blog article:</p>\n<ul>\n<li>Tae-Danae Bradley <a href=\"https://www.math3ma.com/blog/the-sierpinski-space-and-its-special-property\">The Sierpinski space and its special property</a>.</li>\n</ul>\n<p>She's very good at explaining things. Since she's one of the authors of that book I mentioned, <em>Topology: a Categorical Approach</em>, I bet that book also explains this topic.</p>",
+        "id": 298855490,
+        "sender_full_name": "John Baez",
+        "timestamp": 1663191191
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/232160-learning.3A-reading-groups/topic/general.20reference.20text/near/298855490\">said</a>:</p>\n<blockquote>\n<p>If you want a quick and easy introduction to how the Sierpinksi space represents open subset, try this blog article:</p>\n<ul>\n<li>Tae-Danae Bradley <a href=\"https://www.math3ma.com/blog/the-sierpinski-space-and-its-special-property\">The Sierpinski space and its special property</a>.</li>\n</ul>\n<p>She's very good at explaining things. Since she's one of the authors of that book I mentioned, <em>Topology: a Categorical Approach</em>, I bet that book also explains this topic.</p>\n</blockquote>\n<p>I took a look at this blog, and it seems excellent! Thanks for sharing it!<br>\nIn particular, I had a lot of fun looking at an article conveying the intuition that the image of an object under the Yoneda embedding provides a sort of (rough notion) of \"meaning\" for that object. The example of moving from a preorder to the Yoneda embedding of that preorder, in part to consider limits/colimits, was also really instructive.<br>\nFor the purpose of learning how to apply category theory to new areas of application, seeing examples of how people start with simple categories and gradually make them more complex and descriptive is exciting.</p>",
+        "id": 298889589,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1663206090
+    },
+    {
+        "content": "<p>Yes, Tae-Danae has a knack for not being scared to explain things starting at the beginning and working on up.</p>",
+        "id": 298912668,
+        "sender_full_name": "John Baez",
+        "timestamp": 1663225299
+    },
+    {
+        "content": "<p>Wow, thanks all for the thoughtful responses. It will take me a while to dig through all these resources, but I appreciate both the specific recommendations and the insights on how to approach a deeper dive into CT</p>",
+        "id": 299006988,
+        "sender_full_name": "gio",
+        "timestamp": 1663259393
+    }
+]

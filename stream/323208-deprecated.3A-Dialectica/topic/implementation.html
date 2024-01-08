@@ -1,0 +1,820 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>implementation · deprecated: Dialectica · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/index.html">deprecated: Dialectica</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html">implementation</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="282811107"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/282811107" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#282811107">(May 18 2022 at 16:10)</a>:</h4>
+<p>Here is an Agda proof that Dial(Set)(2) is a category. <br>
+(assuming Agda Set + functions as Set)</p>
+<p><a href="https://github.com/bond15/Dialectica/blob/4e5f83e053d77db1367839677f3f6ee3193b0cb3/DialSets.agda#L131">https://github.com/bond15/Dialectica/blob/4e5f83e053d77db1367839677f3f6ee3193b0cb3/DialSets.agda#L131</a></p>
+<p>There are 2 holes that are Cubical Agda related. I'm still filling those in.  (showing that the hom set has the homotopy level set and a hole in equality of morphisms in dial)</p>
+
+
+
+<a name="282840348"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/282840348" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#282840348">(May 18 2022 at 19:56)</a>:</h4>
+<p>I have now read your file, thanks!  I don't quite follow the proof that Dial(Set)(2) is a category.</p>
+<p>I was expecting proofs of associativity of composition, and of the identity triangles.<br>
+ Are these subsumed into the sequence of assertions between lines 137and 139?</p>
+<p>I'm guessing that line 135 is the definition of identity map in DialSet, but it looks a bit strange.</p>
+<p>and I don't understand line 136, because I don't know what are compositions C and  D in this case. <br>
+is this the hole you've mentioned?</p>
+<p>I expect this is just me not knowing how the import of modules works in agda, but more pointers would be appreciated.</p>
+
+
+
+<a name="282847322"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/282847322" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#282847322">(May 18 2022 at 20:48)</a>:</h4>
+<p>Line 135 is the definition of the identity map. </p>
+<div class="codehilite"><pre><span></span><code>(λ u → u) ∧ (λ u x → x) st (λ u x → ≤-refl)
+</code></pre></div>
+<p>So we need</p>
+<div class="codehilite"><pre><span></span><code>(U , X ,  α) -&gt; (U, X ,  α)
+</code></pre></div>
+<p>The first map <code>(λ u → u) </code> is  the identity map for <code>U</code>.<br>
+The second map <code>(λ u x → x)</code> is a "projection" from <code>U \x X</code> to <code>X</code> (but in curried/uncurried form).<br>
+The last term <code>(λ u x → ≤-refl)</code> is of type <code>(u : U)(x :X)  →   α  u x  ≤² α  u x</code>  so the condition holds by reflexivity of <code>≤²</code></p>
+<p>The unity/identity laws are lines 137 and 138. </p>
+<p>The type of the right identity is <code>m ∘ᶜ id = m</code>.  <br>
+But to prove this we need to consider what it means for two morphisms to be equal.</p>
+<p>Morphism consist of three components (f , F, and the condition). It suffices to show that if you have 2 morphisms, then they are equal if they are equal in the first 2 components (f and F). This is where <code>cong-dial :  f ≡ f' → F ≡ F' → m₁ ≡ m₂</code> comes from.  So then we just need to look component wise at what the composition in the identity law is doing. </p>
+<p>so in <code>m∘ᶜ id = m</code> The first component is <code>f ∘ id = f</code> where <code>∘</code> and <code>id</code> are from <code>Set</code>. This holds by definitional equality so it is dispatched with <code>refl</code><br>
+The second component is a bit more involved.  </p>
+<div class="codehilite"><pre><span></span><code>f₁ := (λ u → u)
+F₁ := (λ u x → x)
+from the definition of the identity morphism
+
+and we have some
+F₂  :  U → X → X
+
+Now we consider what composition does on F
+F&#39; : U → X → X
+F&#39; u x = let
+                 u = f₁ u
+                 x&#39; = F₂ u x
+                 x&#39; = F₁ u x&#39;
+                 in x&#39;
+
+so F₂  is equivalent to F&#39; and so this holds by definitional equality
+</code></pre></div>
+
+
+
+<a name="282847501"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/282847501" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#282847501">(May 18 2022 at 20:49)</a>:</h4>
+<p>The same reasoning applies for left identity and associativity. They hold by definitional equality once you define the right notion of equality of morphisms (homotopy type theory is paying dividends here)</p>
+
+
+
+<a name="282849095"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/282849095" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#282849095">(May 18 2022 at 21:02)</a>:</h4>
+<div class="codehilite"><pre><span></span><code>and I don&#39;t understand line 136, because I don&#39;t know what are compositions C and D in this case.
+</code></pre></div>
+<p>_∘ᶜ_ is the name for composition in the type of PreCategories.<br>
+_∘ᴰ_ is the name of the operation defined on line 76 which is composition of morphisms in Dial(Set)(2).<br>
+So in total, line 136 is saying for the PreCategory <code>DialSetCat</code> , composition <code>_∘ᶜ_</code> is <code>_∘ᴰ_</code></p>
+<p>And for completeness <code>_∘_</code> is regular function composition in Agda.</p>
+
+
+
+<a name="282849530"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/282849530" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#282849530">(May 18 2022 at 21:06)</a>:</h4>
+<p>great! but then where is the hole?<br>
+also when I said line 135 looked a bit strange as identity, I could see the two functions and I know this is how the identity works. <br>
+But I was expecting it to be an instance of the code in lines 49--58, not to be part of the proof, by what I expect is the import  of some PreCat module. but things are much clearer now, thanks a bunch!</p>
+
+
+
+<a name="282849944"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/282849944" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#282849944">(May 18 2022 at 21:10)</a>:</h4>
+<p>nice to see  the obs</p>
+<blockquote>
+<p>homotopy type theory is paying dividends here</p>
+</blockquote>
+<p>even if in this case the equality on f and F is on the nose, but the condition is a kind of lax equality (in Chu spaces it would be a real equality too!)</p>
+
+
+
+<a name="282850848"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/282850848" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#282850848">(May 18 2022 at 21:18)</a>:</h4>
+<p>Oh yes! That is a good point. It would be useful to not 'inline' the definition of Identity morphism since It could be used in other contexts. I'll fix that.</p>
+<p>There are 2 holes. Holes look like this <code>{!   !}</code> <br>
+See lines 126 and 134. <br>
+The hole on 126 is in the definition of <code>cong-dial : f ≡ f' → F ≡ F' → m₁ ≡ m₂</code> where I just need to use the proof <code>eq-maps-cond</code> and some clever path definitions to complete the definition.</p>
+<p>The hole on 134 is Is saying that the HomSets in <code>DialSetCat</code> are <code>Sets</code> w.r.t homotopy level.<br>
+It is missing a proof of this condition <code> (x y : Ob) → is-set (x ⇒ y)</code>. <br>
+For folks who haven't seen this before it is basically saying that if you have two morphisms <code>f</code> and <code>g</code> and two proofs of equivalence of those morphisms <code>p : f ≡ g</code> and  <code>q : f ≡ g</code>, then it is the case that  <code>p ≡ q</code>.</p>
+<p>This condition could be left out. It's an artifact of the HoTT book and some folks think it is easier to leave that condition elsewhere.<br>
+<a href="https://github.com/agda/cubical/issues/625">https://github.com/agda/cubical/issues/625</a></p>
+
+
+
+<a name="282851488"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/282851488" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#282851488">(May 18 2022 at 21:24)</a>:</h4>
+<p>oh, ok. many thanks for the explanation  of the hole then! (the other one is not a hole anymore, right?</p>
+
+
+
+<a name="282851955"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/282851955" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#282851955">(May 18 2022 at 21:30)</a>:</h4>
+<p>I'm going to remove the <code>is-set</code> condition for now so hole 134 will go away. <br>
+The hole in <code>cong-dial</code> is still a TODO.</p>
+
+
+
+<a name="282852276"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/282852276" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#282852276">(May 18 2022 at 21:33)</a>:</h4>
+<p>newbie question: can we have a promissory note to fill the hole and carry on working on the monoidal structures of DialSet or without filling the holes things do not compile?</p>
+
+
+
+<a name="282852652"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/282852652" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#282852652">(May 18 2022 at 21:37)</a>:</h4>
+<p>That is a good question. The way Agda is implemented, you can usually continue working normally while there are holes and the file will still type check. for example.<br>
+<a href="/user_uploads/21317/FKTOE_-RgPs2rcYQp1rCNwSO/Screen-Shot-2022-05-18-at-2.36.57-PM.png">Screen-Shot-2022-05-18-at-2.36.57-PM.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/21317/FKTOE_-RgPs2rcYQp1rCNwSO/Screen-Shot-2022-05-18-at-2.36.57-PM.png" title="Screen-Shot-2022-05-18-at-2.36.57-PM.png"><img src="/user_uploads/21317/FKTOE_-RgPs2rcYQp1rCNwSO/Screen-Shot-2022-05-18-at-2.36.57-PM.png"></a></div>
+
+
+
+<a name="282852730"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/282852730" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#282852730">(May 18 2022 at 21:38)</a>:</h4>
+<p>This file type checks. <a href="/user_uploads/21317/m3z6ZEjd-KM6SnTtjXqFnFMV/Screen-Shot-2022-05-18-at-2.38.17-PM.png">Screen-Shot-2022-05-18-at-2.38.17-PM.png</a> <br>
+It just tells you at the bottom that you still need to fill this in, but can continue working</p>
+<div class="message_inline_image"><a href="/user_uploads/21317/m3z6ZEjd-KM6SnTtjXqFnFMV/Screen-Shot-2022-05-18-at-2.38.17-PM.png" title="Screen-Shot-2022-05-18-at-2.38.17-PM.png"><img src="/user_uploads/21317/m3z6ZEjd-KM6SnTtjXqFnFMV/Screen-Shot-2022-05-18-at-2.38.17-PM.png"></a></div><p>I can even normalize/evaluate the term <code>b</code> in this case. It reduces to <code>?0 tt</code> where <code>?0</code> is supposed to be a function from <code>Bool -&gt; Bool</code> defined in <code>not</code>, but it has not been defined.</p>
+
+
+
+<a name="282853007"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/282853007" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#282853007">(May 18 2022 at 21:41)</a>:</h4>
+<p>However if we had a file that depended on this file and I left holes on it, there would be errors in the new file. <br>
+You have some control over the behavior of this. For instance if you add the flag <code>{-# OPTIONS --allow-unsolved-metas #-}</code> then you could bypass this check and continue working.</p>
+
+
+
+<a name="282853183"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/282853183" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#282853183">(May 18 2022 at 21:43)</a>:</h4>
+<p>Caveats are if you leave holes "at the type level" or if you leave a hole in a term Agda needs to deduce a type. Then it complains. Generally you can leave holes at the "term level" and sometimes at the "type level".</p>
+
+
+
+<a name="282853687"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/282853687" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#282853687">(May 18 2022 at 21:48)</a>:</h4>
+<p>For the specific case you mentioned.. yes the hole for <code>cong-dial</code> will not prevent the file from type checking and can be left as a TODO while the monodial structure is developed.</p>
+
+
+
+<a name="282854180"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/282854180" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#282854180">(May 18 2022 at 21:53)</a>:</h4>
+<p>Yay! thanks! for <span class="user-mention" data-user-id="496984">@Charlotte Aten</span> we will need to do the file lineale.agda properly: starting with the  definition of One, Two,  Three (Kleene-style)--sets of truth-values, Nat, closed interval [0,1], etc. and it's fairly independent from Dialset, because it's just a parameter in the more complicated version of DialSet.</p>
+
+
+
+<a name="282854579"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/282854579" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#282854579">(May 18 2022 at 21:57)</a>:</h4>
+<p>While I'm rambling away, and in case any lurkers are interested, holes are not just a TODO in a proof.. they are interactive.<br>
+<a href="/user_uploads/21317/vAwf3ijnViHIPDscqyfyGpsR/Screen-Shot-2022-05-18-at-2.58.02-PM.png">Screen-Shot-2022-05-18-at-2.58.02-PM.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/21317/vAwf3ijnViHIPDscqyfyGpsR/Screen-Shot-2022-05-18-at-2.58.02-PM.png" title="Screen-Shot-2022-05-18-at-2.58.02-PM.png"><img src="/user_uploads/21317/vAwf3ijnViHIPDscqyfyGpsR/Screen-Shot-2022-05-18-at-2.58.02-PM.png"></a></div><p>for instance if my cursor is in this hole there are a few different commands I can run<br>
+ctrl+c, ctrl+t - this will tell me my current "goal" or what Type  of term I need to fill the hole with</p>
+<p>ctrl+c, ctrl+a  - this will begin a "proof search" where Agda will try to fill the hole with a term from the local context</p>
+<p>ctrl+c, ctrl+n - this evaluates the current term in the hole and shows the result </p>
+<p>ctrl+c, ctrl+d - this infers the Type of the term in the hole</p>
+<p>ctrl+c, ctrl+e - this tells you the terms and their types in the local proof context<br>
+and many more</p>
+
+
+
+<a name="282855659"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/282855659" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#282855659">(May 18 2022 at 22:06)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276656">Valeria de Paiva</span> <a href="#narrow/stream/323208-practice.3A-Dialectica/topic/Implementation/near/282854180">said</a>:</p>
+<blockquote>
+<p>Yay! thanks! for <span class="user-mention silent" data-user-id="496984">Charlotte Aten</span> we will need to do the file lineale.agda properly: starting with the  definition of One, Two,  Three (Kleene-style)--sets of truth-values, Nat, closed interval [0,1], etc. and it's fairly independent from Dialset, because it's just a parameter in the more complicated version of DialSet.</p>
+</blockquote>
+<p>I started a version of this 3 weeks ago.<br>
+<a href="https://github.com/bond15/Dialectica/blob/4e5f83e053d77db1367839677f3f6ee3193b0cb3/Lineale.agda">https://github.com/bond15/Dialectica/blob/4e5f83e053d77db1367839677f3f6ee3193b0cb3/Lineale.agda</a><br>
+ It's mostly a rewrite of <br>
+<a href="https://github.com/heades/cut-fill-agda/blob/master/lineale.agda">https://github.com/heades/cut-fill-agda/blob/master/lineale.agda</a><br>
+from the FILL paper.<br>
+Although this is the definition of lineale and does not have any instances of lineales as you've listed above.</p>
+
+
+
+<a name="282856027"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/282856027" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#282856027">(May 18 2022 at 22:10)</a>:</h4>
+<blockquote>
+<p>Although this is the definition of lineale and does not have any instances of lineales as you've listed above.</p>
+</blockquote>
+<p>yes, I know. we need the definition(s) and then the examples from "Dialectica Petri Nets" <a href="https://arxiv.org/abs/2105.12801">https://arxiv.org/abs/2105.12801</a><br>
+none of these have been automated</p>
+
+
+
+<a name="282856940"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/282856940" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#282856940">(May 18 2022 at 22:20)</a>:</h4>
+<p>sounds good :) <br>
+I'm context switching back to my 9 to 5 which is currently hardware verification using Isabelle HOL <span aria-label="upside down" class="emoji emoji-1f643" role="img" title="upside down">:upside_down:</span></p>
+
+
+
+<a name="283013240"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/283013240" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#283013240">(May 20 2022 at 01:25)</a>:</h4>
+<p><span class="user-mention" data-user-id="380293">@Eric Bond</span> I still have two questions about the proof that DialSet is a category.</p>
+<p>About the equality of maps I was expecting you to say:</p>
+<blockquote>
+<p>(f,F, cond)=(g,G, cond') iff  f=g and F=G and cond=cond'</p>
+</blockquote>
+<p>but I am not seeing the 3rd conjunct cond=cond'.<br>
+instead of </p>
+<blockquote>
+<p>cong-dial : f ≡ f' → F ≡ F' → m₁ ≡ m₂</p>
+</blockquote>
+<p>I was expecting cong-dial to be more like: f ≡ f' → F ≡ F' →  cond ≡ cond' →  m₁ ≡ m₂</p>
+<p>I also don't understand what the extensionality of functions has to do with swapping the arguments in </p>
+<blockquote>
+<p>funext : {o : Level}{A B : Set o}{f g : A → B} → (∀ (a : A) → f a ≡ g a) → f ≡ g <br>
+    funext p i x = p x i</p>
+</blockquote>
+<p>but I kind of expect that this is how it  goes.</p>
+
+
+
+<a name="283097453"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/283097453" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#283097453">(May 20 2022 at 16:53)</a>:</h4>
+<p>The explanation for the derivation of function extensionality turned into a wall of text. <br>
+I've decided to just make it available here.</p>
+<p><a href="https://gist.github.com/bond15/be2f38461a6b24ce84468cfc8b37f355">https://gist.github.com/bond15/be2f38461a6b24ce84468cfc8b37f355</a></p>
+
+
+
+<a name="283099771"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/283099771" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#283099771">(May 20 2022 at 17:11)</a>:</h4>
+<hr>
+<p>For the other question you are asking about <code>eq-cond</code>.</p>
+<div class="codehilite"><pre><span></span><code>cong-dial : f ≡ g → F ≡ G → m₁ ≡ m₂
+cong-dial p q i = (p i)  ∧ (q i)  st (eq-cond p q i)
+</code></pre></div>
+<p>Observe when <br>
+<code>i := i0</code>, <code>(p i)  ∧ (q i)  st (eq-cond p q i)  := f ∧ F st cond</code><br>
+              and    <br>
+<code>i := i1</code>, <code>(p i)  ∧ (q i)  st (eq-cond p q i)  := g ∧ G st cond'</code></p>
+<p><code>eq-cond</code> has an ugly type because it requires Dependent Path Types <code>PathP</code>.<br>
+The gist is </p>
+<div class="codehilite"><pre><span></span><code>eq-cond : (p : f ≡ g) → (q : F ≡ G) →  PathP &lt;ugly mess&gt;  cond cond&#39;
+</code></pre></div>
+<p>The full type is</p>
+<div class="codehilite"><pre><span></span><code>eq-cond : (p : f ≡ g) → (q : F ≡ G) →
+        PathP (λ i → (u : U)(y : Y) → α u ((q i) u y) ≤² β ((p i) u) y) cond cond&#39;
+</code></pre></div>
+
+
+
+<a name="283134438"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/283134438" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#283134438">(May 20 2022 at 22:34)</a>:</h4>
+<p><span class="user-mention" data-user-id="276656">@Valeria de Paiva</span> <br>
+To get the ball rolling, here is a partial implementation of <code>2</code> as a <code>Lineale</code><br>
+<a href="https://github.com/bond15/Dialectica/blob/main/Lineales.agda">https://github.com/bond15/Dialectica/blob/main/Lineales.agda</a></p>
+<p>Looking to see what the "loli" operation for <code>2</code> is.</p>
+
+
+
+<a name="283148651"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/283148651" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#283148651">(May 21 2022 at 02:55)</a>:</h4>
+<p>thanks for the long explanation about paths and extensionality!</p>
+
+
+
+<a name="283148750"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/283148750" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#283148750">(May 21 2022 at 02:57)</a>:</h4>
+<blockquote>
+<p>Looking to see what the "loli" operation for 2 is.</p>
+</blockquote>
+<p>well, it's just the intuitionistic implication in Two, right?</p>
+
+
+
+<a name="283209440"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/283209440" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#283209440">(May 22 2022 at 04:08)</a>:</h4>
+<p>patched holes in DialSets and finished Lineale 2.</p>
+
+
+
+<a name="283209733"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/283209733" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#283209733">(May 22 2022 at 04:16)</a>:</h4>
+<p>Great!   this way  they can go in parallel, as the next step in DialSets is the monoidal  closed structure.  Need to add the parallel tensor and its internal-hom.</p>
+
+
+
+<a name="283212203"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/283212203" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#283212203">(May 22 2022 at 05:10)</a>:</h4>
+<p><a href="https://github.com/bond15/Dialectica/blob/fe0a110d83ed8c1656e224ebadb780e145efdb06/DialSets.agda#L203">https://github.com/bond15/Dialectica/blob/fe0a110d83ed8c1656e224ebadb780e145efdb06/DialSets.agda#L203</a></p>
+<p>starting that here with the tensor bifunctor</p>
+
+
+
+<a name="283213445"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/283213445" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#283213445">(May 22 2022 at 05:36)</a>:</h4>
+<p>cool! as I wrote about the tensor in lineales one, I think we need to show functoriality in both coordinates, as we shouldn't rely on symmetry.<br>
+so I expect you to need another compat-like  function</p>
+<blockquote>
+<p>compat' : {a b : Two} → a ≤² b → ({c : Two} → (a ⊗² c) ≤² (b ⊗² c)) </p>
+</blockquote>
+<p>of shape perhaps something like compat : {c : Two} → ({a b: Two} → a ≤² b → (c ⊗² a) ≤² (c ⊗² b))</p>
+
+
+
+<a name="283240508"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/283240508" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#283240508">(May 22 2022 at 16:37)</a>:</h4>
+<p>Finished the tensor bifunctor. <br>
+Next up, monoidal structure. So far <code>CatLib.agda</code> is a spartan version of the <code>agda-categories</code> library but It might make sense to just use <code>agda-categories</code>. Thoughts?  I can also merge the new developments into your repo.</p>
+
+
+
+<a name="283270556"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/283270556" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#283270556">(May 23 2022 at 04:35)</a>:</h4>
+<p>Not many thoughts here (very tired after 2 days of intense workshopping at CSLI). do whatever  you think works for us as a group. thanks!<br>
+but yes, please do merge the developments to <a href="https://github.com/vcvpaiva/Dialectica/">https://github.com/vcvpaiva/Dialectica/</a>.</p>
+
+
+
+<a name="283780716"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/283780716" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#283780716">(May 24 2022 at 17:37)</a>:</h4>
+<p>I think I managed to sync things correctly.</p>
+
+
+
+<a name="283787751"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/283787751" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#283787751">(May 24 2022 at 18:35)</a>:</h4>
+<p><span class="user-mention" data-user-id="380293">@Eric Bond</span>  the github repo is not working for me, because we need to have the "proof-irrelevant" structures (the several lineales) separated from the dual-sided structures DialSet, DialPos, DialTop, DialHask, etc. maybe we need another 15 min chat?</p>
+
+
+
+<a name="283804850"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/283804850" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#283804850">(May 24 2022 at 21:02)</a>:</h4>
+<p>How about 4pm PT?</p>
+
+
+
+<a name="283805369"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/283805369" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#283805369">(May 24 2022 at 21:07)</a>:</h4>
+<p>works for me, thanks!</p>
+
+
+
+<a name="283955849"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/283955849" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#283955849">(May 26 2022 at 00:07)</a>:</h4>
+<p><span class="user-mention" data-user-id="276656">@Valeria de Paiva</span>  Can I get write access to <a href="https://github.com/vcvpaiva/Dialectica">https://github.com/vcvpaiva/Dialectica</a>?</p>
+
+
+
+<a name="283955947"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/283955947" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#283955947">(May 26 2022 at 00:09)</a>:</h4>
+<p>Sure, if you tell me what setting you want me to tweak.</p>
+
+
+
+<a name="283956167"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/283956167" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#283956167">(May 26 2022 at 00:12)</a>:</h4>
+<p>Sure! Should be a <code>Settings</code> button near the top right under <code>watch</code> and <code>fork</code>. within settings, on the left there is a <code>Collaborators</code> tab.  In that you should see a <code>Manage Access</code> page with <code>Add people</code>.  My username is bond15 but if that doesn't show up then <a href="mailto:bond.eric.23@gmail.com">bond.eric.23@gmail.com</a> should work.</p>
+
+
+
+<a name="283957160"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/283957160" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#283957160">(May 26 2022 at 00:28)</a>:</h4>
+<p>invitation to the repo sent.</p>
+
+
+
+<a name="283971814"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/283971814" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#283971814">(May 26 2022 at 05:33)</a>:</h4>
+<p>got it! Thanks!<br>
+Is there a source that lays out the definitions of the lineales that are desired?</p>
+
+
+
+<a name="284007852"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/284007852" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#284007852">(May 26 2022 at 13:48)</a>:</h4>
+<p>yes, the Dialectica Petri Net paper describes some. But it would be good to "find" also existing libraries for Boolean algebra, Heyting algebra</p>
+
+
+
+<a name="284038876"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/284038876" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#284038876">(May 26 2022 at 17:56)</a>:</h4>
+<p>I was going to ask about this via email but I figured the current topic of this chat is related so...</p>
+<p>I see you are jointly organizing a trimester at HIM on the topic of Prospects of Formal Mathematics.<br>
+I was wondering if you could share more details about that :). <br>
+(Who should join,  costs, what to expect, online or in person...etc)</p>
+<p><a href="https://topos.site/blog/2022/04/the-many-facets-of-networked-mathematics/">Topos Inst. blog</a> <br>
+<a href="https://www.him.uni-bonn.de/programs/future-programs/future-trimester-programs/prospects-of-formal-mathematics/description/">HIM page</a></p>
+
+
+
+<a name="284310840"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/284310840" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#284310840">(May 29 2022 at 23:22)</a>:</h4>
+<p>ha, finally found this message again! </p>
+<p><span class="user-mention" data-user-id="380293">@Eric Bond</span> I don't know much more than what is in the HIM page, which was our proposal. I have organized a Dugstuhl meeting before, but have not been to a HIM meeting ever, so again this is all new to me too.<br>
+ Repeating the information from the HIM  page here, we have 3 thematic workshops planned. But the rest is still fluid, to be decided.</p>
+<p>Planned Activities: The trimester will organize work into:<br>
+    Regular get-togethers: e.g. weekly seminars, informal workshops, and open problem sessions<br>
+    Formalization Schools (both F2F and online) to get participants into the practice of formalizing mathematical knowledge</p>
+<p>Thematic Workshops:<br>
+    Formalizations in Modern Mathematics (June 2024)<br>
+    Bridging Between Informal and Formal Mathematics (July 2024)<br>
+    Libraries of Digitized Mathematics (August 2024)</p>
+
+
+
+<a name="284667349"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/284667349" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Charlotte Aten <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#284667349">(Jun 01 2022 at 20:48)</a>:</h4>
+<p>Hey <span class="user-mention" data-user-id="276656">@Valeria de Paiva</span> , I've finally gotten the internet back and wanted to check in about the status of our project. What's been going on has been documented in the summaries and photos in the Dialectica Google drive to some extent but I will add some comments here as well. I'd like to invite you to the Overleaf document that <span class="user-mention" data-user-id="380293">@Eric Bond</span> and I have for this project. Can you supply me with an appropriate email to use?</p>
+
+
+
+<a name="284667599"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/284667599" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#284667599">(Jun 01 2022 at 20:51)</a>:</h4>
+<p>Sure, Charlotte. Either <a href="mailto:valeria.depaiva@gmail.com">valeria.depaiva@gmail.com</a> or <a href="mailto:valeria@topos.institute">valeria@topos.institute</a> work.  I can see in the Google Drive the summaries Day 1 and Day 2 that Jeremie posted, but I cannot see pictures at all. where are they?</p>
+
+
+
+<a name="284669314"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/284669314" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Charlotte Aten <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#284669314">(Jun 01 2022 at 21:05)</a>:</h4>
+<p>Great, you should have an invitation at the gmail address! I just uploaded the photos from today to the folder called "2022 June 1 notes - Calculations". There is a similar folder for May 30 containing photos from that day.</p>
+
+
+
+<a name="284669955"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/284669955" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Charlotte Aten <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#284669955">(Jun 01 2022 at 21:11)</a>:</h4>
+<p>On Monday I discussed the relationship between extrinsic game semantics and Negulescu's processes with the games group, which turned out to be pretty strong. There were two pretty natural ways (using the notions of strategies and coherence spaces, respectively) to view games as being included in the process space lattice Neglescu described. Moreover, we found that Negulescu's lattice embeds into the poset G(2^E) where G is the Girard variant of the Dialectica construction and 2^E is the poset of subsets of the collection of all executions in question.</p>
+
+
+
+<a name="284670562"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/284670562" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Charlotte Aten <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#284670562">(Jun 01 2022 at 21:17)</a>:</h4>
+<p>Oh and I should mention <span class="user-mention" data-user-id="276656">@Valeria de Paiva</span> that the comments on that Overleaf document give a slightly more detailed outline of what <span class="user-mention" data-user-id="380293">@Eric Bond</span> and I have been planning/working on for the past two days. We have a way of playing the token game for Dialectica Petri nets which generalizes what seems to be natural when the lineale in question is 2 or Z. Part of the motivation for this is based on a general algebraic consideration about lineales which is kind of a separate conversation that I will make a new conversation for.</p>
+
+
+
+<a name="284675178"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/284675178" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Charlotte Aten <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#284675178">(Jun 01 2022 at 22:01)</a>:</h4>
+<p>Jeremy asked me something about Dialectica Petri nets which I am still planning to try to understand myself but would like to ask here just in case there's a quick answer. Is there a natural way to view the category M_L(Set) used in the definition of the Petri net category Net_L as an example of the Girard variant GC for some appropriate choice of C? It seems like either there is a fundamental reason why it shouldn't be possible or there is some relatively trivial pairing that can be done and it was just written this way in the original paper in order to make the exposition cleaner. This is also of interest since reformulating M_L(Set) as GC for some C paves the way for a «modal» version of the constructions at play here, which is something I haven't really thought about myself much yet but know that <span class="user-mention" data-user-id="380293">@Eric Bond</span> and <span class="user-mention" data-user-id="343715">@Nelson Niu</span> have expressed interest in.</p>
+
+
+
+<a name="284675459"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/284675459" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#284675459">(Jun 01 2022 at 22:04)</a>:</h4>
+<p>Sure, M_2(Set) is just GSet,exactly. It was just written as M_L(Set) to show that we can vary the L's, as it's done in the Petri nets paper.</p>
+
+
+
+<a name="284675919"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/284675919" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#284675919">(Jun 01 2022 at 22:08)</a>:</h4>
+<p>So the preprint  about "multi"-relations is a tiny generalization of Chapter 3, where we change 2= {true, false} into a lineale L, a linear version of a Boolean-algebra or of a Heyting algebra.</p>
+
+
+
+<a name="284676866"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/284676866" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Charlotte Aten <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#284676866">(Jun 01 2022 at 22:17)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276656">Valeria de Paiva</span> <a href="#narrow/stream/323208-practice.3A-Dialectica/topic/Implementation/near/284675919">said</a>:</p>
+<blockquote>
+<p>So the preprint  about "multi"-relations is a tiny generalization of Chapter 3, where we change 2= {true, false} into a lineale L, a linear version of a Boolean-algebra or of a Heyting algebra.</p>
+</blockquote>
+<p>Awesome, I will have to check that out now. Thanks so much for explaining! I'm glad I finally had a chance to get back online and ask some questions.</p>
+
+
+
+<a name="284676988"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/284676988" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#284676988">(Jun 01 2022 at 22:18)</a>:</h4>
+<p>I'm really glad too!! I wasn't expecting issues with the internet, I must say. I am now home so able to talk, if you guys want to.</p>
+
+
+
+<a name="284677274"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/284677274" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Charlotte Aten <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#284677274">(Jun 01 2022 at 22:21)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276656">Valeria de Paiva</span> <a href="#narrow/stream/323208-practice.3A-Dialectica/topic/Implementation/near/284676988">said</a>:</p>
+<blockquote>
+<p>I'm really glad too!! I wasn't expecting issues with the internet, I must say. I am now home so able to talk, if you guys want to.</p>
+</blockquote>
+<p>That sounds great! People are going to be collecting for dinner soon so I'll head over there now and maybe we can put together a meeting afterwards and use the videoconferencing device that we were given if you'd like.</p>
+
+
+
+<a name="284757623"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/284757623" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Charlotte Aten <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#284757623">(Jun 02 2022 at 15:01)</a>:</h4>
+<p>Good morning <span class="user-mention" data-user-id="276656">@Valeria de Paiva</span> ! We were wondering whether you have a particular reason for not trying to define the token game in the original Dialectica Petri nets paper. Eric and I gave a quite natural definition but found that it clashes with the notion that a 0 element of the base lineale L represents "no arc" as opposed to "an arc with cost 0". More  amusingly, the dependent Dialectica construction actually fixes this problem by creating a distinction between arcs of value 0 and the absence of an arc, so we're thinking we should redo the basic setup from your paper with dependent M_L(Set) in order to be able to use tokens how we want in our construction.</p>
+
+
+
+<a name="284759852"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/284759852" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#284759852">(Jun 02 2022 at 15:15)</a>:</h4>
+<p>hi <span class="user-mention" data-user-id="496984">@Charlotte Aten</span>  this might be a good idea. I don't do the token game simply bc I was following Winskel, who was my PN expert then. But the dependent Dialectica is problematic, I don't know how to provide structure for it--maybe Tamara's function-space works as desired, maybe it doesn't. I don't know,  I'm trying to read, but going slowly.</p>
+
+
+
+<a name="284813000"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/284813000" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#284813000">(Jun 02 2022 at 22:25)</a>:</h4>
+<p>For dependent Dialectica in Set with L.. perhaps these could be shown to be adjoint?</p>
+<div class="codehilite"><pre><span></span><code>    _⊗_ : DDial → DDial → DDial
+    (pos₁ ▹ dir₁ c α₁) ⊗ (pos₂ ▹ dir₂ c α₂) = (pos₁ × pos₂) ▹ (λ { (p₁ , p₂) → dir₁ p₁ × dir₂ p₂}) c λ{ (p₁ , p₂) (d₁ , d₂) → α₁ p₁ d₁ ⊙ α₂ p₂ d₂}
+        where
+            open MonProset mon
+
+    [_,_] : DDial → DDial → DDial
+    [ pos₁ ▹ dir₁ c α₁ , pos₂ ▹ dir₂ c α₂ ] =
+        Σ (pos₁ → pos₂) (λ f → (p₁ : pos₁)→ dir₂ (f p₁) → dir₁ p₁) ▹ (λ{ (f , F) → Σ pos₁ (λ p₁ → dir₂ (f p₁))}) c
+            λ{ (f , F) (u , y) → α₁ u (F u y) ⊸ α₂ (f u) y}
+        where
+            open Lineale.Lineale lin
+</code></pre></div>
+
+
+
+<a name="284816707"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/284816707" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#284816707">(Jun 02 2022 at 23:10)</a>:</h4>
+<p>^ confirmed</p>
+
+
+
+<a name="284817829"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/284817829" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#284817829">(Jun 02 2022 at 23:25)</a>:</h4>
+<p><span class="user-mention" data-user-id="380293">@Eric Bond</span>  this would be nice, but come to think of it, an exercise in Bart Jacob's book. <br>
+I had totally forgotten about that! I am sorry! Jacobs, "Categorical Logic and Type Theory", page 117, exercise 1.10.11.<br>
+but I didn't know how to do the exercise, now I have a function, thanks!!</p>
+<p>However, what we want is a cartesian closed category and this is what took Bodil Biering, Tamara von Glehn and Sean Moss theses to produce, I expect. at least in the non-dependent case tensor product is not a cartesian product. and I think the same is true in the dependent case.</p>
+
+
+
+<a name="285797916"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/285797916" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#285797916">(Jun 11 2022 at 21:08)</a>:</h4>
+<p>I meant to reply to this much earlier when I first saw it, but—what Eric is calling DDial is his Agda code above (dependent Dialectica in Set with L, indeed with any locally small category C) <em>is</em> also Cartesian closed, no? The formula for the Cartesian closure is just quite a bit messier…</p>
+
+
+
+<a name="285799151"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/285799151" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#285799151">(Jun 11 2022 at 21:40)</a>:</h4>
+<p>I find this hard to believe <span class="user-mention" data-user-id="343715">@Nelson Niu</span> . I think the structure we do have on DDial is symmetric monoidal closed, but not cartesian closed. but a proof would be good. my proof is for non-dependent objects only.</p>
+
+
+
+<a name="285799207"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/285799207" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#285799207">(Jun 11 2022 at 21:42)</a>:</h4>
+<p>Just checking—what do you mean by “structure”? I’m taking “monoidal closed” to mean a specific monoidal product has a closure operation—then “Cartesian closed” just means the Cartesian product is closed, so these would be for different monoidal “structures” on DDial</p>
+
+
+
+<a name="285801901"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/285801901" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#285801901">(Jun 11 2022 at 22:22)</a>:</h4>
+<p>There’s a proof in Sean Moss’s talk; there’s also a way to compute it directly that I have handwritten somewhere, I can write it up soon</p>
+
+
+
+<a name="285824200"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/285824200" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#285824200">(Jun 12 2022 at 06:12)</a>:</h4>
+<p>but we know that the cartesian product in DDial is (I\times J, A_i+ B_j, the right relation), right?</p>
+<p>so saying the category is cartesian closed would mean finding an internal-hom (or exponent) for this monoidal structure. this is what I do find difficult, the monoidal structure we have  an internal-hom for  is the parallel product, not the cartesian product.</p>
+
+
+
+<a name="285824394"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/285824394" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#285824394">(Jun 12 2022 at 06:16)</a>:</h4>
+<p>Okay, then we’re talking about the same thing! There is in fact an internal-hom for the Cartesian product in DDial. Unlike the parallel product’s internal-hom, the full subcategory of nondependent objects is not closed under this operation, which is why the Cartesian closure doesn’t exist in the nondependent Dial setting. But it <em>does</em> exist in DDial. The formula is not very pretty, but (with the benefit of hindsight…) there’s a fairly natural way to derive it just by shifting around some sums and products</p>
+
+
+
+<a name="285824426"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/285824426" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#285824426">(Jun 12 2022 at 06:17)</a>:</h4>
+<p>excellent news then!</p>
+
+
+
+<a name="285824489"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/285824489" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#285824489">(Jun 12 2022 at 06:19)</a>:</h4>
+<p>looking forward to the formula!</p>
+
+
+
+<a name="285824491"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/285824491" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#285824491">(Jun 12 2022 at 06:19)</a>:</h4>
+<p>(Incidentally, in my mind this is a heuristic benefit of thinking about all this literally in terms of “polynomials”—computations then become as easy as expanding sums and products the way you’d expect them to work)</p>
+
+
+
+<a name="285824619"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/285824619" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#285824619">(Jun 12 2022 at 06:22)</a>:</h4>
+<p>This very likely won’t make sense without more context, but here’s the derivation of the formula from my notes in any SigmaPiC:</p>
+
+
+
+<a name="285824726"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/285824726" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#285824726">(Jun 12 2022 at 06:26)</a>:</h4>
+<p><a href="/user_uploads/21317/H-llkIUYsZK3pSars7m0eJNT/3FE4B83A-B2F1-4262-A3C4-B3C02B57516E.jpg">3FE4B83A-B2F1-4262-A3C4-B3C02B57516E.jpg</a></p>
+<div class="message_inline_image"><a href="/user_uploads/21317/H-llkIUYsZK3pSars7m0eJNT/3FE4B83A-B2F1-4262-A3C4-B3C02B57516E.jpg" title="3FE4B83A-B2F1-4262-A3C4-B3C02B57516E.jpg"><img src="/user_uploads/21317/H-llkIUYsZK3pSars7m0eJNT/3FE4B83A-B2F1-4262-A3C4-B3C02B57516E.jpg"></a></div>
+
+
+
+<a name="285840151"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/285840151" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#285840151">(Jun 12 2022 at 12:38)</a>:</h4>
+<p>Thanks <span class="user-mention" data-user-id="343715">@Nelson Niu</span> !.  I was not doubting the cartesian closure of SigmaPiC, but of DDial, in the terminology we just established. SigmaPiC is defined from the completions, from above as it were, I totally believe that it's cartesian closed. DDial is defined from objects and maps, from the ground up, so I was expecting a formula in terms of A_i's and B_j's that we then would prove equivalent to SigmaPiC. </p>
+<p>so we were talking about the same problem, but about different potential solutions all along.</p>
+
+
+
+<a name="285849948"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/285849948" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#285849948">(Jun 12 2022 at 16:20)</a>:</h4>
+<p>When we’ve been working with SigmaPiC, we’ve also been using the explicit ground-up, objects-and-maps construction for it (which has been shown to be the completion already). So we know everything is equivalent already, and the formulas are the same</p>
+
+
+
+<a name="285850429"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/285850429" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#285850429">(Jun 12 2022 at 16:31)</a>:</h4>
+<p>Here’s the formula for the Cartesian closure in more familiar (I, A_i, P) notation:</p>
+
+
+
+<a name="285850467"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/285850467" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#285850467">(Jun 12 2022 at 16:32)</a>:</h4>
+<p><a href="/user_uploads/21317/615kozmRlF3oYAjbLpteTk_K/61B3D644-A220-4B57-AF22-3C9B703CD24F.jpg">61B3D644-A220-4B57-AF22-3C9B703CD24F.jpg</a></p>
+<div class="message_inline_image"><a href="/user_uploads/21317/615kozmRlF3oYAjbLpteTk_K/61B3D644-A220-4B57-AF22-3C9B703CD24F.jpg" title="61B3D644-A220-4B57-AF22-3C9B703CD24F.jpg"><img src="/user_uploads/21317/615kozmRlF3oYAjbLpteTk_K/61B3D644-A220-4B57-AF22-3C9B703CD24F.jpg"></a></div>
+
+
+
+<a name="285855884"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/285855884" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#285855884">(Jun 12 2022 at 18:42)</a>:</h4>
+<p>thanks! but here you've lost me!  what's s_i? what's the bar? why the product of b's in B_ji minus(??) s_i?</p>
+
+
+
+<a name="285856151"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/285856151" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#285856151">(Jun 12 2022 at 18:49)</a>:</h4>
+<ul>
+<li>
+<p>The bar is my naming convention to distinguish between an element (like i in I) vs. a function/indexed element (like jbar : I -&gt; J); it doesn’t mean any specific operation, it’s just a label. You can ignore it if you’d like, and everything should still parse correctly</p>
+</li>
+<li>
+<p>S ranges over a product over i’s in I of 2^B_ji—equivalently the power set of B_ji. So each Si is a subset of B_ji. If you think about it that way, taking a product over b’s in the complement of Si, namely B_ji minus Si, makes total sense</p>
+</li>
+</ul>
+
+
+
+<a name="285856221"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/285856221" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#285856221">(Jun 12 2022 at 18:51)</a>:</h4>
+<p>I warned you the formula isn’t pretty 😅</p>
+
+
+
+<a name="285856478"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/285856478" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#285856478">(Jun 12 2022 at 18:57)</a>:</h4>
+<p>In fact, a “reason” for the lack of prettiness is that writing objects in DDial in this way, as two sets and a predicate on them, forces you to write them in “normal” form, as Jeremie and the games co. call it. We know every object can be written in this compact, normal form, involving two sets—one you sum over, one you take a product over—because distributively lets you shift sums and products around, but that doesn’t mean that’s always the most natural way to think about them or write them down, especially if they originated from an “extensive” form consisting of a product of sums or something more complicated</p>
+
+
+
+<a name="286936722"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/286936722" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonathan Weinberger <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#286936722">(Jun 21 2022 at 16:04)</a>:</h4>
+<p><span class="user-mention" data-user-id="496984">@Charlotte Aten</span> <span class="user-mention" data-user-id="380293">@Eric Bond</span> In case you hadn't seen it over at the chemistry stream: <a href="#narrow/stream/322714-practice.3A-chemistry/topic/invariants.20of.20Petri.20nets/near/286927239">https://categorytheory.zulipchat.com/#narrow/stream/322714-practice.3A-chemistry/topic/invariants.20of.20Petri.20nets/near/286927239</a></p>
+
+
+
+<a name="286938543"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/286938543" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Charlotte Aten <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#286938543">(Jun 21 2022 at 16:17)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="277106">Jonathan Weinberger</span> <a href="#narrow/stream/323208-practice.3A-Dialectica/topic/implementation/near/286936722">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="496984">Charlotte Aten</span> <span class="user-mention silent" data-user-id="380293">Eric Bond</span> In case you hadn't seen it over at the chemistry stream: <a href="#narrow/stream/322714-practice.3A-chemistry/topic/invariants.20of.20Petri.20nets/near/286927239">https://categorytheory.zulipchat.com/#narrow/stream/322714-practice.3A-chemistry/topic/invariants.20of.20Petri.20nets/near/286927239</a></p>
+</blockquote>
+<p>Thanks for pointing this out! :)</p>
+
+
+
+<a name="288184770"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/288184770" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#288184770">(Jul 01 2022 at 15:29)</a>:</h4>
+<p><a href="https://github.com/vcvpaiva/Dialectica/blob/f8f8486895406c7dfba40700aff1d07fe5f08e63/Petri.agda#L175">https://github.com/vcvpaiva/Dialectica/blob/f8f8486895406c7dfba40700aff1d07fe5f08e63/Petri.agda#L175</a></p>
+<p>Implementation of Petri Nets from the Dialectica Petri Nets paper using Dependent Dialectica.<br>
+<a href="https://arxiv.org/pdf/2105.12801.pdf">https://arxiv.org/pdf/2105.12801.pdf</a></p>
+<p>Contains the examples on page 8 as well.<br>
+<a href="https://github.com/vcvpaiva/Dialectica/blob/f8f8486895406c7dfba40700aff1d07fe5f08e63/Petri.agda#L368">https://github.com/vcvpaiva/Dialectica/blob/f8f8486895406c7dfba40700aff1d07fe5f08e63/Petri.agda#L368</a></p>
+<p>One note: The graphic in the paper is drawing <code>f</code> on transitions instead of places. This is inconsistent with what the paper describes where <code>f</code> is a map on places and <code>F</code> is a map on transitions. (I chose to implement the latter)</p>
+
+
+
+<a name="288268095"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/288268095" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#288268095">(Jul 02 2022 at 12:43)</a>:</h4>
+<p>thanks for the links, Eric. I'm reading slowly.</p>
+
+
+
+<a name="288408181"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/288408181" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#288408181">(Jul 04 2022 at 13:12)</a>:</h4>
+<blockquote>
+<p>The graphic in the paper is drawing f on transitions instead of places. This is inconsistent with what the paper describes where f is a map on places and F is a map on transitions</p>
+</blockquote>
+<p>I emailed Elena and Wilmer, who will correct the typo, thanks!</p>
+
+
+
+<a name="293311862"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/293311862" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nelson Niu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#293311862">(Aug 13 2022 at 18:55)</a>:</h4>
+<p>So I've been learning (Cubical) Agda from the <a href="https://uwo.ca/math/faculty/kapulkin/seminars/hottest_summer_school_2022.html">HoTT summer school</a> and figured I'd try proving Poly (and eventually Dial etc.) is a category myself. I finally learned enough by yesterday to do it, and finished it up today here!</p>
+<p><a href="/user_uploads/21317/E1v8DAQAEOqYzegWniKzv0a4/Poly.agda">Poly.agda</a></p>
+<p>Of course Eric has done most of this already, but the key difference (please correct me if I'm wrong, <span class="user-mention" data-user-id="380293">@Eric Bond</span>!) is that what we'd think of as a category is what the HoTT folks call a <em>precategory</em>. Agda with HoTT makes a distinction between more general <em>types</em> (think ∞-groupoid) and more specific <em>sets</em> (think an ∞-groupoid that is provably a 0-groupoid). So what they call a <em>category</em> has a further requirement that hom-<em>types</em> really are hom-<em>sets</em> that needs to be proven. Eric's already shown that Poly forms a precategory, with hom-types; what I've done here (with a great deal of help from lemmas from the Cubical Agda library) is further show that the category of polynomials where every position-type is a position-set and every direction-type is a direction-set forms a category, with hom-sets. (I don't think this should be too hard to generalize to Dialectica.)</p>
+<p>(There's something to be said about these constructions not really being Poly(Sets) or Dial(Sets) if we're coding them up this way—really, these are Dial([whatever category gives Agda its HoTT semantics]). This is a little too much type theory for me to think about in one sitting, though, so I'll just leave this vague parenthetical remark in case anyone finds musing on that interesting...)</p>
+
+
+
+<a name="293400935"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/293400935" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#293400935">(Aug 14 2022 at 13:37)</a>:</h4>
+<p>We’ve been discussing if we want to use a precategory for simplicity or not. In Dial this boils down to: for (a b : L), does the type a &lt;= b contain multiple inhabitants/witnesses? For natural numbers and the usual definition of &gt;= ordering, this can be shown to be a Set (in the HoTT sense)</p>
+
+
+
+<a name="293401142"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/293401142" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#293401142">(Aug 14 2022 at 13:39)</a>:</h4>
+<p>(deleted)</p>
+
+
+
+<a name="293402136"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/293402136" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#293402136">(Aug 14 2022 at 13:51)</a>:</h4>
+<p>And yes, using Set on the nose is a temporary simplification. You can implement this using a displayed category or parameterizing the module with a category C with the appropriate structure. I might have a version of this somewhere. </p>
+<p>This opens up a can of worms where you need a lot more infrastructure to reason about definitions. See MorphismsReasoning in Agda-categories.</p>
+
+
+
+<a name="293407329"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/293407329" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#293407329">(Aug 14 2022 at 14:42)</a>:</h4>
+<p>The record to sigma reflection tactic is so nice <span aria-label="open mouth" class="emoji emoji-1f62e" role="img" title="open mouth">:open_mouth:</span>. Not aware that existed</p>
+
+
+
+<a name="297022409"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/297022409" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#297022409">(Sep 03 2022 at 18:09)</a>:</h4>
+<p><span class="user-mention" data-user-id="380293">@Eric Bond</span> </p>
+<blockquote>
+<p>I was wondering if you could share more details about that :).<br>
+(Who should join, costs, what to expect, online or in person...etc)</p>
+</blockquote>
+<p>about HIM I know very little at this point. I hope to know some more soon.</p>
+
+
+
+<a name="301267413"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/301267413" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#301267413">(Sep 28 2022 at 15:51)</a>:</h4>
+<p>Hello! I’d like to get back on track with formalizing things. I’ve had the good fortune of being distracted with fellowship things and getting set for PhD applications. However, I miss yelling at my computer screen because Agda won’t typecheck something.</p>
+
+
+
+<a name="301268047"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/301268047" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#301268047">(Sep 28 2022 at 15:54)</a>:</h4>
+<p>I plan on refreshing my memory later today by going over the repo and overleaf. I haven’t had a debrief for the Cupertino activities yet.</p>
+
+
+
+<a name="301329443"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/301329443" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#301329443">(Sep 28 2022 at 21:14)</a>:</h4>
+<p>hi, I'm glad you miss yelling at your computer screen! I was going to write asking whether you saw Jacques Caretter talk in the Topos Colloquium last week when he discussed some of the things that make him yell at Agda.</p>
+
+
+
+<a name="301329640"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/301329640" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Valeria de Paiva <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#301329640">(Sep 28 2022 at 21:15)</a>:</h4>
+<p>I need to finish one thing before I try to open my roll of big paper stickers to try to get a debrief for myself, but working on it.</p>
+
+
+
+<a name="301363548"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/323208-deprecated%3A%20Dialectica/topic/implementation/near/301363548" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Bond <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/323208-deprecated.3A-Dialectica/topic/implementation.html#301363548">(Sep 29 2022 at 04:03)</a>:</h4>
+<p>Yes! I caught the first half before a meeting. I also picked up some tricks from the Homotopy Type Theory Summer School.</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

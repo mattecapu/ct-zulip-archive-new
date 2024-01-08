@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p>I want to mix two concepts: a two-sided fibration, i.e. a span <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo>←</mo><mi>E</mi><mo>→</mo><mi>B</mi></mrow><annotation encoding=\"application/x-tex\">A \\leftarrow E \\to B</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\">A</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">←</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05764em;\">E</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span></span></span></span> where one leg is an opfibration, the other a fibration, and they are compatible in that opCartesian arrows for one are vertical for the other (and vice versa? I remember one iff the other, but it doesn't really matter now), together with the concept of an accessible fibration as in Makkai-Paré book,  definition 5.3.1. </p>\n<p><a href=\"/user_uploads/21317/ehXBW-8CTCVYFYXXTmrB8x3n/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/ehXBW-8CTCVYFYXXTmrB8x3n/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/ehXBW-8CTCVYFYXXTmrB8x3n/image.png\"></a></div><p>Given that I tend to reason more often with the associated pseudo(pro)functor <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>A</mi><mi>o</mi></msup><mo>×</mo><mi>B</mi><mo>→</mo><mi>C</mi><mi>a</mi><mi>t</mi></mrow><annotation encoding=\"application/x-tex\">A^o\\times B \\to Cat</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">A</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6644em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">o</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">×</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mord mathnormal\">a</span><span class=\"mord mathnormal\">t</span></span></span></span>, I would like to know under which conditions it is accessible in the terminology of 5.3.1, so that I can use 5.3.4 (same ref); is this equivalent, or stronger, or weaker, than proving that in the associated span, the legs are respectively an accessible fibration and accessible opfibration?</p>",
+        "id": 410008315,
+        "sender_full_name": "fosco",
+        "timestamp": 1703587319
+    },
+    {
+        "content": "<p>Note that 5.3.4 applies only to the Grothendieck construction of a <em>contravariant</em> pseudofunctor to produce a <em>fibration</em>.  Since the notion of accessible category is not self-dual, this fact doesn't immediately dualize to say anything about the Grothendieck construction of a covariant pseudofunctor to produce an opfibration, let alone the \"mixed\" Grothendieck construction that produces a two-sided fibration.</p>",
+        "id": 410055274,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1703615880
+    },
+    {
+        "content": "<p>The concept should be a two-sided fibration internal to Acc, right?</p>",
+        "id": 410058333,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1703618176
+    },
+    {
+        "content": "<p>I don't think so, I think it's more subtle than that.</p>",
+        "id": 410058866,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1703618551
+    },
+    {
+        "content": "<p>Depending on what you mean by \"the concept\", of course, but for instance I don't think that definition 5.3.1 is just an ordinary fibration internal to Acc.</p>",
+        "id": 410058931,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1703618615
+    },
+    {
+        "content": "<p>mh, yes, good point. Ok, then what is missing so that a pseudoprofunctor <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>A</mi><mi>o</mi></msup><mo>×</mo><mi>B</mi><mo>→</mo><mi>C</mi><mi>a</mi><mi>t</mi></mrow><annotation encoding=\"application/x-tex\">A^o\\times B \\to Cat</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">A</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6644em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">o</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">×</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mord mathnormal\">a</span><span class=\"mord mathnormal\">t</span></span></span></span> has an accessible total category? Or rather, what would be sufficient?</p>",
+        "id": 410071889,
+        "sender_full_name": "fosco",
+        "timestamp": 1703628426
+    },
+    {
+        "content": "<p>I don't know, sorry.</p>",
+        "id": 410118560,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1703665228
+    },
+    {
+        "content": "<p>I'm inclined to agree with <span class=\"user-mention\" data-user-id=\"275899\">@Christian Williams</span>, what do you think is the subtlety here <span class=\"user-mention\" data-user-id=\"276777\">@Mike Shulman</span>? <span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span></p>",
+        "id": 410136022,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1703674086
+    },
+    {
+        "content": "<p>Uhm now I think I get it, when building the total category of a two-sided fibration one has morphisms from A and B going in opposite directions, roughly meaning colimits in there would be computed 'as colimits' in B and 'as limits' in A, but accessibility only takes care of the former</p>",
+        "id": 410156562,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1703685354
+    },
+    {
+        "content": "<p>I'm not necessarily saying it's hard, just that it's <em>different</em> from Makkai-Paré 5.3.4.</p>",
+        "id": 410178521,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1703695798
+    },
+    {
+        "content": "<p>So, I guess thequestion becomes: if I have this profunctor <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo>:</mo><msup><mi>A</mi><mi>o</mi></msup><mo>×</mo><mi>B</mi><mo>→</mo><mi>C</mi><mi>a</mi><mi>t</mi></mrow><annotation encoding=\"application/x-tex\">P : A^o \\times B \\to Cat</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">P</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">A</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6644em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">o</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">×</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mord mathnormal\">a</span><span class=\"mord mathnormal\">t</span></span></span></span> and I know that it preserves filtered colimits in both variables separately, and that each reindexing induced by <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo stretchy=\"false\">(</mo><mo>−</mo><mo separator=\"true\">,</mo><mi>b</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">P(-,b)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">P</span><span class=\"mopen\">(</span><span class=\"mord\">−</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\">b</span><span class=\"mclose\">)</span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo stretchy=\"false\">(</mo><mi>a</mi><mo separator=\"true\">,</mo><mo>−</mo><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">P(a,-)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">P</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">a</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">−</span><span class=\"mclose\">)</span></span></span></span> is accessible (they are left adjoints, if I assume presentability of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi><mo separator=\"true\">,</mo><mi>B</mi></mrow><annotation encoding=\"application/x-tex\">A,B</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\">A</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span></span></span></span>), what can I deduce about the category of elements of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi></mrow><annotation encoding=\"application/x-tex\">P</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">P</span></span></span></span>?</p>",
+        "id": 410268489,
+        "sender_full_name": "fosco",
+        "timestamp": 1703756891
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Stream created by <span class=\"user-mention silent\" data-user-id=\"275899\">Christian Williams</span>.</p>",
+        "id": 192997540,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1586151862
+    },
+    {
+        "content": "<p>Share a simple gem of knowledge that you have learned, or made, while practicing exposition.</p>",
+        "id": 193080521,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1586196919
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> changed the <a href=\"/help/stream-permissions\">access permissions</a> for this stream from <strong>Public</strong> to <strong>Web-public</strong>.</p>",
+        "id": 397854316,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1697898736
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> changed the description for this stream.</p>\n<ul>\n<li><strong>Old description:</strong></li>\n</ul>\n<blockquote>\n<p>Share a simple gem of knowledge that you have learned, or made, while practicing exposition.</p>\n</blockquote>\n<ul>\n<li><strong>New description:</strong></li>\n</ul>\n<blockquote>\n<p>Deprecated, use a personal topic on #community: our work instead. Share a simple gem of knowledge that you have learned, or made, while practicing exposition.</p>\n</blockquote>",
+        "id": 399477658,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698750502
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>learning: show and tell</strong> to <strong>deprecated: show and tell</strong>.</p>",
+        "id": 399477659,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698750502
+    }
+]

@@ -1,0 +1,146 @@
+[
+    {
+        "content": "<p><a href=\"/user_uploads/21317/6d2QbjwaI5uSGelV0VAu6V5I/image.png\">image.png</a> <br>\nI'm seeing this 'origin of category theory' slides in Chinese, which mentioned Poincaré on combinatorial topology, Noether &amp; Hopf on homology group, Poincaré &amp; Hopf on fundamental group &amp; homology, Carten Eilenberg on homotopy group &amp; modules &amp; derived functor, Eilenber &amp; Mac Lane on group homology. Is there a way I can understand these concepts and history better? Why is topology is important in geometry? Do people want to take limit on something? Where does that limit come from? Do they all have implications in physical sciences e.g. general relativity, thermodynamics, or are they just pure math? When people say 'algebraic geometry', what kind of geometry are they referring to and how similar or dissimilar it is to Riemanian geometry? Is there any code I can write to understand these better? What are the concrete mathematical objects that one can think of when going through the abstract concepts?</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/6d2QbjwaI5uSGelV0VAu6V5I/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/6d2QbjwaI5uSGelV0VAu6V5I/image.png\"></a></div>",
+        "id": 266091770,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1640495115
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/CuUj7BSiitiTIIXusoFZK6G2/image.png\">image.png</a> <br>\nThe next slide mentions Yoneda's lemma, Grothendick on Abel category &amp; sheaf homology &amp; Grothendick topology &amp; topos, Kan on extension, Leray on sheaf, Quillen on homology, Lawvere on categorical logic &amp; topos</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/CuUj7BSiitiTIIXusoFZK6G2/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/CuUj7BSiitiTIIXusoFZK6G2/image.png\"></a></div>",
+        "id": 266092197,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1640495961
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/4hDKeiAxIk9cyaUou1MDWPKM/image.png\">image.png</a> <br>\nThe next slide mentions Lurie on higher-order topos, Riehl on infinite category, Baez on TQF, Mazzola on musicology, Milewski on functional programming, Spivak on modelling</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/4hDKeiAxIk9cyaUou1MDWPKM/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/4hDKeiAxIk9cyaUou1MDWPKM/image.png\"></a></div>",
+        "id": 266092301,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1640496175
+    },
+    {
+        "content": "<p>That's a lot of questions! I'll try to answer the one I understand, remember asking people is not subsitute for personal study and research.</p>\n<blockquote>\n<p>Why is topology is important in geometry?</p>\n</blockquote>\n<p>Topology is the geometry which studies properties of spaces invariant under continuous transformations. Contrast this with 'linear algebra' (which is actually geometry) which studies thing invariant under linear transformations, 'affine geometry' which does the same thing with affine transformations, and so on. So topology is important in geometry insofar as it is a kind of geometry. There's also a lot of cross-pollination between various kinds of geometries, so topological ideas went to influence algebraic geometry and algebraic ideas went on to influence topology.</p>\n<blockquote>\n<p>Do they all have implications in physical sciences e.g. general relativity, thermodynamics, or are they just pure math? </p>\n</blockquote>\n<p>All of math has implications in the understanding of everything else <img alt=\":yo-dark:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/21317/emoji/images/21514.png\" title=\"yo-dark\">, including mathematical phyiscs. 'Purity' in math is an attitude of the practitioner, not of the research.</p>",
+        "id": 266119006,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1640540345
+    },
+    {
+        "content": "<p>It's not clear what \"they all\" meant in that last question.</p>",
+        "id": 266119371,
+        "sender_full_name": "John Baez",
+        "timestamp": 1640540909
+    },
+    {
+        "content": "<p>I guess it meant \"Poincaré on combinatorial topology, Noether &amp; Hopf on homology group, Poincaré &amp; Hopf on fundamental group &amp; homology, Carten Eilenberg on homotopy group &amp; modules &amp; derived functor, Eilenberg &amp; Mac Lane on group homology\".</p>",
+        "id": 266119387,
+        "sender_full_name": "John Baez",
+        "timestamp": 1640540955
+    },
+    {
+        "content": "<p>I'd say any really good mathematical physicist should know most of this stuff.  They're basically not used at all in thermodynamics (though I can imagine doing it), and they're used only a little in general relativity, but they're used a fair amount in quantum field theory - some more than others.  </p>\n<p>I imagine any serious quantum field theorist understands the basics of homology groups, fundamental groups and higher homotopy groups.</p>",
+        "id": 266119531,
+        "sender_full_name": "John Baez",
+        "timestamp": 1640541133
+    },
+    {
+        "content": "<p>A quantum field theorist who likes mathematics - like Ed Witten or Greg Moore or someone like that but less famous - will also know about combinatorial topology, derived functors and group homology.</p>",
+        "id": 266119569,
+        "sender_full_name": "John Baez",
+        "timestamp": 1640541241
+    },
+    {
+        "content": "<p>I think you need to learn all this stuff if you're really serious about understanding <em>space</em> and <em>symmetry</em>.   But it takes about 5 years, so you have to think a bit about what your goals are.</p>",
+        "id": 266119610,
+        "sender_full_name": "John Baez",
+        "timestamp": 1640541265
+    },
+    {
+        "content": "<p>Actually you'd meet all this stuff <em>except</em> group homology in a typical high-powered year-long course on algebraic topology.  For example, most of it is in Hatcher's <a href=\"https://pi.math.cornell.edu/~hatcher/AT/AT.pdf\">free book on algebraic topology</a>.</p>",
+        "id": 266120758,
+        "sender_full_name": "John Baez",
+        "timestamp": 1640542902
+    },
+    {
+        "content": "<p>However, he does the bare minimum on derived functors, and I don't think he covers group cohomology at all.   For both of those I'd recommend Rotman's <em>Introduction to Homological Algebra</em> - the old edition, which is much shorter than the new edition.</p>",
+        "id": 266120822,
+        "sender_full_name": "John Baez",
+        "timestamp": 1640542948
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/266119610\">said</a>:</p>\n<blockquote>\n<p>I think you need to learn all this stuff if you're really serious about understanding <em>space</em> and <em>symmetry</em>.   But it takes about 5 years, so you have to think a bit about what your goals are.</p>\n</blockquote>\n<p>Interesting. How far did people end up going beyond 'group symmetry'? By 'space' are you referring to physical space or mathematical space? Or I guess they're the same in the language of geometry.</p>",
+        "id": 266132219,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1640559841
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/266119006\">said</a>:</p>\n<blockquote>\n<p>That's a lot of questions! I'll try to answer the one I understand, remember asking people is not subsitute for personal study and research.</p>\n<blockquote>\n<p>Why is topology is important in geometry?</p>\n</blockquote>\n<p>Topology is the geometry which studies properties of spaces invariant under continuous transformations. Contrast this with 'linear algebra' (which is actually geometry) which studies thing invariant under linear transformations, 'affine geometry' which does the same thing with affine transformations, and so on. So topology is important in geometry insofar as it is a kind of geometry. There's also a lot of cross-pollination between various kinds of geometries, so topological ideas went to influence algebraic geometry and algebraic ideas went on to influence topology.</p>\n<blockquote>\n<p>Do they all have implications in physical sciences e.g. general relativity, thermodynamics, or are they just pure math? </p>\n</blockquote>\n<p>All of math has implications in the understanding of everything else <img alt=\":yo-dark:\" class=\"emoji\" src=\"https://zulip-avatars.s3.amazonaws.com/21317/emoji/images/21514.png\" title=\"yo-dark\">, including mathematical phyiscs. 'Purity' in math is an attitude of the practitioner, not of the research.</p>\n</blockquote>\n<p>Wikipedia defines geometry as \"A branch of mathematics concerned with properties of space that are related with distance, shape, size, and relative position of figures\", is it consistent with your notion that geometry as 'invariance under transformations'.</p>",
+        "id": 266132798,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1640560699
+    },
+    {
+        "content": "<p>What's more to topology than 'metric topology'? 'metric topology' is what I learned at school during a real analysis course so I wonder what am I missing if I equate that with 'topology'.</p>",
+        "id": 266132890,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1640560910
+    },
+    {
+        "content": "<p>Is is said in that video that algebraic geometry 'analyzes geometry with algebra', is it like solving algebraic equations one can calculate intersection of geometric objects, or other properties of these equations give corresponds to geometric properties in analytic geometry? What is the easiest example of a functor between an algebraic group or ring and a topological space?</p>",
+        "id": 266133084,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1640561194
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/266132798\">said</a>:</p>\n<blockquote>\n<p>Wikipedia defines geometry as \"A branch of mathematics concerned with properties of space that are related with distance, shape, size, and relative position of figures\", is it consistent with your notion that geometry as 'invariance under transformations'.</p>\n</blockquote>\n<p>Yeah it is, by a sleight of hand. If you're interested in studying property X of a space, say you're studying the geometry given by 'transformations that preserve X'. Voilà <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span> It sounds quite naive but it has mileage.</p>",
+        "id": 266174201,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1640613415
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/266132890\">said</a>:</p>\n<blockquote>\n<p>What's more to topology than 'metric topology'? 'metric topology' is what I learned at school during a real analysis course so I wonder what am I missing if I equate that with 'topology'.</p>\n</blockquote>\n<p>That's sometimes called 'point-set topology' and it's surprisingly different from other flavors of topology, the more structural ones (I recently read a remark along these lines... but I don't remember). General topology is more interested in properties that might fail for spaces considered by 'elementary analysis', like separability or connectedness or compactness. The most spectacular applications of topology arise from algebraic topology though, where one studies algebraic invariants attached to topological spaces. Be careful though, since most invariants actually  depends only on the <a href=\"https://ncatlab.org/nlab/show/homotopy%20type\">[[homotopy type]]</a> of a space, so on something even weaker than topology!</p>",
+        "id": 266174494,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1640613651
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/266133084\">said</a>:</p>\n<blockquote>\n<p>Is is said in that video that algebraic geometry 'analyzes geometry with algebra', is it like solving algebraic equations one can calculate intersection of geometric objects, or other properties of these equations give corresponds to geometric properties in analytic geometry? </p>\n</blockquote>\n<p>Exactly!! That's the very beginning of algebraic geometry. Modern developments are just pushing this idea much further.</p>",
+        "id": 266174542,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1640613692
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/266174201\">said</a>:</p>\n<blockquote>\n<p>If you're interested in studying property X of a space, say you're studying the geometry given by 'transformations that preserve X'. Voilà <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span> It sounds quite naive but it has mileage.</p>\n</blockquote>\n<p>Cf. the <a href=\"https://ncatlab.org/nlab/show/Erlangen%20program\">[[Erlangen program]]</a>, for instance.</p>",
+        "id": 266181602,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1640619871
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/266132219\">said</a>:</p>\n<blockquote>\n<p>How far did people end up going beyond 'group symmetry'? </p>\n</blockquote>\n<p>First, there's a huge amount to understand about group symmetry: the theory of Lie groups and their representations, infinite-dimensional analogues of Lie groups, principal bundles and the connections on them, etc. - any good quantum field theorist is expected to know this stuff, and you need algebraic topology to work with these things.   </p>\n<p>Second, physicists have been exploring generalizations of groups including <a href=\"https://ncatlab.org/nlab/show/quantum%20groups\">[[quantum groups]]</a>, <a href=\"https://ncatlab.org/nlab/show/2-groups\">[[2-groups]]</a> (which are categorified groups), <a href=\"https://ncatlab.org/nlab/show/3-groups\">[[3-groups]]</a> and higher groups.   Quantum groups are important in condensed matter physics and 3d TQFT.  People are starting to explore <a href=\"https://arxiv.org/search/?query=%222-group%22+AND+condensed&amp;searchtype=all&amp;abstracts=show&amp;order=-announced_date_first&amp;size=50\">2-groups in condensed matter physics</a>.</p>",
+        "id": 266197239,
+        "sender_full_name": "John Baez",
+        "timestamp": 1640632435
+    },
+    {
+        "content": "<p>I mention condensed matter physics because this tends to have more contact with experiment than theoretical particle physics.</p>",
+        "id": 266197324,
+        "sender_full_name": "John Baez",
+        "timestamp": 1640632514
+    },
+    {
+        "content": "<blockquote>\n<p>By 'space' are you referring to physical space or mathematical space? Or I guess they're the same in the language of geometry.</p>\n</blockquote>\n<p>I meant physical space or spacetime, studied using mathematics.</p>",
+        "id": 266197414,
+        "sender_full_name": "John Baez",
+        "timestamp": 1640632594
+    },
+    {
+        "content": "<blockquote>\n<p>What is the easiest example of a functor between an algebraic group or ring and a topological space?</p>\n</blockquote>\n<p>That doesn't make sense: a functor could go from a <em>category</em> of groups to a <em>category</em> of topological spaces, not from an individual group to an individual topological space.</p>\n<p>(Experts may object but I claim those objections are too sophisticated: I'm trying to coach him in how to speak like a mathematician.)</p>",
+        "id": 266197546,
+        "sender_full_name": "John Baez",
+        "timestamp": 1640632713
+    },
+    {
+        "content": "<p>Gotta say something here. Sam Eilenberg? It was never Sam Eilenberg. Sammy! <a href=\"https://www.ams.org/notices/199810/mem-eilenberg.pdf\">Sammy!</a></p>",
+        "id": 266528592,
+        "sender_full_name": "Todd Trimble",
+        "timestamp": 1640992628
+    }
+]

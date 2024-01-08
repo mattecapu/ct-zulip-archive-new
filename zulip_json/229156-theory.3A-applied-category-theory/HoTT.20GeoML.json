@@ -1,0 +1,176 @@
+[
+    {
+        "content": "<p>I'm interested in trying to translate GeoML (GML: <a href=\"https://en.wikipedia.org/wiki/Geography_Markup_Language\">https://en.wikipedia.org/wiki/Geography_Markup_Language</a>), a coordinate-based markup language for expressing 3d shapes, into homotopy type theory, in such a way that the topological structure of the GML is reflected in the proof theory (the groupoids induced by propositional equality) of the resulting HoTT code.  In the same way that in <a href=\"https://arxiv.org/pdf/1301.3443.pdf\">https://arxiv.org/pdf/1301.3443.pdf</a> the authors calculated the homotopy groups of spheres using HoTT, I'm wondering if we could e.g. calculate some simpler thing about a real world structure for which GML exists (like a famous Church etc) using HoTT methods.  Any thoughts?</p>",
+        "id": 366321090,
+        "sender_full_name": "Ryan Wisnesky",
+        "timestamp": 1686783683
+    },
+    {
+        "content": "<p>To elaborate, I know how to write individual shapes such as toruses in HoTT, and I have coordinate lists for shapes in the GeoML file format, such as toruses, I’m just not sure what to do to corresponding HoTT code when those shapes are found to e.g. intersect or touch.  Presumably, I should push them out or create suspensions or sewing or do other topological things, but I don't know what these would be.  I think there's probably a cool quick demo here (perhaps a 'functional pearl') if this can be worked out.</p>",
+        "id": 366328382,
+        "sender_full_name": "Ryan Wisnesky",
+        "timestamp": 1686787398
+    },
+    {
+        "content": "<p>Looks cool!</p>\n<p>As far as I know, actually extracting computation from a HoTT proof is still intractable. From a <a href=\"https://homotopytypetheory.org/2022/06/09/the-brunerie-number-is-2/\">2022 blog post</a></p>\n<blockquote>\n<p>This result is quite remarkable in that even though it is a constructive proof, it is not at all obvious how to actually compute this n. At the time of writing, we still haven’t managed to extract its value from its definition.</p>\n</blockquote>",
+        "id": 366334368,
+        "sender_full_name": "Spencer Breiner",
+        "timestamp": 1686790527
+    },
+    {
+        "content": "<p>On the plus side, the \"coverages\" in GML (geospatial/temporal data) look like (sections of) sheaves <span aria-label=\"harvest\" class=\"emoji emoji-1f33e\" role=\"img\" title=\"harvest\">:harvest:</span><span aria-label=\"harvest\" class=\"emoji emoji-1f33e\" role=\"img\" title=\"harvest\">:harvest:</span></p>",
+        "id": 366334632,
+        "sender_full_name": "Spencer Breiner",
+        "timestamp": 1686790663
+    },
+    {
+        "content": "<p>there's a lot of good stuff in GML, imo</p>",
+        "id": 366334732,
+        "sender_full_name": "Ryan Wisnesky",
+        "timestamp": 1686790697
+    },
+    {
+        "content": "<p>I just glanced over the Wikipedia page briefly. Are you thinking more about the feature set or the available data sets (or both)</p>",
+        "id": 366335139,
+        "sender_full_name": "Spencer Breiner",
+        "timestamp": 1686790884
+    },
+    {
+        "content": "<p>Here's an even more precise statement of my \"ask\".  GML defines the concept of polygon, and assume we know how to translate polygons into HoTT (they are like e.g. squares but more so).  I'm asking for help exhaustively enumerating all the ways two polygons can overlap, and for each such way, figuring out what to do with the associated HoTT code.  For example, assume we have six squares that form a cube.  This gives six HoTT inductive types.  Based on the fact that the squares overlap on edges, these six types should get merged into one type with six \"square\" constructors, resulting in the HoTT code for the cube.  Presumably, there is some systematic way of doing this that I'm asking for help finding.</p>",
+        "id": 366335151,
+        "sender_full_name": "Ryan Wisnesky",
+        "timestamp": 1686790890
+    },
+    {
+        "content": "<p>btw not all GML is topologically \"consistent\" (meaning it deviates from ISO spec as well as not specifying anything mathematical). <a href=\"https://www.researchgate.net/publication/333795484_Evaluation_of_Topological_Consistency_in_CityGML\">https://www.researchgate.net/publication/333795484_Evaluation_of_Topological_Consistency_in_CityGML</a></p>",
+        "id": 366335483,
+        "sender_full_name": "Ryan Wisnesky",
+        "timestamp": 1686791031
+    },
+    {
+        "content": "<p>Do you want intersections in general or shared faces (as in CW-complexes)</p>",
+        "id": 366335595,
+        "sender_full_name": "Spencer Breiner",
+        "timestamp": 1686791058
+    },
+    {
+        "content": "<p>whatever would be given by coordinate lists</p>",
+        "id": 366335941,
+        "sender_full_name": "Ryan Wisnesky",
+        "timestamp": 1686791225
+    },
+    {
+        "content": "<p>all that comes out of GML is a bunch of polygon definitions, each with a coordinate list.  everything else has to be computed.  Other formats like CityML have keywords to specify such relationships, such as \"disjoint from\"</p>",
+        "id": 366336014,
+        "sender_full_name": "Ryan Wisnesky",
+        "timestamp": 1686791272
+    },
+    {
+        "content": "<p>To be hyper concrete, I can see how to go from six of<br>\n  **data Square {A : Type} {a00 : A} : <br>\n              {a01 a10 a11 : A} → a00 == a01 -&gt; a00 == a10 -&gt; a01 == a11 -&gt; a10 == a11 -&gt; Type where <br>\n    id : Square id id id id** <br>\nto one  of   <br>\n**data Cube {A : Type} {a000 : A} : <br>\n    {a010 a100 a110 a001 a011 a101 a111 : A}<br>\n    {p0-0 : a000 == a010}<br>\n    {p-00 : a000 == a100}<br>\n    {p-10 : a010 == a110}<br>\n    {p1-0 : a100 == a110}<br>\n    (f--0 : Square p0-0 p-00 p-10 p1-0) -- left<br>\n    {p0-1 : a001 == a011}<br>\n    {p-01 : a001 == a101}<br>\n    {p-11 : a011 == a111}<br>\n    {p1-1 : a101 == a111}<br>\n    (f--1 : Square p0-1 p-01 p-11 p1-1) -- right<br>\n    {p00- : a000 == a001}<br>\n    {p01- : a010 == a011}<br>\n    {p10- : a100 == a101}<br>\n    {p11- : a110 == a111}<br>\n    (f0-- : Square p0-0 p00- p01- p0-1) -- back<br>\n    (f-0- : Square p-00 p00- p10- p-01) -- top<br>\n    (f-1- : Square p-10 p01- p11- p-11) -- bot<br>\n    (f1-- : Square p1-0 p10- p11- p1-1) -- front<br>\n    → Type where<br>\n    id : Cube id id id id id id**</p>\n<p>when squares match exactly by coordinates (not shown), but there must be a general way to do this for all shapes.  No doubt something like this already exists for scene reconstruction, just not targeting HoTT</p>",
+        "id": 366336128,
+        "sender_full_name": "Ryan Wisnesky",
+        "timestamp": 1686791310
+    },
+    {
+        "content": "<p>In this case, the squares share edges, but in general they might pass through each other, or overlap in a 2-dimensional patch. </p>\n<p>You would like to recognize that there is an intersection, even though this is not part of any boundary path</p>",
+        "id": 366336478,
+        "sender_full_name": "Spencer Breiner",
+        "timestamp": 1686791479
+    },
+    {
+        "content": "<p>You could also get families of polygons if the initial patches are not convex</p>",
+        "id": 366336599,
+        "sender_full_name": "Spencer Breiner",
+        "timestamp": 1686791528
+    },
+    {
+        "content": "<p>right, and I have no idea how to do geometry or topology or whatever this would be called.  would anyone like to figure all this out for the glory of writing a paper?</p>",
+        "id": 366336625,
+        "sender_full_name": "Ryan Wisnesky",
+        "timestamp": 1686791545
+    },
+    {
+        "content": "<p>I once audited a cool course in computational geometry, but I think I've forgotten everything (except a dim memory of present wrapping making an appearance)</p>",
+        "id": 366337391,
+        "sender_full_name": "Spencer Breiner",
+        "timestamp": 1686791923
+    },
+    {
+        "content": "<p>anyone on zulip we might ask?</p>",
+        "id": 366337591,
+        "sender_full_name": "Ryan Wisnesky",
+        "timestamp": 1686792025
+    },
+    {
+        "content": "<p>I think we can assume that given two polygons there is an algorithm to say 'disjoint' or produce a polygon of their intersection (presumably one dimension lower but I can see how two squares might overlap in the same plane).  For example <a href=\"http://www.csun.edu/~ctoth/Handbook/chap42.pdf\">http://www.csun.edu/~ctoth/Handbook/chap42.pdf</a> .  The part that is tricky, that I think requires topology, is figuring out how to act on the corresponding HoTT code.  For example, if the six squares touch in a way that forms a chain, then they become a single bigger rectangle, which in my mind would be implemented by e.g. simplification of a presentation.  In other words, from a topological perspective, how many ways are there for two shapes to intersect, and how would each of these yield a presentation of the combined object from presentations of the input objects?</p>",
+        "id": 366339412,
+        "sender_full_name": "Ryan Wisnesky",
+        "timestamp": 1686792779
+    },
+    {
+        "content": "<p>perhaps what is needed is <a href=\"https://en.wikipedia.org/wiki/Surgery_theory\">https://en.wikipedia.org/wiki/Surgery_theory</a> but with arbitrary shapes, not spheres, and in terms of presentations</p>",
+        "id": 366343112,
+        "sender_full_name": "Ryan Wisnesky",
+        "timestamp": 1686794640
+    },
+    {
+        "content": "<p>It sounds to me like you want something like a proof assistant but with tools to manipulate simplicial complexes, something like <a href=\"https://polymake.org/doku.php/user_guide/tutorials/latest/apps_topaz\">https://polymake.org/doku.php/user_guide/tutorials/latest/apps_topaz</a> . Is there a specific homotopical thing you want to exploit using HoTT?</p>",
+        "id": 366499972,
+        "sender_full_name": "Emilio Minichiello",
+        "timestamp": 1686835685
+    },
+    {
+        "content": "<p>I don't have a clue what to do with the HoTT code that would arise from the GML, but I'm sure we could think of something cool :-)</p>",
+        "id": 366522901,
+        "sender_full_name": "Ryan Wisnesky",
+        "timestamp": 1686839831
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"278008\">Spencer Breiner</span> <a href=\"#narrow/stream/229156-practice.3A-applied-ct/topic/HoTT.20GeoML/near/366334368\">said</a>:</p>\n<blockquote>\n<p>As far as I know, actually extracting computation from a HoTT proof is still intractable. </p>\n</blockquote>\n<p>There is some recent work on speeding this stuff up, like <a href=\"https://github.com/AndrasKovacs/cctt\">https://github.com/AndrasKovacs/cctt</a> :</p>\n<blockquote>\n<p>we have two variations of the Brunerie number. These can be both computed here but only one can be computed in Agda</p>\n</blockquote>",
+        "id": 366586456,
+        "sender_full_name": "Alex Gryzlov",
+        "timestamp": 1686852683
+    },
+    {
+        "content": "<p>Nice! Glad to hear about that</p>",
+        "id": 366590218,
+        "sender_full_name": "Spencer Breiner",
+        "timestamp": 1686853613
+    },
+    {
+        "content": "<p>Looks like there is a standard for describing all the ways shapes can overlap, called DE-9IM.  <a href=\"https://en.wikipedia.org/wiki/DE-9IM\">https://en.wikipedia.org/wiki/DE-9IM</a> .  It defines predicates like \"touches\" and \"crosses\" and \"covers\"</p>",
+        "id": 366934787,
+        "sender_full_name": "Ryan Wisnesky",
+        "timestamp": 1686945338
+    },
+    {
+        "content": "<p>By the way, I'm curious to know how homotopy type theory might help here: I don't see it.  For example homotopy type theory has a slick way of defining the circle, but as far as I know the really quick thing to define is the <em>homotopy type</em> of the circle, not the circle as a topological space or the circle as a manifold with a geometry like a Riemannian metric.</p>",
+        "id": 366935370,
+        "sender_full_name": "John Baez",
+        "timestamp": 1686945540
+    },
+    {
+        "content": "<p>Of course you must be able to define the usual round circle in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"double-struck\">R</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/x-tex\">\\mathbb{R}^2</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8141em;\"></span><span class=\"mord\"><span class=\"mord mathbb\">R</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8141em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">2</span></span></span></span></span></span></span></span></span></span></span> using homotopy type theory, but I'm not seeing how that offers advantages over the usual way of working with it.... at least not in relatively \"mundane\" applications like GeoML.</p>",
+        "id": 366935645,
+        "sender_full_name": "John Baez",
+        "timestamp": 1686945615
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"278008\">Spencer Breiner</span> <a href=\"#narrow/stream/229156-practice.3A-applied-ct/topic/HoTT.20GeoML/near/366334368\">said</a>:</p>\n<blockquote>\n<p>Looks cool!</p>\n<p>As far as I know, actually extracting computation from a HoTT proof is still intractable. From a <a href=\"https://homotopytypetheory.org/2022/06/09/the-brunerie-number-is-2/\">2022 blog post</a></p>\n<blockquote>\n<p>This result is quite remarkable in that even though it is a constructive proof, it is not at all obvious how to actually compute this n. At the time of writing, we still haven’t managed to extract its value from its definition.<br>\n</p>\n</blockquote>\n</blockquote>\n<p>The big news since a year or so is that HoTT now <em>does</em> compute, using cubical Agda.  <br>\nSee:<br>\n<a href=\"https://homotopytypetheory.org/2022/06/09/the-brunerie-number-is-2/\">https://homotopytypetheory.org/2022/06/09/the-brunerie-number-is-2/</a><br>\nIt's very impressive!</p>",
+        "id": 366938150,
+        "sender_full_name": "Steve Awodey",
+        "timestamp": 1686946557
+    },
+    {
+        "content": "<p>the 2022 blog post that <span class=\"user-mention\" data-user-id=\"278008\">@Spencer Breiner</span> linked to is quoting from Brunerie's 2016 thesis <em>in order to say that the problem referred to there has now been solved</em>.</p>",
+        "id": 366938856,
+        "sender_full_name": "Steve Awodey",
+        "timestamp": 1686946808
+    },
+    {
+        "content": "<p>I'm not really sure if there will be any interesting information left as a result of this GML to HoTT translation; I don't really know if computing the homotopy type of the EU parliament will be useful for anything more than a cool demo (to, say, the EU parliament).  My interest here is actually about automated deduction: I'm keen to explore 'correct-by-construction' ways of manipulating not just coordinate data but things derived from it (such as topologies or homotopy types).  The realization that GML needs to be checked for consistency was eye-opening, for example.  As another  example people can prove SQL queries equivalent using HoTT (<a href=\"https://homotopytypetheory.org/2016/09/26/hottsql-proving-query-rewrites-with-univalent-sql-semantics/\">https://homotopytypetheory.org/2016/09/26/hottsql-proving-query-rewrites-with-univalent-sql-semantics/</a>) and this kind of trick might work for e.g. GeoSPARQL too, which use primitives based on homotopy type (connectedness and whatnot), in addition to coordinates.  (And don't get me started about trying to use  RDF/OWL for this purpose).</p>",
+        "id": 367013050,
+        "sender_full_name": "Ryan Wisnesky",
+        "timestamp": 1686954090
+    }
+]

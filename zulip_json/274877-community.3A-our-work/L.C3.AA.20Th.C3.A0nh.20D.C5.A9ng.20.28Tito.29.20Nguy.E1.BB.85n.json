@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>I'm not sure what's the best / most appropriate way to advertise this, but in connection with Gordon Plotkin's future Topos Institute Berkeley Seminar talk <a href=\"https://topos.site/berkeley-seminar/\">https://topos.site/berkeley-seminar/</a> I would like to announce that I have obtained a characterization of what he calls the \"nonuniformly definable\" functions in the simply typed λ-calculus, making essential use of the results (<a href=\"https://arxiv.org/abs/2206.08413\">https://arxiv.org/abs/2206.08413</a>) that he's going to present in the talk (at least according to his abstract).</p>\n<p>While I have not yet finished writing a paper on it I have had the opportunity to present my discovery at a seminar of the University of Warsaw recently:<br>\n<a href=\"https://www.mimuw.edu.pl/aktualnosci/seminaria/transducer-model-simply-typed-l-definable-functions\">https://www.mimuw.edu.pl/aktualnosci/seminaria/transducer-model-simply-typed-l-definable-functions</a></p>\n<p>As said in the above abstract, the characterisation uses an automaton model, in line with my work with Cécilia Pradic on \"implicit automata in typed λ-calculi\". See our first paper on the topic<br>\n<a href=\"https://hal.science/hal-02476219/document\">https://hal.science/hal-02476219/document</a><br>\nfor a brief introduction to the perspective we've been developing, or Chapter 1 of my PhD thesis defended last year<br>\n<a href=\"https://nguyentito.eu/thesis.pdf\">https://nguyentito.eu/thesis.pdf</a><br>\nfor a more lengthy overview of this research programme. (In fact the result I'm announcing here positively answers Conjecture 1.4.3 in my thesis.)</p>",
+        "id": 302777991,
+        "sender_full_name": "Lê Thành Dũng (Tito) Nguyễn",
+        "timestamp": 1665115749
+    },
+    {
+        "content": "<p>While I'm at it, let me mention that I also know a way to prove Prof. Plotkin's result using the standard set-theoretic semantics of the simply typed λ-calculus instead of Scott domains, by adapting Statman's approach from the following paper <a href=\"https://www.sciencedirect.com/science/article/pii/S0168007204000661\">https://www.sciencedirect.com/science/article/pii/S0168007204000661</a></p>",
+        "id": 302778092,
+        "sender_full_name": "Lê Thành Dũng (Tito) Nguyễn",
+        "timestamp": 1665115871
+    },
+    {
+        "content": "<p>I also have some slides from an older talk (I hadn't yet proved my conjecture) geared towards an audience of automata theorists, but which may still be helpful to understand what it is I'm talking about: <a href=\"https://nguyentito.eu/updated-stlc-transducer.pdf\">https://nguyentito.eu/updated-stlc-transducer.pdf</a></p>",
+        "id": 302778376,
+        "sender_full_name": "Lê Thành Dũng (Tito) Nguyễn",
+        "timestamp": 1665116178
+    },
+    {
+        "content": "<p>Hmm, so I still haven't managed to properly write up the proof that I announced a few months ago (yay ADHD…) but I have a new preprint with Mikołaj Bojańczyk – again on automata, this time with a bit of category theory too – which has just been accepted for presentation at SYCO 11!<br>\n<a href=\"https://hal.science/hal-03985883/document\">https://hal.science/hal-03985883/document</a></p>\n<blockquote>\n<p>Title: Algebraic Recognition of Regular Functions</p>\n</blockquote>\n<blockquote>\n<p>Abstract: We consider regular string-to-string functions, i.e. functions that are recognized by copyless streaming string transducers, or any of their equivalent models, such as deterministic two-way automata. We give yet another characterization, which is very succinct: finiteness-preserving functors from the category of semigroups to itself, together with a certain output function that is a natural transformation.<br>\nSemigroups are like monoids, but possibly without a unit element. Our result is analogous to the following classical theorem: a set of words over a finite alphabet, in other words a function from a finitely generated free monoid to {yes,no}, is a regular language – described by some regular expression, or equivalently recognized by some finite-state automaton – if and only if it factors through a homomorphism to a finite semigroup. Or to a finite monoid, but for our generalization to string-to-string functions, there are good technical reasons to work with semigroups instead.</p>\n</blockquote>",
+        "id": 343358583,
+        "sender_full_name": "Lê Thành Dũng (Tito) Nguyễn",
+        "timestamp": 1679402207
+    }
+]

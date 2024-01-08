@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>Is there an online tool to create simple one-dimensional string diagrams? What's the easiest one?</p>",
+        "id": 402936368,
+        "sender_full_name": "Jonas Frey",
+        "timestamp": 1700356763
+    },
+    {
+        "content": "<p>Not online, but there is tikzit. There is also another one that <span class=\"user-mention\" data-user-id=\"284005\">@Ralph Sarkis</span> like more I think, I don't remember what it is.</p>",
+        "id": 402961300,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1700370537
+    },
+    {
+        "content": "<p>Thanks! I was just playing around with tikzit, and it seems pretty good! But I would also be interested to hear about the other option.</p>",
+        "id": 402961515,
+        "sender_full_name": "Jonas Frey",
+        "timestamp": 1700370664
+    },
+    {
+        "content": "<p>I haven't used <a href=\"https://varkor.github.io/tangle/\">tangle</a> enough to be convinced I prefer it over TikZiT.</p>\n<p>I like the artistic freedom TikZiT gives me for the colors, shapes, thickness, etc. of the drawing, but I don't like the artistic freedom in the placement of boxes and wires, tangle is more mechanical on that front.</p>",
+        "id": 402976782,
+        "sender_full_name": "Ralph Sarkis",
+        "timestamp": 1700379620
+    },
+    {
+        "content": "<p>If you want to use string diagrams mainly for \"illustration\" purposes and you don't need too much artistic tinkering, you may want to check out <a href=\"https://rewalt.readthedocs.io/en/latest/notebooks/stringdiagrams.html\">rewalt</a>. <br>\nBasically you create diagrams by adding generators to your \"signature\" and composing them together as you would do for morphisms, then you can generate tikz code for their string diagram representation.<br>\nI've heard <a href=\"http://homotopy.io\">homotopy.io</a> also has tikz output now but I haven't tried it.</p>",
+        "id": 403001187,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1700392728
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"284005\">Ralph Sarkis</span> <a href=\"#narrow/stream/229111-community.3A-general/topic/string.20diagram.20editor/near/402976782\">said</a>:</p>\n<blockquote>\n<p>I haven't used <a href=\"https://varkor.github.io/tangle/\">tangle</a> enough to be convinced I prefer it over TikZiT.<br>\n</p>\n</blockquote>\n<p>tangle is the most <em>convenient</em> thing I know, it just runs in browser and it makes very nice looking output if you happen to hit its feature set, but afaik it's not \"officially released\"</p>",
+        "id": 403050418,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1700426089
+    },
+    {
+        "content": "<p>If you're feeling brave, you could try the (very alpha) semagrams demo here:<br>\n<a href=\"https://semagrams.algebraicjulia.org/apps/dwd/\">https://semagrams.algebraicjulia.org/apps/dwd/</a></p>\n<p>Click in the window and hit \"h\" to bring up a help pop-up with affordances.</p>\n<p>To clear the loaded instance, you can hit \"s\" to call up the import/export window, then \"Ctrl+A\" to select all and \"Backspace\" to erase the existing diagram.</p>",
+        "id": 403072461,
+        "sender_full_name": "Spencer Breiner",
+        "timestamp": 1700442628
+    },
+    {
+        "content": "<p>Thanks for all your answers! I think for now I'll stick with tikzit.</p>",
+        "id": 403075070,
+        "sender_full_name": "Jonas Frey",
+        "timestamp": 1700443988
+    }
+]

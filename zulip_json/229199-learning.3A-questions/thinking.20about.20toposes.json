@@ -1,0 +1,308 @@
+[
+    {
+        "content": "<p>Do you think it maybe helpful to draw a very strict distinction between logic and mathematics so I don't mix the two together. The lattice of open sets that is considered in topos theory out of logical reasons not mathematical/algebraic reasons. The algebraic reasons consists of for example how topos theory generalizes group theory, and these are additional structures of the underlying topological spaces.</p>",
+        "id": 268437475,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1642531545
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/268437475\">said</a>:</p>\n<blockquote>\n<p>Do you think it maybe helpful to draw a very strict distinction between logic and mathematics so I don't mix the two together.</p>\n</blockquote>\n<p>No, because that distinction would be entirely artificial.</p>",
+        "id": 268443618,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1642534287
+    },
+    {
+        "content": "<p>Perhaps you're expecting things to be a lot more exclusive than they are? One could consider the open sets of a space from a logical perspective or from an algebraic perspective, but these perspectives are complementary, not mutually exclusive.</p>",
+        "id": 268443799,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1642534370
+    },
+    {
+        "content": "<p>A perhaps relevant quote from <em>Seven Sketches</em>:<br>\n<a href=\"/user_uploads/21317/pWb1jzMLOEsBQsFqmMqHE46c/image.png\">ooze</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/pWb1jzMLOEsBQsFqmMqHE46c/image.png\" title=\"ooze\"><img src=\"/user_uploads/21317/pWb1jzMLOEsBQsFqmMqHE46c/image.png\"></a></div>",
+        "id": 268447204,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1642535984
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/268443799\">said</a>:</p>\n<blockquote>\n<p>Perhaps you're expecting things to be a lot more exclusive than they are? One could consider the open sets of a space from a logical perspective or from an algebraic perspective, but these perspectives are complementary, not mutually exclusive.</p>\n</blockquote>\n<p>How would you consider the open sets from an algebraic perspective?</p>",
+        "id": 268459895,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1642542133
+    },
+    {
+        "content": "<p>As a <a href=\"https://ncatlab.org/nlab/show/frame\">[[frame]]</a></p>",
+        "id": 268474943,
+        "sender_full_name": "Fawzi Hreiki",
+        "timestamp": 1642550939
+    },
+    {
+        "content": "<p>So that being Heyting algebra, which is essentially a topological, intuitionistic generalization of Boolean algebra, which is still 'logical', but I'm yet to know what's algebraic about it. For instance, I don't see groups can be put into here, just like we previously discussed, so I'm thinking that this construction is merely a matter of logic, not potentially used for other algebraic structures. But I guess one can still consider the topological space as a group etc, am I right?</p>",
+        "id": 268483916,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1642558503
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/268483916\">said</a>:</p>\n<blockquote>\n<p>So that being Heyting algebra, which is essentially a topological, intuitionistic generalization of Boolean algebra, which is still 'logical', but I'm yet to know what's algebraic about it. For instance, I don't see groups can be put into here, just like we previously discussed, so I'm thinking that this construction is merely a matter of logic, not potentially used for other algebraic structures. But I guess one can still consider the topological space as a group etc, am I right?</p>\n</blockquote>\n<p>What makes something \"algebraic\"?</p>",
+        "id": 268484109,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1642558699
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/268437475\">said</a>:</p>\n<blockquote>\n<p>Do you think it maybe helpful to draw a very strict distinction between logic and mathematics so I don't mix the two together. The lattice of open sets that is considered in topos theory out of logical reasons not mathematical/algebraic reasons. The algebraic reasons consists of for example how topos theory generalizes group theory, and these are additional structures of the underlying topological spaces.</p>\n</blockquote>\n<p>I was referring to how topos generalizes group</p>",
+        "id": 268484338,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1642558931
+    },
+    {
+        "content": "<p>And how does a topos \"generalize a group\"?</p>",
+        "id": 268499261,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1642576072
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/8GVRy8xofbQ8uJdhlyDNkF2Y/684D73FF-0164-4FC9-A587-9C304D3AF8F0.png\">684D73FF-0164-4FC9-A587-9C304D3AF8F0.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/8GVRy8xofbQ8uJdhlyDNkF2Y/684D73FF-0164-4FC9-A587-9C304D3AF8F0.png\" title=\"684D73FF-0164-4FC9-A587-9C304D3AF8F0.png\"><img src=\"/user_uploads/21317/8GVRy8xofbQ8uJdhlyDNkF2Y/684D73FF-0164-4FC9-A587-9C304D3AF8F0.png\"></a></div>",
+        "id": 268529782,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1642594371
+    },
+    {
+        "content": "<p>(deleted)</p>",
+        "id": 268529784,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1642594372
+    },
+    {
+        "content": "<p>(deleted)</p>",
+        "id": 268529785,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1642594372
+    },
+    {
+        "content": "<p>I was referring to this slide that I have seen</p>",
+        "id": 268529830,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1642594414
+    },
+    {
+        "content": "<p>You can think of a presheaf topos as the category of \"actions\" of a given category on sets (with groups as a special case of this). Sheaf toposes are full subcategories of presheaf toposes, so you can think of the objects of any Grothendieck topos as actions (and hence algebraic) in this sense.</p>",
+        "id": 268530838,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1642595086
+    },
+    {
+        "content": "<p>I think we can be a little bit more generous than that, though I still would not say that toposes are generalisations of groups. The fact is that the 1-category of groups embeds fully faithfully in the 1-category of \"strict\" groupoids, and the 2-category of groupoids embeds faithfully in the 2-category of toposes. (I'm not sure if the embedding is full if we don't restrict to essential geometric morphisms.)</p>",
+        "id": 268531617,
+        "sender_full_name": "Zhen Lin Low",
+        "timestamp": 1642595575
+    },
+    {
+        "content": "<p>Is that more generous? Doesn't the embedding you're talking about amount to taking categories of actions? Or are you taking a larger class of groups than the \"ordinary\" ones with no extra structure?</p>",
+        "id": 268533605,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1642596645
+    },
+    {
+        "content": "<p>What kind of category theorist would I be if I don't explain how geometric morphisms are supposed to be generalisations of group homomorphisms?</p>",
+        "id": 268534223,
+        "sender_full_name": "Zhen Lin Low",
+        "timestamp": 1642596945
+    },
+    {
+        "content": "<p>Thanks Zhen Lin, Can you give me a calculabtable/low-dimension example of geometric morphism that is not group homomorphism?</p>",
+        "id": 268541948,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1642600468
+    },
+    {
+        "content": "<p>Thanks Morgan, can you also give an example of such an action?</p>",
+        "id": 268543452,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1642601050
+    },
+    {
+        "content": "<p>One can consider groups as categories with a single object (or more specifically a groupoid with a single object), and a group homomorphism is exactly a functor between such categories. Any functor between small categories gives a geometric morphism between the toposes of presheaves on those categories. A presheaf on a group is exactly a right action of that group on a set, so we can consider a presheaf on any small category as a \"right action\" of that category.</p>",
+        "id": 268566208,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1642610063
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/268566208\">said</a>:</p>\n<blockquote>\n<p>Any functor between small categories gives a geometric morphism between the toposes of presheaves on those categories.</p>\n</blockquote>\n<p>The geometric morphism <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi></mrow><annotation encoding=\"application/x-tex\">f</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span></span></span></span> induced by a functor <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi></mrow><annotation encoding=\"application/x-tex\">F</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span></span></span></span> has restriction along <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi></mrow><annotation encoding=\"application/x-tex\">F</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span></span></span></span> as its inverse image functor and right Kan extension along <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi></mrow><annotation encoding=\"application/x-tex\">F</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span></span></span></span> as its direct image functor.</p>",
+        "id": 268566392,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1642610157
+    },
+    {
+        "content": "<p>Ok just want to make this more precise and work on a concrete example. I know two definitions of presheaf, one topological (as a function mapping from the topological space to some space) and one categorical (as a functor mapping from the opposite category to the category of sets). And I know definition of a group and why it is categorified as a groupoid with a single object (morphisms are group actions). Does a \"presheaf on a group\" mean the topological space being a group or the space being mapped from the topological to is a group? Or both? Shall I consider the symmetric group action on a finite set? e.g. <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi><mo>=</mo><mo stretchy=\"false\">{</mo><mn>1</mn><mo separator=\"true\">,</mo><mn>2</mn><mo separator=\"true\">,</mo><mn>3</mn><mo separator=\"true\">,</mo><mn>4</mn><mo stretchy=\"false\">}</mo></mrow><annotation encoding=\"application/x-tex\">X=\\{1,2,3,4\\}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">{</span><span class=\"mord\">1</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">2</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">3</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">4</span><span class=\"mclose\">}</span></span></span></span> with permutations <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>σ</mi><mo>:</mo><mi>X</mi><mo>→</mo><mi>X</mi></mrow><annotation encoding=\"application/x-tex\">\\sigma:X\\rightarrow X</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">σ</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span></span></span></span> But this gives a group exactly not a 'generalized group'. Are you saying we can consider a different action which is still a presheaf? By functor between categories are you saying we should consider two such symmetric groups? I'm not sure what group is homomorphic to that symmetric group, except a symmetric group of the same size. Can you give a concrete example of such an action that give rise to the geometric morphism that you're talking about? (Haven't figured out Kan extension entirely yet but just want a motivating example to dig into it)</p>",
+        "id": 268580065,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1642615450
+    },
+    {
+        "content": "<p>The morphisms of a group (viewed as a category) are its <em>elements</em>, not its actions. An action of a group involves more data, namely a set and a function encoding how each element of the group transforms the set. The category of actions has these as objects: the group is fixed but the set is allowed to vary. The morphisms are functions between the sets that respect the group action. Above I explained that the resulting category is a special case of a presheaf topos.</p>",
+        "id": 268583061,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1642616881
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/268437475\">said</a>:</p>\n<blockquote>\n<p>Do you think it may be helpful to draw a very strict distinction between logic and mathematics so I don't mix the two together. </p>\n</blockquote>\n<p>No, that's hopeless.    There's no sharp boundary between logic and mathematics.  Mathematicians have learned that boundaries like this are arbitrary.   As soon as you try to create such a boundary, people will start doing very interesting work that crosses over the boundary making it impossible to say which side it's on!   More importantly these boundaries don't really help in any significant way.</p>",
+        "id": 268584600,
+        "sender_full_name": "John Baez",
+        "timestamp": 1642617595
+    },
+    {
+        "content": "<p>What is an example of a site that’s not a topological space? What does ‘not having enough points’ mean?</p>",
+        "id": 269985078,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1643610279
+    },
+    {
+        "content": "<p>Is physics what does a topos represent? Is it the system of interest or the embodiment of logical representations of the system of interest? Or is it the possible states of a system?</p>",
+        "id": 269985431,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1643610626
+    },
+    {
+        "content": "<p>What’s the importance of having limits and exponentials in a topos?</p>",
+        "id": 269985444,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1643610643
+    },
+    {
+        "content": "<p>With geometric morphisms one can ‘transfer properties of one space to another’ what are the mathematical objects that are representing these properties? Is it the sub-object classifiers?</p>",
+        "id": 269986477,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1643611688
+    },
+    {
+        "content": "<p>An example of a site that isn't a topological space: well, any site for the topos of G-sets for a non-trivial group G would be such a site. These toposes have enough points, though.</p>",
+        "id": 270022893,
+        "sender_full_name": "Zhen Lin Low",
+        "timestamp": 1643632070
+    },
+    {
+        "content": "<p>A topos that has enough points is one that admits a surjection from a \"discrete\" topos. Every topos arising from a topological space has enough points. There are non-trivial Grothendieck toposes that have no points at all. For instance, the topos of sheaves on an atomless complete boolean algebra.</p>",
+        "id": 270023467,
+        "sender_full_name": "Zhen Lin Low",
+        "timestamp": 1643632362
+    },
+    {
+        "content": "<p>The importance of limits and exponentials and subobject classifiers is, frankly, unclear to me. Having them is extremely convenient –  finite limits, exponentials, and subobject classifiers in particular enable the interpretation of higher order logic –  but one has to take care not to be overly reliant on them because they are not preserved by general geometric morphisms.</p>",
+        "id": 270023805,
+        "sender_full_name": "Zhen Lin Low",
+        "timestamp": 1643632549
+    },
+    {
+        "content": "<p>I definitely would not say that geometric morphisms transfer properties of one space to another. That would be like saying continuous maps transfer properties of one topological space to another – definitely not true for arbitrary properties, and basically never true for any interesting property.</p>",
+        "id": 270024250,
+        "sender_full_name": "Zhen Lin Low",
+        "timestamp": 1643632770
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/thinking.20about.20toposes/near/269985078\">said</a>:</p>\n<blockquote>\n<p>What is an example of a site that’s not a topological space?</p>\n</blockquote>\n<p>Technically a topological space is not itself a site. The site corresponding to a topological space is the category (or partially ordered set) of opens of the space, equipped with the \"canonical\" Grothendieck topology, where the covering sieves are those generated by open covers.</p>\n<p>Another class of sites correspond to small categories: we can equip and small category with a \"trivial\" Grothendieck topology (where the only covering sieves are the maximal ones) and the topos on the resulting site is the topos of presheaves on the small category.</p>",
+        "id": 270282566,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1643748343
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/thinking.20about.20toposes/near/268583061\">said</a>:</p>\n<blockquote>\n<p>The morphisms of a group (viewed as a category) are its <em>elements</em>, not its actions. An action of a group involves more data, namely a set and a function encoding how each element of the group transforms the set. The category of actions has these as objects: the group is fixed but the set is allowed to vary. The morphisms are functions between the sets that respect the group action. Above I explained that the resulting category is a special case of a presheaf topos.</p>\n</blockquote>\n<p>Is it also how 'topos as generalized space' correspond to 'groupoid as generalized space'?</p>",
+        "id": 270502291,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1643865656
+    },
+    {
+        "content": "<p>On the wikipedia of groupoid <a href=\"https://en.wikipedia.org/wiki/Groupoid#Group_action\">https://en.wikipedia.org/wiki/Groupoid#Group_action</a> says \"any groupoid is equivalent to a multiset of unrelated groups\" and in this reading \"from groups to groupoids, a brief survey\" <a href=\"https://groupoids.org.uk/pdffiles/groupoidsurvey.pdf\">https://groupoids.org.uk/pdffiles/groupoidsurvey.pdf</a> says \"emphasising the algebra we know rather than that which might evolve, which perhaps has led people to fail to see properly the advantages of an algebra which models the geometry more appropriately than the usual algebra of groups\". What does the \"algebra\" here refers to?  When people talk about algebra, do they refer to one of group/ring/field or there can be more? In universal algebra <a href=\"https://en.wikipedia.org/wiki/Universal_algebra\">https://en.wikipedia.org/wiki/Universal_algebra</a>, an \"algebra\" on a given space X is an n-ary operation X. The paper also refer to Erlangen program as \"study a geometry by means of its group of automorphisms\" and gives an example of studying the symmetry of fibre bundles. What's \"algebraic\" about this example? Because I don't see any group/ring/field structure here. Does this example has anything to do with 'base change geometric morphism'? How are the groups in a groupoid usually related to one another?</p>",
+        "id": 270508335,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1643871885
+    },
+    {
+        "content": "<p>In this blog post a groupoid is depicted as a set of positions and a set of transformations, and a pair of functions start &amp; end, with some additional properties <a href=\"https://cornellmath.wordpress.com/2008/01/27/puzzles-groups-and-groupoids/\">https://cornellmath.wordpress.com/2008/01/27/puzzles-groups-and-groupoids/</a></p>",
+        "id": 270508852,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1643872415
+    },
+    {
+        "content": "<p>I wonder to what extend this is similar to the category-theoretic image. <a href=\"/user_uploads/21317/6MWRq-JQtpSCqWUfoE4JFb1b/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/6MWRq-JQtpSCqWUfoE4JFb1b/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/6MWRq-JQtpSCqWUfoE4JFb1b/image.png\"></a></div>",
+        "id": 270509124,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1643872711
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/thinking.20about.20toposes/near/268583061\">said</a>:</p>\n<blockquote>\n<p>The morphisms of a group (viewed as a category) are its <em>elements</em>, not its actions. An action of a group involves more data, namely a set and a function encoding how each element of the group transforms the set. The category of actions has these as objects: the group is fixed but the set is allowed to vary. The morphisms are functions between the sets that respect the group action. Above I explained that the resulting category is a special case of a presheaf topos.</p>\n</blockquote>\n<p>Here you're saying  \"The morphisms of a group (viewed as a category) are its <em>elements</em>, not its actions\", which I think is inconsistent with this picture</p>",
+        "id": 270509149,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1643872768
+    },
+    {
+        "content": "<p>When people say \"groupoid is a category where every morphism has an inverse\", isn't this missing the start-end condition?</p>",
+        "id": 270509282,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1643872909
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/thinking.20about.20toposes/near/270509124\">said</a>:</p>\n<blockquote>\n<p>I wonder to what extend this is similar to the category-theoretic image. <a href=\"/user_uploads/21317/6MWRq-JQtpSCqWUfoE4JFb1b/image.png\">image.png</a></p>\n</blockquote>\n<p>Also does 'presheaf' enter into this image?</p>",
+        "id": 270509703,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1643873307
+    },
+    {
+        "content": "<p>Do you know about orbifolds? They're an example of groupoids as generalised spaces.</p>",
+        "id": 270523889,
+        "sender_full_name": "Zhen Lin Low",
+        "timestamp": 1643882330
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/thinking.20about.20toposes/near/270509149\">said</a>:</p>\n<blockquote>\n<p>Here you're saying  \"The morphisms of a group (viewed as a category) are its <em>elements</em>, not its actions\", which I think is inconsistent with this picture</p>\n</blockquote>\n<p>In the picture you shared above, the elements of the group are the transformations, which are represented as arrows: they're the morphisms of the category.</p>",
+        "id": 270525180,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1643882953
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/thinking.20about.20toposes/near/270509282\">said</a>:</p>\n<blockquote>\n<p>When people say \"groupoid is a category where every morphism has an inverse\", isn't this missing the start-end condition?</p>\n</blockquote>\n<p>The \"start\" and \"end\" of a \"transformation\" are the domain and codomain of a morphism in a groupoid or category. Saying that every morphism has an inverse would in that language be \"Any transformation can be undone by some other transformation\".</p>",
+        "id": 270525441,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1643883077
+    },
+    {
+        "content": "<p>Peiyuan wrote:</p>\n<blockquote>\n<p>The paper also refer to Erlangen program as \"study a geometry by means of its group of automorphisms\" and gives an example of studying the symmetry of fibre bundles. What's \"algebraic\" about this example? Because I don't see any group/ring/field structure here.</p>\n</blockquote>\n<p>When you see the word \"symmetry\" you should instantly think \"group\".</p>\n<p>I don't want to read the paper, but the Erlangen program reduces a certain portion of geometry to group theory, so if they're talking about \"the symmetry of fibre bundles\", what's algebraic about it is the <em>groups</em> of symmetries of these fibre bundles.</p>",
+        "id": 270590349,
+        "sender_full_name": "John Baez",
+        "timestamp": 1643910761
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/thinking.20about.20toposes/near/270590349\">said</a>:</p>\n<blockquote>\n<p>Peiyuan wrote:</p>\n<blockquote>\n<p>The paper also refer to Erlangen program as \"study a geometry by means of its group of automorphisms\" and gives an example of studying the symmetry of fibre bundles. What's \"algebraic\" about this example? Because I don't see any group/ring/field structure here.</p>\n</blockquote>\n<p>When you see the word \"symmetry\" you should instantly think \"group\".</p>\n<p>I don't want to read the paper, but the Erlangen program reduces a certain portion of geometry to group theory, so if they're talking about \"the symmetry of fibre bundles\", what's algebraic about it is the <em>groups</em> of symmetries of these fibre bundles.</p>\n</blockquote>\n<p>So the book provides this example <a href=\"/user_uploads/21317/zvLMJkrDO43rWEAwI-e1IvSW/image.png\">image.png</a> </p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/zvLMJkrDO43rWEAwI-e1IvSW/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/zvLMJkrDO43rWEAwI-e1IvSW/image.png\"></a></div><p>If I have a space that can be decomposed into base and fiber, both the base and fiber are simplices, then I can study the isomorphism of the fibers with the groupoid structure, but not group, because the symmetry depends on the base space, am I correct?</p>",
+        "id": 270596794,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1643913463
+    },
+    {
+        "content": "<blockquote>\n<p>If I have a space that can be decomposed into base and fiber, both the base and fiber are simplices.</p>\n</blockquote>\n<p>I don't what you mean by that - why should the base and the fiber be simplices unless you go out of your way to demand it.</p>",
+        "id": 270671367,
+        "sender_full_name": "John Baez",
+        "timestamp": 1643954138
+    },
+    {
+        "content": "<p>In this particular passage he's advocating using a groupoid rather than a group to study symmetries; that's a common maneuver.</p>",
+        "id": 270671421,
+        "sender_full_name": "John Baez",
+        "timestamp": 1643954173
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/2u_8MZwPHxvaxRDrwSBlRD7C/1A30B7B6-E2FD-4327-95FC-894BAA3AF6F1.png\">1A30B7B6-E2FD-4327-95FC-894BAA3AF6F1.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/2u_8MZwPHxvaxRDrwSBlRD7C/1A30B7B6-E2FD-4327-95FC-894BAA3AF6F1.png\" title=\"1A30B7B6-E2FD-4327-95FC-894BAA3AF6F1.png\"><img src=\"/user_uploads/21317/2u_8MZwPHxvaxRDrwSBlRD7C/1A30B7B6-E2FD-4327-95FC-894BAA3AF6F1.png\"></a></div>",
+        "id": 270803310,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1644034146
+    },
+    {
+        "content": "<p>(deleted)</p>",
+        "id": 270803312,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1644034151
+    },
+    {
+        "content": "<p>Is there a way to understand why ‘necessity’ here is “invariance under group action” on a G-set? And ‘possibility’ as the “fiber bundle induced by a group action”? Does the passage here suggest such modal operator exists between all subsequent levels? So each of the two levels considered topos slices modulo a base space, where a geometric morphism can be defined between them?</p>",
+        "id": 270803808,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1644035037
+    }
+]

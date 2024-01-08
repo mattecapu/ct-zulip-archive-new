@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p>how to understand this from Peirce:</p>\n<p>“But from that proposition that one event, Z, is subsequent to another event, J, I can at once deduce by necessary reasoning a universal proposition. Namely, the definition of the relation of apparent subsequence is well known, or sufficiently so for our purpose. Z will appear to be subsequent to Y if and only if Z appears to stand in a peculiar relation, R, to Y such that nothing can stand in the relation R to itself, and if, furthermore, whatever event, X, there may be to which Y stands in the relation R, to that same X, Z also stands in the relation R. This being implied in the meaning of subsequence, concerning which there is no room for doubt, it easily follows that whatever is subsequent to C is subsequent to anything, A, to which C is subsequent—which is a universal proposition.”</p>",
+        "id": 410959306,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1704259772
+    },
+    {
+        "content": "<p>It sounds like he's arguing very verbosely that the relation \"X appears to be subsequent to Y\" should be antisymmetric and transitive. This is intuitively the case, but his argument doesn't hold any more substance than it being 'obvious'.</p>",
+        "id": 410983646,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1704274765
+    }
+]

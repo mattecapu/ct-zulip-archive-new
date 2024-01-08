@@ -1,0 +1,140 @@
+[
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276875\">@Bruno Gavranovic</span>  can you copy here a bit of your GitHub directory <a href=\"https://github.com/bgavran/Lens_Resources\">https://github.com/bgavran/Lens_Resources</a> that you think is most accessible to  people who haven't seen any of this material before? Say only 3 references or thereabouts? Thanks in advance!!</p>",
+        "id": 280678648,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1651260934
+    },
+    {
+        "content": "<p>Absolutely. I'm actually trying to think about which of these resources has the most comprehensive and pedagogical introduction to lenses, and quite frankly I'm not sure <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span><br>\nFor lenses specifically, I believe <a href=\"https://arxiv.org/abs/1908.02202\">Generalised Lens Categories</a> is great. This includes monomorphic, bimorphic and dependent lenses, and various other exotic examples. Of course, dependent lenses are morphisms of polynomial functors, so all the Poly references might be useful as well.<br>\n For optics, one has <a href=\"https://arxiv.org/abs/1809.00738\">Categories of Optics</a> and <a href=\"https://arxiv.org/abs/2001.07488\">Profunctor Optics: A Categorical Update</a>. But all of these topics overlap with one another, and it depends what one's background is, and where one wants to go.<br>\nI think that I personally got the most mileage out of these three references.</p>\n<p>It's also good to look at the applications section, or the blog post section in my github repo. I'd say that most of the papers in the application section present a very motivated view on lenses/optics, and they might be worth checking out. Likewise, sometimes the very readable way some of the blog posts are written can help with getting some intuitions before diving deep into the technical papers.<br>\nI shamelessly recommend some of my own  posts for a very down-to-earth graphical way of thinking about lenses/optics :)</p>",
+        "id": 280702689,
+        "sender_full_name": "Bruno Gavranović",
+        "timestamp": 1651275958
+    },
+    {
+        "content": "<p>Does anyone have copy of Moss's thesis available currently? <span class=\"user-mention\" data-user-id=\"276656\">@Valeria de Paiva</span> ? The Cambridge thesis portal is unavailable ATM</p>",
+        "id": 284791196,
+        "sender_full_name": "Jonathan Weinberger",
+        "timestamp": 1654197200
+    },
+    {
+        "content": "<p>Sorry Jonathan, I thought I had it but I had two copies of the LiCS paper instead, the title \"The Dialectica Models of Type Theory\" is the same.</p>",
+        "id": 284794512,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1654198892
+    },
+    {
+        "content": "<p>Same <span class=\"user-mention\" data-user-id=\"276656\">@Valeria de Paiva</span> but no worries, it should come back eventually</p>",
+        "id": 284794939,
+        "sender_full_name": "Jonathan Weinberger",
+        "timestamp": 1654199126
+    },
+    {
+        "content": "<p>but let me ask you, the model is the same as in the LiCS paper, isn't it? so why are you looking for Sean's thesis? I do have Tamara's thesis. do you?</p>",
+        "id": 284795086,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1654199217
+    },
+    {
+        "content": "<p>but indeed, very annoying to see the Cambridge repo down.</p>",
+        "id": 284795177,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1654199274
+    },
+    {
+        "content": "<p>Yes, the model should be the same, but I've been looking more generally for some more elaborations on a couple of things; not top priority though</p>",
+        "id": 284795581,
+        "sender_full_name": "Jonathan Weinberger",
+        "timestamp": 1654199473
+    },
+    {
+        "content": "<p>I think I do have Tamara's thesis FWIW</p>",
+        "id": 284795601,
+        "sender_full_name": "Jonathan Weinberger",
+        "timestamp": 1654199486
+    },
+    {
+        "content": "<p>Ok, I just sent you Sean's thesis, it was in my Dropbox connected to my old mac.</p>",
+        "id": 284796385,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1654199869
+    },
+    {
+        "content": "<p>Great, thanks a lot <span class=\"user-mention\" data-user-id=\"276656\">@Valeria de Paiva</span></p>",
+        "id": 284805122,
+        "sender_full_name": "Jonathan Weinberger",
+        "timestamp": 1654204191
+    },
+    {
+        "content": "<p>FWIW, Cambridge Apollo is back up now</p>",
+        "id": 284805184,
+        "sender_full_name": "Jonathan Weinberger",
+        "timestamp": 1654204212
+    },
+    {
+        "content": "<p><a href=\"https://www.repository.cam.ac.uk/handle/1810/280672\">https://www.repository.cam.ac.uk/handle/1810/280672</a></p>",
+        "id": 284805192,
+        "sender_full_name": "Jonathan Weinberger",
+        "timestamp": 1654204215
+    },
+    {
+        "content": "<p>typical, eh?</p>",
+        "id": 284805350,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1654204312
+    },
+    {
+        "content": "<p><a href=\"https://www.youtube.com/watch?v=4aGDCE6Nrz0\">https://www.youtube.com/watch?v=4aGDCE6Nrz0</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"4aGDCE6Nrz0\" href=\"https://www.youtube.com/watch?v=4aGDCE6Nrz0\"><img src=\"https://uploads.zulipusercontent.net/8ad389565de57be7d2229d04b5ec113ae3317bb6/68747470733a2f2f692e7974696d672e636f6d2f76692f346147444345364e727a302f64656661756c742e6a7067\"></a></div>",
+        "id": 284883474,
+        "sender_full_name": "Charlotte Aten",
+        "timestamp": 1654265244
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/L7FMOrwOpEthCl_oYPebzcG-/764D2D82-3E6D-4310-AC9D-C9AE1549BC5C.jpg\">764D2D82-3E6D-4310-AC9D-C9AE1549BC5C.jpg</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/L7FMOrwOpEthCl_oYPebzcG-/764D2D82-3E6D-4310-AC9D-C9AE1549BC5C.jpg\" title=\"764D2D82-3E6D-4310-AC9D-C9AE1549BC5C.jpg\"><img src=\"/user_uploads/21317/L7FMOrwOpEthCl_oYPebzcG-/764D2D82-3E6D-4310-AC9D-C9AE1549BC5C.jpg\"></a></div>",
+        "id": 284902168,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1654273913
+    },
+    {
+        "content": "<p>“lenses” seems like the right channel for photos</p>",
+        "id": 284902280,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1654273954
+    },
+    {
+        "content": "<p>Lovely <span class=\"user-mention\" data-user-id=\"343715\">@Nelson Niu</span> ! the group looks great! very proud of you all for doing the MRC without me, you rock!! <span aria-label=\"revolving hearts\" class=\"emoji emoji-1f49e\" role=\"img\" title=\"revolving hearts\">:revolving_hearts:</span></p>",
+        "id": 284902729,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1654274192
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"343715\">Nelson Niu</span> <a href=\"#narrow/stream/323208-practice.3A-Dialectica/topic/Lenses/near/284902168\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/21317/L7FMOrwOpEthCl_oYPebzcG-/764D2D82-3E6D-4310-AC9D-C9AE1549BC5C.jpg\">764D2D82-3E6D-4310-AC9D-C9AE1549BC5C.jpg</a></p>\n</blockquote>\n<p>Here's some of my photos, with a different set of people who are blinking/smiling <span aria-label=\"big smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"big smile\">:big_smile:</span><br>\n<a href=\"/user_uploads/21317/DnTGh9WFM1l_dhOCVGSELuLE/image.png\">image.png</a> <br>\n<a href=\"/user_uploads/21317/pWSQ_C7i-u60NNIytHnn8mEm/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/DnTGh9WFM1l_dhOCVGSELuLE/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/DnTGh9WFM1l_dhOCVGSELuLE/image.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/21317/pWSQ_C7i-u60NNIytHnn8mEm/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/pWSQ_C7i-u60NNIytHnn8mEm/image.png\"></a></div>",
+        "id": 285052112,
+        "sender_full_name": "Bruno Gavranović",
+        "timestamp": 1654458153
+    },
+    {
+        "content": "<p>Not sure yet if (directly) relevant to us but I just saw that Bryce Clarke's thesis is now online, The Double Category of Lenses: <a href=\"https://t.co/PVab0D3Roo\">https://t.co/PVab0D3Roo</a></p>",
+        "id": 286842707,
+        "sender_full_name": "Jonathan Weinberger",
+        "timestamp": 1655762774
+    },
+    {
+        "content": "<p>at one point I was considering whether Dialectica morphisms are squares in some appropriately defined double category but I didn’t get too far</p>",
+        "id": 286845958,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1655765830
+    },
+    {
+        "content": "<p>There’s almost certainly a generalization of the charts/lenses double category with for Dialectica though</p>",
+        "id": 286845972,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1655765857
+    },
+    {
+        "content": "<p>To get the Dialectica construction going on a category you need finite products and pullbacks so you can also get the contravariant sub-object functor. However, it seems that you just need products and a contravariant functor P into POS. I like this perspective because any intuitionistic first-order theory gives a free such functor P where its internal logic satisfies exactly T. Then one can take Dial(P) and then the objects are exactly (equivalence classes modulo T) of formulas (in context) p(u,x) and q(v,y) and morphisms are pairs of terms (I am simplifying, each could be a list of terms) (f(u), F(u,y)) such that p(u, F(u,y)) proves q(f(u), y) intuitionistically. Is this the generalization by Hyland? (Modulo using indexed categories instead of fibrations and partial orders instead of preorders) My apologies if this construction is being investigated by one of the groups (lenses?) and I am just catching up on basic definitions!</p>\n<p>Update: I see this is in fact the generalization proposed by Hyland in \"Proof Theory in the Abstract.\"</p>",
+        "id": 297790365,
+        "sender_full_name": "Colin Bloomfield",
+        "timestamp": 1662645969
+    }
+]

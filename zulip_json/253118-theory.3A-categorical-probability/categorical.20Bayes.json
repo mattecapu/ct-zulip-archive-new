@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Hi!  I have a naive question on a categorical approach to Bayes.  Say, the classical Bayesian setting where you have a bunch of urns with coloured balls, with different compositions, you choose blindly an urn at random, draw a ball, get Black and wonder about the probability of having chosen such and such urn.<br>\n I wonder whether the following remark is well known: <br>\nwhat you have in the Bayesian situation <br>\n<a href=\"/user_uploads/21317/rIt5JbbFbjWzxyh9UnjEuLvJ/Bayes_urnes_full_flow_ETM6.jpg.pdf\">Bayes_urnes_full_flow_ETM6.jpg.pdf</a><br>\n is a stochastic mapping from the set U of urns to the set C of colours. Bayes calculates the \"dual\" stochastic mapping from C to U.  You have then a  sort  of \"reversible\" stochastic process: if you feed it with a random urn, you get a random colour, if you apply the dual stoch mapping to this random colour you get back your random urn.   Bayesian updating boils down to  figuring out which random urn you get if you feed the Bayesian machine with a random colour like \"Black for sure\".   I enclose an iconic rendering of this in a toy example (two urns, two colours), corresponding <br>\n<a href=\"/user_uploads/21317/bfIM8v9MX3rFucn7GK84iMs_/Bayes_urnes_pedestrian_etm6.pdf\">Bayes_urnes_pedestrian_etm6.pdf</a><br>\nto a fluid approach (hydraulic metaphor activated) to Bayes, and also a \"pedestrian approach\".  <br>\nDoes this ring a categorical bell to anyone?</p>",
+        "id": 410039531,
+        "sender_full_name": "Jorge Soto-Andrade",
+        "timestamp": 1703604907
+    },
+    {
+        "content": "<p>PS In the fluid iconic rendering the stoch mapping going from urns to colours is given by the four blue diagonal weighted arrows, the dual stochastic mapping is given by the four green diagonal weighted arrows.  The horizontal and vertical weighted arrows represent the initial random urn and the ensuing random colour.  This could be an example  of diagrammatic linear algebra too...</p>",
+        "id": 410040203,
+        "sender_full_name": "Jorge Soto-Andrade",
+        "timestamp": 1703605279
+    },
+    {
+        "content": "<p>You seem to be sketching the usual categorical approach to Bayes' theorem!  You might like this:</p>\n<ul>\n<li>Bob Coecke and Robert W. Spekkens, <a href=\"https://arxiv.org/abs/1102.2368\">Picturing classical and quantum Bayesian inference</a>.</li>\n</ul>",
+        "id": 410133811,
+        "sender_full_name": "John Baez",
+        "timestamp": 1703673136
+    },
+    {
+        "content": "<p>Actually I wouldn't recommend that paper. It's been one of the earlier ones on the topic, but it's confusingly written, and their formalism has lots of extra structure that is not needed to talk about Bayesian updating (or anything else in probability), and that extra structure does not exist once you go beyond discrete probability with finite sets. An improved account of Bayesian updating is given here:</p>\n<ul>\n<li>Kenta Cho and Bart Jacobs, <a href=\"https://arxiv.org/abs/1709.00322\">Disintegration and Bayesian Inversion via String Diagrams</a></li>\n</ul>",
+        "id": 410139039,
+        "sender_full_name": "Tobias Fritz",
+        "timestamp": 1703675281
+    },
+    {
+        "content": "<p><span aria-label=\"pray\" class=\"emoji emoji-1f64f\" role=\"img\" title=\"pray\">:pray:</span>  <span aria-label=\"pray\" class=\"emoji emoji-1f64f\" role=\"img\" title=\"pray\">:pray:</span></p>",
+        "id": 410164634,
+        "sender_full_name": "Jorge Soto-Andrade",
+        "timestamp": 1703688615
+    }
+]

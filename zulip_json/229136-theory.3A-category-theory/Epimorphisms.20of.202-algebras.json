@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p>Given a group <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>G</mi></mrow><annotation encoding=\"application/x-tex\">G</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\">G</span></span></span></span> we can build its category of (Vect-valued) representations <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mtext>Mod</mtext><mo stretchy=\"false\">(</mo><mi>G</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">\\text{Mod}(G)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord text\"><span class=\"mord\">Mod</span></span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">G</span><span class=\"mclose\">)</span></span></span></span>. This is a \"2-algebra\" in the sense that it's a presentable category with a tensor product that respects colimits.</p>\n<p>I'm curious if, in the 2-category of 2-algebras, we understand what the \"epis\" are. I know the 1-morphisms should be functors preserving the tensor and all colimits, but for some reason I'm worried the obvious guess of \"essentially surjective 1-morhpisms\" feels wrong (but I haven't tried to work this out).</p>\n<p>What I'm especially curious about is whether you can detect that <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>G</mi><mo>↠</mo><mi>H</mi></mrow><annotation encoding=\"application/x-tex\">G \\twoheadrightarrow H</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6969em;vertical-align:-0.0135em;\"></span><span class=\"mord mathnormal\">G</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel amsrm\">↠</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.08125em;\">H</span></span></span></span> is an epi at the level of groups by looking at the tensor structure on their module categories. This is because what I'm <em>especially</em> interested in is playing this game at the level of quantum groups, and trying to detect epis at the level of braided monoidal categories.</p>\n<p>Thanks in advance!</p>",
+        "id": 410861624,
+        "sender_full_name": "Chris Grossack (they/them)",
+        "timestamp": 1704208861
+    },
+    {
+        "content": "<p>Well, the first thing to ask is what notion of \"epi\" in a 2-category to use.  For many purposes the right notion of \"monomorphism\" in a 2-category is a representably fully faithful map, but the straightforward duals of those are often not the right notion of \"epimorphism\".  One notion of \"(regular) epimorphism\" that's often more useful is the maps that are left orthogonal to the monomorphisms.  Did you have a particular notion of \"epimorphism\" in mind?</p>",
+        "id": 410873516,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704214056
+    },
+    {
+        "content": "<p>Offhand I don't recall any references discussing epimorphisms of locally presentable categories, with or without monoidal structure.  But my first guess would be the 1-morphisms that are \"surjective up to colimits\", i.e. such that the colimit-closure of their full image is the whole codomain.</p>",
+        "id": 410873836,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704214194
+    },
+    {
+        "content": "<p>Specifically, I would guess that those are the morphisms that are left orthogonal to the monomorphisms.</p>",
+        "id": 410873970,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704214238
+    },
+    {
+        "content": "<p>There's more than one notion of \"epimorphism\" of groups, as well; which one do you have in mind?</p>",
+        "id": 410894937,
+        "sender_full_name": "Reid Barton",
+        "timestamp": 1704223954
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276480\">Reid Barton</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/Epimorphisms.20of.202-algebras/near/410894937\">said</a>:</p>\n<blockquote>\n<p>There's more than one notion of \"epimorphism\" of groups, as well; which one do you have in mind?</p>\n</blockquote>\n<p>Is there? In the usual category of groups, there's the usual notion of epi, which (iirc) agrees with the surjective homs. What else do you have in mind?</p>",
+        "id": 410921264,
+        "sender_full_name": "Chris Grossack (they/them)",
+        "timestamp": 1704238945
+    },
+    {
+        "content": "<p>Indeed, <a href=\"https://ncatlab.org/nlab/show/epimorphisms%20of%20groups%20are%20surjective\">[[epimorphisms of groups are surjective]]</a> (the converse being fairly trivial).</p>",
+        "id": 410932509,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704243775
+    },
+    {
+        "content": "<p>Oh sorry, I was confusing this with rings or monoids or something.</p>",
+        "id": 410932753,
+        "sender_full_name": "Reid Barton",
+        "timestamp": 1704243859
+    },
+    {
+        "content": "<p>Of course in any category we can also ask about regular epimorphisms, strong epimorphisms, and so on, but the \"first isomorphism theorem\" implies that any surjection of groups is a regular epi, and hence also pretty much any other kind of epi.</p>",
+        "id": 410933098,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704243970
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/Epimorphisms.20of.202-algebras/near/410873516\">said</a>:</p>\n<blockquote>\n<p>Well, the first thing to ask is what notion of \"epi\" in a 2-category to use.  For many purposes the right notion of \"monomorphism\" in a 2-category is a representably fully faithful map, but the straightforward duals of those are often not the right notion of \"epimorphism\".  One notion of \"(regular) epimorphism\" that's often more useful is the maps that are left orthogonal to the monomorphisms.  Did you have a particular notion of \"epimorphism\" in mind?</p>\n</blockquote>\n<p>I didn't even know about this subtlety about multiple notions of epi in a 2-category, so I certainly didn't have a particular resolution in mind. </p>\n<p>Do you (or, does anyone) have suggestions for papers/books about this topic? I'm confident that someone will have worked out how to recognize an epi of groups by looking at their (monoidal) categories of representations. But I'm also interested in these 2-categorical subtleties (and higher algebra) more broadly</p>",
+        "id": 410942936,
+        "sender_full_name": "Chris Grossack (they/them)",
+        "timestamp": 1704248354
+    },
+    {
+        "content": "<p>Probably <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><mi mathvariant=\"normal\">∞</mi><mo separator=\"true\">,</mo><mn>1</mn><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">(\\infty,1)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord\">∞</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">1</span><span class=\"mclose\">)</span></span></span></span>-categorical notions of epimorphism have been studied more than 2-categorical ones, e.g.:</p>\n<ul>\n<li><a href=\"https://ncatlab.org/nlab/show/effective%20epimorphism%20in%20an%20%28infinity%2C1%29-category\">[[effective epimorphism in an (infinity,1)-category]]</a></li>\n<li><a href=\"https://ncatlab.org/nlab/show/epimorphism%20in%20an%20%28infinity%2C1%29-category\">[[epimorphism in an (infinity,1)-category]]</a></li>\n<li>\n<p><a href=\"https://ncatlab.org/nlab/show/n-epimorphism\">[[n-epimorphism]]</a><br>\nThe notion that I suggested as probably the best is described at</p>\n</li>\n<li>\n<p><a href=\"https://ncatlab.org/nlab/show/eso%20morphism\">[[eso morphism]]</a><br>\nOne reference for the 2-categorical notion is Ross Street's \"Characterization of bicategories of stacks\".  I don't know much about categories of group representations though.</p>\n</li>\n</ul>",
+        "id": 410943649,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704248794
+    }
+]

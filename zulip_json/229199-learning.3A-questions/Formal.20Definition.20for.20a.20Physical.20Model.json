@@ -1,0 +1,98 @@
+[
+    {
+        "content": "<p>Hi all, hope you are having a happy holidays. Thanks for your helpful responses to my previous question, I learned a lot! My next question is in a similar spirit and has to do with more applied aspects of category theory:</p>\n<p>In mathematics, the concept of abstraction plays a central role. When coming up with new mathematical objects, we usually look at a large number of concrete examples and notice some pattern or shared characteristic. We can then characterize this commonality with a formal definition for a new mathematical object, which we can then make statements about that can specify back to all the concrete examples. Now, recently, I've been going over all the different physical models. A physical model isn't a physical object, it's some form of a mathematical object which we can use to model and potentially describe a physical situation. Examples include Newtonian mechanics, classical Hamiltonian mechanics, the Schrodinger picture of quantum mechanics, the path integral formulation of QM, lagrangian mechanics in special relativity, Einstein's theory of general relativity in the sense of modeling spacetime as a curved manifold, etc.</p>",
+        "id": 409570873,
+        "sender_full_name": "John Onstead",
+        "timestamp": 1703246425
+    },
+    {
+        "content": "<p>As a mathematical object, these physical models all have their own formal definitions, but I have yet to see one common definition. Here we have a lot of concrete examples (all the physical models) and some shared characteristic (the ability to use these models to potentially describe some aspect of physical reality). This situation is ripe for abstraction! Now, all we need is some formal definition: some set of axioms that we would want any and all possible physical models to satisfy in order to qualify as a physical model. They wouldn't have to describe our exact reality (since most physical models turn out to be disproven with empirical evidence), but just have some potential to describe a physical reality. It is this formal definition that I am looking for. It can be in any format, but I always love seeing formal definitions in \"stuff, structure, property\" format, for instance: \"A physical model is a set A equipped with structure S such that...\" since these are the easiest to translate into category theory. I also wouldn't mind learning about the category of physical models and its features, but I may have more to ask on that later.</p>",
+        "id": 409570913,
+        "sender_full_name": "John Onstead",
+        "timestamp": 1703246442
+    },
+    {
+        "content": "<p>Dynamics has a general take on what you are asking about.</p>\n<blockquote>\n<p>Here is a definition of a ''classical dynamical system'' (Arnold and Avez(1968)) which is hardly the classical system of old:<br>\nLet <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>M</mi></mrow><annotation encoding=\"application/x-tex\">M</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">M</span></span></span></span> be a smooth manifold, <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>μ</mi></mrow><annotation encoding=\"application/x-tex\">\\mu</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.625em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\">μ</span></span></span></span> defined on a continuous positive density, <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>f</mi><mi>t</mi></msup><mo>:</mo><mi>M</mi><mo>→</mo><mi>M</mi></mrow><annotation encoding=\"application/x-tex\">f^t:M \\to M</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.988em;vertical-align:-0.1944em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.7936em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">t</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">M</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">M</span></span></span></span> a one-parameter group of measure-preserving diffeomorphisms. The collection <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>M</mi><mo separator=\"true\">,</mo><mi>μ</mi><mo separator=\"true\">,</mo><msup><mi>f</mi><mi>t</mi></msup></mrow><annotation encoding=\"application/x-tex\">M,\\mu,f^t</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.988em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">M</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\">μ</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.7936em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">t</span></span></span></span></span></span></span></span></span></span></span> is called the ''classical dynamical system''.</p>\n</blockquote>",
+        "id": 409574908,
+        "sender_full_name": "Daniel Geisler",
+        "timestamp": 1703248155
+    },
+    {
+        "content": "<p>I don't think that answers to the heart of John's question, which seems to be aiming at abstracting the sense in which a physical model <em>describes some aspect of physical reality</em>.</p>",
+        "id": 409604950,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1703260774
+    },
+    {
+        "content": "<p>That said, this is a category theory forum, so I and others here will vigorously deny that you can or should hope to find axioms that \"any and all\" physical models should satisfy.</p>",
+        "id": 409605073,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1703260806
+    },
+    {
+        "content": "<p>Rather, the abstraction process is <em>local</em>: you abstract <em>some</em> phenomena, for some certain purposes; you might relate these abstractions to each other but it's inconsistent with the nature of mathematics and science, and the breadth of the concept of physical model, to insist on unifying them all into a single picture.</p>",
+        "id": 409605224,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1703260865
+    },
+    {
+        "content": "<p>That said, there are lots of abstractions of the <em>mathematical</em> side of a physical model that can be useful: continuous dynamical systems as defined by Daniel, or more simply as just a manifold equipped with a vector field; discrete dynamical systems, which at their heart are just an object of a category equipped with an endomorphism (and so of course much too general to be physical models in every case), various more complicated kinds of systems of differential equations or ways of presenting such systems like Tonti diagrams, etc. For lots of ideas about categorically-minded ways to try to encompass something like the entire notion of \"dynamical system\" you could look at David Jaz  Myers's book draft.</p>",
+        "id": 409605753,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1703261035
+    },
+    {
+        "content": "<p>And all <em>that</em> said, basically none of this has anything general to say about how it is that these models actually <em>model</em>!</p>",
+        "id": 409605827,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1703261055
+    },
+    {
+        "content": "<p>A naive categorist would be tempted to say \"well, it's categorical semantics! You have a category of syntax which is here anything entirely mathematical--a category of dynamical systems, say--and a category of semantics which is The Actual World, and some functorial assignment of mathematical dynamical systems to Actual Real Evolving Physical Systems.\"</p>",
+        "id": 409605970,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1703261127
+    },
+    {
+        "content": "<p>This sounds nice but is as far as I can tell total nonsense, since the whole problem is that we don't have a <em>categorical</em> model for The Actual World, and that's a more or less irreducible obstacle.</p>",
+        "id": 409606070,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1703261157
+    },
+    {
+        "content": "<p>In short I think the question of whether there's a useful mathematical model of the <em>process</em> of modeling, specifically in terms of how a mathematical model connects to the physical world, is wide open.</p>",
+        "id": 409606243,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1703261202
+    },
+    {
+        "content": "<p>Abstraction -&gt; Galois connection: <a href=\"https://en.wikipedia.org/wiki/Abstract_interpretation#Formalization\">https://en.wikipedia.org/wiki/Abstract_interpretation#Formalization</a></p>",
+        "id": 409626950,
+        "sender_full_name": "JR",
+        "timestamp": 1703270188
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"609515\">@Kevin Arlin</span> Thanks for your input! I'm mainly interested in what kinds of mathematical structures can be used in something like modeling, not the modeling itself. IE, to abstract the mathematical tools we have found useful for modeling to a definition that could potentially include devices that don't describe any real reality at all. For instance, I want my definition of \"physical model\" to include models of physics in our universe just as well as it can include models of physics in the Star Wars or Star Trek universes, which obey different laws to ours. It should also be able to encapsulate models based on discarded ideas like the aether or quintessence. So it has more to do with the mathematical structure shared between existing models than whether they can be useful for modeling of any kind.</p>",
+        "id": 409654012,
+        "sender_full_name": "John Onstead",
+        "timestamp": 1703287243
+    },
+    {
+        "content": "<p>I am also not sure if dynamical systems express the full range of physical models. They don't seem to be able to describe quantum systems fully (only their unitary evolution), and they don't describe field theories. I also am unsure if Lagrangian mechanics can be represented as a dynamical system since lagrangian mechanics amounts to finding the whole path of a particle all at once, not step by step.</p>",
+        "id": 409654363,
+        "sender_full_name": "John Onstead",
+        "timestamp": 1703287505
+    },
+    {
+        "content": "<p>Here's my current thoughts on the problem. It seems all physical systems have the following ingredients:</p>\n<ul>\n<li>A \"physics space\":  An underlying manifold, metric space, topological space, etc. The two main kinds of physics space I noticed are those based on a \"state space\", a space where all points represents every possible state the physical system can take on, and a \"positional space\", which more closely mirrors our familiar 3d physical space. For instance, a field theory can be modeled as both a fiber bundle (positional space) and as an infinite dimensional configuration space where every point represents a possible field configuration (state space)</li>\n<li>Set of parameters: physical models have some set of parameters or units associated to them, which represent physical properties. In a state space, these parameters are either the basis of the space (IE, like position and momentum in a phase space) or can be calculated from them.</li>\n</ul>",
+        "id": 409654546,
+        "sender_full_name": "John Onstead",
+        "timestamp": 1703287614
+    },
+    {
+        "content": "<ul>\n<li>Equation: physical theories always have some sort of equation associated to them that can relate these parameters to each other. Newtonian mechanics has F = ma, Lagrangian mechanics has the euler-lagrange equation (or something like the principle of stationary action), Hamiltonian mechanics has Hamilton's principle and the Hamilton's equations, Schrodinger QM has the Schrodinger equation, classical field theories have PDEs (like the heat equation, wave equation, etc.), and so on.</li>\n<li>Transformations: Physical theories also have transformations associated to them, which is where things like using algebra in physics can come into play. These can define the various valid ways of transforming a space without affecting the underlying physics, and so allow for the introduction of the importance of symmetry to physics. This can include things like galilean transformations in Newtonian mechanics and lorentz (or poincarre) transformations in special relativity.</li>\n</ul>",
+        "id": 409654554,
+        "sender_full_name": "John Onstead",
+        "timestamp": 1703287618
+    }
+]

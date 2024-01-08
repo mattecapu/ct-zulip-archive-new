@@ -1,0 +1,86 @@
+[
+    {
+        "content": "<p>Stream created by <span class=\"user-mention silent\" data-user-id=\"277109\">Alex Kavvos</span>.</p>",
+        "id": 191908819,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1585239153
+    },
+    {
+        "content": "<p>Hello. I thought it'd be good if we had a type theory stream. Please populate it with more specific topics!</p>",
+        "id": 191909271,
+        "sender_full_name": "Alex Kavvos",
+        "timestamp": 1585239331
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275899\">Christian Williams</span> renamed stream <strong>type theory</strong> to <strong>theory: type theory</strong>.</p>",
+        "id": 192997060,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1586151161
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> changed the <a href=\"/help/stream-permissions\">access permissions</a> for this stream from <strong>Public</strong> to <strong>Web-public</strong>.</p>",
+        "id": 397732501,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1697815057
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"275932\">@Matteo Capucci (he/him)</span> huh?</p>",
+        "id": 399478022,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1698750642
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> changed the description for this stream.</p>\n<ul>\n<li><strong>Old description:</strong></li>\n</ul>\n<blockquote>\n<p>Connections between type theory and category theory, including homotopy type theory</p>\n</blockquote>\n<ul>\n<li><strong>New description:</strong></li>\n</ul>\n<blockquote>\n<p>Deprecated, use #theory: mathematics instead. Connections between type theory and category theory, including homotopy type theory</p>\n</blockquote>",
+        "id": 399479862,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698751326
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>theory: type theory</strong> to <strong>deprecated: type theory</strong>.</p>",
+        "id": 399479863,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698751326
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> changed the description for this stream.</p>\n<ul>\n<li><strong>Old description:</strong></li>\n</ul>\n<blockquote>\n<p>Deprecated, use #theory: mathematics instead. Connections between type theory and category theory, including homotopy type theory</p>\n</blockquote>\n<ul>\n<li><strong>New description:</strong></li>\n</ul>\n<blockquote>\n<p>Connections between type theory and category theory, including homotopy type theory</p>\n</blockquote>",
+        "id": 399914853,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698924695
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>deprecated: type theory</strong> to <strong>theory: types</strong>.</p>",
+        "id": 399914854,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698924696
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> changed the <a href=\"/help/stream-sending-policy\">posting permissions</a> for this stream:</p>\n<ul>\n<li><strong>Old permissions</strong>: Only organization administrators and moderators can post.</li>\n<li><strong>New permissions</strong>: All stream members can post.</li>\n</ul>",
+        "id": 399914870,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698924706
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> changed the description for this stream.</p>\n<ul>\n<li><strong>Old description:</strong></li>\n</ul>\n<blockquote>\n<p>Connections between type theory and category theory, including homotopy type theory</p>\n</blockquote>\n<ul>\n<li><strong>New description:</strong></li>\n</ul>\n<blockquote>\n<p>Connections between type theory and category theory, including homotopy type theory.</p>\n</blockquote>",
+        "id": 399915874,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698925106
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>theory: types</strong> to <strong>theory: type theory</strong>.</p>",
+        "id": 399915875,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698925106
+    },
+    {
+        "content": "<p>It looks like you are having lots of fun here, <span class=\"user-mention\" data-user-id=\"275932\">@Matteo Capucci (he/him)</span>.   <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 399916367,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698925304
+    },
+    {
+        "content": "<p>lol</p>",
+        "id": 399916409,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1698925322
+    }
+]

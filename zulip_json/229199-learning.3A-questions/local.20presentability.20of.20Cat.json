@@ -1,0 +1,146 @@
+[
+    {
+        "content": "<p>The category of small categories is finitely locally presentable, for instance the walking morphism is a compact generator. My knowledge about sizes fails me: is this enough to get locally small categories?</p>\n<p>The category of locally small categories is <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi><mi>a</mi><mi>t</mi><mo>=</mo><mi>V</mi><mi>C</mi><mi>a</mi><mi>t</mi></mrow><annotation encoding=\"application/x-tex\">Cat  = VCat</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mord mathnormal\">a</span><span class=\"mord mathnormal\">t</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mord mathnormal\">a</span><span class=\"mord mathnormal\">t</span></span></span></span> with <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>V</mi><mo>=</mo><mi>S</mi><mi>e</mi><mi>t</mi></mrow><annotation encoding=\"application/x-tex\">V = Set</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05764em;\">S</span><span class=\"mord mathnormal\">e</span><span class=\"mord mathnormal\">t</span></span></span></span>, so it should be locally finitely presentable <a href=\"http://www.tac.mta.ca/tac/volumes/8/n23/n23.pdf\">since Set is so</a>, thus I just want to sanity check if this is indeed true or if there is some size issue going under my radar.</p>",
+        "id": 402061397,
+        "sender_full_name": "Daniel Teixeira",
+        "timestamp": 1699992738
+    },
+    {
+        "content": "<p>No, <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>S</mi><mi>e</mi><mi>t</mi><mo>−</mo><mi>C</mi><mi>a</mi><mi>t</mi></mrow><annotation encoding=\"application/x-tex\">Set-Cat</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05764em;\">S</span><span class=\"mord mathnormal\">e</span><span class=\"mord mathnormal\">t</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">−</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mord mathnormal\">a</span><span class=\"mord mathnormal\">t</span></span></span></span> is the category of <em>small</em> categories. Locally small categories can't possibly be locally presentable because you can't get something with a large class of objects from a <em>small</em> colimit of small objects.</p>",
+        "id": 402062859,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1699993358
+    },
+    {
+        "content": "<p>Perhaps are you asking whether the category of locally small categories is presentable? It's not even locally small itself...</p>",
+        "id": 402062877,
+        "sender_full_name": "fosco",
+        "timestamp": 1699993367
+    },
+    {
+        "content": "<p>you have to take <em>small</em> functors of locally small categories; then that category is \"legitimate\" (=which is legalese for \"it exists\")</p>",
+        "id": 402063036,
+        "sender_full_name": "fosco",
+        "timestamp": 1699993436
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"609515\">Kevin Arlin</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/local.20presentability.20of.20Cat/near/402062859\">said</a>:</p>\n<blockquote>\n<p>No, <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>S</mi><mi>e</mi><mi>t</mi><mo>−</mo><mi>C</mi><mi>a</mi><mi>t</mi></mrow><annotation encoding=\"application/x-tex\">Set-Cat</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05764em;\">S</span><span class=\"mord mathnormal\">e</span><span class=\"mord mathnormal\">t</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">−</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mord mathnormal\">a</span><span class=\"mord mathnormal\">t</span></span></span></span> is the category of <em>small</em> categories.</p>\n</blockquote>\n<p>why? I'm working from naivety here, the textbook definition of a <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>V</mi></mrow><annotation encoding=\"application/x-tex\">V</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span></span></span></span>-category has a collection of objects and an object of morphisms between them, specializing to <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>V</mi><mo>=</mo><mi>S</mi><mi>e</mi><mi>t</mi></mrow><annotation encoding=\"application/x-tex\">V=Set</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">V</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05764em;\">S</span><span class=\"mord mathnormal\">e</span><span class=\"mord mathnormal\">t</span></span></span></span> seems to allow for a collection of objects and hom-sets = locally small categories</p>\n<p><span class=\"user-mention silent\" data-user-id=\"609515\">Kevin Arlin</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/local.20presentability.20of.20Cat/near/402062859\">said</a>:</p>\n<blockquote>\n<p>Locally small categories can't possibly be locally presentable because you can't get something with a large class of objects from a <em>small</em> colimit of small objects.</p>\n</blockquote>\n<p>this makes sense, thanks . the compact objects must generate C under colimits indexed by sets</p>",
+        "id": 402063596,
+        "sender_full_name": "Daniel Teixeira",
+        "timestamp": 1699993668
+    },
+    {
+        "content": "<p>It's fine to say that <em>a</em> locally small category is a category enriched in Set, but you're basically never going to collect all of those into a single category.</p>",
+        "id": 402063823,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1699993756
+    },
+    {
+        "content": "<p>You could also read the first sentence of the paper you linked in case you don't want to take my word for it :)</p>",
+        "id": 402063896,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1699993785
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"609515\">Kevin Arlin</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/local.20presentability.20of.20Cat/near/402063823\">said</a>:</p>\n<blockquote>\n<p>It's fine to say that <em>a</em> locally small category is a category enriched in Set, but you're basically never going to collect all of those into a single category.</p>\n</blockquote>\n<p>I see, so basically VCat is always the category of small V-categories = V-categories with a set of objects, because otherwise sizes go out of hand, just like they do for locally presentable categories as pointed out by fosco</p>",
+        "id": 402064205,
+        "sender_full_name": "Daniel Teixeira",
+        "timestamp": 1699993869
+    },
+    {
+        "content": "<p>Yeah, exactly. You can, in a somewhat ironic complication, talk usefully about the (non-locally-small) category of locally <em>presentable</em> categories and cocontinuous functors, or its opposite, whose morphisms are the continuous accessible functors, because these functors are determined by a small amount of data.</p>",
+        "id": 402064513,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1699993994
+    },
+    {
+        "content": "<p>I might be sloppy here, but the problem seems deeper to me than \"sizes go out of hand\" <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span> sizes <em>do not even apply</em> for the \"category\" of locally small categories, because given large, but locally small, categories, there can be a proper class of morphisms in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">[</mo><mi>C</mi><mo separator=\"true\">,</mo><mi>D</mi><mo stretchy=\"false\">]</mo></mrow><annotation encoding=\"application/x-tex\">[C,D]</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">[</span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">D</span><span class=\"mclose\">]</span></span></span></span>, because a natural transformation is a family <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>α</mi><mi>C</mi></msub><mo>:</mo><msub><mo>∏</mo><mi>c</mi></msub><mi>D</mi><mo stretchy=\"false\">[</mo><mi>F</mi><mi>c</mi><mo separator=\"true\">,</mo><mi>G</mi><mi>c</mi><mo stretchy=\"false\">]</mo></mrow><annotation encoding=\"application/x-tex\">\\alpha_C : \\prod_c D[Fc,Gc]</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.5806em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.0037em;\">α</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3283em;\"><span style=\"top:-2.55em;margin-left:-0.0037em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\" style=\"margin-right:0.07153em;\">C</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1.0497em;vertical-align:-0.2997em;\"></span><span class=\"mop\"><span class=\"mop op-symbol small-op\" style=\"position:relative;top:0em;\">∏</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.0017em;\"><span style=\"top:-2.4003em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">c</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.2997em;\"><span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">D</span><span class=\"mopen\">[</span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span><span class=\"mord mathnormal\">c</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\">G</span><span class=\"mord mathnormal\">c</span><span class=\"mclose\">]</span></span></span></span>, indexed over a proper class</p>",
+        "id": 402064598,
+        "sender_full_name": "fosco",
+        "timestamp": 1699994041
+    },
+    {
+        "content": "<p>I'm not clear what \"does not even apply\" means.</p>",
+        "id": 402064749,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1699994100
+    },
+    {
+        "content": "<p>I would just say the category of locally small categories is a certain subcategory of the category of small <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>U</mi></mrow><annotation encoding=\"application/x-tex\">U</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">U</span></span></span></span>-categories where <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>U</mi></mrow><annotation encoding=\"application/x-tex\">U</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">U</span></span></span></span> is the next universe up.</p>",
+        "id": 402064806,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1699994124
+    },
+    {
+        "content": "<p>by the way, what is a small functor between locally small categories?</p>",
+        "id": 402064856,
+        "sender_full_name": "Daniel Teixeira",
+        "timestamp": 1699994154
+    },
+    {
+        "content": "<p>\"The joy of cats\" uses the word \"illegitimate\" for a category whose hom-classes are not sets; they imply that a category which is not legitimate doesn't exist (implicit: in the universe of reference, but who cares what happens out of it anyway?)</p>",
+        "id": 402064862,
+        "sender_full_name": "fosco",
+        "timestamp": 1699994155
+    },
+    {
+        "content": "<p>It's true that locally-small-cat is not self-enriched.</p>",
+        "id": 402064865,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1699994156
+    },
+    {
+        "content": "<p>Yeah, that seems like a rather rude name to me!</p>",
+        "id": 402064967,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1699994177
+    },
+    {
+        "content": "<p>A small functor into Set is a small colimit of representables.</p>",
+        "id": 402064995,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1699994189
+    },
+    {
+        "content": "<p>Then small functors in general are defined representably: <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi></mrow><annotation encoding=\"application/x-tex\">F</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span></span></span></span> is small if <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>H</mi><mi>o</mi><mi>m</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo separator=\"true\">,</mo><mi>F</mi><mo>−</mo><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">Hom(x,F-)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\">Ho</span><span class=\"mord mathnormal\">m</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span><span class=\"mord\">−</span><span class=\"mclose\">)</span></span></span></span> is small for every <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mi mathvariant=\"normal\">.</mi></mrow><annotation encoding=\"application/x-tex\">x.</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">x</span><span class=\"mord\">.</span></span></span></span></p>",
+        "id": 402065037,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1699994211
+    },
+    {
+        "content": "<p>They're relevant mostly because the result that the presheaf category is the free cocompletion of a small category can be extended to say that the category of small set-valued functors is the free cocompletion of any locally small category.</p>",
+        "id": 402065139,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1699994250
+    },
+    {
+        "content": "<p>This is also something nice about locally small categories relative to \"locally large\" ones, since those don't even have representable functors valued in small sets so it's kind of pointless to talk about small colimits in that context.</p>",
+        "id": 402065249,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1699994283
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"609515\">Kevin Arlin</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/local.20presentability.20of.20Cat/near/402064995\">said</a>:</p>\n<blockquote>\n<p>A small functor into Set is a small colimit of representables.</p>\n</blockquote>\n<p>yes. Another problem: given <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span> locally small, <em>all</em> presheaves <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">[</mo><msup><mi>C</mi><mi>o</mi></msup><mo separator=\"true\">,</mo><mi>S</mi><mi>e</mi><mi>t</mi><mo stretchy=\"false\">]</mo></mrow><annotation encoding=\"application/x-tex\">[C^o,Set]</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">[</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6644em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">o</span></span></span></span></span></span></span></span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05764em;\">S</span><span class=\"mord mathnormal\">e</span><span class=\"mord mathnormal\">t</span><span class=\"mclose\">]</span></span></span></span> (live one universe up) and do not form the free cocompletion of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span>. Instead, <em>small</em> presheaves do.</p>",
+        "id": 402065308,
+        "sender_full_name": "fosco",
+        "timestamp": 1699994297
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"609515\">Kevin Arlin</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/local.20presentability.20of.20Cat/near/402064995\">said</a>:</p>\n<blockquote>\n<p>A small functor into Set is a small colimit of representables.</p>\n</blockquote>\n<p>More generally, given locally small categories <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi><mo separator=\"true\">,</mo><mi>D</mi></mrow><annotation encoding=\"application/x-tex\">C,D</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">D</span></span></span></span>, a functor <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mo>:</mo><mi>C</mi><mo>→</mo><mi>D</mi></mrow><annotation encoding=\"application/x-tex\">F : C\\to D</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">D</span></span></span></span> is small if there exists a small subcategory <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>j</mi><mo>:</mo><mi>A</mi><mo>→</mo><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">j : A\\to C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.854em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05724em;\">j</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\">A</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span> such that <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi></mrow><annotation encoding=\"application/x-tex\">F</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span></span></span></span> arises as a left Kan extension along <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>j</mi></mrow><annotation encoding=\"application/x-tex\">j</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.854em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05724em;\">j</span></span></span></span> of a functor <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo>:</mo><mi>A</mi><mo>→</mo><mi>D</mi></mrow><annotation encoding=\"application/x-tex\">f : A\\to D</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\">A</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">D</span></span></span></span></p>",
+        "id": 402065515,
+        "sender_full_name": "fosco",
+        "timestamp": 1699994395
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"609515\">Kevin Arlin</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/local.20presentability.20of.20Cat/near/402063823\">said</a>:</p>\n<blockquote>\n<p>It's fine to say that <em>a</em> locally small category is a category enriched in Set, but you're basically never going to collect all of those into a single category.</p>\n</blockquote>\n<p>You can certainly consider a (huge) category of large V-categories. Often the category of small V-categories is denoted V-Cat, and the category of large V-categories is denoted V-CAT. The precise formulation will depend on your foundations, but there's no fundamental obstruction.</p>",
+        "id": 402078660,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1699999517
+    },
+    {
+        "content": "<p>Yeah, certainly a category of large categories is a thing, since it's just the small categories a universe up. Specifically a category of locally small categories is not something you need so often.</p>",
+        "id": 402086991,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1700003266
+    }
+]

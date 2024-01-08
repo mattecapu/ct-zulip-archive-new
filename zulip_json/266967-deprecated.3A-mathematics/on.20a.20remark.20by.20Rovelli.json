@@ -1,0 +1,410 @@
+[
+    {
+        "content": "<p>These two are from Carlo Rovelli's pop science book the Order of Time footnotes of Chapter 8: Dynamics as Relation:<br>\n<a href=\"/user_uploads/21317/manGHilkTXMUgGp8sIfONzl-/image.png\">image.png</a> <br>\n<a href=\"/user_uploads/21317/KrUUWbEUswaaj2n103f-Vay4/image.png\">image.png</a> </p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/manGHilkTXMUgGp8sIfONzl-/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/manGHilkTXMUgGp8sIfONzl-/image.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/21317/KrUUWbEUswaaj2n103f-Vay4/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/KrUUWbEUswaaj2n103f-Vay4/image.png\"></a></div><p>Is he talking about how dynamics of a physical system can instead of being seen as time evolution <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo separator=\"true\">,</mo><mi>y</mi><mo stretchy=\"false\">)</mo><mo separator=\"true\">,</mo><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo separator=\"true\">,</mo><mi>y</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">\\frac{dx}{dt}=f(x,y),\\frac{dy}{dt}=g(x,y)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1.2251em;vertical-align:-0.345em;\"></span><span class=\"mord\"><span class=\"mopen nulldelimiter\"></span><span class=\"mfrac\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8801em;\"><span style=\"top:-2.655em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathnormal mtight\">d</span><span class=\"mord mathnormal mtight\">t</span></span></span></span><span style=\"top:-3.23em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"frac-line\" style=\"border-bottom-width:0.04em;\"></span></span><span style=\"top:-3.394em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathnormal mtight\">d</span><span class=\"mord mathnormal mtight\">x</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.345em;\"><span></span></span></span></span></span><span class=\"mclose nulldelimiter\"></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1.2772em;vertical-align:-0.345em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">y</span><span class=\"mclose\">)</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\"><span class=\"mopen nulldelimiter\"></span><span class=\"mfrac\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.9322em;\"><span style=\"top:-2.655em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathnormal mtight\">d</span><span class=\"mord mathnormal mtight\">t</span></span></span></span><span style=\"top:-3.23em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"frac-line\" style=\"border-bottom-width:0.04em;\"></span></span><span style=\"top:-3.4461em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathnormal mtight\">d</span><span class=\"mord mathnormal mtight\" style=\"margin-right:0.03588em;\">y</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.345em;\"><span></span></span></span></span></span><span class=\"mclose nulldelimiter\"></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">g</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">y</span><span class=\"mclose\">)</span></span></span></span> it can be written as <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">{</mo><mo stretchy=\"false\">(</mo><mi>x</mi><mo separator=\"true\">,</mo><mi>y</mi><mo stretchy=\"false\">)</mo><mo>:</mo><mi>C</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo separator=\"true\">,</mo><mi>y</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mn>0</mn><mo stretchy=\"false\">}</mo></mrow><annotation encoding=\"application/x-tex\">\\{(x,y):C(x,y)=0\\}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">{(</span><span class=\"mord mathnormal\">x</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">y</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">y</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">0</span><span class=\"mclose\">}</span></span></span></span> so there's no independent time variable involved?</p>",
+        "id": 329496824,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1677089396
+    },
+    {
+        "content": "<p>Yes.</p>",
+        "id": 329659117,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1677142596
+    },
+    {
+        "content": "<p>Is there good mathematics textbooks that talks about something like this? I think this notion is rather unfamiliar to me except the idea of a graph come up here and there occasionally.</p>",
+        "id": 329804642,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1677181246
+    },
+    {
+        "content": "<p>Uhm I'm sure any book on multivariate analysis treats implicit representation of curves</p>",
+        "id": 329809934,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1677183117
+    },
+    {
+        "content": "<p>The book \"Ordinary Differential Equations: Basics and Beyond\" (by Schaeffer and Cain) is a book I have not read, but exercise 3 on page 27 has to do with the elimination of time. It's possible surrounding material in that book might be of interest to you.</p>",
+        "id": 329811184,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1677183606
+    },
+    {
+        "content": "<p>(deleted)</p>",
+        "id": 335043841,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1677188820
+    },
+    {
+        "content": "<p>(deleted)</p>",
+        "id": 335045702,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1677189587
+    },
+    {
+        "content": "<p>For physicists and mathematicians what does \"event\" mean? From what Rovelli says it sounds like it always involve at least two objects interacting with one another. Also it sounds like the states of the objects have to change.</p>",
+        "id": 338102776,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1677392819
+    },
+    {
+        "content": "<p>As far as I know it's a point <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><mi>x</mi><mo separator=\"true\">,</mo><mi>y</mi><mo separator=\"true\">,</mo><mi>z</mi><mo separator=\"true\">,</mo><mi>t</mi><mo stretchy=\"false\">)</mo><mo>∈</mo><msup><mi mathvariant=\"double-struck\">R</mi><mn>4</mn></msup></mrow><annotation encoding=\"application/x-tex\">(x,y,z,t) \\in \\mathbb{R}^4</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">y</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.04398em;\">z</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\">t</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">∈</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.8141em;\"></span><span class=\"mord\"><span class=\"mord mathbb\">R</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8141em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">4</span></span></span></span></span></span></span></span></span></span></span> of the spacetime once you chose a coordinate system.</p>",
+        "id": 338106704,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1677396118
+    },
+    {
+        "content": "<p>Jean-Baptiste is giving the standard definition of <strong>event</strong> in special relativity, but in diffeomorphism-invariant physics (which Rovelli is studying) we need another definition of 'event', and nobody knows what the right definition is.</p>",
+        "id": 338172312,
+        "sender_full_name": "John Baez",
+        "timestamp": 1677427682
+    },
+    {
+        "content": "<p>It should capture the intuitive concept of 'something happens somewhere'.</p>",
+        "id": 338172411,
+        "sender_full_name": "John Baez",
+        "timestamp": 1677427717
+    },
+    {
+        "content": "<p>I've never heard of \"diffeomorphism-invariant physics\" before, and I find my curiosity piqued. Looking at Wikipedia, I see that a diffeomorphism is an isomorphism of smooth manifolds. In a physics context, what would we be using smooth manifolds for? And why would we want to consider isomorphisms between them?</p>\n<p>My first guess would be that we can model regions of space as smooth manifolds, and that some diffeomorphisms might conceivably include rotating/flipping or translating. I think I remember reading that some conservation laws in physics can be arrived at by requiring the equations that govern certain phenomena to have the same solutions even after these transformations are applied (?). I have no idea if this the kind of thing \"diffeomorphism-invariant physics\" is concerned with though.</p>",
+        "id": 338177914,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1677430243
+    },
+    {
+        "content": "<blockquote>\n<p>In a physics context, what would we be using smooth manifolds for?</p>\n</blockquote>\n<p>Lots of things, but in diffeomorphism-invariant physics we'd be using them to describe <em>spacetime</em>.</p>",
+        "id": 338183084,
+        "sender_full_name": "John Baez",
+        "timestamp": 1677432829
+    },
+    {
+        "content": "<blockquote>\n<p>And why would we want to consider isomorphisms between them?</p>\n</blockquote>\n<p>Because we can't physically tell the difference between living in some spacetime manifold <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>M</mi></mrow><annotation encoding=\"application/x-tex\">M</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">M</span></span></span></span> and some isomorphic spacetime manifold <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>M</mi><mo mathvariant=\"normal\" lspace=\"0em\" rspace=\"0em\">′</mo></msup></mrow><annotation encoding=\"application/x-tex\">M&#x27;</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7519em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">M</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.7519em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">′</span></span></span></span></span></span></span></span></span></span></span></span>.</p>",
+        "id": 338183198,
+        "sender_full_name": "John Baez",
+        "timestamp": 1677432879
+    },
+    {
+        "content": "<p>Einstein was one of the first to understand this principle, in a somewhat confused way.   He called it \"general covariance\":</p>\n<ul>\n<li>Wikipedia, <a href=\"https://en.wikipedia.org/wiki/General_covariance\">General covariance</a>.</li>\n</ul>",
+        "id": 338183327,
+        "sender_full_name": "John Baez",
+        "timestamp": 1677432952
+    },
+    {
+        "content": "<p>and physicists like Rovelli (and once upon a time me) who work on quantum gravity sometimes spend a lot of time trying to reconcile quantum theory with general covariance, or diffeomorphism-invariance.</p>",
+        "id": 338183482,
+        "sender_full_name": "John Baez",
+        "timestamp": 1677433008
+    },
+    {
+        "content": "<p>It's a tricky subject, as the \"century of confusion\" quote in Wikipedia explains.</p>",
+        "id": 338183762,
+        "sender_full_name": "John Baez",
+        "timestamp": 1677433112
+    },
+    {
+        "content": "<p>What about the idea of event that Glynn Winskel's talking about? <a href=\"https://www.cl.cam.ac.uk/~gw104/\">https://www.cl.cam.ac.uk/~gw104/</a></p>",
+        "id": 338185150,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1677433828
+    },
+    {
+        "content": "<p>This would be in the context of computer science</p>",
+        "id": 338185177,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1677433843
+    },
+    {
+        "content": "<p>I don't answer vague questions like \"what about X?\"</p>",
+        "id": 338185231,
+        "sender_full_name": "John Baez",
+        "timestamp": 1677433874
+    },
+    {
+        "content": "<p>The question is still \"what is event\" but in the context of computer science.</p>",
+        "id": 338185315,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1677433914
+    },
+    {
+        "content": "<p>Okay.   I don't know what an event is in the context of computer science.  I imagine it's a somewhat vague and ill-defined notion.   I'll let computer scientists decide whether they want to try to make it precise.</p>",
+        "id": 338185501,
+        "sender_full_name": "John Baez",
+        "timestamp": 1677434003
+    },
+    {
+        "content": "<p>Winskel talks about something called <em>event structures</em>, and uses them to model concurrency. In this setting the word \"event\" has a precise meaning as an element of an event structure. I wouldn't expect any connection to the general topic just because the word \"event\" is used in both cases, and I suspect that concurrency theory has very little to do with physics (both now and probably in the future, although I'd be happy to be proven wrong).</p>",
+        "id": 338329888,
+        "sender_full_name": "Martti Karvonen",
+        "timestamp": 1677505265
+    },
+    {
+        "content": "<p>Concurrency seems to relate directly to what Rovelli's talking about as event vs objects in book The Order of Time Chapter 6. The World is made of Events, Not Things</p>",
+        "id": 338424146,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1677524137
+    },
+    {
+        "content": "<p>“A family is not a thing, it is a collection of relations, occurrences, feelings. And a human being? Of course it’s not a thing; like the cloud above the mountain, it’s a complex process, where food, information, light, words, and so on enter and exit. . . . A knot of knots in a network of social relations, in a network of chemical processes, in a network of emotions exchanged with its own kind.”</p>",
+        "id": 338424602,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1677524263
+    },
+    {
+        "content": "<p>They seem to write in a way explaining the causal structures of events are never static, they're constantly changing.</p>",
+        "id": 338425358,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1677524443
+    },
+    {
+        "content": "<p>Or what Sarah Walker called \"state-dependency\" in her work The Descent of Math that information has causal power: <br>\n\"An example of why any of this matters may be in order. Consider the set of states of the world corresponding to Earth plus its satellites. This set may be partitioned into two subsets: states where some physical systems have knowledge of Newton’s law5 (i.e., humans) and states where there is no such knowledge6. One example of the latter is Earth with one natural satellite – the Moon, which was the state of Earth in our history prior to 1957. It is entirely possible (and by that I mean allowed by the laws of physics) that Earth might have also had no Moon, two captured asteroids for Moons (as is the case for Mars) or a potential host of alternative smallish rocky bodies orbiting it. All are equally viable states of the world consistent with known physics. It is also entirely possible (again I mean allowed by the laws of physics) that Earth have any number of artificial satellites or space junk. However, the latter set of states, while possible, is not accessible (by this I mean not encoded in the initial conditions) without human or human-­‐like technology. Thus, when comparing the size of the state space of Earth plus satellites, the state space is much larger if artificial satellites are included, i.e., if laws of gravitation are known. Thus when considering the number of states of the world consisting of Earth plus satellites, very many more states are potentially accessible from states of the world in which some physical systems have knowledge of the laws of gravitation than from a node where there is no such information. Thus, in a network of all possible states of the world, nodes with knowledge of Newton’s law are more highly connected to other nodes within the space of all possible configurations of Earth plus satellites.\"</p>",
+        "id": 338426289,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1677524691
+    },
+    {
+        "content": "<p>On the topic of dependence, you might find parts of \"Duoidal Structures for Compositional Dependence\" (by Shapiro and Spivak) to be of interest. I've only looked at the start of it, but it talks about categories with two ways to combine pairs of objects: one that is used when the two objects model independent events, and one that is used when one event depends on the other. Apparently this relates to something called a \"duoidal category\".</p>",
+        "id": 338439703,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1677528513
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span> <a href=\"#narrow/stream/266967-general.3A-mathematics/topic/on.20a.20remark.20by.20rovelli/near/338424146\">said</a>:</p>\n<blockquote>\n<p>Concurrency seems to relate directly to what Rovelli's talking about as event vs objects in book The Order of Time Chapter 6. The World is made of Events, Not Things</p>\n</blockquote>\n<p>hi peiyuan. trying to understand carlo rovelli's ideas about events and objects, and trying to understand the meanings of words in general, is a noble goal. the general activity of mining the meanings of words is close to what they did in ancient greece at one point. aristotle generalized it to the point of asking what is the meaning of \"to be\". he studied that in a book called metaphysics.<br>\nmathematics <em>begins</em> when people stop expecting that words carry their meaning with them. they assign a different meaning to <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi></mrow><annotation encoding=\"application/x-tex\">x</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">x</span></span></span></span> in every story. the word \"event\" is a variable. glynn winskel used it to denote an element of an algebraic lattice equipped with an inconsistency relation. he used the word \"event\" to suggest a vague intuition, and because it had not been used in the same context before. the same word means another thing in special relativity and yet another thing in general relativity. it is a variable. <br>\nit becomes complicated when people who have been doing math all their lives, and used variables, get old, and propose that the meaning that they assigned to a word in this or that exercise should be nailed to that word, imagining that their thoughts might live longer that way. don't fall for that. words are just words.</p>",
+        "id": 338444206,
+        "sender_full_name": "dusko",
+        "timestamp": 1677529879
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"294557\">dusko</span> <a href=\"#narrow/stream/266967-general.3A-mathematics/topic/on.20a.20remark.20by.20rovelli/near/338444206\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span> <a href=\"#narrow/stream/266967-general.3A-mathematics/topic/on.20a.20remark.20by.20rovelli/near/338424146\">said</a>:</p>\n<blockquote>\n<p>Concurrency seems to relate directly to what Rovelli's talking about as event vs objects in book The Order of Time Chapter 6. The World is made of Events, Not Things</p>\n</blockquote>\n<p>hi peiyuan. trying to understand carlo rovelli's ideas about events and objects, and trying to understand the meanings of words in general, is a noble goal. the general activity of mining the meanings of words is close to what they did in ancient greece at one point. aristotle generalized it to the point of asking what is the meaning of \"to be\". he studied that in a book called metaphysics.<br>\nmathematics <em>begins</em> when people stop expecting that words carry their meaning with them. they assign a different meaning to <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi></mrow><annotation encoding=\"application/x-tex\">x</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">x</span></span></span></span> in every story. the word \"event\" is a variable. glynn winskel used it to denote an element of an algebraic lattice equipped with an inconsistency relation. he used the word \"event\" to suggest a vague intuition, and because it had not been used in the same context before. the same word means another thing in special relativity and yet another thing in general relativity. it is a variable. <br>\nit becomes complicated when people who have been doing math all their lives, and used variables, get old, and propose that the meaning that they assigned to a word in this or that exercise should be nailed to that word, imagining that their thoughts might live longer that way. don't fall for that. words are just words.</p>\n</blockquote>\n<p>Thanks for the encouragement. I think because mathematics is now divided into pure and applied, the meaning part is lost, although I think since mathematics concern the highest universality of human practices, the loss of meanings ends up putting up barricades on places where new development can happens. </p>\n<p>My understanding now is that Rovelli's saying the world is not made of particles and reversible dynamical laws of the particles, it's made of relations between possible events, and events as some change that happens that may or may not be measured e.g. entanglement, therefore he puts uncertainty principle, irreversibility, non-equilibrium conditions, information loss from measurement at the centre of physics. The relation between events i.e. constraints is where complexity of an organism lies, which allows the organism to circumvent the dynamics causally, while the dynamics can be quite simple e.g. second law of thermodynamics. This is likewise the case of the inconsistency relations that Winkle is talking about, that the relation between uncertain environment and computer program(s), and between program and program(s). Same phenomena happen in complex system works such as Walker e.g. relation between satellites and Barrett  e.g. relation between mental phenomena and physical phenomena. The relations are to be contrasted to functions of certitude and reversibility. Same phenomena happen in philosophy works such as James on pragmatic theory of Truth i.e. it's the value that's evolving towards higher complexity. Likewise in social sciences that has pragmatic orientations, such as those of Parsons.</p>",
+        "id": 338464297,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1677537607
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"294557\">dusko</span> <a href=\"#narrow/stream/266967-general.3A-mathematics/topic/on.20a.20remark.20by.20rovelli/near/338444206\">said</a>:</p>\n<blockquote>\n<p>mathematics <em>begins</em> when people stop expecting that words carry their meaning with them. they assign a different meaning to <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi></mrow><annotation encoding=\"application/x-tex\">x</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">x</span></span></span></span> in every story. the word \"event\" is a variable. glynn winskel used it to denote an element of an algebraic lattice equipped with an inconsistency relation. he used the word \"event\" to suggest a vague intuition, and because it had not been used in the same context before. the same word means another thing in special relativity and yet another thing in general relativity. it is a variable. </p>\n</blockquote>\n<p>This is a very interesting point regarding the praxis and the philosophy of mathematics. I strongly agree that the fundamental idea of mathematics is to strip form of substance and focus on that (<em>abstraction</em>), and it can be misleading to read more than a coincidence in a choice of terminology (or in any other recurrent formal pattern). In that sense, 'event' in Winskel's event structures and 'event' in GR are as related as 'x' in an equation and 'x' in another.</p>\n<p>On the other hand, the reason Winskel and Einstein used the word 'event', and not some made up string, is to hint to an underlying intuition they would like to evoke. I argue this is at least equally fundamental to mathematics. Abstraction is something all people do and have been doing outside and before mathematics. The difference is mathematicians try to channel their intuitions into more precise language.<br>\nThese underlying intuitions, producing formal coincidences across mathematics, can often be mined for interesting abstractions. Indeed, I would be very surprised if one couldn't meaningfully connect event structures and 'spacetime causality', even though the connection might not be fertile (one would need more motivation for sure).</p>\n<p>As always, the answer lies in the synthesis of these two moments. I argue mathematics is powered by the meaning-form dialectic, and it's misleading to focus on either side only. There is no divide between applied and theoretical mathematics, there is a continuum, and ideas slowly move back and forth like air convecting in a room. So it's important to not mistake the finger for the moon (form for meaning), but it's important also to remember we are looking at the moon because the finger is pointing at it, and the finger is pointing at it because there is something there.</p>",
+        "id": 338549609,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1677580286
+    },
+    {
+        "content": "<p>So many good philosophical takes here.</p>",
+        "id": 338650889,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1677606305
+    },
+    {
+        "content": "<p>In category theory functors looks to me the most event-like structure. Any thoughts? The discussion here makes me want to go back to the Event as Basic Type chapter of Modal HoTT that I read a while ago but gave up because I didn't understand it.</p>",
+        "id": 338655869,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1677607664
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/mIXlaVM-7CwJmx4BN6zRbHTD/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/mIXlaVM-7CwJmx4BN6zRbHTD/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/mIXlaVM-7CwJmx4BN6zRbHTD/image.png\"></a></div>",
+        "id": 338656276,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1677607765
+    },
+    {
+        "content": "<p>I'm not sure how to read that dependent sum.</p>",
+        "id": 338657345,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1677608033
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/266967-general.3A-mathematics/topic/on.20a.20remark.20by.20rovelli/near/338549609\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"294557\">dusko</span> <a href=\"#narrow/stream/266967-general.3A-mathematics/topic/on.20a.20remark.20by.20rovelli/near/338444206\">said</a>:</p>\n<blockquote>\n<p>mathematics <em>begins</em> when people stop expecting that words carry their meaning with them. they assign a different meaning to <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi></mrow><annotation encoding=\"application/x-tex\">x</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">x</span></span></span></span> in every story. the word \"event\" is a variable. glynn winskel used it to denote an element of an algebraic lattice equipped with an inconsistency relation. he used the word \"event\" to suggest a vague intuition, and because it had not been used in the same context before. the same word means another thing in special relativity and yet another thing in general relativity. it is a variable. </p>\n</blockquote>\n<p>This is a very interesting point regarding the praxis and the philosophy of mathematics. I strongly agree that the fundamental idea of mathematics is to strip form of substance and focus on that (<em>abstraction</em>), and it can be misleading to read more than a coincidence in a choice of terminology (or in any other recurrent formal pattern). In that sense, 'event' in Winskel's event structures and 'event' in GR are as related as 'x' in an equation and 'x' in another.</p>\n<p>On the other hand, the reason Winskel and Einstein used the word 'event', and not some made up string, is to hint to an underlying intuition they would like to evoke. I argue this is at least equally fundamental to mathematics. Abstraction is something all people do and have been doing outside and before mathematics. The difference is mathematicians try to channel their intuitions into more precise language.<br>\nThese underlying intuitions, producing formal coincidences across mathematics, can often be mined for interesting abstractions. Indeed, I would be very surprised if one couldn't meaningfully connect event structures and 'spacetime causality', even though the connection might not be fertile (one would need more motivation for sure).</p>\n<p>As always, the answer lies in the synthesis of these two moments. I argue mathematics is powered by the meaning-form dialectic, and it's misleading to focus on either side only. There is no divide between applied and theoretical mathematics, there is a continuum, and ideas slowly move back and forth like air convecting in a room. So it's important to not mistake the finger for the moon (form for meaning), but it's important also to remember we are looking at the moon because the finger is pointing at it, and the finger is pointing at it because there is something there.</p>\n</blockquote>\n<p>you are right in the sense that i said it quickly and simply and it sounds like wittgenstein and i am definitely no wittgenstein. </p>\n<p>what are we doing here, talking to each other, if all these words are just variables? at least <span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span>  means <span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span>. when wittgenstein said consistency doesn't matter, turing said \"but the bridges will fall if theories are inconsistent\".</p>\n<p>what is the difference between the finger and the moon? on the surface, they are two words. in the context, they are metaphors for some abstractions, which linguists would call signifiant and signifiee. oh, you said form-meaning. i agree. while there is, of course, the well-studied possibility that the moon could be made of cheese (stilton, i believe) it would be a hassle if we all engaged in cartesian meditations worrying how to be sure that the moon is there. so we agree that the moon is there. next thing you know, we also agree that lower taxes mean higher employment, since it really means a lot to me that we agree about that, and it would be hassle to go around disagreeng too much...</p>\n<p>it's a hassle to disagree, and it's a hassle to agree. (before the \"agreeing to disagree\" paper, aumann constructed an example where two players with the same priors deduce from the same observations completely <strong>different</strong> models. he never ever mentioned that model again. he is a deeply religious man.)</p>\n<p>exercise: express the relation of the finger and the moon as an adjunction.</p>\n<p>PS the correlations are of course dialectical, and lawvere is a true giant, but he could have done even more if he didn't go around talking about dialectics so much, almost to the point of making himself into a sort of a wittgenstein of leninism. (or maoism a couple of years earlier.)</p>",
+        "id": 338685657,
+        "sender_full_name": "dusko",
+        "timestamp": 1677616239
+    },
+    {
+        "content": "<p>Maybe it'll become Bogdanovism once the problem of history-dependency is resolved for these systems...?</p>",
+        "id": 338694178,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1677619233
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"294557\">dusko</span> <a href=\"#narrow/stream/266967-general.3A-mathematics/topic/on.20a.20remark.20by.20rovelli/near/338685657\">said</a>:</p>\n<blockquote>\n<p>you are right in the sense that i said it quickly and simply and it sounds like wittgenstein and i am definitely no wittgenstein. </p>\n</blockquote>\n<p>Sure, I didn't mean to pick on you :) all you said was perfectly fine! I just took the opportunity to vent some 'philosophy'...</p>",
+        "id": 338760824,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1677656254
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277285\">Martti Karvonen</span> <a href=\"#narrow/stream/266967-general.3A-mathematics/topic/on.20a.20remark.20by.20Rovelli/near/338329888\">said</a>:</p>\n<blockquote>\n<p>I wouldn't expect any connection to the general topic just because the word \"event\" is used in both cases, and I suspect that concurrency theory has very little to do with physics (both now and probably in the future, although I'd be happy to be proven wrong).</p>\n</blockquote>\n<p>Check out this article: <a href=\"https://www.sciencedirect.com/science/article/pii/S0304397514001674\">\"Causality in physics and computation\" \n by Prakash Panangaden</a></p>",
+        "id": 341602322,
+        "sender_full_name": "Naso",
+        "timestamp": 1678755733
+    },
+    {
+        "content": "<p>This is very interesting.</p>",
+        "id": 341904912,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1678828270
+    },
+    {
+        "content": "<p>In Sociology: <a href=\"http://grahamberrisford.com/AM%204%20System%20theory/SystemTheory/ChallengingSystemsThinkers/15%20Luhmann%27s%20autopoietic%20social%20system.htm\">http://grahamberrisford.com/AM%204%20System%20theory/SystemTheory/ChallengingSystemsThinkers/15%20Luhmann%27s%20autopoietic%20social%20system.htm</a></p>",
+        "id": 342165810,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1678914187
+    },
+    {
+        "content": "<p>\"What makes Luhmann’s view so radical is that his social system contains nothing but communicative events.<br>\nIt has no persistent state in the form of actors, objects, data or memory.<br>\nIt not only depends on communicative events, it is communicative events.<br>\nIt is the set of communicative events related to one theme or code such as justice/injustice.\"</p>",
+        "id": 342165827,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1678914192
+    },
+    {
+        "content": "<p>I'm seeing the Joy of Abstraction talks about relations in Chapter 7</p>",
+        "id": 343536671,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1679439465
+    },
+    {
+        "content": "<p>In category theory is there a specific structure that belongs to \"events\"?</p>",
+        "id": 343538025,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1679440189
+    },
+    {
+        "content": "<p>I was looking at identity of indiscernibles <a href=\"https://ncatlab.org/nlab/show/identity+of+indiscernibles\">https://ncatlab.org/nlab/show/identity+of+indiscernibles</a>. Is this a judgement based on events?</p>",
+        "id": 343538127,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1679440227
+    },
+    {
+        "content": "<p>Are the \"objects\" in category theory best understood as \"events\"?</p>",
+        "id": 343539900,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1679441380
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span> <a href=\"#narrow/stream/266967-general.3A-mathematics/topic/on.20a.20remark.20by.20Rovelli/near/343538025\">said</a>:</p>\n<blockquote>\n<p>In category theory is there a specific structure that belongs to \"events\"?</p>\n</blockquote>\n<p>No.</p>",
+        "id": 343542376,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679442946
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span> <a href=\"#narrow/stream/266967-general.3A-mathematics/topic/on.20a.20remark.20by.20Rovelli/near/343539900\">said</a>:</p>\n<blockquote>\n<p>Are the \"objects\" in category theory best understood as \"events\"?</p>\n</blockquote>\n<p>No.  For example an object in a category could be a set, a group, a vector space, a graph, a vertex of a graph, or many other things, depending on the category.</p>",
+        "id": 343542475,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679442977
+    },
+    {
+        "content": "<p>I saw this in an article of Lee Smolin in Quantmagazine: \" We propose as a principle of dynamics that each view should be unique. That idea comes from Leibniz’s principle of the identity of indiscernibles. Two events whose views are exactly mappable onto each other are the same event, by definition. \" <a href=\"https://www.quantamagazine.org/were-stuck-inside-the-universe-lee-smolin-has-an-idea-for-how-to-study-it-anyway-20190627/\">https://www.quantamagazine.org/were-stuck-inside-the-universe-lee-smolin-has-an-idea-for-how-to-study-it-anyway-20190627/</a></p>",
+        "id": 343542772,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1679443112
+    },
+    {
+        "content": "<p>Yup, sounds like Leibniz.</p>",
+        "id": 343542806,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679443128
+    },
+    {
+        "content": "<p>Read his <em><a href=\"https://en.wikipedia.org/wiki/Monad_(philosophy)\">Monadology</a></em> for more.</p>",
+        "id": 343544018,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679443525
+    },
+    {
+        "content": "<p>But when people talk about relation they almost always refers to the arrows in some category?</p>",
+        "id": 343545139,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1679443895
+    },
+    {
+        "content": "<p>I don't know about people in general, but when mathematicians talk about a \"relation\" they most often mean a subset of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi><mo>×</mo><mi>Y</mi></mrow><annotation encoding=\"application/x-tex\">X \\times Y</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">×</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">Y</span></span></span></span> where <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi></mrow><annotation encoding=\"application/x-tex\">X</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Y</mi></mrow><annotation encoding=\"application/x-tex\">Y</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">Y</span></span></span></span> are sets.   Try this:</p>\n<ul>\n<li>Wikipedia, <a href=\"https://en.wikipedia.org/wiki/Relation_(mathematics)#Definition\">Relation (mathematics): definition</a>.</li>\n</ul>",
+        "id": 343546133,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679444254
+    },
+    {
+        "content": "<p>But in this case of Yoneda Lemma \"object is determined by its relations to other objects\" it is referring to the arrows right? <a href=\"https://www.math3ma.com/blog/the-yoneda-perspective\">https://www.math3ma.com/blog/the-yoneda-perspective</a></p>",
+        "id": 343546336,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1679444322
+    },
+    {
+        "content": "<p>Here Tai-Danae is using the word \"relation\" in a loose, vague way trying to get you to understand the idea of the Yoneda lemma.  \"Relation\" is one of those words that's often used vaguely.   So don't think of this as some sort of definition of \"relation\" in math!</p>\n<p>When we get precise we have to say \"an object is determined by its representable presheaf\".  This representable presheaf involves the arrows from that object to other objects.  But it's much more than just the <em>set</em> of arrows from that object to other objects.  I'm sure if you read all 3 of Tai-Danae's articles on Yoneda she explains this.</p>",
+        "id": 343547107,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679444567
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/266967-general.3A-mathematics/topic/on.20a.20remark.20by.20Rovelli/near/343542376\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span> <a href=\"#narrow/stream/266967-general.3A-mathematics/topic/on.20a.20remark.20by.20Rovelli/near/343538025\">said</a>:</p>\n<blockquote>\n<p>In category theory is there a specific structure that belongs to \"events\"?</p>\n</blockquote>\n<p>No.</p>\n</blockquote>\n<p>But it does look like it has something to do with homotopy type theory. In particular the univalence axiom. It even quoted you. So I guess HoTT is not necessarily considered a part of category theory.</p>",
+        "id": 343552058,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1679446298
+    },
+    {
+        "content": "<p>What is that \"even quoted me\"?   What did I say?</p>\n<p>Anyway, I don't think HoTT has a specific structure that's mainly used to describe \"events\".  If you think there is, what is this structure?</p>\n<p>But of course people can try to use category theory, homotopy type theory, and many other kinds of math to describe events.</p>",
+        "id": 343576065,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679461000
+    },
+    {
+        "content": "<p>“There are several ways to think about the axiom of univalence. One can see it as a sophisticated updating of Leibniz’s principle of the identity of indiscernibles.” –John Baez nCafé</p>",
+        "id": 343702763,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1679497070
+    },
+    {
+        "content": "<p>But the relation to \"events\" seems to have nothing to do with John.</p>",
+        "id": 343708470,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1679498245
+    },
+    {
+        "content": "<p>Or Leibniz, for that matter</p>",
+        "id": 343708937,
+        "sender_full_name": "Reid Barton",
+        "timestamp": 1679498338
+    },
+    {
+        "content": "<p>I suppose what's talked about in the univalence axiom can be considered as equivalence between events?</p>",
+        "id": 343728132,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1679502562
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span> <a href=\"#narrow/stream/266967-general.3A-mathematics/topic/on.20a.20remark.20by.20Rovelli/near/343728132\">said</a>:</p>\n<blockquote>\n<p>I suppose what's talked about in the univalence axiom can be considered as equivalence between events?</p>\n</blockquote>\n<p>if your types are events, then yes. the univalence axiom is about isomorphisms of types and paths valued in types.</p>",
+        "id": 343729519,
+        "sender_full_name": "Josselin Poiret",
+        "timestamp": 1679502931
+    },
+    {
+        "content": "<p>Leibniz equality is not the same as the MLTT equality type though</p>",
+        "id": 343729769,
+        "sender_full_name": "Josselin Poiret",
+        "timestamp": 1679502987
+    },
+    {
+        "content": "<p>Stated slightly differently, you may use the univalence axiom to reason about equivalence between events, but that doesn't mean the univalence axiom itself is about equivalence between events.  The univalence axiom is not limited to talking about events.</p>",
+        "id": 343734362,
+        "sender_full_name": "Jason Erbele",
+        "timestamp": 1679504124
+    },
+    {
+        "content": "<p>So Rovelli talked a lot about time is ignorance so how time depends on blurring. Does it mean we could have a different version of the second law of thermodyanmics such that there's no time variable? If we don't take temperature as the average but instead choose something else that discrimiate the states do we get some other kind of second law too?</p>",
+        "id": 344684414,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1679845791
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"284453\">Josselin Poiret</span> <a href=\"#narrow/stream/266967-general.3A-mathematics/topic/on.20a.20remark.20by.20Rovelli/near/343729769\">said</a>:</p>\n<blockquote>\n<p>Leibniz equality is not the same as the MLTT equality type though</p>\n</blockquote>\n<p>What is your justification for this distinction? The induction principle for MLTT equality says something very close to: if a = b, then every property P which holds for a also holds for b. Conversely if every property which holds for property a also holds for b, then the property P(x) = \"x = a\" holds for b, thus a = b.</p>",
+        "id": 345189930,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1680022242
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"424412\">Patrick Nicodemus</span> <a href=\"#narrow/stream/266967-general.3A-mathematics/topic/on.20a.20remark.20by.20Rovelli/near/345189930\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"284453\">Josselin Poiret</span> <a href=\"#narrow/stream/266967-general.3A-mathematics/topic/on.20a.20remark.20by.20Rovelli/near/343729769\">said</a>:</p>\n<blockquote>\n<p>Leibniz equality is not the same as the MLTT equality type though</p>\n</blockquote>\n<p>What is your justification for this distinction? The induction principle for MLTT equality says something very close to: if a = b, then every property P which holds for a also holds for b. Conversely if every property which holds for property a also holds for b, then the property P(x) = \"x = a\" holds for b, thus a = b.</p>\n</blockquote>\n<p>what your definition of property here? In some flavors of MLTT without UIP equality is not a property</p>",
+        "id": 345198887,
+        "sender_full_name": "Josselin Poiret",
+        "timestamp": 1680024765
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span> <a href=\"#narrow/stream/266967-general.3A-mathematics/topic/on.20a.20remark.20by.20Rovelli/near/329496824\">said</a>:</p>\n<blockquote>\n<p>These two are from Carlo Rovelli's pop science book the Order of Time footnotes of Chapter 8: Dynamics as Relation:<br>\n<a href=\"/user_uploads/21317/manGHilkTXMUgGp8sIfONzl-/image.png\">image.png</a> <br>\n<a href=\"/user_uploads/21317/KrUUWbEUswaaj2n103f-Vay4/image.png\">image.png</a> </p>\n<p>Is he talking about how dynamics of a physical system can instead of being seen as time evolution <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mfrac><mrow><mi>d</mi><mi>x</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo separator=\"true\">,</mo><mi>y</mi><mo stretchy=\"false\">)</mo><mo separator=\"true\">,</mo><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac><mo>=</mo><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo separator=\"true\">,</mo><mi>y</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">\\frac{dx}{dt}=f(x,y),\\frac{dy}{dt}=g(x,y)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1.2251em;vertical-align:-0.345em;\"></span><span class=\"mord\"><span class=\"mopen nulldelimiter\"></span><span class=\"mfrac\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8801em;\"><span style=\"top:-2.655em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathnormal mtight\">d</span><span class=\"mord mathnormal mtight\">t</span></span></span></span><span style=\"top:-3.23em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"frac-line\" style=\"border-bottom-width:0.04em;\"></span></span><span style=\"top:-3.394em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathnormal mtight\">d</span><span class=\"mord mathnormal mtight\">x</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.345em;\"><span></span></span></span></span></span><span class=\"mclose nulldelimiter\"></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1.2772em;vertical-align:-0.345em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">y</span><span class=\"mclose\">)</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\"><span class=\"mopen nulldelimiter\"></span><span class=\"mfrac\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.9322em;\"><span style=\"top:-2.655em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathnormal mtight\">d</span><span class=\"mord mathnormal mtight\">t</span></span></span></span><span style=\"top:-3.23em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"frac-line\" style=\"border-bottom-width:0.04em;\"></span></span><span style=\"top:-3.4461em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathnormal mtight\">d</span><span class=\"mord mathnormal mtight\" style=\"margin-right:0.03588em;\">y</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.345em;\"><span></span></span></span></span></span><span class=\"mclose nulldelimiter\"></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">g</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">y</span><span class=\"mclose\">)</span></span></span></span> it can be written as <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">{</mo><mo stretchy=\"false\">(</mo><mi>x</mi><mo separator=\"true\">,</mo><mi>y</mi><mo stretchy=\"false\">)</mo><mo>:</mo><mi>C</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo separator=\"true\">,</mo><mi>y</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mn>0</mn><mo stretchy=\"false\">}</mo></mrow><annotation encoding=\"application/x-tex\">\\{(x,y):C(x,y)=0\\}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">{(</span><span class=\"mord mathnormal\">x</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">y</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">y</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">0</span><span class=\"mclose\">}</span></span></span></span> so there's no independent time variable involved?</p>\n</blockquote>\n<p>How to then talk about symmetry with relations?</p>",
+        "id": 348120897,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1681094054
+    }
+]

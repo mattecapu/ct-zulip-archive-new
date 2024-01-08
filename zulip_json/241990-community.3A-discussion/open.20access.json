@@ -1,0 +1,146 @@
+[
+    {
+        "content": "<p>In relation to <a href=\"#narrow/stream/229141-general.3A-events/topic/Logic.20in.20Computer.20Science.20conference/near/310428328\">this topic</a>, I'd like to open the floor on open access, and adjacent \"not so open\" publication options.<br>\nResearcher-directed online publication models exist; in particular, [insert appropriate precious material here] open access doesn't involve transfer of funds. On the other hand, managing a journal or a conference takes resources! For online journals, that's a minimum of hardware or cloud space and the hours required to manage that, but physical publication carries a much wider array of costs. So where do funds come from, and where do they go?</p>",
+        "id": 310436878,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1668612814
+    },
+    {
+        "content": "<p>(I am happy for this discussion to encompass the finer points of the publication pipeline in general, but will branch the discussion if it gets hard to follow).</p>",
+        "id": 310437688,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1668613048
+    },
+    {
+        "content": "<p>FWIW ACM plans to make all articles open access relatively soon <a href=\"https://www.acm.org/publications/openaccess#acmopen\">https://www.acm.org/publications/openaccess#acmopen</a></p>",
+        "id": 310494288,
+        "sender_full_name": "Georgios Bakirtzis",
+        "timestamp": 1668630070
+    },
+    {
+        "content": "<p>It looks like a form of gold open access, btw.</p>",
+        "id": 310495203,
+        "sender_full_name": "John Baez",
+        "timestamp": 1668630415
+    },
+    {
+        "content": "<p>Looks like the perfect place to advertize this: <a href=\"https://nofreeviewnoreview.org/\">https://nofreeviewnoreview.org/</a></p>",
+        "id": 310519032,
+        "sender_full_name": "Lê Thành Dũng (Tito) Nguyễn",
+        "timestamp": 1668640591
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"308397\">Sam Staton</span> <a href=\"#narrow/stream/229141-general.3A-events/topic/Logic.20in.20Computer.20Science.20conference/near/310428328\">said</a>:</p>\n<blockquote>\n<p>Also, if you do complain about OA, please do be very clear what you think about \"Gold OA\", which as Jules said, may be regarded as a red herring (but which some people like). There's a tendency for publishers to say \"OK you all want OA, let's charge 1.5k per paper, then it's gold OA, great, sorted\". Currently that's done at several ACM conferences and you can pay at LICS too on ACM years. At POPL iirc there's a subsidy for all papers, and authors are asked to contribute $400 but that's still subsidized compared to (iirc) $900. The subsidy seems to indirectly come from other sources e.g. registration fees. I hear that there is a drive to ask universities to pay annual fees to publishers instead, which might be much more than the library access fees that they were already paying. There is a whole long debate about how much it should all really cost, who should pay, etc, which is probably another thread!</p>\n</blockquote>\n<p>The only way for this sort of cancer to be removed is for the whole editorial board of such journals/conferences to unilaterally resign, and start a cloned venue, along with pulbic statements of cooperation by prominent professors in the relevant field.</p>",
+        "id": 310524501,
+        "sender_full_name": "Cole Comfort",
+        "timestamp": 1668643642
+    },
+    {
+        "content": "<p>What is actually stopping these professors from emailing each other and just doing this?  They aren't getting paid either, it seems like a simple solution... and it is morally reprehensible that these systems continue to extract resources with no added value to society.</p>",
+        "id": 310524988,
+        "sender_full_name": "Cole Comfort",
+        "timestamp": 1668643934
+    },
+    {
+        "content": "<p>If you're interested in these issues, you might enjoy my blog post / manifesto \"free publishing\" <a href=\"https://julesh.com/2021/02/16/free-publishing/\">https://julesh.com/2021/02/16/free-publishing/</a></p>",
+        "id": 310587378,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1668683273
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"277391\">@Cole Comfort</span> wrote:</p>\n<blockquote>\n<p>What is actually stopping these professors from emailing each other and just doing this?</p>\n</blockquote>\n<p>It's a lot of work to start a journal and even more work to keep one running, compared to being an editor for a corporate journal where the corporation pays people to do a lot of stuff.  So, editors have to be quite committed to open access to break free of the corporation-run journal and set up their own journal.  Of course it happens, like in the case of the Springer journal <em>K-Theory</em> - which was <a href=\"https://mathoverflow.net/questions/136465/what-happened-to-online-articles-published-in-k-theory-springer-journal\">quite a fiasco</a> since Springer stopped making the old journal issues available on its website, and apparently the new <em>Journal of K-Theory</em> also stopped publishing.</p>",
+        "id": 310989826,
+        "sender_full_name": "John Baez",
+        "timestamp": 1668852763
+    },
+    {
+        "content": "<p>There are probably cases that worked out better - I'm not trying to say these efforts are doomed! - but I'm not remembering them right now.</p>",
+        "id": 310989882,
+        "sender_full_name": "John Baez",
+        "timestamp": 1668852821
+    },
+    {
+        "content": "<p>Some examples which worked out better:</p>\n<ul>\n<li><a href=\"https://en.wikipedia.org/wiki/Algebraic_Combinatorics_(journal)\">https://en.wikipedia.org/wiki/Algebraic_Combinatorics_(journal)</a></li>\n<li><a href=\"https://en.wikipedia.org/wiki/Journal_of_Machine_Learning_Research\">https://en.wikipedia.org/wiki/Journal_of_Machine_Learning_Research</a></li>\n<li><a href=\"https://en.wikipedia.org/wiki/Glossa_(journal)\">https://en.wikipedia.org/wiki/Glossa_(journal)</a></li>\n</ul>",
+        "id": 311012239,
+        "sender_full_name": "Antonin Delpeuch",
+        "timestamp": 1668861871
+    },
+    {
+        "content": "<p>Another example complementing Antonin's:<br>\n<a href=\"https://cljournal.org/\">https://cljournal.org/</a></p>\n<p>The Computational Linguistics journal is the primary archival forum for research on computational linguistics and natural language processing. The journal, sponsored by the Association for Computational Linguistics, has been published for the ACL by MIT Press since 1988, and has been Open Access since the beginning of 2009. All issues published by MIT Press are freely available to all at the official MIT Press website for the journal. Issues prior to 1988, as well as the issues published by MIT Press, are also available via the ACL Anthology. </p>\n<p>this is very relevant because:</p>\n<ol>\n<li>it was an MIT journal and </li>\n<li>the ACL anthology is the best example of open access publications I know of. virtually all publications in NLP are in the Anthology.</li>\n<li>I don't know why we can't have an Anthology of Category Theory and Theoretical Computer Science with both LICS and POPL as our main conferences.</li>\n</ol>",
+        "id": 311171383,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1668969024
+    },
+    {
+        "content": "<p><a href=\"https://lmcs.episciences.org/page/editorial-board\">https://lmcs.episciences.org/page/editorial-board</a></p>",
+        "id": 311213184,
+        "sender_full_name": "Alexander Kurz",
+        "timestamp": 1669004072
+    },
+    {
+        "content": "<p><a href=\"http://www.tac.mta.ca/tac/geninfo.html#edpol\">http://www.tac.mta.ca/tac/geninfo.html#edpol</a></p>",
+        "id": 311213327,
+        "sender_full_name": "Alexander Kurz",
+        "timestamp": 1669004179
+    },
+    {
+        "content": "<p><a href=\"https://drops.dagstuhl.de/opus/institut_lipics.php?fakultaet=04\">https://drops.dagstuhl.de/opus/institut_lipics.php?fakultaet=04</a></p>",
+        "id": 311213498,
+        "sender_full_name": "Alexander Kurz",
+        "timestamp": 1669004338
+    },
+    {
+        "content": "<p>thanks <span class=\"user-mention\" data-user-id=\"276830\">@Alexander Kurz</span> !  for LIPICs publishing is not totally free for authors, but they do try to keep it at a minimum. but they have to know your group and accept your kind of work. I didn't mention TAC or LMCS because both started life as open source journals already, as did Compositionality-- which seems to be under maintenance right now.</p>",
+        "id": 311216292,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1669007059
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275901\">Jules Hedges</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/open.20access/near/310587378\">said</a>:</p>\n<blockquote>\n<p>If you're interested in these issues, you might enjoy my blog post / manifesto \"free publishing\" <a href=\"https://julesh.com/2021/02/16/free-publishing/\">https://julesh.com/2021/02/16/free-publishing/</a></p>\n</blockquote>\n<p>Quoting from my own post: Of course I am not naive, and I know that publishing costs money. Tim Gowers, who founded the free journal Advances in Combinatorics, wrote in this great blog post (one that I come back to repeatedly) that “the total cost of running a new journal that isn’t too large is of the order of a few hundred dollars per year\"</p>",
+        "id": 311252664,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1669026179
+    },
+    {
+        "content": "<p>Link failed to copy: <a href=\"https://gowers.wordpress.com/2018/06/04/a-new-journal-in-combinatorics/\">https://gowers.wordpress.com/2018/06/04/a-new-journal-in-combinatorics/</a><br>\nI recommend reading this if you're interested in this stuff!</p>",
+        "id": 311252774,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1669026216
+    },
+    {
+        "content": "<p>Just occurred to me  the question whether it could make sense to create a bespoke blockchain just for one journal ... one advantage could be that maintenance, file storage, etc could be distributed over the whole community ... if maintenance is really only a few hundred dollars per year, one could think of various ways of paying for this ...</p>",
+        "id": 311693157,
+        "sender_full_name": "Alexander Kurz",
+        "timestamp": 1669145641
+    },
+    {
+        "content": "<p>Would it be an idea to use zero knowledge proofs to reward anonymous referees? (By reward I do not necessarily mean money, maybe just reputation.)</p>",
+        "id": 311693437,
+        "sender_full_name": "Alexander Kurz",
+        "timestamp": 1669145727
+    },
+    {
+        "content": "<p>Of course, if it is fully decentralized the question of how to prevent spamming, sybil attacks, etc needs careful consideration ... but it could be an interesting test case for what kind of uses blockchain technology could have ...</p>",
+        "id": 311693960,
+        "sender_full_name": "Alexander Kurz",
+        "timestamp": 1669145886
+    },
+    {
+        "content": "<p>A few years ago there was a bunch of pretty concrete talk about a blockchain based journal, but nothing came of it. I would guess because starting a journal is much harder than it first appears...</p>",
+        "id": 311775782,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1669192421
+    },
+    {
+        "content": "<p>I agree, Jules, but ... I am looking for interesting software engineering projects I can do with my students. The advantage of giving it a teaching component is that success does not depend on having a real world product in the end. So I am happy to try things ...</p>",
+        "id": 311887828,
+        "sender_full_name": "Alexander Kurz",
+        "timestamp": 1669228870
+    },
+    {
+        "content": "<p>My hunch is that distributing the computation and storage is only a very small aspect of running a journal. Starting a journal around this idea leaves a lot of gaps. Not trying to be negative as I think it's an interesting idea, just trying to be constructive.</p>",
+        "id": 317711924,
+        "sender_full_name": "Jade Master",
+        "timestamp": 1671882541
+    }
+]

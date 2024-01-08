@@ -1,0 +1,80 @@
+[
+    {
+        "content": "<p>Begin with the following:</p>\n<p>a) (X, x ∈ X) is pointed sets, fibered over Set by first projection.<br>\nb) (X, S ⊆ X) is propositions on sets, fibered over Set by first projection.</p>\n<p>Now, consider the category given by objects (X, L ⊆ P(X)), for some class of Ls. Morphisms are given by set functions f which act pulling back sets in L' to sets in L given as their preimage in f.</p>\n<p>My question is: under what conditions is (X, L ⊆ P(X)), \"pre-covers on sets\" fibered over Set by first projection?</p>\n<p>By conditions, I'm thinking along the lines of: \"L is closed under intersection\" or \"L, when viewed as a partially ordered set by inclusion is a distributive lattice\" or simply \"L contains the empty and maximal sets\", etc.</p>",
+        "id": 302953741,
+        "sender_full_name": "Gershom",
+        "timestamp": 1665190081
+    },
+    {
+        "content": "<p>As long as Ls pull back to Ls, you're fine. This condition is better given for families of morphisms than for families of objects though. See <a href=\"https://ncatlab.org/nlab/show/display%20map\">[[display map]]</a>.</p>",
+        "id": 303048022,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1665252075
+    },
+    {
+        "content": "<p>Also you might want to check out <a href=\"https://ncatlab.org/nlab/show/Grothendieck%20coverage\">[[Grothendieck coverage]]</a>, which formalizes this idea of 'covering'</p>",
+        "id": 303048063,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1665252113
+    },
+    {
+        "content": "<p>This topic was moved here from <a class=\"stream-topic\" data-stream-id=\"266967\" href=\"/#narrow/stream/266967-general.3A-mathematics/topic/When.20is.20.28X.2CS.20.E2.8A.86.20P.28X.29.29.20-.3E.20X.20a.20fibration.3F\">#general: mathematics &gt; When is (X,S ⊆ P(X)) -&gt; X a fibration?</a> by <span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span>.</p>",
+        "id": 303048121,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1665252129
+    },
+    {
+        "content": "<p>Nice, thanks! The displayed perspective is helpful here.</p>",
+        "id": 303093921,
+        "sender_full_name": "Gershom",
+        "timestamp": 1665294262
+    },
+    {
+        "content": "<p>Related question: what can be said about classes of morphisms that \"push forward\" Ls or indeed classes that do both?</p>",
+        "id": 303094270,
+        "sender_full_name": "Gershom",
+        "timestamp": 1665294666
+    },
+    {
+        "content": "<p>Additionally, a grothondieck coverage is i thought just another name for the topos generalization of a topology, no? So that has a bunch of conditions on it that amount to, when you're giving it on a discrete category (i.e. a set) that it is closed under certain operations. Note that what I'm asking about puts _no conditions_ on the collection of \"pre-covers\" and instead is asking what if any conditions must be there to get a (cartesian) fibration. Examples of \"set systems\" I have in mind that are not going to satisfy the conditions for topologies include greedoids, antimatroids, convexity spaces, etc.</p>",
+        "id": 303094966,
+        "sender_full_name": "Gershom",
+        "timestamp": 1665295347
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276650\">Gershom</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/When.20is.20.28X.2CS.20.E2.8A.86.20P.28X.29.29.20-.3E.20X.20a.20fibration.3F/near/303094966\">said</a>:</p>\n<blockquote>\n<p>Note that what I'm asking about puts _no conditions_ on the collection of \"pre-covers\" and instead is asking what if any conditions must be there to get a (cartesian) fibration.</p>\n</blockquote>\n<p>In a sense, this what Grothendieck coverages do too: they ask for the minimum structure such that things work out. Probably you can phraise such a condition fibrationally? I don't remember much about that.</p>",
+        "id": 303282695,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1665416370
+    },
+    {
+        "content": "<p>But maybe I now see what you are getting at, you're seeing <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>S</mi><mo>⊆</mo><mi>P</mi><mi>X</mi></mrow><annotation encoding=\"application/x-tex\">S \\subseteq PX</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8193em;vertical-align:-0.136em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05764em;\">S</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">⊆</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">PX</span></span></span></span> as structure on <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi></mrow><annotation encoding=\"application/x-tex\">X</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span></span></span></span>!</p>",
+        "id": 303282799,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1665416405
+    },
+    {
+        "content": "<p>So you're asking for conditions for the category of such structured spaces to be fibred over <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">S</mi><mi mathvariant=\"bold\">e</mi><mi mathvariant=\"bold\">t</mi></mrow><annotation encoding=\"application/x-tex\">\\bf Set</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6861em;\"></span><span class=\"mord\"><span class=\"mord mathbf\">Set</span></span></span></span></span></p>",
+        "id": 303282857,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1665416432
+    },
+    {
+        "content": "<p>So yeah, probably the display maps perspective doesn't help much either... <span aria-label=\"thinking\" class=\"emoji emoji-1f914\" role=\"img\" title=\"thinking\">:thinking:</span></p>",
+        "id": 303283176,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1665416556
+    },
+    {
+        "content": "<p>Surely you need the morphisms <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>S</mi><mo>→</mo><mi>P</mi><mo stretchy=\"false\">(</mo><mi>X</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">S \\to P(X)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05764em;\">S</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">P</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span><span class=\"mclose\">)</span></span></span></span> picking out structure to be stable under pullback. For instance, topological spaces have this thing: given a map of sets <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo>:</mo><mi>X</mi><mo>→</mo><mi>Y</mi></mrow><annotation encoding=\"application/x-tex\">f:X \\to Y</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">Y</span></span></span></span> and a topological structure on <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>Y</mi></mrow><annotation encoding=\"application/x-tex\">Y</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">Y</span></span></span></span>, there is a universal topology on <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi></mrow><annotation encoding=\"application/x-tex\">X</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span></span></span></span> making the map <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>f</mi><mo>:</mo><mi>X</mi><mo>→</mo><mi>Y</mi></mrow><annotation encoding=\"application/x-tex\">f:X \\to Y</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10764em;\">f</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">:</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.22222em;\">Y</span></span></span></span> continuous, i.e. the <em>initial topology</em> (it also works the other way around, to <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">T</mi><mi mathvariant=\"bold\">o</mi><mi mathvariant=\"bold\">p</mi><mo>→</mo><mi mathvariant=\"bold\">S</mi><mi mathvariant=\"bold\">e</mi><mi mathvariant=\"bold\">t</mi></mrow><annotation encoding=\"application/x-tex\">\\bf Top \\to Set</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8805em;vertical-align:-0.1944em;\"></span><span class=\"mord\"><span class=\"mord mathbf\">Top</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mord mathbf\">Set</span></span></span></span></span> is also an opfibration!).</p>",
+        "id": 303283598,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1665416701
+    },
+    {
+        "content": "<p>Since your structures are going to be given by some axiomatic theory there's probably more interesting things to say about when these axioms guarantee you the existence of an initial/final structure, i.e. when the corresponding structure pullback/pushforward with maps of the underlying sets</p>",
+        "id": 303283908,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1665416804
+    }
+]

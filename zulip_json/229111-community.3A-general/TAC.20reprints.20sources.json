@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>Does anyone know whether sources of TAC reprints are available? I'm asking because the TAC reprints I regularly read don't have hyperrefs, so the “previews” featured in some recent pdf viewers are useless.</p>",
+        "id": 400766718,
+        "sender_full_name": "Tom Hirschowitz",
+        "timestamp": 1699371952
+    },
+    {
+        "content": "<p>It looks like you'll need to contact the folks at TAC for those: <a href=\"http://www.tac.mta.ca/tac/reprints/articles/13/tr13abs.html\">some have .dvi and .ps as well as .pdf</a>, but I don't see any LaTeX.</p>",
+        "id": 400767513,
+        "sender_full_name": "John Baez",
+        "timestamp": 1699372176
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"383799\">Tom Hirschowitz</span> <a href=\"#narrow/stream/229111-community.3A-general/topic/TAC.20reprints.20sources/near/400766718\">said</a>:</p>\n<blockquote>\n<p>Does anyone know whether sources of TAC reprints are available? I'm asking because the TAC reprints I regularly read don't have hyperrefs, so the “previews” featured in some recent pdf viewers are useless.</p>\n</blockquote>\n<p>May I ask which recent PDF viewers you're talking about? I wanted a preview feature for numbered references for a long time ...</p>\n<p>Recently I discovered that on Linux, Evince has this feature, but is missing some other features that Okular has, like filtering the preview bar via full text search.</p>",
+        "id": 400783738,
+        "sender_full_name": "Jonas Frey",
+        "timestamp": 1699377222
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"277289\">@Jonas Frey</span> yeah none is perfect, but I was indeed thinking about evince. Btw, mine doesn't even have history navigation working properly, no idea if it's just me :/</p>",
+        "id": 400881257,
+        "sender_full_name": "Tom Hirschowitz",
+        "timestamp": 1699425947
+    },
+    {
+        "content": "<p>Navigation history works on evince for me.<br>\nI have tried at some point <a href=\"https://sioyek.info/\">Sioyek</a> which does preview even when there is no hyperref. It is not perfect (it worked all the time for citations and equations, but less so for sections/lemmas/theorems), but it might help.</p>",
+        "id": 400881900,
+        "sender_full_name": "Ralph Sarkis",
+        "timestamp": 1699426315
+    },
+    {
+        "content": "<p>I am constantly forgetting the key command to go back through the navigation history in Evince; it's something very unusual.  Alt+P maybe?</p>",
+        "id": 400887591,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1699428970
+    },
+    {
+        "content": "<p>Yes <span class=\"user-mention\" data-user-id=\"276777\">@Mike Shulman</span>, it's Alt+P, or alternatively Alt+←.<br>\n<span class=\"user-mention\" data-user-id=\"284005\">@Ralph Sarkis</span> I didn't know about Sioyek, it looks very nice, thanks!</p>",
+        "id": 400909290,
+        "sender_full_name": "Tom Hirschowitz",
+        "timestamp": 1699437359
+    },
+    {
+        "content": "<p>And re evince, I should definitely upgrade my system before talking...</p>",
+        "id": 400909377,
+        "sender_full_name": "Tom Hirschowitz",
+        "timestamp": 1699437377
+    },
+    {
+        "content": "<p>Alt+← is what I would have expected, but it doesn't work for me.</p>",
+        "id": 400982610,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1699461638
+    },
+    {
+        "content": "<p>Ok, weird. On my version, the manual says both do the same thing, but none works. <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 401025406,
+        "sender_full_name": "Tom Hirschowitz",
+        "timestamp": 1699478586
+    }
+]

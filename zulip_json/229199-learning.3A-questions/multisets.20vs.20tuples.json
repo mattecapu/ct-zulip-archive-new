@@ -1,0 +1,194 @@
+[
+    {
+        "content": "<p>I am currently working on higher arity generalizations of category-like structures and I would like to gether some sentiment from this community about multisets vs tuples. Suppose one is not interested in sequential information, e.g. focus on counting, hypergraph topology, etc., my question is: are there any general reasons (other than tradition) to use n-tuples over multisets  of fixed cardinality n to encode the primitive notion of a collection of n (possibly repeating) elements?</p>\n<p>The main example I have in mind are homsets in categories: in the standard definition of category homsets are defined on 2-tuples of objects so that C(A,B) =/= C(B,A), which is convenient when thinking of morphisms as directed links between objects. One could define an \"undirected\" category so that given a pair of objects A and B only the homset C(AB), where AB denotes a multiset of cardinality 2,  is defined. As far as I can see, all the usual notions of categories (composition, associativity, identities) appy in this \"undirected\" setting.</p>\n<p>In a higher arity generalization of a category homsets may take the form C(ABCD...) where n-ary morphisms are defined on multisets of objects of cardinality n. This approach seems to allow us to preserve a great deal of the compositional structure of categories into the higher arity realm while relaxing the rigidity of sequentiality imposed by tuples. Can you see any major issues with this approach?</p>",
+        "id": 281100143,
+        "sender_full_name": "Carlos Zapata-Carratala",
+        "timestamp": 1651627117
+    },
+    {
+        "content": "<p>It is unclear to me what kinds of examples you have in mind, so it is difficult to judge whether the approach has \"major issues\".</p>",
+        "id": 281102983,
+        "sender_full_name": "Zhen Lin Low",
+        "timestamp": 1651630516
+    },
+    {
+        "content": "<p>But here is something to think about. If there is some kind of \"undirected\" analogue of the notion of category it should be a generalisation of the notion of groupoid. In a groupoid there is certainly a canonical bijection between Hom(A, B) and Hom(B, A), and if we take Hom(A, B, ..., Z) to be the set of tuples of morphisms A → B, B → C, ..., Y → Z, then there are canonical bijections between e.g. Hom(A, B, C) and Hom(C, A, B). But then now we have two potentially different bijections between Hom(A, B, B) and Hom(B, A, B), induced by the canonical bijection between Hom(A, B, C) and Hom(C, A, B) or Hom(B, A, C) after substituting C = B. This ambiguity means it is not feasible to think of Hom(A, B, ..., Z) as being indexed by a plain multiset (A, B, ..., Z).</p>",
+        "id": 281103834,
+        "sender_full_name": "Zhen Lin Low",
+        "timestamp": 1651631440
+    },
+    {
+        "content": "<p>I vaguely remember a discussion about \"undirected\" categories on here (more than a year ago), but I couldn't find it.</p>",
+        "id": 281120188,
+        "sender_full_name": "Ralph Sarkis",
+        "timestamp": 1651649793
+    },
+    {
+        "content": "<p>Categories of relations (e.g. allegories) have the form that you describe <span class=\"user-mention\" data-user-id=\"407556\">@Carlos Zapata-Carratala</span>, although as <span class=\"user-mention\" data-user-id=\"416301\">@Zhen Lin Low</span> pointed out, if you want to compose relations where one of the codomains is repeated you have to be careful about which way around the relation is, at which point the set might as well be ordered.</p>",
+        "id": 281125674,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1651653449
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"407556\">Carlos Zapata-Carratala</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples/near/281100143\">said</a>:</p>\n<blockquote>\n<p>I am currently working on higher arity generalizations of category-like structures and I would like to gether some sentiment from this community about multisets vs tuples. Suppose one is not interested in sequential information, e.g. focus on counting, hypergraph topology, etc., my question is: are there any general reasons (other than tradition) to use n-tuples over multisets  of fixed cardinality n to encode the primitive notion of a collection of n (possibly repeating) elements?</p>\n<p>The main example I have in mind are homsets in categories: in the standard definition of category homsets are defined on 2-tuples of objects so that C(A,B) =/= C(B,A), which is convenient when thinking of morphisms as directed links between objects. One could define an \"undirected\" category so that given a pair of objects A and B only the homset C(AB), where AB denotes a multiset of cardinality 2,  is defined. As far as I can see, all the usual notions of categories (composition, associativity, identities) appy in this \"undirected\" setting.</p>\n<p>In a higher arity generalization of a category homsets may take the form C(ABCD...) where n-ary morphisms are defined on multisets of objects of cardinality n. This approach seems to allow us to preserve a great deal of the compositional structure of categories into the higher arity realm while relaxing the rigidity of sequentiality imposed by tuples. Can you see any major issues with this approach?</p>\n</blockquote>\n<p>It will make a big difference imho if at some point you plan to implement this or not. Computers like tuples much more than multisets, in general*. Also, as I think <span class=\"user-mention\" data-user-id=\"416301\">@Zhen Lin Low</span>  already said, you could also use tuples + symmetries that allow you to shuffle things around. Tuples + symmetries form a groupoid and, in some way, this allows you to work as if you were working with multisets but at the same time it allows you to be more explicit about them.</p>\n<p>*By this I mean that a good 40% of day-to-day programming is about manipulating lists of things, and there are countless tools and libraries developed to operate on lists in any possible way one can imagine. The same cannot be said of multisets.</p>",
+        "id": 281143314,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1651664846
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276438\">Fabrizio Genovese</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples/near/281143314\">said</a>:</p>\n<blockquote>\n<p>It will make a big difference imho if at some point you plan to implement this or not. Computers like tuples much more than multisets, in general*. Also, as I think <span class=\"user-mention silent\" data-user-id=\"416301\">Zhen Lin Low</span>  already said, you could also use tuples + symmetries that allow you to shuffle things around. Tuples + symmetries form a groupoid and, in some way, this allows you to work as if you were working with multisets but at the same time it allows you to be more explicit about them.</p>\n<p>*By this I mean that a good 40% of day-to-day programming is about manipulating lists of things, and there are countless tools and libraries developed to operate on lists in any possible way one can imagine. The same cannot be said of multisets.</p>\n</blockquote>\n<p>Yes, I completely agree. There will be a big difference for computational implementation. Our modern digital computers are very sequential machines deep down.</p>",
+        "id": 281144575,
+        "sender_full_name": "Carlos Zapata-Carratala",
+        "timestamp": 1651665620
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples/near/281125674\">said</a>:</p>\n<blockquote>\n<p>Categories of relations (e.g. allegories) have the form that you describe <span class=\"user-mention silent\" data-user-id=\"407556\">Carlos Zapata-Carratala</span>, although as <span class=\"user-mention silent\" data-user-id=\"416301\">Zhen Lin Low</span> pointed out, if you want to compose relations where one of the codomains is repeated you have to be careful about which way around the relation is, at which point the set might as well be ordered.</p>\n</blockquote>\n<p>Yes, using the multiset approach for homsets of repeated objects seems like a potential issue. As far as I can see there is a trade-off: either you insist that all your morphisms bind different objects (no endomorphisms) or you allow for repeated objects in which case the ambiguity for composition is encoded in permutations of repeated objects shared between morphisms. I can see that tuples are efficient in doing away with this issue at the cost of introducing \"a priori\" sequentiality.</p>",
+        "id": 281147589,
+        "sender_full_name": "Carlos Zapata-Carratala",
+        "timestamp": 1651667482
+    },
+    {
+        "content": "<p>There could be an interesting version of this idea with an antisymmetry condition that forces C(AB...) to be trivial (a one-element set) whenever there are repeated indices.</p>",
+        "id": 281151468,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1651669367
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"407556\">Carlos Zapata-Carratala</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples/near/281100143\">said</a>:</p>\n<blockquote>\n<p>The main example I have in mind are homsets in categories: in the standard definition of category homsets are defined on 2-tuples of objects so that C(A,B) =/= C(B,A), which is convenient when thinking of morphisms as directed links between objects. One could define an \"undirected\" category so that given a pair of objects A and B only the homset C(AB), where AB denotes a multiset of cardinality 2,  is defined. As far as I can see, all the usual notions of categories (composition, associativity, identities) appy in this \"undirected\" setting.</p>\n</blockquote>\n<p>Sounds good to me: categories are to directed graphs as undirected categories are to undirected graphs.. Also, this reminds me of dagger categories.</p>",
+        "id": 281240913,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1651712713
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277321\">Simon Burton</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples/near/281240913\">said</a>:</p>\n<blockquote>\n<p>Sounds good to me: categories are to directed graphs as undirected categories are to undirected graphs.. Also, this reminds me of dagger categories.</p>\n</blockquote>\n<p>That was my intuition behind that example too. Higher arity generalizations of categories will take hypergraphs (whether directed or undirected).</p>",
+        "id": 281282211,
+        "sender_full_name": "Carlos Zapata-Carratala",
+        "timestamp": 1651748233
+    },
+    {
+        "content": "<p>So my next question is, what are the structure preserving morphisms between undirected categories (ucategories) ? It would seem that these morphisms  would be directed, which just comes from the underlying use of sets and functions. So instead of \"structure preserving morphisms\", we would want some kind of \"structure relating umorphisms\" between ucategories. Right? I'm guessing these things look like (labelled? simplicial?) cobordisms between ucategories, where we are thinking of a ucategory as some kind of labelled simplicial set.</p>",
+        "id": 281294144,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1651755043
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277321\">Simon Burton</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples/near/281294144\">said</a>:</p>\n<blockquote>\n<p>So my next question is, what are the structure preserving morphisms between undirected categories (ucategories) ? It would seem that these morphisms  would be directed, which just comes from the underlying use of sets and functions. So instead of \"structure preserving morphisms\", we would want some kind of \"structure relating umorphisms\" between ucategories. Right? I'm guessing these things look like (labelled? simplicial?) cobordisms between ucategories, where we are thinking of a ucategory as some kind of labelled simplicial set.</p>\n</blockquote>\n<p>I haven't thought much about the morphisms between these higher arity ucategories since I haven't settled on a definition yet but the cobordism picture makes sense. I also think that in direct analogy with the case of functors for categories you would need to define \"hypergraphs of edges\" in some sense too.</p>",
+        "id": 281356313,
+        "sender_full_name": "Carlos Zapata-Carratala",
+        "timestamp": 1651783321
+    },
+    {
+        "content": "<p>If you want an undirected notion of category, doesn't the notion of <a href=\"https://ncatlab.org/nlab/show/groupoid\">[[groupoid]]</a> suffice?</p>",
+        "id": 281363437,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651787097
+    },
+    {
+        "content": "<p>I think saying that \"an undirected category is to an undirected graph what a category is to a directed graph\" is incomplete, because you fail to specify what it is that you want to be able to compose. For a category, what matters is the ability to compose <em>finite paths</em> in a directed graph into single edges.</p>",
+        "id": 281399186,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651818804
+    },
+    {
+        "content": "<p>So in an undirected graph, you have different options.</p>\n<p>You may still want to compose finite paths. But to speak of a path in an undirected graph, you are implicitly using a directed representation, where an edge is represented with a pair of directed edges going in opposite directions.</p>",
+        "id": 281399258,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651818880
+    },
+    {
+        "content": "<p>And then what you get, I think, would be exactly a dagger category.</p>",
+        "id": 281399279,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651818913
+    },
+    {
+        "content": "<p>Or a groupoid if you decide that going back and forth the same edge is the same as doing nothing.</p>",
+        "id": 281399297,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651818941
+    },
+    {
+        "content": "<p>But if what you are saying is that you want to replace the tuple A, B with the multiset AB, then you actually don't have the ability to distinguish between the direction in which you traverse an edge.</p>",
+        "id": 281399416,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651819072
+    },
+    {
+        "content": "<p>So what you could do, at best, is try to compose the <em>support</em> of a finite path, i.e. a connected set, or a list of edges... but what do you compose them to?</p>",
+        "id": 281399649,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651819304
+    },
+    {
+        "content": "<p>For a path, you have a notion of endpoints, so you compose to an edge between the endpoints. If you just look at the support of the path, you don't. So e.g. should the composite of an edge between A,B with an edge between B,A be a loop on B, or a loop on A, or something else?..</p>",
+        "id": 281399889,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651819535
+    },
+    {
+        "content": "<p>The only way I can conceivably think of something that makes sense would be to introduce some \"higher homotopies\" into your graph and say something like:</p>\n<p>You can compose any connected subgraph, and its composite is a single-edge subgraph, together with a homotopy from the connected subgraph onto its composite.</p>",
+        "id": 281400309,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651819923
+    },
+    {
+        "content": "<p>Then, to get something that is “1-category-like”, you kill all the higher homotopies (make it so that “the space of contractions onto the composite of a subgraph is contractible”)...</p>",
+        "id": 281400563,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651820177
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples/near/281363437\">said</a>:</p>\n<blockquote>\n<p>If you want an undirected notion of category, doesn't the notion of <a href=\"https://ncatlab.org/nlab/show/groupoid\">[[groupoid]]</a> suffice?</p>\n</blockquote>\n<p>Well the game here is not to aim for undirected (that's just a side-effect) but to use multisets of fixed cardinality instead of tuples in the basic definition of category, which then seems to extend to higher arity morphisms.</p>",
+        "id": 281428931,
+        "sender_full_name": "Carlos Zapata-Carratala",
+        "timestamp": 1651839040
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276363\">Amar Hadzihasanovic</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples/near/281399889\">said</a>:</p>\n<blockquote>\n<p>For a path, you have a notion of endpoints, so you compose to an edge between the endpoints. If you just look at the support of the path, you don't. So e.g. should the composite of an edge between A,B with an edge between B,A be a loop on B, or a loop on A, or something else?..</p>\n</blockquote>\n<p>With the obvious definition of (unoriented) concatenation of paths there is no ambiguity in the sense you claim since edges between A,B and B,A are the same: edges of the \"multihomset\" AB. Without invoking any higher homotopy, couldn't this notion of concatenation of (unoriented) paths work just fine: two undirected paths (chains of edges) can be composed if they share exactly one end-vertex. You could extend this definition to account for sharing the two end-vertices by making the composition double-valued or simply giving two possibilities. In your example, given two edges f,h on vertices AB you can take the one-end-vertex composition in two possible ways and obtain a loop in AA and a lopp in BB.</p>",
+        "id": 281430108,
+        "sender_full_name": "Carlos Zapata-Carratala",
+        "timestamp": 1651839710
+    },
+    {
+        "content": "<p>Ok, I agree: if we place restrictions on composition (e.g. we can compose only “linear strings of edges”) or if we let composition be multi-valued, then it could work, but at least in the latter case I think you wouldn't get anything substantially different from a dagger category.</p>",
+        "id": 281432649,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651841128
+    },
+    {
+        "content": "<p>As in, you would have the exact same data as a dagger category, but you wouldn't allow yourself to compose a path with a specific orientation, and instead you would let composition return the set of composites of all directed paths ranging over all suitable orientations of the edges.</p>",
+        "id": 281432899,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651841255
+    },
+    {
+        "content": "<p>(Actually I'm not sure of this, I'd need to think more...)</p>",
+        "id": 281434263,
+        "sender_full_name": "Amar Hadzihasanovic",
+        "timestamp": 1651841897
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276363\">Amar Hadzihasanovic</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples/near/281432649\">said</a>:</p>\n<blockquote>\n<p>Ok, I agree: if we place restrictions on composition (e.g. we can compose only “linear strings of edges”) or if we let composition be multi-valued, then it could work, but at least in the latter case I think you wouldn't get anything substantially different from a dagger category.</p>\n</blockquote>\n<p>In that case the closest analogue is a groupoid in particular.</p>",
+        "id": 281440163,
+        "sender_full_name": "Carlos Zapata-Carratala",
+        "timestamp": 1651844549
+    },
+    {
+        "content": "<p>Following up on the \"categories are to directed graphs as...\" idea, I would propose starting by working out what you want a free undirected category on an undirected graph G to be. You can just take paths, but that's not so interesting when you always can put an ordering on paths with labelled end-points, and as has been discussed it seems to reduce to groupoids.</p>\n<p>One alternative possibility would be to have, rather than hom-sets defined on pairs, have hom-multisets defined on all finite multisets of vertices, where an element of hom(ABC...) is an undirected graph whose vertex set is (ABC...), equipped with a graph homomorphism to G which preserves the labelling of vertices. The simplest notion of composition would be disjoint union, which makes it a total operation. An alternative is to make the composition relational, so that you can keep track of all of the possible ways of gluing graphs along vertices in the intersection of two multisets?</p>",
+        "id": 281443703,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1651846232
+    },
+    {
+        "content": "<p>Or you could take a disjoint union of all of the possible gluings if you don't mind things blowing up really fast ;)</p>",
+        "id": 281443798,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1651846273
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/multisets.20vs.20tuples/near/281443703\">said</a>:</p>\n<blockquote>\n<p>One alternative possibility would be to have, rather than hom-sets defined on pairs, have hom-multisets defined on all finite multisets of vertices, where an element of hom(ABC...) is an undirected graph whose vertex set is (ABC...), equipped with a graph homomorphism to G which preserves the labelling of vertices. The simplest notion of composition would be disjoint union, which makes it a total operation. An alternative is to make the composition relational, so that you can keep track of all of the possible ways of gluing graphs along vertices in the intersection of two multisets?</p>\n</blockquote>\n<p>That's precisely my approach when defining higher arity generalizations of morphisms as undirected hyperedges. The fun starts when you try to think of hypergraph rewrite systems as generalizations of compositions (my current research). I wanted to keep the discussion focused on the \"tuples vs fixed cardinality multisets\" topic first just to see how much mathematical baggage one can leave behind when generalizing these sort of structures.</p>",
+        "id": 281465923,
+        "sender_full_name": "Carlos Zapata-Carratala",
+        "timestamp": 1651856215
+    }
+]

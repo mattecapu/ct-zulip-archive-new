@@ -1,0 +1,614 @@
+[
+    {
+        "content": "<p>Just wanted to share: Compositionality, your friendly neighborhood applied category theory journal, just published two new publications! Eugenia Cheng's \"Distributive laws for Lawvere theories\" and Michael Robinson's \"Assignments to sheaves of pseudometric spaces\". Read them at <a href=\"http://www.compositionality-journal.org\">www.compositionality-journal.org</a>. Plus: look for an upcoming seminar series from our published authors!</p>",
+        "id": 200458032,
+        "sender_full_name": "Joshua Tan",
+        "timestamp": 1591814258
+    },
+    {
+        "content": "<p>And submit your own stuff to <a href=\"https://compositionality-journal.org/for-authors/\">https://compositionality-journal.org/for-authors/</a></p>",
+        "id": 200458111,
+        "sender_full_name": "Joshua Tan",
+        "timestamp": 1591814288
+    },
+    {
+        "content": "<p>Do it!</p>",
+        "id": 200460525,
+        "sender_full_name": "John Baez",
+        "timestamp": 1591815368
+    },
+    {
+        "content": "<p>Can anyone else access the journal website for <em>Compositionality</em>?</p>",
+        "id": 266163718,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1640602525
+    },
+    {
+        "content": "<p>I think the bill for the domain might not have been paid...</p>",
+        "id": 266163754,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1640602548
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276053\">@Brendan Fong</span> <span class=\"user-mention\" data-user-id=\"307077\">@Nina Otter</span> <span class=\"user-mention\" data-user-id=\"276698\">@Joshua Tan</span></p>",
+        "id": 266164110,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1640602825
+    },
+    {
+        "content": "<p>I really hope the journal isn't going to wither away, not least because I send something there not too long ago!</p>",
+        "id": 266164142,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1640602855
+    },
+    {
+        "content": "<p>I already alerted <span class=\"user-mention\" data-user-id=\"295673\">@Aleks Kissinger</span> about this a couple of days ago and said he would go after this</p>",
+        "id": 266164200,
+        "sender_full_name": "John van de Wetering",
+        "timestamp": 1640602905
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276422\">@David Michael Roberts</span> <span class=\"user-mention\" data-user-id=\"296293\">@John van de Wetering</span> Yup, the journal is not going anywhere; we're just about to publish a couple of new papers! We transferred the domain registrar a while ago, and it seems the new domain registrar did not get auto-renewed somehow. We're working on this now, but are having some delays due to the holidays.</p>",
+        "id": 266164649,
+        "sender_full_name": "Joshua Tan",
+        "timestamp": 1640603350
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276698\">@Joshua Tan</span> oh, excellent, thanks.</p>",
+        "id": 266171310,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1640610429
+    },
+    {
+        "content": "<p>There's now a list of accepted-but-not-yet-published papers at the journal <em>Compositionality</em>, at the bottom of this page:</p>\n<p><a href=\"https://compositionality-journal.org/\">https://compositionality-journal.org/</a></p>",
+        "id": 305766091,
+        "sender_full_name": "John Baez",
+        "timestamp": 1666598450
+    },
+    {
+        "content": "<p>Right now they are these:</p>\n<ul>\n<li>\n<p>Bolt, Hedges, and Zahn: Bayesian open games</p>\n</li>\n<li>\n<p>Gonda and Spekkens: Monotones in general resource theories</p>\n</li>\n<li>\n<p>Jacobs: Urns and tubes</p>\n</li>\n<li>\n<p>McPheat, Sadrzadeh, Wazni, Wijnholds: Categorical vector space semantics for Lambek calculus with a relevant modality</p>\n</li>\n<li>\n<p>Roberts: Substructural fixed-point theorems and the diagonal argument: theme and variations</p>\n</li>\n<li>\n<p>Rogers: Toposes of topological monoid actions</p>\n</li>\n<li>\n<p>Patterson, Lynch, and Fairbanks: Categorical data structures for technical computing</p>\n</li>\n</ul>",
+        "id": 305795532,
+        "sender_full_name": "John Baez",
+        "timestamp": 1666610276
+    },
+    {
+        "content": "<p>Thanks, that's somewhat reassuring, I haven't heard back from them since I submitted the reformatted version.</p>",
+        "id": 305800077,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1666611976
+    },
+    {
+        "content": "<p>They are having trouble getting the final step of paper production done in a reasonably speedy way, and they are trying to institute reforms to solve this problem. But as a stopgap solution, this will at least let authors prove that their papers have been accepted.</p>",
+        "id": 305801974,
+        "sender_full_name": "John Baez",
+        "timestamp": 1666612772
+    },
+    {
+        "content": "<p>Nothing has changed in six weeks, which is frustrating.</p>",
+        "id": 314392092,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1670398332
+    },
+    {
+        "content": "<p>Is there any way of getting an ETA on papers? Like: sometime in the next month/two months/six months? Is there anything an author can do to help speed up the process on the journal end?</p>",
+        "id": 315956038,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1671076834
+    },
+    {
+        "content": "<p>That looks like a question for the executive editors, who don't seem to be on this forum much, so it may be more helpful to contact them directly if you haven't already done so. In case that there's any problem with that, let me know and I will use my editorial powers to try and gather some further information about what's going on.</p>",
+        "id": 315980107,
+        "sender_full_name": "Tobias Fritz",
+        "timestamp": 1671092577
+    },
+    {
+        "content": "<p>I think coming from an internal contact it would be better.</p>",
+        "id": 316191528,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1671169330
+    },
+    {
+        "content": "<p>Well, I <em>am</em> an editor and figured that this would make me into an internal contact. I'm not involved with the final publication process and don't know what's going on with it (one thing is that the number of accepted papers has increased relative to previous years), but I share your concern about the backlog.</p>",
+        "id": 316194663,
+        "sender_full_name": "Tobias Fritz",
+        "timestamp": 1671171546
+    },
+    {
+        "content": "<p>I'm aware you're an editor :-) I was being gentle in my reply.</p>",
+        "id": 316407170,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1671257507
+    },
+    {
+        "content": "<p>The Steering Board, which includes me, is meeting soon to start solving the problems with <em>Compositionality</em> that are causing this backlog.    Until these are solved, there's no way to give an estimated time on when papers will be published.</p>",
+        "id": 316597019,
+        "sender_full_name": "John Baez",
+        "timestamp": 1671373968
+    },
+    {
+        "content": "<p>After we meet, I hope one of the first steps we'll take is to give the editors more information about what's going on: that is, what are the problems, and how we hope they can be solved.</p>",
+        "id": 316597254,
+        "sender_full_name": "John Baez",
+        "timestamp": 1671374048
+    },
+    {
+        "content": "<p>I'm sorry to sound so mysterious, but I don't want to tell folks here what's going on before even the editors have been informed!</p>",
+        "id": 316597333,
+        "sender_full_name": "John Baez",
+        "timestamp": 1671374079
+    },
+    {
+        "content": "<p>Thanks, <span class=\"user-mention\" data-user-id=\"275920\">@John Baez</span> . The journal <a href=\"https://quantum-journal.org/\">https://quantum-journal.org/</a>, which if I recall correctly was somewhat of an inspiration for Compositionality, seems to be going well. So some kind of kick/intervention/prod seems to be needed, even if the delays are due to no particular fault of people involved (and I mean this is the most charitable way!)</p>",
+        "id": 316650243,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1671408801
+    },
+    {
+        "content": "<p>It looks like things have progressed at Compositionality and a bunch of new papers have appeared! Yay!</p>",
+        "id": 319345674,
+        "sender_full_name": "Tobias Fritz",
+        "timestamp": 1672822634
+    },
+    {
+        "content": "<p>I got an email asking for a .bib file, so things are moving!</p>\n<p>(I'd supplied a .bbl file, like one does for the arXiv, as it was generated by the proper class file, but perhaps I had the metadata slightly incomplete and it needed editing; the reason was I had been using my master BibTeX file with everything in it)</p>",
+        "id": 319359766,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1672828320
+    },
+    {
+        "content": "<p>I assume you got the email from the Steering Board of <em>Compositionality</em>, Tobias.  That should explain a bit about what's going on, and what will happen next.</p>",
+        "id": 319485877,
+        "sender_full_name": "John Baez",
+        "timestamp": 1672871943
+    },
+    {
+        "content": "<p>Yes, I've received that email and it's been what had prompted me to check out the latest papers again <span aria-label=\"yum\" class=\"emoji emoji-1f60b\" role=\"img\" title=\"yum\">:yum:</span> I've been sharing the email with my close collaborators in case that they'd be interested. I hope that's okay even if it didn't say explicitly whether dissemination is intended at this point.</p>",
+        "id": 319522619,
+        "sender_full_name": "Tobias Fritz",
+        "timestamp": 1672900911
+    },
+    {
+        "content": "<p>It's fine.</p>",
+        "id": 319804883,
+        "sender_full_name": "John Baez",
+        "timestamp": 1673019346
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/Compositionality/near/319485877\">said</a>:</p>\n<blockquote>\n<p>I assume you got the email from the Steering Board of <em>Compositionality</em>, Tobias.  That should explain a bit about what's going on, and what will happen next.</p>\n</blockquote>\n<p>Is there any information that can be made public?</p>",
+        "id": 320128050,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1673219916
+    },
+    {
+        "content": "<p>I guess there's no reason to keep it secret, especially since we're looking for people who want to be an executive editor.  Here's the email:</p>\n<blockquote>\n<p>Dear Editors -</p>\n<p>The current Executive Board of Compositionality - Brendan Fong, Nina Otter and Josh Tan - want to step down.</p>\n<p>They've done great work in setting up this journal, and I'll review the history below.  Now the Steering Board - Bob Coecke, Valeria de Paiva, Kathryn Hess, Steve Lack, and me - need to appoint new Executive Editors and break the logjam that is holding up the publication of papers. </p>\n<p>Jeremy Gibbons has kindly offered to help typeset papers, at least on a temporary basis, and he's working with Nina to start doing that.  He also has an assistant, Karen Barnes, who has agreed to check Scholastica each week to make sure that nothing has gotten stuck, and to prompt the editorial team if anything has.</p>\n<p>We are looking for 2 people to be Executive Editors.   Previously typesetting was considered an Executive Board role, but we'd like to make that role separate.  Typesetting is what requires most of the work now that the journal is set up - but the Executive Editors still have many other jobs, some listed in <a href=\"/user_uploads/21317/YAE3B2FDkeLQpoxsvlWNnqmQ/Executive-Team-Role-Description.pdf\">the attached PDF</a>.</p>\n<p>Most of all, the Executive Editors need to keep making the journal better and tackle any problems as they arise.</p>\n<p>Anyone who wants to be an Executive Editor, please fill out this <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfIEiJHdM1vRKlXZugVP8LKYLaTcbpoLwgcV6Sa1FCiXiMhgg/viewform\">short form</a>.   You can also contact the Steering Board via me, but we'd like to have all candidates on a list.   The most important question on the form: why do you want the job?</p>\n<p>Finally, here is a bit of the history of how we got here.  Paraphrasing Bob Coecke:</p>\n<blockquote>\n<p>Brendan and Josh were both in my group in Oxford, and eager to create an ACT community.  I suggested applying for a Lorentz workshop, which then became the first ACT conference, and after that the QPL model was adopted as this has been a successful one.  Josh and I organised the 2nd ACT in Oxford, and Brendan co-organised the third ACT at MIT.  A bit before the 1st ACT, Ilyas Khan asked me if there was an interest in a new journal in category theory, which he was willing to fund.  Before he had funded Quantum, which has been a success story, so we adopted that model, and Brendan, Josh with later also Nina involved volunteered to set it up.  Meanwhile, Brendan is CEO of Topos (again funded by Ilyas Khan), which is taking up most of his time now while Nina is busy with her postdoc and Josh is now finishing his PhD.  I agree that we probably should go for people that have a more stable position.  </p>\n</blockquote>\n<p>Best,<br>\nJohn Baez, Bob Coecke, Valeria de Paiva, Kathryn Hess and Steve Lack </p>\n</blockquote>",
+        "id": 320130368,
+        "sender_full_name": "John Baez",
+        "timestamp": 1673222145
+    },
+    {
+        "content": "<p>Nice! Now that this is public, is it still addressed to current editors only or are you accepting external applications too? In the latter case perhaps it's also worth publishing the attached PDF to understand the job better.</p>",
+        "id": 320529502,
+        "sender_full_name": "Antonin Delpeuch",
+        "timestamp": 1673379231
+    },
+    {
+        "content": "<p>We're accepting external applications.  Thanks for pointing out that I forgot to attach the job description - <a href=\"/user_uploads/21317/x2RRJUAKMXm-lDjmJg96_cQd/Executive-Team-Role-Description.pdf\">here it is</a>.</p>",
+        "id": 320571514,
+        "sender_full_name": "John Baez",
+        "timestamp": 1673397333
+    },
+    {
+        "content": "<p>Is there a deadline to apply?</p>",
+        "id": 320594519,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1673411332
+    },
+    {
+        "content": "<p>Please do it now; we're trying to get people as soon as possible.</p>",
+        "id": 320602262,
+        "sender_full_name": "John Baez",
+        "timestamp": 1673415142
+    },
+    {
+        "content": "<p>Your paper <a href=\"https://compositionality-journal.org/papers/compositionality-5-1/\">Toposes of topological monoid actions</a> has come out on <em>Compositionality</em>, <span class=\"user-mention\" data-user-id=\"277473\">@Morgan Rogers (he/him)</span>.  Congratulations!   It seems the logjam is breaking.</p>",
+        "id": 321229509,
+        "sender_full_name": "John Baez",
+        "timestamp": 1673634769
+    },
+    {
+        "content": "<p>Yes! I'll revive the thread about it over on <a class=\"stream\" data-stream-id=\"258900\" href=\"/#narrow/stream/258900-practice.3A-our-papers\">#practice: our papers</a> in a few days, since there was an error that I corrected in the review process which might be interesting to mention.</p>",
+        "id": 321376220,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1673711212
+    },
+    {
+        "content": "<p>Is Compositionality currently accepting submissions? The link at the bottom on this website: <a href=\"https://compositionality-journal.org/for-authors/\">https://compositionality-journal.org/for-authors/</a> does not seem to work</p>",
+        "id": 328139584,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1676510999
+    },
+    {
+        "content": "<p>They are supposed to be open for submissions!  So thanks for pointing out this problem.  I can't fix it myself, but since I'm on the steering board for <em>Compositionality</em> I will tell the people who can.</p>",
+        "id": 328140515,
+        "sender_full_name": "John Baez",
+        "timestamp": 1676511770
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/Compositionality/near/328140515\">said</a>:</p>\n<blockquote>\n<p>They are supposed to be open for submissions!  So thanks for pointing out this problem.  I can't fix it myself, but since I'm on the steering board for <em>Compositionality</em> I will tell the people who can.</p>\n</blockquote>\n<p>Thanks <span class=\"user-mention\" data-user-id=\"275920\">@John Baez</span> -- much appreciated</p>",
+        "id": 328140796,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1676512018
+    },
+    {
+        "content": "<p>The submission link now works.</p>",
+        "id": 328392128,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1676614735
+    },
+    {
+        "content": "<p>Good.  I told Brendan, who had already noticed the problem, and he told Joshua Tan, who I believe had the power to fix it.  It was a change in Scholastica, the system used by <em>Compositionality</em>.</p>",
+        "id": 328407266,
+        "sender_full_name": "John Baez",
+        "timestamp": 1676621833
+    },
+    {
+        "content": "<p>Is is possible to get an update about where things are at? Is there anything that authors with papers 'to appear' can do to speed up the process?</p>",
+        "id": 342712853,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1679118389
+    },
+    {
+        "content": "<p>If you look at the main webpage of <em><a href=\"https://compositionality-journal.org/\">Compositionality</a></em> you'll see that 4 papers are in the queue to be typeset:</p>\n<ul>\n<li>\n<p>Bolt, Hedges, and Zahn: Bayesian open games</p>\n</li>\n<li>\n<p>Gonda and Spekkens: Monotones in general resource theories</p>\n</li>\n<li>\n<p>McPheat, Sadrzadeh, Wazni, Wijnholds: Categorical vector space semantics for Lambek calculus with a relevant modality</p>\n</li>\n<li>\n<p>Roberts: Substructural fixed-point theorems and the diagonal argument: theme and variations</p>\n</li>\n</ul>\n<p>Three others that <em>were</em> in the queue have been typeset and published since we recruited Jeremy Gibbons to speed the process in January:</p>\n<ul>\n<li>\n<p>Bart Jacobs, Urns &amp; Tubes</p>\n</li>\n<li>\n<p>Evan Patterson, Owen Lynch, and James Fairbanks, Categorical Data Structures for Technical Computing</p>\n</li>\n<li>\n<p>Morgan Rogers, Toposes of Topological Monoid Actions</p>\n</li>\n</ul>",
+        "id": 342714753,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679119542
+    },
+    {
+        "content": "<p>I don't think there's anything you can do to speed the process now, though a couple of days ago I asked Jeremy how it's going.  The real problem was the buildup of a backlog <em>before</em> he started helping the journal with its typesetting.</p>",
+        "id": 342715000,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679119690
+    },
+    {
+        "content": "<p>Is there some reason why having the paper published is significantly better to your career than having it listed as \"to be published\", quite visibly on the journal?</p>",
+        "id": 342715065,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679119742
+    },
+    {
+        "content": "<p>Anyway, I apologize, and assure you that some of us are working to stabilize the journal and prevent this sort of problem from recurring.</p>",
+        "id": 342715216,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679119834
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/Compositionality/near/342715065\">said</a>:</p>\n<blockquote>\n<p>Is there some reason why having the paper published is significantly better to your career than having it listed as \"to be published\", quite visibly on the journal?</p>\n</blockquote>\n<p>No, it will have no impact whatsoever, since I don't have an academic career! I appreciate that the journal needs to \"do all its own work\", and is run by volunteers, so I really didn't want to besmirch all the work that I knew must have been going on in the background. It's just nice to have some confirmation that matters are not at a complete standstill due to unspecified and private blockages.</p>",
+        "id": 342722538,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1679123707
+    },
+    {
+        "content": "<p>I'd say there's a big different between to be published papers and actually published ones: the actually published ones have (presumably) been peer reviewed and accepted!  Writing papers that never make it through peer review is often a red flag re: the basics of reproducibility, the scientific method, etc.  (And absolutely reviewers have found plenty of (now fixed) errors in papers I've published!).  So anyway we should all be generous with our reviewing time to help science advance because it's not like anyone else can do :-)</p>",
+        "id": 342963461,
+        "sender_full_name": "Ryan Wisnesky",
+        "timestamp": 1679244084
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"281326\">Ryan Wisnesky</span> <a href=\"#narrow/stream/229111-general/topic/Compositionality/near/342963461\">said</a>:</p>\n<blockquote>\n<p>I'd say there's a big different between to be published papers and actually published ones: the actually published ones have (presumably) been peer reviewed and accepted!  Writing papers that never make it through peer review is often a red flag re: the basics of reproducibility, the scientific method, etc.  (And absolutely reviewers have found plenty of (now fixed) errors in papers I've published!).  So anyway we should all be generous with our reviewing time to help science advance because it's not like anyone else can do :-)</p>\n</blockquote>\n<p>I think by \"to be published\", John equivalently meant \"accepted\", rather than \"submitted\".</p>",
+        "id": 342963858,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1679244338
+    },
+    {
+        "content": "<p>Yes, in this particular context \"to be published\" means it's listed <a href=\"https://compositionality-journal.org/\">at the bottom of the *Compositionality* home page</a> in the queue of papers waiting to be published.  It's been accepted.</p>",
+        "id": 342972875,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679249189
+    },
+    {
+        "content": "<p>Because the journal <em>Compositionality</em> has been suffering a bottleneck at the typesetting stage, accepted papers have been taking a long time to appear.  As a stop-gap solution I got them to create a list of accepted but not yet published papers, so people could prove their papers have been accepted.  </p>\n<p>At the University of California, if you come up for a promotion or tenure and want to include in your file a paper that's been accepted but not yet published, you have to prove this by exhibiting a letter from the journal.   This reduces the chance of people pretending their papers have been accepted.  But if you're smart you'll notice it doesn't eliminate it!</p>",
+        "id": 342973521,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679249542
+    },
+    {
+        "content": "<p>So, I thought it might helpful if the journal publicly listed accepted papers.</p>",
+        "id": 342973628,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679249612
+    },
+    {
+        "content": "<p>By the way, here's an example of why the University of California instituted this policy a while ago.      In the humanities, to get tenure you need to publish a book.    There is a rather important administrator at U. C. Riverside who got tenure based on a book they claimed had been accepted for publication.  But a decade later, this book has never appeared!   And this is not the only suspicious behavior of this particular person.</p>",
+        "id": 342973913,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679249787
+    },
+    {
+        "content": "<p>Anyway: more importantly, <em>Compositionality</em> has now gotten an extra person to help with typesetting, and the list of not yet published papers has shrunk from 7 to 4 since they got to work in January.</p>",
+        "id": 342974106,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679249916
+    },
+    {
+        "content": "<p>I wish things would become even more efficient.  The problem is that there's no full-time paid typesetter: everyone involved is a volunteer academic busy writing their own papers, teaching classes, etc.</p>",
+        "id": 342974202,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679249985
+    },
+    {
+        "content": "<blockquote>\n<p>Because the journal Compositionality has been suffering a bottleneck at the typesetting stage</p>\n</blockquote>\n<p>I feel the need to clarify this statement, before the sentence gets misinterpreted. The bottleneck Compositionality was suffering was an extremely illogical way to handle the passage from the \"accepted\" to the \"appears on the website\" phase.</p>\n<p>When I tried to speed things up a bit, without claiming any expertise but just using a pinch of common sense, I was \"kindly invited\" to stop, because I was acting too bossy. This is also why, by the way, my name appeared for a split second on the Compositionality website and was promptly removed after the (unpleasant, to say the least) conversation about the problem.</p>\n<p>So: if you have been wondering why your accepted paper has been in the backlog for months, the reason was <em>absolutely none at all</em>; someone tried to speed up the process, but they were prevented from doing so.</p>\n<p>I really hope the journal will get in better shape now!</p>",
+        "id": 343054455,
+        "sender_full_name": "fosco",
+        "timestamp": 1679301710
+    },
+    {
+        "content": "<p>Of course there's another version of this story.   But I don't know exactly how correct each version is, and I also don't care too much, so I'm not going to talk about the past problems.   Much more important is whether we'll manage to get rid of this bottleneck <em>now</em>.</p>",
+        "id": 343236116,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679350506
+    },
+    {
+        "content": "<blockquote>\n<p>But I don't know exactly how correct each version is</p>\n</blockquote>\n<p>I do, I was there <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span> I have the vague impression you're trying to gaslight me into believing that I might have misinterpreted the facts; please, desist. Also, understand that the only reason I refrained from commenting so far is that I ultimately don't mean harm to anyone, and I don't want to act petty in revenge for the pettiness I endured, putting some people in an awkward position. But again, there's written proof of the exchanges that happened, exchanges <em>I was the subject of</em>. Here the point is that I'm ready to be held accountable for the mistakes I make, but that's already a full-time job: I can't also take responsibility for the mistakes of others that I <em>was forcefully prevented from addressing</em>. <em>That</em> was the bottleneck, no more and no less: obstructionism at some stage of the editorial process.</p>\n<blockquote>\n<p>I also don't care too much</p>\n</blockquote>\n<p>Unfortunately, when a publication more can decide your academic future, you <em>do care a lot</em> about the reason your paper stays parked for months in the backlog queue of a journal. </p>\n<p>Anyway, whatever: not my problem anymore, and I wish you luck with solving it, with absolutely 0% sarcasm in this. <br>\nWell, not exactly: it's the other authors I care about now, and it is to them that I wish the best of luck. It might sound strange, but I have this thing that I care about doing my part in making the life of my peers if not easier, at least not <em>difficult for a stupid reason</em>. What happened was instead the definition of stupid.</p>",
+        "id": 343457467,
+        "sender_full_name": "fosco",
+        "timestamp": 1679414916
+    },
+    {
+        "content": "<p>(Now, rest all assured I will not say a single word more about this. Good luck with everything!)</p>",
+        "id": 343457813,
+        "sender_full_name": "fosco",
+        "timestamp": 1679415008
+    },
+    {
+        "content": "<p>You quoted me as saying \"I don't care too much,\" but that was just part of my sentence. I don't care much about the history of the backlog at <em>Compositionality</em>, because the players in that history didn't contact me back then, and they are not sticking around now offering to help solve that problem.  But I care a lot about solving the problem, since the current executive board is leaving, so it is now up to me and the other members of the steering board to do something.  Once we get new executive editors, it will be up to them.</p>",
+        "id": 343528692,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679435781
+    },
+    {
+        "content": "<p>I am having trouble with the Scholastica website. I am trying upload a paper and its asking \"Primary Manuscript Field\" is a required field. But there's not button to upload it? There's only a button to upload additional files -- which I can do but it wont let me declare \"task complete\" because it is saying I am missing the \"Primary Manuscript Field\"... which I can't seem to upload... Does anyone know the fix?</p>",
+        "id": 359090864,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1684361359
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/UBCyRKGY06lrj0ax7Jdj0I6n/Firefox_Screenshot_2023-05-17T22-07-19.739Z.png\">Firefox_Screenshot_2023-05-17T22-07-19.739Z.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/UBCyRKGY06lrj0ax7Jdj0I6n/Firefox_Screenshot_2023-05-17T22-07-19.739Z.png\" title=\"Firefox_Screenshot_2023-05-17T22-07-19.739Z.png\"><img src=\"/user_uploads/21317/UBCyRKGY06lrj0ax7Jdj0I6n/Firefox_Screenshot_2023-05-17T22-07-19.739Z.png\"></a></div>",
+        "id": 359090916,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1684361386
+    },
+    {
+        "content": "<p>I will tell some people who know more about submissions to Compositionality and this software.</p>",
+        "id": 359100586,
+        "sender_full_name": "John Baez",
+        "timestamp": 1684366340
+    },
+    {
+        "content": "<p>Things seem to be moving a little bit again: another paper has been published! And the list of accepted papers has grown.</p>",
+        "id": 359100973,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1684366549
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/Compositionality/near/359100586\">said</a>:</p>\n<blockquote>\n<p>I will tell some people who know more about submissions to Compositionality and this software.</p>\n</blockquote>\n<p>thanks <span class=\"user-mention\" data-user-id=\"275920\">@John Baez</span></p>",
+        "id": 359101312,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1684366722
+    },
+    {
+        "content": "<p>Thanks for the info, <span class=\"user-mention\" data-user-id=\"276422\">@David Michael Roberts</span>.  I'm sending everyone in charge an email about what's going on, including what <span class=\"user-mention\" data-user-id=\"277105\">@JS PL (he/him)</span> reported.</p>",
+        "id": 359283506,
+        "sender_full_name": "John Baez",
+        "timestamp": 1684368071
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"277105\">@JS PL (he/him)</span> <span class=\"user-mention\" data-user-id=\"275920\">@John Baez</span>  Hmm I've never seen this before. I can't reproduce it either, e.g. see my window below. Could you try hard refreshing or using an incognito browser?<br>\n<a href=\"/user_uploads/21317/jl_fTt6RMQ9tVckJOFak-7JC/Screen-Shot-2023-05-17-at-8.25.30-PM.png\">Screen-Shot-2023-05-17-at-8.25.30-PM.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/jl_fTt6RMQ9tVckJOFak-7JC/Screen-Shot-2023-05-17-at-8.25.30-PM.png\" title=\"Screen-Shot-2023-05-17-at-8.25.30-PM.png\"><img src=\"/user_uploads/21317/jl_fTt6RMQ9tVckJOFak-7JC/Screen-Shot-2023-05-17-at-8.25.30-PM.png\"></a></div>",
+        "id": 359286444,
+        "sender_full_name": "Joshua Tan",
+        "timestamp": 1684369607
+    },
+    {
+        "content": "<p>That \"Attach File\" button is definitely not there for me.</p>",
+        "id": 359286725,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1684369763
+    },
+    {
+        "content": "<p>I have tried it in different browsers too and refereshing. will try again</p>",
+        "id": 359286866,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1684369830
+    },
+    {
+        "content": "<p>Nope no luck: I tried three different browsers, refreshing, incognito mode.</p>",
+        "id": 359287122,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1684369977
+    },
+    {
+        "content": "<p>Could this be a problem with the fact that it's a resubmission and not a new submission?</p>",
+        "id": 359287162,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1684369993
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277105\">JS PL (he/him)</span> <a href=\"#narrow/stream/229111-general/topic/Compositionality/near/359287162\">said</a>:</p>\n<blockquote>\n<p>Could this be a problem with the fact that it's a resubmission and not a new submission?</p>\n</blockquote>\n<p>Ok when I start a new submission: it works and I can see the \"Attach File\" button.</p>",
+        "id": 359287451,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1684370148
+    },
+    {
+        "content": "<p>But this is not what I want. Because this is to resubmit a new version of paper (with a reponse to the reviewers). So I probably don't want to start a completely new submission?</p>",
+        "id": 359287765,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1684370297
+    },
+    {
+        "content": "<p>The email asked me to resubmit by clicking this link, and following that link I can't see the \"Attach File\" button. So I am still stuck and unable to upload the resubmission.</p>",
+        "id": 359287807,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1684370321
+    },
+    {
+        "content": "<p>Hm, odd. Okay as a workaround let's follow-up directly in Scholastica; we can just have you submit the files to us in a message and then we can submit the revision on your behalf manually.</p>",
+        "id": 359291703,
+        "sender_full_name": "Joshua Tan",
+        "timestamp": 1684372546
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276698\">Joshua Tan</span> <a href=\"#narrow/stream/229111-general/topic/Compositionality/near/359291703\">said</a>:</p>\n<blockquote>\n<p>Hm, odd. Okay as a workaround let's follow-up directly in Scholastica; we can just have you submit the files to us in a message and then we can submit the revision on your behalf manually.</p>\n</blockquote>\n<p>Great thanks. So what's the best way to send the files to you then?</p>",
+        "id": 359291791,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1684372600
+    },
+    {
+        "content": "<p>See message I just sent you via Scholastica! <span class=\"user-mention\" data-user-id=\"277105\">@JS PL (he/him)</span></p>",
+        "id": 359291855,
+        "sender_full_name": "Joshua Tan",
+        "timestamp": 1684372677
+    },
+    {
+        "content": "<p>Thanks, Josh!</p>",
+        "id": 359301134,
+        "sender_full_name": "John Baez",
+        "timestamp": 1684379860
+    },
+    {
+        "content": "<p>Yes thank you <span class=\"user-mention\" data-user-id=\"276698\">@Joshua Tan</span> for all the help: very much appreciated</p>",
+        "id": 359312872,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1684389908
+    },
+    {
+        "content": "<p>I think another article has been published! Less than a month since the last one!</p>\n<p>What would be nice, if possible, was if the \"to appear\" papers were not at the bottom of the page. Over time, this will only be less and less visible. At the very least a link at the top to that section. Even better would be to make those papers have links to their arXiv versions....</p>",
+        "id": 364718519,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1686279737
+    },
+    {
+        "content": "<p>Some news: Brendan Fong, Nina Otter and Joshua Tan are stepping down from their leadership of <em>Compositionality</em> in July 15th, and there will be new Executive Board:</p>\n<ul>\n<li>Elena Di Lavore, Tallinn University of Technology, Estonia</li>\n<li>Jade Master, University of Strathclyde, UK</li>\n<li>Mario Román, Tallinn University of Technology, Estonia</li>\n<li>Paweł Sobociński, Tallinn University of Technology, Estonia</li>\n</ul>",
+        "id": 364747732,
+        "sender_full_name": "John Baez",
+        "timestamp": 1686293355
+    },
+    {
+        "content": "<p>In fact this new Executive Board is already getting to work now.</p>",
+        "id": 364747828,
+        "sender_full_name": "John Baez",
+        "timestamp": 1686293385
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"275920\">@John Baez</span>  maybe it's worth reminding people that the Editorial Board is still the same: <br>\nCoordinating editors:<br>\n    Aleks Kissinger, University of Oxford, UK<br>\n    Joachim Kock, Universitat Autònoma de Barcelona, Spain<br>\nEditors:<br>\n    Corina Cirstea, University of Southampton, UK<br>\n    Andrée Ehresmann, University of Picardie Jules Verne, France<br>\n    Tobias Fritz, University of Innsbruck, Austria<br>\n    Jeremy Gibbons, University of Oxford, UK<br>\n    Nick Gurski, Case Western Reserve University, USA<br>\n    Helle Hvid Hansen, University of Groningen, The Netherlands<br>\n    Jules Hedges, University of Strathclyde, UK<br>\n    Chris Heunen, University of Edinburgh, UK<br>\n    Martha Lewis, University of Amsterdam, Netherlands<br>\n    Samuel Mimram, École Polytechnique, France<br>\n    Simona Paoli, University of Aberdeen, UK<br>\n    Dusko Pavlovic, University of Hawaii, USA<br>\n    Christian Retoré, Université de Montpellier, France<br>\n    Nicoletta Sabadini, Università degli studi dell’Insubria, Italy<br>\n    Mehrnoosh Sadrzadeh, Queen Mary University, UK<br>\n    Paweł Sobociński, Tallinn University of Technology, Estonia<br>\n    David Spivak, Topos Institute, USA<br>\n    Jamie Vicary, University of Cambridge, UK<br>\n    Simon Willerton, University of Sheffield, UK</p>",
+        "id": 364879601,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1686321899
+    },
+    {
+        "content": "<p>Yes, they're still the same!  Though maybe </p>\n<blockquote>\n<p>Paweł Sobociński, Tallinn University of Technology, Estonia</p>\n</blockquote>\n<p>will be removed from the list now that he's on the Executive Board.</p>",
+        "id": 364895840,
+        "sender_full_name": "John Baez",
+        "timestamp": 1686325086
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276422\">David Michael Roberts</span> <a href=\"#narrow/stream/229111-general/topic/Compositionality/near/364718519\">said</a>:</p>\n<blockquote>\n<p>I think another article has been published! Less than a month since the last one!</p>\n<p>What would be nice, if possible, was if the \"to appear\" papers were not at the bottom of the page. Over time, this will only be less and less visible. At the very least a link at the top to that section. Even better would be to make those papers have links to their arXiv versions....</p>\n</blockquote>\n<p>Thank you for this suggestion, David. The papers now have links to their arXiv versions. I take a note to try to rearrange the main page in a way that makes them more visible.</p>",
+        "id": 365526060,
+        "sender_full_name": "Mario Román",
+        "timestamp": 1686568683
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"278171\">@Mario Román</span> awesome, thanks!</p>",
+        "id": 365574571,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1686578713
+    },
+    {
+        "content": "<p>There is a now an <a href=\"https://www.overleaf.com/latex/templates/compositionality-latex-template/cdyvqrvtzfwf\">overleaf template for the Compositionality LaTeX class</a>. I hope it helps you typeset your submissions to the journal.</p>",
+        "id": 365648110,
+        "sender_full_name": "Jade Master",
+        "timestamp": 1686594860
+    },
+    {
+        "content": "<p>And another paper is published! Bravo to all the people who are working to grease the wheels and get things moving.</p>",
+        "id": 367082533,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1686987996
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"278171\">@Mario Román</span> is it possible to have date accepted listed on papers as well as date published? This is fairly standard for maths and other journals. Given that, eg, it seems to me (looking at archived versions of the accepted papers list) papers accepted later have been published earlier, one would prefer the acceptance date was publicly recorded for posterity, rather than me using Wayback and guessing/assuming.</p>",
+        "id": 371706932,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1688299447
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276422\">David Michael Roberts</span> <a href=\"#narrow/stream/229111-general/topic/Compositionality/near/371706932\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"278171\">Mario Román</span> is it possible to have date accepted listed on papers as well as date published? This is fairly standard for maths and other journals. Given that, eg, it seems to me (looking at archived versions of the accepted papers list) papers accepted later have been published earlier, one would prefer the acceptance date was publicly recorded for posterity, rather than me using Wayback and guessing/assuming.</p>\n</blockquote>\n<p>Yes, thank you for this suggestion, I understand this should be possible. As soon as we take time to rearrange the main page, this should be fixed.</p>",
+        "id": 373748226,
+        "sender_full_name": "Mario Román",
+        "timestamp": 1688922977
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"278171\">@Mario Román</span> thanks!</p>",
+        "id": 373782623,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1688937962
+    },
+    {
+        "content": "<p>Another paper published!</p>\n<p><a href=\"https://compositionality-journal.org/papers/compositionality-5-5/\">https://compositionality-journal.org/papers/compositionality-5-5/</a></p>",
+        "id": 375860477,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1689555530
+    },
+    {
+        "content": "<p>Two more! </p>\n<p>Kiran R. Bhutani, Ravi Kalpathy, and Hosam Mahmoud, \"Degrees in random m-ary hooking networks\"<br>\n<a href=\"https://compositionality-journal.org/papers/compositionality-5-6/\">https://compositionality-journal.org/papers/compositionality-5-6/</a></p>\n<p>Tomáš Gonda and Robert W. Spekkens, \"Monotones in General Resource Theories\"<br>\n<a href=\"https://compositionality-journal.org/papers/compositionality-5-7/\">https://compositionality-journal.org/papers/compositionality-5-7/</a></p>",
+        "id": 383425994,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1691618916
+    },
+    {
+        "content": "<p>I'm next :-)</p>",
+        "id": 383426002,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1691618922
+    },
+    {
+        "content": "<p>That was quick</p>\n<p><a href=\"https://doi.org/10.32408/compositionality-5-8\">https://doi.org/10.32408/compositionality-5-8</a></p>",
+        "id": 383585316,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1691666432
+    },
+    {
+        "content": "<p>Wow!</p>",
+        "id": 383603143,
+        "sender_full_name": "John Baez",
+        "timestamp": 1691670232
+    },
+    {
+        "content": "<p>Volume 5 Issue 9 of <em>Compositionality</em> has just been published! <a href=\"https://compositionality-journal.org/papers/compositionality-5-9/\">https://compositionality-journal.org/papers/compositionality-5-9/</a></p>",
+        "id": 395015871,
+        "sender_full_name": "Jade Master",
+        "timestamp": 1696503526
+    },
+    {
+        "content": "<p><span aria-label=\"tada\" class=\"emoji emoji-1f389\" role=\"img\" title=\"tada\">:tada:</span> <span aria-label=\"tada\" class=\"emoji emoji-1f389\" role=\"img\" title=\"tada\">:tada:</span> Thanks Jade !!!</p>",
+        "id": 395016414,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1696503698
+    },
+    {
+        "content": "<p>Huzzah!   <span aria-label=\"boom\" class=\"emoji emoji-1f4a5\" role=\"img\" title=\"boom\">:boom:</span></p>\n<p>For those who didn't bother to look, that's \"Bayesian open games\".</p>",
+        "id": 395042156,
+        "sender_full_name": "John Baez",
+        "timestamp": 1696512025
+    },
+    {
+        "content": "<p>I'm very proud of this paper, this is the variant of open games that turned out to be the most useful in practice - up to software engineering considerations this develops the exact thing we use at 20squares for applied game theory and mechanism design, and it takes some decidedly nontrivial category theory to do it</p>",
+        "id": 395245261,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1696593880
+    },
+    {
+        "content": "<p>New!</p>\n<p>Masahito Hasegawa and Jean-Simon Pacaud Lemay (<span class=\"user-mention\" data-user-id=\"277105\">@JS PL (he/him)</span>), <em>Traced Monads and Hopf Monads</em><br>\n<a href=\"https://compositionality-journal.org/papers/compositionality-5-10/\">https://compositionality-journal.org/papers/compositionality-5-10/</a></p>",
+        "id": 400220119,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1699055435
+    }
+]

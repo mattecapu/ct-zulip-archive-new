@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p><strong>Public</strong> stream created by <span class=\"user-mention silent\" data-user-id=\"512090\">Tim Teatro</span>. <strong>Description:</strong></p>\n<blockquote>\n<p>Questions and errata for the textbook</p>\n</blockquote>",
+        "id": 290901425,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1658845651
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> changed the <a href=\"/help/stream-permissions\">access permissions</a> for this stream from <strong>Public</strong> to <strong>Web-public</strong>.</p>",
+        "id": 397854501,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1697898917
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> changed the <a href=\"/help/stream-sending-policy\">posting permissions</a> for this stream:</p>\n<ul>\n<li><strong>Old permissions</strong>: All stream members can post.</li>\n<li><strong>New permissions</strong>: Only organization administrators and moderators can post.</li>\n</ul>",
+        "id": 399480818,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698751693
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> changed the description for this stream.</p>\n<ul>\n<li><strong>Old description:</strong></li>\n</ul>\n<blockquote>\n<p>Questions and errata for the textbook</p>\n</blockquote>\n<ul>\n<li><strong>New description:</strong></li>\n</ul>\n<blockquote>\n<p>Deprecated, use #learning: reading &amp; references instead, or #learning: questions. Questions and errata for the textbook</p>\n</blockquote>",
+        "id": 399480876,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698751719
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>learning: Polynomial Functors book by Niu and Spivak</strong> to <strong>deprecated: Polynomial Functors book by Niu and Spivak</strong>.</p>",
+        "id": 399480877,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698751719
+    }
+]

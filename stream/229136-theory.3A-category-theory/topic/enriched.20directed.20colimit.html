@@ -1,0 +1,93 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>enriched directed colimit · theory: category theory · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/index.html">theory: category theory</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/enriched.20directed.20colimit.html">enriched directed colimit</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="408996574"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/enriched%20directed%20colimit/near/408996574" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matteo Capucci (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/enriched.20directed.20colimit.html#408996574">(Dec 19 2023 at 18:50)</a>:</h4>
+<p>I'm interested in understanding what a 'small' object is in an enriched setting. To do so, I have to first understand what '(<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>κ</mi></mrow><annotation encoding="application/x-tex">\kappa</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">κ</span></span></span></span>-)directed colimit' means in this setting. <br>
+One can extend the definition of <em>filtered</em> colimit as those weighted enriched colimits which commute with finite limits (as suggested in <a href="https://mathoverflow.net/questions/366686/enriched-vs-ordinary-filtered-colimits">this MO question</a>).<br>
+I'm stuck here: can I just replace directed by filtered in the general definition? I understand that having directed and filtered colimits is the same for plain categories, that doesn't seem enough to conclude I can just use preservation of filtered colimits as a definition of enriched small object.</p>
+
+
+
+<a name="409000120"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/enriched%20directed%20colimit/near/409000120" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kevin Arlin <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/enriched.20directed.20colimit.html#409000120">(Dec 19 2023 at 19:12)</a>:</h4>
+<p>I'm confused about the implication that you see "small" as related to directed but not to filtered colimits.</p>
+
+
+
+<a name="409000158"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/enriched%20directed%20colimit/near/409000158" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nathanael Arkor <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/enriched.20directed.20colimit.html#409000158">(Dec 19 2023 at 19:12)</a>:</h4>
+<p>What "small" means depends on what your objective is in considering a notion of size. For the theory of enriched local presentability, the most appropriate definition is <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>κ</mi></mrow><annotation encoding="application/x-tex">\kappa</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">κ</span></span></span></span>-presentability: an object is <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>κ</mi></mrow><annotation encoding="application/x-tex">\kappa</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">κ</span></span></span></span>-presentable if homming out of it preserves <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>κ</mi></mrow><annotation encoding="application/x-tex">\kappa</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">κ</span></span></span></span>-flat colimits (see Kelly's <a href="https://eudml.org/doc/91287">Structures defined by finite limits in the
+enriched context, I</a>, for instance). "Directedness" is a concept particular to Set-enrichment; there's no notion of directedness for arbitrary enriched categories.</p>
+
+
+
+<a name="409000435"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/enriched%20directed%20colimit/near/409000435" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matteo Capucci (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/enriched.20directed.20colimit.html#409000435">(Dec 19 2023 at 19:14)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="609515">Kevin Arlin</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/enriched.20directed.20colimit/near/409000120">said</a>:</p>
+<blockquote>
+<p>I'm confused about the implication that you see "small" as related to directed but not to filtered colimits.</p>
+</blockquote>
+<p>I'm following the definition at <a href="https://ncatlab.org/nlab/show/small%20object">[[small object]]</a>. But I'm a quite out of my depth so I don't know if I'm just cargo culting it.</p>
+
+
+
+<a name="409000606"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/enriched%20directed%20colimit/near/409000606" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kevin Arlin <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/enriched.20directed.20colimit.html#409000606">(Dec 19 2023 at 19:15)</a>:</h4>
+<p>Oh, yeah, I think using directed colimits there is a borrowing from Adamek and Rosicky but one can also say filtered here, because every kappa-filtered category has a cofinal kappa-directed poset.</p>
+
+
+
+<a name="409000872"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/enriched%20directed%20colimit/near/409000872" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matteo Capucci (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/enriched.20directed.20colimit.html#409000872">(Dec 19 2023 at 19:17)</a>:</h4>
+<p>Neat!</p>
+
+
+
+<a name="409000955"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/enriched%20directed%20colimit/near/409000955" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matteo Capucci (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/enriched.20directed.20colimit.html#409000955">(Dec 19 2023 at 19:17)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276092">Nathanael Arkor</span> <a href="#narrow/stream/229136-theory.3A-category-theory/topic/enriched.20directed.20colimit/near/409000158">said</a>:</p>
+<blockquote>
+<p>What "small" means depends on what your objective is in considering a notion of size. For the theory of enriched local presentability, the most appropriate definition is <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>κ</mi></mrow><annotation encoding="application/x-tex">\kappa</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">κ</span></span></span></span>-presentability: an object is <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>κ</mi></mrow><annotation encoding="application/x-tex">\kappa</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">κ</span></span></span></span>-presentable if homming out of it preserves <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>κ</mi></mrow><annotation encoding="application/x-tex">\kappa</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">κ</span></span></span></span>-flat colimits (see Kelly's <a href="https://eudml.org/doc/91287">Structures defined by finite limits in the
+enriched context, I</a>, for instance). "Directedness" is a concept particular to Set-enrichment; there's no notion of directedness for arbitrary enriched categories.</p>
+</blockquote>
+<p>Thanks for the pointer and the suggestion!</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>Internal rigs in rig-categories? · learning: questions · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/index.html">learning: questions</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Internal.20rigs.20in.20rig-categories.3F.html">Internal rigs in rig-categories?</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="325975078"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Internal%20rigs%20in%20rig-categories%3F/near/325975078" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Martti Karvonen <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Internal.20rigs.20in.20rig-categories.3F.html#325975078">(Feb 05 2023 at 15:25)</a>:</h4>
+<p>Inspired the <a href="https://ncatlab.org/nlab/show/microcosm%20principle">[[microcosm principle]]</a>, I'd like to know what sort of algebraic structures fit natively inside rig categories, just like (commutative) monoids live inside (symmetric) monoidal categories. So is there a known notion of a rig object inside a rig category?  It looks like one might want to use a different monoidal structures for multiplication addition, which sounds funny to me - do such things actually show up somwhere?</p>
+
+
+
+<a name="325993668"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Internal%20rigs%20in%20rig-categories%3F/near/325993668" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Internal.20rigs.20in.20rig-categories.3F.html#325993668">(Feb 05 2023 at 17:52)</a>:</h4>
+<p>Great question!  One thing worth looking at is the usual concept of ring defined inside the rig category AbGrp.   Say we have a ring <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>R</mi></mrow><annotation encoding="application/x-tex">R</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span></span></span></span> thought of as an object in AbGrp.   Then addition gives a morphism</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>+</mo><mo>:</mo><mi>R</mi><mo>⊕</mo><mi>R</mi><mo>→</mo><mi>R</mi></mrow><annotation encoding="application/x-tex"> + : R \oplus R \to R</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord">+</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⊕</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span></span></span></span></p>
+<p>while multiplication gives a morphism</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>×</mo><mo>:</mo><mi>R</mi><mo>⊗</mo><mi>R</mi><mo>→</mo><mi>R</mi></mrow><annotation encoding="application/x-tex"> \times : R \otimes R \to R</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord">×</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⊗</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.00773em;">R</span></span></span></span></p>
+
+
+
+<a name="325993758"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Internal%20rigs%20in%20rig-categories%3F/near/325993758" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Internal.20rigs.20in.20rig-categories.3F.html#325993758">(Feb 05 2023 at 17:53)</a>:</h4>
+<p>So two different monoidal structures <em>are</em> getting used here, <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>⊕</mo></mrow><annotation encoding="application/x-tex">\oplus</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord">⊕</span></span></span></span> for + and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>⊗</mo></mrow><annotation encoding="application/x-tex">\otimes</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord">⊗</span></span></span></span> for <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>×</mo></mrow><annotation encoding="application/x-tex">\times</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord">×</span></span></span></span>, in a microcosmic way.</p>
+
+
+
+<a name="325996288"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Internal%20rigs%20in%20rig-categories%3F/near/325996288" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nathanael Arkor <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Internal.20rigs.20in.20rig-categories.3F.html#325996288">(Feb 05 2023 at 18:13)</a>:</h4>
+<p>One natural definition is given by Martin Brandenburg <a href="https://math.stackexchange.com/a/822294">here</a>.</p>
+
+
+
+<a name="326001116"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Internal%20rigs%20in%20rig-categories%3F/near/326001116" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Martti Karvonen <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Internal.20rigs.20in.20rig-categories.3F.html#326001116">(Feb 05 2023 at 18:59)</a>:</h4>
+<p>Nice! I was too stuck with the idea that usual rings are internal to Set, instead of being internal to Ab.</p>
+
+
+
+<a name="326003482"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Internal%20rigs%20in%20rig-categories%3F/near/326003482" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Martti Karvonen <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Internal.20rigs.20in.20rig-categories.3F.html#326003482">(Feb 05 2023 at 19:22)</a>:</h4>
+<p>I guess these would also coincide with some kind of lax morphisms from the terminal rig cat to the rig cat in question?</p>
+
+
+
+<a name="326010932"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Internal%20rigs%20in%20rig-categories%3F/near/326010932" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Internal.20rigs.20in.20rig-categories.3F.html#326010932">(Feb 05 2023 at 20:55)</a>:</h4>
+<p>I don't know... lax rig category maps?  Maybe.</p>
+
+
+
+<a name="326011070"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Internal%20rigs%20in%20rig-categories%3F/near/326011070" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Internal.20rigs.20in.20rig-categories.3F.html#326011070">(Feb 05 2023 at 20:57)</a>:</h4>
+<p>Note that what I said is a bit odd because while you can treat a ring as a rig object in the rig category <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mrow><mi mathvariant="sans-serif">A</mi><mi mathvariant="sans-serif">b</mi><mi mathvariant="sans-serif">G</mi><mi mathvariant="sans-serif">p</mi></mrow><mo separator="true">,</mo><mo>⊕</mo><mo separator="true">,</mo><mo>⊗</mo><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(\mathsf{AbGp}, \oplus, \otimes)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathsf">AbGp</span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">⊕</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">⊗</span><span class="mclose">)</span></span></span></span> you can also more simply treat it as a monoid object in the monoidal category <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mrow><mi mathvariant="sans-serif">A</mi><mi mathvariant="sans-serif">b</mi><mi mathvariant="sans-serif">G</mi><mi mathvariant="sans-serif">p</mi></mrow><mo separator="true">,</mo><mo>⊗</mo><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(\mathsf{AbGp}, \otimes)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathsf">AbGp</span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">⊗</span><span class="mclose">)</span></span></span></span> - you then get the addition, and distributivity of multiplication over addition, "for free".</p>
+
+
+
+<a name="326042973"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Internal%20rigs%20in%20rig-categories%3F/near/326042973" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Internal.20rigs.20in.20rig-categories.3F.html#326042973">(Feb 06 2023 at 04:58)</a>:</h4>
+<p>That's presumably because <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>⊕</mo></mrow><annotation encoding="application/x-tex">\oplus</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord">⊕</span></span></span></span> is the cocartesian monoidal structure on <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="sans-serif">A</mi><mi mathvariant="sans-serif">b</mi><mi mathvariant="sans-serif">G</mi><mi mathvariant="sans-serif">p</mi></mrow><annotation encoding="application/x-tex">\mathsf{AbGp}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathsf">AbGp</span></span></span></span></span>, so every object is a commutative monoid for it in a unique way.</p>
+
+
+
+<a name="326043050"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Internal%20rigs%20in%20rig-categories%3F/near/326043050" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Internal.20rigs.20in.20rig-categories.3F.html#326043050">(Feb 06 2023 at 04:59)</a>:</h4>
+<p>The definition of "semiring object in a bimonoidal category" is written out at <a href="https://ncatlab.org/nlab/show/ring%20object">[[ring object]]</a>.  But I observe that all the examples given there also have this property, that the "additive" monoidal structure is cocartesian and hence is not doing any work.</p>
+
+
+
+<a name="326043156"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Internal%20rigs%20in%20rig-categories%3F/near/326043156" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Internal.20rigs.20in.20rig-categories.3F.html#326043156">(Feb 06 2023 at 05:00)</a>:</h4>
+<p>(A different way to internalize a ring object is in a <a href="https://ncatlab.org/nlab/show/duoidal%20category">[[duoidal category]]</a>.)</p>
+
+
+
+<a name="326048245"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Internal%20rigs%20in%20rig-categories%3F/near/326048245" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Internal.20rigs.20in.20rig-categories.3F.html#326048245">(Feb 06 2023 at 06:04)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276777">Mike Shulman</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/Internal.20rigs.20in.20rig-categories.3F/near/326043050">said</a>:</p>
+<blockquote>
+<p>The definition of "semiring object in a bimonoidal category" is written out at <a href="https://ncatlab.org/nlab/show/ring%20object">[[ring object]]</a>.  But I observe that all the examples given there also have this property, that the "additive" monoidal structure is cocartesian and hence is not doing any work.</p>
+</blockquote>
+<p>The rig categories I've been studying intensively have this property: they are Cauchy complete symmetric monoidal <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span>-linear categories, where the additive monoidal structure is cocartesian.  It's "doing work" in some sense, but it's not an extra structure, just a property.</p>
+
+
+
+<a name="326068077"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Internal%20rigs%20in%20rig-categories%3F/near/326068077" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Internal.20rigs.20in.20rig-categories.3F.html#326068077">(Feb 06 2023 at 08:42)</a>:</h4>
+<p>A monoid structure for a cocartesian monoidal structure isn't even an extra property, it's whatever comes below that: it always exists uniquely.  That's what I meant: when the additive monoidal structure is cocartesian, a "rig object" is no different than a monoid object for the multiplicative monoidal structure, so the additive strurcture may as well not be there for purposes of defining rig objects.</p>
+
+
+
+<a name="326107352"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Internal%20rigs%20in%20rig-categories%3F/near/326107352" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matteo Capucci (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Internal.20rigs.20in.20rig-categories.3F.html#326107352">(Feb 06 2023 at 12:12)</a>:</h4>
+<p>It's (-1)-stuff, cool! (edit: it's (-2)-stuff)</p>
+
+
+
+<a name="326187849"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Internal%20rigs%20in%20rig-categories%3F/near/326187849" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Internal.20rigs.20in.20rig-categories.3F.html#326187849">(Feb 06 2023 at 16:44)</a>:</h4>
+<p>Okay, I meant that cocartesianness on the category is an extra property.   But yes: for the poor hapless object of such a category, having a monoid structure with respect to + isn't even an extra property, it's an extra automatically true property.</p>
+
+
+
+<a name="326188070"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Internal%20rigs%20in%20rig-categories%3F/near/326188070" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Internal.20rigs.20in.20rig-categories.3F.html#326188070">(Feb 06 2023 at 16:45)</a>:</h4>
+<p>Here "extra" is being used in a somewhat sarcastic way.</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

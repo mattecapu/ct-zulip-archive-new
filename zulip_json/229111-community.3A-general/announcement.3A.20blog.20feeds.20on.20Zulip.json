@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>Hi all</p>\n<p>There is now a stream <a class=\"stream\" data-stream-id=\"413029\" href=\"/#narrow/stream/413029-community.3A-blog-feeds\">#community: blog feeds</a> containing feeds from category theory blogs. Feel free to subscribe if you want to keep up with blogs and having them here on Zulip would be useful to you.</p>\n<p>Currently the following blogs are included:</p>\n<ul>\n<li>LocalCharts (thanks to <span class=\"user-mention silent\" data-user-id=\"280755\">Owen Lynch</span>), which also includes several other blogs</li>\n<li>The n-Category Cafe</li>\n<li>Azimuth</li>\n<li>Bartosz Milewski's Programming Cafe</li>\n<li>A Neighborhood of Infinity (sigfpe)</li>\n</ul>\n<p>Each one posts in a separate thread so if you don't want to follow them all you can mute them.</p>\n<p>Please use this thread to suggest other blogs to add. I'll add any blog that posts mostly mathematical content and is relevant to this community.</p>\n<p>You're welcome to suggest your own blog! (But if it's already syndicated at LocalCharts there's no need to, it will be posted here already.)</p>",
+        "id": 402946318,
+        "sender_full_name": "Nathaniel Virgo",
+        "timestamp": 1700362139
+    }
+]

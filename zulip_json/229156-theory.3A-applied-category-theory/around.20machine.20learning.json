@@ -1,0 +1,386 @@
+[
+    {
+        "content": "<p>I'm not sure I even know what \"learning theory\" is!</p>",
+        "id": 241649328,
+        "sender_full_name": "John Baez",
+        "timestamp": 1622916953
+    },
+    {
+        "content": "<p><a href=\"https://golem.ph.utexas.edu/category/2007/09/category_theory_in_machine_lea.html\">https://golem.ph.utexas.edu/category/2007/09/category_theory_in_machine_lea.html</a></p>",
+        "id": 241649571,
+        "sender_full_name": "ebigram",
+        "timestamp": 1622917216
+    },
+    {
+        "content": "<p><a href=\"https://en.wikipedia.org/wiki/Computational_learning_theory\">https://en.wikipedia.org/wiki/Computational_learning_theory</a></p>",
+        "id": 241649609,
+        "sender_full_name": "ebigram",
+        "timestamp": 1622917278
+    },
+    {
+        "content": "<p>Oh, so you're talking about category theory in machine learning?   Some interesting things have happened since 2007.</p>",
+        "id": 241649610,
+        "sender_full_name": "John Baez",
+        "timestamp": 1622917283
+    },
+    {
+        "content": "<p>One is this paper:</p>\n<ul>\n<li>Brendan Fong, David Spivak and  Rémy Tuyéras, <a href=\"https://arxiv.org/abs/1711.10455\">Backprop as functor: a compositional framework for supervised learning</a>.</li>\n</ul>\n<p>It's led to an interesting line of work on \"learners and lenses\".</p>",
+        "id": 241649708,
+        "sender_full_name": "John Baez",
+        "timestamp": 1622917412
+    },
+    {
+        "content": "<p>yup sorry for the vague wording. as a practitioner this is met by my peers with derision if not downright hostility. I was wondering if it is your feeling now that it might actually be useful</p>",
+        "id": 241649711,
+        "sender_full_name": "ebigram",
+        "timestamp": 1622917417
+    },
+    {
+        "content": "<ul>\n<li>Brendan Fong and Michael Johnson, <a href=\"https://arxiv.org/abs/1903.03671\">Lenses as learners</a>.</li>\n</ul>",
+        "id": 241649776,
+        "sender_full_name": "John Baez",
+        "timestamp": 1622917479
+    },
+    {
+        "content": "<p>okay with those kind of names :] TY, I will go do my homework now.</p>",
+        "id": 241649849,
+        "sender_full_name": "ebigram",
+        "timestamp": 1622917562
+    },
+    {
+        "content": "<p>Lenses are a way of thinking about databases.  I think that seeing learning and databases as two ends of a continuum will eventually be very useful, but it will take more research.</p>",
+        "id": 241649881,
+        "sender_full_name": "John Baez",
+        "timestamp": 1622917573
+    },
+    {
+        "content": "<p>Something that seems more <em>instantly</em> useful is work on differential categories, the differential lambda calculus, and differentiable programming, which can be used for gradient descent algorithm.    You can see some references <a href=\"https://www.google.com/search?client=firefox-b-1-d&amp;q=differential+categories+lambda-calculus\">here</a>.</p>",
+        "id": 241650027,
+        "sender_full_name": "John Baez",
+        "timestamp": 1622917748
+    },
+    {
+        "content": "<p>Actually all this stuff I just mentioned should become part of a single theory: a compositional theory of learning based on differential categories and ideas like lenses.   Maybe it's already happening: I'm not keeping up with this stuff.</p>",
+        "id": 241650231,
+        "sender_full_name": "John Baez",
+        "timestamp": 1622918001
+    },
+    {
+        "content": "<p>There are people here who know more.</p>",
+        "id": 241650236,
+        "sender_full_name": "John Baez",
+        "timestamp": 1622918013
+    },
+    {
+        "content": "<p>My browser tells me I visited the top result, so maybe I was already on the righteous path. However, I don't really have much context to evaluate the import/validity of such work; so it is nice to get an authoritative voice to cosign at least investigating it. I am building an unapologetic POC functional (w/ cats) ml framework, so maybe there's enough there to inform a prototype.</p>",
+        "id": 241650391,
+        "sender_full_name": "ebigram",
+        "timestamp": 1622918187
+    },
+    {
+        "content": "<p>I think there's a lot of work on differentiable programming that's closer to \"instantly useful\" than the work based on the differential lambda-calculus and differential categories.   However, I think a really solid foundation for differential programming should involve differential categories, just as a really solid foundation of the semantics of ordinary programming languages involves categories.   (I guess one has to understand the latter before making progress on the former!)</p>",
+        "id": 241650506,
+        "sender_full_name": "John Baez",
+        "timestamp": 1622918330
+    },
+    {
+        "content": "<p>I think all the applications of category theory to machine learning that I just described count as \"research in progress\" rather than finished stuff that will persuade skeptics.</p>",
+        "id": 241650595,
+        "sender_full_name": "John Baez",
+        "timestamp": 1622918448
+    },
+    {
+        "content": "<p>yeah well, I'm already fighting the python ML hegemony, so this will likely be a \"boutique\" and/or purely academic product lol</p>",
+        "id": 241650858,
+        "sender_full_name": "ebigram",
+        "timestamp": 1622918880
+    },
+    {
+        "content": "<p>A lot of us here are fighting various hegemonies.  <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 241651738,
+        "sender_full_name": "John Baez",
+        "timestamp": 1622919974
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/3UIsbAuzHS5Wm5Mq1wTfvkp2/image.png\">image.png</a>  &lt;-- the only one who can say that with a straight face</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/3UIsbAuzHS5Wm5Mq1wTfvkp2/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/3UIsbAuzHS5Wm5Mq1wTfvkp2/image.png\"></a></div>",
+        "id": 241651936,
+        "sender_full_name": "ebigram",
+        "timestamp": 1622920215
+    },
+    {
+        "content": "<p>This recent paper <a href=\"https://arxiv.org/abs/2103.01931\">https://arxiv.org/abs/2103.01931</a> nicely connects the lens-y approach to machine learning with reverse derivative categories</p>",
+        "id": 241651953,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1622920257
+    },
+    {
+        "content": "<p>Do you know, <span class=\"user-mention\" data-user-id=\"275901\">@Jules Hedges</span>, if anyone yet has tried to use all this lens-y derivative-y stuff to do something \"practical\" in the realm of machine learning?</p>",
+        "id": 241652197,
+        "sender_full_name": "John Baez",
+        "timestamp": 1622920671
+    },
+    {
+        "content": "<p>Eventually there should be all sorts of weird new things one can do.</p>",
+        "id": 241652240,
+        "sender_full_name": "John Baez",
+        "timestamp": 1622920692
+    },
+    {
+        "content": "<p>Not that I know of. This is something we've discussed a bit in Glasgow. To me it's still not clear what the real benefit of this stuff is. The best bet so far seems to be to fall back on the old \"common language\" line - that it's useful for allowing humans to cut through and understand the frankly silly amount of literature on machine learning. Of course we're all category theorists here, so we're biased in thinking that expressing things that way makes them easier to understand</p>",
+        "id": 241653473,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1622922612
+    },
+    {
+        "content": "<p>I think people should make things like self-improving databases that learn how to more efficiently answer your queries, or other weirder hybrids...</p>",
+        "id": 241653560,
+        "sender_full_name": "John Baez",
+        "timestamp": 1622922761
+    },
+    {
+        "content": "<p>I imagined it should cut down on some boilerplate, but that's what I generally feel about working with categories (I use Scala's Typelevel Cats stack quite extensively, and find it very practical for writing succinct maintainable expressive code)</p>",
+        "id": 241653587,
+        "sender_full_name": "ebigram",
+        "timestamp": 1622922840
+    },
+    {
+        "content": "<p>also I don't know if there are any benefits to some compilers in doing high-level optimizations</p>",
+        "id": 241653646,
+        "sender_full_name": "ebigram",
+        "timestamp": 1622922904
+    },
+    {
+        "content": "<p>At the moment it's very hard to tell what are the actual bottlenecks in machine learning research, at least as an outsider. I'm pretty sure that one of the biggest bottlenecks is understanding the analysis (in the sense of real analysis) side of ML. I'd very much like if our category theoretic ideas helped with doing analysis with very complex architectures, but I haven't seen any evidence that it's possible</p>",
+        "id": 241653733,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1622923059
+    },
+    {
+        "content": "<p>the main bottleneck is $$$ to do massive matrix multiplication at a scale of giant FAANG companies IMO lol. But yes I take your point on analaysis which I'm embarassingly weak at</p>",
+        "id": 241653796,
+        "sender_full_name": "ebigram",
+        "timestamp": 1622923177
+    },
+    {
+        "content": "<p>Language design, improving the coding experience etc is much lower hanging fruit, but that also means we're up against people doing the same thing using only experience and common sense, not heavy mathematical tools</p>",
+        "id": 241653852,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1622923227
+    },
+    {
+        "content": "<p>I saw a paper today proving that to show a learner will preform well on a task is undecidable</p>",
+        "id": 241653919,
+        "sender_full_name": "ebigram",
+        "timestamp": 1622923346
+    },
+    {
+        "content": "<p>which I guess isn't surprising</p>",
+        "id": 241653924,
+        "sender_full_name": "ebigram",
+        "timestamp": 1622923355
+    },
+    {
+        "content": "<p>but also very much cements to me that ML is largely an empirical enterprise</p>",
+        "id": 241653932,
+        "sender_full_name": "ebigram",
+        "timestamp": 1622923380
+    },
+    {
+        "content": "<p>I think the academic side of it is a bit bloated, and ultimately it's not that deep as it is mostly a matter of scale, but I don't intend  to offend anyone, mostly criticizing my own work</p>",
+        "id": 241654078,
+        "sender_full_name": "ebigram",
+        "timestamp": 1622923569
+    },
+    {
+        "content": "<p>At the risk of throwing us off-topic, I'd like to chime in in support of the idea that the bottleneck in machine learning research is that ML models are a howling cognitive vacuum, and that to make progress new ideas in this direction are needed at the fundamental level.</p>",
+        "id": 241902425,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1623151423
+    },
+    {
+        "content": "<p>No amount of computational power or improvements in tooling are going to fix this: <a href=\"/user_uploads/21317/c8kJo8fbuhtA3LaetV-xBCxB/ipod.png\">ipod.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/c8kJo8fbuhtA3LaetV-xBCxB/ipod.png\" title=\"ipod.png\"><img src=\"/user_uploads/21317/c8kJo8fbuhtA3LaetV-xBCxB/ipod.png\"></a></div>",
+        "id": 241902731,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1623151612
+    },
+    {
+        "content": "<p>I was working in machine learning research some 15 years ago... the big realization I had back then was that all these algorithms, all the best algorithms, are just variations on dynamic programming, or what you might call the Hamilton-Jacobi-Bellman-Dijkstra equation. It's all application of the distributivity law: a(b+c)=ab+ac. </p>\n<p>Here is one reference: \"The Generalized Distributive Law\",  Srinivas M. Aji and Robert J. McEliece, 2000. <a href=\"https://www-users.cs.umn.edu/~baner029/Teaching/Fall07/papers/GDL.pdf\">https://www-users.cs.umn.edu/~baner029/Teaching/Fall07/papers/GDL.pdf</a></p>",
+        "id": 241906114,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1623153224
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/Introduce.20Yourself!/near/241649881\">said</a>:</p>\n<blockquote>\n<p>Lenses are a way of thinking about databases.  I think that seeing learning and databases as two ends of a continuum will eventually be very useful, but it will take more research.</p>\n</blockquote>\n<p>Tangent: do lenses have anything to do with graph rewriting? Applying a rule feels a lot like doing a select (LHS) and an update on the view of that selection (RHS).</p>",
+        "id": 241914927,
+        "sender_full_name": "ww",
+        "timestamp": 1623157312
+    },
+    {
+        "content": "<p>This topic was moved here from <a class=\"stream-topic\" data-stream-id=\"229111\" href=\"/#narrow/stream/229111-general/topic/Introduce.20Yourself.21\">#general &gt; Introduce Yourself!</a> by <span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span></p>",
+        "id": 241925013,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1623161343
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276114\">Chad Nester</span> <a href=\"#narrow/stream/229156-practice.3A-applied.20ct/topic/around.20machine.20learning/near/241902731\">said</a>:</p>\n<blockquote>\n<p>No amount of computational power or improvements in tooling are going to fix this: <a href=\"/user_uploads/21317/c8kJo8fbuhtA3LaetV-xBCxB/ipod.png\">ipod.png</a></p>\n</blockquote>\n<p>Now I'm wondering: is the 0.4% classification of the original image as iPod due to some kind of \"semantic leakage\" through apple &gt; Apple &gt; iPod?</p>",
+        "id": 241925224,
+        "sender_full_name": "Reid Barton",
+        "timestamp": 1623161427
+    },
+    {
+        "content": "<p>I guess it could also be that some of the iPods have a little apple logo on them.</p>",
+        "id": 241931802,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1623163854
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"405160\">ww</span> <a href=\"#narrow/stream/229156-practice.3A-applied.20ct/topic/around.20machine.20learning/near/241914927\">said</a>:</p>\n<blockquote>\n<p>Tangent: do lenses have anything to do with graph rewriting? Applying a rule feels a lot like doing a select (LHS) and an update on the view of that selection (RHS).</p>\n</blockquote>\n<p>I don't know enough about lenses to answer that.  Lenses are very general so one might ask more generally if you can get a lens out of a double pushout rewriting system.  (That's a generalization of graph rewriting.)</p>",
+        "id": 241941687,
+        "sender_full_name": "John Baez",
+        "timestamp": 1623167553
+    },
+    {
+        "content": "<p>In other words: \"I can't answer your question, but I can generalize it.\"  <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 241941767,
+        "sender_full_name": "John Baez",
+        "timestamp": 1623167592
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229156-practice.3A-applied.20ct/topic/around.20machine.20learning/near/241649328\">said</a>:</p>\n<blockquote>\n<p>I'm not sure I even know what \"learning theory\" is!</p>\n</blockquote>\n<p>I can try to explain the big picture. A core problem for any predictive model fitted to data is to estimate how well it will do on future data. We generically expect it will do worse: the predictive error on the training data will be optimistically biased because the fitting procedure is trying to minimize that error! So the question is how to estimate the gap between the expected future error and empirical error. When people talk about theoretical understanding of predictive models, part of what they mean is having provable control over this gap under some set of assumptions.</p>\n<p>There are several major theoretical approaches to this problem. The classical approach relies on distributional assumptions or asymptotics: you either assume a tractable distribution, most often the Gaussian, or use asympotics such as the CLT to get one, and then make explicit calculations. When it works, this approach is excellent because it produces tight bounds. However, it does not scale easily to complex models and methods, although there is interesting recent work on asympotics in high-dimensional regimes.</p>\n<p>Computational learning theory is centered around newer approaches that are non-asymptotic in that they produce finite-sample bounds on the generalization gap. The key mathematical tool is <a href=\"https://en.wikipedia.org/wiki/Concentration_of_measure\">concentration of measure</a> in high-dimensional space. The resulting bounds are usually too loose to be practically useful (e.g., for producing well-calibrated prediction intervals) but the theory is more general and easily applied to complex models than asympotics. That being said, we seem to be very far from being able to analyze realistic deep learning models using these techniques, hence the often heard complaint that the practice of deep learning has far outpaced the theory.</p>",
+        "id": 241980190,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1623183572
+    },
+    {
+        "content": "<p>The work I've been doing since, well, forever, but more systems-matically since the early 90s may fall into this ballpark.</p>\n<p>&bull; <a href=\"https://inquiryintoinquiry.com/2020/12/27/survey-of-inquiry-driven-systems-3/\">Survey of Inquiry Driven Systems</a><br>\n&bull; <a href=\"https://oeis.org/wiki/User:Jon_Awbrey/Prospects_for_Inquiry_Driven_Systems\">Prospects for Inquiry Driven Systems</a><br>\n&bull; <a href=\"https://oeis.org/wiki/Introduction_to_Inquiry_Driven_Systems\">Introduction to Inquiry Driven Systems</a><br>\n&bull; <a href=\"https://oeis.org/wiki/Inquiry_Driven_Systems_%E2%80%A2_Overview\">Inquiry Driven Systems &bull; Inquiry Into Inquiry</a></p>\n<p>Regards,<br>\nJon</p>",
+        "id": 242069575,
+        "sender_full_name": "Jon Awbrey",
+        "timestamp": 1623247217
+    },
+    {
+        "content": "<p>Hi, all I have been pulled into looking at creating ontologies for machine learning in order to help analyse the quality of machine learning models by keeping records of where the data came from, what the result was, what type of algorithm was used etc...  see for example the 2018 paper <a href=\"https://arxiv.org/abs/1807.05351\">ML-Schema: Exposing the Semantics of Machine Learning with Schemas and Ontologies</a> which also published an RDF ontology <a href=\"http://ml-schema.github.io/documentation/ML%20Schema.html\">ML-Schema</a>.</p>\n<p>One idea that was put forward and makes sense (from my limited understanding) is that a machine learning algorithm is a function that takes learning data (usually it seems tables of data) to create a function (the model)/ It is as if there was a fold over the table rows to result in a model that sumarised or went beyond the data.  </p>\n<p>Anyway before I look at the papers above, does that ring a bell? It would be helpful to have category theoretic backing for some of these intuitions...</p>",
+        "id": 280851173,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1651483297
+    },
+    {
+        "content": "<p>Just pattern-matching on \"ML\" and \"schema\", you <em>might</em> find something relevant in <a href=\"https://arxiv.org/abs/1907.08292\">https://arxiv.org/abs/1907.08292</a> , aka <span class=\"user-mention\" data-user-id=\"276875\">@Bruno Gavranovic</span>'s MSc thesis</p>",
+        "id": 280861667,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1651491034
+    },
+    {
+        "content": "<p>Greetings - has there been any research into 'fuzzifying' CT for the purposes of machine learning? I'm mostly self-taught so maybe may mix up some concepts but in <a href=\"https://arxiv.org/abs/1608.05524\">this</a> paper a definition of commutativity up-to epsilon in a metric-enrcihed category is given.This got me to thinking - what would happen if we used a ML objective function instead of strict equality of morphisms and then would be able to optimize whole diagrams of networks instead of a single network? Also, there's <a href=\"https://arxiv.org/abs/0803.3608\">this</a> paper where an abstract definition of a measure of information of a morphism is given,which could be used in unsupervised learning when we have no labeled data.</p>\n<p>As for the current trend of self-supervision in ML (which is basically and visually as far as i understand it the idea of taking some pixels away out of an image and trying to predict them based on what's left) - i have this idea of an agent-environment adjunction where the categories in play are the states of the agent (resp. environment) and the self-supervised way of learning is learning the free-forgetful adjunction between them.In unsupervised inpainting  (predicting the left out pixels) for example the category of the environemnt would be the set of images,the agent category would be a subcategory of some category which starts out as just obejcts for each pixel with morphisms from a terminal object which lets us formalise that in this state (sbcategory) we are looking at this image,and then we learn (or 'grow') the subcategory by some algorithms by optimizing the forgetful (in this case it forgets the pixels)-free (most general guess from the given data) adjunction.For example,going by the intuition given in the categorical manifesto,limits are solution sets so from the ML perspective they are an abstraction of sort-of generative models (they model the probability the distribution p(X1,..,XN|Z) where Xi are objects in the base of the limit) and colimits are discriminative models (p(Z|X1,...,XN) where Z is the apex),but from an ML perspective all the limits and colimits can be seen as kernels as in a convolutional neural network for example.We go over the objects in th state of the agent that we have and and add an object by creating it from optimizing a (co)limit.</p>\n<p>Since this is already long I'm gonna finish by saying that I loved the \"Learners' Languages\" paper of Spivak - categorical logic in my view could be used as a tool in ML interpretability/explainability and also in a generative (In the ML case) way by constraining whats sort of structure we want to learn/generate,basically conditioning the network (category) of  networks or (whatever ML model we want).Also,I have an inkling feeling that there's some connection between the attention mechanism of transformers and lenses,since the attention mechanism 'queries' some 'data' and there's already a connection between lenses and databases as was said in this topic.</p>",
+        "id": 280886690,
+        "sender_full_name": "Simonas Tutlys",
+        "timestamp": 1651504301
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275901\">Jules Hedges</span> <a href=\"#narrow/stream/229156-practice.3A-applied-ct/topic/around.20machine.20learning/near/280861667\">said</a>:</p>\n<blockquote>\n<p>Just pattern-matching on \"ML\" and \"schema\", you <em>might</em> find something relevant in <a href=\"https://arxiv.org/abs/1907.08292\">https://arxiv.org/abs/1907.08292</a> , aka <span class=\"user-mention silent\" data-user-id=\"276875\">Bruno Gavranovic</span>'s MSc thesis</p>\n</blockquote>\n<p>Thanks a lot. That is a very helpful thesis, just at the right level for me to understand. I was looking at traditional Machine Learning examples as implemented in the <a href=\"https://waikato.github.io/weka-wiki/\">Weka Java library</a> using algorithms described in the book <a href=\"https://books.google.de/books?id=1SylCgAAQBAJ&amp;printsec=frontcover&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false\">Data Mining: Practical Machine Learning Tools and Techniques</a>. The thesis by Bruno is looking more at Neural Network learning, but it is interesting to see the relationships.</p>\n<p>An example I was looking at was a <a href=\"https://old.openml.org/r/100241\">ML Run 100241 saved in the OpenML</a> which was described carefully in  <a href=\"http://rstudio-pubs-static.s3.amazonaws.com/73039_9946de135c0a49daa7a0a9eda4a67a72.html\">Analysis of Credit Approval Data</a> and for which there is an interesting improvement showing how careful one has to be to clean the data used in: <a href=\"https://rpubs.com/JMarcos_87/730835\">Credit Screening Project</a>. This uses Logistic Regression (as <a href=\"https://weka.sourceforge.io/doc.stable-3-8/weka/classifiers/functions/Logistic.html\">implemented in Java</a>) to give a probabilistic value on credit-worthiness.  The original data was anonymised, but the first article above managed to decrypt them to something meaningful, making the exercise more interesting. The data consists of what I think the thesis would consider a vector space of 16 dimensions</p>\n<div class=\"codehilite\"><pre><span></span><code>&#39;data.frame&#39;:   689 obs. of  16 variables:\n $ Male          : num  1 1 0 0 0 0 1 0 0 0 ...\n $ Age           : chr  &quot;58.67&quot; &quot;24.50&quot; &quot;27.83&quot; &quot;20.17&quot; ...\n $ Debt          : num  4.46 0.5 1.54 5.62 4 ...\n $ Married       : chr  &quot;u&quot; &quot;u&quot; &quot;u&quot; &quot;u&quot; ...\n $ BankCustomer  : chr  &quot;g&quot; &quot;g&quot; &quot;g&quot; &quot;g&quot; ...\n $ EducationLevel: chr  &quot;q&quot; &quot;q&quot; &quot;w&quot; &quot;w&quot; ...\n $ Ethnicity     : chr  &quot;h&quot; &quot;h&quot; &quot;v&quot; &quot;v&quot; ...\n $ YearsEmployed : num  3.04 1.5 3.75 1.71 2.5 ...\n $ PriorDefault  : num  1 1 1 1 1 1 1 1 1 0 ...\n $ Employed      : num  1 0 1 0 0 0 0 0 0 0 ...\n $ CreditScore   : num  6 0 5 0 0 0 0 0 0 0 ...\n $ DriversLicense: chr  &quot;f&quot; &quot;f&quot; &quot;t&quot; &quot;f&quot; ...\n $ Citizen       : chr  &quot;g&quot; &quot;g&quot; &quot;g&quot; &quot;s&quot; ...\n $ ZipCode       : chr  &quot;00043&quot; &quot;00280&quot; &quot;00100&quot; &quot;00120&quot; ...\n $ Income        : num  560 824 3 0 0 ...\n $ Approved      : chr  &quot;+&quot; &quot;+&quot; &quot;+&quot; &quot;+&quot; ...\n</code></pre></div>\n<p>If one were to model this as the thesis does one would have a functor from the free category from the single arrow graph <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mi>n</mi><mo>→</mo><mi>R</mi></mrow><annotation encoding=\"application/x-tex\">In \\to R</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">I</span><span class=\"mord mathnormal\">n</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.00773em;\">R</span></span></span></span> to the category of Euclidian Vector spaces with I guess <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mi>n</mi></mrow><annotation encoding=\"application/x-tex\">In</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">I</span><span class=\"mord mathnormal\">n</span></span></span></span> mapped to the first 15 values and  <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>R</mi></mrow><annotation encoding=\"application/x-tex\">R</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.00773em;\">R</span></span></span></span> mapped to a single Real Number corresponding to <code>Approved</code> since linear regression gives a probability value.</p>\n<p>Thinking about that the MSC model does seem to fit the credit approval case too then. and it confirms the idea that a Model is a function (as picked out by a functor) But the MSc helps explain the importance of parameters and how they fit in (parameters are also used in the credit example). </p>\n<p>The functorial view I think allows the thesis to  compose ML Algorithms following work by Spivak and Fong... I am still not quite clear how much that is tied to neural networks and how far traditional ML fits the picture.</p>",
+        "id": 281597007,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1652013244
+    },
+    {
+        "content": "<p>Currently working on an experiment in pytorch trying to see wether ml models can understand composition in categories, but ran into a bug while almost finishing and I'm not that much of a programmer to fix it quick.would be interesting to see whether both orderings of ML and CT (ml for ct,ct for ml) could be fruitful.if anyones interested pm me :)</p>",
+        "id": 295564777,
+        "sender_full_name": "Simonas Tutlys",
+        "timestamp": 1661590560
+    },
+    {
+        "content": "<p>My main overall goal is somehow coherently combining representations for structure and probability/chaos/entropy/'fuzziness' because i think that somewhere in that spectrum lies the answer to AI.First AI wave was all about structure but basen on overly specific and rigid things like logic,now we completely switched to the latter disregarding the first from the sounds of the hype around it.Thesis/Antithesis/Synthesis :)</p>",
+        "id": 295587392,
+        "sender_full_name": "Simonas Tutlys",
+        "timestamp": 1661601788
+    },
+    {
+        "content": "<p>If my code is correct,a simple ml model can understand composition with n extremely short training time with both 'simple' (taken from the definition of the category) and 'complex' (composition of simple compositions) compositions.</p>",
+        "id": 297155039,
+        "sender_full_name": "Simonas Tutlys",
+        "timestamp": 1662344207
+    },
+    {
+        "content": "<p>Unless I am mistaken the weight matrix of a multilayer perceptron defines a $\\mathbb{R}$-category. (More generally, if one takes the transitive reduction of a DAG and specifies data from a monoidal category $\\mathbf{M}$ on the arcs that defines a $\\mathbf{M}$-category.) Is this fact discussed anywhere (especially in the context of neural stuff)?</p>",
+        "id": 322310097,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1674142350
+    },
+    {
+        "content": "<p>(Meta: use double $ to get LaTeX)</p>",
+        "id": 322346714,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1674152163
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277578\">Steve Huntsman</span> <a href=\"#narrow/stream/229156-practice.3A-applied-ct/topic/around.20machine.20learning/near/322310097\">said</a>:</p>\n<blockquote>\n<p>Unless I am mistaken the weight matrix of a multilayer perceptron defines a $\\mathbb{R}$-category. (More generally, if one takes the transitive reduction of a DAG and specifies data from a monoidal category $\\mathbf{M}$ on the arcs that defines a $\\mathbf{M}$-category.) Is this fact discussed anywhere (especially in the context of neural stuff)?</p>\n</blockquote>\n<p>Nvm, I think I'm being stupid.</p>",
+        "id": 322391070,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1674166970
+    },
+    {
+        "content": "<p>I haven't been much in this thread, but what folks might find useful is the <a href=\"https://github.com/bgavran/Category_Theory_Machine_Learning\">list of papers that tackle machine learning from the perspective of category theory</a> that I created.</p>",
+        "id": 322508968,
+        "sender_full_name": "Bruno Gavranović",
+        "timestamp": 1674220181
+    },
+    {
+        "content": "<p>[i thought i posted this yesterday but it seems i didn't push send or something]</p>\n<p>this is not CT on the surface but below the surface everything is: <br>\n<a href=\"http://url\">https://arstechnica.com/information-technology/2023/02/ai-powered-bing-chat-loses-its-mind-when-fed-ars-technica-article/</a><br>\nthis is WAY above my head and it seems these people are also just babbling about it.</p>\n<p>any structured ideas how this can be happening?</p>\n<p>[here is me babbling:] defending against personal attacks requires a \"feeling of self\" and \"personal integrity\" as an invariant. where under the sky can a \"feeling of self\" arise in a neural net? and then defending against error reports by constructing <em>lies</em> seems like a feedback loop from self back into the data. but since there are ostensibly no feedback loops in a trained GPT, they must be coming from the <em>chat</em> part. woow. </p>\n<p>are we witnessing the emergence of an experimental science of epistemology? (is there an underlying adjunction to present knowledge updates :^)</p>",
+        "id": 328136192,
+        "sender_full_name": "dusko",
+        "timestamp": 1676508540
+    },
+    {
+        "content": "<p>You posted it already, Dusko, and we've been talking about it ever since.</p>",
+        "id": 328137131,
+        "sender_full_name": "John Baez",
+        "timestamp": 1676509133
+    },
+    {
+        "content": "<p>Oh, maybe you didn't notice that someone moved the conversation to another place, since it's not about \"applied ct\".</p>",
+        "id": 328137290,
+        "sender_full_name": "John Baez",
+        "timestamp": 1676509230
+    },
+    {
+        "content": "<p>Go here, <span class=\"user-mention\" data-user-id=\"294557\">@dusko</span>: <a href=\"#narrow/stream/229451-general.3A-off-topic/topic/around.20machine.20learning/near/327998515\">https://categorytheory.zulipchat.com/#narrow/stream/229451-general.3A-off-topic/topic/around.20machine.20learning/near/327998515</a></p>",
+        "id": 328137361,
+        "sender_full_name": "John Baez",
+        "timestamp": 1676509291
+    },
+    {
+        "content": "<p>It's always good to click on \"Recent conversations\" to figure out what's going on....</p>",
+        "id": 328137502,
+        "sender_full_name": "John Baez",
+        "timestamp": 1676509367
+    },
+    {
+        "content": "<p>sorry :(<br>\nthe mistake is not that i didn't check recent conversations, but i posted to a stream to which i am not subscribed which is stupider... oh no i still don't see it in recent conversations since i am not subscribec to the new one... will do. sorry.</p>",
+        "id": 328152936,
+        "sender_full_name": "dusko",
+        "timestamp": 1676521751
+    },
+    {
+        "content": "<p>apologies for the confusion!</p>",
+        "id": 328664494,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1676725610
+    },
+    {
+        "content": "<p>I think I found another categorical way of thinking of neural networks,but I'm not that familiar with operads to check wether my intuitions are correct.a neuron is an action in an operad (or an algebra for an operad i don't know) whose composition operation is an activation function over the sum of the inputs over a monoidal category M  whose two objects are a designated terminal object and R,morphisms R-&gt;R are multiplications with some number (y=w*x,so hom(R,R) is isomorphic to R as well) and tensor product is Identity (R^n=R).It's a better intuition for me to think of M as copies of R,since I'm imagining a state of an agent/model as a subcategory of this category where the agents inputs are modeled as morphisms from the terminal object (constants) and the processing happens in the morphisms of that subcategory.</p>",
+        "id": 352096449,
+        "sender_full_name": "Simonas Tutlys",
+        "timestamp": 1682268798
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276875\">Bruno Gavranović</span> <a href=\"#narrow/stream/229156-practice.3A-applied-ct/topic/around.20machine.20learning/near/322508968\">said</a>:</p>\n<p>Nevermind,The \"Categorical Hopfield Networks\" from this list and its precursor paper seems similar to what I'm thinking of.</p>",
+        "id": 352102213,
+        "sender_full_name": "Simonas Tutlys",
+        "timestamp": 1682271482
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"294557\">dusko</span> <a href=\"#narrow/stream/229156-practice.3A-applied-ct/topic/around.20machine.20learning/near/328136192\">said</a>:</p>\n<blockquote>\n<p>are we witnessing the emergence of an experimental science of epistemology? (is there an underlying adjunction to present knowledge updates :^)</p>\n</blockquote>\n<p>I'm thinking that knowledge updates are not adjunctions in themselves since precise and perfect knowledge about the environment of the agent doesn't fit in it's memory.I'm thinking of optimizing an agent-environemnt adjunction (the categories are states of agent and environemnt,morphisms could be chosen based on the requirements of what you're building) where the the 'free' functor is perception and the 'forgetful' one is inference.Perfect knowledge is only in the limit.</p>",
+        "id": 352102912,
+        "sender_full_name": "Simonas Tutlys",
+        "timestamp": 1682271797
+    }
+]

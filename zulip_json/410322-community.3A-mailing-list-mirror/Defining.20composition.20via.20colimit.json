@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Dear all,</p>\n<p>In a current project we have the following situation. For a category<br>\nwe are attempting to define, we know what the objects are, and also<br>\nthe morphisms. Unfortunately we do not have an obvious composition<br>\noperation. What we do have is a \"colimit\" operation, which operates on<br>\na directed graph labelled by our objects and morphisms, and returns a<br>\nputative colimit object equipped with a family of morphisms in the<br>\nusual way (or fails.)</p>\n<p>We then define the composite of morphisms A-&gt;B,  B-&gt;C  to be the<br>\ncolimit of the diagram A-&gt;B-&gt;C. We then check that this composition<br>\noperation satisfies the axioms of a category, and that our earlier<br>\ncolimit construction is indeed an actual colimit with respect to the<br>\ncompositional structure. It seems that everything works fine, and we<br>\nare happy.</p>\n<p>My question is whether this has any precedent in the literature. The<br>\nsituation as I have described it is a bit simplified, in reality there<br>\nis some higher categorical stuff going on. Personally I'm sure I've<br>\nread similar things in the literature in the past but I can't track<br>\nthem down now that I actually need them. The nLab article on<br>\n\"composition\" has some stuff about this with regard to transfinite<br>\ncomposition, but we're not trying to do anything transfinite here.</p>\n<p>Best wishes,<br>\nJamie</p>\n<hr>\n<p>You're receiving this message because you're a member of the Categories mailing list group from Macquarie University.</p>\n<p>Leave group:<br>\n<a href=\"https://outlook.office365.com/owa/categories@mq.edu.au/groupsubscription.ashx?source=EscalatedMessage&amp;action=leave&amp;GuestId=7d1df94c-5953-42b8-9208-4e4b5067c2dc\">https://outlook.office365.com/owa/categories@mq.edu.au/groupsubscription.ashx?source=EscalatedMessage&amp;action=leave&amp;GuestId=7d1df94c-5953-42b8-9208-4e4b5067c2dc</a></p>",
+        "id": 400004987,
+        "sender_full_name": "Email Gateway",
+        "timestamp": 1698951979
+    },
+    {
+        "content": "<p>Hi Jamie,</p>\n<p>That does sound interesting. Did you look at:</p>\n<ul>\n<li>Kelly, G. M., &amp; Le Creurer, I. J. On the monadicity over graphs of<br>\n  categories with limits. Cahiers de Topologie et G\\'eom\\'etrie<br>\n  Diff\\'erentielle Cat\\'egoriques, 1997(38), 179–191.</li>\n</ul>\n<p>This paper, among other things, shows that categories with limits<br>\nindexed by finite acyclic directed graphs are monadic over directed<br>\ngraphs. It seems like you could be describing an algebra structure for<br>\nthis monad (which is a fortiori a category). The paper gives a fairly<br>\nexplicit presentation of this monad by generators and relations, so you<br>\nshould be able to check fairly easily if that is indeed what is going<br>\non.</p>\n<p>Richard</p>\n<p>Jamie Vicary &lt;<a href=\"mailto:jamievicary@gmail.com\">jamievicary@gmail.com</a>&gt; writes:</p>",
+        "id": 400033931,
+        "sender_full_name": "Email Gateway",
+        "timestamp": 1698968108
+    },
+    {
+        "content": "<p>[[The following message is sent on behalf of <a href=\"mailto:streicher@mathematik.tu-darmstadt.d\">streicher@mathematik.tu-darmstadt.d</a> -- for whatever reason it did not seem to have been sent/approved properly to the mailing list, apologies if you receive multiple copies]]</p>\n<p>Composition of distributors or profunctors would be an example. But<br>\ncomposition is only defined up to isomorphism and so one gets a<br>\nbicategory. This was done in the second half of the sixties by Benabou.</p>\n<p>But the situation can be rectified when redefining distributors from A to B<br>\nas cocontinuous functors from Psh(A) to Psh(B).</p>\n<p>Thomas</p>\n<p>PS I take the opportunity to thank Bob for organising and moderating the<br>\ncategories list for such a long time.<br>\nAnd thanks to the people who have taken over! I missed it for quite some<br>\ntime already!</p>",
+        "id": 400104986,
+        "sender_full_name": "Email Gateway",
+        "timestamp": 1699007371
+    }
+]

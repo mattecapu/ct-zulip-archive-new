@@ -1,0 +1,98 @@
+[
+    {
+        "content": "<p>Hi, I'm trying to learn some things about accessible categories, and it seems to me that sets, seen as categories with only identity morphisms, are <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>λ</mi></mrow><annotation encoding=\"application/x-tex\"> \\lambda </annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">λ</span></span></span></span>-accessible for any regular cardinal <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>λ</mi></mrow><annotation encoding=\"application/x-tex\"> \\lambda </annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">λ</span></span></span></span>, no matter the set's cardinality. All objects seem to be <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>λ</mi></mrow><annotation encoding=\"application/x-tex\"> \\lambda </annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">λ</span></span></span></span>-presentable because <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>λ</mi></mrow><annotation encoding=\"application/x-tex\"> \\lambda </annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">λ</span></span></span></span>-directed diagrams in a set have to be constant. Is that really the case?</p>",
+        "id": 313290032,
+        "sender_full_name": "Josselin Poiret",
+        "timestamp": 1669904300
+    },
+    {
+        "content": "<p>Yes!</p>",
+        "id": 313293375,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1669905242
+    },
+    {
+        "content": "<p>It's also important that the set is, well, a set, and not a proper class.</p>",
+        "id": 313317814,
+        "sender_full_name": "Reid Barton",
+        "timestamp": 1669911803
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276480\">@Reid Barton</span>  Could you explain for a beginner what would go wrong if the set weren't set but a proper class, what would fail ? If the cardinality is greater than <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>λ</mi></mrow><annotation encoding=\"application/x-tex\">\\lambda</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">λ</span></span></span></span> then it can be arbitrarily large and even a proper class, why \"not\" ? Maybe the reason is, that it wouldn't have a  set of representable objects ?</p>",
+        "id": 411263149,
+        "sender_full_name": "Jan Pax",
+        "timestamp": 1704403181
+    },
+    {
+        "content": "<p>Because the definition of <a href=\"https://ncatlab.org/nlab/show/accessible%20category\">[[accessible category]]</a> requires a small set of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>λ</mi></mrow><annotation encoding=\"application/x-tex\">\\lambda</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">λ</span></span></span></span>-presentable objects. So even if the category is large, you know you can use just a small worth of objects to present all the other ones. The reason every set is accessible is that every object present itself, so this cuts it only if the objects form a small set, else you'd need too many objects to present the set!</p>",
+        "id": 411264382,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1704403803
+    },
+    {
+        "content": "<p>More generally, <em>any</em> small category is accessible as long as it has split idempotents.  In particular, any (small) poset is accessible.</p>",
+        "id": 411265551,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704404417
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276777\">@Mike Shulman</span>  huh, what goes wrong in a small category if idempotents don't split?</p>",
+        "id": 411296938,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1704420688
+    },
+    {
+        "content": "<p>A <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>λ</mi></mrow><annotation encoding=\"application/x-tex\">\\lambda</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">λ</span></span></span></span>-accessible category is required to have <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>λ</mi></mrow><annotation encoding=\"application/x-tex\">\\lambda</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">λ</span></span></span></span>-filtered colimits.  Splitting of idempotents is a <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>λ</mi></mrow><annotation encoding=\"application/x-tex\">\\lambda</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">λ</span></span></span></span>-filtered colimit for any <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>λ</mi></mrow><annotation encoding=\"application/x-tex\">\\lambda</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">λ</span></span></span></span>.</p>",
+        "id": 411297281,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704420917
+    },
+    {
+        "content": "<p>I guess it's the minimum necessary to generate all the needed colimits? </p>\n<p>Is the index of accessiblity the cardinality of the set of morphisms? Or is it something like a really small regular cardinal, eg 2?</p>",
+        "id": 411297314,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1704420942
+    },
+    {
+        "content": "<p>Oh, heh, snap</p>",
+        "id": 411297335,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1704420961
+    },
+    {
+        "content": "<p>So I guess we can take <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>λ</mi><mo>=</mo><mn>2</mn></mrow><annotation encoding=\"application/x-tex\">\\lambda = 2</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">λ</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">2</span></span></span></span>?</p>",
+        "id": 411297460,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1704421027
+    },
+    {
+        "content": "<p>No, wait. A split idempotent is a limit of a diagram with more than one arrow.</p>",
+        "id": 411297570,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1704421097
+    },
+    {
+        "content": "<p>I don't think the concept of accessibility works very well for finite regular cardinals.</p>",
+        "id": 411297602,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704421129
+    },
+    {
+        "content": "<p>Hmm. I can imagine.</p>",
+        "id": 411297638,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1704421155
+    },
+    {
+        "content": "<p>As proven in Adamek-Rosicky, the result is that if a small category has fewer than <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>λ</mi></mrow><annotation encoding=\"application/x-tex\">\\lambda</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">λ</span></span></span></span> morphisms, then it is <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>λ</mi><mo>+</mo></msup></mrow><annotation encoding=\"application/x-tex\">\\lambda^+</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7713em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">λ</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.7713em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">+</span></span></span></span></span></span></span></span></span></span></span>-accessible.</p>",
+        "id": 411297783,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704421230
+    },
+    {
+        "content": "<p>They also say this is the best you can do, exhibiting a countable category with split idempotents that is not <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"normal\">ℵ</mi><mn>1</mn></msub></mrow><annotation encoding=\"application/x-tex\">\\aleph_1</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8444em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord\">ℵ</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">1</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span>-accessible.</p>",
+        "id": 411297868,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704421288
+    }
+]

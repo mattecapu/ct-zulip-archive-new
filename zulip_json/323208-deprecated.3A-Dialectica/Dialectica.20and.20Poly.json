@@ -1,0 +1,344 @@
+[
+    {
+        "content": "<p>Dear MRC-Dialectica participants, <span class=\"user-mention\" data-user-id=\"343715\">@Nelson Niu</span> will talk this Tuesday at 8 am (Pacific time) about the connections between  Dialectica constructions and Polynomials--or rather about  the connections between Poly and Dialectica. You should've received a handout by email. <br>\nplease let me and <span class=\"user-mention\" data-user-id=\"427811\">@Jérémie Koenig</span>  know if you cannot make it.  </p>\n<p>Once again, please have questions! And please let us know in which subgroup you are *tentatively associating yourself with.</p>",
+        "id": 281480348,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1651863427
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276656\">@Valeria de Paiva</span> <span class=\"user-mention\" data-user-id=\"427811\">@Jérémie Koenig</span> <span class=\"user-mention\" data-user-id=\"343715\">@Nelson Niu</span><br>\nMay I formally express interest in this topic, in particular questions 2.1.2, 2.1.8, and 2.1.13</p>",
+        "id": 281744821,
+        "sender_full_name": "Joseph Dorta",
+        "timestamp": 1652129924
+    },
+    {
+        "content": "<p>Hi, <span class=\"user-mention\" data-user-id=\"497494\">@Joseph Dorta</span>  you can certainly express interest in the topics, as you have, thank you for committing to a problem area!  and more thanks to <span class=\"user-mention\" data-user-id=\"343715\">@Nelson Niu</span>  for presenting the problems in such a clear form. but how the work will (or not) progress is not guaranteed, right? <br>\nwe will record the chat tomorrow and post it for the group, right <span class=\"user-mention\" data-user-id=\"427811\">@Jérémie Koenig</span> ?</p>",
+        "id": 281747807,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1652131414
+    },
+    {
+        "content": "<p>I was looking at your notes this morning Nelson.  Playing around with the definitions of the objects in Agda.</p>\n<div class=\"codehilite\"><pre><span></span><code>record Poly : Set where\n  constructor _▹_\n  field\n    pos : Set\n    dir : pos -&gt; Set\n\nrecord DC : Set where\n    field\n        pos : Set\n        dir : pos -&gt; Set\n        pred : ∀(i : pos)(a : dir i) → Two\n\nrecord Dial (L : Set){{_ : Lineale L}} : Set where\n    field\n        pos : Set\n        dir : pos -&gt; Set\n        pred : ∀(i : pos)(a : dir i) → L\n</code></pre></div>\n<p>This style of definition is the <code>Container/Polynomial</code> definition that is nice to work with in Agda (see <a href=\"https://github.com/bond15/Polynomials-Categorically/blob/97bd7c43157be8d7ead7307347feefa2ed3f2571/ToposPoly/Poly.agda#L14\">here</a>). <br>\nI had not thought about this type of encoding and I'd like to explore this more. Could have interesting applications.</p>\n<p>I also started a \"direct\" encoding of Dialectica <a href=\"https://github.com/bond15/Dialectica/blob/main/DC.agda\">here</a></p>",
+        "id": 281837245,
+        "sender_full_name": "Eric Bond",
+        "timestamp": 1652195101
+    },
+    {
+        "content": "<p>Thanks <span class=\"user-mention\" data-user-id=\"343715\">@Nelson Niu</span>  for a great presentation!</p>",
+        "id": 281869871,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1652208986
+    },
+    {
+        "content": "<p>This is just to make sure that <span class=\"user-mention\" data-user-id=\"498391\">@Colin Bloomfield</span>  sees this stream! (myself I missed it again, had to go to recent topics to find it)</p>",
+        "id": 281884229,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1652215737
+    },
+    {
+        "content": "<p>Did anyone at the meeting today saved the chat? I wanted to do a summary, including the chat.</p>",
+        "id": 281884572,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1652215901
+    },
+    {
+        "content": "<p>I did, up until the very end I think. Where should I put it <span class=\"user-mention\" data-user-id=\"276656\">@Valeria de Paiva</span> ?</p>",
+        "id": 281885186,
+        "sender_full_name": "Jonathan Weinberger",
+        "timestamp": 1652216222
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276656\">@Valeria de Paiva</span> you've got <span aria-label=\"mail\" class=\"emoji emoji-2709\" role=\"img\" title=\"mail\">:mail:</span></p>",
+        "id": 281888795,
+        "sender_full_name": "Jonathan Weinberger",
+        "timestamp": 1652218201
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"380293\">@Eric Bond</span>  I don't think this Agda code is completely  correct. but this is possibly an interesting \"story\"<br>\nthe second block of code does not work for me.</p>\n<p>record DC : Set where<br>\n    field<br>\n        pos : Set<br>\n        dir : pos -&gt; Set<br>\n        pred : ∀(i : pos)(a : dir i) → Two</p>\n<p>If one does a \"dependent Dialectica\" like the above, we have a problem. <br>\nBecause this subcategory is not closed under morphisms! i.e it's not a subcategory.</p>\n<p>The Dialectica category  would have (using the notation above) objects <br>\n(pos, dir, pred) and (pos', dir', pred'), where dir=X^pos and X is a  generic set and similarly<br>\ndir'= X'^pos'.  </p>\n<p>A dialectica morphism would map pos-&gt; pos', but it would not know how to deal with the second coordinate, because <br>\npos\\times dir'=(X')^{pos'} == pos\\times pos'\\to dir' but then I cannot see a natural map into dir.</p>\n<p>Don't know how clear this is, but the point is that Dial objects are not of the form (U, X^U, pred), they're generically (U,X, pred), any X, I cannot force the second coordinate to be of the form X^U. (or maybe I can, but I don't see this immediately. I can see a map using two evaluations plus projections, but don't see why it would satisfy the dialectica condition on the predicates.)</p>",
+        "id": 281894678,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1652221672
+    },
+    {
+        "content": "<p>Many thanks <span class=\"user-mention\" data-user-id=\"277106\">@Jonathan Weinberger</span> !</p>",
+        "id": 281909633,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1652234627
+    },
+    {
+        "content": "<p>hi <span class=\"user-mention\" data-user-id=\"498391\">@Colin Bloomfield</span> ! great to hear from you. Thanks!!</p>",
+        "id": 282003576,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1652291627
+    },
+    {
+        "content": "<p>Thanks for the code in the <a href=\"#narrow/stream/323208-practice.3A-Dialectica\">here</a> link, <span class=\"user-mention\" data-user-id=\"380293\">@Eric Bond</span> ! <br>\n(I hadn't noticed it before!)</p>\n<p>Carrying on comparing to Dialectica, you say in lines 57--61</p>\n<blockquote>\n<p>--tensor \\ox<br>\n-- Ayᴮ × Cyᴰ = ACyᴮᴰ<br>\n_⊗ₚ_ : Poly → Poly → Poly<br>\np ⊗ₚ q = record { pos = pos p × pos q ; dir = λ {(i , j) → (dir p) i × (dir q) j} }<br>\n-- show these are all monoidal structures on poly</p>\n</blockquote>\n<p>This tensor  product structure is described for Dial_2(Set) in the thesis chapter 1.</p>",
+        "id": 282276242,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1652461437
+    },
+    {
+        "content": "<p>Hi everyone (but mostly the Poly group, for now <span class=\"user-mention\" data-user-id=\"497494\">@Joseph Dorta</span> <span class=\"user-mention\" data-user-id=\"497186\">@Samantha Jarvis</span>)!</p>\n<p>Just wanted to share the most recent version of the Dialectica &amp; Poly handout <a href=\"https://drive.google.com/file/d/1c--4z7KXXIDWK8jJNygN4QtqhFsmCJPv/view\">here</a>. I added a little more to it today to round out the \"Comparison\" section, and I'll be filling in the rest over the next few days (while also continuing to fill in the Poly book...).</p>\n<p>Speaking of the Poly book, you'd usually be able to find it at <a href=\"https://topos.site/poly-book.pdf\">https://topos.site/poly-book.pdf</a>, which is how I've linked it in the handout as well, <del>but the online version seems to be down right now. I'm trying to get that fixed, but for now you can find the most recent version <a href=\"https://drive.google.com/file/d/14CigeMVyUzm2qDhCd5a5HzqGeIMWS8Bd/view\">here</a></del> (thanks <span class=\"user-mention\" data-user-id=\"497047\">@Abdullah Malik</span> for uploading it the first time!). </p>\n<p><strong>EDIT: <a href=\"https://topos.site/poly-book.pdf\">The book is back online</a>!</strong> (many thanks to the inimitable Tim Hosgood)</p>\n<p>Finally, for the two references Valeria asked for, I intended the handout to be the main thing you'd need to read, but I'd recommend David Spivak's <a href=\"https://arxiv.org/abs/2005.01894\">Poly for dynamical systems primer</a> and Sean Moss's <a href=\"https://youtu.be/tw08TmO0RRo&amp;t=7190s\">hour-long talk</a> (slides <a href=\"https://topos.site/p-func-workshop/slides/Moss.pdf\">here</a>) as well.</p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"tw08TmO0RRo\" href=\"https://youtu.be/tw08TmO0RRo&amp;t=7190s\"><img src=\"https://uploads.zulipusercontent.net/3a92baa7bd80dd0881658eaa1c1330ad8e672d80/68747470733a2f2f692e7974696d672e636f6d2f76692f74773038546d4f3052526f2f64656661756c742e6a7067\"></a></div><p>Thanks, and see you all soon!</p>",
+        "id": 282738993,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1652850248
+    },
+    {
+        "content": "<p>Awesome handout <span class=\"user-mention\" data-user-id=\"343715\">@Nelson Niu</span>!  and thanks for the two references, i.e for  pointing out to David Spivak's Poly for dynamical systems primer as well as Sean Moss talk.</p>",
+        "id": 282845047,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1652905845
+    },
+    {
+        "content": "<div class=\"codehilite\"><pre><span></span><code>-- &quot;non dependent Poly with a relation&quot;?\nrecord LDialSet {ℓ : Level}{ L : Set ℓ}{{ _ : Lineale L}} : Set (lsuc ℓ) where\n    constructor ⟨_,_,_⟩\n    field\n        pos : Set ℓ\n        dir : Set ℓ\n        α : pos → dir → L\n\n-- Poly is &quot;dependent Dialectica without a relation&quot;?\nrecord Poly {ℓ : Level} : Set (lsuc ℓ) where\n    field\n        pos : Set ℓ\n        dir : pos → Set ℓ\n\n-- so what is ..? Dependent Dialectica with a relation?\nrecord LDepDialSet {ℓ : Level}{ L : Set ℓ}{{ _ : Lineale L}} : Set (lsuc ℓ) where\n    field\n        pos : Set ℓ\n        dir : pos → Set ℓ\n        α : (p : pos) → dir p → L\n</code></pre></div>",
+        "id": 284079610,
+        "sender_full_name": "Eric Bond",
+        "timestamp": 1653612541
+    },
+    {
+        "content": "<p>Well, Eric I do not think this Dependent Dialectica with a relation works. <br>\nI don't know how the composition works to preserve the relation. but maybe I have not  tried hard enough.</p>",
+        "id": 284138895,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1653660950
+    },
+    {
+        "content": "<p>It should work; this is just \\sum\\prod 2 (or L instead of 2) from Sean Moss’s talk</p>",
+        "id": 284152629,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1653667685
+    },
+    {
+        "content": "<p>I don’t think the dependence changes how the relation works too much, just the signatures of the backward functions slightly</p>",
+        "id": 284152734,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1653667747
+    },
+    {
+        "content": "<blockquote>\n<p>It should work; this is just \\sum\\prod 2 (or L instead of 2) from Sean Moss’s talk </p>\n</blockquote>\n<p>well, if we want to call \\sum\\prod 2 Dialectica then maybe. but there is a difference between \\sum\\prod 2 and Dialectica, because there is no cartesian closed structure in Dialectica and no coproducts, only weak ones. so \\sum\\pro 2 is a generalization of dialectica,  not Dialectica as originally considered.</p>",
+        "id": 284157242,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1653670129
+    },
+    {
+        "content": "<p>Yes, it’s different, which is why Sean Moss called it dependent dialectica instead of just dialectica I believe! And this is the same difference between Jules Hedges category of bimorphic lenses versus Poly, whose morphisms are “dependent” lenses</p>",
+        "id": 284177652,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1653681348
+    },
+    {
+        "content": "<blockquote>\n<p>And this is the same difference between Jules Hedges category of bimorphic lenses</p>\n</blockquote>\n<p>well, I don't know much about Hedges category(I should), but I thought the adjective \"dependent\" had to do with one of the sets being an index set (so minimal structure) while the other set is like a space, plenty of structure. and in the case of Poly this space this full of structure set I thought was supposed to be <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>X</mi><mi>U</mi></msup></mrow><annotation encoding=\"application/x-tex\">X^U</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8413em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8413em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\" style=\"margin-right:0.10903em;\">U</span></span></span></span></span></span></span></span></span></span></span> or <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><mi>d</mi><mi>i</mi><mi>r</mi><mi>A</mi><msup><mo stretchy=\"false\">)</mo><mrow><mi>p</mi><mi>o</mi><mi>s</mi><mi>A</mi></mrow></msup></mrow><annotation encoding=\"application/x-tex\">(dir A)^{pos A}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1.0913em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">d</span><span class=\"mord mathnormal\">i</span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">r</span><span class=\"mord mathnormal\">A</span><span class=\"mclose\"><span class=\"mclose\">)</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8413em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathnormal mtight\">p</span><span class=\"mord mathnormal mtight\">os</span><span class=\"mord mathnormal mtight\">A</span></span></span></span></span></span></span></span></span></span></span></span>. but the issue with this class is that it's not closed under the monoidal structures we want to check in Dial or the internal-hom. so logically it seems a strange situation.</p>\n<p>Now reversing tables <span class=\"user-mention\" data-user-id=\"343715\">@Nelson Niu</span> , I have not seen in the Poly handout a discussion of the tensor product of GC, which I believe is also duoidal with <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>⊗</mo></mrow><annotation encoding=\"application/x-tex\">\\otimes</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6667em;vertical-align:-0.0833em;\"></span><span class=\"mord\">⊗</span></span></span></span>. </p>\n<p>this \"cross-product\" tensor takes <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi></mrow><annotation encoding=\"application/x-tex\">A</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\">A</span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>B</mi></mrow><annotation encoding=\"application/x-tex\">B</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span></span></span></span> to <br>\n<code>(pos A × pos B, (dir A)^{pos B} × (dir B)^{pos A}, evals)</code><br>\n Was that there?</p>",
+        "id": 284188044,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1653687765
+    },
+    {
+        "content": "<p>EDIT: <br>\nmoved the code snippet to here.<br>\nI did get composition to hold.<br>\n(Apologies for the sloppy code.  it was jotted down quickly and ill clean it up)<br>\n<a href=\"https://gist.github.com/bond15/59582ea8a74e75a71764690d85137344\">https://gist.github.com/bond15/59582ea8a74e75a71764690d85137344</a></p>",
+        "id": 284190180,
+        "sender_full_name": "Eric Bond",
+        "timestamp": 1653689217
+    },
+    {
+        "content": "<p>cool.  but</p>\n<blockquote>\n<p>\"non dependent Poly with a relation\" </p>\n</blockquote>\n<p>is exactly DialSet, right? why call it non-dependent Poly with a relation?<br>\nand </p>\n<blockquote>\n<p>LDepDialSet </p>\n</blockquote>\n<p>is exactly the subcategory of GSet with  the second coordinate of the form <code>pos A -&gt; dir A </code><br>\n(*)</p>\n<p>my issue above is that I don't think this subcategory is closed under the operations in GSet. I don't think I can restrict the operations I'm interested in <br>\n<span class=\"tex-error\">$$  \\otimes, &amp;, \\oplus, [-,-]  $$</span></p>\n<p>to this subcategory. while Eric and Nelson think there's no problem. So I'll be happier if they're right, but cannot see it at the moment, bc the bifunctors exist in the large category, but they don't restrict to the small one. unless I am wrong about (*) or about the fact that the results of the bifunctors don't have the appropriate shape.</p>",
+        "id": 284191284,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1653690193
+    },
+    {
+        "content": "<p>Still processing the posts above.</p>\n<p>I'm a bit confused about. <br>\n<code>\n LDepDialSet is exactly the subcategory of GSet with the second coordinate of the form posA→dirA , right? (*)\n</code></p>\n<p><code>LDepDialSet</code> objects would be of the form <code>(pos A : Set ,  dir A : pos A -&gt; Set, alpha)</code><br>\nso <code>dir A</code> is a <code>pos A</code> indexed family of sets.</p>",
+        "id": 284197642,
+        "sender_full_name": "Eric Bond",
+        "timestamp": 1653696175
+    },
+    {
+        "content": "<p>I see now, the question is whether your target is dir A : pos A -&gt; Set or dir A: pos A-&gt; dir A. I'm thinking too.</p>",
+        "id": 284198082,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1653696634
+    },
+    {
+        "content": "<p>The composition holds using <code>dirA : posA -&gt; Set</code> and its essentially the same as the composition in <code>DSet2</code>.<br>\ncompare<br>\n<a href=\"https://github.com/vcvpaiva/Dialectica/blob/3634872482683a0be2c00337f29db623b656d49b/TwoDialSet.agda#L152\">https://github.com/vcvpaiva/Dialectica/blob/3634872482683a0be2c00337f29db623b656d49b/TwoDialSet.agda#L152</a><br>\nand <br>\n<a href=\"https://github.com/vcvpaiva/Dialectica/blob/3634872482683a0be2c00337f29db623b656d49b/LDDialSet.agda#L53\">https://github.com/vcvpaiva/Dialectica/blob/3634872482683a0be2c00337f29db623b656d49b/LDDialSet.agda#L53</a></p>",
+        "id": 284198496,
+        "sender_full_name": "Eric Bond",
+        "timestamp": 1653697145
+    },
+    {
+        "content": "<p>( I can switch to using Latex instead of Agda in these messages if that would be preferred and more broadly readable)<br>\nThe <em>trick</em> is using <code>f</code> in the type level.</p>",
+        "id": 284198644,
+        "sender_full_name": "Eric Bond",
+        "timestamp": 1653697342
+    },
+    {
+        "content": "<p>Don't have an answer about the desired structure (the tensor, internal hom,..)</p>",
+        "id": 284199016,
+        "sender_full_name": "Eric Bond",
+        "timestamp": 1653697846
+    },
+    {
+        "content": "<blockquote>\n<p>Don't have an answer about the desired structure (the tensor, internal hom,..)</p>\n</blockquote>\n<p>well, we need to do the walking, before the running, right? we need to add the structure of DialSet to the agda file.</p>",
+        "id": 284235065,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1653752879
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"380293\">Eric Bond</span> <a href=\"#narrow/stream/323208-practice.3A-Dialectica/topic/Dialectica.20and.20Poly/near/284198644\">said</a>:</p>\n<blockquote>\n<p>( I can switch to using Latex instead of Agda in these messages if that would be preferred and more broadly readable)<br>\nThe <em>trick</em> is using <code>f</code> in the type level.</p>\n</blockquote>\n<p>Either latex or agda works, <span class=\"user-mention\" data-user-id=\"380293\">@Eric Bond</span> . The issue here is the type of the objects, not how we write them. so <br>\n<span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><mi>U</mi><mo separator=\"true\">,</mo><msup><mi>X</mi><mi>U</mi></msup><mo separator=\"true\">,</mo><msup><mi>α</mi><mo stretchy=\"false\">)</mo></msup></mrow><annotation encoding=\"application/x-tex\">(U,X^U, \\alpha^)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1.138em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">U</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8413em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\" style=\"margin-right:0.10903em;\">U</span></span></span></span></span></span></span></span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.0037em;\">α</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.888em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mclose mtight\">)</span></span></span></span></span></span></span></span></span></span></span> where <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><mi>U</mi><mo separator=\"true\">,</mo><mi>X</mi><mo separator=\"true\">,</mo><mi>α</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">(U,X,\\alpha)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">U</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.0037em;\">α</span><span class=\"mclose\">)</span></span></span></span> is an object of DialSet (or GSet ) is one possible way to instantiate <br>\n<code>(pos A : Set ,  dir A : pos A -&gt; Set, alpha)</code>. But the latter is more generic.</p>\n<p>So I 'd like to have the agda code for DialSet and LDialSet and their structures and theorems proved, before attacking the problem of the dependent version. As for that we have to read Tamara von Glehn and Sean Moss' theses, right?</p>",
+        "id": 284241095,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1653760955
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"380293\">@Eric Bond</span>  in line 55 of <a href=\"https://github.com/vcvpaiva/Dialectica/blob/3634872482683a0be2c00337f29db623b656d49b/TwoDialSet.agda#L152\">https://github.com/vcvpaiva/Dialectica/blob/3634872482683a0be2c00337f29db623b656d49b/TwoDialSet.agda#L152</a> you have what I think is the correct notion of bifunctoriality of tensor in L. is this an agda proof or an agda definition?</p>\n<p>also is (line 170)</p>\n<div class=\"codehilite\"><pre><span></span><code>record DialSet⊗ (A B : DialSet) : Set where\n    field\n        pos A⊗B : pos A × pos B\n        dir A⊗B : dir A × dir B\n        α : (pos A × pos B) → (dir A × dir B) → α(u,x) ⊗² β(v,y)\n</code></pre></div>\n<p>a sensible definition for the tensor in agda?</p>\n<p>I also need to know how to define constants in agda, because I need four constants:<br>\n<span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>I</mi><mo>=</mo><mo stretchy=\"false\">(</mo><mn>1</mn><mo separator=\"true\">,</mo><mn>1</mn><mo separator=\"true\">,</mo><mi>i</mi><mi>d</mi><mo stretchy=\"false\">)</mo><mo separator=\"true\">,</mo><mi mathvariant=\"normal\">⊥</mi><mo>=</mo><mo stretchy=\"false\">(</mo><mn>1</mn><mo separator=\"true\">,</mo><mn>1</mn><mo separator=\"true\">,</mo><mi>e</mi><mi>m</mi><mi>p</mi><mi>t</mi><mi>y</mi><mo stretchy=\"false\">)</mo><mo separator=\"true\">,</mo><mi mathvariant=\"normal\">⊤</mi><mo>=</mo><mo stretchy=\"false\">(</mo><mn>1</mn><mo separator=\"true\">,</mo><mn>0</mn><mo separator=\"true\">,</mo><mi>e</mi><mi>m</mi><mi>p</mi><mi>t</mi><mi>y</mi><mo stretchy=\"false\">)</mo><mo separator=\"true\">,</mo><mn>0</mn><mo>=</mo><mo stretchy=\"false\">(</mo><mn>0</mn><mo separator=\"true\">,</mo><mn>1</mn><mo separator=\"true\">,</mo><mi>e</mi><mi>m</mi><mi>p</mi><mi>t</mi><mi>y</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\"> I=(1,1, id), \\bot=(1,1,empty), \\top=(1,0,empty), 0=(0,1,empty) </annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">I</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord\">1</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">1</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\">i</span><span class=\"mord mathnormal\">d</span><span class=\"mclose\">)</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">⊥</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord\">1</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">1</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\">e</span><span class=\"mord mathnormal\">m</span><span class=\"mord mathnormal\">pt</span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">y</span><span class=\"mclose\">)</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">⊤</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord\">1</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">0</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\">e</span><span class=\"mord mathnormal\">m</span><span class=\"mord mathnormal\">pt</span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">y</span><span class=\"mclose\">)</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">0</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord\">0</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">1</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\">e</span><span class=\"mord mathnormal\">m</span><span class=\"mord mathnormal\">pt</span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">y</span><span class=\"mclose\">)</span></span></span></span></p>",
+        "id": 284243426,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1653764427
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"343715\">@Nelson Niu</span> nice to hear your group is working with factorizations! do you have a special motivation for that? </p>\n<p>and can you tell me what do you think is special about</p>\n<blockquote>\n<p>(Ahman-Uustalu, 2018). Comonoids in (Poly, y, ◁) are categories. </p>\n</blockquote>\n<p>what did Danel and Tarmo wanted this theorem for?</p>",
+        "id": 284690028,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1654133838
+    },
+    {
+        "content": "<p>Factorization helps to isolate the properties of what’s happening on positions vs. what’s happening on directions. For example, we found yesterday that there is a canonical map from the cross product (where there is codependency in the directions, but not the positions) to the composition product (where there is dependency in the positions, but not the directions) that factors through the parallel product (where there is no dependency in either). So in some sense the parallel product can be defined in terms of these other products, and arises naturally from vertical/cartesian factorization</p>",
+        "id": 284690311,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1654134231
+    },
+    {
+        "content": "<p>I’m not sure what the theorem was initially intended for, but what I like about it is that it puts systems that can be expressed in Poly in a familiar context. Comonoids arise naturally when you want to talk about cycling through systems repeatedly—passing back and forth through a lens more than just one round trip. They give you a way to think of directions as actually pointing to the next position, and a way to run through several directions coherently. The coherence conditions seem foreign until you realize they really act just like categories: directions lead from one position to another and compose unitally and associatively. Coming up with examples of a comonoid, or checking whether something is a comonoid, then becomes really easy—you know how to do it already if you know how to check if something is a category.</p>",
+        "id": 284690636,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1654134607
+    },
+    {
+        "content": "<p>Yes, there's also a natural map from the cross product to the cartesian product, which factors the parallel product. this should be the other duoidal structure I mentioned to you.</p>\n<p>EDIT: the duoidal structure I'm mentioning here should be between the cross product and the parallel tensor, I wrote about that in 1996 in the paper <a href=\"https://www.academia.edu/674289/A_dialectica_model_of_state\">https://www.academia.edu/674289/A_dialectica_model_of_state</a> and at that state discussed the interchange law, before the duoidal stuff was so christened.</p>",
+        "id": 284690664,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1654134655
+    },
+    {
+        "content": "<p>(Also, there’s a nice double category that puts categories, functors, and cofunctor on the same footing, but I haven’t really investigated that thoroughly yet)</p>",
+        "id": 284690665,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1654134655
+    },
+    {
+        "content": "<p>Oh yes, every monoidal structure is duoidal with the cartesian product just because of its universal property</p>",
+        "id": 284690686,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1654134710
+    },
+    {
+        "content": "<p>We worked out today that tri-comonoids in SigmaPi(C^op) for general monoidal categories C correspond to SigmaC-enriched categories</p>",
+        "id": 284690815,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1654134849
+    },
+    {
+        "content": "<p>Thanks also for the motivation for the Ahman-Uustalu result!</p>",
+        "id": 284691149,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1654135275
+    },
+    {
+        "content": "<p>I had also started an overleaf on the double category, but I was doing it for Dial, only, and I didn't know whether the squares were there or not.</p>",
+        "id": 284691321,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1654135457
+    },
+    {
+        "content": "<p>Yeah, I’m not sure either</p>",
+        "id": 284691375,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1654135557
+    },
+    {
+        "content": "<blockquote>\n<p>Comonoids arise naturally when you want to talk about cycling through systems repeatedly—passing back and forth through a lens more than just one round trip.</p>\n</blockquote>\n<p>Comonoids are even more natural in the setting of Linear Logic where they're exactly what you're trying to get, your goal, so that you have linear and non-linear types interacting. But thinking of them as categories doesn't seem obvious to me.</p>",
+        "id": 284746534,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1654177350
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276656\">@Valeria de Paiva</span> You know how otimes-comonoids, the one in Ch. 2 of your thesis, are monoids in Set indexed over some other set, along with some assignment of True/False for each monoid element that respects the monoid structure?</p>\n<p>Well, you can think of an indexed set of monoids as a slightly boring category, where every object “keeps to itself”—the only morphisms start and end at the same object (and the True/False part picks a wide subcategory, a submonoid of each monoid). So the data of the category can be captured just by a bunch of monoids: one for each object, the endomorphims on that object. Then tri-comonoids generalize this by allowing morphisms between different objects, which becomes a category</p>",
+        "id": 284752574,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1654179901
+    },
+    {
+        "content": "<p>well, in my thesis they're monoids in a mythical category C with finite limits, not exactly Set. where do the 'tri ' in tricomonoids comes from?</p>",
+        "id": 284753243,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1654180209
+    },
+    {
+        "content": "<p>Oh yes, I’m taking C = Set</p>",
+        "id": 284753305,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1654180235
+    },
+    {
+        "content": "<p>tri is the triangle, the composition product</p>",
+        "id": 284753334,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1654180251
+    },
+    {
+        "content": "<p>Sorry I realize that’s misleading, there’s not much to do with 3</p>",
+        "id": 284753368,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1654180272
+    },
+    {
+        "content": "<p>great, thanks <span class=\"user-mention\" data-user-id=\"343715\">@Nelson Niu</span> ! </p>\n<p>I also have a small problem with the notions of mono and epi. You've hinted at it already: In the subcategory  GSet =LDial we can say that (f,F) or <span class=\"tex-error\">$$(\\phi, \\phi^#)$$</span> is mono iff f is mono and F is epi.  Also, (f,F) is epi if f is epi and F is mono, bc the category is symmetric. But in Dial this is blurred, bc of the dependence of F in A. how are you dealing with this?</p>",
+        "id": 284754924,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1654181044
+    },
+    {
+        "content": "<p>Yeah, it’s a little tricky: in Poly, a mono has to be a mono on positions, and an epi has to be an epi on positions. The dependence backward on directions is where things get a little hairy, but it’s still manageable:</p>",
+        "id": 284760428,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1654183193
+    },
+    {
+        "content": "<p>You can think of the backward part of (I, A) -&gt; (J, B), in two ways: either as a function B -&gt; A for every element of I, or (a little less intuitively) as a function B -&gt; A^{f^-1 j} for every element j of J.</p>",
+        "id": 284762913,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1654184280
+    },
+    {
+        "content": "<p>Then a mono in Poly is a mono on positions and every B -&gt; A is an epi on directions; and an epi in Poly is an epi on positions and every B -&gt; A^{f^-1 j} is a mono on directions.</p>",
+        "id": 284763071,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1654184350
+    },
+    {
+        "content": "<p>(Limits and colimits can be interpreted analogously)</p>",
+        "id": 284763096,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1654184366
+    },
+    {
+        "content": "<p>but then</p>\n<blockquote>\n<p>Then a mono in Poly is a mono on positions and every B -&gt; A is an epi on directions; and an epi in Poly is an epi on positions and every B -&gt; A^{f^-1 j} is a mono on directions.</p>\n</blockquote>\n<p>this is exactly what I wrote for LDial:</p>\n<blockquote>\n<p>(f,F)   is mono iff f is mono and F is epi. Also, (f,F) is epi iff f is epi and F is mono</p>\n</blockquote>",
+        "id": 284764528,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1654185006
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"343715\">@Nelson Niu</span> I asked Danel Ahman and Tarmo my question.</p>\n<blockquote>\n<p>I’m not sure what the theorem was initially intended for, but what I like about it is that it puts systems that can be expressed in Poly in a familiar context. </p>\n</blockquote>\n<p>Danel says:</p>\n<blockquote>\n<p>We observed it in the MFPS 2016 paper <br>\n  \"Directed Containers as Categories\" (<a href=\"https://danel.ahman.ee/papers/msfp16.pdf\">https://danel.ahman.ee/papers/msfp16.pdf</a>).<br>\nFrom what I remember, the motivations were:</p>\n</blockquote>\n<ul>\n<li>\n<p>I had been talking about directed containers feeling like some form of state machines, <br>\nand the correspondence with categories made that feeling evident.</p>\n</li>\n<li>\n<p>In the above paper the correspondence allows us to view constructions on containers <br>\nfrom the viewpoint of categories, showing that there is something canonical and natural<br>\nabout them (e.g., that the bidirected containers correspond to groupoids).</p>\n</li>\n<li>\n<p>It turns out that there is a general decomposition operation [1] on directed <br>\ncontainer (and corresponding comonad) morphisms that is analogous to <br>\nthe full image factorisation [2] of functors between categories (in the case <br>\nof directed containers, we have a factorisation of cofunctors). Under some <br>\nmild assumptions one can then also perform this kind of decomposition for <br>\ngeneral comonad morphisms (also in [1]).</p>\n</li>\n</ul>\n<p>[1] Ahman, Uustalu: Decomposing Comonad Morphisms (<a href=\"https://drops.dagstuhl.de/opus/volltexte/2019/11442/pdf/LIPIcs-CALCO-2019-14.pdf\">https://drops.dagstuhl.de/opus/volltexte/2019/11442/pdf/LIPIcs-CALCO-2019-14.pdf</a>)</p>\n<p>[2] <a href=\"https://ncatlab.org/nlab/show/full+image\">https://ncatlab.org/nlab/show/full+image</a><br>\n=====<br>\nSo similar intuitions as yours <span class=\"user-mention\" data-user-id=\"343715\">@Nelson Niu</span> .</p>",
+        "id": 284775765,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1654190001
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276656\">@Valeria de Paiva</span> Yeah, the epi mono characterization is similar, but not exactly the same—which is not surprising, because there is an adjunction between GSet and SigmaPi2 (or just DialSet)</p>",
+        "id": 284779021,
+        "sender_full_name": "Nelson Niu",
+        "timestamp": 1654191618
+    },
+    {
+        "content": "<p>cool, I hope you're writing it down too. as I don't know this one.</p>\n<p>I know that GSet=LDial is included in DIal (which is Dial_2Set). Now SigmaPi2 is defined via the completions right? then I don't know that SigmaPi2 is the same as DialSet. a proof would be very welcome</p>",
+        "id": 284781452,
+        "sender_full_name": "Valeria de Paiva",
+        "timestamp": 1654192667
+    }
+]

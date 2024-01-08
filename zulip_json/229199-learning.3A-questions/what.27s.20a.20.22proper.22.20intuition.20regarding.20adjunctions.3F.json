@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>So, in \"Category Theory The Sciences\", David Spivak tries to give an intuition regarding adjunctions by talking about how to translate sounds from \"babies\" to \"adult words\". I confess I was a bit lost in the analogy, and I was trying to come up with other examples of how to intuitively understand what's going on with adjunctions. At first, I thought adjunctions were like the Moore-Penrose inverse, where it's sort of a weaker version of how to invert a matrix... But it seems that this is not actually the case.<br>\nHence, my question is what are some good analogies/intuitions in order to understand adjuntcions?</p>",
+        "id": 286520728,
+        "sender_full_name": "Davi Sales Barreira",
+        "timestamp": 1655487463
+    },
+    {
+        "content": "<p>To answer a question with a question: do you know a bunch of examples of adjunctions?   In my opinion, examples are more crucial in developing intuitions than examples.   Different examples suggest different analogies.   </p>\n<p>Analogies come and go: you may decide one is great, then change your mind and decide it's misleading.  But examples last forever.</p>",
+        "id": 286521644,
+        "sender_full_name": "John Baez",
+        "timestamp": 1655487929
+    },
+    {
+        "content": "<p>Haven't seen many examples. I'll try to read more examples before trying to grasp the definition. I was trying to construct examples to check my understanding, but it seems that I have a wrong intuition.</p>",
+        "id": 286647300,
+        "sender_full_name": "Davi Sales Barreira",
+        "timestamp": 1655553001
+    },
+    {
+        "content": "<p>If you have some maths background, Emily Riehl's book <em>Category Theory in Context</em> is great for getting intuition from examples!</p>",
+        "id": 286651278,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1655558668
+    },
+    {
+        "content": "<p>It's hard to know what examples to give you since I don't know what math you know, but adjunctions are literally <em>everywhere</em> so any category theorist should be able to quickly list at least 20 examples.</p>",
+        "id": 286676102,
+        "sender_full_name": "John Baez",
+        "timestamp": 1655594556
+    },
+    {
+        "content": "<p>For example, whenever you have a pair of mathematical concepts, one with \"more structure\" and one with \"less structure\", you should expect an adjunction between them.   For example: groups and sets.  </p>\n<p>There may not always be an adjunction, but there often is.</p>",
+        "id": 286678716,
+        "sender_full_name": "John Baez",
+        "timestamp": 1655598888
+    },
+    {
+        "content": "<p>If you want an analogy from linear algebra, think of 'adjoint operator'. But this is an analogy, not an example unfortunately.</p>",
+        "id": 286700091,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1655631431
+    }
+]

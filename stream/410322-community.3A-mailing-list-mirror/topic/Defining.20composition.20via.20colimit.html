@@ -1,0 +1,108 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>Defining composition via colimit · community: mailing list mirror · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/410322-community.3A-mailing-list-mirror/index.html">community: mailing list mirror</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/410322-community.3A-mailing-list-mirror/topic/Defining.20composition.20via.20colimit.html">Defining composition via colimit</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="400004987"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/410322-community%3A%20mailing%20list%20mirror/topic/Defining%20composition%20via%20colimit/near/400004987" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Email Gateway <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/410322-community.3A-mailing-list-mirror/topic/Defining.20composition.20via.20colimit.html#400004987">(Nov 02 2023 at 19:06)</a>:</h4>
+<p>Dear all,</p>
+<p>In a current project we have the following situation. For a category<br>
+we are attempting to define, we know what the objects are, and also<br>
+the morphisms. Unfortunately we do not have an obvious composition<br>
+operation. What we do have is a "colimit" operation, which operates on<br>
+a directed graph labelled by our objects and morphisms, and returns a<br>
+putative colimit object equipped with a family of morphisms in the<br>
+usual way (or fails.)</p>
+<p>We then define the composite of morphisms A-&gt;B,  B-&gt;C  to be the<br>
+colimit of the diagram A-&gt;B-&gt;C. We then check that this composition<br>
+operation satisfies the axioms of a category, and that our earlier<br>
+colimit construction is indeed an actual colimit with respect to the<br>
+compositional structure. It seems that everything works fine, and we<br>
+are happy.</p>
+<p>My question is whether this has any precedent in the literature. The<br>
+situation as I have described it is a bit simplified, in reality there<br>
+is some higher categorical stuff going on. Personally I'm sure I've<br>
+read similar things in the literature in the past but I can't track<br>
+them down now that I actually need them. The nLab article on<br>
+"composition" has some stuff about this with regard to transfinite<br>
+composition, but we're not trying to do anything transfinite here.</p>
+<p>Best wishes,<br>
+Jamie</p>
+<hr>
+<p>You're receiving this message because you're a member of the Categories mailing list group from Macquarie University.</p>
+<p>Leave group:<br>
+<a href="https://outlook.office365.com/owa/categories@mq.edu.au/groupsubscription.ashx?source=EscalatedMessage&amp;action=leave&amp;GuestId=7d1df94c-5953-42b8-9208-4e4b5067c2dc">https://outlook.office365.com/owa/categories@mq.edu.au/groupsubscription.ashx?source=EscalatedMessage&amp;action=leave&amp;GuestId=7d1df94c-5953-42b8-9208-4e4b5067c2dc</a></p>
+
+
+
+<a name="400033931"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/410322-community%3A%20mailing%20list%20mirror/topic/Defining%20composition%20via%20colimit/near/400033931" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Email Gateway <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/410322-community.3A-mailing-list-mirror/topic/Defining.20composition.20via.20colimit.html#400033931">(Nov 02 2023 at 23:35)</a>:</h4>
+<p>Hi Jamie,</p>
+<p>That does sound interesting. Did you look at:</p>
+<ul>
+<li>Kelly, G. M., &amp; Le Creurer, I. J. On the monadicity over graphs of<br>
+  categories with limits. Cahiers de Topologie et G\'eom\'etrie<br>
+  Diff\'erentielle Cat\'egoriques, 1997(38), 179–191.</li>
+</ul>
+<p>This paper, among other things, shows that categories with limits<br>
+indexed by finite acyclic directed graphs are monadic over directed<br>
+graphs. It seems like you could be describing an algebra structure for<br>
+this monad (which is a fortiori a category). The paper gives a fairly<br>
+explicit presentation of this monad by generators and relations, so you<br>
+should be able to check fairly easily if that is indeed what is going<br>
+on.</p>
+<p>Richard</p>
+<p>Jamie Vicary &lt;<a href="mailto:jamievicary@gmail.com">jamievicary@gmail.com</a>&gt; writes:</p>
+
+
+
+<a name="400104986"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/410322-community%3A%20mailing%20list%20mirror/topic/Defining%20composition%20via%20colimit/near/400104986" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Email Gateway <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/410322-community.3A-mailing-list-mirror/topic/Defining.20composition.20via.20colimit.html#400104986">(Nov 03 2023 at 10:29)</a>:</h4>
+<p>[[The following message is sent on behalf of <a href="mailto:streicher@mathematik.tu-darmstadt.d">streicher@mathematik.tu-darmstadt.d</a> -- for whatever reason it did not seem to have been sent/approved properly to the mailing list, apologies if you receive multiple copies]]</p>
+<p>Composition of distributors or profunctors would be an example. But<br>
+composition is only defined up to isomorphism and so one gets a<br>
+bicategory. This was done in the second half of the sixties by Benabou.</p>
+<p>But the situation can be rectified when redefining distributors from A to B<br>
+as cocontinuous functors from Psh(A) to Psh(B).</p>
+<p>Thomas</p>
+<p>PS I take the opportunity to thank Bob for organising and moderating the<br>
+categories list for such a long time.<br>
+And thanks to the people who have taken over! I missed it for quite some<br>
+time already!</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

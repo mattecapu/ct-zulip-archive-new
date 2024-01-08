@@ -1,0 +1,116 @@
+[
+    {
+        "content": "<p>encore une question pour les francophones : dans EGA II, 8.3.3 (qu'il s'agit de la construction des cônes projetants) il y a quelques termes pour lesquels je ne connais pas la traduction. en particulier, est-ce que quelqu'un sait ce qu'on dit en anglais pour «section sommet» et «section nulle» ? J'ai opté simplement pour \"vertex section\" and \"null section\"...</p>",
+        "id": 192847417,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1585939239
+    },
+    {
+        "content": "<p>et même «cônes projetants» en fait. j'ai vu \"projective cones\" dans quelques traductions mais je crois que \"projecting cone\" est plus proche</p>",
+        "id": 192847613,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1585939325
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/dzgRgATYEW-Awq1UHRLLNZgO/Screenshot-2020-04-03-at-20.34.01.png\" title=\"Screenshot-2020-04-03-at-20.34.01.png\">Screenshot-2020-04-03-at-20.34.01.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/dzgRgATYEW-Awq1UHRLLNZgO/Screenshot-2020-04-03-at-20.34.01.png\" title=\"Screenshot-2020-04-03-at-20.34.01.png\"><img src=\"/user_uploads/21317/dzgRgATYEW-Awq1UHRLLNZgO/Screenshot-2020-04-03-at-20.34.01.png\"></a></div>",
+        "id": 192847646,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1585939342
+    },
+    {
+        "content": "<p>\"projective cone\" est aussi plus joli. Je n'aime pas \"projecting cone\"!</p>",
+        "id": 192852345,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1585941702
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276438\">Fabrizio Genovese</span> <a href=\"#narrow/stream/231124-fran.C3.A7ais.2FFrench/topic/nomenclature.20dans.20EGA/near/192852345\" title=\"#narrow/stream/231124-fran.C3.A7ais.2FFrench/topic/nomenclature.20dans.20EGA/near/192852345\">said</a>:</p>\n<blockquote>\n<p>\"projective cone\" est aussi plus joli. Je n'aime pas \"projecting cone\"!</p>\n</blockquote>\n<p>oui mais alors comment distinguer «cône projetant» de «cône projectif» ?</p>",
+        "id": 192854040,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1585942584
+    },
+    {
+        "content": "<p>C'est vrai.. je n'y ai pas pensé <span aria-label=\"confused\" class=\"emoji emoji-1f615\" role=\"img\" title=\"confused\">:confused:</span></p>",
+        "id": 192855580,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1585943443
+    },
+    {
+        "content": "<p>Solution academique: regarder les traductions des autres.<br>\nSolution pragmatique: comprendre la construction et choisir un nom significatif qui marche en anglais.</p>",
+        "id": 192873880,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1585954849
+    },
+    {
+        "content": "<p>je ne connais pas une autre traduction — il y'en a une?</p>",
+        "id": 192876164,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1585956757
+    },
+    {
+        "content": "<p>Hum, j'aurais du dire \"trouver des traductions par d'autres auteurs\" <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span></p>",
+        "id": 192899741,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1585993869
+    },
+    {
+        "content": "<p>une autre question : lorsqu'il parle des anneaux de valuation, Grothendieck parle du «corps des restes» et j'ai pensé que c'était le \"residue field\" mais ça se traduit comme «corps résiduel». Donc c'est quoi le corps des restes d'un anneau de valuation ? Il n'y en a aucune mention sur l'article des anneaux de valuation sur Wikipedia...</p>",
+        "id": 193720906,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1586710944
+    },
+    {
+        "content": "<p>La definition d'un anneau de valuation parle de corps. Peut-etre que c'est ce corps-la?</p>",
+        "id": 193756779,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1586770161
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"280178\">Tim Hosgood</span> <a href=\"#narrow/stream/231124-languages.3A-fran.C3.A7ais.2FFrench/topic/nomenclature.20dans.20EGA/near/193720906\" title=\"#narrow/stream/231124-languages.3A-fran.C3.A7ais.2FFrench/topic/nomenclature.20dans.20EGA/near/193720906\">said</a>:</p>\n<blockquote>\n<p>une autre question : lorsqu'il parle des anneaux de valuation, Grothendieck parle du «corps des restes» et j'ai pensé que c'était le \"residue field\" mais ça se traduit comme «corps résiduel». Donc c'est quoi le corps des restes d'un anneau de valuation ? Il n'y en a aucune mention sur l'article des anneaux de valuation sur Wikipedia...</p>\n</blockquote>\n<p>Après une recherche rapide, \"corps des restes\" est utilisé comme synonyme de corps résiduel. Source: Grothendieck-Serre Correspondence (note 69.2, p. 264 dans l'édition accessible sur google books). <br>\nDans le cas d'un corps valué il a ya donc fort à parier qu'il s'agisse du corps obtenu comme quotient de l'anneau des éléments de valuation positive par l'idéal maximal des éléments de valuation strictement positive.</p>",
+        "id": 193818164,
+        "sender_full_name": "Pierre Cagne",
+        "timestamp": 1586810151
+    },
+    {
+        "content": "<p>oui, il me semble que c'est en effet un synonyme. merci !</p>",
+        "id": 193825431,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1586814345
+    },
+    {
+        "content": "<p>une phrase qui m'embrouille, de EGA II, (6.6.11):</p>\n<blockquote>\n<p>Soit alors <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>U</mi></mrow><annotation encoding=\"application/x-tex\">U</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">U</span></span></span></span> l'ouvert de <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi></mrow><annotation encoding=\"application/x-tex\">X</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span></span></span></span> formé des points au voisinage desquels <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"script\">B</mi></mrow><annotation encoding=\"application/x-tex\">\\mathcal{B}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathcal\" style=\"margin-right:0.03041em;\">B</span></span></span></span> est un <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"script\">O</mi><mi>X</mi></msub></mrow><annotation encoding=\"application/x-tex\">\\mathcal{O}_X</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathcal\" style=\"margin-right:0.02778em;\">O</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3283em;\"><span style=\"top:-2.55em;margin-left:-0.0278em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\" style=\"margin-right:0.07847em;\">X</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span>-module localement libre, [...]</p>\n</blockquote>\n<p>est-ce qu'il s'agit de l'ensemble des points <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi><mo>∈</mo><mi>X</mi></mrow><annotation encoding=\"application/x-tex\">x\\in X</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.5782em;vertical-align:-0.0391em;\"></span><span class=\"mord mathnormal\">x</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">∈</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span></span></span></span> tels que <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi></mrow><annotation encoding=\"application/x-tex\">x</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">x</span></span></span></span> admet un voisinage où <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"script\">B</mi></mrow><annotation encoding=\"application/x-tex\">\\mathcal{B}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathcal\" style=\"margin-right:0.03041em;\">B</span></span></span></span> est localement libre? c'est le « desquels » qui me trouble...</p>",
+        "id": 314294881,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1670350625
+    },
+    {
+        "content": "<p>Je traduirais ça par \"Let <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>U</mi></mrow><annotation encoding=\"application/x-tex\">U</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">U</span></span></span></span> be an open set in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi></mrow><annotation encoding=\"application/x-tex\">X</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span></span></span></span>, formed by points whose neighborhood is such that <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"script\">B</mi></mrow><annotation encoding=\"application/x-tex\">\\mathcal{B}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathcal\" style=\"margin-right:0.03041em;\">B</span></span></span></span> is a locally free <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"script\">O</mi><mi mathvariant=\"script\">X</mi></msub></mrow><annotation encoding=\"application/x-tex\">\\mathcal{O_{X}}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathcal\" style=\"margin-right:0.02778em;\">O</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3283em;\"><span style=\"top:-2.55em;margin-left:-0.0278em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathcal mtight\" style=\"margin-right:0.14643em;\">X</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span>-module.\"</p>",
+        "id": 314297020,
+        "sender_full_name": "Jacques Carette",
+        "timestamp": 1670351334
+    },
+    {
+        "content": "<p>mais ça semble à impliquer qu'un point n'a qu'un seul voisinage, non ? donc j'ai opté pour \"points qui admet un voisinage tel que [...]\"</p>",
+        "id": 314300251,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1670352193
+    },
+    {
+        "content": "<p>Une autre option ça serait \"formé des points aux voisinages desquels...\" donc <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi></mrow><annotation encoding=\"application/x-tex\">x</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">x</span></span></span></span> est dans <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>U</mi></mrow><annotation encoding=\"application/x-tex\">U</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">U</span></span></span></span> si <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"script\">B</mi></mrow><annotation encoding=\"application/x-tex\">\\mathcal{B}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathcal\" style=\"margin-right:0.03041em;\">B</span></span></span></span> est localement libre dans tous les voisinages de <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi></mrow><annotation encoding=\"application/x-tex\">x</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">x</span></span></span></span>. Je sais pas si ça fait du sens mathématiquement.</p>",
+        "id": 314313152,
+        "sender_full_name": "Ralph Sarkis",
+        "timestamp": 1670356078
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"284005\">Ralph Sarkis</span> <a href=\"#narrow/stream/231124-languages.3A-francais.2FFrench/topic/nomenclature.20dans.20EGA/near/314313152\">said</a>:</p>\n<blockquote>\n<p>Une autre option ça serait \"formé des points aux voisinages desquels...\" donc <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi></mrow><annotation encoding=\"application/x-tex\">x</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">x</span></span></span></span> est dans <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>U</mi></mrow><annotation encoding=\"application/x-tex\">U</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">U</span></span></span></span> si <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"script\">B</mi></mrow><annotation encoding=\"application/x-tex\">\\mathcal{B}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathcal\" style=\"margin-right:0.03041em;\">B</span></span></span></span> est localement libre dans tous les voisinages de <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi></mrow><annotation encoding=\"application/x-tex\">x</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">x</span></span></span></span>. Je sais pas si ça fait du sens mathématiquement.</p>\n</blockquote>\n<p>je ne pense pas — l'espace <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi></mrow><annotation encoding=\"application/x-tex\">X</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span></span></span></span> est «un voisinage» de <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>x</mi></mrow><annotation encoding=\"application/x-tex\">x</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">x</span></span></span></span>, donc ce serait trivial si c'était le cas pour <em>tous</em> les voisinages (si je ne m'abuse)</p>",
+        "id": 314316853,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1670357251
+    },
+    {
+        "content": "<p>La formule \"P est vrai au voisinage de E\" en français fait référence à une propriété locale, c'est-à-dire à l'existence d'un voisinage (de E) où la propriété est vraie.</p>",
+        "id": 315082370,
+        "sender_full_name": "El Mehdi Cherradi",
+        "timestamp": 1670680689
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p>I was wondering about creating a chatting platform for Logic (preferably in Zulip). By the way, I don't know if there already exists a chatting platform for such discussions. In which case please let me know about it.</p>",
+        "id": 226980992,
+        "sender_full_name": "সায়ন্তন রায়",
+        "timestamp": 1613749304
+    },
+    {
+        "content": "<p>I don't know any.</p>",
+        "id": 226993364,
+        "sender_full_name": "Peter Arndt",
+        "timestamp": 1613753815
+    },
+    {
+        "content": "<p>Logic as a whole is an enormous field - I don't know if the nice experience of this place can be scaled to that size... Just imagine the length of the side scrollbar. But of course, if you encounter that kind of problems, it means you have succeeded in creating a vibrant place <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span></p>",
+        "id": 226994269,
+        "sender_full_name": "Peter Arndt",
+        "timestamp": 1613754146
+    },
+    {
+        "content": "<p>Ok. Maybe I will give it a go and see how it goes.</p>",
+        "id": 227066516,
+        "sender_full_name": "সায়ন্তন রায়",
+        "timestamp": 1613796836
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"295542\">Sayantan Roy</span> <a href=\"#narrow/stream/229111-general/topic/a.20new.20chatting.20platform.20for.20discussions.20in.20logic/near/227066516\">said</a>:</p>\n<blockquote>\n<p>Ok. Maybe I will give it a go and see how it goes.</p>\n</blockquote>\n<p>So, <a href=\"https://mathematical-logic.zulipchat.com/#narrow/stream/278259-general\">here</a> is the link for the same. Please let me know if you face any difficulties in joining.</p>",
+        "id": 227224218,
+        "sender_full_name": "সায়ন্তন রায়",
+        "timestamp": 1613974494
+    },
+    {
+        "content": "<p>When I go to <a href=\"https://mathematical-logic.zulipchat.com\">https://mathematical-logic.zulipchat.com</a> and try to sign in I get \"You need an invitation to join this organization.\".</p>",
+        "id": 227242718,
+        "sender_full_name": "Matthias Hutzler",
+        "timestamp": 1613988095
+    },
+    {
+        "content": "<p>So I guess you need to distribute invite links, <span class=\"user-mention\" data-user-id=\"295542\">@Sayantan Roy</span> ?</p>",
+        "id": 227242851,
+        "sender_full_name": "Matthias Hutzler",
+        "timestamp": 1613988148
+    },
+    {
+        "content": "<p>Oops! Sorry. Here is the link:  <a href=\"https://mathematical-logic.zulipchat.com/join/f6ys7tjx5uzy5e5ulnaonlrz/\">https://mathematical-logic.zulipchat.com/join/f6ys7tjx5uzy5e5ulnaonlrz/</a></p>",
+        "id": 227259290,
+        "sender_full_name": "সায়ন্তন রায়",
+        "timestamp": 1613997253
+    },
+    {
+        "content": "<p>Thanks <span class=\"user-mention\" data-user-id=\"386773\">@Matthias Hutzler</span> .</p>",
+        "id": 227259350,
+        "sender_full_name": "সায়ন্তন রায়",
+        "timestamp": 1613997300
+    },
+    {
+        "content": "<p>I would like to mention that in creating the new streams (and their descriptions) I am very closely following this platform. I hope no one has any objection(s) <span aria-label=\"grinning face with smiling eyes\" class=\"emoji emoji-1f601\" role=\"img\" title=\"grinning face with smiling eyes\">:grinning_face_with_smiling_eyes:</span> !</p>",
+        "id": 227770449,
+        "sender_full_name": "সায়ন্তন রায়",
+        "timestamp": 1614261588
+    },
+    {
+        "content": "<p>Imitation is the highest form of flattery!</p>",
+        "id": 227792770,
+        "sender_full_name": "John Baez",
+        "timestamp": 1614269676
+    },
+    {
+        "content": "<p>Just as I was going to patent it <em>snap fingers</em></p>",
+        "id": 227797324,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1614271271
+    }
+]

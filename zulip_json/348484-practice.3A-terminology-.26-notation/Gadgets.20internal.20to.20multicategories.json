@@ -1,0 +1,134 @@
+[
+    {
+        "content": "<p>Time for everyone's favorite activity: bike-shedding terminology. I have need of the following family of concepts:</p>\n<ul>\n<li>(pseudo)categories internal to multicategories</li>\n<li>reflexive graphs internal to multicategories</li>\n<li>graphs internal to multicategories</li>\n</ul>\n<p>as well as the variants where \"multicategory\" is replaced with \"symmetric multicategory.\" AFAIK, none of these are standard concepts. The first have been called \"double multicategories\" but <span class=\"user-mention\" data-user-id=\"276777\">@Mike Shulman</span> suggested in another thread that they be called \"multi-double categories\" instead.</p>\n<p>I am hoping to find some terminology that is, as they say, \"functorial with respect to the ideas\" but also not too verbose. Any suggestions?</p>",
+        "id": 410940909,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1704247350
+    },
+    {
+        "content": "<p>If you're happy with the terminology \"multi-double categories\", then the obvious choices are \"multi-double reflexive graphs\" and \"multi-double graphs\", no? This is a little verbose, but also descriptive, and the verbosity seems proportional to the complexity of the structures.</p>",
+        "id": 410970219,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1704267795
+    },
+    {
+        "content": "<p>To my mind, there's nothing \"double\" about the latter two.  To me the \"double\" in \"double category\" means that there are two category structures (vertical and horizontal).  Although perhaps it means something different to others.</p>",
+        "id": 410970333,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704267870
+    },
+    {
+        "content": "<p>But (reflexive) graphs internal to multicategories contain two graph structures, no? Considering internal categories rather than internal graphs only adds identities/composites, but it doesn't change the \"shape\" of the structure.</p>",
+        "id": 410976536,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1704271352
+    },
+    {
+        "content": "<p>(I could see an argument for using \"multi-double graph\" for \"graphs internal to multigraphs\", but I don't think this is the point you're making.)</p>",
+        "id": 410976613,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1704271404
+    },
+    {
+        "content": "<p>I said</p>\n<blockquote>\n<p>To me the \"double\" in \"double category\" means that there are two category structures (<em>vertical and horizontal</em>).</p>\n</blockquote>\n<p>I don't mean the category of objects-and-vertical-arrows and the category of horizontal-arrows-and-squares; I mean the category of objects-and-vertical-arrows and the category of objects-and-horizontal-arrows.</p>",
+        "id": 410976749,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704271466
+    },
+    {
+        "content": "<p>A (multi)category internal to graphs does not have \"two graphs\" in an analogous sense to this.</p>",
+        "id": 410976867,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704271527
+    },
+    {
+        "content": "<p>(Evan and I had this same conversation at the <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/Constructing.20compact.20closed.20bicategories/near/401864138\">other thread</a> that he mentioned!)</p>",
+        "id": 410977143,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704271691
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/348484-practice.3A-terminology-.26-notation/topic/Gadgets.20internal.20to.20multicategories/near/410976749\">said</a>:</p>\n<blockquote>\n<p>I said</p>\n<blockquote>\n<p>To me the \"double\" in \"double category\" means that there are two category structures (<em>vertical and horizontal</em>).</p>\n</blockquote>\n<p>I don't mean the category of objects-and-vertical-arrows and the category of horizontal-arrows-and-squares; I mean the category of objects-and-vertical-arrows and the category of objects-and-horizontal-arrows.</p>\n</blockquote>\n<p>Yes, I understand this (and agree with you). But <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/Constructing.20compact.20closed.20bicategories/near/401863001\">you suggested</a> \"multi-double category\" in the context of \"categories internal to multicategories\" rather than \"double multicategory\" specifically to address this point. Both terms have \"double\" in them. As far as I see, the terminology \"multi-double graph\" (as opposed to \"double multigraphs\") is consistent with the terminology you proposed for categories internal to multicategories.</p>",
+        "id": 410984991,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1704275348
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/nbfZIXUrYkSN2c1pxvpVnwbL/image.png\">image.png</a><br>\nGraphs internal to multicategories (or multigraphs) should have 2-cells that look something like this. Thus, there is a horizontal graph and and a vertical \"multigraph\".</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/nbfZIXUrYkSN2c1pxvpVnwbL/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/nbfZIXUrYkSN2c1pxvpVnwbL/image.png\"></a></div>",
+        "id": 410985286,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1704275484
+    },
+    {
+        "content": "<p>Both terms have double in them because the structure in question is, in particular, a <em>double category</em>, with a vertical and a horizontal category.  A graph internal to categories, by contrast, is not, in particular, a \"double graph\" in the sense of having a \"vertical graph\" and a \"horizontal graph\".</p>",
+        "id": 410985320,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704275500
+    },
+    {
+        "content": "<p>I suppose the category direction has an <em>underlying</em> graph, but that's not the same thing.</p>",
+        "id": 410985449,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704275547
+    },
+    {
+        "content": "<p>The word \"double\" doesn't include the word \"category\".</p>",
+        "id": 410985499,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704275574
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/348484-practice.3A-terminology-.26-notation/topic/Gadgets.20internal.20to.20multicategories/near/410985449\">said</a>:</p>\n<blockquote>\n<p>I suppose the category direction has an <em>underlying</em> graph, but that's not the same thing.</p>\n</blockquote>\n<p>Yes, that's exactly why I said:</p>\n<blockquote>\n<p>(I could see an argument for using \"multi-double graph\" for \"graphs internal to multigraphs\", but I don't think this is the point you're making.)</p>\n</blockquote>\n<p>But you said:</p>\n<blockquote>\n<p>To my mind, there's nothing \"double\" about the latter two.</p>\n</blockquote>\n<p>which seems misleading if you agree that there is a structure in both directions if we consider underlying graphs.</p>",
+        "id": 410985553,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1704275604
+    },
+    {
+        "content": "<p>But I think we're on the same page now.</p>",
+        "id": 410985586,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1704275619
+    },
+    {
+        "content": "<p>I do think \"multi-double graph\" would be better terminology for graphs internal to multigraphs.</p>",
+        "id": 410985669,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1704275646
+    },
+    {
+        "content": "<p>There is <em>a</em> structure in both directions, but it's not the <em>same</em> structure, so I think it doesn't make sense to call it \"double\".</p>",
+        "id": 410985681,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704275652
+    },
+    {
+        "content": "<p>Yes, I agree that's what \"multi-double graph\" should mean.</p>",
+        "id": 410985725,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704275671
+    },
+    {
+        "content": "<p>Right, I see. I agree. One would probably like some modifier to describe the additional compositional structure of graphs internal to multicategories.</p>",
+        "id": 410985828,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1704275712
+    },
+    {
+        "content": "<p>I think sometimes an internal X in the category C is called a \"C-X\".  For instance, a Cat-group is an internal group in categories.  So you could say Multicat-graph.</p>",
+        "id": 410986015,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704275797
+    },
+    {
+        "content": "<p>Thanks Mike and Nathanael for your replies.</p>\n<p>I like the idea of just saying Multicat-graph, which is both short and clear. But I also like to have \"plain English\" phrases for concepts that I care about, which would make me want to say \"multicategorical graph\" as a synonym for Multicat-graph.</p>\n<p>One point in favor of this is that people apparently also say <a href=\"https://golem.ph.utexas.edu/category/2023/08/who_introduced_the_term_catego.html\">\"categorical group\"</a> for groups internal to Cat.</p>",
+        "id": 411071151,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1704311267
+    },
+    {
+        "content": "<p>And \"topological group\" for groups internal to Top.  Yeah, I can see \"multicategorical graph\".</p>",
+        "id": 411072949,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704312133
+    }
+]

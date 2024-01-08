@@ -1,0 +1,99 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>fractional dimensional lie groups? · learning: questions · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/index.html">learning: questions</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/fractional.20dimensional.20lie.20groups.3F.html">fractional dimensional lie groups?</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="353030435"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/fractional%20dimensional%20lie%20groups%3F/near/353030435" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Sam Tenka <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/fractional.20dimensional.20lie.20groups.3F.html#353030435">(Apr 27 2023 at 02:17)</a>:</h4>
+<p>Hi, I'm wondering whether there is a nice concrete meaning we can assign to the phrase "the (1/2)-dimensional sphere" (or its rigid symmetries, SO(3/2))</p>
+<p>I ask not because I like fractals but because I learned that there is a sense in which self-avoiding walks on a lattice are like an ising model with spins lying in S^n rather than S^0, in the limit n -&gt; -1.  More precisely, if we take a finite lattice then we can write the partition function of an ising model with spins in S^n as a well-behaved sum over multigraphs in the lattice whose terms relate to the volume of n-dimensional spheres.  Expressing the latter volume in terms of gamma functions, we take an n -&gt; -1 limit and see that all graphs except 2-regular graphs vanish.  But a 2-regular graph embedded in the lattice is just a disjoint union of self-avoiding cycles.  Taking two derivatives to get a 2-point correlator allows us two degree-one vertices, hence a generating function for the number of self avoiding walks organized by length.  This story I read in a lovely book called "self avoiding walks". </p>
+<p>To summarize, the partition function of self-avoiding walks appears as "the limit of the partition function of ising models".  What I'm curious about is how far rightward we can drag the word "limit" in that quoted phrase.  Can we speak of "the partition function of the limit of ising models"?  To do so might require us to make sense of spheres of non-integer dimension.</p>
+<p>Perhaps lie groups give an easier start than spheres.  It would be neat if there was a category containing the category of lie groups where the chain "SO(1) subset SO(2) subset SO(3) subset ..." has interpolating links.  Or perhaps one can abstract a lie algebra to its numeric shadow: look at all the invariant contractions of deltas and structure tensors --- e.g. trace(id) = dim no longer needs to be integer.</p>
+
+
+
+<a name="353038160"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/fractional%20dimensional%20lie%20groups%3F/near/353038160" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/fractional.20dimensional.20lie.20groups.3F.html#353038160">(Apr 27 2023 at 02:42)</a>:</h4>
+<p>Most of these ideas seem very hard to make precise, but they immediately brought to mind  Deligne's category of representations of the symmetric group <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>S</mi><mi>n</mi></msub></mrow><annotation encoding="application/x-tex">S_n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0576em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> when <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span> is not an integer, and reading about that <a href="https://amathew.wordpress.com/2010/06/13/why-delignes-reps_t-is-semisimple-precisely-when-t-is-not-a-nonnegative-integer/">in a blog article by Matthew Akhil</a> I see that Deligne supposedly created similar categories of representations for the groups O(n) and GL(n) when n is not an integer!</p>
+
+
+
+<a name="353038899"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/fractional%20dimensional%20lie%20groups%3F/near/353038899" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/fractional.20dimensional.20lie.20groups.3F.html#353038899">(Apr 27 2023 at 02:44)</a>:</h4>
+<p>I also bumped into this, which reminded me of your talk of Ising models:</p>
+<ul>
+<li>Damon J. Binder, Slava Rychkov, <a href="https://arxiv.org/abs/1911.07895">Deligne categories in lattice models and quantum field theory, or making sense of O(N) Symmetry with non-integer N</a>.</li>
+</ul>
+
+
+
+<a name="353498264"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/fractional%20dimensional%20lie%20groups%3F/near/353498264" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Sam Tenka <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/fractional.20dimensional.20lie.20groups.3F.html#353498264">(Apr 27 2023 at 21:23)</a>:</h4>
+<p>thanks!</p>
+
+
+
+<a name="353503236"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/fractional%20dimensional%20lie%20groups%3F/near/353503236" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Sam Tenka <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/fractional.20dimensional.20lie.20groups.3F.html#353503236">(Apr 27 2023 at 21:38)</a>:</h4>
+<p>I think that second link is exactly what I was looking for.  (It also exposits the work of Deligne that I think the first link (blogpost) mentions).</p>
+<p>yes, dimensional regularization the same kind of mystery.</p>
+
+
+
+<a name="353506689"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/fractional%20dimensional%20lie%20groups%3F/near/353506689" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/fractional.20dimensional.20lie.20groups.3F.html#353506689">(Apr 27 2023 at 21:49)</a>:</h4>
+<p>Until I saw that arXiv article I had no idea that dimensional regularization was connected to Deligne's construction of categories like the categories of reps of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>S</mi><mi>n</mi></msub><mo separator="true">,</mo><mi>O</mi><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">S_n, O(n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.0576em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord mathnormal">n</span><span class="mclose">)</span></span></span></span> etc. for nonintegral <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span>.  </p>
+<p>I'm still not convinced - just because some physicist says something on the arXiv doesn't make it true!  </p>
+<p>But I hope it's true.</p>
+
+
+
+<a name="354792571"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/fractional%20dimensional%20lie%20groups%3F/near/354792571" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Sam Tenka <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/fractional.20dimensional.20lie.20groups.3F.html#354792571">(May 01 2023 at 05:15)</a>:</h4>
+<p>good point that things on the internet aint necessarily true!</p>
+<p>Re dimensional regularization I just meant that (separate from that arxiv preprint)<br>
+the mystery of what dimensional regularization might mean geometrically --- in some spatial model --- <br>
+rhymes with the mystery of what generalized Ising models with symmetry O(epsilon) have as configurations that we sum over.</p>
+
+
+
+<a name="354942373"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/fractional%20dimensional%20lie%20groups%3F/near/354942373" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/fractional.20dimensional.20lie.20groups.3F.html#354942373">(May 01 2023 at 18:08)</a>:</h4>
+<p>Btw, by now I've looked over the paper a few times and it seems believable.  There's been a lot of talk about "categorical symmetries" lately, and I've never bothered to find out what those are, but this paper uses that phrase to mean "instead of using groups to describe symmetries in quantum physics, use categories that are like categories of representations of groups".</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

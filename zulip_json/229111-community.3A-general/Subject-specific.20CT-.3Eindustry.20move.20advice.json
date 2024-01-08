@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p>If you were not completely booked up I'd be interested to meet for a short chat about an academic CT -&gt; industry transition plan, if you had any advice. If not, fair enough :-) I'm based close enough to the conference to be fairly flexible</p>",
+        "id": 315171384,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1670744330
+    },
+    {
+        "content": "<p>I've had a long term, low-grade interest in CQM, and I tried including your work in an ultimately unsuccessful interview \"fictional pitch\" earlier this year (too broad, covering AlgebraicJulia, as well as some other th8ngs...)</p>",
+        "id": 315171558,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1670744464
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276422\">@David Michael Roberts</span> off-topic?</p>",
+        "id": 315191918,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1670757617
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"277473\">@Morgan Rogers (he/him)</span> sorry! :-/ Got a bit carried away there. If there is any way to neatly cut the last two comments to a new thread (not sure were!) I think that would be suitable, as such a discussion here, with input from anyone would be useful for others here, too, methinks. I can't switch it to a different stream myself, but practice:industry might be reasonable.</p>",
+        "id": 315260168,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1670796163
+    },
+    {
+        "content": "<p>I guess this is a reasonable place to raise this, though perhaps it's been discussed before.</p>",
+        "id": 315302756,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1670829805
+    },
+    {
+        "content": "<p>When moving to industry from academia, there's all kinds of generic advice. </p>\n<p>However, what advice, if any, can people offer that is specific to someone coming from CT?</p>",
+        "id": 315302847,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1670829849
+    },
+    {
+        "content": "<p>What kind of messaging, that someone with CT experience can bring, resonates with people out in the \"real world\" (TM)?</p>",
+        "id": 315302969,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1670829923
+    },
+    {
+        "content": "<p>I had a brief phone exchange today with someone from a company and had to essentially give a precis of my PhD area, and had a go at saying how CT is a kind of meta analysis spanning different subfields, or some such waffle. [Was all rather sudden: a friend called to mention a potential job lead, then I was on the phone with a manager for what was probably a brief pre-screening chat...]</p>",
+        "id": 315303229,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1670830056
+    },
+    {
+        "content": "<p>But ... how did I do? Did I manage to turn on sufficient charm? Who knows. But I won't be the only one who might benefit from some wisdom from experience.</p>",
+        "id": 315303617,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1670830241
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276422\">David Michael Roberts</span> <a href=\"#narrow/stream/229111-general/topic/Subject-specific.20CT-.3Eindustry.20move.20advice/near/315302969\">said</a>:</p>\n<blockquote>\n<p>What kind of messaging, that someone with CT experience can bring, resonates with people out in the \"real world\" (TM)?</p>\n</blockquote>\n<p>My $.02: any org that you don't already know anyone at, or that doesn't embrace Haskell (and no functional programming in general does not count, but YMMV with Jane Street) is not going to be very receptive to CT per se. It is operationally orthogonal to the sorts of things that industry usually (thinks they) want. To get folks at my prior place of employment to drink the CT Kool-Aid I repeated a mantra along the lines of \"with CT you spend a month at a whiteboard and a month coding instead of three months coding\" and/or \"if you want to compose systems you're doing CT already, better to do it less badly and with some awareness.\" That was still a hard sell in a R&amp;D organization, but it did get some traction over time.</p>\n<p>Best to not center your pitch on CT but to stress how you can help with the hardest parts of a math gig in industry: sharpening poorly defined problems into precisely defined ones that admit good solutions or at least workable approximations; refining ad hoc tools and practices; finding insertion points for structural and algorithmic improvements that can add value; etc. Stress whatever coding acumen you have or don't have--as long as you have some, it should be fine. </p>\n<p>Don't try to be something you aren't or don't want to be: an interview outside of academia goes in both directions.</p>",
+        "id": 315364732,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1670851240
+    },
+    {
+        "content": "<p>Thanks, <span class=\"user-mention\" data-user-id=\"277578\">@Steve Huntsman</span> . I wasn't thinking so much trying to promote CT, but thinking about what is specific about CT that can inform someone's move to industry that is a bit more generic. So your non-CT pitch is kind of thing that I am looking for.</p>",
+        "id": 315475307,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1670883926
+    }
+]

@@ -1,0 +1,116 @@
+[
+    {
+        "content": "<p>“a natural transformation is a 2-morphism between two functors.”. </p>\n<p>I currently understand a category to be “a collection of objects and a collection of arrows between pairs of objects”. Thus, a category is a directed graph, EXCEPT for one condition, I believe, that of composition of arrows: if a • b and b • c exist, then there necessarily exists a • c too. (cont. below)</p>",
+        "id": 375730371,
+        "sender_full_name": "Julius",
+        "timestamp": 1689506171
+    },
+    {
+        "content": "<p>Intuitively, I have been considering something like cooking, colors, or musical tones. An arrow from A to B perhaps is a transformation on an object in some way? For example, let’s say you begin with butter, then add sugar, then add eggs. Those could be arrows, could they not? And the “closure” of the arrows means simply that there is just also one arrow that signifies “add eggs and sugar at the same time”. Is there a different intuition that might be better - like, arrows not as the addition of an element, but a change, like rotations of a geometric object? (cont. below)</p>",
+        "id": 375730915,
+        "sender_full_name": "Julius",
+        "timestamp": 1689506338
+    },
+    {
+        "content": "<p>So, let us say, Question 1: what is the true significance of this condition? What important properties does it bring? Without it, I believe we have quasi categories, which still have their own developed theory, right?</p>",
+        "id": 375731180,
+        "sender_full_name": "Julius",
+        "timestamp": 1689506424
+    },
+    {
+        "content": "<p>Thus, a natural transformation is perhaps trivially, a functor between functors - does that imply we need to ensure that the functors act like a category? They also need the “every diagram commutes” property, right?</p>",
+        "id": 375731524,
+        "sender_full_name": "Julius",
+        "timestamp": 1689506526
+    },
+    {
+        "content": "<p>“A functor is a homomorphism between categories” - a homomorphism is a structure-preserving map as in abstract algebra. It means it respects the relationship the arrows have to each other. I think the arrows of a category form either a monoid or a semigroup.</p>",
+        "id": 375732130,
+        "sender_full_name": "Julius",
+        "timestamp": 1689506752
+    },
+    {
+        "content": "<p>I already must clean up my thoughts on all this but many questions have been opened in my mind so I will welcome any conversation partners in an aside-thread where I would not be spamming. Sorry for my beginners-level questions. Thanks for understanding.</p>",
+        "id": 375732299,
+        "sender_full_name": "Julius",
+        "timestamp": 1689506812
+    },
+    {
+        "content": "<p>Welcome, <span class=\"user-mention\" data-user-id=\"629908\">@Julius</span> </p>\n<blockquote>\n<p>“a natural transformation is a 2-morphism between two functors.”</p>\n</blockquote>\n<p>By the way, that's not a definition of natural transformation.  It just a fact about natural transformations... and it's not a very helpful fact unless you know what 2-morphisms are.</p>\n<p>In math it's often good to start with definitions, and then lots of examples illustrating the definitions.  Without knowing definitions and examples, your understanding will be vague.   To see the definition of natural transformation, you can do something like go to Wikipedia:</p>\n<ul>\n<li>Wikipedia, <a href=\"https://en.wikipedia.org/wiki/Natural_transformation#Definition\">Natural transformation</a>.</li>\n</ul>",
+        "id": 375784248,
+        "sender_full_name": "John Baez",
+        "timestamp": 1689520386
+    },
+    {
+        "content": "<p>But before you understand natural transformations you need to understand functors.  And before you understand functors you need to understand categories.</p>\n<blockquote>\n<p>I currently understand a category to be “a collection of objects and a collection of arrows between pairs of objects”. Thus, a category is a directed graph, EXCEPT for one condition, I believe, that of composition of arrows: if a • b and b • c exist, then there necessarily exists a • c too. </p>\n</blockquote>\n<p>This is <em>part</em> of the definition of a category, but it's not the whole definition!  There's more, and what you're leaving out is very important.  So again: go to some trustworthy source like Wikipedia and read the definition:</p>\n<ul>\n<li>Wikipedia, <a href=\"https://en.wikipedia.org/wiki/Category_(mathematics)#Definition\">Category (mathematics)</a>.</li>\n</ul>\n<blockquote>\n<p>Thus, a natural transformation is perhaps trivially, a functor between functors.</p>\n</blockquote>\n<p>No, not true.</p>\n<blockquote>\n<p>“A functor is a homomorphism between categories” </p>\n</blockquote>\n<p>This is a kind of vague fact about categories, not the definition.  So again, I urge you to read the definition:</p>\n<ul>\n<li>Wikipedia, <a href=\"https://en.wikipedia.org/wiki/Functor#Definition\">Functor</a>.</li>\n</ul>\n<p>But again, the right sequence is</p>\n<ul>\n<li>category</li>\n<li>functor</li>\n<li>natural transformation</li>\n</ul>\n<p>since each one relies on the previous ones.</p>",
+        "id": 375784890,
+        "sender_full_name": "John Baez",
+        "timestamp": 1689520537
+    },
+    {
+        "content": "<p>Your intuition about morphisms (seeing them as steps in a recipe) is good. A lot of categories of interest are so-called categories of processes, where objects are states and morphisms are processes that change the state. Your intuition about composition is not totally accurate. Composing \"add eggs\" with \"add sugar\" gives \"add eggs then add sugar\" which is not the same thing as \"add eggs and sugar at the same time\". Both take you from an empty bowl to a bowl with eggs and sugar, but the processes/morphisms are different.</p>",
+        "id": 375785229,
+        "sender_full_name": "Ralph Sarkis",
+        "timestamp": 1689520605
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"284005\">Ralph Sarkis</span> <a href=\"#narrow/stream/229111-general/topic/Introduce.20yourself!/near/375785229\">said</a>:</p>\n<blockquote>\n<p>Your intuition about morphisms (seeing them as steps in a recipe) is good.</p>\n</blockquote>\n<p>But morphisms can be many many different things, so this intuition can sometimes break. Seeing lots of examples of categories will help you polish your intuition.</p>",
+        "id": 375786297,
+        "sender_full_name": "Ralph Sarkis",
+        "timestamp": 1689520903
+    },
+    {
+        "content": "<p>Welcome <span class=\"user-mention\" data-user-id=\"629908\">@Julius</span> <br>\nThis diagram might be helpful for you, if you are into cooking:</p>\n<p><a href=\"/user_uploads/21317/hzdGALVqVff4XrLH9lvXknbs/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/hzdGALVqVff4XrLH9lvXknbs/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/hzdGALVqVff4XrLH9lvXknbs/image.png\"></a></div><p>Note that this is a string diagram, one in which objects are represented by  arrows and morphisms are points. </p>\n<p>The diagram is from this book: <a href=\"https://arxiv.org/abs/1803.05316\">https://arxiv.org/abs/1803.05316</a>, second chapter, I think.</p>",
+        "id": 375849429,
+        "sender_full_name": "Jencel Panic",
+        "timestamp": 1689549340
+    },
+    {
+        "content": "<p>12 messages were moved here from <a class=\"stream-topic\" data-stream-id=\"229111\" href=\"/#narrow/stream/229111-general/topic/Introduce.20yourself.21\">#general &gt; Introduce yourself!</a> by <span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span>.</p>",
+        "id": 375961970,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1689588691
+    },
+    {
+        "content": "<p>Thank you. I am actually now reading that book and loving it. It is perfectly at my level. I’d like to open a thread where I discuss and review what I’ve learned from it so far. It is such a masterpiece. It allows you to enter category theory without the advanced background in abstract algebra other texts often seem to require. I’m very excited to read more.</p>",
+        "id": 377483950,
+        "sender_full_name": "Julius",
+        "timestamp": 1690000895
+    },
+    {
+        "content": "<p>Do it, it's a wonderful (the only?) way to learn.</p>",
+        "id": 377743902,
+        "sender_full_name": "Jencel Panic",
+        "timestamp": 1690092812
+    },
+    {
+        "content": "<p>There is also the book Category Theory for Scientists by the same author, which is an even better first book  <a href=\"https://arxiv.org/pdf/1302.6946.pdf\">https://arxiv.org/pdf/1302.6946.pdf</a></p>",
+        "id": 377744051,
+        "sender_full_name": "Jencel Panic",
+        "timestamp": 1690092875
+    },
+    {
+        "content": "<p>Oh shoot, you’re the person who invited me to this Zulip from Twitter! Cool. Thx</p>",
+        "id": 377831473,
+        "sender_full_name": "Julius",
+        "timestamp": 1690117675
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/2n-xs7w7z9-WXVyM9vowuXni/B75673CB-2C1C-4BB3-9456-C13283E77353.png\">B75673CB-2C1C-4BB3-9456-C13283E77353.png</a> I’d be happy to read your book and give feedback on what parts I find easy vs hard to understand</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/2n-xs7w7z9-WXVyM9vowuXni/B75673CB-2C1C-4BB3-9456-C13283E77353.png\" title=\"B75673CB-2C1C-4BB3-9456-C13283E77353.png\"><img src=\"/user_uploads/21317/2n-xs7w7z9-WXVyM9vowuXni/B75673CB-2C1C-4BB3-9456-C13283E77353.png\"></a></div>",
+        "id": 377831829,
+        "sender_full_name": "Julius",
+        "timestamp": 1690117760
+    },
+    {
+        "content": "<p>Cool, my book is based on Spivak's work, mostly, btw.</p>",
+        "id": 377914222,
+        "sender_full_name": "Jencel Panic",
+        "timestamp": 1690140324
+    },
+    {
+        "content": "<p>Or, rather, think of it as a way how A <em>relates</em> to B! There is the standard category <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"bold\">R</mi><mi mathvariant=\"bold\">e</mi><mi mathvariant=\"bold\">l</mi></mrow><annotation encoding=\"application/x-tex\">\\mathbf{Rel}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord\"><span class=\"mord mathbf\">Rel</span></span></span></span></span> of sets and binary relations. Anotjer important example is from symplectic geometry: there is a notion called a Fukaya category, where (roughly) the objects are certain (\"Lagrangian\") submanifolds of a manifold and the morphisms are (very vaguely) the ways how those submanifolds intersect.</p>",
+        "id": 380493983,
+        "sender_full_name": "Xuanrui Qi",
+        "timestamp": 1690837636
+    }
+]

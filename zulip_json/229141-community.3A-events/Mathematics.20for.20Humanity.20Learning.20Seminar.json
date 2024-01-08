@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>The <a href=\"https://www.minhyongkim.net/research/current-seminars/mathematics-for-humanity\">Mathematics for Humanity Learning Seminar</a> consists of 3 online presentations introducing early career mathematical scientists to some of the ways in which mathematics can contribute to humanity.  </p>\n<p>Zoom Address:</p>\n<p>Meeting ID: 890 6777 1938</p>\n<p>Passcode: 656916</p>",
+        "id": 400117545,
+        "sender_full_name": "John Baez",
+        "timestamp": 1699012100
+    },
+    {
+        "content": "<p>Session 1:</p>\n<p>15 November 2023, 17:00 UK time</p>\n<p>Speaker: Doyne Farmer</p>\n<p>Title: Complexity economics:  An unexplored mathematical wilderness</p>\n<p>Abstract: The standard approach to economics is to derive and solve the first-order conditions that maximize the utility of individual agents.  Complexity economics takes a different approach by modeling behavior directly and making extensive use of simulation.  This has the big advantages of verisimilitude and tractability:  Verisimilitude means modeling the economy 'as-is' rather than 'as-if'; tractability means that it becomes feasible to create and solve models with millions of heterogeneous agents and incorporate structural features of the economy much more realistically. This means that we can potentially create much better models for problems like inequality and the economics of the climate transition.  While complexity economics emphasizes simulation, there is also a real need for mathematical models to explain what is going on in simulations to give deeper insight.  Such mathematics is different from that of mainstream economics, drawing on insights, for example, from dynamical systems, statistical mechanics, ecology and evolutionary biology.  But beware: Because it abandons assumptions that have been almost universally used for more than a century, complexity economics is a revolution -- one that has so far been strongly opposed by the mainstream.</p>",
+        "id": 400117596,
+        "sender_full_name": "John Baez",
+        "timestamp": 1699012125
+    },
+    {
+        "content": "<p>Session 2:</p>\n<p>14 December 2023, 17:00 UK time</p>\n<p>Speaker: Diletta Martinelli</p>\n<p>Title: Mathematics activities in the Global South</p>\n<p>Abstract: In the last years I have been involved in a variety of mathematical activities in the Global South, especially in Africa. I have been teaching and supervising students from many different countries and I have organized several workshops and training schools. Lately, I am working on the creation of a new mathematics master program in Kigali, Rwanda. I will describe my experiences with what I believe are the main challenges and opportunities and I will explain what are possible ways to engage with these type of activities.</p>",
+        "id": 400117638,
+        "sender_full_name": "John Baez",
+        "timestamp": 1699012143
+    },
+    {
+        "content": "<p>Session 3:</p>\n<p>18 January 2024, 17:00 UK time</p>\n<p>Speaker: Minhyong Kim</p>\n<p>Title: Euclid's Identity</p>\n<p>Abstract: At a recent conference on the global history of mathematics, a question was raised about the recurrence of Euclid in a number of the talks and the 'Western' bias that seemed to appear in a meeting that was concerned with global history. In this talk, I will discuss the misconceptions around the identities of historical figures like Euclid, the deep-rooted confusion surrounding ancient  identities in general, and why it might be important for mathematicians of our times to be aware of them.</p>",
+        "id": 400117656,
+        "sender_full_name": "John Baez",
+        "timestamp": 1699012148
+    }
+]

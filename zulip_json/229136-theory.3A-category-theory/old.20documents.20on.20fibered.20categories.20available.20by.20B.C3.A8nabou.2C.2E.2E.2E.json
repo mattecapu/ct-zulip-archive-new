@@ -1,0 +1,80 @@
+[
+    {
+        "content": "<p>Thomas Streicher has made available several scans of documents on fibered categories by the authors Bénabou, Celeyrette, and Moens, as announced in the following message also to appear on the categories mailing list:</p>\n<p>After getting permission from Jean Bénabou's son for doing so I have<br>\nmade copies of some of his most influential unpublished texts on<br>\nfibered categories available on my home page under<br>\n<a href=\"https://www2.mathematik.tu-darmstadt.de/~streicher/FibCatTexts/\">https://www2.mathematik.tu-darmstadt.de/~streicher/FibCatTexts/</a></p>\n<ul>\n<li><a href=\"https://www2.mathematik.tu-darmstadt.de/~streicher/FibCatTexts/jb_montreal_74.pdf\">jb_montreal_74.pdf</a> are his notes for the 1974 course in Montreal</li>\n<li><a href=\"https://www2.mathematik.tu-darmstadt.de/~streicher/FibCatTexts/jb_lln_80.pdf\">jb_lln_80.pdf</a> are J.-R. Roisin's notes of Bénabou's famous 1980 course at Louvain-la-Neuve</li>\n<li><a href=\"https://www2.mathematik.tu-darmstadt.de/~streicher/FibCatTexts/jb_chapitre1.pdf\">jb_chapitre1.pdf</a> is a copy of Chapter 1 of his never finished book \"Des Catégories Fibrées\"</li>\n</ul>\n<p>In 2 folders at the same place you find copies of the Theses of <a href=\"https://www2.mathematik.tu-darmstadt.de/~streicher/FibCatTexts/CeleyretteThese\">Celeyrette</a> and <a href=\"https://www2.mathematik.tu-darmstadt.de/~streicher/FibCatTexts/MoensThese\">Moens</a>. The first one was directed by Jean himself and the second heavily influenced by Jean's 1980 course.</p>\n<p>The copies are partly of moderate quality but readable with a bit of good will. Would be great to have them typed within TAC Reprints series!</p>\n<p>Jean's work was very influential but not easily available. Hope these copies make it easier for younger people to form their own opinion about seminal work overshadowed by controversies in the past...</p>\n<p>I am grateful to Jonathan Weinberger for helping me to prepare the copies.</p>\n<p>Thomas Streicher</p>",
+        "id": 294221352,
+        "sender_full_name": "Jonathan Weinberger",
+        "timestamp": 1660897664
+    },
+    {
+        "content": "<p>Can they also be made available in djvu format? Might make for smaller files</p>",
+        "id": 294382882,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1660959369
+    },
+    {
+        "content": "<p>Not originally, I think</p>",
+        "id": 294422006,
+        "sender_full_name": "Jonathan Weinberger",
+        "timestamp": 1660991933
+    },
+    {
+        "content": "<p>I might try and see if it's straightforward to convert them with reasonable quality</p>",
+        "id": 294430593,
+        "sender_full_name": "Jonathan Weinberger",
+        "timestamp": 1660996238
+    },
+    {
+        "content": "<p>I have the files anyway, but they are pretty big. Compare for instance the old pdf scan of Pursuing Stacks (which was a whopper) to the djvu version.</p>",
+        "id": 294503503,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1661052265
+    },
+    {
+        "content": "<p><a href=\"https://aareyanmanzoor.github.io/Texromancers.html\">https://aareyanmanzoor.github.io/Texromancers.html</a> </p>\n<p>^ it's the right time and place to spam about this initiative!</p>",
+        "id": 294516179,
+        "sender_full_name": "fosco",
+        "timestamp": 1661067541
+    },
+    {
+        "content": "<p>Great initiative, the Texromancers! For fun I would like to have the contrary: a TeX package that makes texts look like the old Springer lecture notes, with their uneven type writer font and handwritten greek letters...</p>",
+        "id": 304881937,
+        "sender_full_name": "Peter Arndt",
+        "timestamp": 1666157009
+    },
+    {
+        "content": "<p>Makes category theory feel more raw and wild, still untamed, that's for sure...</p>",
+        "id": 304923379,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1666175961
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"303936\">Peter Arndt</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/old.20documents.20on.20fibered.20categories.20available.20by.20B.C3.A8nabou.2C.2E.2E.2E/near/304881937\">said</a>:</p>\n<blockquote>\n<p>Great initiative, the Texromancers! For fun I would like to have the contrary: a TeX package that makes texts look like the old Springer lecture notes, with their uneven type writer font and handwritten greek letters...</p>\n</blockquote>\n<p>I unironically thought about this with <span class=\"user-mention\" data-user-id=\"279225\">@Paolo Brasolin</span> when we were young and rogue.</p>",
+        "id": 304962389,
+        "sender_full_name": "fosco",
+        "timestamp": 1666188184
+    },
+    {
+        "content": "<p>I wanted to mimick the particular style of papers written with an <a href=\"https://en.wikipedia.org/wiki/IBM_Selectric_typewriter\">IBM Selectric typewriter</a>.</p>",
+        "id": 304962635,
+        "sender_full_name": "fosco",
+        "timestamp": 1666188267
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"282822\">fosco</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/old.20documents.20on.20fibered.20categories.20available.20by.20B.C3.A8nabou.2C.2E.2E.2E/near/304962635\">said</a>:</p>\n<blockquote>\n<p>I wanted to mimick the particular style of papers written with an <a href=\"https://en.wikipedia.org/wiki/IBM_Selectric_typewriter\">IBM Selectric typewriter</a>.</p>\n</blockquote>\n<p>Do you have an example of such a paper?</p>",
+        "id": 305085668,
+        "sender_full_name": "Bryce Clarke",
+        "timestamp": 1666246530
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276693\">Bryce Clarke</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/old.20documents.20on.20fibered.20categories.20available.20by.20B.C3.A8nabou.2C.2E.2E.2E/near/305085668\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"282822\">fosco</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/old.20documents.20on.20fibered.20categories.20available.20by.20B.C3.A8nabou.2C.2E.2E.2E/near/304962635\">said</a>:</p>\n<blockquote>\n<p>I wanted to mimick the particular style of papers written with an <a href=\"https://en.wikipedia.org/wiki/IBM_Selectric_typewriter\">IBM Selectric typewriter</a>.</p>\n</blockquote>\n<p>Do you have an example of such a paper?</p>\n</blockquote>\n<p>Here's a page from <a href=\"https://doi.org/10.1007/BFb0091894\">LNM897</a>, about the <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">Ω</mi></mrow><annotation encoding=\"application/x-tex\">\\Omega</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\">Ω</span></span></span></span>-rule. For the LNM, authors had to submit a “camera-ready copy”, and I'm not an expert in typewriters, so I can't say for sure which machine was used, but the use of subscripts and special characters suggests the Selectric. (Still some things had to be added by hand.) Someone can correct me if I'm wrong: <a href=\"/user_uploads/21317/gVVx29kvBXCiLKuAczCUEof_/Omega1rule.jpg\">Omega1rule.jpg</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/gVVx29kvBXCiLKuAczCUEof_/Omega1rule.jpg\" title=\"Omega1rule.jpg\"><img src=\"/user_uploads/21317/gVVx29kvBXCiLKuAczCUEof_/Omega1rule.jpg\"></a></div>",
+        "id": 305092875,
+        "sender_full_name": "Ulrik Buchholtz",
+        "timestamp": 1666250490
+    },
+    {
+        "content": "<p>Faisceaux Pervers and in general the first issues of <em>Astérisque</em> were written with a Selectric iirc</p>",
+        "id": 305236724,
+        "sender_full_name": "fosco",
+        "timestamp": 1666299470
+    }
+]

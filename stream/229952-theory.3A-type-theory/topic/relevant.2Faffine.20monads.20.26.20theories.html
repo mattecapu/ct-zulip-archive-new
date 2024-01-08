@@ -1,0 +1,82 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>relevant/affine monads &amp; theories · theory: type theory · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229952-theory.3A-type-theory/index.html">theory: type theory</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229952-theory.3A-type-theory/topic/relevant.2Faffine.20monads.20.26.20theories.html">relevant/affine monads &amp; theories</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="294365296"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229952-theory%3A%20type%20theory/topic/relevant/affine%20monads%20%26%20theories/near/294365296" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Max New <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229952-theory.3A-type-theory/topic/relevant.2Faffine.20monads.20.26.20theories.html#294365296">(Aug 19 2022 at 21:25)</a>:</h4>
+<p>Hi, I keep coming back to the following question and I can't seem to find good references.</p>
+<p>Given a monad T, there are some well known conditions (necessary and sufficient, I think) on the monad to let you interpret its category of algebras in various type theories:</p>
+<p>Strong monad -&gt; Moggi's monadic metalanguage/Call-by-push-value<br>
+Commutative monad -&gt; Symmetric monoidal categories/linear logic w/ just exchange</p>
+<p>And furthermore if T is the monad from an algebraic theory there are conditions on the theory that are equivalent to the conditions on the monad:</p>
+<p>Strong monad -&gt; any theory <br>
+Commutative monad -&gt; commutative theory (all operations commute)</p>
+<p>Can anyone help me find a reference for the two intermediate notions:<br>
+?? theory -&gt; ?? monad -&gt; semicartesian monoidal category/affine logic (linear logic + weakening)<br>
+?? theory -&gt; ?? monad -&gt; relevance monoidal category/relevance logic (linear logic + contraction)</p>
+<p>I could have sworn I've seen them before, but I am coming up empty. I'd like to put them on nlab so I don't lose them again.</p>
+
+
+
+<a name="294395850"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229952-theory%3A%20type%20theory/topic/relevant/affine%20monads%20%26%20theories/near/294395850" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Sam Staton <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229952-theory.3A-type-theory/topic/relevant.2Faffine.20monads.20.26.20theories.html#294395850">(Aug 20 2022 at 05:44)</a>:</h4>
+<p>Hi Max, I think they're usually called relevant and affine monads, already in Bart Jacobs' Semantics of Weakening and Contraction, where there's more discussion of the history. Bart and others have written more about it since too, of course. <br>
+An affine theory is one where f(x,x,x...) = x for all f. These are sometimes called "modes", and include the theory of convex sets.<br>
+In programming languages we also talk about "discardable" and "copyable" effects, which are related similarly, as you probably know. <br>
+Does that help?</p>
+
+
+
+<a name="294471031"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229952-theory%3A%20type%20theory/topic/relevant/affine%20monads%20%26%20theories/near/294471031" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Max New <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229952-theory.3A-type-theory/topic/relevant.2Faffine.20monads.20.26.20theories.html#294471031">(Aug 20 2022 at 18:28)</a>:</h4>
+<p>Very helpful, thanks. I started a table on this page: <a href="https://ncatlab.org/nlab/show/side+effect">https://ncatlab.org/nlab/show/side+effect</a> I should probably add a column for the discardable/copyable/central/thunkable stuff.</p>
+
+
+
+<a name="294556912"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229952-theory%3A%20type%20theory/topic/relevant/affine%20monads%20%26%20theories/near/294556912" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Sam Staton <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229952-theory.3A-type-theory/topic/relevant.2Faffine.20monads.20.26.20theories.html#294556912">(Aug 21 2022 at 15:38)</a>:</h4>
+<p>Nice. Reminds me a bit of the table in <span class="user-mention" data-user-id="276694">@Ohad Kammar</span> 's paper thesis work, e.g. <a href="https://dl.acm.org/doi/10.1145/2103656.2103698">POPL 2012</a> or <a href="https://era.ed.ac.uk/bitstream/handle/1842/8910/Kammar2014.pdf?sequence=1&amp;isAllowed=y">his thesis</a> page 255.</p>
+
+
+
+<a name="299835873"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229952-theory%3A%20type%20theory/topic/relevant/affine%20monads%20%26%20theories/near/299835873" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Max New <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229952-theory.3A-type-theory/topic/relevant.2Faffine.20monads.20.26.20theories.html#299835873">(Sep 20 2022 at 19:46)</a>:</h4>
+<p>Oh this table is great! Exactly what I was looking for thanks</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

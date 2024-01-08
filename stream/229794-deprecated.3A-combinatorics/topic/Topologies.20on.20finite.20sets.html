@@ -1,0 +1,98 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>Topologies on finite sets · deprecated: combinatorics · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229794-deprecated.3A-combinatorics/index.html">deprecated: combinatorics</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229794-deprecated.3A-combinatorics/topic/Topologies.20on.20finite.20sets.html">Topologies on finite sets</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="398314921"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229794-deprecated%3A%20combinatorics/topic/Topologies%20on%20finite%20sets/near/398314921" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> JR <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229794-deprecated.3A-combinatorics/topic/Topologies.20on.20finite.20sets.html#398314921">(Oct 24 2023 at 15:39)</a>:</h4>
+<p>Transitive digraphs determine categories such that if there is a morphism between a given source and target, it is unique. <a href="https://dl.acm.org/doi/pdf/10.1145/363282.363311">A theorem of Evans, Harary, and Lynn from 1967</a> states that when everything is finite, (labeled) transitive digraphs are in bijection with (labeled) topologies, cf. <a href="https://oeis.org/A000798">https://oeis.org/A000798</a>. A couple of questions: 1. Is this fact discussed anywhere in a category-theoretical context? 2. Is there a known Grothendieck-topological-analogue?</p>
+
+
+
+<a name="398317033"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229794-deprecated%3A%20combinatorics/topic/Topologies%20on%20finite%20sets/near/398317033" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> JR <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229794-deprecated.3A-combinatorics/topic/Topologies.20on.20finite.20sets.html#398317033">(Oct 24 2023 at 15:50)</a>:</h4>
+<p>As an aside, the result of Evans, Harary and Lynn was anticipated and generalized to the infinite case by Ahlborn in Prop. 2.5.1 of <a href="https://ntrs.nasa.gov/api/citations/19660024112/downloads/19660024112.pdf">a 1964 technical report</a></p>
+
+
+
+<a name="398378269"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229794-deprecated%3A%20combinatorics/topic/Topologies%20on%20finite%20sets/near/398378269" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Graham Manuell <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229794-deprecated.3A-combinatorics/topic/Topologies.20on.20finite.20sets.html#398378269">(Oct 25 2023 at 00:12)</a>:</h4>
+<p>The "transitive digraph" terminology strikes me as pretty unusual. Usually, these would be called <em>preorders</em>. That the category of finite topological spaces and the category of finite preorders are equivalent is well known, though I do not know a source. The infinite version is the equivalence between Alexandrov topological spaces and preorders.</p>
+<p>I don't know how relevant Grothendieck topologies per se are here, but finite <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>T</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">T_0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> spaces = finite sober spaces are equivalent to the opposite category of finite distributive lattices = finite frames as a restriction of the the general Stone duality between topological spaces and frames, but I think this special case was probably known earlier than that.</p>
+
+
+
+<a name="398431512"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229794-deprecated%3A%20combinatorics/topic/Topologies%20on%20finite%20sets/near/398431512" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229794-deprecated.3A-combinatorics/topic/Topologies.20on.20finite.20sets.html#398431512">(Oct 25 2023 at 07:56)</a>:</h4>
+<p>Oh, I was wondering what a "transitive digraph" is.  The equivalence between finite topological spaces and finite preorder goes like this, for anyone curious: given points <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo separator="true">,</mo><mi>y</mi></mrow><annotation encoding="application/x-tex">x,y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">x</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span></span></span></span> in a finite topological space, we say <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>≤</mo><mi>y</mi></mrow><annotation encoding="application/x-tex">x \le y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719em;vertical-align:-0.136em;"></span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span></span></span></span> iff <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span></span></span></span> is contained in the closure of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi></mrow><annotation encoding="application/x-tex">y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span></span></span></span>.  The proof that this works - in particular, how you get back from preorders to topological spaces - is outlined <a href="https://en.wikipedia.org/wiki/Finite_topological_space#Specialization_preorder">in the Wikipedia article</a> on a finite topological spaces.</p>
+
+
+
+<a name="398432645"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229794-deprecated%3A%20combinatorics/topic/Topologies%20on%20finite%20sets/near/398432645" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229794-deprecated.3A-combinatorics/topic/Topologies.20on.20finite.20sets.html#398432645">(Oct 25 2023 at 08:04)</a>:</h4>
+<p>Key buzzwords for learning more are </p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Specialization_(pre)order">specialization preorder</a>: the preorder you get from a topological space, in the way I just described</li>
+<li><a href="https://en.wikipedia.org/wiki/Alexandrov_topology">Alexandrov topology</a>: the topological space you get from a preorder</li>
+<li><a href="https://en.wikipedia.org/wiki/Birkhoff%27s_representation_theorem">Birkhoff's representation theorem</a>: a theorem closely connected to the equivalence between finite topological spaces and finite preorders.</li>
+</ul>
+
+
+
+<a name="398528511"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229794-deprecated%3A%20combinatorics/topic/Topologies%20on%20finite%20sets/near/398528511" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Forgy <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229794-deprecated.3A-combinatorics/topic/Topologies.20on.20finite.20sets.html#398528511">(Oct 25 2023 at 17:02)</a>:</h4>
+<p>I love this stuff <span aria-label="heart eyes" class="emoji emoji-1f60d" role="img" title="heart eyes">:heart_eyes:</span> <br>
+Probably not what motivated this topic, but it relates to some early tantalizing stuff from Rafael Sorkin (Perimeter Institute) and others, e.g.</p>
+<ul>
+<li><a href="https://www2.perimeterinstitute.ca/personal/rsorkin/some.papers/66.cocoyoc.pdf">Spacetime as a Causal Set</a>, Sorkin</li>
+</ul>
+<p>Love this classic website: <a href="https://www2.perimeterinstitute.ca/personal/rsorkin/">https://www2.perimeterinstitute.ca/personal/rsorkin/</a></p>
+
+
+
+<a name="398530835"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229794-deprecated%3A%20combinatorics/topic/Topologies%20on%20finite%20sets/near/398530835" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eric Forgy <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229794-deprecated.3A-combinatorics/topic/Topologies.20on.20finite.20sets.html#398530835">(Oct 25 2023 at 17:18)</a>:</h4>
+<p>(Sidenote: One of my mentors, <a href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id=142965">Terrence Honan</a>,  was a colleague of Sorkin (and student of Charles Misner). Also interested in discrete foundations for physics. His dissertation is one of the most beautiful papers I've ever read, but it does not exist in electronic form. If my life ever settles down enough, I'd like to digitize it.)</p>
+
+
+
+<a name="398532503"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229794-deprecated%3A%20combinatorics/topic/Topologies%20on%20finite%20sets/near/398532503" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jens Hemelaer <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229794-deprecated.3A-combinatorics/topic/Topologies.20on.20finite.20sets.html#398532503">(Oct 25 2023 at 17:30)</a>:</h4>
+<p>If you have a finite category <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="script">C</mi></mrow><annotation encoding="application/x-tex">\mathcal{C}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathcal" style="margin-right:0.05834em;">C</span></span></span></span> together with a Grothendieck topology <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>J</mi></mrow><annotation encoding="application/x-tex">J</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.09618em;">J</span></span></span></span> on it, then the category of sheaves <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mi mathvariant="bold">S</mi><mi mathvariant="bold">h</mi></mrow><mo stretchy="false">(</mo><mi mathvariant="script">C</mi><mo separator="true">,</mo><mi>J</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\mathbf{Sh}(\mathcal{C},J)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathbf">Sh</span></span><span class="mopen">(</span><span class="mord mathcal" style="margin-right:0.05834em;">C</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.09618em;">J</span><span class="mclose">)</span></span></span></span> is equivalent to a category of presheaves <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mi mathvariant="bold">P</mi><mi mathvariant="bold">S</mi><mi mathvariant="bold">h</mi></mrow><mo stretchy="false">(</mo><mi mathvariant="script">D</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\mathbf{PSh}(\mathcal{D})</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathbf">PSh</span></span><span class="mopen">(</span><span class="mord mathcal" style="margin-right:0.02778em;">D</span><span class="mclose">)</span></span></span></span>, for <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="script">D</mi></mrow><annotation encoding="application/x-tex">\mathcal{D}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathcal" style="margin-right:0.02778em;">D</span></span></span></span> another finite category. This is a generalization of the situation for topological spaces, for topological spaces <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="script">C</mi></mrow><annotation encoding="application/x-tex">\mathcal{C}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathcal" style="margin-right:0.05834em;">C</span></span></span></span> would be the frame of open subsets and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="script">D</mi></mrow><annotation encoding="application/x-tex">\mathcal{D}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathcal" style="margin-right:0.02778em;">D</span></span></span></span> would be the specialization preorder.</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

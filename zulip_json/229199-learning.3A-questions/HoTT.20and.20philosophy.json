@@ -1,0 +1,314 @@
+[
+    {
+        "content": "<p><a href=\"/user_uploads/21317/ncuJL_Au9oGJ3wURsVxcePHA/file-2.pdf\">file-2.pdf</a></p>",
+        "id": 304256553,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1665880838
+    },
+    {
+        "content": "<p>I was reading this note Structuralism, Invariance, and Univalence of Steve Awodey</p>",
+        "id": 304256574,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1665880891
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/uCfRpec5aAj0OoiJLTQC5G43/IMG_4157.JPG\">IMG_4157.JPG</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/uCfRpec5aAj0OoiJLTQC5G43/IMG_4157.JPG\" title=\"IMG_4157.JPG\"><img src=\"/user_uploads/21317/uCfRpec5aAj0OoiJLTQC5G43/IMG_4157.JPG\"></a></div>",
+        "id": 304256644,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1665880960
+    },
+    {
+        "content": "<p>It resonates a lot with this page written by relationalism economist GLS Shackle in his book Decision, Order, and Time in Human Affairs.</p>",
+        "id": 304256678,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1665881021
+    },
+    {
+        "content": "<p>I'm thinking in Dempster-Shafer theory, a statistical judgement is a probabilistic functor from a category of sensorimotor states to a category of concepts. The sensorimotor states that are analogous to one another are statistical distributions that are homotopy equivalent to one another.</p>",
+        "id": 304257175,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1665881563
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"394227\">@Peiyuan Zhu</span> what's the question?</p>",
+        "id": 304298469,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1665920639
+    },
+    {
+        "content": "<p>Is this understanding capturing the structuralism idea in homotopy theory?</p>",
+        "id": 304621797,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1666076905
+    },
+    {
+        "content": "<p>I wonder if the semantics of HoTT as propositions and sets have deeper meanings. In Dempster-Shafer theory propositions are modelled as sets. HoTT people usually tell me HoTT is just providing a group of syntax and semantics are what you're supposed to give, and you can either consider it in case of propositions or sets. But in Dempster-Shafer theory a proposition is represented by a set up to imprecision.</p>",
+        "id": 306025945,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1666703762
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/ClzAn6F8RquFvfoYDse6RQv3/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/ClzAn6F8RquFvfoYDse6RQv3/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/ClzAn6F8RquFvfoYDse6RQv3/image.png\"></a></div>",
+        "id": 306029463,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1666704781
+    },
+    {
+        "content": "<p>\"Most of these students, myself included, find it difficult to see how so slight and formal an object as a proposition can, in itself and without reference to the experience by which we come to know it, provide positive but partial support to other propositions.\"</p>",
+        "id": 306030212,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1666704975
+    },
+    {
+        "content": "<p>10 messages were moved here from <a class=\"stream-topic\" data-stream-id=\"229199\" href=\"/#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions\">#learning: questions &gt; beginner questions</a> by <span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span>.</p>",
+        "id": 306032250,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1666705576
+    },
+    {
+        "content": "<p>It sounds like an radical empiricism / empiricism argument.</p>",
+        "id": 306032470,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1666705657
+    },
+    {
+        "content": "<p>I just recall this paragraph from Zen and the Art of Motorcycle Maintenance P133: \"Hume has been saying, in effect, that everything I know about this<br>\nmotorcycle comes to me through my senses. It has to be. There's no other<br>\nway. If I say it's made of metal and other substances, he asks, What's metal?<br>\nIf I answer that metal's hard and shiny and cold to the touch and deforms<br>\nwithout breaking under blows from a harder material, Hume says those are<br>\nall sights and sounds and touch. There's no substance. Tell me what metal is<br>\napart from these sensations. Then, of course, I'm stuck.\"</p>",
+        "id": 306032629,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1666705701
+    },
+    {
+        "content": "<p>I think you're going to need to express more of your thinking process in words in order for anyone to be able to contribute to this discussion.</p>",
+        "id": 306032801,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1666705772
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/HoTT.20and.20philosophy/near/306025945\">said</a>:</p>\n<blockquote>\n<p>I wonder if the semantics of HoTT as propositions and sets have deeper meanings. In Dempster-Shafer theory propositions are modelled as sets. HoTT people usually tell me HoTT is just providing a group of syntax and semantics are what you're supposed to give, and you can either consider it in case of propositions or sets. But in Dempster-Shafer theory a proposition is represented by a set up to imprecision.</p>\n</blockquote>\n<p>Do you think this question make sense?</p>",
+        "id": 306033371,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1666705939
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"277473\">@Morgan Rogers (he/him)</span></p>",
+        "id": 306035629,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1666706551
+    },
+    {
+        "content": "<p>While I can't say anything about Dempster-Shafer theory, it might be worth noting that in HoTT not every type is a proposition or a set, but generally corresponds to a homotopy type of a space. This is made precise by the simplicial model (<a href=\"https://ems.press/content/serial-article-files/12227\">Kapulkin-Lumsdaine after Voevodsky</a>) and the proof that identity types endow types with the structure of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">∞</mi></mrow><annotation encoding=\"application/x-tex\">\\infty</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord\">∞</span></span></span></span>-groupoids (<a href=\"https://arxiv.org/pdf/0812.0298\">van den Berg-Garner</a> and <a href=\"https://lmcs.episciences.org/1062/pdf\">Lumsdaine</a>).<br>\nPropositions and sets are special cases, defined by contractibility of (higher) identity types. In particular, propositions <strong>are</strong> sets, without any imprecision!</p>",
+        "id": 306036425,
+        "sender_full_name": "Tobias Schmude",
+        "timestamp": 1666706772
+    },
+    {
+        "content": "<p>What is the philosophical underpinning of homotopy type? I can see that for sets and propositions, but I cannot find a situation that homotopy type is sensible?</p>",
+        "id": 307016511,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667171182
+    },
+    {
+        "content": "<p>You may want to read the book \"Modal HoTT\" which is written by David Corfield, a philosopher who also was aparently one of the founders with John Baez of the nlab or the cafe. <a href=\"https://www.schweitzer-online.de/buch/Corfield/Modal-Homotopy-Type-Theory/9780198853404/A52722040/\">https://www.schweitzer-online.de/buch/Corfield/Modal-Homotopy-Type-Theory/9780198853404/A52722040/</a> I think that book would have been a bit more readable with diagrams.</p>",
+        "id": 307026075,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1667181505
+    },
+    {
+        "content": "<p>I saw this hierarchy before. How can I understand it? <a href=\"/user_uploads/21317/HpVoT9wFW0X7e3Vc0aZ-Y_dh/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/HpVoT9wFW0X7e3Vc0aZ-Y_dh/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/HpVoT9wFW0X7e3Vc0aZ-Y_dh/image.png\"></a></div>",
+        "id": 307026692,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667182205
+    },
+    {
+        "content": "<p>Seems relevant, but the explanation is ver little from the book</p>",
+        "id": 307026700,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667182217
+    },
+    {
+        "content": "<p>There was a whole summer course on cubical Agda where they went into all that.<br>\n<a href=\"https://www.youtube.com/playlist?list=PLtIZ5qxwSNnzpNqfXzJjlHI9yCAzRzKtx\">https://www.youtube.com/playlist?list=PLtIZ5qxwSNnzpNqfXzJjlHI9yCAzRzKtx</a></p>",
+        "id": 307026736,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1667182286
+    },
+    {
+        "content": "<p>I think they barely talked about philosophy so it's only at the syntax level I believe? But I'm trying to give it some meaning so I can get into it (relate it to real life situation, I mean, intuitionism is about some feelings anyways right?)</p>",
+        "id": 307029074,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667184971
+    },
+    {
+        "content": "<p>Well Cubical Agda is Hott implemented in a proof assistant you can use directly to improve your intuitions. At the end of the course there are some very interesting applications to computing. The book by Corfield is directly looking at how HoTT affects philosophical thinking.  Use Cubical Agda to gain intuitions about HoTT and that will help understand the philosophical implications.</p>",
+        "id": 307029230,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1667185170
+    },
+    {
+        "content": "<p>Ok it's gonna take some time to go through this lecture. I would really hope I can have a solid question in mind tho. Can you give a bit of hint of how homotopy become relevant to intuition? The only place that I can recall it from university math is topology. I never used it myself, but looks interesting. I saw that at the end of the lecture series they started to talk about group without group which seems to be answering the question that I have? David Cortfield cited Ernst Cassier on several occasions, who seems to have contributed to relationalism physics. What's your take on this? How to understand relationalism philosophy in this context?</p>",
+        "id": 307030028,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667185980
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/E77X-HWJwO1J2Uhqi3CKUIX7/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/E77X-HWJwO1J2Uhqi3CKUIX7/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/E77X-HWJwO1J2Uhqi3CKUIX7/image.png\"></a></div>",
+        "id": 307030035,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667185988
+    },
+    {
+        "content": "<p>I think this is where David cited this about perception. Do you recommend going through the whole lecture before trying to understand questions like this?</p>",
+        "id": 307030123,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667186057
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"281126\">Henry Story</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/HoTT.20and.20philosophy/near/307029230\">said</a>:</p>\n<blockquote>\n<p>Well Cubical Agda is Hott implemented in a proof assistant you can use directly to improve your intuitions. At the end of the course there are some very interesting applications to computing. The book by Corfield is directly looking at how HoTT affects philosophical thinking.  Use Cubical Agda to gain intuitions about HoTT and that will help understand the philosophical implications.</p>\n</blockquote>\n<p>FWIW, there is nothing specific to <em>cubical</em> type theory here, all of that makes perfect sense in any form of HoTT.  I would argue that in some ways, Book HoTT is better for gaining intuitions than cubical type theory, because in cubical type theory you have to worry about this additional weird \"interval\" thing that is kind of a type and kind of not a type.  So I would recommend a proof assistant for Book HoTT, such as the <a href=\"https://github.com/HoTT/HoTT/\">HoTT Coq library</a> or one of the Agda HoTT libraries, at least as much as cubical agda to a newcomer.  (Cubical agda also has some warts due to its in-progress nature.)</p>",
+        "id": 307036564,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1667192327
+    },
+    {
+        "content": "<p>Regarding introductions for philosophers, my paper <a href=\"https://arxiv.org/abs/1601.05035\">Homotopy Type Theory: A synthetic approach to higher equalities</a> was written with a philosophical audience in mind.</p>",
+        "id": 307036656,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1667192420
+    },
+    {
+        "content": "<p>I didn't see any discussion on \"events\" in your paper there, but it seems to be an important discussion in David Cortfield's book.</p>",
+        "id": 307037623,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667193298
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/9dS_FqhaiCSiGBCloN9pC8mU/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/9dS_FqhaiCSiGBCloN9pC8mU/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/9dS_FqhaiCSiGBCloN9pC8mU/image.png\"></a></div>",
+        "id": 307037626,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667193300
+    },
+    {
+        "content": "<p>\"What homotopy type theory<br>\ndoes is take observations such as these not merely as an analogy, but as the first steps of a<br>\nseries of levels.\" </p>\n<p>How to understand this?</p>",
+        "id": 307038854,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667194293
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/tZKj4yN2E3OanHya_zdIFVBn/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/tZKj4yN2E3OanHya_zdIFVBn/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/tZKj4yN2E3OanHya_zdIFVBn/image.png\"></a></div>",
+        "id": 307045201,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667199500
+    },
+    {
+        "content": "<p>What does the \"cohesion\" mentioned here has to do with cohesive topos?</p>",
+        "id": 307045228,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667199530
+    },
+    {
+        "content": "<p>I think Basic Dependent Type Theory is used in programming (something close is used in Scala), and it is very helpful there as well as in mathematics (see the Lean program from Imperial). Corfields argument is that philosphers of the analytic tradition who build on the tradition of Bertrand Russel, author of Principia Mathematica, should take Dependent type theory seriously, and then HoTT as an extension of that, as that is where mathematics has moved. His book also points to limitations in modal logic and future work along those lines.</p>\n<p>As a software engineer I am particularly interested in the computational power HoTT as it brings the promise to be able to take proofs on simple models and have them translated nearly automatically to more complex models. Eg. Numers with just the successor function and binary numbers that are much more efficient. The last lectures of the Cubical Hott course look at that.  But apparently one cannot yet translate cubical Agda programs to Haskell (or I'd love it if it could be Scala, or if one could just program directly in it)...</p>",
+        "id": 307049279,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1667201955
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/HoTT.20and.20philosophy/near/307037623\">said</a>:</p>\n<blockquote>\n<p>I didn't see any discussion on \"events\" in your paper there, but it seems to be an important discussion in David Cortfield's book.</p>\n</blockquote>\n<p>Why should another writer be expected to use the language that Corfield does? His terminology is derived from his interpretation of the theory, not the other way around, and \"events\" certainly aren't an elementary/foundational concept in HoTT, unless they refer to something with another name in the theory.</p>",
+        "id": 307148333,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1667233795
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/HoTT.20and.20philosophy/near/307036656\">said</a>:</p>\n<blockquote>\n<p>Regarding introductions for philosophers, my paper <a href=\"https://arxiv.org/abs/1601.05035\">Homotopy Type Theory: A synthetic approach to higher equalities</a> was written with a philosophical audience in mind.</p>\n</blockquote>\n<p>How to understand the part about seeing different versions of the same reality better? In the paper you mentioned Gauge invariance. Is this a good entry point to this topic?</p>",
+        "id": 307162887,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667237746
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/QWPu4QGVlgeAAjTTrWxHmlXf/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/QWPu4QGVlgeAAjTTrWxHmlXf/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/QWPu4QGVlgeAAjTTrWxHmlXf/image.png\"></a></div>",
+        "id": 307224812,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667260857
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/F480V64YIGIfJoobRV7bG50A/image.png\">image.png</a> <br>\nIs there a way I can understand this development better in details?</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/F480V64YIGIfJoobRV7bG50A/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/F480V64YIGIfJoobRV7bG50A/image.png\"></a></div>",
+        "id": 307226431,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667261923
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/CivcM_n2QRdcWlbQzKGdJmKs/image.png\">image.png</a> <br>\nHow to understand what he calls \"hypersets\"? Is it self-reference that he talks about? How to understand this topic better? It seems like he's touching some fundamental problems of mathematics. Link to document: <a href=\"https://hal.archives-ouvertes.fr/hal-03779948/document\">https://hal.archives-ouvertes.fr/hal-03779948/document</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/CivcM_n2QRdcWlbQzKGdJmKs/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/CivcM_n2QRdcWlbQzKGdJmKs/image.png\"></a></div>",
+        "id": 307607676,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667419039
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"394227\">@Peiyuan Zhu</span>, this is not an answer to your question (or your previous one), but more of an observation that will hopefully help you to ask questions that more people are more willing to answer.  You will probably get better participation and engagement if your questions are self-contained.  Links and excerpts are good for pointing to supplementary things, but if someone has to click on a link or picture to even know what you're talking about, most of the time most people won't bother, even when they could have helped.</p>\n<p>To use your previous question as an example, compare:<br>\n\"Is there a way I can understand this development better in details? [image]\"<br>\nwith:<br>\n\"In [paper], [author] develops the idea of [idea].  Is there a way I can understand this development better in details? [image]\"</p>\n<p>In the first case there's nothing to indicate whether I might have anything constructive to add until I click the image.  The second case gives context.  Now the image is a convenient reference.  If I know something about the topic, I'm more likely to click on the image in the second case.</p>",
+        "id": 307616324,
+        "sender_full_name": "Jason Erbele",
+        "timestamp": 1667422326
+    },
+    {
+        "content": "<p>Your latest question is a little better – I know you're talking about what someone calls hypersets, but I don't know who \"he\" is.  I can see you left a link to a french website, so should I even bother going there if I don't speak French?  If that's a link to the full document, \"The full document can be found here: [link]\" provides useful context.</p>",
+        "id": 307616335,
+        "sender_full_name": "Jason Erbele",
+        "timestamp": 1667422334
+    },
+    {
+        "content": "<p>It's a document written in English and that's the link to the full document</p>",
+        "id": 307617692,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667422934
+    },
+    {
+        "content": "<p>I think he's discussing a history of Bourbaki group that went on with only binary relations, but there's more about multinary relations, and I think he's implying that it's not contained in category theory</p>",
+        "id": 307618234,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667423153
+    },
+    {
+        "content": "<p>He did give a self-referrential definition of hyperset, but I'm confused about the definition by itself</p>",
+        "id": 307618332,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667423190
+    },
+    {
+        "content": "<p>Here's the definition <a href=\"/user_uploads/21317/4E_lxkdJb5cxVZ2HraE6aR9H/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/4E_lxkdJb5cxVZ2HraE6aR9H/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/4E_lxkdJb5cxVZ2HraE6aR9H/image.png\"></a></div>",
+        "id": 307618386,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667423219
+    },
+    {
+        "content": "<p>My main question is I don't understand what hypersets are. Does he mean subsets without additional structures inherited from the set itself, like metric, etc? Or does he mean hyperset of Peter Aczel, Barwise, Perry?</p>",
+        "id": 307757361,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667489678
+    },
+    {
+        "content": "<p>No, from your quote the terminology <code>hyperset</code> is just a not-so-usual way to call the powerset of a set (= the set of subsets of a given set).</p>",
+        "id": 307758479,
+        "sender_full_name": "Kenji Maillard",
+        "timestamp": 1667489970
+    },
+    {
+        "content": "<p>But how to make sense of that recursive definition?</p>",
+        "id": 307763572,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667491270
+    },
+    {
+        "content": "<p>Is \"hyperset of order\" the same as cardinality? What are \"canonical injections\"?</p>",
+        "id": 307765120,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1667491670
+    },
+    {
+        "content": "<p>I'm not totally clear on what that author was saying, but you might find it helpful to write out the powerset of a small set (say <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">{</mo><mi>a</mi><mo separator=\"true\">,</mo><mi>b</mi><mo separator=\"true\">,</mo><mi>c</mi><mo stretchy=\"false\">}</mo></mrow><annotation encoding=\"application/x-tex\">\\{a,b,c\\}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">{</span><span class=\"mord mathnormal\">a</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\">b</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\">c</span><span class=\"mclose\">}</span></span></span></span>) and then see if any injection from <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">{</mo><mi>a</mi><mo separator=\"true\">,</mo><mi>b</mi><mo separator=\"true\">,</mo><mi>c</mi><mo stretchy=\"false\">}</mo></mrow><annotation encoding=\"application/x-tex\">\\{a,b,c\\}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">{</span><span class=\"mord mathnormal\">a</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\">b</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord mathnormal\">c</span><span class=\"mclose\">}</span></span></span></span> to its powerset stands out as \"canonical\" to you.</p>",
+        "id": 307858286,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1667517896
+    },
+    {
+        "content": "<p>A message was moved here from <a class=\"stream-topic\" data-stream-id=\"229199\" href=\"/#narrow/stream/229199-learning.3A-questions/topic/Beginner.20questions\">#learning: questions &gt; Beginner questions</a> by <span class=\"user-mention silent\" data-user-id=\"394227\">Peiyuan Zhu</span>.</p>",
+        "id": 308467281,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1667852662
+    }
+]

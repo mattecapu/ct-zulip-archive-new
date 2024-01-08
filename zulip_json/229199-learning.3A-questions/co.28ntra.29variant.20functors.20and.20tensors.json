@@ -1,0 +1,68 @@
+[
+    {
+        "content": "<p>Does covariant functor has anything to do with covariant derivative or covariant tensor?</p>",
+        "id": 266399876,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1640836042
+    },
+    {
+        "content": "<p>Yes.</p>",
+        "id": 266403483,
+        "sender_full_name": "John Baez",
+        "timestamp": 1640841259
+    },
+    {
+        "content": "<p>It's backwards, though, isn't it?  Contravariant tensors, like tangent vectors, push <em>forwards</em> along a smooth map of manifolds, i.e. they behave covariantly, while covariant tensors, like cotangent vectors, pull <em>backwards</em>, behaving contravariantly.</p>",
+        "id": 266450734,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1640891358
+    },
+    {
+        "content": "<p>Possibly this is because originally the words were applied to the <em>components</em> of those tensors in some basis, rather than to the tensors themselves?</p>",
+        "id": 266450766,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1640891393
+    },
+    {
+        "content": "<p>Does category theory has anything to do with numerical methods? I remember watching Andrej Bauer's lecture and he mentioned HoTT proofs reveals numerical stability of algorithms, although I wasn't sure exactly what he meant by that.</p>",
+        "id": 266525345,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1640987329
+    },
+    {
+        "content": "<p>How to understand Ilya Prigogine's contribution to quantum mechanics? Why is the Liouville space important?</p>",
+        "id": 266525549,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1640987652
+    },
+    {
+        "content": "<p>Mike wrote:</p>\n<blockquote>\n<p>Contravariant tensors, like tangent vectors, push forwards along a smooth map of manifolds, i.e. they behave covariantly, while covariant tensors, like cotangent vectors, pull backwards, behaving contravariantly.</p>\n</blockquote>\n<p>That's old-fashioned terminology.   These days the terminology is changing.  A lot of people in differential geometry call tangent vectors covariant and cotangent vectors contrvariant, and I certainly did in the book I wrote.</p>",
+        "id": 266525568,
+        "sender_full_name": "John Baez",
+        "timestamp": 1640987727
+    },
+    {
+        "content": "<p>In case anyone is wondering, part of the confusion arises from the fact that we often write a tangent vector as something like</p>\n<p><span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi><mo>=</mo><msup><mi>v</mi><mi>i</mi></msup><msub><mi mathvariant=\"normal\">∂</mi><mi>i</mi></msub></mrow><annotation encoding=\"application/x-tex\"> v = v^i \\partial_i </annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">v</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.9747em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">v</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8247em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">i</span></span></span></span></span></span></span></span><span class=\"mord\"><span class=\"mord\" style=\"margin-right:0.05556em;\">∂</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3117em;\"><span style=\"top:-2.55em;margin-left:-0.0556em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">i</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span></p>\n<p>where <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi></mrow><annotation encoding=\"application/x-tex\">v</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">v</span></span></span></span> is a tangent vector, <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"normal\">∂</mi><mi>i</mi></msub></mrow><annotation encoding=\"application/x-tex\">\\partial_i</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8444em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord\" style=\"margin-right:0.05556em;\">∂</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3117em;\"><span style=\"top:-2.55em;margin-left:-0.0556em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">i</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span> is a basis of tangent vectors (coming from a coordinate system), and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>v</mi><mi>i</mi></msup></mrow><annotation encoding=\"application/x-tex\">v^i</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8247em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">v</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8247em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">i</span></span></span></span></span></span></span></span></span></span></span> are a bunch of numbers, and we sum over <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>i</mi></mrow><annotation encoding=\"application/x-tex\">i</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6595em;\"></span><span class=\"mord mathnormal\">i</span></span></span></span>.</p>",
+        "id": 266525629,
+        "sender_full_name": "John Baez",
+        "timestamp": 1640987862
+    },
+    {
+        "content": "<p>If we keep <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi></mrow><annotation encoding=\"application/x-tex\">v</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">v</span></span></span></span> the same and change the basis of tangent vectors <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi mathvariant=\"normal\">∂</mi><mi>i</mi></msub></mrow><annotation encoding=\"application/x-tex\">\\partial_i</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8444em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord\" style=\"margin-right:0.05556em;\">∂</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3117em;\"><span style=\"top:-2.55em;margin-left:-0.0556em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">i</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span>, the components <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>v</mi><mi>i</mi></msup></mrow><annotation encoding=\"application/x-tex\">v^i</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8247em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">v</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8247em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">i</span></span></span></span></span></span></span></span></span></span></span> need to change \"in the opposite way\" to compensate.   This led mathematicians to say the numbers <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>v</mi><mi>i</mi></msup></mrow><annotation encoding=\"application/x-tex\">v^i</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8247em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">v</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8247em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">i</span></span></span></span></span></span></span></span></span></span></span> transform \"contravariantly\", and then go further (bad idea) and say \"tangent vectors are contravariant\".</p>",
+        "id": 266525734,
+        "sender_full_name": "John Baez",
+        "timestamp": 1640988003
+    },
+    {
+        "content": "<p>Mike was talking about something else (yet related), namely how <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>v</mi></mrow><annotation encoding=\"application/x-tex\">v</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">v</span></span></span></span> itself changes under a map between manifolds.</p>",
+        "id": 266525820,
+        "sender_full_name": "John Baez",
+        "timestamp": 1640988059
+    },
+    {
+        "content": "<p>Anyway, the modern way to understand these issues  - which can be incredibly confusing, yet are ultimately quite simple - definitely involves covariant and contravariant functors.</p>",
+        "id": 266525830,
+        "sender_full_name": "John Baez",
+        "timestamp": 1640988085
+    }
+]

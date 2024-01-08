@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Today at 12:00 UTC I am giving a talk in Tallinn titled <em>Lifting twisted coreflections against delta lenses</em>. The talk will be streamed on Zoom, so if you would like a link, send me a message. </p>\n<p><strong>Abstract</strong>: Delta lenses are functors equipped with a functorial choice of lifts, and generalise the notion of a split opfibration. It is known that every functor factors (via a comma category) into a split coreflection followed by a split opfibration, and that split coreflections lift against split opfibrations --- this is the main example of a lifting awfs recently introduced by Bourke [1]. In this talk, I will introduce the notion of twisted coreflection as a split coreflection equipped with certain additional structure. We will then see that every functor factors into a twisted coreflection followed by a delta lens, and that twisted coreflections lift against delta lenses. The main theorem is that the double categories of twisted coreflections and delta lenses form a lifting awfs in the sense of Bourke. This result revolves the question of characterising the L-coalgebras for the algebraic weak factorisation system for delta lenses [2], and establishes a deeper understanding on the differences between delta lenses and split opfibrations. Future work will be discussed if time allows. </p>\n<p>References:<br>\n[1] John Bourke, An orthogonal approach to algebraic weak factorisation systems, Journal of Pure and Applied Algebra, Vol 227 (2023). [doi:<a href=\"https://doi.org/10.1016/j.jpaa.2022.107294\">10.1016/j.jpaa.2022.107294</a>, arXiv:<a href=\"https://arxiv.org/abs/2204.09584\">2204.09584</a>]<br>\n[2] Bryce Clarke, The Algebraic Weak Factorisation System for Delta Lenses, preprint (2023). [arXiv:<a href=\"https://arxiv.org/abs/2305.02732\">2305.02732</a>]</p>",
+        "id": 401084331,
+        "sender_full_name": "Bryce Clarke",
+        "timestamp": 1699510314
+    },
+    {
+        "content": "<p>Fixed the time: 12:00 UTC not 00:00 UTC.</p>",
+        "id": 401088281,
+        "sender_full_name": "Bryce Clarke",
+        "timestamp": 1699512934
+    },
+    {
+        "content": "<p>I wasn't aware of John's presentation of awfs, it looks really cute!</p>",
+        "id": 401100286,
+        "sender_full_name": "Tom Hirschowitz",
+        "timestamp": 1699518026
+    },
+    {
+        "content": "<p>The slides are now available on my website <a href=\"https://bryceclarke.github.io/talk-slides/2023-11-TSEM.pdf\">here</a>.</p>",
+        "id": 401127724,
+        "sender_full_name": "Bryce Clarke",
+        "timestamp": 1699525656
+    },
+    {
+        "content": "<p>Yesterday I gave a talk at UCLouvain in Belgium titled <em>The AWFS of twisted coreflections and delta lenses</em>. The talk is about the same topic as previously, but with slightly different emphasis. In particular, I resolved a conjecture at the end of my previous talk concerning a \"diagrammatic\" characterisation of twisted coreflections, so I can now use this to give a nice construction of the lifting. The abstract and slides for the talk are available below. </p>\n<p><strong>Abstract</strong>: In a lextensive category, each morphism factorises into a coproduct injection followed by a split epimorphism --- this is one of the main examples of an algebraic weak factorisation system (AWFS) introduced by Grandis and Tholen. Another well-known example of an AWFS arises from factorising each functor into a split coreflection followed by a split opfibration. Delta lenses, first introduced in computer science, generalise the notion of a split opfibration and are a focus of ongoing research in (applied) category theory. In this talk, I will introduce the notion of a <em>twisted coreflection</em> as a split coreflection with a certain property, and construct an AWFS that factorises each functor into a twisted coreflection followed by a delta lens. Examples of twisted coreflections will be explored, and the close connections with the previously stated examples of AWFS will be discussed. The talk will emphasise a double categorical approach to AWFS recently introduced by Bourke, however no prior knowledge of double categories will be assumed. </p>\n<p>Slides are available on my website <a href=\"https://bryceclarke.github.io/talk-slides/2023-12-UCLouvain.pdf\">here</a>.</p>",
+        "id": 405996064,
+        "sender_full_name": "Bryce Clarke",
+        "timestamp": 1701762680
+    }
+]

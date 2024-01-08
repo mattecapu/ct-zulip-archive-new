@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>This paper is pretty interesting and hard to find a copy of so I'm posting it here to share it as I think others might also find it interesting. Rather than Grothendieck universes it proposes working in the category of sets in V_\\lambda, parametrically in lambda for all sufficiently nice lambda (regular uncountable, say). It introduces a notion of \"slow-growing categories\" which i found pretty intriguing.<br>\nThe paper is by V. K. Rao at Ohio State.</p>\n<p><a href=\"/user_uploads/21317/UXpMINiiGukPnGLV77u_2sdq/vidhyanath-rao-foundations.pdf\">vidhyanath-rao-foundations.pdf</a></p>",
+        "id": 411128106,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1704344097
+    },
+    {
+        "content": "<p>Thanks for this! I saw you add it to the nLab ( <span aria-label=\"partying face\" class=\"emoji emoji-1f973\" role=\"img\" title=\"partying face\">:partying_face:</span> ) but couldn't find more than a partial Google Books preview.</p>",
+        "id": 411135578,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1704349906
+    },
+    {
+        "content": "<p>\"A category C is called slowly growing if the underlying set of C is contained in V and every<br>\nsmall set of morphisms of C is contained in a small subcategory of C\"<br>\nHow could the second clause fail? If I have a small set of morphisms, then they span at most twice as many objects, and twice a small set is still small, innit?</p>",
+        "id": 411254119,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1704398917
+    },
+    {
+        "content": "<p>\"small\" here doesn't refer just to size, but to membership in a specific ZFC-style set.  In particular, something small can be isomorphic to something large.  So the condition is a non-structural one about what the objects and morphisms of the category \"actually are\" in the ZFC sense.</p>",
+        "id": 411255101,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1704399402
+    },
+    {
+        "content": "<p>ooh I see</p>",
+        "id": 411255316,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1704399510
+    },
+    {
+        "content": "<p>thanks!</p>",
+        "id": 411255344,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1704399529
+    }
+]

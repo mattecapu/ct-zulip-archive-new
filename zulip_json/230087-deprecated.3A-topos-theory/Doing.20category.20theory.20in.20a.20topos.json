@@ -1,0 +1,86 @@
+[
+    {
+        "content": "<p>Recently researchers have formalized various cool things in Isabelle/HOL, such as schemes <a href=\"https://arxiv.org/abs/2104.09366\">https://arxiv.org/abs/2104.09366</a> and strict omega categories <a href=\"https://devel.isa-afp.org/entries/StrictOmegaCategories.html\">https://devel.isa-afp.org/entries/StrictOmegaCategories.html#</a></p>\n<p>The internal logic of Isabelle is that of a classical topos. Well, it is slightly stronger than that because it has polymorphism, so one can define various endofunctors on this topos, like the endofunctor X -&gt; X^A for some fixed object A. Intuitively I would expect that any construction in topos theory which is parametric in a fixed number of arbitrary objects <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>A</mi><mn>1</mn></msub><mo separator=\"true\">,</mo><mo>…</mo><mo separator=\"true\">,</mo><msub><mi>A</mi><mi>n</mi></msub></mrow><annotation encoding=\"application/x-tex\">A_1,\\dots, A_n</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8778em;vertical-align:-0.1944em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">A</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3011em;\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">1</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"minner\">…</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">A</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.1514em;\"><span style=\"top:-2.55em;margin-left:0em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">n</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span> could be formalized as an \"endofunctor\" in Isabelle.</p>\n<p>I would like to ask for resources on doing mathematics internal to a topos. I am familiar with Sheaves in Geometry and Logic and other classic books but I want stuff that scales more realistically than that. In particular I would like to do category theory in Isabelle and I am wondering how topos theorists have generally axiomatized stuff like this.</p>\n<p>I do not want to just do category theory per se but category theory which is actually applicable to the rest of mathematics in this topos, so that results from category theory can be applied to the category of groups, rings, fields, etc. internally in this topos. How would you define something like the category of groups in a topos? How would you say that this has all small limits? Especially, how would you state and prove Yoneda, what is the category of presheaves relative to an internal category, etc. What are weighted colimits?</p>\n<p>One thing you could do is assume additional axioms stating that some fixed object is a model of ZFC in the internal language of topos theory, and then you would have an internal category of sets, groups, etc. and that would presumably take you pretty far. Has this approach been studied? What do you call \"topos theory over an internal topos?\"</p>\n<p>At the time being I am thinking Jean Benabou's work on category theory internal to a fibration is most relevant.</p>",
+        "id": 354593822,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1682819190
+    },
+    {
+        "content": "<p>Defining the category of models of a finite-product (aka Lawvere) theory like groups, or more generally a finite-limit theory (aka essentially algebraic theory) in a topos is actually rather easy, since it only uses the finite limits that exist in the topos, and so one might as well assume the much more general case. It's when one has a geometric theory, like that of local rings, for instance, that dealing with the internal logic of a topos with all its bells and whistles starts to get interesting.</p>",
+        "id": 354603174,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1682826125
+    },
+    {
+        "content": "<p>If you want to say a given fixed object is a model of ZFC (or, more charitably, a structural version of set theory), you might want to consider Algebraic Set Theory, which works with a pretopos with axioms that give a category of classes, inside which is an object that is V, familiar from traditional set theory, albeit flexible enough to deal with things like IZF and CZF as well.</p>",
+        "id": 354603395,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1682826288
+    },
+    {
+        "content": "<p>It's not difficult to handle these things constructively, but is question behind the question about how to deal with proper classes in a topos? You might want to look at the nlab page for <a href=\"https://ncatlab.org/nlab/show/locally%20internal%20category\">[[locally internal category]]</a>, as well as Shulman's paper on <a href=\"https://arxiv.org/abs/1004.3802\">stack semantics</a>. The latter also discusses the link to material set theories such as ZFC.</p>",
+        "id": 354682083,
+        "sender_full_name": "Graham Manuell",
+        "timestamp": 1682860110
+    },
+    {
+        "content": "<p>Obligatory plug of Ingo Blechschmidt's PhD thesis (you find it on google). He does a bunch of algebraic geometry in the topos of sheaves over a space.</p>",
+        "id": 355449144,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1683121721
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276777\">@Mike Shulman</span> Hi Mike. I am currently reviewing your paper on Set Theory for Category Theory and I do not fully understand what is meant formally when you discuss indexed categories and fibrations over a topos.</p>\n<p>What is the intended formalism? Presumably these large categories cannot be purely discussed within the internal language of topos theory. So if one is intending to take fibrations or indexed categories over a topos as a foundation for mathematics, including the discussion of large categories, what is the formal language that one associates to this? How do I say \"Let J be an indexed category\" in such a formalism?</p>",
+        "id": 356547572,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1683492351
+    },
+    {
+        "content": "<p>I am interested in developing mathematics in a topos without reference to an external category of sets and I am trying to understand how I can speak about indexed categories and fibrations without assuming a background set theory in which to work.</p>\n<p>I understand the idea that we do not want to rely on an external notion of limit, which is why we are working with the family fibrations, so that we can discuss limits and colimits via quantifiers (adjoints). But sometimes I read (in various sources) paragraphs that say something along the lines of \"Instead of working with a category, we associate to each object in our topos a category\" and I do not understand what is meant by the word \"category\" here. </p>\n<p>I understand how one defines various concrete categories (family fibrations) like the category of groups - you start with S/X and then consider the group objects in that category. But are we restricted to these concrete categories like groups, topological spaces and so on? I don't see how to generalize this to give a general definition of a \"category\" (i.e. a fibration with potentially large fibers)</p>",
+        "id": 356548523,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1683492975
+    },
+    {
+        "content": "<p>Good question.  One approach is to treat large categories in the same way that one does in ZFC, as proper classes that are determined by a logical formula, which can then be interpreted in any slice.  In ZFC it is also not possible to state a single theorem of the sort \"for any large category\" -- any statement of that form is technically a theorem-schema, with one instance for every logical formula that could define a large category.</p>",
+        "id": 356578251,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1683513680
+    },
+    {
+        "content": "<p>However, if you want something more like NBG or ZFC+U, then I think the way to go is what I sketched in <a href=\"http://home.sandiego.edu/~shulman/papers/cambridge-stacksem.pdf\">this talk</a>.  I haven't managed to write that up formally yet.</p>",
+        "id": 356578372,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1683513779
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/230087-theory.3A-topos-theory/topic/Doing.20category.20theory.20in.20a.20topos/near/356578372\">said</a>:</p>\n<blockquote>\n<p>However, if you want something more like NBG or ZFC+U, then I think the way to go is what I sketched in <a href=\"http://home.sandiego.edu/~shulman/papers/cambridge-stacksem.pdf\">this talk</a>.  I haven't managed to write that up formally yet.</p>\n</blockquote>\n<p>I am interested (in this thread at least) in formalizing category theory in Isabelle/HOL, which is essentially a classical Boolean topos with some additional features like type polymorphism I'm not sure how to describe well categorically. On the other hand it has some painful features which disqualify it from being a topos. There are no empty types and subset comprehension is restricted to predicates which you can prove hold at at least one point.</p>\n<p>I think the most likely bet here is using the notion of universes in a topos. <a href=\"https://ncatlab.org/nlab/show/universe+in+a+topos\">https://ncatlab.org/nlab/show/universe+in+a+topos</a><br>\n What is the current status of developing large scale mathematics (like category theory) in a topos with a universe? Can this be done in a way that it integrates well with normal topos theory without a universe, or would most of the work have to be done with terms of universe type?</p>\n<p>I think you would want to work, practically speaking, in the family fibration associated to the universe.</p>",
+        "id": 361781064,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1685289458
+    },
+    {
+        "content": "<p>I don't know whether anything like that has been done formally.  It <em>should</em> be straightforward, especially if you work in an internal dependent type theory, but I don't know if it's been written down.</p>",
+        "id": 361788851,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1685292573
+    },
+    {
+        "content": "<p>One precise way to do HOL in CoC is here: <a href=\"https://www.researchgate.net/publication/2641362_The_Calculus_of_Constructions_and_Higher_Order_Logic\">https://www.researchgate.net/publication/2641362_The_Calculus_of_Constructions_and_Higher_Order_Logic</a></p>",
+        "id": 361789415,
+        "sender_full_name": "Ryan Wisnesky",
+        "timestamp": 1685292779
+    },
+    {
+        "content": "<p>I think this is an important practical question. Because HOL is a simpler logic than CoC, automation for HOL will likely always be 10-15 years ahead of that of CoC, it seems doubtful to me that the gap will ever close - I am not saying CoC will never have good automation, I'm speaking in purely relative terms. Most researchers at the intersection of formal methods and category theory have been interested in MLTT/CoC but if real, genuine category theory can be done in a faithful elegant way inside HOL in such a way that it's actually applicable to prove general results of topology and algebra, I think it is worth doing. Essentially I am saying, you have a topos, you can assume whatever axioms you want <em>in the internal logic</em>, universes, etc. (but not small cocompleteness!) Somebody asks you \"Can you state and prove that the category of small topological spaces is small-cocomplete?\" Do we have a good answer? Kevin Buzzard has speculated that the answer is no. Schemes and some stuff on infinity categories have recently been formalized in HOL but I'm not yet convinced that those definitions are \"right\" in the sense that they actually allow interesting mathematics to accumulate on top of them, i.e. you can hack together a reasonable definition of a presheaf in a weak logic but if you can't state and prove the Yoneda lemma, is there really a point?<br>\nThere's also a substantial amount of category theory in Isabelle/HOL formalized inside a type which is axiomatized to satisfy the ZFC axioms, which is definitely expressive enough to do all your math, but you are not really taking advantage of the HOL at that point. How can we do large-scale category theory in a way which actually takes advantage of HOL?</p>\n<p>I wonder how practical it would be (for formalizing) to work in an internal language of dependent type theory inside HOL.</p>",
+        "id": 361794850,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1685294890
+    },
+    {
+        "content": "<p>I'm doubtful that there is a very <em>elegant</em> way to do serious category theory inside HOL, due to the lack of a congenial way to represent families of types.  However, it should certainly be <em>possible</em>.  What is Kevin worried about?  Obviously one needs to assume that the universe is closed under small products and coproducts, but given that there shouldn't be any problem proving small-(co)completeness of small topological spaces or anything similar.</p>",
+        "id": 361801899,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1685298138
+    }
+]

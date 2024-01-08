@@ -1,0 +1,62 @@
+[
+    {
+        "content": "<p>Our tutorial paper, with <span class=\"user-mention\" data-user-id=\"351836\">@Fabio Zanasi</span>, on hierarchical string diagrams for monoidal closed categories is now on ArXiv. ( <a href=\"https://arxiv.org/abs/2305.18945\">https://arxiv.org/abs/2305.18945</a> ) It is intended for a PL audience. Your comments and suggestions would be highly appreciated.</p>",
+        "id": 362781842,
+        "sender_full_name": "Dan Ghica",
+        "timestamp": 1685630846
+    },
+    {
+        "content": "<p>I'm curious.  Why does it seem that computer science folk really like two letter abbreviations?  Mathematicians say category theory, computer scientists say CT; mathematicians say computer science, computer scientists say CS.</p>\n<p>This is apropos of the fact that I don't know what PL stands for. <span aria-label=\"grinning\" class=\"emoji emoji-1f600\" role=\"img\" title=\"grinning\">:grinning:</span></p>",
+        "id": 362848937,
+        "sender_full_name": "Simon Willerton",
+        "timestamp": 1685644810
+    },
+    {
+        "content": "<p>It must have to do with typing program code so much.  PL = \"programming languages\", which includes type theory, compiler construction, security, performance etc</p>",
+        "id": 362849266,
+        "sender_full_name": "Ryan Wisnesky",
+        "timestamp": 1685644905
+    },
+    {
+        "content": "<p>I also could not have guessed that without looking at the paper...<br>\n<span class=\"user-mention\" data-user-id=\"276935\">@Simon Willerton</span> a lot worse for me are emails I get advertising conferences and events in research groups without saying what the initialism stands for. How am I supposed to quickly identify whether I could be interested without that information!? Unfortunately, my default has become \"if you don't know what it stands for, assume it isn't for you\", which I also applied to this case <span class=\"user-mention\" data-user-id=\"620219\">@Dan Ghica</span> , so beware.</p>",
+        "id": 362863415,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1685648308
+    },
+    {
+        "content": "<p>In math PL means \"piecewise linear\", but people wouldn't say a talk is \"intended for a piecewise linear audience\".   <span aria-label=\"robot\" class=\"emoji emoji-1f916\" role=\"img\" title=\"robot\">:robot:</span></p>",
+        "id": 362908213,
+        "sender_full_name": "John Baez",
+        "timestamp": 1685666088
+    },
+    {
+        "content": "<p>I'm not a comp. sci. person, but these revelations are making me doubt my math person credentials.  <span aria-label=\"smirk\" class=\"emoji emoji-1f60f\" role=\"img\" title=\"smirk\">:smirk:</span>  It took me maybe 5 seconds to figure it out, but I quickly understood what PL stood for in this context.</p>",
+        "id": 362910504,
+        "sender_full_name": "Jason Erbele",
+        "timestamp": 1685667512
+    },
+    {
+        "content": "<p>The abbreviation \"CT\" has frequently been used, for instance, for the Category Theory conference, so it's not a habit I particularly associate with computer scientists.</p>",
+        "id": 362934024,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1685684132
+    },
+    {
+        "content": "<p>PL means \"Programming Languages\"</p>",
+        "id": 362952822,
+        "sender_full_name": "Dan Ghica",
+        "timestamp": 1685690914
+    },
+    {
+        "content": "<p>This is great! Very thorough and motivated, and good clear pictures. (What did you use to make them?) It looks like you've made a valuable resource for computer scientists interested in CT, and vice versa. </p>\n<p>Has anyone outside of CT read it yet and given you their thoughts?</p>",
+        "id": 363133693,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1685730307
+    },
+    {
+        "content": "<p>Thank you, that's very kind. Most diagrams were done with Inkscape and some with TikZit. This is material I taught at a Summer School (Midlands Graduate Studies 2022) and I got good feedback, hence my decision to put it all together in a tidier package. Most of the concepts there are used in our actual compiler implementation work at Huawei, so I got feedback from working programmers.</p>",
+        "id": 363229238,
+        "sender_full_name": "Dan Ghica",
+        "timestamp": 1685778267
+    }
+]

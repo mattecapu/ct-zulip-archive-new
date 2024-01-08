@@ -1,0 +1,212 @@
+[
+    {
+        "content": "<p>Creating this small thread to discuss the work I am attempting and thinking about doing in applied category theory.</p>",
+        "id": 317764720,
+        "sender_full_name": "Jacob Zelko",
+        "timestamp": 1671915571
+    },
+    {
+        "content": "<p>Hey <span class=\"user-mention\" data-user-id=\"276037\">@Jade Master</span> , following up on your question here from over in <a class=\"stream-topic\" data-stream-id=\"241990\" href=\"/#narrow/stream/241990-general.3A-values/topic/Mathematics.20for.20humanity\">#general: values &gt; Mathematics for humanity</a> ! Going to repost it here for context:</p>\n<p><span class=\"user-mention silent\" data-user-id=\"483329\">Jacob Zelko</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Mathematics.20for.20humanity/near/312509555\">said</a>:</p>\n<blockquote>\n<p>Hey <span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> , not sure how how well this fits but I’m leading an international collaboration involving 80+ million patients to assess health disparities in chronic mental illness and their care across factors such geographic location, race, gender, age, costs, etc. Currently working with AlgebraicJulia folks on tooling that combines aspects of directed wiring diagrams and workflows together to enable more effective multi-site and intercontinental collaboration. Also beginning work to identify equitable representation in disease definitions.</p>\n</blockquote>\n<blockquote>\n<p>Interesting. Can you tell me more? I am sort of surprised that CT is useful for this</p>\n</blockquote>",
+        "id": 317764989,
+        "sender_full_name": "Jacob Zelko",
+        "timestamp": 1671915792
+    },
+    {
+        "content": "<p>It'll take me a little bit to respond to this Jade (holiday season here where I am at -- family craziness ensuing accordingly). Would you mind sharing a bit more about your surprise and thoughts in the interim? To give a first pass at an answer, this is more an attempt at exploring how this could be useful in the context of my work and research. It's an open question that I am pursuing at the moment.</p>",
+        "id": 317765429,
+        "sender_full_name": "Jacob Zelko",
+        "timestamp": 1671916191
+    },
+    {
+        "content": "<p>I think I am just curious about what you do. It's not urgent</p>",
+        "id": 317772571,
+        "sender_full_name": "Jade Master",
+        "timestamp": 1671921753
+    },
+    {
+        "content": "<p>Hey <span class=\"user-mention\" data-user-id=\"276037\">@Jade Master</span> ! I was thinking some more on your question:</p>\n<p>So for my research, I have been working in the domain of observational health research which uses as a data source, retrospective data like patient medical claims, electronic health records, etc. A couple significant components to this research has been 1) Structuring this data in a meaningful and standardized way 2) Developing definitions of disease using a variety of medical ontologies  and 3) Extracting patient cohorts from this data based on 1 and 2 to draw potential conclusions in the context of retrospective studies. 1 has been somewhat solved in my space thanks to a format known as the OMOP Common Data Model which has been adopted internationally for working with this sort of data. 2 and 3 are very much an open questions that I am exploring and working on.</p>",
+        "id": 317995256,
+        "sender_full_name": "Jacob Zelko",
+        "timestamp": 1672081683
+    },
+    {
+        "content": "<p>In truth, I am still very nascent in my understandings of category theory and am openly exploring how category theory could be used in work such as this. Some things that I have been openly exploring within intersecting observational health research and category theory are as follows:</p>\n<ol>\n<li>Describing disease definitions using pullbacks into different medical ontologies to reconstruct disease definitions across different studies</li>\n<li>Exploring the use of ontology logs to describe patients matching to a specific disease definition (began to more rigorously explore this thought here: <a href=\"#narrow/stream/229199-learning.3A-questions/topic/on.20the.20concept.20of.20ologs/near/287968145\">https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/on.20the.20concept.20of.20ologs/near/287968145</a>) </li>\n<li>Thinking around CatLab with how I could use a combination of ACSets and Directed Wiring Diagrams to represent my study and chain my work together with other collaborators I work with</li>\n</ol>\n<p>I apologize if the above sounds entirely inane or puerile but I can't help but feel there is something here when approached from a category theory sense. For me, disease definitions boil down in some cases to sets and family of sets that work very well within the category of <strong>Set</strong>, there feels to be a relationship I can develop between disease definitions and the medical ontologies that were used, and I would love to someday have the ability to treat a given observational study as almost \"filters\" (in a signal processing sense) to create novel studies on patients (e.g. say a study A exists that characterizes depression across age group and race and a study B that characterizes sexual minorities, it would be so cool to compose A and B together to create a study C that characterizes depression across sexual minorities' age group and race).</p>",
+        "id": 317997266,
+        "sender_full_name": "Jacob Zelko",
+        "timestamp": 1672083031
+    },
+    {
+        "content": "<p>Or course, this is all wishful thinking and I don't know if any of it is possible and/or useful at this point as I am still learning. And this is partially why I am going to be pursuing graduate studies in applied mathematics this coming year! <span aria-label=\"big smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"big smile\">:big_smile:</span></p>",
+        "id": 317997439,
+        "sender_full_name": "Jacob Zelko",
+        "timestamp": 1672083145
+    },
+    {
+        "content": "<p>Good luck!   I don't know where you're planning to go to grad school.  If you get a math PhD in the US, you'll typically take 2 years of courses and going to seminars, learning lots of math and pondering which advisor to work with, before starting your thesis.  If you get a math PhD in the UK you'll typically start writing your PhD right away.</p>",
+        "id": 318245572,
+        "sender_full_name": "John Baez",
+        "timestamp": 1672230238
+    },
+    {
+        "content": "<p>I like how the US approach doesn't force you to start a thesis before you've developed your thinking for a couple of years.  </p>\n<p>(Of course it's up to you to take the initiative to spend those first 2 years talking to professors about thesis ideas, not just doing homework and passing tests.)</p>",
+        "id": 318245866,
+        "sender_full_name": "John Baez",
+        "timestamp": 1672230359
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Jacob.20S.20Zelko/near/318245866\">said</a>:</p>\n<blockquote>\n<p>I like how the US approach doesn't force you to start a thesis before you've developed your thinking for a couple of years.  </p>\n</blockquote>\n<p>Aren't bachelors and masters degrees supposed to develop your thinking? <span aria-label=\"stuck out tongue wink\" class=\"emoji emoji-1f61c\" role=\"img\" title=\"stuck out tongue wink\">:stuck_out_tongue_wink:</span></p>",
+        "id": 318246361,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1672230554
+    },
+    {
+        "content": "<p>Yes.</p>",
+        "id": 318246578,
+        "sender_full_name": "John Baez",
+        "timestamp": 1672230638
+    },
+    {
+        "content": "<p>But people getting math PhDs in the US usually don't get a masters degree first: the masters is subsumed by the PhD program.</p>",
+        "id": 318246769,
+        "sender_full_name": "John Baez",
+        "timestamp": 1672230713
+    },
+    {
+        "content": "<p>So, they take 4 years of undergraduate math courses and then usually 2 years of more advanced courses in the PhD program before formally starting their thesis.</p>",
+        "id": 318246912,
+        "sender_full_name": "John Baez",
+        "timestamp": 1672230758
+    },
+    {
+        "content": "<p>It's possible the total amount of preparation is roughly equal in the UK system, but I'm not sure.  </p>\n<p>The famous topologist Peter May once said of some people I know \"they don't know any math - they went to Cambridge\".  <span aria-label=\"stuck out tongue wink\" class=\"emoji emoji-1f61c\" role=\"img\" title=\"stuck out tongue wink\">:stuck_out_tongue_wink:</span></p>",
+        "id": 318247106,
+        "sender_full_name": "John Baez",
+        "timestamp": 1672230826
+    },
+    {
+        "content": "<p>They were excellent mathematicians, but they focused completely on their thesis topic while in graduate school, so were lacking some breadth of knowledge.</p>",
+        "id": 318247232,
+        "sender_full_name": "John Baez",
+        "timestamp": 1672230866
+    },
+    {
+        "content": "<p>Anyway, it's no big deal: you have to keep studying math all your life to learn about 0.1% of what's known.</p>",
+        "id": 318247307,
+        "sender_full_name": "John Baez",
+        "timestamp": 1672230900
+    },
+    {
+        "content": "<p>I was just wondering whether you were going to do your degree in the US, the UK or elsewhere, and raise the issue of how PhD programs are different in different countries.</p>",
+        "id": 318247510,
+        "sender_full_name": "John Baez",
+        "timestamp": 1672230975
+    },
+    {
+        "content": "<p>Thanks for the kind words and thoughts <span class=\"user-mention\" data-user-id=\"275920\">@John Baez</span> ! And I fully agree with you about the developing thinking portion first -- I'll be pursuing an MS in the (northeast) US then will decide if I want to parlay that into a PhD. Plan will also be to write an MS research thesis. Right now trying to read and prepare as much as possible for my studies. Definitely a bit of a head rush!</p>",
+        "id": 318315540,
+        "sender_full_name": "Jacob Zelko",
+        "timestamp": 1672256638
+    },
+    {
+        "content": "<p>Good luck!</p>",
+        "id": 318335187,
+        "sender_full_name": "John Baez",
+        "timestamp": 1672267557
+    },
+    {
+        "content": "<p>Hi folks,</p>\n<p>I have a big personal announcement that has been in the works for quite a while: I just got accepted into the Applied Mathematics Master's Program at Northeastern University and I will be starting this Fall 2023 in Boston. Additionally, I will be joining Northeastern's Roux Institute as a trainee and affiliate for their first ever student cohort. I'll be leaving Georgia Tech Research Institute and the Centers for Disease Control soon and relocate to Boston sometime this summer to begin my studies later this Fall. I am extremely excited about this opportunity to intersect my work in health informatics with various fields of applied mathematics!</p>\n<p>I am working on transitioning from my background as a biomedical engineer and research engineer into an applied mathematics student role. I've been trying to prepare my brain to think more like a mathematician and gain fundamental skills mathematicians should have. I've had some background in maths due to my engineering training (partial and ordinary differential equations, linear algebra, SIR modeling, calculus, etc.) but not from the unique mathematician point of view. Are there any books or resources you all would suggest I look into or read? Another way of phrasing that question is if you had to start your mathematics journey over again, what resources or tools would you recommend to your past self?</p>\n<p>Thanks folks! </p>\n<p>P.S. I have been working through some resources/skills for the past couple months and am happy to share if that would help with providing thoughts.</p>",
+        "id": 344750106,
+        "sender_full_name": "Jacob Zelko",
+        "timestamp": 1679887170
+    },
+    {
+        "content": "<p>When I came into mathematics from a computer science background, I started in abstract algebra. It's a different way of thinking than either discrete math or \"engineering math\" (i.e. diff eqs) and thus is good for expanding your mind. I recommend <a href=\"https://bookstore.ams.org/view?ProductCode=GSM/104\">https://bookstore.ams.org/view?ProductCode=GSM/104</a> for a good intro/reference that is category theoretic, but I would also encourage you to go and take advantage of the time you have to learn things slowly in your master's, and take either an undergrad or graduate course in algebra.</p>\n<p>It's probably not something that you would naturally come across in an applied math master's, but it will give you a leg up to have a solid understanding of algebra; you'll come out with a different perspective on things than you would otherwise.</p>",
+        "id": 344770872,
+        "sender_full_name": "Owen Lynch",
+        "timestamp": 1679898239
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"280755\">@Owen Lynch</span> , thank you so much for this! I actually was also recommended Chapter 0! It is on my list! All for expanding my brain here and I like the idea of taking things slow -- I think that is a very good move.</p>",
+        "id": 344774568,
+        "sender_full_name": "Jacob Zelko",
+        "timestamp": 1679899522
+    },
+    {
+        "content": "<p>\"Algebra: Chapter 0\" is great! I'm slowing chipping away at it, which I find very enjoyable.</p>",
+        "id": 344976479,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1679955224
+    },
+    {
+        "content": "<p>Congratulations, Jacob!   </p>\n<blockquote>\n<p>Another way of phrasing that question is if you had to start your mathematics journey over again, what resources or tools would you recommend to your past self?</p>\n</blockquote>",
+        "id": 344986648,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679959894
+    },
+    {
+        "content": "<p>Maybe <a href=\"http://math.ucr.edu/home/baez/books.html\">How to learn math and physics</a>.</p>",
+        "id": 344986772,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679959939
+    },
+    {
+        "content": "<p>One thing <em>missing</em> here is a good introduction to abstract algebra - by which I mean one that's fun and explains a lot of insights in words, not one that's encyclopedic.</p>",
+        "id": 344986943,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679960031
+    },
+    {
+        "content": "<p>Do folks here think <em>Algebra: Chapter 0</em> is good in that way, or mainly just good for category theorists.  (My recommendations on that page were not meant to be good only for people who like category theory.)</p>",
+        "id": 344987134,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679960121
+    },
+    {
+        "content": "<p>Anyway, I agree that a good understanding of abstract algebra is a great way to start \"thinking like a pure mathematician\", which is a useful skill even for people who mainly want to be applied mathematicians, engineers, physicists, etc.</p>",
+        "id": 344987278,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679960189
+    },
+    {
+        "content": "<p>It's also crucial if you want to learn category theory, since most books on category theory draw lots of examples from abstract algebra.</p>",
+        "id": 344987331,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679960223
+    },
+    {
+        "content": "<p>Hey <span class=\"user-mention\" data-user-id=\"275920\">@John Baez</span> -- thanks for all the thoughts here and kind words! Reading your blog post makes me giddy as this is a tool that I was thinking about making myself but you already have it laid out so nicely; a kind of fundamental math learner's road map! I am beyond excited to be starting in this journey in a more formal way. The CT community really played a role in the decision as well as I kept thinking, \"If only I had more time to study X\" or \"If only I knew more about Y\" as I read through all the amazing conversations here. It dawned on me that, \"wait, why don't I just go to grad school to study these things?\" and the rest has been history!</p>",
+        "id": 345150707,
+        "sender_full_name": "Jacob Zelko",
+        "timestamp": 1680013735
+    },
+    {
+        "content": "<p>Great!   I hope grad school goes well.  You will probably - hopefully! - run into a lot of math questions, and don't be shy about asking them here, even if they're not category theory:  surely <a class=\"stream\" data-stream-id=\"266967\" href=\"/#narrow/stream/266967-general.3A-mathematics\">#general: mathematics</a> is a fine place to ask such questions.</p>",
+        "id": 345156088,
+        "sender_full_name": "John Baez",
+        "timestamp": 1680014854
+    },
+    {
+        "content": "<p>I like trying to answer math questions, because it keeps me from forgetting the math I know.</p>",
+        "id": 345156241,
+        "sender_full_name": "John Baez",
+        "timestamp": 1680014889
+    },
+    {
+        "content": "<p>I hope it goes well too and that I learn as much as possible! Very excited to be primarily a student again! Oh I had no idea that was an alright place to post questions to -- thanks for the suggestion! Definitely have questions so I am ready to help refresh your memory <span class=\"user-mention\" data-user-id=\"275920\">@John Baez</span> ! <span aria-label=\"smiley\" class=\"emoji emoji-1f603\" role=\"img\" title=\"smiley\">:smiley:</span></p>",
+        "id": 345188606,
+        "sender_full_name": "Jacob Zelko",
+        "timestamp": 1680021906
+    },
+    {
+        "content": "<p>Hey folks! I am excited to share a paper pre-print that I wrote for IEEE Computer Based Medical Systems was just released on arXiv here: <a href=\"https://arxiv.org/abs/2304.06504\">https://arxiv.org/abs/2304.06504</a> If I were to explain the niche of the paper and how it helps in \"the literature\", it provides a series of suggestions on interdisciplinary teams to effectively develop phenotype definitions thoughtfully and equitably across the greater health informatics community (not just for OHDSI) regardless of whether they are an engineer, clinician, software developer, or public health policy expert.</p>\n<p>A dream that I have further down the road is to more represent such definitions of disease using things like Directed Wiring Diagrams and Petri Nets in the exciting ways that folks at Topos and University of Florida have been doing (like Drs. Sophie Libkind, James Fairbanks, Evan Patterson, and David Spivak). I've been playing a lot with Ontology Logs as communication tool as well in my free time to see how effective it could be as an explanation tool or visual for interdiscplinary teams. My thoughts on its use in my world of health informatics are still pending! </p>\n<p>Either way, I am intending to write a blog post that goes along with this paper to make it more broadly accessible. Let me know if you have any thoughts or questions on that paper; happy to chat! Especially on what could be possible with intersecting health informatics with ACT!</p>",
+        "id": 350025469,
+        "sender_full_name": "Jacob Zelko",
+        "timestamp": 1681498346
+    },
+    {
+        "content": "<p>Accompanying blog post here giving a high level overview of the paper: <a href=\"https://jacobzelko.com/01102023212115-computable-phenotypes/\">https://jacobzelko.com/01102023212115-computable-phenotypes/</a></p>",
+        "id": 350246350,
+        "sender_full_name": "Jacob Zelko",
+        "timestamp": 1681617085
+    }
+]

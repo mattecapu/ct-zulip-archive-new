@@ -1,0 +1,182 @@
+[
+    {
+        "content": "<p>As has been pointed out in this forum by Jules Hedges (and maybe others), and is general knowledge in the field of optimization, optimization problems are not compositional, unless trivially so (i.e., they are independent such that they don't share variables or constraints). Recent work involving convex optimization (like with convex bifunctions) gets at ways to directly compose optimization problems and the resulting category does in fact have some nice additional hypergraph structure. But, such composition amounts to a solution of one problem becoming a perturbation of the next problem's constraints, which is basically just currying the convex function, as was pointed out by Stein/Samuelson at ACT-23. </p>\n<p>However, and sort of the main point I am getting at, in practice there are ways of solving such problems anyway. Of \"creating\" non-trivial compositionality, perhaps. In other words, it is generally a common solution technique to <em>iteratively</em> solve a set of subproblems and force them to converge to an overall solution, which is in fact optimal for the composed problem, but may be (and probably will be) sub-optimal for any of the subproblems in isolation. So coordination acts to broker the set of sub-solutions toward a common goal. </p>\n<p>So we still have \"non-compositionality\" since optimality remains not compositional. The <em>optimal</em> solutions of the subproblems still do not directly compose into the overall <em>optimal</em> solution. However, we have in some sense side-stepped the issue by switching back and forth between the subproblems and the overall problem via a coordination mechanism, allowing one or the other (sub- or overall-) solutions to be sub-optimal as needed. In optimization, this mechanism often operates via principles of duality.</p>\n<p>Is there any categorical notion which might capture this idea of iterative \"forcing\" of compositionality? Perhaps convergence would be a better term. For example, has anyone used a higher-category model which can capture iteration, convergence, coordination, or something similar as higher morphisms?</p>",
+        "id": 405427699,
+        "sender_full_name": "Kyle Wilkinson",
+        "timestamp": 1701459804
+    },
+    {
+        "content": "<p>What about homotopy methods</p>",
+        "id": 405428827,
+        "sender_full_name": "JR",
+        "timestamp": 1701460330
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"658891\">JR</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality/near/405428827\">said</a>:</p>\n<blockquote>\n<p>What about homotopy methods</p>\n</blockquote>\n<p>Sure, I would be interested in exploring this, too, though I do not yet have much exposure to homotopy.</p>",
+        "id": 405430157,
+        "sender_full_name": "Kyle Wilkinson",
+        "timestamp": 1701460917
+    },
+    {
+        "content": "<p>See <a href=\"https://www.osti.gov/servlets/purl/876373-8hy6gp/\">https://www.osti.gov/servlets/purl/876373-8hy6gp/</a> and imagine doing this for each function in a composition, say by using a common parameter.</p>",
+        "id": 405437177,
+        "sender_full_name": "JR",
+        "timestamp": 1701464404
+    },
+    {
+        "content": "<p>This stuff interests me a lot because it sounds relevant to image reconstruction for medical imaging, which is a long-standing interest of mine!</p>\n<p>A couple related questions occurs to me: What are some situations where we want to model things that exchange information with one another? And what tools can be used to do this?</p>\n<p>For example, to make a larger model from several regional models for how disease is spreading, one presumably needs to allow for data to flow between the two submodels: if disease is spreading towards the edge of the region modelled by one submodel, this should presumably impact the predictions of the neighbouring region submodel.</p>",
+        "id": 405454489,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1701473721
+    },
+    {
+        "content": "<p>(I believe that <span class=\"user-mention\" data-user-id=\"612611\">@Kyle Wilkinson</span> is specifically interested in the situation where multiple iterative optimization problems can be run in parallel with exchange of information. This is notably different from having several sub-problems that run in sequence, where the result of one sub-problem determines the starting conditions or constraints for the next sub-problem).</p>",
+        "id": 405454924,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1701474021
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277503\">David Egolf</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality/near/405454924\">said</a>:</p>\n<blockquote>\n<p>(I believe that <span class=\"user-mention silent\" data-user-id=\"612611\">Kyle Wilkinson</span> is specifically interested in the situation where multiple iterative optimization problems can be run in parallel with exchange of information. This is notably different from having several sub-problems that run in sequence, where the result of one sub-problem determines the starting conditions or constraints for the next sub-problem).</p>\n</blockquote>\n<p><a href=\"https://en.wikipedia.org/wiki/Belief_propagation\">Belief propagation</a> is in this vein</p>",
+        "id": 405464318,
+        "sender_full_name": "JR",
+        "timestamp": 1701478867
+    },
+    {
+        "content": "<p>See also <a href=\"https://doi.org/10.1007/s10955-011-0384-7\">Message-Passing Algorithms for Inference and Optimization</a></p>",
+        "id": 405464508,
+        "sender_full_name": "JR",
+        "timestamp": 1701478924
+    },
+    {
+        "content": "<p>I'd really love to know \"what's really going on\" with message passing algorithms - it seems like there should be some interesting higher categorical structure there. It always seemed to me a bit like lenses/optics, except that instead of having one forward pass and one backward pass it keeps going forward and backward indefinitely.</p>",
+        "id": 405517789,
+        "sender_full_name": "Nathaniel Virgo",
+        "timestamp": 1701510273
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276071\">Nathaniel Virgo</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality/near/405517789\">said</a>:</p>\n<blockquote>\n<p>I'd really love to know \"what's really going on\" with message passing algorithms - it seems like there should be some interesting higher categorical structure there. It always seemed to me a bit like lenses/optics, except that instead of having one forward pass and one backward pass it keeps going forward and backward indefinitely.</p>\n</blockquote>\n<p>Take a look at MacKay’s book online, which frames BP and neural nets in a common way and you may recall the Backprop as functor (= chain rule as functor) perspective on neural nets as something of interest.</p>",
+        "id": 405541969,
+        "sender_full_name": "JR",
+        "timestamp": 1701529622
+    },
+    {
+        "content": "<p>That's what I'm referring to I think - I'm saying I'd like to see that properly worked out some time. I don't think message passing is literally an instance of the machinery in 'backprop as functor' (maybe I'm wrong?) but it's clearly related.</p>",
+        "id": 405590391,
+        "sender_full_name": "Nathaniel Virgo",
+        "timestamp": 1701569026
+    },
+    {
+        "content": "<p>Backprop &amp; message passing: it's all about <a href=\"https://cba.mit.edu/events/03.11.ASE/docs/Aji.pdf\">distributivity</a> .</p>",
+        "id": 405616389,
+        "sender_full_name": "Simon Burton",
+        "timestamp": 1701590484
+    },
+    {
+        "content": "<p>Maybe you could be interested by this paper: <a href=\"https://www.sciencedirect.com/science/article/pii/S0167642309000215\">The logic of message-passing</a> (Cockett &amp; Pastro). If you're interested by the quantum version, these slides: <a href=\"https://www.reluctantm.com/gcruttw/fmcs2023/Slides/FMCS_2023_Day_1.pdf\">Quantum Message Passing Logic - Part One</a>, <a href=\"https://www.reluctantm.com/gcruttw/fmcs2023/Slides/FMCS_2023_Day_2.pdf\">Part Two</a> (Priyaa Varshinee).</p>",
+        "id": 405681789,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1701623445
+    },
+    {
+        "content": "<p>In fact Part One is mainly a tutorial on the first paper and Part Two about trying to make it quantum.</p>",
+        "id": 405682041,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1701623670
+    },
+    {
+        "content": "<p>Thanks for the links and leads. I suppose it is the way of category theory to involve very general concepts as answers for specific applications! They've been helpful. </p>\n<p>Perhaps extensions of resource theory into concurrent processes may prove useful. In particular, this recent paper by Nester and Voorneveld <a href=\"https://arxiv.org/pdf/2305.16899.pdf\">https://arxiv.org/pdf/2305.16899.pdf</a> may be relevant. </p>\n<p>The toy example they give is one of kneading and baking dough into bread. In the typical monoidal resource theory, we'd set it up as dough--&gt;oven--&gt;(bread+oven). But this implies a series structure on the processing line. If we want to run those two subprocesses independently, passing outputs of one subsystem to another for further processing, then Nester's cornering construction allows for it. They then go on to construct a representation of iteration between the processes. </p>\n<p>What I am not clear on yet is whether their process can be made bidirectional. It is clear that the \"decider\" Bob can choose to have the inputs from Alice be recalculated, or to reiterate the process, but it is not clear whether Bob can update values which Alice then must use in her process. But, I've only done a cursory read.</p>",
+        "id": 405875042,
+        "sender_full_name": "Kyle Wilkinson",
+        "timestamp": 1701710042
+    },
+    {
+        "content": "<p>It is the ability for Bob to pass back values to Alice which I think encompasses the idea of coordination, with Bob as the coordinator. Coordination in this case implies that \"Alice\" is in fact several entities who all pass information to Bob independently of each other.</p>",
+        "id": 405875792,
+        "sender_full_name": "Kyle Wilkinson",
+        "timestamp": 1701710231
+    },
+    {
+        "content": "<p>There's a nice picture in that paper which illustrates the toy example:<br>\n<a href=\"/user_uploads/21317/NX38eacKHdoImBK15rMrYbuN/image.png\">toy example</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/NX38eacKHdoImBK15rMrYbuN/image.png\" title=\"toy example\"><img src=\"/user_uploads/21317/NX38eacKHdoImBK15rMrYbuN/image.png\"></a></div><p>The authors explain this as \"The cell on the left describes a procedure for transforming dough into nothing by kneading it and sending the result away along the right boundary, and the cell in the middle describes a procedure for transforming an oven into bread and an oven by receiving dough along the left boundary and then using the oven to bake it.\" (In the original picture, there's a third cell on the right, which I haven't included here).</p>\n<p>So I think the \"dough\" is being passed between two subsystems.</p>",
+        "id": 405878131,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1701710860
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277503\">David Egolf</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality/near/405878131\">said</a>:</p>\n<blockquote>\n<p>So I think the \"dough\" is being passed between two subsystems.</p>\n</blockquote>\n<p>Yes.* <br>\nThe dough is passed one-way. Once baked, it is never kneaded again of course. I would interpret the iteration portion of their method to involve the oven process receiving the dough and deciding that the gluten is not developed enough and that it needs more kneading, thus the first kneading process is iterated once more. I'm curious if there is some way of sending additional information back, more than just \"try again.\" To continue the example, perhaps something like: \"you (subprocesses) thought this was good dough. To me, this is lacking in XYZ quantity. Update your level of kneading accordingly and try again.\"</p>\n<p>*Edit: Actually, the dough is being passed <em>down the line.</em> There is a clear dependency/directionality here. So, you are correct, but the nuance I am trying to grab hold of is something being passed to a coordinator, which then makes a decision on whether to reiterate and also influences the reiteration. So in this case, I am thinking of the oven subprocess as existing \"above\" the kneading subprocess. But of course the oven may exist \"below\" some other process, too.</p>",
+        "id": 405881482,
+        "sender_full_name": "Kyle Wilkinson",
+        "timestamp": 1701711892
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"612611\">Kyle Wilkinson</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality/near/405875042\">said</a>:</p>\n<blockquote>\n<p>What I am not clear on yet is whether their process can be made bidirectional. It is clear that the \"decider\" Bob can choose to have the inputs from Alice be recalculated, or to reiterate the process, but it is not clear whether Bob can update values which Alice then must use in her process. But, I've only done a cursory read.</p>\n</blockquote>\n<p>If I understand correctly, there are two operations turning vertical wires (= horizontal one-cells) into horizontal wires, denoted <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>A</mi><mo>∙</mo></msup></mrow><annotation encoding=\"application/x-tex\">A^\\bullet</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">A</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∙</span></span></span></span></span></span></span></span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>A</mi><mo>∘</mo></msup></mrow><annotation encoding=\"application/x-tex\">A^\\circ</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">A</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∘</span></span></span></span></span></span></span></span></span></span></span>, which can be thought of as \"send <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi></mrow><annotation encoding=\"application/x-tex\">A</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\">A</span></span></span></span>\" and \"receive <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi></mrow><annotation encoding=\"application/x-tex\">A</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\">A</span></span></span></span>\". I prefer the notation <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>A</mi><mo>◃</mo></msup></mrow><annotation encoding=\"application/x-tex\">A^\\triangleleft</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6887em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">A</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6887em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">◃</span></span></span></span></span></span></span></span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>A</mi><mo>▹</mo></msup></mrow><annotation encoding=\"application/x-tex\">A^\\triangleright</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6887em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">A</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6887em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">▹</span></span></span></span></span></span></span></span></span></span></span>.</p>",
+        "id": 405915852,
+        "sender_full_name": "Spencer Breiner",
+        "timestamp": 1701725920
+    },
+    {
+        "content": "<p>I find things easier to think about if we imagine adding in a (directed?) graph of locations/addresses and channels/paths to the cornering construction in that paper. Then we could imagine that the associated double category has objects corresponding to locations and types \"send/receive <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>A</mi></mrow><annotation encoding=\"application/x-tex\">A</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\">A</span></span></span></span> along <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>e</mi></mrow><annotation encoding=\"application/x-tex\">e</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">e</span></span></span></span>\" for edges <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>e</mi></mrow><annotation encoding=\"application/x-tex\">e</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">e</span></span></span></span> in the graph.</p>\n<p>In order to \"straighten out\" a parallel process into the the base monoidal category, you would (at minimum) need to bring data together to a common location before comparison.</p>",
+        "id": 405916535,
+        "sender_full_name": "Spencer Breiner",
+        "timestamp": 1701726241
+    },
+    {
+        "content": "<p>The one-object case from the paper would correspond to a graph with one vertex and one reflexive edge, and (for me) it's the conflation of sending location and receiving location that makes the theory a bit tricky to follow.</p>",
+        "id": 405916976,
+        "sender_full_name": "Spencer Breiner",
+        "timestamp": 1701726464
+    },
+    {
+        "content": "<p><a href=\"https://arxiv.org/abs/2201.11876\">https://arxiv.org/abs/2201.11876</a></p>",
+        "id": 407003433,
+        "sender_full_name": "JR",
+        "timestamp": 1702178804
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"658891\">JR</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality/near/407003433\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://arxiv.org/abs/2201.11876\">https://arxiv.org/abs/2201.11876</a></p>\n</blockquote>\n<p>This looks pretty promising, thanks! At first glance, it describes arriving at global conditions from a set of local conditions with possible overlap, which is basically what I am looking for.</p>",
+        "id": 407279797,
+        "sender_full_name": "Kyle Wilkinson",
+        "timestamp": 1702313313
+    },
+    {
+        "content": "<p><a href=\"https://proceedings.allerton.csl.illinois.edu/media/files/0115.pdf\">https://proceedings.allerton.csl.illinois.edu/media/files/0115.pdf</a></p>",
+        "id": 407726701,
+        "sender_full_name": "JR",
+        "timestamp": 1702474178
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/BfdgLlHI6SDoQUuiiu0izggL/image.png\">image.png</a><br>\nFrom Jakob Hansen's dissertation</p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/BfdgLlHI6SDoQUuiiu0izggL/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/BfdgLlHI6SDoQUuiiu0izggL/image.png\"></a></div>",
+        "id": 410051705,
+        "sender_full_name": "JR",
+        "timestamp": 1703613072
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"658891\">JR</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality/near/410051705\">said</a>:</p>\n<blockquote>\n<p><a href=\"/user_uploads/21317/BfdgLlHI6SDoQUuiiu0izggL/image.png\">image.png</a><br>\nFrom Jakob Hansen's dissertation</p>\n</blockquote>\n<p>Thank you. This appears essentially like what I am looking for, only I am not familiar enough with the background material. I can understand the optimization aspects (KKT conditions and so forth), but does anyone know any accessible sources on sheaf cohomology for someone with no exposure? </p>\n<p>Incidentally, I see now why folks here have been mentioning cohomology as a way of getting around or at least quantifying non-compositionality.</p>",
+        "id": 410068037,
+        "sender_full_name": "Kyle Wilkinson",
+        "timestamp": 1703625570
+    },
+    {
+        "content": "<p>Rosiak's <a href=\"https://direct.mit.edu/books/oa-monograph/5460/Sheaf-Theory-through-Examples\">book</a> treats (cellular) sheaf cohomology with some detailed examples.</p>",
+        "id": 410068296,
+        "sender_full_name": "JR",
+        "timestamp": 1703625753
+    },
+    {
+        "content": "<p>It can't hurt too much to read the Wikipedia article on <a href=\"https://en.wikipedia.org/wiki/Sheaf_cohomology\">sheaf cohomology</a>.   It may be hard to follow, but at least it's short, it starts with a sketch of what sheaf cohomology was originally used for, it states many of the fundamental facts about sheaf cohomology, and it has links to definitions of all the concepts it assumes you know (like \"sheaf\", of course).</p>",
+        "id": 410132709,
+        "sender_full_name": "John Baez",
+        "timestamp": 1703672724
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"658891\">JR</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality/near/410068296\">said</a>:</p>\n<blockquote>\n<p>Rosiak's <a href=\"https://direct.mit.edu/books/oa-monograph/5460/Sheaf-Theory-through-Examples\">book</a> treats (cellular) sheaf cohomology with some detailed examples.</p>\n</blockquote>\n<p>Thanks! This is a good source for describing basics of category theory, too for any beginners who might be interested. It also has a partial focus on philosophical considerations, which I find interesting apart from the math.</p>",
+        "id": 410569211,
+        "sender_full_name": "Kyle Wilkinson",
+        "timestamp": 1703966450
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality/near/410132709\">said</a>:</p>\n<blockquote>\n<p>It can't hurt too much to read the Wikipedia article...</p>\n</blockquote>\n<p>I imagine you are already aware as you have been looking into music theory math, but in the Rosiak book, he mentions some music theory from R-modules. A footnote from there:</p>\n<p>''16. Modules play a large role in much of mathematical music theory, especially variants of R{O, P, L, D} and the module of integers mod 12 (under addition), together with its affine transformations. At least as far back as Lewin (see Lewin (2010), originally published in 1987), transformations between musical elements (instead of musical objects like the C major chord) became the focus of many music theorists, where the transformations in question often form a group. Certain elements of algebra, especially group theory, have accordingly been used for some time to systematize the treatment of common operations on musical chords, and geometrical models of musical structure have also been considered by a few authors (such as Tymoczko (2011)). Approaches to questions of music theory that incorporate category theory (starting with Mazzola (1985)) are somewhat harder to come by, but the reader curious about more category theoretic takes on music may find interesting Popoff, Andreatta, and Ehresmann (2018), Noll (2005), and the work of Guerino Mazzola and followers. The module R{O, P, L, D} presented above, together with further uses of it, is discussed in Mazzola and Andreatta (2006).''</p>",
+        "id": 410569581,
+        "sender_full_name": "Kyle Wilkinson",
+        "timestamp": 1703966741
+    }
+]

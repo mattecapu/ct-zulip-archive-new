@@ -1,0 +1,38 @@
+[
+    {
+        "content": "<p>Stream created by <span class=\"user-mention silent\" data-user-id=\"275899\">Christian Williams</span>.</p>",
+        "id": 192997398,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1586151682
+    },
+    {
+        "content": "<p>Request and provide good materials / ways to learn a subject.</p>",
+        "id": 193080656,
+        "sender_full_name": "Christian Williams",
+        "timestamp": 1586196980
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> changed the <a href=\"/help/stream-permissions\">access permissions</a> for this stream from <strong>Public</strong> to <strong>Web-public</strong>.</p>",
+        "id": 397854313,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1697898734
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> changed the description for this stream.</p>\n<ul>\n<li><strong>Old description:</strong></li>\n</ul>\n<blockquote>\n<p>Requesting and providing good materials/ways to learn a subject.</p>\n</blockquote>\n<ul>\n<li><strong>New description:</strong></li>\n</ul>\n<blockquote>\n<p>Deprecated, use #learning: reading &amp; references instead. Requesting and providing good materials/ways to learn a subject.</p>\n</blockquote>",
+        "id": 399477571,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698750479
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>learning: recommendations</strong> to <strong>deprecated: recommendations</strong>.</p>",
+        "id": 399477573,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698750480
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> changed the <a href=\"/help/stream-sending-policy\">posting permissions</a> for this stream:</p>\n<ul>\n<li><strong>Old permissions</strong>: All stream members can post.</li>\n<li><strong>New permissions</strong>: Only organization administrators and moderators can post.</li>\n</ul>",
+        "id": 399477688,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698750513
+    }
+]

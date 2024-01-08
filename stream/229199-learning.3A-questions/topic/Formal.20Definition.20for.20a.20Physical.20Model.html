@@ -1,0 +1,147 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>Formal Definition for a Physical Model · learning: questions · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/index.html">learning: questions</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Formal.20Definition.20for.20a.20Physical.20Model.html">Formal Definition for a Physical Model</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="409570873"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Formal%20Definition%20for%20a%20Physical%20Model/near/409570873" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Onstead <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Formal.20Definition.20for.20a.20Physical.20Model.html#409570873">(Dec 22 2023 at 12:00)</a>:</h4>
+<p>Hi all, hope you are having a happy holidays. Thanks for your helpful responses to my previous question, I learned a lot! My next question is in a similar spirit and has to do with more applied aspects of category theory:</p>
+<p>In mathematics, the concept of abstraction plays a central role. When coming up with new mathematical objects, we usually look at a large number of concrete examples and notice some pattern or shared characteristic. We can then characterize this commonality with a formal definition for a new mathematical object, which we can then make statements about that can specify back to all the concrete examples. Now, recently, I've been going over all the different physical models. A physical model isn't a physical object, it's some form of a mathematical object which we can use to model and potentially describe a physical situation. Examples include Newtonian mechanics, classical Hamiltonian mechanics, the Schrodinger picture of quantum mechanics, the path integral formulation of QM, lagrangian mechanics in special relativity, Einstein's theory of general relativity in the sense of modeling spacetime as a curved manifold, etc.</p>
+
+
+
+<a name="409570913"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Formal%20Definition%20for%20a%20Physical%20Model/near/409570913" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Onstead <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Formal.20Definition.20for.20a.20Physical.20Model.html#409570913">(Dec 22 2023 at 12:00)</a>:</h4>
+<p>As a mathematical object, these physical models all have their own formal definitions, but I have yet to see one common definition. Here we have a lot of concrete examples (all the physical models) and some shared characteristic (the ability to use these models to potentially describe some aspect of physical reality). This situation is ripe for abstraction! Now, all we need is some formal definition: some set of axioms that we would want any and all possible physical models to satisfy in order to qualify as a physical model. They wouldn't have to describe our exact reality (since most physical models turn out to be disproven with empirical evidence), but just have some potential to describe a physical reality. It is this formal definition that I am looking for. It can be in any format, but I always love seeing formal definitions in "stuff, structure, property" format, for instance: "A physical model is a set A equipped with structure S such that..." since these are the easiest to translate into category theory. I also wouldn't mind learning about the category of physical models and its features, but I may have more to ask on that later.</p>
+
+
+
+<a name="409574908"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Formal%20Definition%20for%20a%20Physical%20Model/near/409574908" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Daniel Geisler <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Formal.20Definition.20for.20a.20Physical.20Model.html#409574908">(Dec 22 2023 at 12:29)</a>:</h4>
+<p>Dynamics has a general take on what you are asking about.</p>
+<blockquote>
+<p>Here is a definition of a ''classical dynamical system'' (Arnold and Avez(1968)) which is hardly the classical system of old:<br>
+Let <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi></mrow><annotation encoding="application/x-tex">M</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span></span></span></span> be a smooth manifold, <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>μ</mi></mrow><annotation encoding="application/x-tex">\mu</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">μ</span></span></span></span> defined on a continuous positive density, <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>f</mi><mi>t</mi></msup><mo>:</mo><mi>M</mi><mo>→</mo><mi>M</mi></mrow><annotation encoding="application/x-tex">f^t:M \to M</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.988em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7936em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">t</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span></span></span></span> a one-parameter group of measure-preserving diffeomorphisms. The collection <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi><mo separator="true">,</mo><mi>μ</mi><mo separator="true">,</mo><msup><mi>f</mi><mi>t</mi></msup></mrow><annotation encoding="application/x-tex">M,\mu,f^t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.988em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">μ</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7936em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">t</span></span></span></span></span></span></span></span></span></span></span> is called the ''classical dynamical system''.</p>
+</blockquote>
+
+
+
+<a name="409604950"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Formal%20Definition%20for%20a%20Physical%20Model/near/409604950" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kevin Arlin <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Formal.20Definition.20for.20a.20Physical.20Model.html#409604950">(Dec 22 2023 at 15:59)</a>:</h4>
+<p>I don't think that answers to the heart of John's question, which seems to be aiming at abstracting the sense in which a physical model <em>describes some aspect of physical reality</em>.</p>
+
+
+
+<a name="409605073"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Formal%20Definition%20for%20a%20Physical%20Model/near/409605073" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kevin Arlin <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Formal.20Definition.20for.20a.20Physical.20Model.html#409605073">(Dec 22 2023 at 16:00)</a>:</h4>
+<p>That said, this is a category theory forum, so I and others here will vigorously deny that you can or should hope to find axioms that "any and all" physical models should satisfy.</p>
+
+
+
+<a name="409605224"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Formal%20Definition%20for%20a%20Physical%20Model/near/409605224" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kevin Arlin <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Formal.20Definition.20for.20a.20Physical.20Model.html#409605224">(Dec 22 2023 at 16:01)</a>:</h4>
+<p>Rather, the abstraction process is <em>local</em>: you abstract <em>some</em> phenomena, for some certain purposes; you might relate these abstractions to each other but it's inconsistent with the nature of mathematics and science, and the breadth of the concept of physical model, to insist on unifying them all into a single picture.</p>
+
+
+
+<a name="409605753"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Formal%20Definition%20for%20a%20Physical%20Model/near/409605753" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kevin Arlin <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Formal.20Definition.20for.20a.20Physical.20Model.html#409605753">(Dec 22 2023 at 16:03)</a>:</h4>
+<p>That said, there are lots of abstractions of the <em>mathematical</em> side of a physical model that can be useful: continuous dynamical systems as defined by Daniel, or more simply as just a manifold equipped with a vector field; discrete dynamical systems, which at their heart are just an object of a category equipped with an endomorphism (and so of course much too general to be physical models in every case), various more complicated kinds of systems of differential equations or ways of presenting such systems like Tonti diagrams, etc. For lots of ideas about categorically-minded ways to try to encompass something like the entire notion of "dynamical system" you could look at David Jaz  Myers's book draft.</p>
+
+
+
+<a name="409605827"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Formal%20Definition%20for%20a%20Physical%20Model/near/409605827" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kevin Arlin <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Formal.20Definition.20for.20a.20Physical.20Model.html#409605827">(Dec 22 2023 at 16:04)</a>:</h4>
+<p>And all <em>that</em> said, basically none of this has anything general to say about how it is that these models actually <em>model</em>!</p>
+
+
+
+<a name="409605970"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Formal%20Definition%20for%20a%20Physical%20Model/near/409605970" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kevin Arlin <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Formal.20Definition.20for.20a.20Physical.20Model.html#409605970">(Dec 22 2023 at 16:05)</a>:</h4>
+<p>A naive categorist would be tempted to say "well, it's categorical semantics! You have a category of syntax which is here anything entirely mathematical--a category of dynamical systems, say--and a category of semantics which is The Actual World, and some functorial assignment of mathematical dynamical systems to Actual Real Evolving Physical Systems."</p>
+
+
+
+<a name="409606070"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Formal%20Definition%20for%20a%20Physical%20Model/near/409606070" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kevin Arlin <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Formal.20Definition.20for.20a.20Physical.20Model.html#409606070">(Dec 22 2023 at 16:05)</a>:</h4>
+<p>This sounds nice but is as far as I can tell total nonsense, since the whole problem is that we don't have a <em>categorical</em> model for The Actual World, and that's a more or less irreducible obstacle.</p>
+
+
+
+<a name="409606243"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Formal%20Definition%20for%20a%20Physical%20Model/near/409606243" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kevin Arlin <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Formal.20Definition.20for.20a.20Physical.20Model.html#409606243">(Dec 22 2023 at 16:06)</a>:</h4>
+<p>In short I think the question of whether there's a useful mathematical model of the <em>process</em> of modeling, specifically in terms of how a mathematical model connects to the physical world, is wide open.</p>
+
+
+
+<a name="409626950"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Formal%20Definition%20for%20a%20Physical%20Model/near/409626950" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> JR <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Formal.20Definition.20for.20a.20Physical.20Model.html#409626950">(Dec 22 2023 at 18:36)</a>:</h4>
+<p>Abstraction -&gt; Galois connection: <a href="https://en.wikipedia.org/wiki/Abstract_interpretation#Formalization">https://en.wikipedia.org/wiki/Abstract_interpretation#Formalization</a></p>
+
+
+
+<a name="409654012"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Formal%20Definition%20for%20a%20Physical%20Model/near/409654012" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Onstead <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Formal.20Definition.20for.20a.20Physical.20Model.html#409654012">(Dec 22 2023 at 23:20)</a>:</h4>
+<p><span class="user-mention" data-user-id="609515">@Kevin Arlin</span> Thanks for your input! I'm mainly interested in what kinds of mathematical structures can be used in something like modeling, not the modeling itself. IE, to abstract the mathematical tools we have found useful for modeling to a definition that could potentially include devices that don't describe any real reality at all. For instance, I want my definition of "physical model" to include models of physics in our universe just as well as it can include models of physics in the Star Wars or Star Trek universes, which obey different laws to ours. It should also be able to encapsulate models based on discarded ideas like the aether or quintessence. So it has more to do with the mathematical structure shared between existing models than whether they can be useful for modeling of any kind.</p>
+
+
+
+<a name="409654363"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Formal%20Definition%20for%20a%20Physical%20Model/near/409654363" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Onstead <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Formal.20Definition.20for.20a.20Physical.20Model.html#409654363">(Dec 22 2023 at 23:25)</a>:</h4>
+<p>I am also not sure if dynamical systems express the full range of physical models. They don't seem to be able to describe quantum systems fully (only their unitary evolution), and they don't describe field theories. I also am unsure if Lagrangian mechanics can be represented as a dynamical system since lagrangian mechanics amounts to finding the whole path of a particle all at once, not step by step.</p>
+
+
+
+<a name="409654546"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Formal%20Definition%20for%20a%20Physical%20Model/near/409654546" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Onstead <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Formal.20Definition.20for.20a.20Physical.20Model.html#409654546">(Dec 22 2023 at 23:26)</a>:</h4>
+<p>Here's my current thoughts on the problem. It seems all physical systems have the following ingredients:</p>
+<ul>
+<li>A "physics space":  An underlying manifold, metric space, topological space, etc. The two main kinds of physics space I noticed are those based on a "state space", a space where all points represents every possible state the physical system can take on, and a "positional space", which more closely mirrors our familiar 3d physical space. For instance, a field theory can be modeled as both a fiber bundle (positional space) and as an infinite dimensional configuration space where every point represents a possible field configuration (state space)</li>
+<li>Set of parameters: physical models have some set of parameters or units associated to them, which represent physical properties. In a state space, these parameters are either the basis of the space (IE, like position and momentum in a phase space) or can be calculated from them.</li>
+</ul>
+
+
+
+<a name="409654554"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/Formal%20Definition%20for%20a%20Physical%20Model/near/409654554" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Onstead <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/Formal.20Definition.20for.20a.20Physical.20Model.html#409654554">(Dec 22 2023 at 23:26)</a>:</h4>
+<ul>
+<li>Equation: physical theories always have some sort of equation associated to them that can relate these parameters to each other. Newtonian mechanics has F = ma, Lagrangian mechanics has the euler-lagrange equation (or something like the principle of stationary action), Hamiltonian mechanics has Hamilton's principle and the Hamilton's equations, Schrodinger QM has the Schrodinger equation, classical field theories have PDEs (like the heat equation, wave equation, etc.), and so on.</li>
+<li>Transformations: Physical theories also have transformations associated to them, which is where things like using algebra in physics can come into play. These can define the various valid ways of transforming a space without affecting the underlying physics, and so allow for the introduction of the importance of symmetry to physics. This can include things like galilean transformations in Newtonian mechanics and lorentz (or poincarre) transformations in special relativity.</li>
+</ul>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

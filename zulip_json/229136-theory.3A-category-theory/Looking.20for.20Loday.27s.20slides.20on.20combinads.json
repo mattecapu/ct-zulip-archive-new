@@ -1,0 +1,44 @@
+[
+    {
+        "content": "<p>I notice that Jean-Louis Loday's <a href=\"https://irma-web1.math.unistra.fr/~loday/\">personal web page</a> is not accessible any more. It used to have slides from a talk that Loday gave in 2012 on \"combinads\". The link to these slides was <a href=\"https://irma-web1.math.unistra.fr/~loday/PAPERS/A-O-C%28Lille2012%29.pdf\">here</a>.</p>\n<p>I can access a snapshot of Loday's web page on the Internet Archive but it seems that there is no snapshot of the slides of this talk.</p>\n<p>I used to have a PDF of these slides, but I can't find it any more. Would anyone here have a copy of them?</p>",
+        "id": 408018706,
+        "sender_full_name": "Chaitanya Leena Subramaniam",
+        "timestamp": 1702578176
+    },
+    {
+        "content": "<p>I don't have a copy, and I haven't been able to find one by googling.  In case it helps, I am guessing the title of the talk was \"Algebras, operads, combinads\". Google Scholar also provides this description: \"Slides of a talk given at HOGT Lille on 23th of March\".</p>",
+        "id": 408024121,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1702580173
+    },
+    {
+        "content": "<p>Yes, that was the title, thanks :) Hopefully someone has a personal copy. I remember the slides having interesting new ideas and being very readable, it would be a shame if they were lost.</p>",
+        "id": 408024516,
+        "sender_full_name": "Chaitanya Leena Subramaniam",
+        "timestamp": 1702580361
+    },
+    {
+        "content": "<p>Did you try to contact directly people at Irma to see whether they still have a private archive of the website ?</p>",
+        "id": 408153622,
+        "sender_full_name": "Kenji Maillard",
+        "timestamp": 1702634689
+    },
+    {
+        "content": "<p>That would be the logical next step. I couldn't find a general contact email for the IRMA so I sent an email to someone in Loday's old research group. Hopefully the slides turn up. Thanks!</p>",
+        "id": 408242388,
+        "sender_full_name": "Chaitanya Leena Subramaniam",
+        "timestamp": 1702667525
+    },
+    {
+        "content": "<p>Update: Someone at the IRMA told me that the Wayback Machine has a snapshot of Loday's website <a href=\"https://web.archive.org/web/20210225215639/https://irma.math.unistra.fr/~loday/\">here</a> that includes <a href=\"https://web.archive.org/web/20200927203617/http://irma.math.unistra.fr/~loday/PAPERS/A-O-C%28Lille2012%29.pdf\">the PDF of the slides</a>.</p>",
+        "id": 408533634,
+        "sender_full_name": "Chaitanya Leena Subramaniam",
+        "timestamp": 1702878333
+    },
+    {
+        "content": "<p>The difference was between \"<a href=\"http://irma-web1.math.unistra.fr\">irma-web1.math.unistra.fr</a>\" and \"<a href=\"http://irma.math.unistra.fr\">irma.math.unistra.fr</a>\"</p>",
+        "id": 408533642,
+        "sender_full_name": "Chaitanya Leena Subramaniam",
+        "timestamp": 1702878342
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>a while ago I asked on math.stackexchange if there was something like <a href=\"https://topology.pi-base.org/\">pi-base</a> but for categories, where you could search for categories by property, by name, or as counterexamples to theorems (check out how cool pi-base is for this if you haven't seen it already! you can search for things like <a href=\"https://topology.pi-base.org/theorems/T000112\">\"T5=&gt;T4?\"</a> and see some spaces that are witness to the fact that this isn't true).</p>\n<p><a href=\"https://math.stackexchange.com/questions/1639034/category-theory-zoo?noredirect=1#comment9872412_1639034\">recently, one of the maintainers for pi-base said</a> that if any category theorists are interested in building a version of this for categories, then to reach out. i would love to do this but don't have the time or energy right now, but figured that there would probably be a bunch of people on this forum that would!</p>",
+        "id": 346698742,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1680565295
+    },
+    {
+        "content": "<p>I have been developing a network of relationships for geometric morphisms (and hence properties of toposes); I would love to develop that into a pi-base database at some point, but I guess a category pi-base is a prerequisite to that existing <span aria-label=\"rolling on the floor laughing\" class=\"emoji emoji-1f923\" role=\"img\" title=\"rolling on the floor laughing\">:rolling_on_the_floor_laughing:</span></p>",
+        "id": 347921009,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1680990421
+    },
+    {
+        "content": "<p>That sounds really useful. I'm not sure if a general category theory pi-base would be a prerequisite. I would say \"properties of geometric morphisms of topoi\" is a partially independent subject, closer to geometry.</p>",
+        "id": 347960516,
+        "sender_full_name": "Reid Barton",
+        "timestamp": 1681019787
+    },
+    {
+        "content": "<p>There is now a database of small categories : <a href=\"https://smallcats.info\">https://smallcats.info</a></p>",
+        "id": 382433217,
+        "sender_full_name": "Ralph Sarkis",
+        "timestamp": 1691351879
+    }
+]

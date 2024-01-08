@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>In his paper on compact bicategories, Mike Stay mentions that the bicategory Prof of categories and profunctors is compact. What is the dualizability structure of a category C?</p>",
+        "id": 403994257,
+        "sender_full_name": "Daniel Teixeira",
+        "timestamp": 1700842934
+    },
+    {
+        "content": "<p>The dual of a category <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span> in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">P</mi><mi mathvariant=\"normal\">r</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">f</mi></mrow><annotation encoding=\"application/x-tex\">\\mathrm{Prof}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord\"><span class=\"mord mathrm\" style=\"margin-right:0.07778em;\">Prof</span></span></span></span></span> is its opposite <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>C</mi><mrow><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">p</mi></mrow></msup></mrow><annotation encoding=\"application/x-tex\">C^{\\mathrm{op}}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6644em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\"><span class=\"mord mathrm mtight\">op</span></span></span></span></span></span></span></span></span></span></span></span></span>, and the unit and counit are both its hom-functor.</p>",
+        "id": 403997594,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1700844792
+    },
+    {
+        "content": "<p>I don't know how often <span class=\"user-mention\" data-user-id=\"276048\">@Mike Stay</span> reads this Zulip, but he'll be glad to know Daniel is reading his paper.</p>",
+        "id": 403999256,
+        "sender_full_name": "John Baez",
+        "timestamp": 1700845619
+    }
+]

@@ -1,0 +1,6 @@
+included:
+- 'web-public:*'
+
+excluded:
+- 'community: mailing list mirror'
+# - development help

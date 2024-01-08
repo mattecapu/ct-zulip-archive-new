@@ -1,0 +1,212 @@
+[
+    {
+        "content": "<p>I'm digging into some serious engineering lately and I'm starting to think that a true compositional approach to engineering is a bit doomed tho</p>",
+        "id": 235903239,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1619209417
+    },
+    {
+        "content": "<p>At least in aerospace engineering, the average chapter in a book seems to go like this: </p>\n<ul>\n<li>First half of the chapter is a chunk of reasonably nice and clean mathematics describing something, usually a mix of dynamics and thermodynamics. There are also useful exercises teaching you how to design one of the objects studied from a set of desired properties the object must satisfy (e.g. I want a rocket nozzle using this fuel and amplifying thrust by this factor, figure out the other parameters)</li>\n<li>Second half of the chapter is \"real cases\", that is, a lot of words and tables saying \"these are the correction parameters that we figured out by testing stuff in a lab and that you have apply to the formulas from the first half of the chapter to obtain something reasonable\"</li>\n</ul>",
+        "id": 235903719,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1619209672
+    },
+    {
+        "content": "<p>I have high hopes that category theory can offer a better approach for modelling the first point above, but I'm at a loss about figuring out what can we reasonably do for the second one</p>",
+        "id": 235903820,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1619209707
+    },
+    {
+        "content": "<p>Now, it could be that fluid dynamics is a bitch and I've picked a field of engineering that is particularly difficult to model compositionally. Still the more I read this stuff the more my dreams feel shattered lol</p>",
+        "id": 235903887,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1619209756
+    },
+    {
+        "content": "<p>I think it's fine to aspire to help to do the first part better, and leave the second half for the actual engineers. Engineering is still hard and always will be, no amount of maths can change that</p>",
+        "id": 235904115,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1619209874
+    },
+    {
+        "content": "<p>One thing I remember thinking about once is how sometimes engineering failures are involve \"geometry\" of how components are located in space, which cause failures to propagate in a way that has no relation to the \"logical\" structure of the system. For example: component x overheats, and causes failure in component y, because y is located next to x, even though they have no relation to each other in the system design</p>",
+        "id": 235904294,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1619209967
+    },
+    {
+        "content": "<p>Yes, that happens a lot</p>",
+        "id": 235904552,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1619210075
+    },
+    {
+        "content": "<p>Buffer overruns in a computer are kind of like that too</p>",
+        "id": 235904567,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1619210084
+    },
+    {
+        "content": "<p>But again, people do not seem to put a great deal of effort in understanding how this happens</p>",
+        "id": 235904580,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1619210093
+    },
+    {
+        "content": "<p>A loose pointer can cause a failure to propagate in a way that cuts across the structure of the program</p>",
+        "id": 235904638,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1619210119
+    },
+    {
+        "content": "<p>I think this is for multiple reasons: The theory behind it could be unmanageable, and often even just modelling the _real_ object in the mathematical framework is</p>",
+        "id": 235904652,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1619210125
+    },
+    {
+        "content": "<p>So the standard approach seems to be: Test, or run numerical simulations in mathematica/matlab, figure out some correction parameters and live happily</p>",
+        "id": 235904705,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1619210154
+    },
+    {
+        "content": "<p>What I can say for sure is that aerospace engineering feels _very_ different from, say, computer science engineering</p>",
+        "id": 235904813,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1619210201
+    },
+    {
+        "content": "<p>The second seems inherently more compositional to me</p>",
+        "id": 235904831,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1619210209
+    },
+    {
+        "content": "<p>it'd be interesting to know what are the actual problems that engineers encounter when designing big, messy stuff</p>",
+        "id": 235907610,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1619211615
+    },
+    {
+        "content": "<p>my feeling is that once you have a resonable design, ironing out the small 'x overheats y' is a matter of messing around enough</p>",
+        "id": 235908053,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1619211703
+    },
+    {
+        "content": "<p>and of course we can't expect to reduce every engineering problem to a mathematical problem. at some point there's a boundary where design stops and 'hard engineering' start, i.e. tinkering with implementation details</p>",
+        "id": 235908462,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1619211782
+    },
+    {
+        "content": "<p>i think of my job as moving as much stuff as i can to design space, that is, to remove accidental complexity from a problem</p>",
+        "id": 235908602,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1619211822
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/229451-general.3A-off-topic/topic/memes/near/235907610\">said</a>:</p>\n<blockquote>\n<p>it'd be interesting to know what are the actual problems that engineers encounter when designing big, messy stuff</p>\n</blockquote>\n<p>this'd make for a great invited talk at ACT</p>",
+        "id": 235909136,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1619211984
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276438\">Fabrizio Genovese</span> <a href=\"#narrow/stream/229451-general.3A-off-topic/topic/memes/near/235904652\">said</a>:</p>\n<blockquote>\n<p>I think this is for multiple reasons: The theory behind it could be unmanageable, and often even just modelling the _real_ object in the mathematical framework is</p>\n</blockquote>\n<p>It's because math is but one tool for engineers and often we recognize that math looks nice and can give great insights that have nothing to do with the engineering of systems. We do have a lot of stuff on that though and we pretty much know that the swiss cheese model of causality is wrong for safety and that emergence is both unmanageable and desirable at times.</p>",
+        "id": 235909711,
+        "sender_full_name": "Georgios Bakirtzis",
+        "timestamp": 1619212170
+    },
+    {
+        "content": "<p>These are problems that engineers know well. As always truly see/read/understand what Nancy Leveson is all about; she started from formal methods</p>",
+        "id": 235909801,
+        "sender_full_name": "Georgios Bakirtzis",
+        "timestamp": 1619212200
+    },
+    {
+        "content": "<p>I also sometimes think about the \"circuit model\" in electronics, where the fact that circuits are kinda like graphs is a mathematical model of physical reality, which is valid only in situations where it's valid. The job of an electronic engineer involves thinking about the system outside the regime of validity of the circuit model. I imagine that basically all kinds of engineering is like that too, where the equivalent \"circuit model\" is the logical structure of the system</p>",
+        "id": 235910332,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1619212368
+    },
+    {
+        "content": "<p>Any electrical engineer was disillusioned with the circuit model when they had to design and implement an analog oscillator</p>",
+        "id": 235910644,
+        "sender_full_name": "Georgios Bakirtzis",
+        "timestamp": 1619212428
+    },
+    {
+        "content": "<p>I suspect that our biggest hammers in ACT, stuff like decorated cospans, are only really useful for circuit-like abstractions and are not useful for thinking about situations where those abstractions already failed</p>",
+        "id": 235910645,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1619212428
+    },
+    {
+        "content": "<p>Of course for open games I have to think about this stuff nonstop, because game theory is infamously delicate as a model of the world</p>",
+        "id": 235910773,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1619212463
+    },
+    {
+        "content": "<p>If you take game theory as given, and think \"any categorical game theory is automatically applied category theory\" then you miss half the fun</p>",
+        "id": 235910973,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1619212533
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/229451-general.3A-off-topic/topic/memes/near/235909136\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/229451-general.3A-off-topic/topic/memes/near/235907610\">said</a>:</p>\n<blockquote>\n<p>it'd be interesting to know what are the actual problems that engineers encounter when designing big, messy stuff</p>\n</blockquote>\n<p>this'd make for a great invited talk at ACT</p>\n</blockquote>\n<p>Well, by now I can tell you life, death and miracles about nozzles if you want to lol</p>",
+        "id": 235913395,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1619213915
+    },
+    {
+        "content": "<p>Actually, with circuits, I tend to think in a different way. There are two different things that people commonly refer to when they say \"circuits\": their schematics and their implementations (by which I mean a pcb, silicon wafer, or any actual physical implementation of the schematic)</p>",
+        "id": 235913663,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1619214054
+    },
+    {
+        "content": "<p>I think ACT can be very useful to produce schematics compositionally. In this <a href=\"https://arxiv.org/abs/1909.02893\">paper</a>, that everyone hated, we used ACT to produce circuit schematics</p>",
+        "id": 235913748,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1619214110
+    },
+    {
+        "content": "<p>The ideas it that there was an already developed piece of software that turned circuit schematics into zero knowledge proof. The ACT bit we designed would turn finite state machines into the needed circuit schematics, compositionally</p>",
+        "id": 235913853,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1619214153
+    },
+    {
+        "content": "<p>So, at that point, what we did was just implementing this bit and piping its output into the piece of software already out there. <span aria-label=\"smile\" class=\"emoji emoji-1f642\" role=\"img\" title=\"smile\">:smile:</span></p>",
+        "id": 235913907,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1619214186
+    },
+    {
+        "content": "<p>Clearly if you hope that ACT will deal with parasitic currents and other awesome effects of miniature IC design, I have bad news for you...</p>",
+        "id": 235914030,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1619214256
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/229451-general.3A-off-topic/topic/memes/near/235909136\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/229451-general.3A-off-topic/topic/memes/near/235907610\">said</a>:</p>\n<blockquote>\n<p>it'd be interesting to know what are the actual problems that engineers encounter when designing big, messy stuff</p>\n</blockquote>\n<p>this'd make for a great invited talk at ACT</p>\n</blockquote>\n<p>One person who knows some category theory but who also knows the actual problems engineers encounter in big projects is <a href=\"https://www.cmu.edu/epp/people/faculty/eswaran-subrahmanian.html\">Eswaran Subrahmanian</a>, who is at NIST and Carnegie Mellon.</p>\n<p>He's spent a lot of time designing cars, where there are many teams of people designing different components.   Design decisions regarding one component will affect what's required of other components.  So, the different teams need to meet and talk a lot.   Problems often arise when the teams miscommunicate.   </p>\n<p>I really like hearing him talk about this sort of thing, because he's thought about it a lot and is trying to use categories, operads etc. to help deal with these problems.</p>",
+        "id": 235919380,
+        "sender_full_name": "John Baez",
+        "timestamp": 1619217692
+    },
+    {
+        "content": "<p>I'm interested in compositionality for more philosophical reasons. </p>\n<blockquote>\n<p>the whole itself may be viewed as a conceptual construction, hence the question of the ontological status of boundaries becomes of a piece with the more general issue of the conventional status of ordinary objects and events. Cfr. Goodman: “We make a star as we make a constellation, by putting its parts together and marking off its boundaries” (1980: 213)</p>\n</blockquote>\n<p>From <a href=\"https://plato.stanford.edu/entries/boundary/#ReaThe\">here</a>. In other words, you can understand a thing by understanding how it's components are glued together. So understanding the compositionality of any concept will help you understand it.</p>",
+        "id": 235931784,
+        "sender_full_name": "Jade Master",
+        "timestamp": 1619229079
+    },
+    {
+        "content": "<p>Categorically-oriented people should have this resonate with them very strongly: the interesting stuff isn't in the components, but in the mechanisms for gluing components together, and what these mechanisms propagate and/or preserve. Set-addled people take a long time to recover from this object-centric affliction.</p>",
+        "id": 235970438,
+        "sender_full_name": "Jacques Carette",
+        "timestamp": 1619271158
+    }
+]

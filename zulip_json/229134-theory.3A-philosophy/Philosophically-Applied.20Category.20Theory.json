@@ -1,0 +1,170 @@
+[
+    {
+        "content": "<p>I'm looking to form a research network, called something like PhACT (Philosophically-Applied Category Theory), aimed at encouraging dialogue between the ACT and philosophical communities. So, for instance, where there is plenty of ACT work looking to capture causal relations in causal network, there is also decades of work in philosophy on causality, e.g., discussion on different conceptions in Regularity theory, Probabilistic theory, Counterfactual theory, Interventionist theory, Process theory,... The idea then is for some mutually beneficial exchange, where philosophy gains by taking on a powerful formalism. Anyone interested in such a network?</p>",
+        "id": 343094203,
+        "sender_full_name": "David Corfield",
+        "timestamp": 1679312528
+    },
+    {
+        "content": "<p>It's an interesting idea.  Since you and I are both on the n-Cafe and we're both interested in ACT and philosophy it would theoretically make sense for us to work on this.  However, since retirement I've been trying to hole up and finish half-finished projects.  I try to be on 'steering boards' where I give occasional advice and don't do any actual work... but sometimes this backfires, as you  can see on thread about <em>Compositionality</em>, where I've gotten pulled in to help the journal: some actual work.</p>",
+        "id": 343248802,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679356791
+    },
+    {
+        "content": "<p>It would be great if there were some younger, more ambitious ACTists who wanted to organize interactions with philosophers.   It feels like there should be some!  But I won't name names here, for fear of putting them on the spot.</p>",
+        "id": 343249187,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679356972
+    },
+    {
+        "content": "<p>Do you have ideas for what the research network might do, concretely?</p>",
+        "id": 343249247,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679357031
+    },
+    {
+        "content": "<p>Apply for grants?   Hold workshops?   Talk online?   Talk about what to do?</p>",
+        "id": 343249619,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679357202
+    },
+    {
+        "content": "<p>Some concrete suggestions might get some people energized.</p>",
+        "id": 343249741,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679357277
+    },
+    {
+        "content": "<p>Hmm honestly, I'm super motivated by this project so I'm a young person who is ready to help but I know nothing about managing something like this. But I'm willing to learn and have already dreamt of something like this recently. We could do an online seminar with alternate talks by mathematicians and philosophers and then maybe it will lead to new philosophico-mathematical works!</p>",
+        "id": 343259677,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1679363573
+    },
+    {
+        "content": "<p>Each time I learn something from a friend who knows more than me about philosophy, I'm so excited and I want to know more about philosophy and how it can help me to understand math!</p>",
+        "id": 343260393,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1679364130
+    },
+    {
+        "content": "<p>I'll be looking to apply for some money from my side for networks and research time. Access to non-Humanities funding would certainly be welcome.</p>\n<p>I had a really interesting chat with Evan Patterson yesterday. Plenty of overlap there. I really don't think parts of the shared activity need to look ever so different from just doing ACT.</p>\n<p>One dimension that certainly interests me is a tension between philosophers as to whether scientific theories and scientific inference should be seen as neat or messy. More attention these days is paid to the messy \"middle-range theory\", e.g., epidemiology, ecology. Here there's a robust tangle of practices (for the messy tangle, see p. 313 of Nancy Cartwright's ' Middle-range theory: Without it what could anyone do?' <a href=\"https://ojs.ehu.eus/index.php/THEORIA/article/download/21479/19859\">https://ojs.ehu.eus/index.php/THEORIA/article/download/21479/19859</a>).</p>\n<p>The compositionality inherent in the ACT approaches to networks might provide just the right tools.</p>",
+        "id": 343322856,
+        "sender_full_name": "David Corfield",
+        "timestamp": 1679392946
+    },
+    {
+        "content": "<p>You might try talking a bit more to Brendan Fong.  He tends to be full of good ideas.</p>\n<p>For example, did you know Topos is planning to hire an <a href=\"https://topos.site/files/Topos_Research_Ethicist_Posting.pdf\">ethicist</a>?</p>",
+        "id": 343489488,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679423092
+    },
+    {
+        "content": "<p>An interesting thing about epidemiology is that they make a lot of models that are only supposed to be good enough to provide useful guidance to governments over the next few weeks; they fully accept that such models need to be tinkered with and updated constantly, so it's utterly different than, say, physics.</p>",
+        "id": 343490050,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679423266
+    },
+    {
+        "content": "<p>An interesting pointer is this interview with Tim Berners-Lee on the subject of the Web as philosophical Engineering. If you take it, as I do that the web should have a CT model, you'd end up with a an applied philosophy of the Web using CT.<br>\n<a href=\"https://www.dailymotion.com/video/xfisjf\">https://www.dailymotion.com/video/xfisjf</a></p>",
+        "id": 343514845,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1679430772
+    },
+    {
+        "content": "<blockquote>\n<p>For example, did you know Topos is planning to hire an <a href=\"https://topos.site/files/Topos_Research_Ethicist_Posting.pdf\">ethicist</a>?</p>\n</blockquote>\n<p>By the way, <span class=\"user-mention\" data-user-id=\"302507\">@David Corfield</span> - maybe you've already noticed, but the most violent arguments here on Zulip involve the ethics of applied category theory.   So while ACT can probably help philosophy in various ways, perhaps the main way ACT needs help from philosophy involves ethics.    (Or perhaps we're doomed to settle ethical questions by mud-wrestling, and wise philosophers will avoid the mud-pit.)</p>",
+        "id": 343516597,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679431232
+    },
+    {
+        "content": "<p>Hi! As you might guess, since I'm a philosopher already engaged in category-theory-flavored projects, I'd be very interested in such a network!</p>",
+        "id": 343554810,
+        "sender_full_name": "Evan Washington",
+        "timestamp": 1679447186
+    },
+    {
+        "content": "<p>I imagine that most philosophers who know some CT care more for other branches of philosophy and want to use it as a tool in their work.</p>",
+        "id": 343690541,
+        "sender_full_name": "David Corfield",
+        "timestamp": 1679494459
+    },
+    {
+        "content": "<p>If one could get counterfactuals into CT then one could use David Lewis' application of counterfactuals to Deontic logic as he sketches in chapter 5 of Counterfactuals. (Lewis is the most widely cited analytic philosophers along with Kripke <a href=\"https://kieranhealy.org/blog/archives/2013/06/19/lewis-and-the-women/\">see this analysis</a>).  <span class=\"user-mention\" data-user-id=\"392792\">@Kohei Kishida</span> 's Phd thesis <a href=\"http://d-scholarship.pitt.edu/10224/\">Generalized Topological Semantics for First-Order Modal Logic</a>, reviewed by Steve Awodey, compared Lewis' and Kripke's cross world identity. But it did not show how the distance relation between worlds would work in Category Theory. Perhaps if we knew that we'd see a lot better. </p>\n<p><a href=\"/user_uploads/21317/jo1ykYIVQKZSVn7tAz5ymMAt/image.png\">Extract from chapter 5 of Counterfactuals</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/jo1ykYIVQKZSVn7tAz5ymMAt/image.png\" title=\"Extract from chapter 5 of Counterfactuals\"><img src=\"/user_uploads/21317/jo1ykYIVQKZSVn7tAz5ymMAt/image.png\"></a></div>",
+        "id": 343713675,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1679499313
+    },
+    {
+        "content": "<p>Just a bit more to give a taste on where that goes:<br>\n<a href=\"/user_uploads/21317/M_rt8SVMkG4SUX5thdIMF23e/Screenshot-2023-03-22-at-16.39.09.png\">p97 of Counterfactuals, 5.1 Conditional Obligation</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/M_rt8SVMkG4SUX5thdIMF23e/Screenshot-2023-03-22-at-16.39.09.png\" title=\"p97 of Counterfactuals, 5.1 Conditional Obligation\"><img src=\"/user_uploads/21317/M_rt8SVMkG4SUX5thdIMF23e/Screenshot-2023-03-22-at-16.39.09.png\"></a></div>",
+        "id": 343715799,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1679499782
+    },
+    {
+        "content": "<p>I had some ideas on counterfactuals in my modal HoTT book in terms of stripping back a type-theoretic context. Worlds as developed contexts are closer to the extent that they match. Something like how the unfolding of p-adic numbers indicate their distance at the place they diverge.</p>\n<p><a href=\"/user_uploads/21317/X3R6KvbCUJPBJgeevcc_oF4Q/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/X3R6KvbCUJPBJgeevcc_oF4Q/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/X3R6KvbCUJPBJgeevcc_oF4Q/image.png\"></a></div>",
+        "id": 343738700,
+        "sender_full_name": "David Corfield",
+        "timestamp": 1679505210
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229134-philosophy/topic/Philosophically-Applied.20Category.20Theory/near/343490050\">said</a>:</p>\n<blockquote>\n<p>An interesting thing about epidemiology is that they make a lot of models that are only supposed to be good enough to provide useful guidance to governments over the next few weeks; they fully accept that such models need to be tinkered with and updated constantly, so it's utterly different than, say, physics.</p>\n</blockquote>\n<p>This sort of thing interests me - the stability of the model as people tinker with the parts. Showing my ignorance here, is anyone doing ACT work on networks where you can see how coherence emerges from the constraints that parts impose on each other. The kind of thing which it looks like this forthcoming book will be about - Alicia Juarrero, <a href=\"https://mitpress.mit.edu/9780262545662/context-changes-everything/\">Context Changes Everything: How Constraints Create Coherence</a>?</p>\n<p>Added: Evidently I need to catch up with the CASCADE papers: <a href=\"https://johncarlosbaez.wordpress.com/2021/06/25/complex-adaptive-system-design-part-10/\">https://johncarlosbaez.wordpress.com/2021/06/25/complex-adaptive-system-design-part-10/</a></p>",
+        "id": 343742410,
+        "sender_full_name": "David Corfield",
+        "timestamp": 1679506139
+    },
+    {
+        "content": "<p>An update on the CASCADE stuff: Joe Moeller and I quit that project, and as best as I know the ideas that excited me the most, like building models from abstract to concrete by climbing up a ladder of forgetful functors, were never implemented.  There is now another team working with DARPA on operadic system design, at a company called Two Six Technologies.</p>",
+        "id": 343760355,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679511046
+    },
+    {
+        "content": "<p>I don't know what they're doing.  But many of the ideas that excited me the most about this project got a lot better when a bunch of us:</p>\n<ol>\n<li>introduced decorated and structured cospans,</li>\n<li>introduced operads for composing these,</li>\n<li>wrote software to do all this stuff in code: in AlgebraicJulia you can actually refer explicitly to category-theoretic concepts like categories, functors etc.,</li>\n<li>used this code to design two systems for composing epidemiological models,</li>\n<li>created a graphical user interface that lets you do this on a web browser, and</li>\n<li>began implementing,  in code, the idea of building models from abstract to concrete by climbing up a ladder of abstractions.</li>\n</ol>",
+        "id": 343761343,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679511333
+    },
+    {
+        "content": "<p>For a general overview of this work see</p>\n<ul>\n<li><a href=\"https://johncarlosbaez.wordpress.com/2023/03/09/azimuth-project-news-2/\">Azimuth Project News</a>.</li>\n</ul>\n<p>and for details read</p>\n<ul>\n<li>John Baez, Xiaoyan Li, Sophie Libkind, Nathaniel D. Osgood and Eric Redekopp, <a href=\"https://arxiv.org/abs/2211.01290\">A categorical framework for modeling with stock and flow diagrams</a>.</li>\n</ul>",
+        "id": 343761686,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679511432
+    },
+    {
+        "content": "<p>I'm very excited about this stuff, but I haven't been talking about it on the n-Cafe... for no particularly good reason.</p>",
+        "id": 343761811,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679511480
+    },
+    {
+        "content": "<p>I was just listening for the second time to a podcast by John Vervaeke on evolution in psychology when Vervaeke sumarised a very interesting argument for why Fodor thought against Piaget that deep psychological evolution could not be possible. But I think Category Theory can counter Fodor's argument, and it looks like Vervaeke is not aware of this. I explained this in detail in this tweet:<br>\n<a href=\"https://twitter.com/bblfish/status/1640469245791449088\">https://twitter.com/bblfish/status/1640469245791449088</a></p>\n<div class=\"inline-preview-twitter\"><div class=\"twitter-tweet\"><a href=\"https://twitter.com/bblfish/status/1640469245791449088\"><img class=\"twitter-avatar\" src=\"https://uploads.zulipusercontent.net/77b199c7e82b7b9c52e9d03926bbf1970d09fe5d/68747470733a2f2f7062732e7477696d672e636f6d2f70726f66696c655f696d616765732f313030343332363736313630383431373238312f486a786a533942585f6e6f726d616c2e6a7067\"></a><p>in his series with <a href=\"https://twitter.com/henriqgx\">@henriqgx</a> and Zachary Stein\n\"Towards a Metapsychology that is true to Transformation\"\n<a href=\"https://twitter.com/vervaeke_john\">@vervaeke_john</a> starts with Fodor's argument against Piaget idea of psychological evolution: cc <a href=\"https://twitter.com/DavidCorfield8\">@DavidCorfield8</a>\nFodor argued as I understand from <a href=\"https://t.co/q4JuTTpoRT\">https://youtu.be/wZKV8uVe8lQ?list=PLND1JCRq8Vui6TIS24xcDk5dsxSaIeN7T&amp;t=929</a>… <a href=\"https://t.co/dXusqGf7ac\">https://twitter.com/i/web/status/1640469245791449088</a></p><span>- The 🐠 BblFish (@bblfish)</span></div></div>",
+        "id": 344972958,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1679953491
+    },
+    {
+        "content": "<p>Since many people here have moved away from Twitter, I'll post the content of that tweet, which tries to summarize the discussion in the video recording below:<br>\n<a href=\"https://www.youtube.com/watch?v=wZKV8uVe8lQ&amp;list=PLND1JCRq8Vui6TIS24xcDk5dsxSaIeN7T&amp;t=929s\">https://www.youtube.com/watch?v=wZKV8uVe8lQ&amp;list=PLND1JCRq8Vui6TIS24xcDk5dsxSaIeN7T&amp;t=929s</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"wZKV8uVe8lQ\" href=\"https://www.youtube.com/watch?v=wZKV8uVe8lQ&amp;list=PLND1JCRq8Vui6TIS24xcDk5dsxSaIeN7T&amp;t=929s\"><img src=\"https://uploads.zulipusercontent.net/9a4cc942a0a2366210d443577b787656862fc80b/68747470733a2f2f692e7974696d672e636f6d2f76692f775a4b5638755665386c512f64656661756c742e6a7067\"></a></div><p>Fodor, who was arguing for a computational theory of the mind, argued as I understand from listening to this passage that:</p>\n<ol>\n<li>a program is a logical structure</li>\n<li>Piaget was arguing for the importance role of change of cognitive function as the individual evolved (say from childhood to adolescence)</li>\n<li>But what kind of functional (computational) transformation could that be? Fodor argued</li>\n<li>It would have to be a move from a weaker logic to a stronger logic: Something like the move from Predicate logic to modal logic. (Predicate logic is #RDF essentially or  W3C OWL) That would be a major change. (And indeed I can vouch that when I read David K. Lewis and Kripke I underwent such a change!) In predicate logic I can argue about all or some, but not about necessity or possibility, Further along the road by adding a distance relation I can speak about counterfactuals, which is needed to understand causality....</li>\n<li>What Fodor is right about, John Vervaeke says,  is that all possible moves I can do in predicate logic will never get me to modal logic. </li>\n<li>so how is cognitive change possible?</li>\n</ol>\n<p>Then I argue that from the CT point of view there may be less distance between Logic and Modal Logic:</p>\n<blockquote>\n<p>First we should notice that David Lewis in Counterfactuals argues that one can move from first order logic to modal logic by adding possibilities to one's ontology: ie, by having variables vary about sets of possible worlds. Then one can change any n place relation in predicate logic to an n+1 place relation by adding a dependency on worlds. (In a way this is what RDF does when it moves from triples to quads!) That is enough to then defined modal logics (and even counterfactual logics, if we add a distance relation between worlds). In Category Theory I think one expresses this in terms of adjunctions between slice categories. Take the slice category over the set of possible worlds and and then create an adjunction between that and another slice category over 1 as described for example by  David Corfield in his Modal Homotopy Type Theory book.<br>\nSo does the possibility of working one's way from Predicate logic to modal logic via adjunctions actually stop Fodor's argument in its tracks? Has category theory perhaps shown structurally how such an evolution is possible? <br>\nWhat kind of mental transformation is happening when one moves to an adjunction?</p>\n</blockquote>",
+        "id": 345176662,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1680019159
+    },
+    {
+        "content": "<p>Somehow I got into a \"conversation\" with Chat GPT4 about Category Theory, Nominalism, Universals and type theory.</p>\n<p>I asked: \"Has anyone developed a theory of universals using category theory?\"</p>\n<blockquote>\n<p>Some philosophers have explored the potential of using category theory to model and analyze metaphysical concepts, such as objects, properties, and relations. In this context, category theory can provide a unifying language to talk about universals and their relationships with particulars.</p>\n<p>One example of such an approach is the work of philosopher Jean-Pierre Marquis, who has explored the application of category theory to the philosophy of mathematics and metaphysics. He has proposed using topos theory (a branch of category theory) to model structures in metaphysics, including properties, relations, and other aspects of the domain of universals.</p>\n</blockquote>\n<p><a href=\"https://twitter.com/bblfish/status/1645770468123631616\">https://twitter.com/bblfish/status/1645770468123631616</a></p>\n<div class=\"inline-preview-twitter\"><div class=\"twitter-tweet\"><a href=\"https://twitter.com/bblfish/status/1645770468123631616\"><img class=\"twitter-avatar\" src=\"https://uploads.zulipusercontent.net/77b199c7e82b7b9c52e9d03926bbf1970d09fe5d/68747470733a2f2f7062732e7477696d672e636f6d2f70726f66696c655f696d616765732f313030343332363736313630383431373238312f486a786a533942585f6e6f726d616c2e6a7067\"></a><p>Ok, so I asked #GPT4 \"Do you know of David Lewis' theory of Universals?\"\n\n&gt; Yes, David Lewis, an influential analytic philosopher, developed a theory of universals as part of his broader metaphysical system. His theory is a variant of what is known as \"moderate realism,\" which… <a href=\"https://t.co/rxvLD922Da\">https://twitter.com/i/web/status/1645770468123631616</a></p><span>- The 🐠 BblFish (@bblfish)</span></div></div>",
+        "id": 348454757,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1681217915
+    },
+    {
+        "content": "<p>I asked a bit more\"I guess nominalism makes little sense in category theory, because in category theory relations are as important as objects.\" to which it answered:</p>\n<blockquote>\n<p>Your observation is astute. Nominalism, as a philosophical position, focuses on denying the existence of abstract entities or universals, asserting that only individual, concrete things exist. In the context of category theory, the emphasis is not just on objects but also on the relations between those objects, represented by morphisms.</p>\n<p>Category theory provides a unifying language and structure to study different mathematical objects and their relationships. The primary focus is on the morphisms, which are structure-preserving transformations between objects, and the composition of these morphisms. This emphasis on relations makes category theory a powerful tool for representing and analyzing complex structures and patterns.</p>\n<p>Given the relational focus of category theory, it is true that nominalism, in its traditional form, might not fit neatly within this framework. However, it is important to note that category theory is a mathematical formalism and can be used to model various philosophical ideas, including nominalist or realist perspectives on universals.</p>\n<p>One could potentially argue that category theory allows for a more nuanced understanding of nominalist and realist positions by emphasizing the relationships between objects and their properties, rather than focusing solely on the objects themselves. In this sense, category theory may offer new insights and perspectives on traditional metaphysical debates, such as the question of universals.</p>\n<p>It is also worth noting that the application of category theory to metaphysics is still an ongoing area of research, and different philosophers have different opinions on the extent to which category theory can or should be used to analyze metaphysical concepts. The relationship between nominalism and category theory is an interesting topic for further exploration, but it remains an open question how these ideas can be reconciled or integrated within a broader metaphysical framework.</p>\n</blockquote>\n<p><a href=\"https://twitter.com/bblfish/status/1645782400440610818\">https://twitter.com/bblfish/status/1645782400440610818</a></p>\n<div class=\"inline-preview-twitter\"><div class=\"twitter-tweet\"><a href=\"https://twitter.com/bblfish/status/1645782400440610818\"><img class=\"twitter-avatar\" src=\"https://uploads.zulipusercontent.net/77b199c7e82b7b9c52e9d03926bbf1970d09fe5d/68747470733a2f2f7062732e7477696d672e636f6d2f70726f66696c655f696d616765732f313030343332363736313630383431373238312f486a786a533942585f6e6f726d616c2e6a7067\"></a><p>I asked #GPT4chat \"I guess nominalism makes little sense in category theory, because in category theory relations are as important as objects.\" to which it answered:\n\n&gt; Your observation is astute. Nominalism, as a philosophical position, focuses on denying the existence of… <a href=\"https://t.co/7QCkVM8F8u\">https://twitter.com/i/web/status/1645782400440610818</a></p><span>- The 🐠 BblFish (@bblfish)</span></div></div>",
+        "id": 348464248,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1681220209
+    },
+    {
+        "content": "<p>Higher up we spoke of counterfactuals, and so I found this nice conversation by Turing Award Winner Judea Pearl on \"Causal Reasoning, Counterfactuals, and the Path to Aritifical General Intelligence (AGI)\"<br>\n<a href=\"https://www.youtube.com/watch?v=pEBI0vF45ic\">https://www.youtube.com/watch?v=pEBI0vF45ic</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"pEBI0vF45ic\" href=\"https://www.youtube.com/watch?v=pEBI0vF45ic\"><img src=\"https://uploads.zulipusercontent.net/c1904a8924992a3b953200e2eb8da5c372660b92/68747470733a2f2f692e7974696d672e636f6d2f76692f70454249307646343569632f64656661756c742e6a7067\"></a></div>",
+        "id": 356289349,
+        "sender_full_name": "Henry Story",
+        "timestamp": 1683375019
+    }
+]

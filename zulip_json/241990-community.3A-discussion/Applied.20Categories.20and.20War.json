@@ -1,0 +1,872 @@
+[
+    {
+        "content": "<p>Category theory is often applied to programming methodologies that are quite generally applicable, so they will be applied to warfare as well as other things.</p>",
+        "id": 342481931,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679035777
+    },
+    {
+        "content": "<p>If the military wants to improve their methods using category theory it doesn't mean that it will cause more suffering. Today they are able to act in a much \"cleaner\" way due to technology and thinking. And it means in particular less collateral damage if they want eg. to eliminate some leader of a terrorist organization. I think there is no ethical problem with asking these questions. I don't see how asking questions could be unethical.</p>",
+        "id": 342486273,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1679037847
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"389450\">Keith Elliott Eugene Mathew Peterson</span> <a href=\"#narrow/stream/229156-practice.3A-applied-ct/topic/Applied.20Categories.20and.20War/near/342478564\">said</a>:</p>\n<blockquote>\n<p>A while back, there was a discussion about the ethics of accepting funding from military sources. Although, not strictly brought into that discussion, are there military applications of category theory? If so what might they be? Are those methods strictly to increase lethal engagement, or could they also be used in so-called \"hybrid warfare\"? Could someone using the methods of applied category theory cause untold amounts of suffering? And is it possible that research in the area could inadvertently cause the suffering of others? Could there be a categorical arms race between nations? Is even asking these questions moral and/or ethical? Have we opened Pandora's box? </p>\n<p>It feels to me like the questions I'm asking are a lot like those asked of \"the bomb\". But I also could be overthinking things...</p>\n</blockquote>\n<p>Lol, tell me you want to trigger an online brawl without telling me you want to trigger an online brawl. My only suggestion is to move this discussion somewhere else. It will be ugly and I'd like not having to unsubscribe from this stream too, lol</p>",
+        "id": 342553161,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1679057820
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276438\">Fabrizio Genovese</span> <a href=\"#narrow/stream/229156-practice.3A-applied-ct/topic/Applied.20Categories.20and.20War/near/342553161\">said</a>:</p>\n<blockquote>\n<p>Lol, tell me you want to trigger an online brawl without telling me you want to trigger an online brawl. My only suggestion is to move this discussion somewhere else. It will be ugly and I'd like not having to unsubscribe from this stream too, lol</p>\n</blockquote>\n<p>Yes please move this [rolls up sleeves]</p>",
+        "id": 342574685,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1679062759
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"389450\">Keith Elliott Eugene Mathew Peterson</span> <a href=\"#narrow/stream/229156-practice.3A-applied-ct/topic/Applied.20Categories.20and.20War/near/342507744\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229156-practice.3A-applied-ct/topic/Applied.20Categories.20and.20War/near/342481931\">said</a>:</p>\n<blockquote>\n<p>Category theory is often applied to programming methodologies that are quite generally applicable, so they will be applied to warfare as well as other things.</p>\n</blockquote>\n<p>I mean, yeah, but that's kind of a cheap shot. I was thinking more about data integration and control, such as the focus of DARPA's CASCADE program. Though, I'm sure there are many more potential applications outside my knowledge and imagination.</p>\n</blockquote>\n<p>Sorry, I was going to say more but I got distracted.  I was going to continue and say that if category theorists help the military with specific projects like CASCADE they will be helping develop specifically <em>military</em> applications of category theory.  This is why I quit working on CASCADE: they began the program using an example of organizing search and rescue missions in a yacht race in the Caribbean, but then it changed to more clearly military applications.  </p>\n<p>If category theorists work with the military it will also tend to help keep their military ahead of competing militaries, and civilians, in the development of generally applicable tools.</p>\n<p>There's a lot more to say but I'm still busy!</p>",
+        "id": 342634028,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679076254
+    },
+    {
+        "content": "<p>This topic was moved here from <a class=\"stream-topic\" data-stream-id=\"229156\" href=\"/#narrow/stream/229156-practice.3A-applied-ct/topic/Applied.20Categories.20and.20War\">#practice: applied ct &gt; Applied Categories and War</a> by <span class=\"user-mention silent\" data-user-id=\"275901\">Jules Hedges</span>.</p>",
+        "id": 342634291,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1679076332
+    },
+    {
+        "content": "<p>For example, I could talk about using operads to help develop networks of communicating drones.  There are probably people doing this now.</p>",
+        "id": 342635297,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679076583
+    },
+    {
+        "content": "<p>But this is just one of many military applications of category theory and other math, and I'm not an expert on them!</p>",
+        "id": 342641845,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679078536
+    },
+    {
+        "content": "<p>Anyway, to these questions:</p>\n<blockquote>\n<p>Could someone using the methods of applied category theory cause untold amounts of suffering? And is it possible that research in the area could inadvertently cause the suffering of others? Could there be a categorical arms race between nations? Is even asking these questions moral and/or ethical? Have we opened Pandora's box? </p>\n</blockquote>\n<p>The Pandora's box has been opened, and it's called \"science, technology and mathematics\".    It can <br>\ncause untold amounts of suffering - or good.  Research in these areas can inadvertently cause immense suffering.   There is an arms race between nations in all areas of science, technology and mathematics.</p>\n<p>Category theory is part of this, and I don't think it can be cleanly separated out.   That is, if everyone doing category theory quit now, the effects would be rather subtle.    As people never tire of telling category theorists, almost anything you can do with category theory can also be done without it.  The difference is mainly that with category theory it's gets done in a clearer, more generalizable and less error-prone way.</p>",
+        "id": 342642452,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679078756
+    },
+    {
+        "content": "<p>The military will eventually - and often quite promptly - use any sort of applied math that anyone comes up with.   So you can decide this is fine, or that it's unavoidable, and keep working on applied category theory... or avoid working on applied category theory, or avoid working on <em>explicitly military</em> applications of category theory, or for that matter <em>embrace</em> explicitly military applications of category theory: all these are self-consistent positions that people take.</p>\n<p>Here's my personal position: I want to pursue applications of category theory to human health, climate change, etc., because  I can actually make a difference there, and perhaps a good difference.  These fields may otherwise be a bit slow in adopting categorical methods.</p>",
+        "id": 342644742,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679079520
+    },
+    {
+        "content": "<p>That's why I'm working on categories for epidemiological modeling, and the Mathematics for Humanity project.   For details try this:</p>\n<ul>\n<li><a href=\"https://johncarlosbaez.wordpress.com/2023/03/09/azimuth-project-news-2/\">Azimuth News</a>.</li>\n</ul>",
+        "id": 342645137,
+        "sender_full_name": "John Baez",
+        "timestamp": 1679079645
+    },
+    {
+        "content": "<p>OK so here is a <em>specifically</em> military thing that some folks have been interested in from the PoV of CT: <a href=\"https://www.google.com/search?q=mosaic+warfare\">https://www.google.com/search?q=mosaic+warfare</a></p>",
+        "id": 342648678,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1679080843
+    },
+    {
+        "content": "<p>About five years ago I was thinking of this sort of stuff in terms of three mathematical keys that I discussed publicly at the time: CT (for compositionality), topology (and some global geometry, for global properties), and statistical physics (for emergent properties). Imagine a bunch of gizmos that the military wants to coordinate. You might want to model each as a sensor, actuator, and interface. That's a 2-simplex. You might glue interfaces and maybe constrain actuators. Now you're making a simplicial set. There might be some function over local groups of gizmos. Now you have a local section in a sheaf. You might want to engineer a behavior under an ensemble of environmental conditions. Now you're doing statistical physics. Finally you might want to assemble subsystems or groups into systems or teams, or you might want to fuse data or compose various protocols. Now you're doing CT.</p>",
+        "id": 342651240,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1679081716
+    },
+    {
+        "content": "<p>I'll quote from <a href=\"https://arxiv.org/abs/1904.04869v1\">https://arxiv.org/abs/1904.04869v1</a>: \"operadic formulations or realizations of data structures for multirobot systems such as the one sketched here are especially desirable because they hold the promise of engineering distinct functionalities in a coherent way. For example, detailed missions can be encoded using flowgraphs [19], constraints can be encoded using weighted maximum satisfiability and/or linear temporal logic formulas, teams can be encoded using simplicial sets [17], etc., and each of these data structures has an associated notion of operad.\"</p>",
+        "id": 342652161,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1679082079
+    },
+    {
+        "content": "<p>From <a href=\"https://www.newyorker.com/magazine/2023/08/28/elon-musks-shadow-rule\">https://www.newyorker.com/magazine/2023/08/28/elon-musks-shadow-rule</a>:</p>\n<p><em>On the phone, Musk said that he was looking at his laptop and could see “the entire war unfolding” through a map of Starlink activity. “This was, like, three minutes before he said, ‘Well, I had this great conversation with Putin,’ ” the senior defense official told me. “And we were, like, ‘Oh, dear, this is not good.’ ” Musk told Kahl that the vivid illustration of how technology he had designed for peaceful ends was being used to wage war gave him pause.</em></p>\n<p>I would guess that quite a few of Starlink's developers were distressed by the prospects of <em>not</em> using it to wage war. Certainly I would have been distressed in such a position.</p>",
+        "id": 386452928,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1692643237
+    },
+    {
+        "content": "<p><em>Musk’s sympathies appeared to be manifesting on the battlefield. One day, Ukrainian forces advancing into contested areas in the south found themselves suddenly unable to communicate. “We were very close to the front line,” Mykola, the signal-corps soldier, told me. “We crossed this border and the Starlink stopped working.” The consequences were immediate. “Communications became dead, units were isolated. When you’re on offense, especially for commanders, you need a constant stream of information from battalions. Commanders had to drive to the battlefield to be in radio range, risking themselves,” Mykola said. “It was chaos.” Ukrainian expats who had raised funds for the Starlink units began receiving frantic calls. The tech executive recalls a Ukrainian military official telling him, “We need Elon now.” “How now?” he replied. “Like fucking now,” the official said. “People are dying.” Another Ukrainian involved told me that he was “awoken by a dozen calls saying they’d lost connectivity and had to retreat.” The Financial Times reported that outages affected units in Kherson, Zaporizhzhia, Kharkiv, Donetsk, and Luhansk. American and Ukrainian officials told me they believed that SpaceX had cut the connectivity via geofencing, cordoning off areas of access.</em></p>",
+        "id": 386453235,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1692643345
+    },
+    {
+        "content": "<p>Imagine the second Chushi Gangdruk corp and His Holiness finally made it to the border to take back Tibet and then the Internet cut off (China is also geofenced by Elon because apparently the Nepofactory Shanghai is just so good)</p>",
+        "id": 386502952,
+        "sender_full_name": "Hypatia du Bois-Marie",
+        "timestamp": 1692667715
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"623712\">Hypatia du Bois-Marie</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/386502952\">said</a>:</p>\n<blockquote>\n<p>Imagine the second Chushi Gangdruk corp and His Holiness finally made it to the border to take back Tibet and then the Internet cut off (China is also geofenced by Elon because apparently the Nepofactory Shanghai is just so good)</p>\n</blockquote>\n<p>Well like <a href=\"https://www.airandspaceforces.com/read-full-memo-from-amc-gen-mike-minihan/\">the commander of Air Mobility Command</a> I would think Taiwan circa 2025 is a more likely near term scenario</p>",
+        "id": 386590454,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1692705190
+    },
+    {
+        "content": "<p>Is this discussion off-topic or has category theory made it into low earth orbit while maintaining a low profile?</p>",
+        "id": 386615917,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1692712816
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"277473\">@Morgan Rogers (he/him)</span> Are you suggesting that you want connections in this discussion to be between war and category theory per se versus just to math and tech that uses math? In that even you may not be aware that folks at NASA and at various universities are doing all manner of category theory as part of a delay-tolerant networking effort involving Starlink, see e.g., <a href=\"https://www.youtube.com/watch?v=0H_Rtqw2RqM\">https://www.youtube.com/watch?v=0H_Rtqw2RqM</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"0H_Rtqw2RqM\" href=\"https://www.youtube.com/watch?v=0H_Rtqw2RqM\"><img src=\"https://uploads.zulipusercontent.net/21b5ea8d62fa8e101036b5960baa136f58fdc272/68747470733a2f2f692e7974696d672e636f6d2f76692f30485f527471773252714d2f64656661756c742e6a7067\"></a></div>",
+        "id": 386620749,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1692713975
+    },
+    {
+        "content": "<p><a href=\"https://www.nature.com/articles/478309a\">Reason aligns with nonviolence.</a>  Be that as it may, given that there is war, we have a situation that is perceived differently by the warring armies, but there seems to be a glimmer of hope (see Professor F. William Lawvere's philosophical explanation in <a href=\"https://github.com/mattearnshaw/lawvere/blob/master/pdfs/1972-perugia-lecture-notes.pdf\">Perugia Notes</a>, pp. 127-129), albeit colored in sadness for all those at war invariably loose to the powers (securely situated at safe distant spaces) fueling wars (all of which reminds me of an ancient practice, where old kings who could no longer raise a sword would have young people fight and kill one another just for fun/favorite pastime of dilapidated bodies/minds).</p>",
+        "id": 386675261,
+        "sender_full_name": "Posina Venkata Rayudu",
+        "timestamp": 1692730679
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276695\">Posina Venkata Rayudu</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/386675261\">said</a>:</p>\n<blockquote>\n<p><a href=\"https://www.nature.com/articles/478309a\">Reason aligns with nonviolence.</a>  Be that as it may, given that there is war, we have a situation that is perceived differently by the warring armies, but there seems to be a glimmer of hope (see Professor F. William Lawvere's philosophical explanation in <a href=\"https://github.com/mattearnshaw/lawvere/blob/master/pdfs/1972-perugia-lecture-notes.pdf\">Perugia Notes</a>, pp. 127-129), albeit colored in sadness for all those at war invariably loose to the powers (securely situated at safe distant spaces) fueling wars (all of which reminds me of an ancient practice, where old kings who could no longer raise a sword would have young people fight and kill one another just for fun/favorite pastime of dilapidated bodies/minds).</p>\n</blockquote>\n<p>FWIW your first link contains the passage <em>Reason, by itself, can lay out a road map to peace or to war, to tolerance or to persecution, depending on what the reasoner wants.</em> While some might argue for nonviolence no matter what, I have a hard time imagining Jesus Christ himself doing that instead of <a href=\"https://en.wikipedia.org/wiki/Cleansing_of_the_Temple\">flipping over tables and whipping folks</a> when circumstances warranted.</p>",
+        "id": 386684518,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1692734692
+    },
+    {
+        "content": "<p>Without discounting all that <span class=\"user-mention\" data-user-id=\"277578\">@Steve Huntsman</span> added, there is truth (notwithstanding the basic tenet of pragmatist (a' la American ;) epistemology: <a href=\"https://playinmath.wordpress.com/2023/02/08/history-and-philosophy-of-mathematic-reform/\">Truth is what I can get away with</a>), which can lead to <a href=\"https://philpapers.org/rec/POSGST\">peace</a>.</p>",
+        "id": 386690126,
+        "sender_full_name": "Posina Venkata Rayudu",
+        "timestamp": 1692737292
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277578\">Steve Huntsman</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/342648678\">said</a>:</p>\n<blockquote>\n<p>OK so here is a <em>specifically</em> military thing that some folks have been interested in from the PoV of CT: <a href=\"https://www.google.com/search?q=mosaic+warfare\">https://www.google.com/search?q=mosaic+warfare</a></p>\n</blockquote>\n<p>My intent is not to reinvigorate a debate, just to say that historically a VAST number of technologies funded by governments (not just USA and not just DOD funding elements) have been what is often called \"dual use\". This isn't unique to applications of category theory or math by any means. The discussed CASCADE program is a good example, since the dual use is search and rescue (SAR) but also <em>combat</em> search and rescue (CSAR). Dual use is often merely a change in application context and so very little if anything can be done in practice to avoid contributing to the crossover by those who might be concerned. </p>\n<p>Yes, I would say mosaic is the quintessential <em>compositional</em> force package design concept... so very relevant. For better or worse, there are a ton of possible applications of CT to military theory, doctrine, and practice. For instance, I think some of the constructions in categorical systems theory and cybernetics could be extended to model a more general theory of interacting adversarial systems. Another dual use arises: military (obviously) and competing firms within a marketplace. Not to mention applications to model a more general competition between national power structures (ideas like DIMEFIL) in which a military plays only a marginal (though most visible) role.</p>",
+        "id": 386887560,
+        "sender_full_name": "Kyle Wilkinson",
+        "timestamp": 1692801732
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"612611\">Kyle Wilkinson</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/386887560\">said</a>:</p>\n<blockquote>\n<p>Dual use is often merely a change in application context and so very little if anything can be done in practice to avoid contributing to the crossover by those who might be concerned. </p>\n</blockquote>\n<p>I'll go further: publishing anything that might ever be applied while also hoping to control the outcome is FAFOing. </p>\n<p>One thing DoD has over Silicon Valley is an ability to develop and use ideas privately.</p>",
+        "id": 386927312,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1692814165
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"428716\">Jean-Baptiste Vienney</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/342486273\">said</a>:</p>\n<blockquote>\n<p>If the military wants to improve their methods using category theory it doesn't mean that it will cause more suffering. Today they are able to act in a much \"cleaner\" way due to technology and thinking. And it means in particular less collateral damage if they want eg. to eliminate some leader of a terrorist organization. I think there is no ethical problem with asking these questions. I don't see how asking questions could be unethical.</p>\n</blockquote>\n<p>I never understand this argument. Think from the perspective of a person in a territory being attacked by an imperial military force. Why would you want their weapons to be more effective?</p>",
+        "id": 387042006,
+        "sender_full_name": "Jade Master",
+        "timestamp": 1692873414
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276037\">Jade Master</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/387042006\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"428716\">Jean-Baptiste Vienney</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/342486273\">said</a>:</p>\n<blockquote>\n<p>If the military wants to improve their methods using category theory it doesn't mean that it will cause more suffering. Today they are able to act in a much \"cleaner\" way due to technology and thinking. And it means in particular less collateral damage if they want eg. to eliminate some leader of a terrorist organization. I think there is no ethical problem with asking these questions. I don't see how asking questions could be unethical.</p>\n</blockquote>\n<p>I never understand this argument. Think from the perspective of a person in a territory being attacked by an imperial military force. Why would you want their weapons to be more effective?</p>\n</blockquote>\n<p>Having been in a territory being attacked by an imperial military force just last month, I think you may have that sort of thing confused with the United States.</p>",
+        "id": 387069683,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1692882388
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/8SakFh4t0L6jlPQgYhKL8_DL/IMG_3096.png\">IMG_3096.png</a><br>\n<a href=\"/user_uploads/21317/EA9QOFqhKiJ0WUDig9fL-rRh/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/8SakFh4t0L6jlPQgYhKL8_DL/IMG_3096.png\" title=\"IMG_3096.png\"><img src=\"/user_uploads/21317/8SakFh4t0L6jlPQgYhKL8_DL/IMG_3096.png\"></a></div><div class=\"message_inline_image\"><a href=\"/user_uploads/21317/EA9QOFqhKiJ0WUDig9fL-rRh/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/EA9QOFqhKiJ0WUDig9fL-rRh/image.png\"></a></div><p>I took the original when waiting for a train on 8 July at 3AM at <a href=\"https://www.google.com/maps/place/49%C2%B012'04.9%22N+31%C2%B053'36.6%22E/\">https://www.google.com/maps/place/49%C2%B012'04.9%22N+31%C2%B053'36.6%22E/</a></p>\n<p><span class=\"user-mention\" data-user-id=\"276037\">@Jade Master</span> now if you are gonna tell me again that US is an \"imperial military force\" with a straight face then you definitely know <a href=\"https://www.amazon.com/How-Tankie-Imperialists-Guide-Modern/dp/B0BLYBM37P\">how to tankie</a> with the best of em</p>",
+        "id": 387104756,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1692890645
+    },
+    {
+        "content": "<p>I'm not interested in arguing with you about this. Was hoping to hear from someone else. Thanks.</p>",
+        "id": 387108261,
+        "sender_full_name": "Jade Master",
+        "timestamp": 1692891340
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276037\">Jade Master</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/387042006\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"428716\">Jean-Baptiste Vienney</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/342486273\">said</a>:</p>\n<blockquote>\n<p>If the military wants to improve their methods using category theory it doesn't mean that it will cause more suffering. Today they are able to act in a much \"cleaner\" way due to technology and thinking. And it means in particular less collateral damage if they want eg. to eliminate some leader of a terrorist organization. I think there is no ethical problem with asking these questions. I don't see how asking questions could be unethical.</p>\n</blockquote>\n<p>I never understand this argument. Think from the perspective of a person in a territory being attacked by an imperial military force. Why would you want their weapons to be more effective?</p>\n</blockquote>\n<p>If they want to eliminate a precise leader who appears to live in the same building than you, you prefer that they send special forces to captur him rather than destroying the whole building and kill lot of people. It's the way Ben Laden was captured as long as I understand. That's the kind of operations that the US or european countries know how to do, using lot of work on getting information and highly-trained soldiers with high-tech equipment. Compare this to Russia sending their soldiers to certain death by using low-tech \"human wave attacks\" in Ukrainia. I would prefer being an afghan guy, the US operating in my country, rather than an Ukrainian guy, Russia operating in my country. If they don't even care about the life of their people, they will care  even less about my life.</p>",
+        "id": 387112043,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1692892337
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276037\">Jade Master</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/387042006\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"428716\">Jean-Baptiste Vienney</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/342486273\">said</a>:</p>\n<blockquote>\n<p>If the military wants to improve their methods using category theory it doesn't mean that it will cause more suffering. Today they are able to act in a much \"cleaner\" way due to technology and thinking. And it means in particular less collateral damage if they want eg. to eliminate some leader of a terrorist organization. I think there is no ethical problem with asking these questions. I don't see how asking questions could be unethical.</p>\n</blockquote>\n<p>I never understand this argument. Think from the perspective of a person in a territory being attacked by an imperial military force. Why would you want their weapons to be more effective?</p>\n</blockquote>\n<p>I recently realized that Zulip allows for muting of threads, which means off-topic (wrt actual category theory math) discussions aren't forced on the larger group. This makes it much easier for me to consider engaging here and there in the fringe threads. That is neither here nor there, just felt like stating it.</p>\n<p>I will see if I can briefly offer a satisfactory response through the lens of nuclear deterrence terminology. There is a notion of countervalue and counterforce operations in nuclear deployment. There is no reason the terms can't extend to conventional munition deployment. </p>\n<p>In counterforce, strikes are limited to military targets. In countervalue, civilian populace and infrastructure are targeted. One goal of counterforce is to intentionally limit civilian impacts (as strange as it may sound given the nuclear context!). The US broadly applies this counterforce idea... with many, <em>many</em> mistakes no doubt, but generally tries. It's part of the legal framework of US armed conflict: LOAC. [Edit: I should say clearly this has not always been the case in the US, especially with respect to nuclear weapons. Also, I mention US in particular only because that's where I am]</p>\n<p>If I imagine myself to be a civilian in a nation under military action by a force practicing counterforce methods, I would want their targeting methods and munitions to be as precise as possible, limiting collateral effects and thus minimizing risk to me, who may not care one bit about the grand geo-political machinations surrounding the conflict. I think this is getting at what the OP was saying. </p>\n<p>On the other hand, if I am a civilian in a country subject to attack from a countervalue-oriented nation, I would very much like for their military to have highly ineffective weapons so they are less likely to work on me. </p>\n<p>Of course nothing is so simple, and everyone knows these ideas, so often military targets are intentionally placed within civilian areas (even by the \"good guys\"), like a \"human shield\" ploy, leading to difficulty in executing a purely counterforce operation. But one can still imagine the \"ideal\" scenario, as silly as it may seem to consider idealism in war. I would just say that nations vie for interests, and it's hard to avoid conflict in all cases, so one should hope that those responsible for carrying it out study and understand it as formally as possible.</p>",
+        "id": 387113244,
+        "sender_full_name": "Kyle Wilkinson",
+        "timestamp": 1692892644
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276037\">Jade Master</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/387042006\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"428716\">Jean-Baptiste Vienney</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/342486273\">said</a>:</p>\n<blockquote>\n<p>If the military wants to improve their methods using category theory it doesn't mean that it will cause more suffering. Today they are able to act in a much \"cleaner\" way due to technology and thinking. And it means in particular less collateral damage if they want eg. to eliminate some leader of a terrorist organization. I think there is no ethical problem with asking these questions. I don't see how asking questions could be unethical.</p>\n</blockquote>\n<p>I never understand this argument. Think from the perspective of a person in a territory being attacked by an imperial military force. Why would you want their weapons to be more effective?</p>\n</blockquote>\n<p>Sorry, I didn't answer the question. If I'm attacked by an imperial military force... Hmm... Again I prefer that they kill or capture all the military of my country and not me. Or better, that they destroy all the military equipment of the army of my country, without killing anybody, or something like this, precise and effective, which I'm sure will not kill me, my family and my friends.</p>",
+        "id": 387121094,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1692894989
+    },
+    {
+        "content": "<p>Something good will be for example that they take the control of the energy sources, like fuel and electricity, or that they make all electronical devices innefective by making explode a nuclear bomb very high in the sky (I heard that this thing can make all printed circuit boards innefective? ) or that they hack the internet and the bank system of my country... I don't know. Something that doesn't kill too much people, by making use of thinking and technology.</p>",
+        "id": 387122341,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1692895406
+    },
+    {
+        "content": "<p>Sorry, it was still not the question. Making weapons more effective is just a small part of how you can use category theory for instance in the army. I don't think that this is the main thing that interest military today. We already know how to make guns and bombs that do what they are conceived for.</p>",
+        "id": 387123462,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1692895770
+    },
+    {
+        "content": "<p>I guess they will use category theory for different questions than how to improve weapons.</p>",
+        "id": 387124007,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1692895937
+    },
+    {
+        "content": "<p>Thinking to war only as a question of weapons is clearly insufficient to get the full picture.</p>",
+        "id": 387124379,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1692896073
+    },
+    {
+        "content": "<p>Yall may want to look at DoD's \"civilian harm mitigation and response action plan\"</p>",
+        "id": 387125203,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1692896361
+    },
+    {
+        "content": "<p>Yeah, I think lots of people here have a very ethereal and out of this world vision of war and that's a good read to go back in our reality.</p>",
+        "id": 387125998,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1692896611
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277578\">Steve Huntsman</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/386452928\">said</a>:</p>\n<blockquote>\n<p>I would guess that quite a few of Starlink's developers were distressed by the prospects of <em>not</em> using it to wage war. Certainly I would have been distressed in such a position.</p>\n</blockquote>\n<p>Per <a href=\"https://www.cnn.com/2023/09/07/politics/elon-musk-biography-walter-isaacson-ukraine-starlink/index.html\">https://www.cnn.com/2023/09/07/politics/elon-musk-biography-walter-isaacson-ukraine-starlink/index.html</a> <em>Elon Musk secretly ordered his engineers to turn off his company’s Starlink satellite communications network near the Crimean coast last year to disrupt a Ukrainian sneak attack on the Russian naval fleet.</em> </p>\n<p>This act of disabling technology that CT has been applied to benefited genocidaires.</p>",
+        "id": 389649238,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694090516
+    },
+    {
+        "content": "<p><em>“How am I in this war?” Musk asks Isaacson. “Starlink was not meant to be involved in wars. It was so people can watch Netflix and chill and get online for school and do good peaceful things, not drone strikes.”</em></p>",
+        "id": 389649855,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694090694
+    },
+    {
+        "content": "<p><em>Ukraine did want to press forward last year, before the fortifications were built.  It lacked the necessary weapons, and Elon Musk chose to cut Ukraine off from communications.  That move likely extended the war. Because Musk’s decision was based on his internalization of Russian propaganda about nuclear war, and was accompanied by his repetition of that propaganda, he made a nuclear war more likely.  If powerful men convey the message that just talking about nuclear war is enough to win conventional wars, then we will have more countries with nuclear weapons and more conventional wars that can escalate into nuclear ones. Ukraine has been resistant to this line of Russian fearmongering, fortunately for us all.</em></p>\n<p><a href=\"https://snyder.substack.com/p/the-state-of-the-war?r=f9j4c&amp;utm_campaign=post&amp;utm_medium=web\">https://snyder.substack.com/p/the-state-of-the-war?r=f9j4c&amp;utm_campaign=post&amp;utm_medium=web</a></p>",
+        "id": 389788271,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694136427
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277578\">Steve Huntsman</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/389649855\">said</a>:</p>\n<blockquote>\n<p><em>“How am I in this war?” Musk asks Isaacson. “Starlink was not meant to be involved in wars. It was so people can watch Netflix and chill and get online for school and do good peaceful things, not drone strikes.”</em></p>\n</blockquote>\n<p>Funny those are all non-existent in China. When he visited China, did he seriously just went to the propaganda villages and nowhere else? Sigh...</p>\n<p>To remind y'all that it is literally if you don't support us, Ukraine, Taiwan, or dissidents in Hong Kong, you are supporting them.</p>",
+        "id": 389799463,
+        "sender_full_name": "Hypatia du Bois-Marie",
+        "timestamp": 1694142745
+    },
+    {
+        "content": "<p>PS. I was archiving results of Chinese mathematicians who was slaughtered during the cultural revolution the other day; this is in the thesis of <a href=\"https://en.wikipedia.org/wiki/Xiong_Qinglai\">https://en.wikipedia.org/wiki/Xiong_Qinglai</a>:</p>\n<p><a href=\"/user_uploads/21317/IewztpOz21Zv9yNrW1kTP7NZ/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/IewztpOz21Zv9yNrW1kTP7NZ/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/IewztpOz21Zv9yNrW1kTP7NZ/image.png\"></a></div>",
+        "id": 389799669,
+        "sender_full_name": "Hypatia du Bois-Marie",
+        "timestamp": 1694142866
+    },
+    {
+        "content": "<p>The context was some colleagues was talking about the revoking security clearance scene after watching Oppenheimer with comparison with our cultural revolution:</p>\n<blockquote>\n<p>The imagination of US people is indeed limited.<br>\nRevoking some security clearance and expulsion from the project to a well-known university are enough to make the entire academic community mad?<br>\nWith the security clearance there is even an inspection committee, and Oppenheimer even has an attorney?<br>\nThe attorney argued these procedures are not legal, not a fair fight, like being beaten up, with injustice?<br>\nAnd the committee even has a two-to-one passage; one of them even wrote a petition of dissent?<br>\nReally, don't even talk about McCarthyism to us; your McCarthyism in our country is just child game.</p>\n</blockquote>\n<p>Chinese mathematicians will never ever forget these; and we can't even if we want to because these persecutions have never gone away in our homeland.</p>",
+        "id": 389800464,
+        "sender_full_name": "Hypatia du Bois-Marie",
+        "timestamp": 1694143316
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"428716\">Jean-Baptiste Vienney</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/387121094\">said</a>:</p>\n<blockquote>\n<p>Sorry, I didn't answer the question. If I'm attacked by an imperial military force... Hmm... Again I prefer that they kill or capture all the military of my country and not me. Or better, that they destroy all the military equipment of the army of my country, without killing anybody, or something like this, precise and effective, which I'm sure will not kill me, my family and my friends.</p>\n</blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"276037\">Jade Master</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/387042006\">said</a>:</p>\n<blockquote>\n<p>I never understand this argument. Think from the perspective of a person in a territory being attacked by an imperial military force. Why would you want their weapons to be more effective?</p>\n</blockquote>\n<p>Also, this discussion on itself is just preposterous... Watch: <a href=\"https://en.wikipedia.org/wiki/Revolution_of_Our_Times\">https://en.wikipedia.org/wiki/Revolution_of_Our_Times</a>, you never would want to live under occupation.</p>\n<p><strong>You would want your weapons to be more effective</strong>, so that you don't just watch your family and friends just die or be \"disappeared\", so that you have a chance fighting for them, protecting them.</p>",
+        "id": 389802140,
+        "sender_full_name": "Hypatia du Bois-Marie",
+        "timestamp": 1694144323
+    },
+    {
+        "content": "<p>Trust me you would; i've been in that situation multiple times now during my 20 years living in Beijing.</p>",
+        "id": 389802607,
+        "sender_full_name": "Hypatia du Bois-Marie",
+        "timestamp": 1694144585
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277578\">Steve Huntsman</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/389649855\">said</a>:</p>\n<blockquote>\n<p><em>“How am I in this war?” Musk asks Isaacson. “Starlink was not meant to be involved in wars. It was so people can watch Netflix and chill and get online for school and do good peaceful things, not drone strikes.”</em></p>\n</blockquote>\n<p>Starlink went down <em>precisely</em> in step with yesterday's attack on the Black Sea Fleet drydocks that destroyed a Kilo-class submarine and a landing ship, among other Russian naval assets. </p>\n<p><a href=\"/user_uploads/21317/uB-Pz1ls9Zp9mlptt_k088oN/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/uB-Pz1ls9Zp9mlptt_k088oN/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/uB-Pz1ls9Zp9mlptt_k088oN/image.png\"></a></div><p>Does anyone here think that this was merely coincidental? </p>\n<p>Following up, does anyone here still think that decrying work that defends democracies while participating in efforts (like let's just say using sheaves or operads to model systems or networks) that might conceivably be applied <em>to anything whatsoever in the real world</em> is actually intellectually defensible?</p>",
+        "id": 390723468,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694611660
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277578\">Steve Huntsman</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390723468\">said</a>:</p>\n<blockquote>\n<p>Following up, does anyone here still think that decrying work that defends democracies while participating in efforts (like let's just say using sheaves or operads to model systems or networks) that might conceivably be applied <em>to anything whatsoever in the real world</em> is actually intellectually defensible?</p>\n</blockquote>\n<p>Equating work that advances military interests with \"work that defends democracies\" is not a concession I'm prepared to accept in the context of earlier debates in this thread. Nonetheless, I maintain that it is not hypocritical to do work which is applicable while decrying or refusing to associate with applications which one finds morally objectionable, given that applications of theoretical work are rarely unique.</p>",
+        "id": 390726425,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1694612562
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390726425\">said</a>:</p>\n<blockquote>\n<p>Equating work that advances military interests with \"work that defends democracies\" is not a concession I'm prepared to accept in the context of earlier debates in this thread. Nonetheless, I maintain that it is not hypocritical to do work which is applicable while decrying or refusing to associate with applications which one finds morally objectionable, given that applications of theoretical work are rarely unique.</p>\n</blockquote>\n<p>What \"military interests\"? In democracies the electorate decides, however imperfectly, what military capacity to build and when to use it.</p>",
+        "id": 390730468,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694613708
+    },
+    {
+        "content": "<p>I'm sure citizens of democracies all over the world have a strong sense of agency over the military organisations in their states... <span aria-label=\"melting face\" class=\"emoji emoji-1fae0\" role=\"img\" title=\"melting face\">:melting_face:</span></p>",
+        "id": 390732555,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1694614241
+    },
+    {
+        "content": "<p>Do you even understand what a democracy is?</p>",
+        "id": 390732733,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694614293
+    },
+    {
+        "content": "<p>I have noticed a common thread in my adversarial interlocutors' reasoning wherein \"the people\" either do not have or ought not to have agency. In democracies the former is patently false, and the latter smells to me of sympathy for authoritarianism.</p>",
+        "id": 390732966,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694614349
+    },
+    {
+        "content": "<p>Living in what's considered a democratic state, I certainly feel my agency is pretty thin when it comes to military decisionmaking both in peacetime (assets to build) and in wartime (both when to have it happen and the doctrines to conduct it under).  This is not <em>unique</em> to the military, but rather common to many \"special interests\".  However, it's especially bad because of both the heavy consequences of those decisions and the heavy level of investment of those \"special interests\".</p>",
+        "id": 390733954,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694614627
+    },
+    {
+        "content": "<p>I also feel like while defensive wars like the current war (mostly) in the Ukraine are sometimes necessary, arms races between major powers only make these wars harder and make the defense of small states more dependent on major powers.  Those of us who are living in places where we are (mostly) free to develop and express our intellectual creativity as we choose shouldn't lend it to authoritarian powers by developing new kinds of weapons systems in peacetime that those authoritarian states can then copy or steal.</p>",
+        "id": 390735912,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694615161
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277578\">Steve Huntsman</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390732966\">said</a>:</p>\n<blockquote>\n<p>I have noticed a common thread in my adversarial interlocutors' reasoning wherein \"the people\" either do not have or ought not to have agency. </p>\n</blockquote>\n<p>I feel that the efficacy of various democracies is off-topic, but it's certainly the case that individual agency is by design limited in a democracy (unless you happen to agree with the elected representatives on every policy). Given the infrequency of votes in many democracies, individual agency is mostly exerted by individual actions, such as refusing to engage with organisations that one distrusts.</p>",
+        "id": 390736688,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1694615376
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"438995\">James Deikun</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390735912\">said</a>:</p>\n<blockquote>\n<p>I also feel like while defensive wars like the current war (mostly) in the Ukraine are sometimes necessary, arms races between major powers only make these wars harder and make the defense of small states more dependent on major powers.  Those of us who are living in places where we are (mostly) free to develop and express our intellectual creativity as we choose shouldn't lend it to authoritarian powers by developing new kinds of weapons systems in peacetime that those authoritarian states can then copy or steal.</p>\n</blockquote>\n<p>Are you saying that people in Ukraine, Taiwan, Israel, and South Korea (among others) should not develop new weapons systems in peacetime because the Russians, Chinese, Iranians, or North Koreans might steal the ideas? Because it sure sounds like that to me.</p>",
+        "id": 390736723,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694615388
+    },
+    {
+        "content": "<p>You missed the US from your list there <span class=\"user-mention\" data-user-id=\"277578\">@Steve Huntsman</span></p>",
+        "id": 390736850,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1694615417
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390736688\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"277578\">Steve Huntsman</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390732966\">said</a>:</p>\n<blockquote>\n<p>I have noticed a common thread in my adversarial interlocutors' reasoning wherein \"the people\" either do not have or ought not to have agency. </p>\n</blockquote>\n<p>I feel that the efficacy of various democracies is off-topic, but it's certainly the case that individual agency is by design limited in a democracy (unless you happen to agree with the elected representatives on every policy). Given the infrequency of votes in many democracies, individual agency is mostly exerted by individual actions, such as refusing to engage with organisations that one distrusts.</p>\n</blockquote>\n<p>Ridiculous. Refusing to engage is not exertion of agency but abdication of responsibility. Get out there and protest if you really hate something. I do.</p>",
+        "id": 390737653,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694615650
+    },
+    {
+        "content": "<p>Let's not pretend that Ukraine, Taiwan, South Korea, or even Israel are democracies on the leading edge of arms races, please.</p>",
+        "id": 390737778,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694615684
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390736850\">said</a>:</p>\n<blockquote>\n<p>You missed the US from your list there <span class=\"user-mention silent\" data-user-id=\"277578\">Steve Huntsman</span></p>\n</blockquote>\n<p>Do you think American adversaries are better off stealing weapons systems from the US than having the US not develop them? Because that's not how espionage or reverse engineering or deployment cycles actually work.</p>",
+        "id": 390738163,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694615799
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"438995\">James Deikun</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390737778\">said</a>:</p>\n<blockquote>\n<p>Let's not pretend that Ukraine, Taiwan, South Korea, or even Israel are democracies on the leading edge of arms races, please.</p>\n</blockquote>\n<p>Are you kidding? Take a look at the production for <a href=\"https://en.wikipedia.org/wiki/List_of_equipment_of_the_Republic_of_Korea_Army\">https://en.wikipedia.org/wiki/List_of_equipment_of_the_Republic_of_Korea_Army</a></p>",
+        "id": 390738859,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694615995
+    },
+    {
+        "content": "<p>And <a href=\"https://en.wikipedia.org/wiki/List_of_equipment_of_the_Israel_Defense_Forces\">https://en.wikipedia.org/wiki/List_of_equipment_of_the_Israel_Defense_Forces</a></p>",
+        "id": 390738991,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694616025
+    },
+    {
+        "content": "<p>And re: Ukrainian arms development, don't get me started with Hrim short range ballistic missiles, Neptune anti-ship missiles, Bohdana howitzers, Beaver long-range aerial drones, Sea Baby long-range naval drones... all state of the art and developed during the war</p>",
+        "id": 390739268,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694616107
+    },
+    {
+        "content": "<p>Or are you claiming that these aren't democracies?</p>",
+        "id": 390739382,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694616129
+    },
+    {
+        "content": "<p>If you think that democracies are confined to Western Europe and Japan, then I have some unsettling news for you: those places don't invest in their military as much because they've outsourced it to the United States. Now I think that's a great deal for America but if you think it's still our initiative after 1991 then I have a <em>Zeitenwende</em> to sell you.</p>",
+        "id": 390739694,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694616241
+    },
+    {
+        "content": "<p>By <em>constantly</em> developing new weapons systems, the US maintains an advantage over its adversaries in direct combat situations while at the same time making other democracies more dependent on the US for their defense and making it easier for authoritarian countries to suppress their own populations.  The advantage in actual weapons systems never lasts and constantly needs to be renewed because of reverse engineering and espionage.  The advantage in reserve creativity that underlies it never goes away because it's structural, but the US is constantly turning the global treadmill and using this capacity for aggressive force projection rather than strictly defense.</p>",
+        "id": 390740429,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694616461
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277578\">Steve Huntsman</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390737653\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390736688\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"277578\">Steve Huntsman</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390732966\">said</a>:</p>\n<blockquote>\n<p>I have noticed a common thread in my adversarial interlocutors' reasoning wherein \"the people\" either do not have or ought not to have agency. </p>\n</blockquote>\n<p>I feel that the efficacy of various democracies is off-topic, but it's certainly the case that individual agency is by design limited in a democracy (unless you happen to agree with the elected representatives on every policy). Given the infrequency of votes in many democracies, individual agency is mostly exerted by individual actions, such as refusing to engage with organisations that one distrusts.</p>\n</blockquote>\n<p>Ridiculous. Refusing to engage is not exertion of agency but abdication of responsibility. Get out there and protest if you really hate something. I do.</p>\n</blockquote>\n<p>To be clear I wasn't advocating not voting, I was advocating not working for the military if you are opposed to their applications of your work. Protesting is great too, good call.</p>",
+        "id": 390740444,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1694616467
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"438995\">James Deikun</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390740429\">said</a>:</p>\n<blockquote>\n<p>By <em>constantly</em> developing new weapons systems, the US maintains an advantage over its adversaries in direct combat situations while at the same time making other democracies more dependent on the US for their defense and making it easier for authoritarian countries to suppress their own populations.  The advantage in actual weapons systems never lasts and constantly needs to be renewed because of reverse engineering and espionage.  The advantage in reserve creativity that underlies it never goes away because it's structural, but the US is constantly turning the global treadmill and using this capacity for aggressive force projection rather than strictly defense.</p>\n</blockquote>\n<p>Let me get this straight: you are claiming that if the US develops fewer weapons systems and does it less frequently, then the world will be safer. Or am I mischaracterizing your position?</p>",
+        "id": 390742035,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694616927
+    },
+    {
+        "content": "<p>Yes, the Ukrainians developed the Hrim but they didn't invent short-range ballistic missiles, they developed the Neptune but they didn't invent anti-ship missiles.  I haven't confirmed they didn't invent a <em>category</em> of combat drones but they probably didn't and they didn't develop the drones.  There's plenty of creativity that goes into the operational details of a copy of a weapon system--differences in guidance and propulsion systems, in armor design when applicable, in setting up the most effective payload, but you're missing the forest for the trees.  It's the major powers that blaze most trails, and when small states <em>do</em> do it it's almost exclusively in times of active war.</p>",
+        "id": 390742038,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694616928
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"438995\">James Deikun</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390742038\">said</a>:</p>\n<blockquote>\n<p>Yes, the Ukrainians developed the Hrim but they didn't invent short-range ballistic missiles, they developed the Neptune but they didn't invent anti-ship missiles.  I haven't confirmed they didn't invent a <em>category</em> of combat drones but they probably didn't and they didn't develop the drones.  There's plenty of creativity that goes into the operational details of a copy of a weapon system--differences in guidance and propulsion systems, in armor design when applicable, in setting up the most effective payload, but you're missing the forest for the trees.  It's the major powers that blaze most trails, and when small states <em>do</em> do it it's almost exclusively in times of active war.</p>\n</blockquote>\n<p>Bro the Ukrainians launched the first ballistic missile. It carried Sputnik.</p>",
+        "id": 390742254,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694616983
+    },
+    {
+        "content": "<p>If you think that was the Russians then I will be happy to discuss where the Soviet and Russian rocket motor industries diverge.</p>",
+        "id": 390742389,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694617029
+    },
+    {
+        "content": "<p>They invented the long-range naval strike drone. It's called the Sea Baby.</p>",
+        "id": 390742533,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694617074
+    },
+    {
+        "content": "<p>The US JADC2 comms effort is learning from Ukraine's Delta C2 app.</p>",
+        "id": 390742668,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694617105
+    },
+    {
+        "content": "<p>In 1991 Ukraine was the third largest military and nuclear power--larger than China. They made the mistake of not continuing that tradition (at American behest, to our shame) and look where it got them.</p>",
+        "id": 390743403,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694617317
+    },
+    {
+        "content": "<p>Ukraine got to its 1991 position as part of the Soviet Union, not as an independent power.  And actively rolling back existing capability, <em>especially</em> nuclear, is not something I support in most circumstances.  The military work I mostly oppose is the <em>most creative</em> work, inventing whole new categories of weapons, new combat doctrines, fundamental new capabilities in sensors and communication, etc.  You need not fear for the <em>existence</em> of your military-industrial complex as long as there are authoritarian states to oppose.</p>",
+        "id": 390746322,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694618136
+    },
+    {
+        "content": "<p>As to whether the world would be safer if the US refrained from these activities: I'm pretty sure thermonuclear weapons (the H-bomb) weren't invented truly independently by anyone other than the US; the US invented them in peacetime and they were stolen by the Soviets.  The existence of combat drones makes the world less safe by making both asymmetric warfare and fundamental democratic control over the military less effective and any period of time they could have been delayed by would have been welcome.  Fully unmanned weapons platforms currently under development take this even farther.</p>",
+        "id": 390747699,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694618557
+    },
+    {
+        "content": "<p>I actually agree with everything you just said except the idea that it's somehow wise to stifle creativity. Because other folks won't. That is the true arms race. As mathematicians we are all part of it. We can dodge it for a time, like Leray in his POW camp developing sheaves instead of PDE methods, but the day may come when those sheaves are eventually used for something. And it will probably end up touching warfighting. Necessity is the mother of invention and nothing says necessity like someone threatening you or those you protect.</p>",
+        "id": 390749482,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694619077
+    },
+    {
+        "content": "<p>Ask <span class=\"user-mention\" data-user-id=\"277067\">@Tom Leinster</span> if he intended someone like me to pervert his work.</p>",
+        "id": 390749896,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694619217
+    },
+    {
+        "content": "<p>Drones and unmanned weapons platforms have been and are a particularly dangerous game, allowing the substitution of industrial capacity for the capacity to replace trained soldiers, forcing a state or area that's being invaded to have to carry out a reverse invasion to deplete the aggressor's capacity to make war.  This is really not good for most states and people that are just trying to mind their own business until threatened and makes things just unilaterally better for aggressors, <em>especially</em> genocidal ones.</p>",
+        "id": 390749963,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694619241
+    },
+    {
+        "content": "<p>Come up with a way to stop drones! Two of my buddies took a company public that way.</p>",
+        "id": 390750132,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694619286
+    },
+    {
+        "content": "<p>Folks like <span class=\"user-mention\" data-user-id=\"275901\">@Jules Hedges</span> and <span class=\"user-mention\" data-user-id=\"275932\">@Matteo Capucci (he/him)</span> are busy laying the groundwork for folks like me who think about mosaic warfare to enable swarms of drones to work more naturally and easily than they otherwise would, and probably telling themselves that they aren't responsible for enabling me and mine (or say the Chinese and theirs).</p>",
+        "id": 390750636,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694619458
+    },
+    {
+        "content": "<p>I think the thing you've been doing with Tom Leinster's work is particularly the sort of thing people in the US shouldn't be doing.  The fact that the Chinese are investing much more heavily in technological espionage than we are is the best evidence that we are doing something wrong here.  We are accelerating military technology ahead of having any good pro-democracy political technologies to deploy in concert with it.  We're not going to make China disappear as a military power, and nor is China going to invade us anytime soon.  They may well invade Taiwan, believing we won't have the stomach to help defend a country we can't even bring ourselves to officially acknowledge, using the technologies they've stolen from us, and hoping to go on to steal the technologies like chip fabs we've exported to Taiwan on top of getting back their oh-so-precious territorial integrity.</p>",
+        "id": 390752306,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694620004
+    },
+    {
+        "content": "<p>I mostly do cyber work and once started a company aimed at defending American networks from principally Chinese threats, espionage near the front of the list.</p>",
+        "id": 390752860,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694620158
+    },
+    {
+        "content": "<p>See for example here: <a href=\"https://eqnets.wordpress.com/2009/12/08/the-chimera-of-cyberdeterrence/\">https://eqnets.wordpress.com/2009/12/08/the-chimera-of-cyberdeterrence/</a></p>",
+        "id": 390753527,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694620348
+    },
+    {
+        "content": "<p>I'm not trying to claim everything you've ever done wrt military applications is bad; I think it can even be acceptable sometimes to accept military funding for mathematical work if it's fundamental enough and particularly if you would otherwise accept other funding and do the exact same thing.  But I think it's legitimate to not let military funding draw you into doing work with a direct military application or a dual-use component that you might not otherwise do; <em>especially</em> if you don't understand the scope of the military applications involved; you might even want to let it steer you away.  And if even more people did this, we would have a safer world.  Nobody's saying you can prevent all military use of the work you do, much less the fundamental principles behind it; you can make it incrementally harder and more expensive though, and this is just as legitimate and respectable as engaging in protests.  Maybe it's more so, as methods of elite control in democracies have evolved substantially in the past decades to neutralize the power of protests, but we haven't (yet) developed a means of getting work done without any workers.</p>",
+        "id": 390755180,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694620894
+    },
+    {
+        "content": "<p>If nobody built weapons we would have a world that is safer against macro threats. <a href=\"https://www.amazon.com/dp/0195188047/\">It would also be far less prosperous</a> and thus far less safe against more common micro threats (e.g., bandits). We would not have the existential risk of nuclear weapons, but that seems like about the only upside of that dichotomy to me. </p>\n<p>Taken to an extreme, I would rather be a human than <a href=\"https://www.youtube.com/watch?v=avjdKTqiVvQ\">a chimp without a bone in 2001</a>.</p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"avjdKTqiVvQ\" href=\"https://www.youtube.com/watch?v=avjdKTqiVvQ\"><img src=\"https://uploads.zulipusercontent.net/3802820d23c35bb5d992997ed869ecf679b5e681/68747470733a2f2f692e7974696d672e636f6d2f76692f61766a644b5471695676512f64656661756c742e6a7067\"></a></div>",
+        "id": 390761666,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694623025
+    },
+    {
+        "content": "<p><a href=\"https://www.amazon.com/dp/0300234090/\">Krepinevich</a> argues that \"militaries that went beyond the bounds of mere innovation to overturn the existing forms of warfare, changing the course of history and the fate of nations\" belong to the states that prosper. Better that democracies prosper than the alternative.</p>",
+        "id": 390762330,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694623286
+    },
+    {
+        "content": "<p>I happen to think that mosaic warfare will overturn the existing forms of warfare. Better that compositionality serve democracies in that end than the alternative. So I hope folks like Jules and Matteo keep it up to help enable democratic militaries circa 2040.</p>",
+        "id": 390762882,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694623507
+    },
+    {
+        "content": "<p>What exactly do you propose we do with decisive battlefield dominance over (say) the Chinese if we have it?  Invading aggressive authoritarian empires to remove them from the playing field has worked exactly once in modern history (WWII) with those empires having been functioning democracies in living memory, and containment has never had this effect at all, despite the hopes of the 1990s.  If anything democracy has been backsliding in democratic countries.  This is the area that needs all our creative efforts, not creating more nicely-placed explosions at will.</p>",
+        "id": 390765790,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694624696
+    },
+    {
+        "content": "<p>(And if anything, AI- and drone-enabled warfare is inherently anti-democratic as democracy's primary material role is as a technology for securing legitimacy by trading off some degree of elite control and AI- and drone-enabled warfare decrease the need for legitimacy experienced by the regimes employing them.)</p>",
+        "id": 390767303,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694625247
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"438995\">James Deikun</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390765790\">said</a>:</p>\n<blockquote>\n<p>What exactly do you propose we do with decisive battlefield dominance over (say) the Chinese if we have it?  </p>\n</blockquote>\n<p>Nothing at all besides convincing them of it, with any luck. Wars are fought because of miscalculations: otherwise you'd just have the Melian dialogue.</p>\n<p>I'm a <em>si vis pacem</em> kind of guy; my current shop's mission statement is to \"deliver technology advantage to enable winning without fighting\" and I am on board with that.</p>",
+        "id": 390771996,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694627072
+    },
+    {
+        "content": "<p>But it's out of my hands. At the end of the day I put my faith in democracy and the Constitution. Silly I know.</p>",
+        "id": 390772749,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694627350
+    },
+    {
+        "content": "<p>The problem is there is only so far we can advance weapons technology and still have democracy among humans (by any known historical process), and we are treading very close to that line.  There's a clock and we are running it out by trying to stay far enough ahead of everyone to \"win without fighting\" when that \"winning\" doesn't involve anyone changing their long-term goals or behaviours.</p>",
+        "id": 390772798,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694627372
+    },
+    {
+        "content": "<p>And in fact we are going down the <em>specific paths</em> that run the clock down <em>fastest</em>.</p>",
+        "id": 390773339,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694627555
+    },
+    {
+        "content": "<p>Tell me a better way that has a snowball's chance in hell and I'll be all ears.</p>",
+        "id": 390773751,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694627659
+    },
+    {
+        "content": "<p>To focus on social technologies that make democracy more effective in internal competitions among decision-making processes.  What people were trying to do with \"economic liberalization\" but with methods that actually work rather than believing your own elite's propaganda.  We can also practice this at home and benefit from a strengthened democracy.  Basically to create deliberative, interested-party-involved decision processes that amplify people's intelligence and wisdom rather than diluting them like voting or committeeism.  And then putting them into practice, starting with decisions you could be making on your own.</p>",
+        "id": 390775520,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694628240
+    },
+    {
+        "content": "<p>OK how do you feel about something like using sheaves and LLMs (by asking an ensemble of questions like \"how consistent is A with B on a scale of 0-10\"?) to ID and automatically tag logical inconsistencies in linked documents like social media or legal briefs?</p>",
+        "id": 390776351,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694628507
+    },
+    {
+        "content": "<p>...or wikis in the intelligence community? [sad trombone]</p>",
+        "id": 390776775,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694628665
+    },
+    {
+        "content": "<p>And that all sounds great but I doubt it has better than a snowball's chance in hell.</p>",
+        "id": 390777130,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694628800
+    },
+    {
+        "content": "<p>I think of something like that as more of a decision support technology that is dual use.  But I think if AI as uninterpretable as LLMs is doing more of the heavy lifting in making decisions than humans then humans are screwed no matter which ones are nominally in charge.</p>",
+        "id": 390777156,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694628811
+    },
+    {
+        "content": "<p>Statistical physics works fine at going from randomness to interpretability provided you have enough events. Why not the same with LLMs?</p>",
+        "id": 390777377,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694628891
+    },
+    {
+        "content": "<p>I have found the results of this sort of Q&amp;A about consistency with LLMs to be pretty encouraging actually.</p>",
+        "id": 390777501,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694628949
+    },
+    {
+        "content": "<p>We're explicitly modelling LLM behavior on phenomena we find non-interpretable, as a substitute for interpreting them.  It's sort of the opposite of statistical physics if anything.</p>",
+        "id": 390777630,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694628983
+    },
+    {
+        "content": "<p>c.f. anecdotes about \"the more linguists we fired the more accurate the model got\"</p>",
+        "id": 390777772,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694629041
+    },
+    {
+        "content": "<p>Anyway for social decisionmaking you have to not just figure out when people are disagreeing, but have some process (and at least as good as \"fiat by randomly selected dictator\") for synthesizing the two or more viewpoints.  This is where most of the really interesting stuff happens.</p>",
+        "id": 390778545,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694629265
+    },
+    {
+        "content": "<p>(And TBH I'm not 100% claiming this has a better than a snowball's chance in hell so much as I'm claiming that going on in the current direction has <em>worse</em> than a snowball's chance in hell ...)</p>",
+        "id": 390779107,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694629462
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"438995\">James Deikun</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390778545\">said</a>:</p>\n<blockquote>\n<p>Anyway for social decisionmaking you have to not just figure out when people are disagreeing, but have some process (and at least as good as \"fiat by randomly selected dictator\") for synthesizing the two or more viewpoints.  This is where most of the really interesting stuff happens.</p>\n</blockquote>\n<p>How about <a href=\"https://arxiv.org/abs/2005.12798\">https://arxiv.org/abs/2005.12798</a></p>",
+        "id": 390779706,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694629687
+    },
+    {
+        "content": "<p>Funded by DoD but hey</p>",
+        "id": 390779827,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694629745
+    },
+    {
+        "content": "<p>I've seen that one before; analysis like this is useful but it lacks the creativity (and the will; the DoD funding may or may not relate to this <span aria-label=\"smirk\" class=\"emoji emoji-1f60f\" role=\"img\" title=\"smirk\">:smirk:</span>) to investigate how technology could augment social dynamics to be <em>less</em> controllable by stubborn individuals with opinions arbitrarily selected by some outside elite who is \"above the system\".</p>",
+        "id": 390781469,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694630435
+    },
+    {
+        "content": "<p>But definitely models like this are useful to help in evaluating a decisionmaking mechanism on desiderata like \"will people feel the decision is legitimate even if it goes against their private preference\" and \"does it reliably make use of people's private knowledge or does it degenerate to being controllable by coalitions\".  Part of having a good decisionmaking mechanism is it has to exert some influence over people's preferences but not too <em>much</em>.  But it has to be <em>some</em> both to reduce long-term conflict/polarization and to protect participants against outside influence from more hostile social processes that <em>do</em> affect their preferences.</p>",
+        "id": 390782674,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694630946
+    },
+    {
+        "content": "<p>Less controllable is conceptually easy in the US. Put a place for appropriations on tax returns. Use digital signatures and differential privacy to track stuff.</p>\n<p>I would say do the same for tax rates but that is more of a game-theoretical challenge, never mind a fiscal one.</p>",
+        "id": 390783060,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694631099
+    },
+    {
+        "content": "<p>The fundamental technical things here are basically solved. Now how are you gonna spend your time on tech?</p>",
+        "id": 390783192,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694631138
+    },
+    {
+        "content": "<p>I disagree that they are \"basically solved\" (and the weaknesses of opinion diffusion on social networks as a decision mechanism, while they include outside controllability, are hardly limited to that!)  Also if the non-controllability of the social network needs outside enforcement from a compliant sovereign regime it doesn't truly exist.  In order to \"win\" democratic decision making has to be effective at winning internal competitions against the alternatives, not just external ones where it's supported by a sovereign.  For one thing no sovereign in existence would choose to support it, including democratic ones.</p>",
+        "id": 390784432,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694631618
+    },
+    {
+        "content": "<p>(By the standard of what currently passes for \"democratic\"; decision mechanisms currently employed in democratic states are not efficient or effective enough to pass muster without significant \"steering\" by professionalized and self-interested elite blocs, nor resilient enough to prevent it in any case.)</p>",
+        "id": 390785073,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694631864
+    },
+    {
+        "content": "<p>One of the fundamental technical challenges of an effective democratic decision mechanism is asymmetric information; often special interests have significantly more information about the subjects of their shared interest than the average member of the general population.  How can we make use of that information, giving the people (whether within the self-interested group or outside) who gather that information fair compensation for doing so, without giving the special interests too much and letting them walk all over everyone else?  Direct democracy as usually implemented tends to lose hold of the information, while representative democracy (through lobbying) overrewards it substantially.  Markets have their own interesting failure mode (\"lemon markets\") for this kind of asymmetric information problem.  Why aren't you using sheaves to work on this?</p>",
+        "id": 390786684,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694632549
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"438995\">James Deikun</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390784432\">said</a>:</p>\n<blockquote>\n<p>I disagree that they are \"basically solved\" </p>\n</blockquote>\n<p>I mean for the fairly concrete things that I proposed.</p>",
+        "id": 390790053,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694633993
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"438995\">James Deikun</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390786684\">said</a>:</p>\n<blockquote>\n<p>Why aren't you using sheaves to work on this?</p>\n</blockquote>\n<p>I might end up paying folks to sheaves to work on the thing I described above. </p>\n<p>I spend my time working on security because I've always seen it as a prerequisite for democracy. And it is far from assured.</p>",
+        "id": 390790584,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694634239
+    },
+    {
+        "content": "<p>I guess I see it as the opposite: democracy is a prerequisite for security.  As long as we don't have true democracy, all our important decisions will come down to fights in some form or another.  And nobody can keep winning fights forever.</p>",
+        "id": 390791403,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694634618
+    },
+    {
+        "content": "<p>(Nor is constantly winning a string of fights exactly what I would describe as \"security\".)</p>",
+        "id": 390792854,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694635284
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"438995\">James Deikun</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390792854\">said</a>:</p>\n<blockquote>\n<p>(Nor is constantly winning a string of fights exactly what I would describe as \"security\".)</p>\n</blockquote>\n<p>It is when compared to losing fights. And having the luxury not to fight is best.</p>",
+        "id": 390794299,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694635863
+    },
+    {
+        "content": "<p>\"Not fighting because everyone knows I'm the strongest\" is just a more comfortable kind of fighting, not an alternative to fighting.  It's still deciding things through strength, with a winner and a loser.  And you still have a risk of losing.</p>",
+        "id": 390795490,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694636218
+    },
+    {
+        "content": "<p>If a bunch of other people still <em>want</em> to take a crowbar to the back of your head the moment you're not looking, one day you won't be looking and you'll get a crowbar to the back of the head.  In the short term sometimes you need strength, I'm not disputing that.  But in the long term what living by strength usually buys you, is a crowbar to the back of the head.</p>",
+        "id": 390796839,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694636708
+    },
+    {
+        "content": "<p>What we need in the world is an alternative to nations living by strength, not an ever-increasing ratchet of strength like some kind of cartoon.</p>",
+        "id": 390797341,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1694636891
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"438995\">James Deikun</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390797341\">said</a>:</p>\n<blockquote>\n<p>What we need in the world is an alternative to nations living by strength, not an ever-increasing ratchet of strength like some kind of cartoon.</p>\n</blockquote>\n<p>I would love to get there. I can't make meaningful progress straight in that direction but I am confident that my dot product has the right sign. Hats off to anyone who can achieve a bigger coefficient.</p>",
+        "id": 390800146,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694637906
+    },
+    {
+        "content": "<p>Do you believe that the invention of the nuclear bomb was a net positive for humanity?</p>",
+        "id": 390810811,
+        "sender_full_name": "Jade Master",
+        "timestamp": 1694642927
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276037\">Jade Master</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390810811\">said</a>:</p>\n<blockquote>\n<p>Do you believe that the invention of the nuclear bomb was a net positive for humanity?</p>\n</blockquote>\n<p>Honestly not sure. Counterfactuals are hard (eg, how long until it gets invented anyway? does Cold War turn hot? what happens with Japan, not least if the Soviets claim a zone?) and nuclear power is a net plus on its own merits.</p>\n<p>This is the only case of tech development that I can think of that gives me pause. </p>\n<p>Dunk on me for not saying “no” outright if you like. But I think the idea that nukes never get developed without the Manhattan Project is far fetched at best and I choose not to interpret your question in what I think is an absurd way.</p>",
+        "id": 390821060,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694649503
+    },
+    {
+        "content": "<p>I will mention that I thought I was under nuclear attack briefly as a child, when a rocket fuel plant near Vegas blew up and the ceiling tiles in my school were falling as I ducked and covered.</p>",
+        "id": 390821736,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1694650002
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277578\">Steve Huntsman</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390779827\">said</a>:</p>\n<blockquote>\n<p>Funded by DoD but hey</p>\n</blockquote>\n<p>From much earlier parts of this discussion, the majority of research in the US is funded by the DoD in one way or another, and this was a significant point of contention, so the existence of any given piece of research is pretty weak evidence for the virtuousness of the DoD...</p>",
+        "id": 390869714,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1694676600
+    },
+    {
+        "content": "<p>It's an interesting question whether \"the majority of research in the US\" is funded by the DoD.   </p>\n<p>Total US medical and health research and development investment was $245.1 billion in 2020 - I picked that area because it's big.</p>\n<p>On the other hand, the DoD 2024 budget request includes $145 billion for research, development, test, and evaluation (RDT&amp;E).</p>\n<p>But that's what I was able to look up in one minute, and both those figures leave out a lot.   In  2023, the  DoD had a total budget of $2.04 trillion, which is pretty amazing.  Global investment in the low-carbon energy transition was only $1.1 trillion in 2022!</p>",
+        "id": 390914182,
+        "sender_full_name": "John Baez",
+        "timestamp": 1694692847
+    },
+    {
+        "content": "<p>Very good point. Imagine what we could do if we invested that 2.04 trillion of taxpayer money in the low-carbon energy transition.</p>",
+        "id": 390916072,
+        "sender_full_name": "Jade Master",
+        "timestamp": 1694693474
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390869714\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"277578\">Steve Huntsman</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/390779827\">said</a>:</p>\n<blockquote>\n<p>Funded by DoD but hey</p>\n</blockquote>\n<p>From much earlier parts of this discussion, the majority of research in the US is funded by the DoD in one way or another, and this was a significant point of contention, so the existence of any given piece of research is pretty weak evidence for the virtuousness of the DoD...</p>\n</blockquote>\n<p>I think maybe you meant the majority of math research? I would guess it's probably also true for computer science and physics and maybe a dozen other fields.</p>",
+        "id": 390916271,
+        "sender_full_name": "Jade Master",
+        "timestamp": 1694693545
+    },
+    {
+        "content": "<p>Indeed, I wasn't specific enough, thanks!</p>",
+        "id": 391000736,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1694717734
+    },
+    {
+        "content": "<p>For the record, neither me nor <span class=\"user-mention\" data-user-id=\"275901\">@Jules Hedges</span> (afaik) are working on mosaic warfare or are motivated by military applications for that matter.</p>",
+        "id": 392316857,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1695301259
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/392316857\">said</a>:</p>\n<blockquote>\n<p>For the record, neither me nor <span class=\"user-mention silent\" data-user-id=\"275901\">Jules Hedges</span> (afaik) are working on mosaic warfare or are motivated by military applications for that matter.</p>\n</blockquote>\n<p>Of course not. But your work is certainly applicable to it. I've had multiple one-on-ones with one of the folks who coined the term.</p>",
+        "id": 392334751,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1695306908
+    },
+    {
+        "content": "<p>Folks like me, we come along, we see things that are useful, and we use them.</p>",
+        "id": 392334907,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1695306953
+    },
+    {
+        "content": "<p>Now if you happen to change what you work on then not much is lost for folks like me. Your work is either ready for actual applications of any sort or it isn't.</p>",
+        "id": 392335582,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1695307157
+    },
+    {
+        "content": "<p>And it's not just Americans thinking about these things. <a href=\"https://doi.org/10.1049/icp.2022.2980\">https://doi.org/10.1049/icp.2022.2980</a></p>",
+        "id": 392337300,
+        "sender_full_name": "Steve Huntsman",
+        "timestamp": 1695307673
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/241990-general.3A-values/topic/Applied.20Categories.20and.20War/near/342634028\">said</a>:</p>\n<blockquote>\n<p>This is why I quit working on CASCADE: they began the program using an example of organizing search and rescue missions in a yacht race in the Caribbean</p>\n</blockquote>\n<p>Wait, as a Bajan I'm curious, what yacht race were they using as a case study?</p>",
+        "id": 396885430,
+        "sender_full_name": "Sean Gloumeau",
+        "timestamp": 1697456991
+    },
+    {
+        "content": "<p>Sorry, I forget the name of it - if you know just one famous yacht race disaster in the Caribbean it was probably that one.   I could look it up but it would take a while.</p>",
+        "id": 396887190,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697457632
+    },
+    {
+        "content": "<p>Ahh okay, no idea what it could be. I would never have expected that to be the public motivation of a DoD-funded project though; given my understanding of those kinds of projects as an aeroastro major, there's typically some official PR motive with a universally presumed unspoken motive to apply whatever's worked on to whatever other applications the work could be useful for (the main \"other applications\" of relevance to ethics being espionage and weaponry), along with presumed obfuscation of those other applications to engineers and theoreticians working on the project that don't hold higher-ranking positions in the military. So with that context in mind,  rescuing people in the Caribbean for potential yacht race disasters as the public motive is... Well, pretty humorous to me honestly</p>",
+        "id": 396892381,
+        "sender_full_name": "Sean Gloumeau",
+        "timestamp": 1697459483
+    },
+    {
+        "content": "<p>Unfortunately it took me about 2 years to get the joke.</p>",
+        "id": 396895217,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697460482
+    },
+    {
+        "content": "<p>Of course I got the idea that anything one did for DARPA would wind up helping the defense department.  But I didn't expect that the project I was working on would visibly morph from \"search and rescue\" to \"combat search and rescue\" while Joe and I were working on it.  And maybe it wasn't so smart of them to do that, since <span class=\"user-mention\" data-user-id=\"275914\">@Joe Moeller</span> quit the project and then so did I.</p>",
+        "id": 396896000,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697460767
+    },
+    {
+        "content": "<p>I'm just glad we're able to talk openly about it. I feel like your decisions have all been very understandable.</p>",
+        "id": 396896142,
+        "sender_full_name": "Jade Master",
+        "timestamp": 1697460821
+    },
+    {
+        "content": "<p>Thanks!  There's an interesting new twist to this story which I'll talk about sometime soon.   (It's not really about \"Applied Categories and War\", though.)</p>",
+        "id": 396897191,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697461181
+    },
+    {
+        "content": "<p>I agree, and would go even further to say incredibly respectable and admirable along with understandable. I've heard far too many people that I look up to advocating for nullifying those moral quandaries by dually considering the potential benefit to humanity, which is just incredibly unsatisfying to me because I feel like the realized benefit from military research is moreso happenstance or coincidence (like the internet from DARPA), while trying to apply every piece of research conducted on a DoD budget to espionage or warfare is very intentional by the institution and its leaders</p>",
+        "id": 396899216,
+        "sender_full_name": "Sean Gloumeau",
+        "timestamp": 1697461754
+    }
+]

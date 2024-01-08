@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> changed the <a href=\"/help/stream-permissions\">access permissions</a> for this stream from <strong>Public</strong> to <strong>Web-public</strong>.</p>",
+        "id": 397732491,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1697815053
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> changed the description for this stream.</p>\n<ul>\n<li><strong>Old description:</strong></li>\n</ul>\n<blockquote>\n<p>applying categories, operads and the like to physics</p>\n</blockquote>\n<ul>\n<li><strong>New description:</strong></li>\n</ul>\n<blockquote>\n<p>Deprecated, use #theory: science instead. applying categories, operads and the like to physics</p>\n</blockquote>",
+        "id": 399479696,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698751279
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>theory: physics</strong> to <strong>deprecated: physics</strong>.</p>",
+        "id": 399479697,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698751279
+    }
+]

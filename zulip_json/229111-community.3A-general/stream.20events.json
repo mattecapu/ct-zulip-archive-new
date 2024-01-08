@@ -1,0 +1,74 @@
+[
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> changed the <a href=\"/help/stream-permissions\">access permissions</a> for this stream from <strong>Public</strong> to <strong>Web-public</strong>.</p>",
+        "id": 397854245,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1697898692
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> changed the description for this stream.</p>\n<ul>\n<li><strong>Old description:</strong></li>\n</ul>\n<blockquote>\n<p>Welcome! If you haven't done so yet,  do <a href=\"#narrow/stream/229111-general/topic/Introduce.20Yourself!\">introduce yourself</a>! Go <a href=\"#narrow/stream/229122-general.3A-meta/topic/invite.20link\">here</a> for fresh invite links. <em>(Not archived)</em></p>\n</blockquote>\n<ul>\n<li><strong>New description:</strong></li>\n</ul>\n<blockquote>\n<p>Welcome! If you haven't done so yet,  do <a href=\"#narrow/stream/229111-general/topic/Introduce.20Yourself!\">introduce yourself</a>! Go <a href=\"#narrow/stream/229122-general.3A-meta/topic/invite.20link\">here</a> for fresh invite links.</p>\n</blockquote>",
+        "id": 397854248,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1697898698
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>general</strong> to <strong>meta: general</strong>.</p>",
+        "id": 399499486,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698753282
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"275932\">@Matteo Capucci (he/him)</span> Should this be \"community: general\" instead?</p>",
+        "id": 399505857,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1698753521
+    },
+    {
+        "content": "<p><span aria-label=\"shrug\" class=\"emoji emoji-1f937\" role=\"img\" title=\"shrug\">:shrug:</span> I have no strong opinions, I regard this as a 'everything but the kitchen sink' stream</p>",
+        "id": 399506110,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1698753618
+    },
+    {
+        "content": "<p>Just looking at the topics, they all seem to be things about the community rather than the zulip itself. Also, \"meta: general\" doesn't mean much to me <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 399507738,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1698754148
+    },
+    {
+        "content": "<p>Whatever it is, this isn't a meta stream</p>",
+        "id": 399507961,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1698754238
+    },
+    {
+        "content": "<p>How about community:general, or something like that?</p>",
+        "id": 399507968,
+        "sender_full_name": "Paolo Perrone",
+        "timestamp": 1698754241
+    },
+    {
+        "content": "<p>I think it was \"meta\" because it wanted to be above the other categories (it's not all about events, it's not all about learning, etc).</p>",
+        "id": 399508326,
+        "sender_full_name": "Paolo Perrone",
+        "timestamp": 1698754374
+    },
+    {
+        "content": "<p>Yeah</p>",
+        "id": 399509443,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1698754740
+    },
+    {
+        "content": "<p>Community: general is fine</p>",
+        "id": 399509469,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1698754749
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>meta: general</strong> to <strong>community: general</strong>.</p>",
+        "id": 399509507,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698754764
+    }
+]

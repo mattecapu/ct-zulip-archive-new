@@ -1,0 +1,167 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>adding degeneracies to semi-simplicial sets · theory: algebraic topology · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/241590-theory.3A-algebraic-topology/index.html">theory: algebraic topology</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/241590-theory.3A-algebraic-topology/topic/adding.20degeneracies.20to.20semi-simplicial.20sets.html">adding degeneracies to semi-simplicial sets</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="297425824"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/241590-theory%3A%20algebraic%20topology/topic/adding%20degeneracies%20to%20semi-simplicial%20sets/near/297425824" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Hosgood <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/241590-theory.3A-algebraic-topology/topic/adding.20degeneracies.20to.20semi-simplicial.20sets.html#297425824">(Sep 06 2022 at 15:15)</a>:</h4>
+<p>I have a semi-simplicial set that looks like a simplicial set, but writing down the degeneracy operators is a combinatorial headache for which I'm not equipped. If I understand Theorem 5.7 of Rourke and Sanderson's <a href="https://www.maths.ed.ac.uk/~v1ranick/papers/deltars.pdf">"<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Δ</mi></mrow><annotation encoding="application/x-tex">\Delta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span></span></span></span>-sets I: Homotopy Theory"</a> correctly, then I think it's enough for me to show that my semi-simplicial set is Kan, and then just say "add in some degeneracy operators (any choice of which "clearly" gives an equivalent homotopy type, <a href="https://www.sciencedirect.com/science/article/pii/0001870870900216">says Kan</a>)".</p>
+<p>But <a href="https://mathoverflow.net/questions/57653/degeneracies-for-semi-simplicial-kan-complexes">this mathoverflow question</a> mentions that the Kan condition for semi-simplicial sets is stronger than the usual one, saying that you also need to "include 1-dimensional horns". What do they mean by this? They say that it means "every vertex is both the source of some 1-simplex and the target of some 1-simplex", but I've never seen the definition of higher-dimensional horns in order to be able to unravel the statement to this.</p>
+
+
+
+<a name="297426276"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/241590-theory%3A%20algebraic%20topology/topic/adding%20degeneracies%20to%20semi-simplicial%20sets/near/297426276" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Hosgood <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/241590-theory.3A-algebraic-topology/topic/adding.20degeneracies.20to.20semi-simplicial.20sets.html#297426276">(Sep 06 2022 at 15:17)</a>:</h4>
+<p>In other words, I've "proved" that my semi-simplicial set is Kan in the way that I usually would for simplicial sets: I've shown that all horns lift. What more do I need to do in order to show that my semi-simplicial set is actually Kan (and can thus be completed to a simplicial set)?</p>
+
+
+
+<a name="297426310"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/241590-theory%3A%20algebraic%20topology/topic/adding%20degeneracies%20to%20semi-simplicial%20sets/near/297426310" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Zhen Lin Low <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/241590-theory.3A-algebraic-topology/topic/adding.20degeneracies.20to.20semi-simplicial.20sets.html#297426310">(Sep 06 2022 at 15:17)</a>:</h4>
+<p>That sounds like a reasonable definition of 1-dimensional horn to me. (To see this is non-trivial, observe that it is possible to have a semisimplicial set with no 1-cells.)</p>
+
+
+
+<a name="297426703"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/241590-theory%3A%20algebraic%20topology/topic/adding%20degeneracies%20to%20semi-simplicial%20sets/near/297426703" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Hosgood <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/241590-theory.3A-algebraic-topology/topic/adding.20degeneracies.20to.20semi-simplicial.20sets.html#297426703">(Sep 06 2022 at 15:19)</a>:</h4>
+<p>sadly I don't have the intuition to know what a reasonable definition would be, but I also can't find it written down anywhere (even in the Rourke and Sanderson paper, which defines the notion of Kan for semi-simplicial sets in, what seems to me, an identical way to usual) — do you have any suggestions for where I might find a reference?</p>
+
+
+
+<a name="297427233"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/241590-theory%3A%20algebraic%20topology/topic/adding%20degeneracies%20to%20semi-simplicial%20sets/near/297427233" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Zhen Lin Low <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/241590-theory.3A-algebraic-topology/topic/adding.20degeneracies.20to.20semi-simplicial.20sets.html#297427233">(Sep 06 2022 at 15:21)</a>:</h4>
+<p>I mean, "1-dimensional horns can be filled" means "every 0-cell is the 0th face of some 1-cell and the 1st face of some (possibly different) 1-cell".</p>
+
+
+
+<a name="297427693"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/241590-theory%3A%20algebraic%20topology/topic/adding%20degeneracies%20to%20semi-simplicial%20sets/near/297427693" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Hosgood <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/241590-theory.3A-algebraic-topology/topic/adding.20degeneracies.20to.20semi-simplicial.20sets.html#297427693">(Sep 06 2022 at 15:23)</a>:</h4>
+<p>so is a "usual" horn a 0-dimensional horn? I can't figure out the general definition of an n-dimensional horn...</p>
+
+
+
+<a name="297427833"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/241590-theory%3A%20algebraic%20topology/topic/adding%20degeneracies%20to%20semi-simplicial%20sets/near/297427833" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Zhen Lin Low <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/241590-theory.3A-algebraic-topology/topic/adding.20degeneracies.20to.20semi-simplicial.20sets.html#297427833">(Sep 06 2022 at 15:24)</a>:</h4>
+<p>In the usual notation, <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msubsup><mi mathvariant="normal">Λ</mi><mi>k</mi><mi>n</mi></msubsup></mrow><annotation encoding="application/x-tex">\Lambda^n_k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9664em;vertical-align:-0.2831em;"></span><span class="mord"><span class="mord">Λ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-2.4169em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.03148em;">k</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2831em;"><span></span></span></span></span></span></span></span></span></span> is an <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span>-dimensional horn.</p>
+
+
+
+<a name="297427992"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/241590-theory%3A%20algebraic%20topology/topic/adding%20degeneracies%20to%20semi-simplicial%20sets/near/297427992" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Hosgood <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/241590-theory.3A-algebraic-topology/topic/adding.20degeneracies.20to.20semi-simplicial.20sets.html#297427992">(Sep 06 2022 at 15:25)</a>:</h4>
+<p>oh, so if I've checked that "all horns fill" (in the usual sense, for simplicial things), then I've already checked for these 1-horns?</p>
+
+
+
+<a name="297428020"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/241590-theory%3A%20algebraic%20topology/topic/adding%20degeneracies%20to%20semi-simplicial%20sets/near/297428020" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Hosgood <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/241590-theory.3A-algebraic-topology/topic/adding.20degeneracies.20to.20semi-simplicial.20sets.html#297428020">(Sep 06 2022 at 15:25)</a>:</h4>
+<p>I don't see why the MO question points it out as something extra</p>
+
+
+
+<a name="297428145"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/241590-theory%3A%20algebraic%20topology/topic/adding%20degeneracies%20to%20semi-simplicial%20sets/near/297428145" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Zhen Lin Low <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/241590-theory.3A-algebraic-topology/topic/adding.20degeneracies.20to.20semi-simplicial.20sets.html#297428145">(Sep 06 2022 at 15:25)</a>:</h4>
+<p>For a simplicial set, "1-dimensional horns can be filled" is a triviality, because of degeneracies.</p>
+
+
+
+<a name="297428264"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/241590-theory%3A%20algebraic%20topology/topic/adding%20degeneracies%20to%20semi-simplicial%20sets/near/297428264" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Hosgood <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/241590-theory.3A-algebraic-topology/topic/adding.20degeneracies.20to.20semi-simplicial.20sets.html#297428264">(Sep 06 2022 at 15:26)</a>:</h4>
+<p>oh I see! thank you!</p>
+
+
+
+<a name="299353228"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/241590-theory%3A%20algebraic%20topology/topic/adding%20degeneracies%20to%20semi-simplicial%20sets/near/299353228" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Hosgood <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/241590-theory.3A-algebraic-topology/topic/adding.20degeneracies.20to.20semi-simplicial.20sets.html#299353228">(Sep 17 2022 at 18:45)</a>:</h4>
+<p>is there a relation between this "completion" process (which, I think, is very much not functorial (at least, not "1-categorically", if that makes sense)) which only applies to Kan semi-simplicial sets, and the "free completion" process (given by the left adjoint to the forgetful functor from simplicial sets) which can be applied to any semi-simplicial set?</p>
+
+
+
+<a name="299356564"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/241590-theory%3A%20algebraic%20topology/topic/adding%20degeneracies%20to%20semi-simplicial%20sets/near/299356564" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Amar Hadzihasanovic <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/241590-theory.3A-algebraic-topology/topic/adding.20degeneracies.20to.20semi-simplicial.20sets.html#299356564">(Sep 17 2022 at 19:28)</a>:</h4>
+<p>If you freely complete a Kan semi-simplicial set, you do not get a Kan simplicial set; for example you cannot fill horns corresponding to equations <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo separator="true">;</mo><mi>x</mi><mo>=</mo><mi>ε</mi></mrow><annotation encoding="application/x-tex">f ; x = \varepsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mpunct">;</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">ε</span></span></span></span> where <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ε</mi></mrow><annotation encoding="application/x-tex">\varepsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">ε</span></span></span></span> is a freely added 1d degenerate simplex.</p>
+<p>(But you do still get something which is weakly equivalent to the Kan simplicial set you would get with a choice of degeneracies, because the simplicial/semi-simplicial adjunction is a Quillen equivalence of semi-model categories or weak model categories or whatever works on semi-simplicial sets)</p>
+
+
+
+<a name="299357208"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/241590-theory%3A%20algebraic%20topology/topic/adding%20degeneracies%20to%20semi-simplicial%20sets/near/299357208" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Amar Hadzihasanovic <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/241590-theory.3A-algebraic-topology/topic/adding.20degeneracies.20to.20semi-simplicial.20sets.html#299357208">(Sep 17 2022 at 19:37)</a>:</h4>
+<p>I think one good intuition to have is to see a semi-simplicial set as a semigroup-like structure, and a simplicial set as a kind of monoid-like structure, and the left adjoint is like freely adding a unit to a semigroup.</p>
+<p>Then a Kan semi-simplicial set is analogous to a semigroup <em>with division</em>, in the sense that all equations <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mi>x</mi><mo>=</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">ax = b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">a</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">b</span></span></span></span> and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mi>a</mi><mo>=</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">xa = b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span><span class="mord mathnormal">a</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">b</span></span></span></span> have solutions, and a Kan simplicial set is analogous to a monoid with division. <br>
+A semigroup with division admits a unique group structure with the same multiplication, so in particular it also becomes a monoid with division, with a (unique) unit <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span>.<br>
+But if you freely add a unit <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ε</mi></mrow><annotation encoding="application/x-tex">\varepsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">ε</span></span></span></span>, it is no longer a monoid with division, because, again, you cannot solve <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mi>x</mi><mo>=</mo><mi>ε</mi></mrow><annotation encoding="application/x-tex">ax = \varepsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">a</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">ε</span></span></span></span> or <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mi>a</mi><mo>=</mo><mi>ε</mi></mrow><annotation encoding="application/x-tex">xa = \varepsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span><span class="mord mathnormal">a</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">ε</span></span></span></span>.<br>
+Still, if you then complete this monoid to a group, it will force <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ε</mi><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">\varepsilon = 1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">ε</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span></span></span></span>, and you will get a group isomorphic to the original one.</p>
+
+
+
+<a name="299476085"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/241590-theory%3A%20algebraic%20topology/topic/adding%20degeneracies%20to%20semi-simplicial%20sets/near/299476085" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Hosgood <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/241590-theory.3A-algebraic-topology/topic/adding.20degeneracies.20to.20semi-simplicial.20sets.html#299476085">(Sep 18 2022 at 21:12)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276363">Amar Hadzihasanovic</span> <a href="#narrow/stream/241590-theory.3A-algebraic-topology-.26-homological-algebra/topic/adding.20degeneracies.20to.20semi-simplicial.20sets/near/299356564">said</a>:</p>
+<blockquote>
+<p>(But you do still get something which is weakly equivalent to the Kan simplicial set you would get with a choice of degeneracies [...]</p>
+</blockquote>
+<p>wait, being Kan isn't preserved by weak equivalences?</p>
+
+
+
+<a name="299477392"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/241590-theory%3A%20algebraic%20topology/topic/adding%20degeneracies%20to%20semi-simplicial%20sets/near/299477392" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/241590-theory.3A-algebraic-topology/topic/adding.20degeneracies.20to.20semi-simplicial.20sets.html#299477392">(Sep 18 2022 at 21:33)</a>:</h4>
+<p>That would defeat the whole point of weak equivalences, I think.   In a model category <em>everything</em> is weakly equivalent to something fibrant.</p>
+
+
+
+<a name="299477542"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/241590-theory%3A%20algebraic%20topology/topic/adding%20degeneracies%20to%20semi-simplicial%20sets/near/299477542" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/241590-theory.3A-algebraic-topology/topic/adding.20degeneracies.20to.20semi-simplicial.20sets.html#299477542">(Sep 18 2022 at 21:35)</a>:</h4>
+<p>In the Quillen model structure on simplicial sets, only the Kan complexes are fibrant... but every simplicial set needs to be weakly equivalent to a fibrant one.</p>
+
+
+
+<a name="299546360"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/241590-theory%3A%20algebraic%20topology/topic/adding%20degeneracies%20to%20semi-simplicial%20sets/near/299546360" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Hosgood <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/241590-theory.3A-algebraic-topology/topic/adding.20degeneracies.20to.20semi-simplicial.20sets.html#299546360">(Sep 19 2022 at 11:30)</a>:</h4>
+<p>oh woops, that's the sentence I needed to hear to realign my intuition, thanks!</p>
+
+
+
+<a name="299546406"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/241590-theory%3A%20algebraic%20topology/topic/adding%20degeneracies%20to%20semi-simplicial%20sets/near/299546406" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tim Hosgood <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/241590-theory.3A-algebraic-topology/topic/adding.20degeneracies.20to.20semi-simplicial.20sets.html#299546406">(Sep 19 2022 at 11:30)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276363">Amar Hadzihasanovic</span> <a href="#narrow/stream/241590-theory.3A-algebraic-topology-.26-homological-algebra/topic/adding.20degeneracies.20to.20semi-simplicial.20sets/near/299356564">said</a>:</p>
+<blockquote>
+<p>(But you do still get something which is weakly equivalent to the Kan simplicial set you would get with a choice of degeneracies, because the simplicial/semi-simplicial adjunction is a Quillen equivalence of semi-model categories or weak model categories or whatever works on semi-simplicial sets)</p>
+</blockquote>
+<p>I get this now, thank you!</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

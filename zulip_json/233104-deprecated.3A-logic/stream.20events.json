@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Stream created by <span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span>.</p>",
+        "id": 193563859,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1586521939
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> changed the <a href=\"/help/stream-permissions\">access permissions</a> for this stream from <strong>Public</strong> to <strong>Web-public</strong>.</p>",
+        "id": 397732460,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1697815044
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> changed the description for this stream.</p>\n<ul>\n<li><strong>Old description:</strong></li>\n</ul>\n<blockquote>\n<p>A stream to discuss mathematical logic.</p>\n</blockquote>\n<ul>\n<li><strong>New description:</strong></li>\n</ul>\n<blockquote>\n<p>Deprecated, use #theory: mathematics instead. A stream to discuss mathematical logic.</p>\n</blockquote>",
+        "id": 399479650,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698751258
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>theory: logic</strong> to <strong>deprecated: logic</strong>.</p>",
+        "id": 399479652,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698751258
+    }
+]

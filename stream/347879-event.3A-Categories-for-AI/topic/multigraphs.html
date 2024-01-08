@@ -1,0 +1,59 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>multigraphs · event: Categories for AI · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/347879-event.3A-Categories-for-AI/index.html">event: Categories for AI</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/347879-event.3A-Categories-for-AI/topic/multigraphs.html">multigraphs</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="308674528"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/347879-event%3A%20Categories%20for%20AI/topic/multigraphs/near/308674528" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jules Tsukahara <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/347879-event.3A-Categories-for-AI/topic/multigraphs.html#308674528">(Nov 08 2022 at 21:11)</a>:</h4>
+<p>Very broad question but, does there exist a category theoretic approach to machine learning algorithms on multigraphs?</p>
+
+
+
+<a name="308758884"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/347879-event%3A%20Categories%20for%20AI/topic/multigraphs/near/308758884" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Andrew Dudzik <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/347879-event.3A-Categories-for-AI/topic/multigraphs.html#308758884">(Nov 09 2022 at 10:37)</a>:</h4>
+<p>I'm not aware of much existing work—simple graphs are more common—but the main results of <a href="https://arxiv.org/pdf/2203.15544.pdf">Graph Neural Networks are Dynamic Programmers</a> are valid for multigraphs. (they even apply to some hypergraphs, those where edges have one receiver but multiple senders)</p>
+<p>Multigraphs are much more natural, categorically, speaking, than simple graphs.  A multigraph is exactly a <a href="https://en.wikipedia.org/wiki/Span_(category_theory)">span</a> from a set to itself, and spans are a fundamental concept.</p>
+
+
+
+<a name="308770056"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/347879-event%3A%20Categories%20for%20AI/topic/multigraphs/near/308770056" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Bruno Gavranović <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/347879-event.3A-Categories-for-AI/topic/multigraphs.html#308770056">(Nov 09 2022 at 11:50)</a>:</h4>
+<p>There's also the paper of mine <a href="https://arxiv.org/abs/2009.06837">Learning Functors using Gradient Descent</a> that works on multigraphs.<br>
+This is from the categorical side. I'd expect there to be many papers in the machine learning community doing various things with multigrpahs.</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

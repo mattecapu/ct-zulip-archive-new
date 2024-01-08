@@ -1,0 +1,152 @@
+[
+    {
+        "content": "<p>Is anyone here willing to talk about motives?   I'll have a bunch of sort of basic questions about them.</p>",
+        "id": 281920748,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652247341
+    },
+    {
+        "content": "<p>Here's one, for example.   I'd like to focus on <a href=\"https://ncatlab.org/nlab/show/pure+motive#category_of_pure_motives\">pure Chow motives</a>.</p>",
+        "id": 281920844,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652247475
+    },
+    {
+        "content": "<p>It seems the ingredients that go into setting up this category are the category of smooth projective varieties (which we then take spans of, called <a href=\"https://ncatlab.org/nlab/show/correspondences\">[[correspondences]]</a>), the concept of <a href=\"https://ncatlab.org/nlab/show/algebraic%20cycle\">[[algebraic cycle]]</a>, and an <a href=\"https://ncatlab.org/nlab/show/adequate%20equivalence%20relation\">[[adequate equivalence relation]]</a> on algebraic cycles.</p>",
+        "id": 281922106,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652248831
+    },
+    {
+        "content": "<p>But it seems we just need the concept of \"algebraic 0-cycle\" to actually get the category of motives.  And it seemsthat the concept of \"algebraic 0-cycle\" and \"rational equivalence of algebraic 0-cycles\" can be defined using just categorical abstract nonsense starting from the category of smooth projective varieties.  Is that right?</p>",
+        "id": 281922345,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652249089
+    },
+    {
+        "content": "<p>The general goal of my question here is to try to strip down the necessary input data for constructing something resembling a category of pure motives to the bare minimum.</p>",
+        "id": 281922844,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652249677
+    },
+    {
+        "content": "<p><span aria-label=\"+1\" class=\"emoji emoji-1f44d\" role=\"img\" title=\"+1\">:+1:</span> following this</p>",
+        "id": 281930280,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1652256015
+    },
+    {
+        "content": "<p>i’d like to talk about motives (so i’m leaving this comment to remind me to write something properly when i get to my laptop)</p>",
+        "id": 281935508,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1652259338
+    },
+    {
+        "content": "<p>I think some of what I said was a bit confused... I hope the intent was somewhat clear nonetheless.</p>",
+        "id": 282023054,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652300603
+    },
+    {
+        "content": "<p>Here's something I'm mildly confused about, though maybe I'm working out my confusion by asking this question.   <a href=\"https://en.wikipedia.org/wiki/Motive_(algebraic_geometry)#First_step:_category_of_(degree_0)_correspondences,_Corr(k)\">Wikipedia</a> defines pure Chow motives starting with \"degree k correspondences\" meaning spans of smooth projective variety where the apex of the span is equipped with a codimension-k Chow cycle.</p>",
+        "id": 282023579,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652300837
+    },
+    {
+        "content": "<p>But then, when they get going, they only use degree <em>zero</em> correspondences.</p>",
+        "id": 282023707,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652300892
+    },
+    {
+        "content": "<p>Am I right that this means we can just forget about equipping our correspondence with a codimension-k Chow cycle and get the same category of pure Chow motives in the end?</p>",
+        "id": 282023799,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652300955
+    },
+    {
+        "content": "<p>I think that must be true.</p>",
+        "id": 282027244,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652302810
+    },
+    {
+        "content": "<p>Wow, I was really confused.  Please ignore all the mistakes I just made.  <span aria-label=\"nauseated\" class=\"emoji emoji-1f922\" role=\"img\" title=\"nauseated\">:nauseated:</span></p>",
+        "id": 282067194,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652339917
+    },
+    {
+        "content": "<p>I asked a more interesting question about motives <a href=\"https://mathoverflow.net/questions/422485/can-we-state-the-riemann-hypothesis-part-of-the-weil-conjectures-directly-in-ter\">on MathOverflow</a>, and Will Sawin gave a very nice answer.  Later I found part of that answer here too:</p>\n<ul>\n<li>Daniel Dugger, <em><a href=\"http://www.stat.ucla.edu/~ywu/wbook.pdf\">Navigating the Motivic World</a></em>.</li>\n</ul>\n<p>(This seems to be a draft of a book.  I like it.)</p>\n<p>The first part of the question was whether you can restate the Riemann hypothesis part of the Weil conjectures directly in terms of a formula for the number of points of a variety.  The second part was whether the summands in my guessed formula correspond to motives.     The answers were \"yes\" and \"yes\".</p>",
+        "id": 282436262,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652659565
+    },
+    {
+        "content": "<p>Are you in that part of your career when you try to prove RH, John? :)</p>",
+        "id": 282477865,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1652697938
+    },
+    {
+        "content": "<p>Yes, and buying a red sports car.</p>",
+        "id": 282573611,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652743475
+    },
+    {
+        "content": "<p>Actually I'm sublimating my desire to <em>prove</em> the Riemann Hypothesis by trying instead to learn enough algebraic geometry to understand how Grothendieck and Deligne proved Weil's watered-down version, the \"Riemann hypothesis for curves over finite fields\".</p>",
+        "id": 282573913,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652743697
+    },
+    {
+        "content": "<p>Manin and Connes have ideas about how to generalize the proof of the watered-down version and prove the real version, using a mystical entity called the \"field with one element\".  So I'm trying to learn that stuff too.</p>",
+        "id": 282574004,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652743787
+    },
+    {
+        "content": "<p>But I will avoid trying to actually prove anything.   I find it really fun to just learn math and explain it.</p>",
+        "id": 282574114,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652743851
+    },
+    {
+        "content": "<p>That's great, I'm very curious about these things as well (especially Connes, Consani &amp; co new ideas) but it's a bit too advanced for me to easily grasp them, so I'd be very glad if you start churning out expositions of them</p>",
+        "id": 282629706,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1652789330
+    },
+    {
+        "content": "<p>I remember you writing about RH for finite fields (and not) on the nCafè once, I remember because it was one of the nicest things I've read about the argument</p>",
+        "id": 282629921,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1652789450
+    },
+    {
+        "content": "<p>I can't find it right now though</p>",
+        "id": 282629945,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1652789466
+    },
+    {
+        "content": "<p>There are 3 posts starting here:</p>\n<ul>\n<li><a href=\"https://golem.ph.utexas.edu/category/2019/09/the_riemann_hypothesis_part_1.html\">The Riemann hypothesis (part 1)</a></li>\n</ul>\n<p>and the other two are directly after that on the n-Cafe (look on top of the page).</p>",
+        "id": 282665627,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652804066
+    },
+    {
+        "content": "<p>What I'm doing now is preparing a talk where I cover that stuff and go further, leading up to Grothendieck's definition of motive and maybe a bit about how he got stuck on the \"Standard Conjectures\".</p>",
+        "id": 282665834,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652804152
+    },
+    {
+        "content": "<p>I'd like to expand this talk into some continuation posts on the n-Cafe... but first I have to finish writing the talk!</p>",
+        "id": 282665995,
+        "sender_full_name": "John Baez",
+        "timestamp": 1652804202
+    }
+]

@@ -1,0 +1,212 @@
+[
+    {
+        "content": "<p>Does anyone know how to quickly find the DOI of a TAC paper? It's not on the abstract page</p>",
+        "id": 401716033,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1699866008
+    },
+    {
+        "content": "<p>TAC papers don't currently have DOIs. I believe <span class=\"user-mention\" data-user-id=\"278546\">@Chris Grossack (they/them)</span> was looking into DOI assignment for TAC papers?</p>",
+        "id": 401716486,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1699866126
+    },
+    {
+        "content": "<p>Yes, Chris was talking to the head editor of TAC, Geoff Crutwell, about that.  I believe it turned out that getting DOIs for existing papers would require a nontrivial amount of work - doing something to each one of those papers.  But <span class=\"user-mention\" data-user-id=\"278546\">@Chris Grossack (they/them)</span> knows the details!</p>",
+        "id": 401723791,
+        "sender_full_name": "John Baez",
+        "timestamp": 1699868596
+    },
+    {
+        "content": "<p>Maybe it's a bit easier and still useful to get DOIs for all <em>new</em> TAC papers?</p>",
+        "id": 401724095,
+        "sender_full_name": "John Baez",
+        "timestamp": 1699868654
+    },
+    {
+        "content": "<p>Just getting new a doi for new papers would be a start. The backlog can be slowly worked on over years, if need be.</p>",
+        "id": 401727570,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1699869513
+    },
+    {
+        "content": "<p>They also cost money, no? Each one is very cheap but they probably add up to quite a bit</p>",
+        "id": 401751228,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1699877906
+    },
+    {
+        "content": "<p>I'll throw the alerts back at <span class=\"user-mention\" data-user-id=\"275920\">@John Baez</span> and say he was willing to find funding (it's actually way less expensive than you think, and I'm sure John has grants for such things)</p>",
+        "id": 401785429,
+        "sender_full_name": "Chris Grossack (they/them)",
+        "timestamp": 1699888718
+    },
+    {
+        "content": "<p>It's been a while since we talked about this (steering a ship the size of TAC is pretty slow) but I'm still happy to do the work</p>",
+        "id": 401785575,
+        "sender_full_name": "Chris Grossack (they/them)",
+        "timestamp": 1699888757
+    },
+    {
+        "content": "<p>Plus I'm <em>extremely</em> confident that if there's some tedious task we have to do for each paper in the backlog that there will be other people in the zulip willing to help out with 5 or 10 at a time (actually, can you react to this if you would be open to helping with this project?)</p>",
+        "id": 401785821,
+        "sender_full_name": "Chris Grossack (they/them)",
+        "timestamp": 1699888814
+    },
+    {
+        "content": "<p>It's been a while since I looked into it, but the most tedious aspect (which can't be automated with code scraping the TAC website) is adding DOI cross references for the bibliographies of each TAC paper. </p>\n<p>I also, importantly, <em>don't know if we actually need to do that</em>. We definitely need to do it going forward, but the website is kind of confusing regarding the backlog. Once TAC gives me a tentative go ahead I'll contact the DOI people and double check exactly what the requirements are</p>",
+        "id": 401786483,
+        "sender_full_name": "Chris Grossack (they/them)",
+        "timestamp": 1699889009
+    },
+    {
+        "content": "<blockquote>\n<p>We definitely need to do it going forward</p>\n</blockquote>\n<p>What precisely is the requirement? For instance, arXiv assigns DOIs for each preprint, but does not require preprints to include DOIs in their bibliographies.</p>",
+        "id": 401794771,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1699890965
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"278546\">Chris Grossack (they/them)</span> <a href=\"#narrow/stream/229111-community.3A-general/topic/TAC.20DOIs/near/401785429\">said</a>:</p>\n<blockquote>\n<p>I'll throw the alerts back at <span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> and say he was willing to find funding (it's actually way less expensive than you think, and I'm sure John has grants for such things)</p>\n</blockquote>\n<p>No, I don't have any grants for anything!   I've generally avoided the whole grant system, though this will have to change with the new Fields Institute project.   I was just willing to spend my own money on this - given the figures I heard, which by now I completely forget.  How much do DOIs cost, again?</p>",
+        "id": 401796306,
+        "sender_full_name": "John Baez",
+        "timestamp": 1699891321
+    },
+    {
+        "content": "<p>I'll be honest, I don't remember either, haha. I'm about to leave the house, but I'll either find our old discussion or redo the estimate later today</p>",
+        "id": 401799354,
+        "sender_full_name": "Chris Grossack (they/them)",
+        "timestamp": 1699891930
+    },
+    {
+        "content": "<p>I think for a single DOI it's around $1, but I imagine if you do it in bulk there are substantial savings.</p>",
+        "id": 401824333,
+        "sender_full_name": "Graham Manuell",
+        "timestamp": 1699900676
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"278546\">Chris Grossack (they/them)</span> <a href=\"#narrow/stream/229111-community.3A-general/topic/TAC.20DOIs/near/401786483\">said</a>:</p>\n<blockquote>\n<p>It's been a while since I looked into it, but the most tedious aspect (which can't be automated with code scraping the TAC website) is adding DOI cross references for the bibliographies of each TAC paper. </p>\n<p>I also, importantly, <em>don't know if we actually need to do that</em>. We definitely need to do it going forward, but the website is kind of confusing regarding the backlog. </p>\n</blockquote>\n<p>There's no way articles all need to have DOIs added to the actual pdfs/etc, since this didn't happen for eg Springer's enormous back catalogue of scanned papers.</p>",
+        "id": 401848672,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1699911163
+    },
+    {
+        "content": "<p>I think talking to the Compositionality people would be a good idea, as they have DOIs</p>",
+        "id": 401848774,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1699911225
+    },
+    {
+        "content": "<p>I'm one of the <em>Compositionality</em> people, but the right people to talk to are <span class=\"user-mention\" data-user-id=\"307077\">@Nina Otter</span>  (formerly on the journal, who would know how to start getting DOIs) and <span class=\"user-mention\" data-user-id=\"276037\">@Jade Master</span> (who would at least know who makes this happen now).  </p>\n<p>The big difference is that <em>Compositionality</em> got DOIs for its papers from the very start.   Getting DOIs for old papers is a bit more mysterious, at least to me, and the <em>Compositionality</em> people wouldn't know about that.</p>",
+        "id": 401858762,
+        "sender_full_name": "John Baez",
+        "timestamp": 1699916032
+    },
+    {
+        "content": "<p>I just mean getting DOIs for papers going forward, not for the historical backlog, which I am theorising is a completely different matter.</p>",
+        "id": 401910160,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1699940609
+    },
+    {
+        "content": "<p>Okay, we agree.  Anyway, those are two relevant people at <em>Compositionality</em>.</p>",
+        "id": 401920538,
+        "sender_full_name": "John Baez",
+        "timestamp": 1699946074
+    },
+    {
+        "content": "<p>Hello <span aria-label=\"wave\" class=\"emoji emoji-1f44b\" role=\"img\" title=\"wave\">:wave:</span> <span class=\"user-mention\" data-user-id=\"275920\">@John Baez</span>,  <span class=\"user-mention\" data-user-id=\"278546\">@Chris Grossack (they/them)</span>, <span class=\"user-mention\" data-user-id=\"276422\">@David Michael Roberts</span> .  The DOIs for <em>Compositionality</em> are handled by a wordpress plugin so TAC will need to use a different system. I will point you to the <a href=\"https://www.crossref.org/documentation/member-setup/\">CrossRef documentation</a> which will hopefully have answers to your questions. In particular, here is the <a href=\"https://www.crossref.org/fees/\">fees page</a>. (as you can see it is $275 a year + $1 per article).</p>",
+        "id": 401955352,
+        "sender_full_name": "Jade Master",
+        "timestamp": 1699957854
+    },
+    {
+        "content": "<p>I should also mention that we are planning a move to <a href=\"https://www.episciences.org/\">Episciences</a> soon. Episciences will handle the DOI registration for us (including the fees!) so if TAC is willing to give up their old website and modernize a little then Episciences could be a very good option for them as well.</p>",
+        "id": 401956085,
+        "sender_full_name": "Jade Master",
+        "timestamp": 1699958070
+    },
+    {
+        "content": "<blockquote>\n<p>if TAC is willing to give up their old website and modernize a little</p>\n</blockquote>\n<p>Episciences is a platform for overlay journals, which have advantages and disadvantages compared to traditional journals, so I don't think it's reasonable to describe such a change as \"modernising\" (especially \"a little\").</p>",
+        "id": 401959229,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1699958950
+    },
+    {
+        "content": "<p>True that it's not an overlay but I'd be willing to bet that most of the articles on TAC are already also on arxiv.</p>",
+        "id": 401960137,
+        "sender_full_name": "Jade Master",
+        "timestamp": 1699959257
+    },
+    {
+        "content": "<p>I'm not involved with TAC at all, just trying to give helpful suggestions. I'm not saying that they should switch to Episciences...just something to consider. We have found that it will reduce the work needed to run <em>Compositionality</em> by a lot.</p>",
+        "id": 401960663,
+        "sender_full_name": "Jade Master",
+        "timestamp": 1699959446
+    },
+    {
+        "content": "<p>Actually, Scholastica is also  a good OA  platform, if TAC would go for a new infrastructure.</p>",
+        "id": 401963185,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1699960245
+    },
+    {
+        "content": "<p>Scholastica is a good option, but would come with another set of fees unfortunately.</p>",
+        "id": 401973050,
+        "sender_full_name": "Jade Master",
+        "timestamp": 1699963830
+    },
+    {
+        "content": "<p>Is TAC down?</p>",
+        "id": 406710453,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1702023660
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/229111-community.3A-general/topic/TAC.20DOIs/near/406710453\">said</a>:</p>\n<blockquote>\n<p>Is TAC down?</p>\n</blockquote>\n<p>It is working fine for me on the usual link: <a href=\"http://www.tac.mta.ca/tac/\">http://www.tac.mta.ca/tac/</a></p>",
+        "id": 406711049,
+        "sender_full_name": "Bryce Clarke",
+        "timestamp": 1702023945
+    },
+    {
+        "content": "<p>I can access it at the moment, but in the past month it's been down for me more often than it's been up.</p>",
+        "id": 406718005,
+        "sender_full_name": "Graham Manuell",
+        "timestamp": 1702026864
+    },
+    {
+        "content": "<p>Alright, I can access it again now, thanks for checking :)</p>",
+        "id": 406720065,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1702027695
+    },
+    {
+        "content": "<p>If someone sees that <em>TAC</em> is down, they can email the editor, Geoffrey Cruttwell, at </p>\n<p><a href=\"mailto:gcruttwell@mta.ca\">gcruttwell@mta.ca</a></p>\n<p>To avoid flooding him with emails, you could mention here that you've done it.</p>",
+        "id": 406720468,
+        "sender_full_name": "John Baez",
+        "timestamp": 1702027856
+    },
+    {
+        "content": "<p>We should not think of the \"old\" category theorists who run <em>TAC</em>,  the annual CT conference, the nLab etc. as inaccessible gods.</p>",
+        "id": 406720536,
+        "sender_full_name": "John Baez",
+        "timestamp": 1702027886
+    },
+    {
+        "content": "<p>For the times it's down you can also always find the papers on the Internet Archive.</p>",
+        "id": 406735998,
+        "sender_full_name": "Graham Manuell",
+        "timestamp": 1702033442
+    },
+    {
+        "content": "<p>Are all TAC papers placed there?</p>",
+        "id": 406815506,
+        "sender_full_name": "John Baez",
+        "timestamp": 1702059781
+    },
+    {
+        "content": "<p>Every one I've checked at least, so it seems the site is crawled reasonably regularly.</p>",
+        "id": 406823085,
+        "sender_full_name": "Graham Manuell",
+        "timestamp": 1702062845
+    }
+]

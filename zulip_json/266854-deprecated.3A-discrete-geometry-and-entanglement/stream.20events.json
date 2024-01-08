@@ -1,0 +1,26 @@
+[
+    {
+        "content": "<p>Stream created by <span class=\"user-mention silent\" data-user-id=\"367398\">Eric Forgy</span>.</p>",
+        "id": 218240893,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1606699924
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> changed the <a href=\"/help/stream-permissions\">access permissions</a> for this stream from <strong>Public</strong> to <strong>Web-public</strong>.</p>",
+        "id": 397854565,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1697898956
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>working: discrete geometry and entanglement</strong> to <strong>deprecated: discrete geometry and entanglement</strong>.</p>",
+        "id": 399479746,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698751296
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> changed the <a href=\"/help/stream-sending-policy\">posting permissions</a> for this stream:</p>\n<ul>\n<li><strong>Old permissions</strong>: All stream members can post.</li>\n<li><strong>New permissions</strong>: Only organization administrators and moderators can post.</li>\n</ul>",
+        "id": 399479757,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698751301
+    }
+]

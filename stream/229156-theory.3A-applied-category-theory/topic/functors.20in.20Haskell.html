@@ -1,0 +1,192 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>functors in Haskell · theory: applied category theory · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/index.html">theory: applied category theory</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html">functors in Haskell</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="251509920"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/251509920" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kale Evans <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#251509920">(Sep 01 2021 at 06:36)</a>:</h4>
+<p>Anyone here who is familiar with haskell have an example of an instance of a functor whose second argument doesn't have to be type constructor for a collection type? </p>
+<p>Essentially, I am trying to see if a functor as defined in haskell is only relevant over collections, as opposed to the category theoretic definition, which of course works across all categories. </p>
+<p>In other words, It appears the functor in Haskell only moves you from a particular category to the category of containers of the objects of the first Category.</p>
+
+
+
+<a name="251509932"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/251509932" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kale Evans <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#251509932">(Sep 01 2021 at 06:36)</a>:</h4>
+<p>I hope this makea sense</p>
+
+
+
+<a name="251527614"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/251527614" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jules Hedges <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#251527614">(Sep 01 2021 at 09:17)</a>:</h4>
+<p>"Collection" is a bit of an informal word and almost anything can look like a collection if you squint hard enough, but in general you can build examples from function types, for example the reader monad <code>a -&gt; x</code> and the continuation monad <code>(x -&gt; a) -&gt; a</code> (both for fixed <code>a</code>)</p>
+
+
+
+<a name="251552620"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/251552620" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nick Hu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#251552620">(Sep 01 2021 at 12:56)</a>:</h4>
+<p>I believe <code>Functor</code> in Haskell only allows you to describe endofunctors of <code>Hask</code>, or something like that</p>
+
+
+
+<a name="251661700"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/251661700" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kale Evans <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#251661700">(Sep 02 2021 at 03:42)</a>:</h4>
+<p><span class="user-mention" data-user-id="280859">@Nick Hu</span> Yeah, I've read that a <code>Functor</code> in Haskell  is really only an endofunctor.</p>
+
+
+
+<a name="251822583"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/251822583" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kale Evans <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#251822583">(Sep 03 2021 at 04:52)</a>:</h4>
+<p><a href="/user_uploads/21317/GeWgOT8ELNV_9gd_qs7nRgIk/0ACD58F1-7FBB-4381-A7CE-D60438F8A436.jpg">0ACD58F1-7FBB-4381-A7CE-D60438F8A436.jpg</a></p>
+<div class="message_inline_image"><a href="/user_uploads/21317/GeWgOT8ELNV_9gd_qs7nRgIk/0ACD58F1-7FBB-4381-A7CE-D60438F8A436.jpg" title="0ACD58F1-7FBB-4381-A7CE-D60438F8A436.jpg"><img src="/user_uploads/21317/GeWgOT8ELNV_9gd_qs7nRgIk/0ACD58F1-7FBB-4381-A7CE-D60438F8A436.jpg"></a></div>
+
+
+
+<a name="251822608"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/251822608" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kale Evans <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#251822608">(Sep 03 2021 at 04:52)</a>:</h4>
+<p>^ I'm trying to understand applicatives and having a tough time. Could someone please explain to me how the above functions are equivalent?</p>
+
+
+
+<a name="251852475"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/251852475" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Alex Gryzlov <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#251852475">(Sep 03 2021 at 09:46)</a>:</h4>
+<p>Presumably <code>foo : a -&gt; b -&gt; c</code>, <code>x : F a</code>, <code>y : F b</code>, then <code>pure foo : F (a -&gt; b -&gt; c)</code>, <code>pure foo &lt;*&gt; x : F (b -&gt; c)</code>, <code>pure foo &lt;*&gt; x &lt;*&gt; y : F c</code></p>
+
+
+
+<a name="251966712"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/251966712" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kale Evans <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#251966712">(Sep 04 2021 at 02:53)</a>:</h4>
+<p><span class="user-mention" data-user-id="276047">@Alex Gryzlov</span> this is certainly due to my lack of Haskell knowledge, and the order of evaluations for statements I suppose, but I guess I'm getting stuck on the second step. I get <code>pure</code> will apply <code>F</code> to it's argument, but how are you reaching the 2nd step? I.e why is <code>pure foo &lt;*&gt; x : F (b -&gt; c)</code>? <code>&lt;*&gt;</code> takes a a first parameter of type <code>f (a -&gt; b)</code> and <code>foo</code> doesn't fit that signature</p>
+
+
+
+<a name="251966766"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/251966766" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kale Evans <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#251966766">(Sep 04 2021 at 02:54)</a>:</h4>
+<p>Nor does <code>pure foo</code></p>
+
+
+
+<a name="251973154"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/251973154" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kale Evans <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#251973154">(Sep 04 2021 at 04:54)</a>:</h4>
+<p>Or can you apply pattern matching to the signatures? i.e is it true that <code>F ( a-&gt; b -&gt; c) = F (a -&gt; (b -&gt; c)) </code> and so then we can use <code>b -&gt; c </code> as the argument <code>b</code>   in <code>&lt;*&gt;</code>? I thought Haskell was exact with the type signatures, so wasn't sure if you could substitute a signature for a function where there is a signature of a single type. If that makes sense</p>
+
+
+
+<a name="251975700"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/251975700" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Henry Story <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#251975700">(Sep 04 2021 at 05:47)</a>:</h4>
+<p>Perhaps this post by Bartosz Milewski on Applicative Functors will help? <a href="https://bartoszmilewski.com/2017/02/06/applicative-functors/">https://bartoszmilewski.com/2017/02/06/applicative-functors/</a></p>
+
+
+
+<a name="252030204"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/252030204" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Alex Gryzlov <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#252030204">(Sep 04 2021 at 22:22)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="364022">Kale Evans</span> <a href="#narrow/stream/229156-practice.3A-applied.20ct/topic/functors.20in.20haskell/near/251973154">said</a>:</p>
+<blockquote>
+<p>Or can you apply pattern matching to the signatures? i.e is it true that <code>F ( a-&gt; b -&gt; c) = F (a -&gt; (b -&gt; c)) </code> and so then we can use <code>b -&gt; c </code> as the argument <code>b</code>   in <code>&lt;*&gt;</code>? I thought Haskell was exact with the type signatures, so wasn't sure if you could substitute a signature for a function where there is a signature of a single type. If that makes sense</p>
+</blockquote>
+<p>It's not pattern matching, but simply a convention of right-associativity.</p>
+
+
+
+<a name="252030305"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/252030305" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Alex Gryzlov <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#252030305">(Sep 04 2021 at 22:24)</a>:</h4>
+<p>A function type is still a type so it can be substituted.</p>
+
+
+
+<a name="252192444"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/252192444" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nick Hu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#252192444">(Sep 06 2021 at 15:36)</a>:</h4>
+<p>Just to clarify a bit further, what <span class="user-mention" data-user-id="276047">@Alex Gryzlov</span> means is that the function arrow <code>-&gt;</code> associates to the right. So when you write <code>a -&gt; b -&gt; c</code> you implicitly mean <code>a -&gt; (b -&gt; c)</code> (always)</p>
+
+
+
+<a name="252192496"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/252192496" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nick Hu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#252192496">(Sep 06 2021 at 15:37)</a>:</h4>
+<p>Function application associates to the left, so when you write <code>f x y</code> you implicitly mean <code>(f x) y</code></p>
+
+
+
+<a name="252193152"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/252193152" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nick Hu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#252193152">(Sep 06 2021 at 15:43)</a>:</h4>
+<p>As to your original question, here is a skeleton of the answer (fill in the ???) in equational proof style</p>
+<div class="codehilite" data-code-language="Haskell"><pre><span></span><code><span class="nf">liftA2</span> <span class="n">f</span> <span class="n">x</span> <span class="n">y</span>
+<span class="ow">=</span> <span class="p">{</span> <span class="n">definition</span> <span class="kr">of</span> <span class="n">liftA2</span> <span class="p">(</span><span class="n">https</span><span class="kt">://</span><span class="n">hackage</span><span class="o">.</span><span class="n">haskell</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">package</span><span class="o">/</span><span class="n">base</span><span class="o">-</span><span class="mf">4.15</span><span class="o">.</span><span class="mf">0.0</span><span class="o">/</span><span class="n">docs</span><span class="o">/</span><span class="n">src</span><span class="o">/</span><span class="kt">GHC</span><span class="o">-</span><span class="kt">Base</span><span class="o">.</span><span class="n">html</span><span class="o">#</span><span class="n">liftA2</span><span class="p">)</span> <span class="p">}</span>
+<span class="p">((</span><span class="o">&lt;*&gt;</span><span class="p">)</span> <span class="p">(</span><span class="n">fmap</span> <span class="n">f</span> <span class="n">x</span><span class="p">))</span> <span class="n">y</span>
+<span class="ow">=</span> <span class="p">{</span> <span class="o">&lt;*&gt;</span> <span class="kr">infix</span> <span class="p">}</span>
+<span class="nf">fmap</span> <span class="n">f</span> <span class="n">x</span> <span class="o">&lt;*&gt;</span> <span class="n">y</span>
+<span class="ow">=</span> <span class="p">{</span> <span class="o">???</span> <span class="p">}</span>
+<span class="nf">pure</span> <span class="n">f</span> <span class="o">&lt;*&gt;</span> <span class="n">x</span> <span class="o">&lt;*&gt;</span> <span class="n">y</span>
+</code></pre></div>
+
+
+
+<a name="252404960"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/252404960" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kale Evans <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#252404960">(Sep 08 2021 at 04:33)</a>:</h4>
+<p><span class="user-mention" data-user-id="280859">@Nick Hu</span> So <code>fmap f x &lt;*&gt; y :: f c</code>? Using <code>g :: a-&gt; (b-&gt;c)</code>, I arrive as <code>fmap g :: f a -&gt; f(b-&gt;c)</code>, then <code>fmap g x :: f(b-&gt;c)</code>, and finally <code>fmap g x &lt;*&gt; y :: f c</code></p>
+
+
+
+<a name="252418141"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/252418141" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nick Hu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#252418141">(Sep 08 2021 at 07:30)</a>:</h4>
+<p>You can't work out everything just by eyeballing the types (but this is usually good intuition). Every well-formed equation has a term with the same type on both its left and right side. And certainly just because two terms have the same type does not mean that they are equal, e.g. <code>True :: Bool</code>, and <code>False :: Bool</code>, but we would have big problems if <code>True = False</code></p>
+
+
+
+<a name="252418381"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/252418381" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nick Hu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#252418381">(Sep 08 2021 at 07:32)</a>:</h4>
+<p>But <code>fmap</code> isn't just <em>any</em> old function <code>(a -&gt; b) -&gt; f a -&gt; f b</code>; it's a special one that has to satisfy certain equations (called the functor laws). Similarly for <code>pure</code> and <code>&lt;*&gt;</code> too, and this is how you derive the answer to your question.</p>
+
+
+
+<a name="271789545"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/271789545" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> ctt <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#271789545">(Feb 14 2022 at 06:47)</a>:</h4>
+<p>I'm trying to figure out what category theory functors correspond to in Haskell. If <code>List</code> is a <code>Functor</code>, does that mean <code>List</code> is a functor? or is its <code>fmap</code> one? or its <code>fmap f</code> (for some <code>f</code>)?</p>
+
+
+
+<a name="271789954"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/271789954" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#271789954">(Feb 14 2022 at 06:54)</a>:</h4>
+<p>A functor in category theory consists of an action on objects <em>and</em> an action on morphisms.  The type constructor <code>List</code> is the action on objects of such a functor, while <code>fmap</code> is the corresponding action on morphisms, and <code>fmap f</code> is the image of <code>f</code> under that action on morphisms.</p>
+
+
+
+<a name="271790076"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/functors%20in%20Haskell/near/271790076" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> ctt <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/functors.20in.20Haskell.html#271790076">(Feb 14 2022 at 06:57)</a>:</h4>
+<p>Got it, thanks</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

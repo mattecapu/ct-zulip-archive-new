@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> changed the <a href=\"/help/stream-permissions\">access permissions</a> for this stream from <strong>Public</strong> to <strong>Web-public</strong>.</p>",
+        "id": 397854328,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1697898750
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>seminar: YAMCaTS</strong> to <strong>event: YAMCaTS</strong>.</p>",
+        "id": 399479142,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698751062
+    },
+    {
+        "content": "<p>*** Yorkshire and Midlands Category Theory Seminar<br>\n*** Thursday, 25th January 2024<br>\n*** University of Leeds</p>\n<p>The 33rd meeting of the Yorkshire and Midlands Category Theory Seminar (YaMCATS) will be held at the University of Leeds on 25th January 2024. The speakers will be </p>\n<p>Clark Barwick (University of Edinburgh)<br>\nAna Ros Camacho (University of Cardiff)<br>\nGiacomo Tendas (Masaryk University / University of Manchester)</p>\n<p>Please check the YaMCATS website</p>\n<p><a href=\"https://conferences.leeds.ac.uk/yamcats/\">https://conferences.leeds.ac.uk/yamcats/</a></p>\n<p>for further information.</p>\n<p>YaMCATS is a research network involving the Universities of Leeds, Manchester and Sheffield, supported by the London Mathematical Society.</p>\n<p>With best regards,<br>\nNicola Gambino (University of Manchester), also on behalf of João Faria Martins (University of Leeds) and Markus Szymik (University of Sheffield)</p>",
+        "id": 406405112,
+        "sender_full_name": "Nicola Gambino",
+        "timestamp": 1701904066
+    }
+]

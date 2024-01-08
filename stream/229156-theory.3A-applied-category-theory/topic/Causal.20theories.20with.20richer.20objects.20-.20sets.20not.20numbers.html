@@ -1,0 +1,424 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>Causal theories with richer objects - sets not numbers · theory: applied category theory · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/index.html">theory: applied category theory</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html">Causal theories with richer objects - sets not numbers</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="409068151"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409068151" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409068151">(Dec 20 2023 at 02:34)</a>:</h4>
+<p>In <span class="user-mention" data-user-id="276053">@Brendan Fong</span> 's <a href="https://arxiv.org/abs/1301.6201">Masters thesis</a> a <em>causal theory</em> associated to a directed acyclic graph <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>s</mi><mo separator="true">,</mo><mi>t</mi><mspace></mspace><mspace width="0.1111em"/><mo lspace="0em" rspace="0.17em"></mo><mtext> ⁣</mtext><mo lspace="0em" rspace="0em">:</mo><mspace width="0.3333em"/><mi>A</mi><mo>⇉</mo><mi>V</mi></mrow><annotation encoding="application/x-tex">s,t\colon A\rightrightarrows V</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">s</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">t</span><span class="mspace nobreak"></span><span class="mspace" style="margin-right:0.1111em;"></span><span class="mpunct"></span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mrel">:</span></span><span class="mspace" style="margin-right:0.3333em;"></span><span class="mord mathnormal">A</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel amsrm">⇉</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">V</span></span></span></span> is a category with set of objects <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi mathvariant="double-struck">N</mi><mi>V</mi></msup></mrow><annotation encoding="application/x-tex">\mathbb{N}^V</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8413em;"></span><span class="mord"><span class="mord mathbb">N</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.22222em;">V</span></span></span></span></span></span></span></span></span></span></span>, and with morphisms generated in a way that to start with is not important.</p>
+<p>Given the developments in ACT and the general cospan tech, this feels like it is the decategorification of something involving finite sets, or at the least a skeleton of something richer. So, for instance, one can consider the set of objects <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi mathvariant="double-struck">N</mi><mi>V</mi></msup></mrow><annotation encoding="application/x-tex">\mathbb{N}^V</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8413em;"></span><span class="mord"><span class="mord mathbb">N</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.22222em;">V</span></span></span></span></span></span></span></span></span></span></span> as being a decategorification of the category of functors <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>V</mi><mo>→</mo><mrow><mi mathvariant="bold">F</mi><mi mathvariant="bold">i</mi><mi mathvariant="bold">n</mi><mi mathvariant="bold">S</mi><mi mathvariant="bold">e</mi><mi mathvariant="bold">t</mi></mrow></mrow><annotation encoding="application/x-tex">V\to \mathbf{FinSet}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">V</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord"><span class="mord mathbf">FinSet</span></span></span></span></span>.</p>
+<p>Is this something people have already thought about? I'm thinking about Bayesian networks, or rather the richer structure which is models in <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="bold">S</mi><mi mathvariant="bold">t</mi><mi mathvariant="bold">o</mi><mi mathvariant="bold">c</mi><mi mathvariant="bold">h</mi></mrow><annotation encoding="application/x-tex">\mathbf{Stoch}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord"><span class="mord mathbf">Stoch</span></span></span></span></span> (measurable spaces and stochastic maps) of a causal theory.</p>
+
+
+
+<a name="409084091"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409084091" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409084091">(Dec 20 2023 at 04:09)</a>:</h4>
+<p>Hmm, it seems the free gs-monoidal categories of <span class="user-mention" data-user-id="276702">@Tobias Fritz</span> and <span class="user-mention" data-user-id="416954">@Wendong Liang</span> are in the neighbourhood of what I'm thinking of, though they are more general in taking hypergraph input.</p>
+
+
+
+<a name="409084633"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409084633" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409084633">(Dec 20 2023 at 04:13)</a>:</h4>
+<p>Or, perhaps, the free Markov category on a DAG is what I'm thinking of.</p>
+
+
+
+<a name="409084865"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409084865" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409084865">(Dec 20 2023 at 04:15)</a>:</h4>
+<p>Reminds me of Petri nets.</p>
+
+
+
+<a name="409084923"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409084923" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409084923">(Dec 20 2023 at 04:16)</a>:</h4>
+<p>Exactly.</p>
+
+
+
+<a name="409085002"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409085002" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409085002">(Dec 20 2023 at 04:17)</a>:</h4>
+<p>But I'm not sure they are quite it. Maybe they are, though!</p>
+
+
+
+<a name="409086286"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409086286" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409086286">(Dec 20 2023 at 04:26)</a>:</h4>
+<p>I haven't read the whole thesis, but I'm looking at the start of section 4.  It looks like it is a "commutative monoidal category" (strict symmetric with identity braidings) like that generated by a Petri net, but I don't think it's exactly that because a Petri net generates a free CMC and here there are equations (the comonoid equations).  But it's definitely related, and so it does seem like there should also be a version with nonidentity braidings like that generated by a <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Σ</mi></mrow><annotation encoding="application/x-tex">\Sigma</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Σ</span></span></span></span>-net, if that's what you had in mind (I wouldn't call that exactly a decategorification, though, since it's still a monoidal 1-category).</p>
+
+
+
+<a name="409086799"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409086799" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409086799">(Dec 20 2023 at 04:30)</a>:</h4>
+<p>If the DAG is the one with a single vertex and no edges, then what I'm thinking of is FinSet^op. I suspect that if you have a discrete DAG with no edges and finite vertex set V, it's (FinSet/V)^op. The trick is to know how to introduce the new morphisms coming from the nontrivial edge structure.</p>
+
+
+
+<a name="409086819"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409086819" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409086819">(Dec 20 2023 at 04:30)</a>:</h4>
+<p>Maybe what I'm thinking of turns out to be a double category :-)</p>
+
+
+
+<a name="409087264"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409087264" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409087264">(Dec 20 2023 at 04:36)</a>:</h4>
+<p>You can see the definition of gs-category in Tobias and Wendong's paper <a href="https://arxiv.org/abs/2204.02284">https://arxiv.org/abs/2204.02284</a>, it's explicitly a symmetric monoidal category and cocommutative comonoids.</p>
+<p>They also remark:</p>
+<blockquote>
+<p>A minor technical difference is that our additional restrictions on the leg of a cospan, in the form of a monogamy condition adopted from [19,20], have not been considered in the literature on categorical network theory so far. Thus <strong>our construction is not technically an instance of the structured cospan framework in its present form.</strong> [emphasis added]</p>
+</blockquote>
+<p>Ah, and my suspicion about the discrete DAG case is correct, as they confirm in their intro.</p>
+
+
+
+<a name="409091225"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409091225" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409091225">(Dec 20 2023 at 05:15)</a>:</h4>
+<p>Is it the same as a SMC with a <a href="https://ncatlab.org/nlab/show/supply">[[supply]]</a> of comonoids?</p>
+
+
+
+<a name="409091355"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409091355" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409091355">(Dec 20 2023 at 05:17)</a>:</h4>
+<p>Check out the second example in sec 4 :-)</p>
+
+
+
+<a name="409091403"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409091403" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409091403">(Dec 20 2023 at 05:18)</a>:</h4>
+<p>In Friz and Liang's terminology, gs-categories are Markov, minus the requirement the tensor unit is the terminal object</p>
+
+
+
+<a name="409091502"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409091502" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409091502">(Dec 20 2023 at 05:19)</a>:</h4>
+<p>Ok, so since a Markov category is a semicartesian monoidal category with a supply of comonoids, I guess it's right that a gs-category is just an SMC with a supply of comonoids.</p>
+
+
+
+<a name="409091759"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409091759" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409091759">(Dec 20 2023 at 05:22)</a>:</h4>
+<p>So is it a wide subcategory of a structured cospan category?</p>
+
+
+
+<a name="409091873"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409091873" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409091873">(Dec 20 2023 at 05:23)</a>:</h4>
+<p>However, I don't want, for instance, to have the analogue of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Δ</mi></mrow><annotation encoding="application/x-tex">\Delta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Δ</span></span></span></span> (free monoidal cat with a monoid), where the objects are natural numbers, but the thing that's equivalent to this with actual structured sets.</p>
+
+
+
+<a name="409091902"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409091902" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409091902">(Dec 20 2023 at 05:23)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276777">Mike Shulman</span> <a href="#narrow/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers/near/409091759">said</a>:</p>
+<blockquote>
+<p>So is it a wide subcategory of a structured cospan category?</p>
+</blockquote>
+<p>Maybe? What's the intuition here?</p>
+
+
+
+<a name="409092004"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409092004" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409092004">(Dec 20 2023 at 05:24)</a>:</h4>
+<p>Or just point me at a paper if that's easier</p>
+
+
+
+<a name="409104153"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409104153" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tobias Fritz <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409104153">(Dec 20 2023 at 06:51)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276777">Mike Shulman</span> <a href="#narrow/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers/near/409091225">said</a>:</p>
+<blockquote>
+<p>Is it the same as a SMC with a <a href="https://ncatlab.org/nlab/show/supply">[[supply]]</a> of comonoids?</p>
+</blockquote>
+<p>Yes, a gs-monoidal category is a symmetric monoidal category with a supply of <em>commutative</em> comonoids. What we construct <a href="https://arxiv.org/abs/2204.02284">in the paper</a> are the free such categories generated by a "monoidal signature", which consists of a set of wires and a set of boxes, such that each box has a list of wires as input and output. This is formally encoded in our Defn 3.1 (which was already used by Bonchi et al for the construction of free SMCs).</p>
+
+
+
+<a name="409104712"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409104712" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tobias Fritz <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409104712">(Dec 20 2023 at 06:54)</a>:</h4>
+<p>This is very similar to a Petri net. As far as I can tell, the only difference is that in a monoidal signature, the inputs and outputs of a box (transition) are <em>lists</em> rather than <em>multisets</em> of wires (places).</p>
+
+
+
+<a name="409105122"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409105122" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tobias Fritz <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409105122">(Dec 20 2023 at 06:56)</a>:</h4>
+<p>Morally, Petri nets are arguably the "right" notion of signature for an SMC, since the ordering of input and output wires that Bonchi et al and we have is arbitrary and artificial. But we've settled on the morally inferior option as it simply seemed easier to work with.</p>
+
+
+
+<a name="409106854"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409106854" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tobias Fritz <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409106854">(Dec 20 2023 at 07:05)</a>:</h4>
+<p>Part of this was anticipated by Brendan's early work on causal theories. However, his notion of "supply of commutative comonoids" did not impose any compatbility with the monoidal structure, while we now understand that the supply of a product <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>⊗</mo><mi>B</mi></mrow><annotation encoding="application/x-tex">A \otimes B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal">A</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⊗</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span></span></span></span> should be the product of the supplies on <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span></span></span></span> and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>B</mi></mrow><annotation encoding="application/x-tex">B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span></span></span></span>. (There may be other differences like what <span class="user-mention" data-user-id="276777">@Mike Shulman</span> says which I don't remember right now.) There also was earlier work on free gs-monoidal categories in special cases going back to the 1996 <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.57.5651">thesis</a> of Fabio Gadducci, who coined the term "gs-monoidal", but neither Brendan nor us knew about this for a long time as the context was different.</p>
+
+
+
+<a name="409107723"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409107723" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tobias Fritz <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409107723">(Dec 20 2023 at 07:09)</a>:</h4>
+<p>We decided to go with Gadducci's term "gs-monoidal" in order to advertise his work on this, but currently it seems that people prefer to say "CD category" instead.</p>
+
+
+
+<a name="409108386"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409108386" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tobias Fritz <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409108386">(Dec 20 2023 at 07:13)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276422">David Michael Roberts</span> <a href="#narrow/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers/near/409084091">said</a>:</p>
+<blockquote>
+<p>Hmm, it seems the free gs-monoidal categories of <span class="user-mention silent" data-user-id="276702">Tobias Fritz</span> and <span class="user-mention silent" data-user-id="416954">Wendong Liang</span> are in the neighbourhood of what I'm thinking of, though they are more general in taking hypergraph input.</p>
+</blockquote>
+<p>Right, when you have a DAG you can convert it into a string diagram with commutative comonoid supply as described in Brendan's thesis. Formally that's a certain kind of cospan of hypergraphs as described in our paper, or equivalently a morphism in the free gs-monoidal category generated by the underlying signature. Like this, you get the "unviersal Bayesian network" represented by the DAG.</p>
+
+
+
+<a name="409108591"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409108591" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tobias Fritz <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409108591">(Dec 20 2023 at 07:14)</a>:</h4>
+<p>But you can just as well start with an arbitrary gs-monoidal string diagram and think of it as representing a causal structure instead of a DAG. That's why we call these "generalized causal models".</p>
+
+
+
+<a name="409108807"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409108807" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tobias Fritz <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409108807">(Dec 20 2023 at 07:15)</a>:</h4>
+<p>You can also do all of this with "free Markov" instead of "free gs-monoidal", and I can elaborate on the differences here if you want to know about this.</p>
+
+
+
+<a name="409109795"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409109795" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tobias Fritz <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409109795">(Dec 20 2023 at 07:20)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276777">Mike Shulman</span> <a href="#narrow/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers/near/409091759">said</a>:</p>
+<blockquote>
+<p>So is it a wide subcategory of a structured cospan category?</p>
+</blockquote>
+<p>Yes. If you take all structured cospans, then you <a href="https://arxiv.org/abs/1712.09495">get a free hypergraph category</a>. So we needed to restrict to those cospans that represent string diagrams without <em>monoid</em> structure appearing, and that works by imposing additional conditions on the cospans. (And this led to additional complications in the proof of freeness, which eventually made us reprove things from scratch.)</p>
+
+
+
+<a name="409113834"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409113834" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409113834">(Dec 20 2023 at 07:45)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276702">Tobias Fritz</span> <a href="#narrow/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers/near/409105122">said</a>:</p>
+<blockquote>
+<p>Morally, Petri nets are arguably the "right" notion of signature for an SMC, since the ordering of input and output wires that Bonchi et al and we have is arbitrary and artificial. But we've settled on the morally inferior option as it simply seemed easier to work with.</p>
+</blockquote>
+<p>If by a Petri net you mean one with just multisets of states as the inputs and outputs of transitions, then my understanding is that that's the right notion of signature for a <em>commutative</em> monoidal category, but for a general symmetric monoidal category you need to have orderings even if they can be swapped around.</p>
+
+
+
+<a name="409114595"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409114595" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tobias Fritz <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409114595">(Dec 20 2023 at 07:51)</a>:</h4>
+<p>Yes, I do mean with multisets of states (or equivalently arc weights encoding multiplicity). Why can't I take these as a notion of signature for an SMC? I understand that to describe the <em>morphisms</em> of a free SMC, we need to do more work by keeping track of which inputs get matched up with which outputs, but what's wrong with using it as a notion of signature?</p>
+
+
+
+<a name="409142856"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409142856" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matteo Capucci (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409142856">(Dec 20 2023 at 10:25)</a>:</h4>
+<p>The way <a href="https://doi.org/10.1145/3559103">Kock</a> treats PNs and their executions seems quite relevant here. He explicitly works with 'categorified' markings (though he categorifies the natural to the <a href="https://ncatlab.org/nlab/show/symmetric%20groupoid">[[symmetric groupoid]]</a> <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="double-struck">B</mi></mrow><annotation encoding="application/x-tex">\mathbb B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6889em;"></span><span class="mord mathbb">B</span></span></span></span>), and then executions of a PN are 'ètale' morphisms of open graphs from DAGs to the PN.<br>
+In particular, I'd speculate that if you take a DAG and consider it as a PN, its associated category of processes should be a 'causal theory' of the categorified kind you want.</p>
+
+
+
+<a name="409146594"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409146594" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tobias Fritz <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409146594">(Dec 20 2023 at 10:38)</a>:</h4>
+<p>Right, that's also what I was thinking of. I didn't mention it since I don't fully understand it, but my feeling is that Joachim's Theorem 7.2 is the "morally correct" notion of free SMC. And it's generated by a Petri net, meaning that the generating morphisms don't come equipped with an ordering of their inputs or outputs. Does this sound sensible?</p>
+
+
+
+<a name="409147551"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409147551" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tobias Fritz <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409147551">(Dec 20 2023 at 10:41)</a>:</h4>
+<p>BTW there's a dual role played by DAGs here and we need to be careful not to get mixed up. If we start with a DAG in the Bayesian network sense, and translate it into a string diagram as mentioned above, then the nodes becomes <em>wires</em> (objects), and you generally need the comonoid structures in order to do the translation. While for a DAG in the sense of Joachim's paper, I think the nodes become <em>boxes</em> (morphisms), right?</p>
+
+
+
+<a name="409148425"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409148425" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tobias Fritz <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409148425">(Dec 20 2023 at 10:44)</a>:</h4>
+<p>And I think what we want in the context of causality is the former. For example, take the DAG with three nodes and two edges <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>→</mo><mi>B</mi></mrow><annotation encoding="application/x-tex">A \to B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span></span></span></span> and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>→</mo><mi>C</mi></mrow><annotation encoding="application/x-tex">A \to C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span>. Here, these nodes represent "variables" that can have values, and these correspond to information flowing along the <em>wires</em> of a string diagram. And the value of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span></span></span></span> can influence the value of both <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>B</mi></mrow><annotation encoding="application/x-tex">B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span></span></span></span> and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span>, so we need to <em>copy</em> that value, which is where the comonoid structures come in.</p>
+
+
+
+<a name="409198814"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409198814" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matteo Capucci (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409198814">(Dec 20 2023 at 14:35)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276702">Tobias Fritz</span> <a href="#narrow/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers/near/409147551">said</a>:</p>
+<blockquote>
+<p>BTW there's a dual role played by DAGs here and we need to be careful not to get mixed up. If we start with a DAG in the Bayesian network sense, and translate it into a string diagram as mentioned above, then the nodes becomes <em>wires</em> (objects), and you generally need the comonoid structures in order to do the translation. While for a DAG in the sense of Joachim's paper, I think the nodes become <em>boxes</em> (morphisms), right?</p>
+</blockquote>
+<p>Correct</p>
+
+
+
+<a name="409207908"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409207908" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tomáš Gonda <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409207908">(Dec 20 2023 at 15:20)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276702">Tobias Fritz</span> <a href="#narrow/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers/near/409148425">said</a>:</p>
+<blockquote>
+<p>And I think what we want in the context of causality is the former. For example, take the DAG with three nodes and two edges <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>→</mo><mi>B</mi></mrow><annotation encoding="application/x-tex">A \to B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span></span></span></span> and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>→</mo><mi>C</mi></mrow><annotation encoding="application/x-tex">A \to C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span>. Here, these nodes represent "variables" that can have values, and these correspond to information flowing along the <em>wires</em> of a string diagram. And the value of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span></span></span></span> can influence the value of both <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>B</mi></mrow><annotation encoding="application/x-tex">B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span></span></span></span> and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span>, so we need to <em>copy</em> that value, which is where the comonoid structures come in.</p>
+</blockquote>
+<p>I wouldn't be so sure about that. For instance, in the context of <a href="https://arxiv.org/abs/1906.10726">quantum causal models</a> it seems more fruitful to think of nodes as 'points of intervention' rather than 'variables', not least because variables here cannot be copied of course, while an intervention may have multiple outputs. In the classical case, this point of view is also possible, but I think equivalent to that of nodes in a DAG viewed as variables.</p>
+
+
+
+<a name="409210118"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409210118" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tobias Fritz <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409210118">(Dec 20 2023 at 15:32)</a>:</h4>
+<p>Fair enough <span aria-label="wink" class="emoji emoji-1f609" role="img" title="wink">:wink:</span> So how do you translate a DAG into a string diagram in that context? I only know of the two ways described above. You've excluded the gs-monoidal one, and the other one would assign to the DAG with edges <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>→</mo><mi>B</mi></mrow><annotation encoding="application/x-tex">A \to B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span></span></span></span> and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>→</mo><mi>C</mi></mrow><annotation encoding="application/x-tex">A \to C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span> the string diagram consisting of a state corresponding to <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span></span></span></span> with two output wires, leading to effects corresponding to <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>B</mi></mrow><annotation encoding="application/x-tex">B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span></span></span></span> and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>C</mi></mrow><annotation encoding="application/x-tex">C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span></span></span></span>, respectively. Since this diagram doesn't have any overall output, it can hardly be any sort of causal model? So is there a third kind of translation that is relevant here?</p>
+
+
+
+<a name="409273923"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409273923" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409273923">(Dec 20 2023 at 22:57)</a>:</h4>
+<p>OK, so to bring it back to my original idea, I can refine it slightly: is there a fairly explicitly identifiable 'concrete' category equivalent to the free Markov category on a DAG? By concrete I mean here that the objects are structured sets (for instance elements of a slice of FinSet), but where the objects can be cospans or what-have-you? </p>
+<p>From the above discussion it seems the answer is 'yes', but everyone is having a lot of fun with matters more general than my needs at present :-)</p>
+
+
+
+<a name="409276186"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409276186" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409276186">(Dec 20 2023 at 23:14)</a>:</h4>
+<p>Kock's "whole-grain Petri nets" don't have what I would call "multisets" of states as inputs and outputs; they have <em>families</em> of states.  You don't need an ordering <em>per se</em>, but you need some way of telling apart the "multiple occurrences" of a single state.</p>
+
+
+
+<a name="409276415"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409276415" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409276415">(Dec 20 2023 at 23:16)</a>:</h4>
+<p><span class="user-mention" data-user-id="275920">@John Baez</span>, <span class="user-mention" data-user-id="276438">@Fabrizio Genovese</span>, <span class="user-mention" data-user-id="276037">@Jade Master</span>, and I wrote a paper called <a href="https://arxiv.org/abs/2101.04238">Categories of nets</a> trying to clarify the relationship between different kinds of Petri net and the monoidal categories they generate, and introducing something called a <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">Σ</mi></mrow><annotation encoding="application/x-tex">\Sigma</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">Σ</span></span></span></span>-net that's a bit more general than Kock's whole-grain Petri nets but can still generate a free SMC.</p>
+
+
+
+<a name="409278012"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409278012" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409278012">(Dec 20 2023 at 23:32)</a>:</h4>
+<p>Yes, and we discuss how Kock's work is related to ours.  We were attempting to lay to rest the surprisingly subtle question "which kinds of things like Petri nets generate which kinds of monoidal categories", by studying some of the most important answers and putting them all into a big diagram.</p>
+
+
+
+<a name="409284609"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409284609" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Bradley Saul <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409284609">(Dec 21 2023 at 00:50)</a>:</h4>
+<p>(deleted)</p>
+
+
+
+<a name="409285183"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409285183" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409285183">(Dec 21 2023 at 00:59)</a>:</h4>
+<p>I think this  conversation is getting away from me... :-)</p>
+
+
+
+<a name="409290112"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409290112" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409290112">(Dec 21 2023 at 02:08)</a>:</h4>
+<p>Sorry.</p>
+
+
+
+<a name="409290844"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409290844" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409290844">(Dec 21 2023 at 02:15)</a>:</h4>
+<p>I don't begrudge people having the discussion at all :-) Just that it's not particularly helping with what I need at present.</p>
+
+
+
+<a name="409293682"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409293682" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409293682">(Dec 21 2023 at 02:43)</a>:</h4>
+<p>Maybe we should move it into another topic.</p>
+
+
+
+<a name="409294989"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409294989" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409294989">(Dec 21 2023 at 02:55)</a>:</h4>
+<p>And perhaps I should have put it in learning: questions ! :-D</p>
+
+
+
+<a name="409310756"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409310756" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409310756">(Dec 21 2023 at 05:01)</a>:</h4>
+<p>Hmm, it seems <span class="user-mention" data-user-id="416954">@Wendong Liang</span>'s  thesis talks about something useful <a href="https://www.uibk.ac.at/mathematik/algebra/teaching/m1these_wendong_liang.pdf">https://www.uibk.ac.at/mathematik/algebra/teaching/m1these_wendong_liang.pdf</a></p>
+
+
+
+<a name="409310908"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409310908" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409310908">(Dec 21 2023 at 05:02)</a>:</h4>
+<p>Particularly Definition 2.14 and Theorem 2.16</p>
+
+
+
+<a name="409323159"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409323159" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tobias Fritz <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409323159">(Dec 21 2023 at 06:54)</a>:</h4>
+<p>Right! All of that is also in the paper, in slightly different form.</p>
+
+
+
+<a name="409323773"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409323773" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409323773">(Dec 21 2023 at 06:59)</a>:</h4>
+<p>I see it now, it's just that it was explicitly stated in more concrete terms in the thesis. I want to unwind it even further to very concrete data.</p>
+
+
+
+<a name="409324250"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409324250" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tobias Fritz <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409324250">(Dec 21 2023 at 07:02)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276422">David Michael Roberts</span> <a href="#narrow/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers/near/409273923">said</a>:</p>
+<blockquote>
+<p>OK, so to bring it back to my original idea, I can refine it slightly: is there a fairly explicitly identifiable 'concrete' category equivalent to the free Markov category on a DAG? By concrete I mean here that the objects are structured sets (for instance elements of a slice of FinSet), but where the objects can be cospans or what-have-you? </p>
+</blockquote>
+<p>Assuming that you meant that the morphisms can be (iso classes of) cospans, then the free gs-monoidal (free CD category) on a DAG is concrete in that sense. For the free <em>Markov</em> category It's a bit more subtle: to get that, we need to quotient by the equational equations making the monoidal unit terminal:<br>
+<a href="/user_uploads/21317/95DSZGfFz7_Qo_oIPDGoWp6E/image.png">image.png</a></p>
+<div class="message_inline_image"><a href="/user_uploads/21317/95DSZGfFz7_Qo_oIPDGoWp6E/image.png" title="image.png"><img src="/user_uploads/21317/95DSZGfFz7_Qo_oIPDGoWp6E/image.png"></a></div>
+
+
+
+<a name="409324575"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409324575" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tobias Fritz <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409324575">(Dec 21 2023 at 07:04)</a>:</h4>
+<p>This quotient is nice at least insofar as every equivalence class has a minimal representative: you simply apply the above equation from left to right as many times as you can and you end up with a normal form (Section 6 of the paper). The annoying thing is that the composition of two normal forms is not necessarily a normal form again.</p>
+
+
+
+<a name="409324689"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409324689" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tobias Fritz <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409324689">(Dec 21 2023 at 07:05)</a>:</h4>
+<p>I'd love to see a more concrete description than this, as that could be very useful in Bayesian network theory and causal inference. We do work with the cospan formalism quite a bit, but it's rather clunky and difficult to understand, so having something simpler would help us a lot. At the same time, I have some doubts about this being possible, since the cospans seem to encode the combinatorial structure of a string diagram rather accurately.</p>
+
+
+
+<a name="409332233"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409332233" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tobias Fritz <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409332233">(Dec 21 2023 at 08:00)</a>:</h4>
+<p>BTW I'd be curious to know what got you interested in this <span class="user-mention" data-user-id="276422">@David Michael Roberts</span>, if you don't mind sharing.</p>
+
+
+
+<a name="409341850"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409341850" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409341850">(Dec 21 2023 at 09:02)</a>:</h4>
+<p>I'm learning about graphical models, and trying to understand them from the modern, CT viewpoint. :-)</p>
+
+
+
+<a name="409342207"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409342207" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409342207">(Dec 21 2023 at 09:04)</a>:</h4>
+<p>I guess that the universal property of the free Markov category, though, is that if you have an appropriate model of the free gs-monoidal category on a DAG in a Markov category (like a variant of Stoch or similar), then there should be an essentially unique model of the free Markov category, right?</p>
+
+
+
+<a name="409343266"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229156-theory%3A%20applied%20category%20theory/topic/Causal%20theories%20with%20richer%20objects%20-%20sets%20not%20numbers/near/409343266" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tobias Fritz <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229156-theory.3A-applied-category-theory/topic/Causal.20theories.20with.20richer.20objects.20-.20sets.20not.20numbers.html#409343266">(Dec 21 2023 at 09:10)</a>:</h4>
+<p>Yep, that's exactly right!</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

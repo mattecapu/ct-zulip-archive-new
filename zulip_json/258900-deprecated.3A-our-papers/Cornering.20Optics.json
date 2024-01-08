@@ -1,0 +1,344 @@
+[
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"309293\">@Guillaume Boisseau</span>, <span class=\"user-mention\" data-user-id=\"278171\">@Mario Román</span> and I have <a href=\"https://arxiv.org/abs/2205.00842\">put up a preprint</a> on arXiv.</p>\n<p>The paper shows how optics (like lenses) in a monoidal category arise as part of the free cornering of that category (the double category obtained by freely adding companion and conjoint structure). This gives us nice string diagrams for optics, and is conceptually simpler than the usual approach via coends. There's also a bit about comb diagrams at the end if that's your thing.</p>",
+        "id": 280974423,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651561415
+    },
+    {
+        "content": "<p>I don't consider myself much of an optics person, but I think it's pretty interesting :)</p>",
+        "id": 280974513,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651561485
+    },
+    {
+        "content": "<p>Very interesting! I gave it a quick look now and I love the part about combs, it seems indeed quite an handy description</p>",
+        "id": 280976996,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1651563655
+    },
+    {
+        "content": "<p>Are the corner diagrams you draw like those in <a href=\"https://arxiv.org/abs/1612.02762\">https://arxiv.org/abs/1612.02762</a>?</p>",
+        "id": 280977036,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1651563691
+    },
+    {
+        "content": "<p>Also, does the free cornering arise in some 'elementary' way?</p>",
+        "id": 280977047,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1651563711
+    },
+    {
+        "content": "<p>Yes. We use the main result of that paper to prove our main result!</p>",
+        "id": 280977100,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651563729
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276114\">Chad Nester</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/280977100\">said</a>:</p>\n<blockquote>\n<p>Yes. We use the main result of that paper to prove our main result!</p>\n</blockquote>\n<p>Ha, see, I didn't read carefully enough <span aria-label=\"laughing\" class=\"emoji emoji-1f606\" role=\"img\" title=\"laughing\">:laughing:</span></p>",
+        "id": 280977141,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1651563779
+    },
+    {
+        "content": "<p>The free cornering is constructed inductively from the monoidal category in question. There are only a few axioms. Is this \"elementary\"?</p>",
+        "id": 280977156,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651563796
+    },
+    {
+        "content": "<p>I mean, I think it's pretty simple but I don't know what you're looking for.</p>",
+        "id": 280977291,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651563879
+    },
+    {
+        "content": "<p>I think all this shenanigan has links with MSP preferred definition of optics as 'para and copara kissing' (the pullback definition in our 'Fibre optics' preprint), since <a href=\"#narrow/stream/229156-practice.3A-applied-ct/topic/Para.20construction.20questions\">para and copara can be represented profitably in the quintet construction applied to a monoidal actegory</a>.</p>",
+        "id": 280977365,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1651563949
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276114\">Chad Nester</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/280977156\">said</a>:</p>\n<blockquote>\n<p>The free cornering is constructed inductively from the monoidal category in question. There are only a few axioms. Is this \"elementary\"?</p>\n</blockquote>\n<p>Yeah, that 'elementary' is quite vague/patronizing? Sorry. I meant, is it some 'natural' construction having, say, some universal property? Is it something you can extend to bicategories for instance?</p>",
+        "id": 280977484,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1651564014
+    },
+    {
+        "content": "<p>I don't think I'm conveying this well</p>",
+        "id": 280977492,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1651564024
+    },
+    {
+        "content": "<p>I do think it's the single-object bicategory case of the \"free proarrow equipment on a bicategory\", but haven't checked. Is there a reference for that construction anywhere?</p>",
+        "id": 280977831,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651564237
+    },
+    {
+        "content": "<p>It is certainly an initial object, but this is because it is constructed inductively.</p>",
+        "id": 280977897,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651564294
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276114\">Chad Nester</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/280977831\">said</a>:</p>\n<blockquote>\n<p>I do think it's the single-object bicategory case of the \"free proarrow equipment on a bicategory\", but haven't checked. Is there a reference for that construction anywhere?</p>\n</blockquote>\n<p>Not in general, but there are special cases in the literature, such as when the bicategory is <a href=\"https://www.sciencedirect.com/science/article/pii/S0001870802000683\">locally discrete</a> or <a href=\"https://arxiv.org/abs/2004.09697\">has a single object</a>.</p>",
+        "id": 280995945,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651575740
+    },
+    {
+        "content": "<p>That's cool!   I've never gotten into optics but I like double categories, so the concept of the \"free cornering\" of a category is interesting to me.  I've never thought about it before.  Is it new?   It's something like the free fibrant double category on a category.</p>",
+        "id": 281036017,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651593891
+    },
+    {
+        "content": "<p>Hmm, I just read more comments here.  Are you saying this concept was introduced by David Jaz Myers?</p>",
+        "id": 281036262,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651593972
+    },
+    {
+        "content": "<p>By the way \"fibrant double category\" is another name for \"proarrow equipment\", and there are probably other names for it too... oh yeah, \"framed bicategory\".</p>",
+        "id": 281036355,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651594016
+    },
+    {
+        "content": "<p>Somebody should try to work out the free fibrant double category on a general bicategory.  That sounds like a useful thing.  <span class=\"user-mention\" data-user-id=\"275899\">@Christian Williams</span> might like it for his work on logic.</p>",
+        "id": 281036732,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651594188
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"275920\">@John Baez</span> The relevant concept is that of a proarrow equipment (known by many names!). The  \"free cornering\" of a monoidal category is the double category (with one object) that you get by adding companion and conjoint structure to it (that is, by making it into a proarrow equipment). The idea with the name is that you do this by adding corner cells and asking that they satisfy the relevant yanking equations. David Jaz Myers has a paper about these string diagrams, and in particular argues that they are sound in the same way that string diagrams for monoidal categories are. We use that result.</p>",
+        "id": 281048655,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651599132
+    },
+    {
+        "content": "<p>When I asked if \"this concept was introduced by...\" I meant the concept of \"free cornering of a category\", not \"proarrow equipment\".   I should know better by now than to use pronouns.  They are so tricky.</p>",
+        "id": 281048831,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651599209
+    },
+    {
+        "content": "<p>Ah okay. I think I get to claim credit for this, from <a href=\"https://www.ioc.ee/~cneste/files/nester-2021-the-structure-of-concurrent-process-histories.pdf\">this paper</a>.</p>",
+        "id": 281048972,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651599273
+    },
+    {
+        "content": "<p>Also from last year's ACT my paper on \"Situated Transition Systems\" uses it (still forthcoming, but on arXiv).</p>",
+        "id": 281049206,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651599385
+    },
+    {
+        "content": "<p>Okay, cool.   Ideally someone someday would show there's something like a forgetful functor from proarrow equipments to categories (or bicategories) and something like a left adjoint to that.   Did you do that?   </p>\n<p>(I say \"something like\" because one has to choose precisely how to treat this would-be adjunction:  using categories, 2-categories, bicategories, etc.)</p>",
+        "id": 281049274,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651599422
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276114\">Chad Nester</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/281048972\">said</a>:</p>\n<blockquote>\n<p>Ah okay. I think I get to claim credit for this, from <a href=\"https://www.ioc.ee/~cneste/files/nester-2021-the-structure-of-concurrent-process-histories.pdf\">this paper</a>.</p>\n</blockquote>\n<p>Presumably there's some overlap with <a href=\"https://arxiv.org/abs/1411.3827\">Autonomization of monoidal categories</a> and <a href=\"https://arxiv.org/abs/2004.09697\">Freely adjoining monoidal duals</a>?</p>",
+        "id": 281049317,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651599442
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/281049317\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"276114\">Chad Nester</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/281048972\">said</a>:</p>\n<blockquote>\n<p>Ah okay. I think I get to claim credit for this, from <a href=\"https://www.ioc.ee/~cneste/files/nester-2021-the-structure-of-concurrent-process-histories.pdf\">this paper</a>.</p>\n</blockquote>\n<p>Presumably there's some overlap with <a href=\"https://arxiv.org/abs/1411.3827\">Autonomization of monoidal categories</a> and <a href=\"https://arxiv.org/abs/2004.09697\">Freely adjoining monoidal duals</a>?</p>\n</blockquote>\n<p>I don't know. I'll take a look though.</p>",
+        "id": 281049388,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651599476
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/281049274\">said</a>:</p>\n<blockquote>\n<p>Okay, cool.   Ideally someone someday would show there's something like a forgetful functor from proarrow equipments to categories (or bicategories) and something like a left adjoint to that.   Did you do that?   </p>\n<p>(I say \"something like\" because one has to choose precisely how to treat this would-be adjunction:  using categories, 2-categories, bicategories, etc.)</p>\n</blockquote>\n<p>I haven't done this, no. I do agree that it would be good to do.</p>",
+        "id": 281049617,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651599572
+    },
+    {
+        "content": "<p>In the latter paper, for instance, they describe how to freely adjoin duals to every object of a monoidal category, and show this gives a fully faithful embedding, which proves that it is exactly the free proarrow equipment on a one-object bicategory.</p>",
+        "id": 281049830,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651599644
+    },
+    {
+        "content": "<p>In the former paper, infinite chains of duals are adjoined, rather than just a single right dual, though I think similar ideas are applied.</p>",
+        "id": 281049932,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651599702
+    },
+    {
+        "content": "<p>For the former paper (Autonomization of Monoidal Categories), I guess it's similar in that we also freely add the components necessary to have duals and impose equations on them, but we never end up with an autonomous category in the general case.</p>",
+        "id": 281051058,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651600128
+    },
+    {
+        "content": "<p>I think I'm going to have to spend some time with the latter paper (Freely Adjoining Monoidal Duals), but I'd guess they end up with something like the horizontal cells of the free cornering (in our terminology).</p>",
+        "id": 281051607,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651600349
+    },
+    {
+        "content": "<p>Thanks for that reference!</p>",
+        "id": 281051734,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651600412
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276114\">Chad Nester</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/281049763\">said</a>:</p>\n<blockquote>\n<p>I think it's reasonable to use the word \"free\" anyway, but would be open to a better name.</p>\n</blockquote>\n<p>I'm not opposed to it!  It probably is free in the sense of applying some sort of left adjoint process.   If you call it free, it'll motivate someone to investigate this.</p>",
+        "id": 281052422,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651600683
+    },
+    {
+        "content": "<p>I deleted that comment because I thought it was too defensive, but great!</p>",
+        "id": 281052585,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651600740
+    },
+    {
+        "content": "<p>I just read through this thread's paper. It's really nice. (And kudos for using hand-drawn diagrams.)</p>\n<p>I'm curious why, in the definition of a free cornering, you don't impose equations like <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>I</mi><mo>∘</mo></msup><mo>=</mo><msup><mi>I</mi><mo>∙</mo></msup><mo>=</mo><mi>I</mi></mrow><annotation encoding=\"application/x-tex\">I^\\circ = I^\\bullet = I</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">I</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∘</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">I</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∙</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">I</span></span></span></span> or <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><mi>A</mi><mo>⊗</mo><mi>B</mi><msup><mo stretchy=\"false\">)</mo><mo>∘</mo></msup><mo>=</mo><msup><mi>B</mi><mo>∘</mo></msup><mo>⊗</mo><msup><mi>A</mi><mo>∘</mo></msup></mrow><annotation encoding=\"application/x-tex\">(A\\otimes B)^\\circ = B^\\circ \\otimes A^\\circ</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">⊗</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span><span class=\"mclose\"><span class=\"mclose\">)</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∘</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∘</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">⊗</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">A</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∘</span></span></span></span></span></span></span></span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><mi>A</mi><mo>⊗</mo><mi>B</mi><msup><mo stretchy=\"false\">)</mo><mo>∙</mo></msup><mo>=</mo><msup><mi>A</mi><mo>∙</mo></msup><mo>⊗</mo><msup><mi>B</mi><mo>∙</mo></msup></mrow><annotation encoding=\"application/x-tex\">(A\\otimes B)^\\bullet = A^\\bullet \\otimes B^\\bullet</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">⊗</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span><span class=\"mclose\"><span class=\"mclose\">)</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∙</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">A</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∙</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">⊗</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∙</span></span></span></span></span></span></span></span></span></span></span>? Plus some equations for the corners like</p>\n<p><a href=\"/user_uploads/21317/aOLnGwXBz-Ykho6WQPQ4HV9Y/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/aOLnGwXBz-Ykho6WQPQ4HV9Y/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/aOLnGwXBz-Ykho6WQPQ4HV9Y/image.png\"></a></div><p>and their upside-down versions.</p>\n<p>It seems like if you had some equations along those lines then you wouldn't need the definition of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∙</mo><mo>∘</mo></mrow><annotation encoding=\"application/x-tex\">\\bullet\\circ</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4445em;\"></span><span class=\"mord\">∙</span><span class=\"mord\">∘</span></span></span></span>-alternating, because every vertical object could be expressed in that form. You'd also have that the diagrams for <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><mi>A</mi><mo>⊗</mo><mi>B</mi><msup><mo stretchy=\"false\">)</mo><mo>∙</mo></msup></mrow><annotation encoding=\"application/x-tex\">(A\\otimes B)^\\bullet</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">⊗</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span><span class=\"mclose\"><span class=\"mclose\">)</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∙</span></span></span></span></span></span></span></span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>A</mi><mo>∙</mo></msup><mo>⊗</mo><msup><mi>B</mi><mo>∙</mo></msup></mrow><annotation encoding=\"application/x-tex\">A^\\bullet \\otimes B^\\bullet</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">A</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∙</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">⊗</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∙</span></span></span></span></span></span></span></span></span></span></span> would be the same (for example), which seems like a nice property to have. Or does this not work / is something like that secretly there already?</p>",
+        "id": 281101742,
+        "sender_full_name": "Nathaniel Virgo",
+        "timestamp": 1651629008
+    },
+    {
+        "content": "<p>This is a really cool paper; I read the whole thing when I saw it on the arXiv yesterday!</p>",
+        "id": 281114474,
+        "sender_full_name": "Bryce Clarke",
+        "timestamp": 1651644539
+    },
+    {
+        "content": "<p>Something I'm wondering is if the fully faithful inclusion of \"double categories with companions and conjoints\" into just double categories has a left adjoint? Or is the freeness of the corning construction specifically related to monoidal categories?</p>",
+        "id": 281114578,
+        "sender_full_name": "Bryce Clarke",
+        "timestamp": 1651644669
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276114\">Chad Nester</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/281048972\">said</a>:</p>\n<blockquote>\n<p>Ah okay. I think I get to claim credit for this, from <a href=\"https://www.ioc.ee/~cneste/files/nester-2021-the-structure-of-concurrent-process-histories.pdf\">this paper</a>.</p>\n</blockquote>\n<p>Love the slug analogy!</p>",
+        "id": 281116934,
+        "sender_full_name": "Tom Hirschowitz",
+        "timestamp": 1651647099
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/281036355\">said</a>:</p>\n<blockquote>\n<p>By the way \"fibrant double category\" is another name for \"proarrow equipment\", and there are probably other names for it too... oh yeah, \"framed bicategory\".</p>\n</blockquote>\n<p>lmao this is Babel-level terminology hell</p>",
+        "id": 281119054,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1651648874
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276071\">Nathaniel Virgo</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/281101742\">said</a>:</p>\n<blockquote>\n<p>I just read through this thread's paper. It's really nice. (And kudos for using hand-drawn diagrams.)</p>\n<p>I'm curious why, in the definition of a free cornering, you don't impose equations like <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>I</mi><mo>∘</mo></msup><mo>=</mo><msup><mi>I</mi><mo>∙</mo></msup><mo>=</mo><mi>I</mi></mrow><annotation encoding=\"application/x-tex\">I^\\circ = I^\\bullet = I</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">I</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∘</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">I</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∙</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">I</span></span></span></span> or <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><mi>A</mi><mo>⊗</mo><mi>B</mi><msup><mo stretchy=\"false\">)</mo><mo>∘</mo></msup><mo>=</mo><msup><mi>B</mi><mo>∘</mo></msup><mo>⊗</mo><msup><mi>A</mi><mo>∘</mo></msup></mrow><annotation encoding=\"application/x-tex\">(A\\otimes B)^\\circ = B^\\circ \\otimes A^\\circ</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">⊗</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span><span class=\"mclose\"><span class=\"mclose\">)</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∘</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∘</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">⊗</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">A</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∘</span></span></span></span></span></span></span></span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><mi>A</mi><mo>⊗</mo><mi>B</mi><msup><mo stretchy=\"false\">)</mo><mo>∙</mo></msup><mo>=</mo><msup><mi>A</mi><mo>∙</mo></msup><mo>⊗</mo><msup><mi>B</mi><mo>∙</mo></msup></mrow><annotation encoding=\"application/x-tex\">(A\\otimes B)^\\bullet = A^\\bullet \\otimes B^\\bullet</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">⊗</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span><span class=\"mclose\"><span class=\"mclose\">)</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∙</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">A</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∙</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">⊗</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∙</span></span></span></span></span></span></span></span></span></span></span>? Plus some equations for the corners like</p>\n<p><a href=\"/user_uploads/21317/aOLnGwXBz-Ykho6WQPQ4HV9Y/image.png\">image.png</a></p>\n<p>and their upside-down versions.</p>\n<p>It seems like if you had some equations along those lines then you wouldn't need the definition of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo>∙</mo><mo>∘</mo></mrow><annotation encoding=\"application/x-tex\">\\bullet\\circ</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4445em;\"></span><span class=\"mord\">∙</span><span class=\"mord\">∘</span></span></span></span>-alternating, because every vertical object could be expressed in that form. You'd also have that the diagrams for <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><mi>A</mi><mo>⊗</mo><mi>B</mi><msup><mo stretchy=\"false\">)</mo><mo>∙</mo></msup></mrow><annotation encoding=\"application/x-tex\">(A\\otimes B)^\\bullet</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">⊗</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span><span class=\"mclose\"><span class=\"mclose\">)</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∙</span></span></span></span></span></span></span></span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>A</mi><mo>∙</mo></msup><mo>⊗</mo><msup><mi>B</mi><mo>∙</mo></msup></mrow><annotation encoding=\"application/x-tex\">A^\\bullet \\otimes B^\\bullet</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">A</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∙</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">⊗</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∙</span></span></span></span></span></span></span></span></span></span></span> would be the same (for example), which seems like a nice property to have. Or does this not work / is something like that secretly there already?</p>\n</blockquote>\n<p>Thanks!</p>\n<p>What you suggest is certainly possible, although it turns out that the things you want to equate are isomorphic in the category of horizontal cells anyway -- see Lemma 3 <a href=\"https://www.ioc.ee/~cneste/files/nester-2021-the-structure-of-concurrent-process-histories.pdf\">here</a>. I think fewer axioms are better, and so since it doesn't really get us anything I prefer not to make the identifications.</p>\n<p>Moreover I think the category of horizontal cells is pretty interesting, so I'm hesitant to collapse any of the structure there before I feel like I really understand it (which I do not). Also sometimes it's convenient to be able to talk about <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>A</mi><mo>∘</mo></msup><mo>⊗</mo><msup><mi>B</mi><mo>∘</mo></msup></mrow><annotation encoding=\"application/x-tex\">A^\\circ \\otimes B^\\circ</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.7667em;vertical-align:-0.0833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\">A</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∘</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">⊗</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∘</span></span></span></span></span></span></span></span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><mi>A</mi><mo>⊗</mo><mi>B</mi><msup><mo stretchy=\"false\">)</mo><mo>∘</mo></msup></mrow><annotation encoding=\"application/x-tex\">(A \\otimes B)^\\circ</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span><span class=\"mbin\">⊗</span><span class=\"mspace\" style=\"margin-right:0.2222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.05017em;\">B</span><span class=\"mclose\"><span class=\"mclose\">)</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∘</span></span></span></span></span></span></span></span></span></span></span> separately. </p>\n<p>It may well turn out that for certain applications collapsing that structure as you suggest is exactly what you want!</p>",
+        "id": 281152824,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651669993
+    },
+    {
+        "content": "<p>You can indeed make every object alternate in the appropriate way (up to isomorphism) by stricking in copies of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>I</mi><mo>∘</mo></msup></mrow><annotation encoding=\"application/x-tex\">I^\\circ</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">I</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∘</span></span></span></span></span></span></span></span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>I</mi><mo>∙</mo></msup></mrow><annotation encoding=\"application/x-tex\">I^\\bullet</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">I</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6741em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mbin mtight\">∙</span></span></span></span></span></span></span></span></span></span></span> though. We haven't really explored this so I don't know if there's anything interesting to say or not.</p>",
+        "id": 281153576,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651670328
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276693\">Bryce Clarke</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/281114578\">said</a>:</p>\n<blockquote>\n<p>Something I'm wondering is if the fully faithful inclusion of \"double categories with companions and conjoints\" into just double categories has a left adjoint? Or is the freeness of the corning construction specifically related to monoidal categories?</p>\n</blockquote>\n<p>I'd like to know this too.</p>",
+        "id": 281153728,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651670402
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276693\">Bryce Clarke</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/281114474\">said</a>:</p>\n<blockquote>\n<p>This is a really cool paper; I read the whole thing when I saw it on the arXiv yesterday!</p>\n</blockquote>\n<p>I think at some point one of my coauthors saw on twitter that you were thinking about double categories and lenses. We figured we should probably write up our results as soon as possible to avoid being scooped! I'm happy you like the paper :)</p>",
+        "id": 281153894,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651670468
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/281119054\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/281036355\">said</a>:</p>\n<blockquote>\n<p>By the way \"fibrant double category\" is another name for \"proarrow equipment\", and there are probably other names for it too... oh yeah, \"framed bicategory\".</p>\n</blockquote>\n<p>lmao this is Babel-level terminology hell</p>\n</blockquote>\n<p>The names I know for this thing are: proarrow equipment, framed bicategory, fibrant double category, companion and conjoint structure, and connection structure.</p>",
+        "id": 281154279,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651670651
+    },
+    {
+        "content": "<p>Since it's not going to make the problem worse than it is, I really think we should call them \"cornered double categories\", or maybe \"double categories with corner structure\".</p>",
+        "id": 281154333,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651670684
+    },
+    {
+        "content": "<p>With my favourite existing accepted terminology being the companion and conjoint one.</p>",
+        "id": 281154354,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651670701
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276693\">Bryce Clarke</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/281114578\">said</a>:</p>\n<blockquote>\n<p>Something I'm wondering is if the fully faithful inclusion of \"double categories with companions and conjoints\" into just double categories has a left adjoint? Or is the freeness of the corning construction specifically related to monoidal categories?</p>\n</blockquote>\n<p>I'm certain this is true, and if I remember correctly, it's even alluded to in one of the Dawson–Paré–Pronk papers on double categories (though they don't prove it). The idea is that freely adjoining companions and conjoints to a double category should be a \"completion\" in a sense in which adjoining adjoints to a bicategory is not, despite both giving \"free proarrow equipment\" constructions, and so this is a particularly nice context in which to consider the construction.</p>",
+        "id": 281154887,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651670935
+    },
+    {
+        "content": "<p>(By \"completion\", I suspect that the resulting 2-adjunction is lax idempotent, or something like that.)</p>",
+        "id": 281155232,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651671094
+    },
+    {
+        "content": "<p>I don't see immediately how that could be true.  Both adjoints in a bicategory and companions/conjoints in a double category are unique up to unique isomorphism, and preserved by all functors, so I don't know what would be different.</p>",
+        "id": 281167877,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1651676310
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/281167877\">said</a>:</p>\n<blockquote>\n<p>I don't see immediately how that could be true.  Both adjoints in a bicategory and companions/conjoints in a double category are unique up to unique isomorphism, and preserved by all functors, so I don't know what would be different.</p>\n</blockquote>\n<p>I mean in the sense that having all companions and conjoints is a property of a double category, whereas \"being a proarrow equipment\" is not a property of a bicategory. So one could very well adjoin all companions and conjoints that don't already exist to a double category, whereas one could not do something similar for bicategories: you need the extra structure of an F-category.</p>",
+        "id": 281169824,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651677082
+    },
+    {
+        "content": "<p>Ah, I thought you were talking about just \"adding adjoints to a bicategory\" <em>qua</em>  bicategory, which is different from making a bicategory into a proarrow equipment.</p>",
+        "id": 281170537,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1651677406
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276114\">Chad Nester</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/281154279\">said</a>:</p>\n<blockquote>\n<p>The names I know for this thing are: proarrow equipment, framed bicategory, fibrant double category, companion and conjoint structure, and connection structure.</p>\n</blockquote>\n<p>I don't think a connection structure is quite the same; IIRC that just refers to companions, not conjoints.  If you have both it would be a \"connection and co-connection structure\".</p>\n<p>The terminology \"framed bicategory\" is my fault, and I would prefer to deprecate it.  Nowadays I generally say \"equipment\".</p>",
+        "id": 281171312,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1651677751
+    },
+    {
+        "content": "<p>Yes, sorry, I should have been a bit more careful in my phrasing: what I meant is the free proarrow equipment construction is given by freely adjoining a right adjoint to each 1-cell of a bicategory, but to even talk about what it means to be a 1-cell in the <em>original</em> bicategory, you need to move to a setting where you can distinguish some of the 1-cells in the bicategory (e.g. F-categories or double categories).</p>",
+        "id": 281171348,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651677768
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276693\">Bryce Clarke</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/281114578\">said</a>:</p>\n<blockquote>\n<p>Something I'm wondering is if the fully faithful inclusion of \"double categories with companions and conjoints\" into just double categories has a left adjoint? Or is the freeness of the corning construction specifically related to monoidal categories?</p>\n</blockquote>\n<p>I presume the existence of a left adjoint follows from an AFT, but you really want to know that the construction is locally fully faithful, which is the hard part (and probably requires figuring out exactly what the construction looks like).</p>",
+        "id": 281171674,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1651677914
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/281171312\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"276114\">Chad Nester</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/281154279\">said</a>:</p>\n<blockquote>\n<p>The names I know for this thing are: proarrow equipment, framed bicategory, fibrant double category, companion and conjoint structure, and connection structure.</p>\n</blockquote>\n<p>I don't think a connection structure is quite the same; IIRC that just refers to companions, not conjoints.  If you have both it would be a \"connection and co-connection structure\".</p>\n</blockquote>\n<p>Hmm, okay. Thanks.</p>",
+        "id": 281172125,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1651678125
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276114\">Chad Nester</span> <a href=\"#narrow/stream/258900-practice.3A-our-papers/topic/Cornering.20Optics/near/281154333\">said</a>:</p>\n<blockquote>\n<p>Since it's not going to make the problem worse than it is, I really think we should call them \"cornered double categories\", or maybe \"double categories with corner structure\".</p>\n</blockquote>\n<p>Yes: the solution to a concept having too many names is always to introduce another name.</p>",
+        "id": 281176462,
+        "sender_full_name": "John Baez",
+        "timestamp": 1651679987
+    },
+    {
+        "content": "<p><a href=\"https://xkcd.com/927/\">Relevant xkcd</a></p>",
+        "id": 281182293,
+        "sender_full_name": "Martti Karvonen",
+        "timestamp": 1651682219
+    }
+]

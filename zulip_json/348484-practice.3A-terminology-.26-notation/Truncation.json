@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>There are apparently two uses of the term \"truncation.\"<br>\nOne is used in the context of simplicial homotopy theory and refers to forgetting higher morphisms which join things. It refers to precomposition of a simplicial set with the inclusion <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi mathvariant=\"normal\">Δ</mi><mi>n</mi></msup><mo>→</mo><mi mathvariant=\"normal\">Δ</mi></mrow><annotation encoding=\"application/x-tex\">\\Delta^n\\to\\Delta</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord\">Δ</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.6644em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">n</span></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\">Δ</span></span></span></span>.<br>\nThe other is used in higher category theory and refers to collapsing higher cells. It is more closely analogous to the coskeleton of a simplicial set, as I understand it.</p>\n<p>Is there a clear and standard term which would refer to the underlying category of 1-cells of a 2-category when the 2-cells are forgotten? I am afraid the word \"truncation\" is ambiguous as it can refer to two distinct forms of coercing a 2-category to a 1-category. This is most analogous to the 1-skeleton.</p>",
+        "id": 395438596,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1696699499
+    },
+    {
+        "content": "<blockquote>\n<p>Is there a clear and standard term which would refer to the underlying category of 1-cells of a 2-category when the 2-cells are forgotten?</p>\n</blockquote>\n<p>Yes, the \"underlying category\".</p>",
+        "id": 395439957,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1696700943
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276092\">@Nathanael Arkor</span> is that really unambiguous?</p>",
+        "id": 395517390,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1696757776
+    },
+    {
+        "content": "<p>It's the standard terminology (e.g. see <a href=\"https://arxiv.org/abs/math/0702535\">A 2-categories companion</a> or <a href=\"http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html\">Basic Concepts of Enriched Category Theory</a>). I also can't think of another reasonable interpretation of the term, but perhaps you have something in mind?</p>",
+        "id": 395524428,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1696760130
+    },
+    {
+        "content": "<p>The fact that it's standard is probably more important.<br>\nFor a bicategory, the only reasonable way to recover a category is to quotient out 2-isomorphisms, so it's not unreasonable to expect that one might erroneously assume this is what you mean by 'underlying category'.</p>",
+        "id": 395532246,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1696764201
+    },
+    {
+        "content": "<p>If someone used the term \"underlying category\" in regards to a bicategory, I would want them to clarify what they meant. I think it's only reasonable to use \"underlying X\" for a structure that may be defined to be an \"X\" equipped with extra structure/properties.</p>",
+        "id": 395533040,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1696764775
+    },
+    {
+        "content": "<p>Yeah, people usually like to emphasize that a bicategory or higher weak n-category <em>doesn't have</em> an underlying category in the same sense a 2-category or higher strict n-category has one, since the 1-morphisms don't compose associatively 'on the nose'.  So talking about the underlying category of a bicategory or higher weak n-category is likely to cause confusion even if you have some good definition of it.</p>",
+        "id": 395539283,
+        "sender_full_name": "John Baez",
+        "timestamp": 1696769466
+    },
+    {
+        "content": "<p>'Truncation' seems to have a standard meaning in homotopy type theory, and 'decategorification' has a fairly standard meaning in n-category theory.  I think most people who play these games would know what I meant if I said some category was the decategorification of some bicategory: it means that to get it, we throw out the 2-morphisms and identify isomorphic 1-morphisms.</p>",
+        "id": 395539504,
+        "sender_full_name": "John Baez",
+        "timestamp": 1696769592
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>Hi,</p>\n<p>My name is Ben Sprott </p>\n<p>I was a member of The Perimeter Institute in 2003.  My advisor was Lucien Hardy.  I was a student of and research assistant to Prakash Panangaden in 2009.</p>\n<p>I am working on a derivation of a new form of quantum theory that is relevant to quantum gravity.  It requires a monad composition.  These are very tricky and we have seen Zwart et al. warn against going head on without real care.  I have shown my general framework to a major titan in category theory for probability and he says it is time for me to proceed with applying it to new physics, which is what this post is about.  I would like to invite the community to message me and help me with the monad composition.</p>\n<p>Thanks!</p>\n<p>Ben Sprott</p>",
+        "id": 325860568,
+        "sender_full_name": "Ben Sprott",
+        "timestamp": 1675531172
+    },
+    {
+        "content": "<p>Go ahead with the details, what monads are you composing?</p>",
+        "id": 325883754,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1675546808
+    },
+    {
+        "content": "<p>Hi Morgan, did you see my post in the category theory sub?  Is that what they are called on zulip,subs?</p>",
+        "id": 326002833,
+        "sender_full_name": "Ben Sprott",
+        "timestamp": 1675624561
+    },
+    {
+        "content": "<p>Here are the extra details about my project I am working on.</p>\n<p>I already have a math overflow about the composition and no one will answer it.  Now, I just want someone to take a personal interest in it and contact me.</p>\n<p>Here is the math overflow question:</p>\n<p><a href=\"https://mathoverflow.net/questions/391437/cyclic-lists-of-multisets\">https://mathoverflow.net/questions/391437/cyclic-lists-of-multisets</a></p>\n<p>I don't think there are any secret definitions.  At least I didn't think there were, not for the monad composition.  The multiset monad is well defined and I am borrowing the cyclic list right out of the paper by Kock.  IIIRC there is some question about the cyclic list monad and its product natural transformation?  This is because Kock's paper is just about the functor, and not the monad.  It turns out that I asked Pieter Hofstra about this at his office in Ottawa, where I live.  What a gentle genius he was.  It was sad to hear of his passing.  He helped a bit by suggesting the following:</p>\n<ol>\n<li>Start with a cyclic list of cyclic lists</li>\n<li>Take each cyclic list and break them into flat lists in every possible way (like for 10 elements, there's 10 ways to break the cyclic list into a flat list )</li>\n<li>Combine the individual lists by going around the outer cyclic list and combining them through concatenation in that cyclic order.</li>\n</ol>\n<p>That should take cyclic lists of cyclic lists to a set of cyclic lists in a natural way.</p>\n<p>Is this what you were talking about David?</p>\n<p>I guess this leaves the unit.  My first guess for that is just like list, set elements go to singleton lists, a cyclic list with just one entry that points to itself.</p>",
+        "id": 326003838,
+        "sender_full_name": "Ben Sprott",
+        "timestamp": 1675625199
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"308261\">Ben Sprott</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Ben.20Sprott/near/325860568\">said</a>:</p>\n<blockquote>\n<p>I am working on a derivation of a new form of quantum theory that is relevant to quantum gravity.<br>\n</p>\n</blockquote>\n<p><a href=\"https://www.researchgate.net/publication/368288864_A_Fully_Discrete_and_Finite_Quantum_Theory_Derived_From_Data_Symmetries_Observed_from_Experiments\">Here is the preprint</a></p>",
+        "id": 326013990,
+        "sender_full_name": "Ben Sprott",
+        "timestamp": 1675632897
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"308261\">Ben Sprott</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Ben.20Sprott/near/326002833\">said</a>:</p>\n<blockquote>\n<p>Hi Morgan, did you see my post in the category theory sub?  Is that what they are called on zulip,subs?</p>\n</blockquote>\n<p>They're called \"streams\" (and the individual discussions are called \"topics\"). I responded over there :)</p>",
+        "id": 326082670,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1675677778
+    },
+    {
+        "content": "<p>Unfortunately, I think I proved that you can't produce a well-defined cyclic list from a cyclic list of cyclic lists in general, but I hope my suggestion was helpful.</p>",
+        "id": 326082888,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1675677845
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Ben.20Sprott/near/326082670\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"308261\">Ben Sprott</span> <a href=\"#narrow/stream/274877-practice.3A-our-work/topic/Ben.20Sprott/near/326002833\">said</a>:</p>\n<blockquote>\n<p>Hi Morgan, did you see my post in the category theory sub?  Is that what they are called on zulip,subs?</p>\n</blockquote>\n<p>They're called \"streams\" (and the individual discussions are called \"topics\"). I responded over there :)</p>\n</blockquote>\n<p>Thanks Morgan.</p>",
+        "id": 326742167,
+        "sender_full_name": "Ben Sprott",
+        "timestamp": 1675926310
+    }
+]

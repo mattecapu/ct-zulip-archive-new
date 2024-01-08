@@ -1,0 +1,274 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>&quot;Convergence&quot; to compositionality · learning: questions · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/index.html">learning: questions</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html">&quot;Convergence&quot; to compositionality</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="405427699"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/405427699" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kyle Wilkinson <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#405427699">(Dec 01 2023 at 19:43)</a>:</h4>
+<p>As has been pointed out in this forum by Jules Hedges (and maybe others), and is general knowledge in the field of optimization, optimization problems are not compositional, unless trivially so (i.e., they are independent such that they don't share variables or constraints). Recent work involving convex optimization (like with convex bifunctions) gets at ways to directly compose optimization problems and the resulting category does in fact have some nice additional hypergraph structure. But, such composition amounts to a solution of one problem becoming a perturbation of the next problem's constraints, which is basically just currying the convex function, as was pointed out by Stein/Samuelson at ACT-23. </p>
+<p>However, and sort of the main point I am getting at, in practice there are ways of solving such problems anyway. Of "creating" non-trivial compositionality, perhaps. In other words, it is generally a common solution technique to <em>iteratively</em> solve a set of subproblems and force them to converge to an overall solution, which is in fact optimal for the composed problem, but may be (and probably will be) sub-optimal for any of the subproblems in isolation. So coordination acts to broker the set of sub-solutions toward a common goal. </p>
+<p>So we still have "non-compositionality" since optimality remains not compositional. The <em>optimal</em> solutions of the subproblems still do not directly compose into the overall <em>optimal</em> solution. However, we have in some sense side-stepped the issue by switching back and forth between the subproblems and the overall problem via a coordination mechanism, allowing one or the other (sub- or overall-) solutions to be sub-optimal as needed. In optimization, this mechanism often operates via principles of duality.</p>
+<p>Is there any categorical notion which might capture this idea of iterative "forcing" of compositionality? Perhaps convergence would be a better term. For example, has anyone used a higher-category model which can capture iteration, convergence, coordination, or something similar as higher morphisms?</p>
+
+
+
+<a name="405428827"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/405428827" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> JR <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#405428827">(Dec 01 2023 at 19:52)</a>:</h4>
+<p>What about homotopy methods</p>
+
+
+
+<a name="405430157"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/405430157" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kyle Wilkinson <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#405430157">(Dec 01 2023 at 20:01)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="658891">JR</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality/near/405428827">said</a>:</p>
+<blockquote>
+<p>What about homotopy methods</p>
+</blockquote>
+<p>Sure, I would be interested in exploring this, too, though I do not yet have much exposure to homotopy.</p>
+
+
+
+<a name="405437177"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/405437177" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> JR <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#405437177">(Dec 01 2023 at 21:00)</a>:</h4>
+<p>See <a href="https://www.osti.gov/servlets/purl/876373-8hy6gp/">https://www.osti.gov/servlets/purl/876373-8hy6gp/</a> and imagine doing this for each function in a composition, say by using a common parameter.</p>
+
+
+
+<a name="405454489"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/405454489" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Egolf <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#405454489">(Dec 01 2023 at 23:35)</a>:</h4>
+<p>This stuff interests me a lot because it sounds relevant to image reconstruction for medical imaging, which is a long-standing interest of mine!</p>
+<p>A couple related questions occurs to me: What are some situations where we want to model things that exchange information with one another? And what tools can be used to do this?</p>
+<p>For example, to make a larger model from several regional models for how disease is spreading, one presumably needs to allow for data to flow between the two submodels: if disease is spreading towards the edge of the region modelled by one submodel, this should presumably impact the predictions of the neighbouring region submodel.</p>
+
+
+
+<a name="405454924"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/405454924" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Egolf <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#405454924">(Dec 01 2023 at 23:40)</a>:</h4>
+<p>(I believe that <span class="user-mention" data-user-id="612611">@Kyle Wilkinson</span> is specifically interested in the situation where multiple iterative optimization problems can be run in parallel with exchange of information. This is notably different from having several sub-problems that run in sequence, where the result of one sub-problem determines the starting conditions or constraints for the next sub-problem).</p>
+
+
+
+<a name="405464318"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/405464318" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> JR <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#405464318">(Dec 02 2023 at 01:01)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="277503">David Egolf</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality/near/405454924">said</a>:</p>
+<blockquote>
+<p>(I believe that <span class="user-mention silent" data-user-id="612611">Kyle Wilkinson</span> is specifically interested in the situation where multiple iterative optimization problems can be run in parallel with exchange of information. This is notably different from having several sub-problems that run in sequence, where the result of one sub-problem determines the starting conditions or constraints for the next sub-problem).</p>
+</blockquote>
+<p><a href="https://en.wikipedia.org/wiki/Belief_propagation">Belief propagation</a> is in this vein</p>
+
+
+
+<a name="405464508"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/405464508" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> JR <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#405464508">(Dec 02 2023 at 01:02)</a>:</h4>
+<p>See also <a href="https://doi.org/10.1007/s10955-011-0384-7">Message-Passing Algorithms for Inference and Optimization</a></p>
+
+
+
+<a name="405517789"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/405517789" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nathaniel Virgo <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#405517789">(Dec 02 2023 at 09:44)</a>:</h4>
+<p>I'd really love to know "what's really going on" with message passing algorithms - it seems like there should be some interesting higher categorical structure there. It always seemed to me a bit like lenses/optics, except that instead of having one forward pass and one backward pass it keeps going forward and backward indefinitely.</p>
+
+
+
+<a name="405541969"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/405541969" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> JR <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#405541969">(Dec 02 2023 at 15:07)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276071">Nathaniel Virgo</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality/near/405517789">said</a>:</p>
+<blockquote>
+<p>I'd really love to know "what's really going on" with message passing algorithms - it seems like there should be some interesting higher categorical structure there. It always seemed to me a bit like lenses/optics, except that instead of having one forward pass and one backward pass it keeps going forward and backward indefinitely.</p>
+</blockquote>
+<p>Take a look at MacKay’s book online, which frames BP and neural nets in a common way and you may recall the Backprop as functor (= chain rule as functor) perspective on neural nets as something of interest.</p>
+
+
+
+<a name="405590391"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/405590391" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nathaniel Virgo <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#405590391">(Dec 03 2023 at 02:03)</a>:</h4>
+<p>That's what I'm referring to I think - I'm saying I'd like to see that properly worked out some time. I don't think message passing is literally an instance of the machinery in 'backprop as functor' (maybe I'm wrong?) but it's clearly related.</p>
+
+
+
+<a name="405616389"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/405616389" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Simon Burton <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#405616389">(Dec 03 2023 at 08:01)</a>:</h4>
+<p>Backprop &amp; message passing: it's all about <a href="https://cba.mit.edu/events/03.11.ASE/docs/Aji.pdf">distributivity</a> .</p>
+
+
+
+<a name="405681789"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/405681789" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jean-Baptiste Vienney <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#405681789">(Dec 03 2023 at 17:10)</a>:</h4>
+<p>Maybe you could be interested by this paper: <a href="https://www.sciencedirect.com/science/article/pii/S0167642309000215">The logic of message-passing</a> (Cockett &amp; Pastro). If you're interested by the quantum version, these slides: <a href="https://www.reluctantm.com/gcruttw/fmcs2023/Slides/FMCS_2023_Day_1.pdf">Quantum Message Passing Logic - Part One</a>, <a href="https://www.reluctantm.com/gcruttw/fmcs2023/Slides/FMCS_2023_Day_2.pdf">Part Two</a> (Priyaa Varshinee).</p>
+
+
+
+<a name="405682041"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/405682041" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jean-Baptiste Vienney <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#405682041">(Dec 03 2023 at 17:14)</a>:</h4>
+<p>In fact Part One is mainly a tutorial on the first paper and Part Two about trying to make it quantum.</p>
+
+
+
+<a name="405875042"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/405875042" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kyle Wilkinson <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#405875042">(Dec 04 2023 at 17:14)</a>:</h4>
+<p>Thanks for the links and leads. I suppose it is the way of category theory to involve very general concepts as answers for specific applications! They've been helpful. </p>
+<p>Perhaps extensions of resource theory into concurrent processes may prove useful. In particular, this recent paper by Nester and Voorneveld <a href="https://arxiv.org/pdf/2305.16899.pdf">https://arxiv.org/pdf/2305.16899.pdf</a> may be relevant. </p>
+<p>The toy example they give is one of kneading and baking dough into bread. In the typical monoidal resource theory, we'd set it up as dough--&gt;oven--&gt;(bread+oven). But this implies a series structure on the processing line. If we want to run those two subprocesses independently, passing outputs of one subsystem to another for further processing, then Nester's cornering construction allows for it. They then go on to construct a representation of iteration between the processes. </p>
+<p>What I am not clear on yet is whether their process can be made bidirectional. It is clear that the "decider" Bob can choose to have the inputs from Alice be recalculated, or to reiterate the process, but it is not clear whether Bob can update values which Alice then must use in her process. But, I've only done a cursory read.</p>
+
+
+
+<a name="405875792"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/405875792" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kyle Wilkinson <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#405875792">(Dec 04 2023 at 17:17)</a>:</h4>
+<p>It is the ability for Bob to pass back values to Alice which I think encompasses the idea of coordination, with Bob as the coordinator. Coordination in this case implies that "Alice" is in fact several entities who all pass information to Bob independently of each other.</p>
+
+
+
+<a name="405878131"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/405878131" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Egolf <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#405878131">(Dec 04 2023 at 17:27)</a>:</h4>
+<p>There's a nice picture in that paper which illustrates the toy example:<br>
+<a href="/user_uploads/21317/NX38eacKHdoImBK15rMrYbuN/image.png">toy example</a></p>
+<div class="message_inline_image"><a href="/user_uploads/21317/NX38eacKHdoImBK15rMrYbuN/image.png" title="toy example"><img src="/user_uploads/21317/NX38eacKHdoImBK15rMrYbuN/image.png"></a></div><p>The authors explain this as "The cell on the left describes a procedure for transforming dough into nothing by kneading it and sending the result away along the right boundary, and the cell in the middle describes a procedure for transforming an oven into bread and an oven by receiving dough along the left boundary and then using the oven to bake it." (In the original picture, there's a third cell on the right, which I haven't included here).</p>
+<p>So I think the "dough" is being passed between two subsystems.</p>
+
+
+
+<a name="405881482"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/405881482" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kyle Wilkinson <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#405881482">(Dec 04 2023 at 17:44)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="277503">David Egolf</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality/near/405878131">said</a>:</p>
+<blockquote>
+<p>So I think the "dough" is being passed between two subsystems.</p>
+</blockquote>
+<p>Yes.* <br>
+The dough is passed one-way. Once baked, it is never kneaded again of course. I would interpret the iteration portion of their method to involve the oven process receiving the dough and deciding that the gluten is not developed enough and that it needs more kneading, thus the first kneading process is iterated once more. I'm curious if there is some way of sending additional information back, more than just "try again." To continue the example, perhaps something like: "you (subprocesses) thought this was good dough. To me, this is lacking in XYZ quantity. Update your level of kneading accordingly and try again."</p>
+<p>*Edit: Actually, the dough is being passed <em>down the line.</em> There is a clear dependency/directionality here. So, you are correct, but the nuance I am trying to grab hold of is something being passed to a coordinator, which then makes a decision on whether to reiterate and also influences the reiteration. So in this case, I am thinking of the oven subprocess as existing "above" the kneading subprocess. But of course the oven may exist "below" some other process, too.</p>
+
+
+
+<a name="405915852"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/405915852" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Spencer Breiner <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#405915852">(Dec 04 2023 at 21:38)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="612611">Kyle Wilkinson</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality/near/405875042">said</a>:</p>
+<blockquote>
+<p>What I am not clear on yet is whether their process can be made bidirectional. It is clear that the "decider" Bob can choose to have the inputs from Alice be recalculated, or to reiterate the process, but it is not clear whether Bob can update values which Alice then must use in her process. But, I've only done a cursory read.</p>
+</blockquote>
+<p>If I understand correctly, there are two operations turning vertical wires (= horizontal one-cells) into horizontal wires, denoted <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>A</mi><mo>∙</mo></msup></mrow><annotation encoding="application/x-tex">A^\bullet</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal">A</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6741em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∙</span></span></span></span></span></span></span></span></span></span></span> and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>A</mi><mo>∘</mo></msup></mrow><annotation encoding="application/x-tex">A^\circ</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord"><span class="mord mathnormal">A</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6741em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∘</span></span></span></span></span></span></span></span></span></span></span>, which can be thought of as "send <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span></span></span></span>" and "receive <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span></span></span></span>". I prefer the notation <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>A</mi><mo>◃</mo></msup></mrow><annotation encoding="application/x-tex">A^\triangleleft</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6887em;"></span><span class="mord"><span class="mord mathnormal">A</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6887em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">◃</span></span></span></span></span></span></span></span></span></span></span> and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>A</mi><mo>▹</mo></msup></mrow><annotation encoding="application/x-tex">A^\triangleright</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6887em;"></span><span class="mord"><span class="mord mathnormal">A</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6887em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">▹</span></span></span></span></span></span></span></span></span></span></span>.</p>
+
+
+
+<a name="405916535"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/405916535" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Spencer Breiner <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#405916535">(Dec 04 2023 at 21:44)</a>:</h4>
+<p>I find things easier to think about if we imagine adding in a (directed?) graph of locations/addresses and channels/paths to the cornering construction in that paper. Then we could imagine that the associated double category has objects corresponding to locations and types "send/receive <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span></span></span></span> along <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>e</mi></mrow><annotation encoding="application/x-tex">e</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">e</span></span></span></span>" for edges <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>e</mi></mrow><annotation encoding="application/x-tex">e</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">e</span></span></span></span> in the graph.</p>
+<p>In order to "straighten out" a parallel process into the the base monoidal category, you would (at minimum) need to bring data together to a common location before comparison.</p>
+
+
+
+<a name="405916976"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/405916976" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Spencer Breiner <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#405916976">(Dec 04 2023 at 21:47)</a>:</h4>
+<p>The one-object case from the paper would correspond to a graph with one vertex and one reflexive edge, and (for me) it's the conflation of sending location and receiving location that makes the theory a bit tricky to follow.</p>
+
+
+
+<a name="407003433"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/407003433" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> JR <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#407003433">(Dec 10 2023 at 03:26)</a>:</h4>
+<p><a href="https://arxiv.org/abs/2201.11876">https://arxiv.org/abs/2201.11876</a></p>
+
+
+
+<a name="407279797"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/407279797" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kyle Wilkinson <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#407279797">(Dec 11 2023 at 16:48)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="658891">JR</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality/near/407003433">said</a>:</p>
+<blockquote>
+<p><a href="https://arxiv.org/abs/2201.11876">https://arxiv.org/abs/2201.11876</a></p>
+</blockquote>
+<p>This looks pretty promising, thanks! At first glance, it describes arriving at global conditions from a set of local conditions with possible overlap, which is basically what I am looking for.</p>
+
+
+
+<a name="407726701"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/407726701" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> JR <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#407726701">(Dec 13 2023 at 13:29)</a>:</h4>
+<p><a href="https://proceedings.allerton.csl.illinois.edu/media/files/0115.pdf">https://proceedings.allerton.csl.illinois.edu/media/files/0115.pdf</a></p>
+
+
+
+<a name="410051705"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/410051705" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> JR <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#410051705">(Dec 26 2023 at 17:51)</a>:</h4>
+<p><a href="/user_uploads/21317/BfdgLlHI6SDoQUuiiu0izggL/image.png">image.png</a><br>
+From Jakob Hansen's dissertation</p>
+<div class="message_inline_image"><a href="/user_uploads/21317/BfdgLlHI6SDoQUuiiu0izggL/image.png" title="image.png"><img src="/user_uploads/21317/BfdgLlHI6SDoQUuiiu0izggL/image.png"></a></div>
+
+
+
+<a name="410068037"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/410068037" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kyle Wilkinson <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#410068037">(Dec 26 2023 at 21:19)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="658891">JR</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality/near/410051705">said</a>:</p>
+<blockquote>
+<p><a href="/user_uploads/21317/BfdgLlHI6SDoQUuiiu0izggL/image.png">image.png</a><br>
+From Jakob Hansen's dissertation</p>
+</blockquote>
+<p>Thank you. This appears essentially like what I am looking for, only I am not familiar enough with the background material. I can understand the optimization aspects (KKT conditions and so forth), but does anyone know any accessible sources on sheaf cohomology for someone with no exposure? </p>
+<p>Incidentally, I see now why folks here have been mentioning cohomology as a way of getting around or at least quantifying non-compositionality.</p>
+
+
+
+<a name="410068296"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/410068296" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> JR <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#410068296">(Dec 26 2023 at 21:22)</a>:</h4>
+<p>Rosiak's <a href="https://direct.mit.edu/books/oa-monograph/5460/Sheaf-Theory-through-Examples">book</a> treats (cellular) sheaf cohomology with some detailed examples.</p>
+
+
+
+<a name="410132709"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/410132709" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> John Baez <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#410132709">(Dec 27 2023 at 10:25)</a>:</h4>
+<p>It can't hurt too much to read the Wikipedia article on <a href="https://en.wikipedia.org/wiki/Sheaf_cohomology">sheaf cohomology</a>.   It may be hard to follow, but at least it's short, it starts with a sketch of what sheaf cohomology was originally used for, it states many of the fundamental facts about sheaf cohomology, and it has links to definitions of all the concepts it assumes you know (like "sheaf", of course).</p>
+
+
+
+<a name="410569211"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/410569211" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kyle Wilkinson <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#410569211">(Dec 30 2023 at 20:00)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="658891">JR</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality/near/410068296">said</a>:</p>
+<blockquote>
+<p>Rosiak's <a href="https://direct.mit.edu/books/oa-monograph/5460/Sheaf-Theory-through-Examples">book</a> treats (cellular) sheaf cohomology with some detailed examples.</p>
+</blockquote>
+<p>Thanks! This is a good source for describing basics of category theory, too for any beginners who might be interested. It also has a partial focus on philosophical considerations, which I find interesting apart from the math.</p>
+
+
+
+<a name="410569581"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229199-learning%3A%20questions/topic/%22Convergence%22%20to%20compositionality/near/410569581" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Kyle Wilkinson <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality.html#410569581">(Dec 30 2023 at 20:05)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="275920">John Baez</span> <a href="#narrow/stream/229199-learning.3A-questions/topic/.22Convergence.22.20to.20compositionality/near/410132709">said</a>:</p>
+<blockquote>
+<p>It can't hurt too much to read the Wikipedia article...</p>
+</blockquote>
+<p>I imagine you are already aware as you have been looking into music theory math, but in the Rosiak book, he mentions some music theory from R-modules. A footnote from there:</p>
+<p>''16. Modules play a large role in much of mathematical music theory, especially variants of R{O, P, L, D} and the module of integers mod 12 (under addition), together with its affine transformations. At least as far back as Lewin (see Lewin (2010), originally published in 1987), transformations between musical elements (instead of musical objects like the C major chord) became the focus of many music theorists, where the transformations in question often form a group. Certain elements of algebra, especially group theory, have accordingly been used for some time to systematize the treatment of common operations on musical chords, and geometrical models of musical structure have also been considered by a few authors (such as Tymoczko (2011)). Approaches to questions of music theory that incorporate category theory (starting with Mazzola (1985)) are somewhat harder to come by, but the reader curious about more category theoretic takes on music may find interesting Popoff, Andreatta, and Ehresmann (2018), Noll (2005), and the work of Guerino Mazzola and followers. The module R{O, P, L, D} presented above, together with further uses of it, is discussed in Mazzola and Andreatta (2006).''</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p>Is there a characterization of the morphisms inverted by a right adjoint?<br>\nI also know that units of this adjunction are invertible, i.e. that the left adjoint is ff.</p>",
+        "id": 397462532,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1697706462
+    },
+    {
+        "content": "<p>If a map is inverted then it's \"conjugate\" to an isomorphism up to counts of the adjunction. Draw out the naturality square for the counit to see what I mean here. I'm not sure if there's anything better you can say, I think of it as basically meaning the counits generate the class of the inverted maps W (in that the localization at the class of counits will invert all of W)</p>\n<p>Edit: this is for the case of a coreflective adjunction that you brought up, where the right adjoint in particular inverts the counits</p>",
+        "id": 399173011,
+        "sender_full_name": "Brendan Murphy",
+        "timestamp": 1698601275
+    },
+    {
+        "content": "<p>Cool, that's interesting to know</p>",
+        "id": 399258059,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1698657509
+    }
+]

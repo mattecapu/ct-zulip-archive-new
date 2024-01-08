@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> changed the <a href=\"/help/stream-permissions\">access permissions</a> for this stream from <strong>Public</strong> to <strong>Web-public</strong>.</p>",
+        "id": 397854256,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1697898714
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>general: positions</strong> to <strong>community: positions</strong>.</p>",
+        "id": 399475323,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698749747
+    }
+]

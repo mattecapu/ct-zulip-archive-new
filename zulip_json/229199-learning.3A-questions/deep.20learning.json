@@ -1,0 +1,314 @@
+[
+    {
+        "content": "<p>What are your goals in learning category theory <span class=\"user-mention\" data-user-id=\"393406\">@joaogui1 (he/him)</span>?</p>",
+        "id": 228284940,
+        "sender_full_name": "Joshua Meyers",
+        "timestamp": 1614624490
+    },
+    {
+        "content": "<p>Because I love math and the abstractions of CT look really interesting. Second because I'm working on Deep Learning and I feel like a lot of stuff could benefit at least from categorical inspirations (compositionality is pretty much one of the assumptions of Deep Learning). Finally I feel like compositionality is a powerful idea in general, showing up in things like shell, Lisps. JAX and Julia</p>",
+        "id": 228301052,
+        "sender_full_name": "joaogui1 (he/him)",
+        "timestamp": 1614630744
+    },
+    {
+        "content": "<p>Ok! For deep learning in particular there are (a very small number of) specific papers you should read - with Backprop As Functor at the top of the list if you don't already know it - and (an equally small number of) specific people you should talk to - I'll tag <span class=\"user-mention\" data-user-id=\"276875\">@Bruno Gavranovic</span></p>",
+        "id": 228301808,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1614631050
+    },
+    {
+        "content": "<p>He seems to have some pretty cool papers, nice!</p>",
+        "id": 228303849,
+        "sender_full_name": "joaogui1 (he/him)",
+        "timestamp": 1614631935
+    },
+    {
+        "content": "<p>Great question, <span class=\"user-mention\" data-user-id=\"280784\">@Joshua Meyers</span>!   There are many reasons for studying category theory, and how one should study it depends on what one is trying to do.</p>",
+        "id": 228304478,
+        "sender_full_name": "John Baez",
+        "timestamp": 1614632184
+    },
+    {
+        "content": "<p>Hey <span class=\"user-mention\" data-user-id=\"276875\">@Bruno Gavranovic</span> what do you recommend for someone interested in ACT for Deep Learning?</p>",
+        "id": 228305276,
+        "sender_full_name": "joaogui1 (he/him)",
+        "timestamp": 1614632511
+    },
+    {
+        "content": "<p>I definitely also recommend Backprop as Functor if you haven't already read it</p>",
+        "id": 228326567,
+        "sender_full_name": "Joshua Meyers",
+        "timestamp": 1614641842
+    },
+    {
+        "content": "<p>If you love math and are interested in category theory in its own right, you should look at something which is about pure category theory.  I really like these notes: <a href=\"https://home.gwu.edu/~wschmitt/papers/cat.pdf\">https://home.gwu.edu/~wschmitt/papers/cat.pdf</a>  After working through these notes, I used Emily Riehl's book, which has a lot of examples from different fields of math --- if you don't know those fields, you won't get all the examples, but you can just skip the examples you don't get.  I've also heard other computer science people say they liked Awodey's book, though I have not looked at it much personally.  \"Algebra Chapter 0\" and \"Topology: A Categorical Approach\" would be great if you want to learn algebra and topology, do you want to learn these things?</p>",
+        "id": 228328214,
+        "sender_full_name": "Joshua Meyers",
+        "timestamp": 1614642608
+    },
+    {
+        "content": "<p>There are many directions you can go with this, it depends largely on which direction you want to go in.</p>",
+        "id": 228328272,
+        "sender_full_name": "Joshua Meyers",
+        "timestamp": 1614642642
+    },
+    {
+        "content": "<p>They are among the things I want to learn. I've always been fascinated by Algebra and tried to take it when I began college, but Brazil's curricula are very strict and I only maanaged to audit the class. And topology also looks cool and useful for DL</p>",
+        "id": 228330207,
+        "sender_full_name": "joaogui1 (he/him)",
+        "timestamp": 1614643599
+    },
+    {
+        "content": "<p>Then yeah those books sound good!</p>",
+        "id": 228333671,
+        "sender_full_name": "Joshua Meyers",
+        "timestamp": 1614645449
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"393406\">joaogui1 (he/him)</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/228305276\">said</a>:</p>\n<blockquote>\n<p>Hey <span class=\"user-mention silent\" data-user-id=\"276875\">Bruno Gavranovic</span> what do you recommend for someone interested in ACT for Deep Learning?</p>\n</blockquote>\n<p>Hi Joao! Unfortunately ACT for Deep Learning is a relatively niche field, and I'm not sure if there's any introductory texts focused on understanding CT with examples from Deep learning. <br>\nIf what you're looking for is papers, then you're sort of in luck, because there's a few. I compiled a list a while ago <a href=\"https://github.com/bgavran/Category_Theory_Machine_Learning\">https://github.com/bgavran/Category_Theory_Machine_Learning</a>  but most of these are probably pretty abstract if you're just getting into this. Nonetheless, as Jules says - it's good to read those and see what kind of things people are doing, even if its just getting a taste.</p>\n<p>Interestingly enough, there's been a new paper on arxiv today (<a href=\"https://arxiv.org/abs/2103.01189\">https://arxiv.org/abs/2103.01189</a>) about learners, and actually we should have our paper on Categorical Foundations of Gradient-Based Learning up on arxiv very very soon :)</p>",
+        "id": 228454592,
+        "sender_full_name": "Bruno Gavranović",
+        "timestamp": 1614707525
+    },
+    {
+        "content": "<p>Besides backprop as functor, you could do worse than starting with one of Bruno's recorded talks on Youtube</p>",
+        "id": 228456785,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1614708306
+    },
+    {
+        "content": "<p>Since this is a recently active research topic, a bunch of happened during coronatime, which means recorded seminars</p>",
+        "id": 228456873,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1614708338
+    },
+    {
+        "content": "<p>Also I suggest getting acquainted with optics (e.g. from Riley's 'Category of optics' paper) and theleological string diagrams (I guess from <span class=\"user-mention\" data-user-id=\"275901\">@Jules Hedges</span> first paper on games? idk)</p>",
+        "id": 228496898,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1614723477
+    },
+    {
+        "content": "<p>This is probably overkill as a starting point...</p>",
+        "id": 228505730,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1614727549
+    },
+    {
+        "content": "<p>If you follow machine learning in the same direction as us (which I <em>think</em> is the \"canonical\" way of taking seriously the existing compositionality of deep learning - but being wrong is always an option, there could be some totally different way you could go) - you'll eventually meet the question \"what the heck does game theory have to do with anything\"</p>",
+        "id": 228505932,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1614727659
+    },
+    {
+        "content": "<p>yeah, I keep seeing stuff like open games, what the heck does it have to do with anything?</p>",
+        "id": 228510988,
+        "sender_full_name": "joaogui1 (he/him)",
+        "timestamp": 1614730286
+    },
+    {
+        "content": "<p>Learning can be seen as a kind of game: that's a pretty basic observation.</p>",
+        "id": 228515593,
+        "sender_full_name": "John Baez",
+        "timestamp": 1614733038
+    },
+    {
+        "content": "<p>That's kind of what I was thinking – why <em>wouldn't</em> game theory be involved in machine learning?</p>",
+        "id": 228520351,
+        "sender_full_name": "Jason Erbele",
+        "timestamp": 1614735870
+    },
+    {
+        "content": "<p>Ok why would it? (I know the answer btw but I don't think it is a basic observation and I am not sure I can answer succinctly)</p>",
+        "id": 228520716,
+        "sender_full_name": "Georgios Bakirtzis",
+        "timestamp": 1614736127
+    },
+    {
+        "content": "<p>As an outsider to ML, I don't have a good answer for exactly how it should connect.  But there has to be more than a superficial connection between learning goals and player goals, learning strategies and game theoretic strategies, etc.  Any kind of learning system/environment should at least be expressible as a formal game, and from there, game theory ought to at least offer some insights.  Same should apply to human learning, as well.</p>",
+        "id": 228522071,
+        "sender_full_name": "Jason Erbele",
+        "timestamp": 1614736954
+    },
+    {
+        "content": "<p>By the way, just because something is a basic observation doesn't necessarily mean it's an easy observation to make, especially for the first time.  E.g. it's a basic observation that the number zero is important to mathematics.</p>",
+        "id": 228522348,
+        "sender_full_name": "Jason Erbele",
+        "timestamp": 1614737130
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275901\">Jules Hedges</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/228505730\">said</a>:</p>\n<blockquote>\n<p>This is probably overkill as a starting point...</p>\n</blockquote>\n<p>Well, I said getting acquainted, not full expert. Bruno mentions optics like 5 minutes in his MSP101 talk, I guess. Also many theleological diagrams are drawn, so it's better to understand what's going on.</p>",
+        "id": 228550024,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1614757694
+    },
+    {
+        "content": "<p>Maybe the first of your Max Planck lectures would be a great place to get a quick intro to the diagrams</p>",
+        "id": 228550127,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1614757757
+    },
+    {
+        "content": "<p>I think the intuitive answer is that game theory studies distributed decision making and that intelligence rarely (if ever) emerges from individual decision making as opposed to distributed decision making</p>",
+        "id": 228563628,
+        "sender_full_name": "Fawzi Hreiki",
+        "timestamp": 1614765018
+    },
+    {
+        "content": "<p>This is all true, but the connection been categorical approach to machine learning and game theory is more subtle than that. They're structurally the same. I think the true answer is actually closer to \"game theory is a kind of machine learning\" than the other way round - the central idea of compositional game theory turned out in retrospect to be a sort of \"backpropagation of payoffs\". In Strathclyde we're working towards a proper grand unification, but none of it's written down yet...</p>",
+        "id": 228571446,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1614768280
+    },
+    {
+        "content": "<p>This looks extremly interesting :D</p>",
+        "id": 228571858,
+        "sender_full_name": "joaogui1 (he/him)",
+        "timestamp": 1614768497
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/228550024\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275901\">Jules Hedges</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/228505730\">said</a>:</p>\n<blockquote>\n<p>This is probably overkill as a starting point...</p>\n</blockquote>\n<p>Well, I said getting acquainted, not full expert. Bruno mentions optics like 5 minutes in his MSP101 talk, I guess. Also many theleological diagrams are drawn, so it's better to understand what's going on.</p>\n</blockquote>\n<p>Is there a link to a recording of that talk?</p>",
+        "id": 228684170,
+        "sender_full_name": "joaogui1 (he/him)",
+        "timestamp": 1614812379
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/228684093\">said</a>:</p>\n<blockquote>\n<p>Which talk?  Right now we're talking about ancient Greek phonetics for some reason.</p>\n</blockquote>\n<p>Sorry, still getting the hang of zulip</p>",
+        "id": 228684203,
+        "sender_full_name": "joaogui1 (he/him)",
+        "timestamp": 1614812401
+    },
+    {
+        "content": "<p>Yeah, I do that too: respond to a comment after the conversation has moved on, without noticing...</p>",
+        "id": 228684639,
+        "sender_full_name": "John Baez",
+        "timestamp": 1614812590
+    },
+    {
+        "content": "<p>I found slides for an MSP101 talk by <span class=\"user-mention\" data-user-id=\"276875\">@Bruno Gavranovic</span> on \"Categorical Foundation of Gradient-Based Learning\":</p>\n<p><a href=\"http://msp.cis.strath.ac.uk/msp101.html\">http://msp.cis.strath.ac.uk/msp101.html</a></p>\n<p>But no video, because it's a talk from \"BC\": before coronavirus.</p>",
+        "id": 228685003,
+        "sender_full_name": "John Baez",
+        "timestamp": 1614812752
+    },
+    {
+        "content": "<p>A shame, but thanks!</p>",
+        "id": 228685460,
+        "sender_full_name": "joaogui1 (he/him)",
+        "timestamp": 1614812938
+    },
+    {
+        "content": "<p>I think the talk you mention does have a video link on that page, John: <a href=\"https://www.youtube.com/watch?v=ji8MHKlQZ9w\">https://www.youtube.com/watch?v=ji8MHKlQZ9w</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"ji8MHKlQZ9w\" href=\"https://www.youtube.com/watch?v=ji8MHKlQZ9w\"><img src=\"https://i.ytimg.com/vi/ji8MHKlQZ9w/default.jpg\"></a></div>",
+        "id": 228685842,
+        "sender_full_name": "Dylan Braithwaite",
+        "timestamp": 1614813097
+    },
+    {
+        "content": "<p>You beat me to it. It was a great talk!</p>",
+        "id": 228685928,
+        "sender_full_name": "Conor McBride",
+        "timestamp": 1614813129
+    },
+    {
+        "content": "<p>Thanks :D</p>",
+        "id": 228686361,
+        "sender_full_name": "joaogui1 (he/him)",
+        "timestamp": 1614813330
+    },
+    {
+        "content": "<p>Oh - it said \"slides\" right over the talk title but those slides were for the <em>previous</em> talk.</p>",
+        "id": 228689262,
+        "sender_full_name": "John Baez",
+        "timestamp": 1614814873
+    },
+    {
+        "content": "<p>I found this talk by cleverly typing \"MSP101 bruno\" into Google.</p>",
+        "id": 228689407,
+        "sender_full_name": "John Baez",
+        "timestamp": 1614814954
+    },
+    {
+        "content": "<p>This topic was moved here from <a class=\"stream-topic\" data-stream-id=\"229199\" href=\"/#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions\">#learning: questions &gt; beginner questions</a> by <span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span></p>",
+        "id": 228732503,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1614845745
+    },
+    {
+        "content": "<p>This topic was moved by <span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> to <a class=\"stream-topic\" data-stream-id=\"229451\" href=\"/#narrow/stream/229451-general.3A-off-topic/topic/greek.20shenanigans.20and.20misspelled.20words\">#general: off-topic &gt; greek shenanigans and misspelled words</a></p>",
+        "id": 228732504,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1614845745
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/228689407\">said</a>:</p>\n<blockquote>\n<p>I found this talk by cleverly typing \"MSP101 bruno\" into Google.</p>\n</blockquote>\n<p>never underestimate the power of googling</p>",
+        "id": 228732717,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1614845852
+    },
+    {
+        "content": "<p>There's also his other talk for the CyberCats seminar <a href=\"https://www.youtube.com/watch?v=tKM8JdXJEII\">https://www.youtube.com/watch?v=tKM8JdXJEII</a><br>\nAFAIR there's a lot of overlap between the two, but just in case</p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"tKM8JdXJEII\" href=\"https://www.youtube.com/watch?v=tKM8JdXJEII\"><img src=\"https://i.ytimg.com/vi/tKM8JdXJEII/default.jpg\"></a></div>",
+        "id": 228732862,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1614845932
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275901\">Jules Hedges</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/228571446\">said</a>:</p>\n<blockquote>\n<p>I think the true answer is actually closer to \"game theory is a kind of machine learning\" than the other way round</p>\n</blockquote>\n<p>The correspondence I've seen already is that there's a functor from learners into games, which initially seems to suggest the converse to that. Does that suggest there's an interesting map in the other direction?</p>",
+        "id": 228737449,
+        "sender_full_name": "Dylan Braithwaite",
+        "timestamp": 1614848419
+    },
+    {
+        "content": "<p>If there is a nice map in both directions (learners to games and games to learners), do we further have an adjunction between the two?</p>",
+        "id": 228739144,
+        "sender_full_name": "Jason Erbele",
+        "timestamp": 1614849273
+    },
+    {
+        "content": "<p>It really depends on how you define stuff. I'm quite eager to make game and learners the same thing, since their categorical semantics is so similar. One key difference is in the computation of equilibria/learning process, but they can be put on the same footing as well (by swapping a gadget attached to them)<br>\nIt'd be nice to link to a paper now, but there's not one yet on this : <span aria-label=\"sweat smile\" class=\"emoji emoji-1f605\" role=\"img\" title=\"sweat smile\">:sweat_smile:</span></p>",
+        "id": 228744752,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1614852075
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"378472\">Dylan Braithwaite</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/228737449\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275901\">Jules Hedges</span> <a href=\"#narrow/stream/229199-learning.3A-questions/topic/beginner.20questions/near/228571446\">said</a>:</p>\n<blockquote>\n<p>I think the true answer is actually closer to \"game theory is a kind of machine learning\" than the other way round</p>\n</blockquote>\n<p>The correspondence I've seen already is that there's a functor from learners into games, which initially seems to suggest the converse to that. Does that suggest there's an interesting map in the other direction?</p>\n</blockquote>\n<p>If you take the definitions exactly as given in Backprop As Functor and Compositional Game Theory then in a completely literal sense you get a functor from learners to games (I wrote the construction in this short tech report: <a href=\"https://arxiv.org/abs/1902.08666\">https://arxiv.org/abs/1902.08666</a>), and I think not the other way. But in private we've been fiddling with the definitions of both so they are both subsumed under a single definition, since we had a gut feeling that it was a good idea. Mostly this involves making learners look more like games. In particular, almost all of the differences between the 2 papers arise from the fact that they're not talking about the differentiable structure that's in machine learning, they stick to Set (which in turn buys them some more generality to talk about other kinds of learners that don't use differentiation). Once you put the differentiable structure back into Backprop As Functor it <em>really</em> starts to look the same as open games - not that there's an adjunction or even an equivalence, but that they're literally the same category</p>",
+        "id": 228750781,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1614854947
+    },
+    {
+        "content": "<p>Exactly - I'm still quite fascinated that it's now plausible to say that <em>exactly the same structure might be shared by learners and open games</em>. Now I'm actually thinking it might even be a good idea to create a stream here about category theory &amp; machine learning... there's definitely papers piling up, having finally  uploaded ours! :) <a href=\"https://arxiv.org/abs/2103.01931\">Categorical Foundations of Gradient-Based Learning</a></p>",
+        "id": 228807798,
+        "sender_full_name": "Bruno Gavranović",
+        "timestamp": 1614876490
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276875\">@Bruno Gavranovic</span> do you want to mention that paper over on <a class=\"stream\" data-stream-id=\"258900\" href=\"/#narrow/stream/258900-practice.3A-our-papers\">#practice: our papers</a> ?</p>",
+        "id": 228808095,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1614876600
+    },
+    {
+        "content": "<p>Ah, I was just looking if there's a place to mention papers. Yes I will!</p>",
+        "id": 228808261,
+        "sender_full_name": "Bruno Gavranović",
+        "timestamp": 1614876641
+    },
+    {
+        "content": "<p>Please do create that stream on category theory &amp; machine learning! I would really like to teach a course on that, but I need some good arguments to convince the rest of my department...</p>",
+        "id": 228872878,
+        "sender_full_name": "Peter Arndt",
+        "timestamp": 1614902480
+    },
+    {
+        "content": "<p>I’m reading Baez’s argument on Bayesian statistics. It’s interesting how he connects informational evolution and biological evolution.</p>",
+        "id": 234258209,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1618280190
+    },
+    {
+        "content": "<p>I'm reading this article \"Mathematics for AI: Categories, Toposes, Types\": <a href=\"https://www.cambridge.org/core/books/mathematics-for-future-computing-and-communications/mathematics-for-ai-categories-toposes-types/F75B023A3C42FAB5D4F186376216FC76\">https://www.cambridge.org/core/books/mathematics-for-future-computing-and-communications/mathematics-for-ai-categories-toposes-types/F75B023A3C42FAB5D4F186376216FC76</a></p>\n<p>Here it talks about topos of a chain of feedforward neural network (is it just chain of neurons or actually chain of networks??). <a href=\"/user_uploads/21317/yAoFFFfHiUSbCSapCw46XvGZ/image.png\">image.png</a> What does \"freely generated\" mean? Does \"possible activities\" mean the number of neurons that are active? Is <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>w</mi><mrow><mi>b</mi><mi>a</mi></mrow></msub></mrow><annotation encoding=\"application/x-tex\">w_{ba}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.5806em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.02691em;\">w</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3361em;\"><span style=\"top:-2.55em;margin-left:-0.0269em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathnormal mtight\">ba</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span> the same of <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msub><mi>W</mi><mrow><mi>b</mi><mi>a</mi></mrow></msub></mrow><annotation encoding=\"application/x-tex\">W_{ba}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8333em;vertical-align:-0.15em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">W</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3361em;\"><span style=\"top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathnormal mtight\">ba</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span></span></span></span>? Does the functor sends a neuron to the multiplication of weights that precedes the neuron? What's the difference between <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>X</mi></mrow><annotation encoding=\"application/x-tex\">X</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07847em;\">X</span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">Π</mi></mrow><annotation encoding=\"application/x-tex\">\\Pi</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\">Π</span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>w</mi></mrow><annotation encoding=\"application/x-tex\">w</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02691em;\">w</span></span></span></span>? What is the functor <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"double-struck\">X</mi></mrow><annotation encoding=\"application/x-tex\">\\mathbb{X}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6889em;\"></span><span class=\"mord mathbb\">X</span></span></span></span> trying to say? Since <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msubsup><mi>w</mi><mi>a</mi><mo mathvariant=\"normal\" lspace=\"0em\" rspace=\"0em\">′</mo></msubsup></mrow><annotation encoding=\"application/x-tex\">w_a&#x27;</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.9989em;vertical-align:-0.247em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.02691em;\">w</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.7519em;\"><span style=\"top:-2.453em;margin-left:-0.0269em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">a</span></span></span><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">′</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.247em;\"><span></span></span></span></span></span></span></span></span></span> is undefined, I understand it as multiplying all the preceding weights like $W_a$, is the map <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><msub><mi>w</mi><mrow><mi>b</mi><mi>a</mi></mrow></msub><mo separator=\"true\">,</mo><msubsup><mi>w</mi><mi>a</mi><mo mathvariant=\"normal\" lspace=\"0em\" rspace=\"0em\">′</mo></msubsup><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">(w_{ba},w_a&#x27;)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1.0019em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.02691em;\">w</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.3361em;\"><span style=\"top:-2.55em;margin-left:-0.0269em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathnormal mtight\">ba</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.15em;\"><span></span></span></span></span></span></span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\"><span class=\"mord mathnormal\" style=\"margin-right:0.02691em;\">w</span><span class=\"msupsub\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.7519em;\"><span style=\"top:-2.453em;margin-left:-0.0269em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathnormal mtight\">a</span></span></span><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">′</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.247em;\"><span></span></span></span></span></span></span><span class=\"mclose\">)</span></span></span></span> removing the weights between <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi></mrow><annotation encoding=\"application/x-tex\">a</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">a</span></span></span></span> and <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>b</mi></mrow><annotation encoding=\"application/x-tex\">b</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">b</span></span></span></span> to get weights up to <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>a</mi></mrow><annotation encoding=\"application/x-tex\">a</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord mathnormal\">a</span></span></span></span>? Is there a logical reason of defining such a presheaf? </p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/yAoFFFfHiUSbCSapCw46XvGZ/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/yAoFFFfHiUSbCSapCw46XvGZ/image.png\"></a></div><p>Here it talks about the subobject classifier of this topos, which I know exists but not sure why (How to get the subobject classifier out of a topos? <br>\n Can anyone provide a reference?). What does \"localization <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mn mathvariant=\"double-struck\">1</mn><mi mathvariant=\"normal\">∣</mi><mi>a</mi></mrow><annotation encoding=\"application/x-tex\">\\mathbb{1}|a</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">1∣</span><span class=\"mord mathnormal\">a</span></span></span></span> mean? Why is it increasingly determined from initial layer to final layer? Why is it the \"output information that an external observer can <strong>deduce</strong> from the activity within the inner layers\"? <a href=\"/user_uploads/21317/_Q77JByv1TzHgezzAaRYQDzJ/image.png\">image.png</a> </p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/_Q77JByv1TzHgezzAaRYQDzJ/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/_Q77JByv1TzHgezzAaRYQDzJ/image.png\"></a></div><p>Here it's talking about geometric morphism. Should I understand <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>P</mi><mo stretchy=\"false\">(</mo><mi>A</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">P(A)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">P</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">A</span><span class=\"mclose\">)</span></span></span></span> as the power set here? (which can be identified with subobject classifiers) <a href=\"/user_uploads/21317/VK5WpYbaE5CxxQioWdcSvj3N/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/VK5WpYbaE5CxxQioWdcSvj3N/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/VK5WpYbaE5CxxQioWdcSvj3N/image.png\"></a></div>",
+        "id": 271662047,
+        "sender_full_name": "Peiyuan Zhu",
+        "timestamp": 1644630851
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>From the introduction of my thesis:<br>\n<a href=\"/user_uploads/21317/SZrDu7KUMfu5A3YSkR7Em6Qt/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/SZrDu7KUMfu5A3YSkR7Em6Qt/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/SZrDu7KUMfu5A3YSkR7Em6Qt/image.png\"></a></div>",
+        "id": 283963946,
+        "sender_full_name": "Owen Lynch",
+        "timestamp": 1653532653
+    },
+    {
+        "content": "<p>Using an olog to summarize ideas in the introduction: I like it!</p>",
+        "id": 283967791,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1653537779
+    },
+    {
+        "content": "<p>Related: a dependency graph of sections:<br>\n<a href=\"/user_uploads/21317/qgD0TsR9WZ279aWO8pkKRAlX/image.png\">image.png</a></p>\n<div class=\"message_inline_image\"><a href=\"/user_uploads/21317/qgD0TsR9WZ279aWO8pkKRAlX/image.png\" title=\"image.png\"><img src=\"/user_uploads/21317/qgD0TsR9WZ279aWO8pkKRAlX/image.png\"></a></div>",
+        "id": 284028733,
+        "sender_full_name": "Owen Lynch",
+        "timestamp": 1653582862
+    },
+    {
+        "content": "<p>Nice.    </p>\n<p>I'm glad it's a DAG.   <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 284060254,
+        "sender_full_name": "John Baez",
+        "timestamp": 1653598591
+    },
+    {
+        "content": "<p>Usually in practice I find they are not -- I have to read the introduction so I can understand the rest of the chapters, then read the rest of the chapters so I can understand the introduction.  <span aria-label=\"counterclockwise\" class=\"emoji emoji-1f504\" role=\"img\" title=\"counterclockwise\">:counterclockwise:</span></p>",
+        "id": 284061432,
+        "sender_full_name": "James Deikun",
+        "timestamp": 1653599225
+    },
+    {
+        "content": "<p>Page X of Gabriel and Zisman has a \"leitfaden\" which is NOT a DAG.</p>",
+        "id": 290690843,
+        "sender_full_name": "Ellis D. Cooper",
+        "timestamp": 1658683308
+    },
+    {
+        "content": "<p>The question is, does it have non-trivial monodromy?</p>",
+        "id": 290706529,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1658706885
+    },
+    {
+        "content": "<p>Each time you go around, your understanding gets multiplied by a matrix.   Writing your understanding as a linear combination of eigenvectors, the components with eigenvalues <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>λ</mi></mrow><annotation encoding=\"application/x-tex\">\\lambda</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">λ</span></span></span></span> with <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">∣</mi><mi>λ</mi><mi mathvariant=\"normal\">∣</mi><mo>&lt;</mo><mn>1</mn></mrow><annotation encoding=\"application/x-tex\">|\\lambda| &lt; 1</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">∣</span><span class=\"mord mathnormal\">λ</span><span class=\"mord\">∣</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">&lt;</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">1</span></span></span></span> decay each time you reread the book - these are the misunderstandings - while those with <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">∣</mi><mi>λ</mi><mi mathvariant=\"normal\">∣</mi><mo>&gt;</mo><mn>1</mn></mrow><annotation encoding=\"application/x-tex\">|\\lambda| &gt; 1</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">∣</span><span class=\"mord mathnormal\">λ</span><span class=\"mord\">∣</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">&gt;</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6444em;\"></span><span class=\"mord\">1</span></span></span></span> grow.</p>",
+        "id": 290785535,
+        "sender_full_name": "John Baez",
+        "timestamp": 1658766949
+    }
+]

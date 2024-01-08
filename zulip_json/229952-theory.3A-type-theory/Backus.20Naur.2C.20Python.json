@@ -1,0 +1,56 @@
+[
+    {
+        "content": "<p>Curious if there’s a dense, pure definition of category theoretic objects as a tight, rigorous language - could be like an extended Bacchus Naur Form description of category theory, axiomatically / as a formal language?</p>\n<p>I’m personally try to make sure I have some basic definitions solidified. Seven Sketches of Compositionality, the book I’m working with, does not provide definitions of sets or logical concepts, beyond “a collection of things”.</p>\n<p>But my early attempt would be something like this (maybe to come, in Python).</p>\n<p>We could take the Python set object as the mathematical concept of a set. To add structure we can define new classes.</p>\n<p>What might a list of definitions look like?</p>\n<p>We probably need products and subsets next?</p>\n<p>Products are tuples in Python.</p>\n<p>A subset is a set, the parent / superset set, and the “subset function” that tests the truth condition “is subset”: so its signature is actually a triple, A, B, f. Right? def subset(A, B): condition = False; for element in B: if element not in A: condition = False; return condition</p>\n<p>I imagine there’s a more pythonic way using a list processing method like a map or filter or something.</p>\n<p>And then? I’ll see what is needed next. I know a relation is actually a subset of a product set. A function is a relation with a certain condition expressed in logical quantifiers, I think? two sets A B, for each b in B, there exists one and only one a in A such that the tuple in the subset of the product set of A and B has b in second place.</p>\n<p>So we skipped over sets and logic, but it doesn’t matter since we already roughly have it in Python. We define a preorder as a binary relation which is reflexive and transitive. Like subsets, perhaps, all concepts can be defined as a signature of objects <em>and</em> functions they have to pass - their conditions?</p>",
+        "id": 377619260,
+        "sender_full_name": "Julius",
+        "timestamp": 1690036996
+    },
+    {
+        "content": "<p>Are you asking whether there exists a Python implementation of categories? In any case, you might be interested in the book <em>Category theory for computer science</em> if you're interested in how categories are both conceptually and practically useful in CS. Or if you just want a formal mathematical definition, pick up any mathematically oriented book on the subject.</p>",
+        "id": 377648813,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1690045580
+    },
+    {
+        "content": "<p>Yes: you can axiomatize the theory of a category using \"regular logic\" (existential Horn clauses); we have for example done this in CQL.  You can also also axiomatize categories more directly using first-order logic with dependent sorts (<a href=\"https://ncatlab.org/nlab/show/FOLDS\">https://ncatlab.org/nlab/show/FOLDS</a>).    Finally, there are many python implementations of category theory; here's one: <a href=\"https://www.philipzucker.com/computational-category-theory-in-python-i-dictionaries-for-finset/\">https://www.philipzucker.com/computational-category-theory-in-python-i-dictionaries-for-finset/</a> .  However, the biggest category theory libraries are in e.g. Coq, Agda, Lean, etc.</p>",
+        "id": 377654502,
+        "sender_full_name": "Ryan Wisnesky",
+        "timestamp": 1690047773
+    },
+    {
+        "content": "<p>Specifically regarding the topic of \"what is a set?\", looking at a book on set theory would be one way to get more detail. I have not read this book, but \"Naive Set Theory\" by Halmos looks like it might be a reasonable starting point.</p>\n<p>Interestingly, the very start of that book says this:</p>\n<blockquote>\n<p>One thing that the development will not include is a definition of sets. The situation is analogous to the familiar axiomatic approach to elementary geometry. That approach does not offer a definition of points and lines; instead it describes what it is that one can do with those objects.</p>\n</blockquote>\n<p>For example, the author then goes on to talk about how sets can \"have elements\", and how sets can \"be equal\", and that the axiom of extensionality says that two sets are equal exactly when they have all the same elements. So, one can begin to work with sets without really defining what a set itself is.</p>",
+        "id": 377656184,
+        "sender_full_name": "David Egolf",
+        "timestamp": 1690048497
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"629908\">Julius</span> <a href=\"#narrow/stream/229952-theory.3A-type-theory/topic/Bacchus.20Naur.2C.20Python/near/377619260\">said</a>:</p>\n<blockquote>\n<p>Curious if there’s a dense, pure definition of category theoretic objects as a tight, rigorous language - could be like an extended Bacchus Naur Form description of category theory, axiomatically / as a formal language?</p>\n<p>I’m personally try to make sure I have some basic definitions solidified. Seven Sketches of Compositionality, the book I’m working with, does not provide definitions of sets or logical concepts, beyond “a collection of things”.</p>\n<p>But my early attempt would be something like this (maybe to come, in Python).</p>\n<p>We could take the Python set object as the mathematical concept of a set. To add structure we can define new classes.</p>\n<p>What might a list of definitions look like?</p>\n<p>We probably need products and subsets next?</p>\n<p>Products are tuples in Python.</p>\n<p>A subset is a set, the parent / superset set, and the “subset function” that tests the truth condition “is subset”: so its signature is actually a triple, A, B, f. Right? def subset(A, B): condition = False; for element in B: if element not in A: condition = False; return condition</p>\n<p>I imagine there’s a more pythonic way using a list processing method like a map or filter or something.</p>\n<p>And then? I’ll see what is needed next. I know a relation is actually a subset of a product set. A function is a relation with a certain condition expressed in logical quantifiers, I think? two sets A B, for each b in B, there exists one and only one a in A such that the tuple in the subset of the product set of A and B has b in second place.</p>\n<p>So we skipped over sets and logic, but it doesn’t matter since we already roughly have it in Python. We define a preorder as a binary relation which is reflexive and transitive. Like subsets, perhaps, all concepts can be defined as a signature of objects <em>and</em> functions they have to pass - their conditions?</p>\n</blockquote>\n<p>In a dependently typed language such as FOLDS , which was already mentioned above, the concepts category, object and morphism are primitives and you don't have to ever say \"set\" in such a language if you don't want to. You can of course add a category \"Set\" to such a language and axiomatise some of its categorical properties in the spirit of ETCS for example.</p>",
+        "id": 379453963,
+        "sender_full_name": "Nico Beck",
+        "timestamp": 1690541321
+    },
+    {
+        "content": "<p>I'm changing the title of this post from \"Bacchus Naur\" to \"Backus Naur\" even though I <em>really love</em> the idea that the Roman god of wine and festivity has a computer science concept named after him.</p>",
+        "id": 379456374,
+        "sender_full_name": "John Baez",
+        "timestamp": 1690541749
+    },
+    {
+        "content": "<p>heh, there's always the \"Ballmer peak\": <a href=\"https://xkcd.com/323/\">https://xkcd.com/323/</a></p>",
+        "id": 379580350,
+        "sender_full_name": "Ryan Wisnesky",
+        "timestamp": 1690564507
+    },
+    {
+        "content": "<p>I don't mean to pick on your choice of example but Python is not a good choice of formal language to make this comparison. Python, like Javascript or other interpreted scripting languages, is a very rich and complex language to the point where giving a semantics for it is impossible. If you try to translate math into Python to make it more rigorous, you will quickly run into the problem that Python itself is not very rigorous.</p>\n<p>It would be better for you to look into other formal languages like ZFC set theory, higher order logic (see \"Simple Type Theory\" by W. Farmer),  dependent type theory (\"Type theory and formal proof\" by Geuvers and Nederpelt)<br>\n Coq, Agda, Lean, etc. But really an informal mathematical book on set theory like the one by Halmos would be more practical.</p>",
+        "id": 379675130,
+        "sender_full_name": "Patrick Nicodemus",
+        "timestamp": 1690596323
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"629908\">Julius</span> <a href=\"#narrow/stream/229952-theory.3A-type-theory/topic/Backus.20Naur.2C.20Python/near/377619260\">said</a>:</p>\n<blockquote>\n<p>Curious if there’s a dense, pure definition of category theoretic objects as a tight, rigorous language - could be like an extended Bacchus Naur Form description of category theory, axiomatically / as a formal language?</p>\n</blockquote>\n<p>There's also recent work by New and Licata: <a href=\"https://link.springer.com/chapter/10.1007/978-3-031-30829-1_6\">A Formal Logic for Formal Category Theory</a>.</p>",
+        "id": 384532874,
+        "sender_full_name": "Josh Chen",
+        "timestamp": 1691942577
+    }
+]

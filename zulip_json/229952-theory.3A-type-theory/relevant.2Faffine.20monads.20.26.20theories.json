@@ -1,0 +1,32 @@
+[
+    {
+        "content": "<p>Hi, I keep coming back to the following question and I can't seem to find good references.</p>\n<p>Given a monad T, there are some well known conditions (necessary and sufficient, I think) on the monad to let you interpret its category of algebras in various type theories:</p>\n<p>Strong monad -&gt; Moggi's monadic metalanguage/Call-by-push-value<br>\nCommutative monad -&gt; Symmetric monoidal categories/linear logic w/ just exchange</p>\n<p>And furthermore if T is the monad from an algebraic theory there are conditions on the theory that are equivalent to the conditions on the monad:</p>\n<p>Strong monad -&gt; any theory <br>\nCommutative monad -&gt; commutative theory (all operations commute)</p>\n<p>Can anyone help me find a reference for the two intermediate notions:<br>\n?? theory -&gt; ?? monad -&gt; semicartesian monoidal category/affine logic (linear logic + weakening)<br>\n?? theory -&gt; ?? monad -&gt; relevance monoidal category/relevance logic (linear logic + contraction)</p>\n<p>I could have sworn I've seen them before, but I am coming up empty. I'd like to put them on nlab so I don't lose them again.</p>",
+        "id": 294365296,
+        "sender_full_name": "Max New",
+        "timestamp": 1660944345
+    },
+    {
+        "content": "<p>Hi Max, I think they're usually called relevant and affine monads, already in Bart Jacobs' Semantics of Weakening and Contraction, where there's more discussion of the history. Bart and others have written more about it since too, of course. <br>\nAn affine theory is one where f(x,x,x...) = x for all f. These are sometimes called \"modes\", and include the theory of convex sets.<br>\nIn programming languages we also talk about \"discardable\" and \"copyable\" effects, which are related similarly, as you probably know. <br>\nDoes that help?</p>",
+        "id": 294395850,
+        "sender_full_name": "Sam Staton",
+        "timestamp": 1660974270
+    },
+    {
+        "content": "<p>Very helpful, thanks. I started a table on this page: <a href=\"https://ncatlab.org/nlab/show/side+effect\">https://ncatlab.org/nlab/show/side+effect</a> I should probably add a column for the discardable/copyable/central/thunkable stuff.</p>",
+        "id": 294471031,
+        "sender_full_name": "Max New",
+        "timestamp": 1661020116
+    },
+    {
+        "content": "<p>Nice. Reminds me a bit of the table in <span class=\"user-mention\" data-user-id=\"276694\">@Ohad Kammar</span> 's paper thesis work, e.g. <a href=\"https://dl.acm.org/doi/10.1145/2103656.2103698\">POPL 2012</a> or <a href=\"https://era.ed.ac.uk/bitstream/handle/1842/8910/Kammar2014.pdf?sequence=1&amp;isAllowed=y\">his thesis</a> page 255.</p>",
+        "id": 294556912,
+        "sender_full_name": "Sam Staton",
+        "timestamp": 1661096334
+    },
+    {
+        "content": "<p>Oh this table is great! Exactly what I was looking for thanks</p>",
+        "id": 299835873,
+        "sender_full_name": "Max New",
+        "timestamp": 1663703169
+    }
+]

@@ -1,0 +1,194 @@
+[
+    {
+        "content": "<p>TL;DR: <strong>Do you know who first studied lax functors in Span(Set) and their 'Grothendieck' construction?</strong></p>\n<p>At <a href=\"https://ncatlab.org/nlab/show/displayed%20category\">[[displayed category]]</a> Benabou is credited for the correspondence between functors <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>D</mi><mo>→</mo><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">D \\to C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">D</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span> and normal lax functors <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi><mo>→</mo><mrow><mi mathvariant=\"bold\">P</mi><mi mathvariant=\"bold\">r</mi><mi mathvariant=\"bold\">o</mi><mi mathvariant=\"bold\">f</mi></mrow></mrow><annotation encoding=\"application/x-tex\">C \\to \\bf Prof</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord\"><span class=\"mord mathbf\" style=\"margin-right:0.10903em;\">Prof</span></span></span></span></span>, citing Streicher's notes of his lectures in Darmstadt from 2000 (though it is clear from the notes their contents have been known to Benabou &amp; his circle for at least 30 years prior).<br>\nHowever, I can't trace a reference to the fact functors <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>D</mi><mo>→</mo><mi>C</mi></mrow><annotation encoding=\"application/x-tex\">D \\to C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.02778em;\">D</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span></span></span></span> are lax functor <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>C</mi><mo>→</mo><mrow><mi mathvariant=\"double-struck\">S</mi><mi mathvariant=\"bold\">p</mi><mi mathvariant=\"bold\">a</mi><mi mathvariant=\"bold\">n</mi><mo stretchy=\"false\">(</mo><mi mathvariant=\"bold\">S</mi><mi mathvariant=\"bold\">e</mi><mi mathvariant=\"bold\">t</mi><mo stretchy=\"false\">)</mo></mrow></mrow><annotation encoding=\"application/x-tex\">C \\to \\bf \\mathbb Span(Set)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\"><span class=\"mord mathbb\">S</span><span class=\"mord mathbf\">pan</span><span class=\"mopen\">(</span><span class=\"mord mathbf\">Set</span><span class=\"mclose\">)</span></span></span></span></span>, especially to the relative Grothendieck construction which I'd like to rename to something less confusing (ideally, 'X construction' where X is the name of the person who figured it out first, but if you have better proposals I'll listen).</p>",
+        "id": 306266801,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1666798108
+    },
+    {
+        "content": "<p>I too would love to know more about the history of this.</p>",
+        "id": 306292602,
+        "sender_full_name": "John Baez",
+        "timestamp": 1666805380
+    },
+    {
+        "content": "<p>In Street's <a href=\"http://web.science.mq.edu.au/~street/Pow.fun.pdf\">note on *Powerful functors*</a>, the citation for this correspondence reads:</p>\n<blockquote>\n<p>J. Bénabou, Lectures at Oberwolfach (Germany) and other places, 1972 – 1995.</p>\n</blockquote>",
+        "id": 306367619,
+        "sender_full_name": "Alexander Campbell",
+        "timestamp": 1666841421
+    },
+    {
+        "content": "<p>The abstract for Bénabou's 1972 Oberwolfach talk can be found on pages 6-7 of the Tagungsbericht found here (at the bottom of the page): <a href=\"https://oda.mfo.de/handle/mfo/1575\">https://oda.mfo.de/handle/mfo/1575</a>, which shows that his talk was indeed about this constrution, although the abstract does not go as far as to actually give the construction or state the correspondence theorem.</p>",
+        "id": 306367739,
+        "sender_full_name": "Alexander Campbell",
+        "timestamp": 1666841502
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"277459\">@Alexander Campbell</span> Aren't those references about Prof, not Span?</p>",
+        "id": 306367964,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1666841684
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/232163-learning.3A-history-of-ideas/topic/lax.20functors.20in.20Span.20.26.20their.20Grothendieck.20construction/near/306367964\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"277459\">Alexander Campbell</span> Aren't those references about Prof, not Span?</p>\n</blockquote>\n<p>Oops, you're quite right, I didn't read Matteo's question carefully enough!</p>",
+        "id": 306367992,
+        "sender_full_name": "Alexander Campbell",
+        "timestamp": 1666841732
+    },
+    {
+        "content": "<p>I made the same mistake myself at first, but caught it before posting... (-:</p>",
+        "id": 306369276,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1666842838
+    },
+    {
+        "content": "<p>Thomas Streicher might know....</p>",
+        "id": 306389127,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1666855309
+    },
+    {
+        "content": "<p>Thanks anyway <span class=\"user-mention\" data-user-id=\"277459\">@Alexander Campbell</span> :) I'm happy to have a better reference for the construction for displayed categories anyway (pushing it to nLab now)</p>",
+        "id": 306390176,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1666855782
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276422\">David Michael Roberts</span> <a href=\"#narrow/stream/232163-learning.3A-history-of-ideas/topic/lax.20functors.20in.20Span.20.26.20their.20Grothendieck.20construction/near/306389127\">said</a>:</p>\n<blockquote>\n<p>Thomas Streicher might know....</p>\n</blockquote>\n<p>Good point... If no one comes forward with anything here I'll email him</p>",
+        "id": 306390271,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1666855806
+    },
+    {
+        "content": "<p>I remember when <span class=\"user-mention\" data-user-id=\"275914\">@Joe Moeller</span> and I were writing about this, one author said it was folklore (do you remember which?)</p>",
+        "id": 306402435,
+        "sender_full_name": "Jade Master",
+        "timestamp": 1666860659
+    },
+    {
+        "content": "<p>oh no, not the F-word <span aria-label=\"worried\" class=\"emoji emoji-1f61f\" role=\"img\" title=\"worried\">:worried:</span></p>",
+        "id": 306405609,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1666861847
+    },
+    {
+        "content": "<p>though 'folklore construction' sounds good</p>",
+        "id": 306405651,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1666861867
+    },
+    {
+        "content": "<p>In <a href=\"https://www.kestrel.edu/people/pavlovic/papers/SIC.pdf\">(1997)</a>, Pavlović and Abramsky say they can't even cite folklore, but consider it too basic to be unknown. Surely it was already known to Benabou due to the closely related fact about monads in Span(Set) – if only he had published  the promised part II of 'Introduction to bicategories'.</p>",
+        "id": 306425889,
+        "sender_full_name": "Matt Earnshaw",
+        "timestamp": 1666869808
+    },
+    {
+        "content": "<p>Yes, it was Pavlović and Abramsky we were looking at <span class=\"user-mention\" data-user-id=\"276037\">@Jade Master</span></p>",
+        "id": 306459542,
+        "sender_full_name": "Joe Moeller",
+        "timestamp": 1666880204
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277812\">Matt Earnshaw</span> <a href=\"#narrow/stream/232163-learning.3A-history-of-ideas/topic/lax.20functors.20in.20Span.20.26.20their.20Grothendieck.20construction/near/306425889\">said</a>:</p>\n<blockquote>\n<p>In <a href=\"https://www.kestrel.edu/people/pavlovic/papers/SIC.pdf\">(1997)</a>, Pavlović and Abramsky say they can't even cite folklore, but consider it too basic to be unknown. Surely it was already known to Benabou due to the closely related fact about monads in Span(Set) – if only he had published  the promised part II of 'Introduction to bicategories'.</p>\n</blockquote>\n<p>I wonder what it means to 'find a reference in [..] folklore' lol</p>",
+        "id": 306462516,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1666881184
+    },
+    {
+        "content": "<p>I see, so we get to give it a descriptive name instead of a patronymic</p>",
+        "id": 306462631,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1666881222
+    },
+    {
+        "content": "<p>Reference in folklore struck me as funny too. I guess \"private communication\", \"mimeographed lecture notes\", \"unpublished manuscript\", etc. would be species of this...</p>",
+        "id": 306487309,
+        "sender_full_name": "Matt Earnshaw",
+        "timestamp": 1666887952
+    },
+    {
+        "content": "<p>I don't know.  \"Private communication\" etc. don't strike me as forms of folklore.  You still have a source for the ideas with private communication, even if the reader cannot (easily) find the actual reference.  I think \"folklore\" indicates a large part of the community knows about X, but nobody knows who first came up with X, often because X is so basic that \"anybody\" could have come up with it.</p>",
+        "id": 306492559,
+        "sender_full_name": "Jason Erbele",
+        "timestamp": 1666889364
+    },
+    {
+        "content": "<p>cf <a href=\"https://ncatlab.org/nlab/show/folklore\">[[folklore]]</a></p>",
+        "id": 306493702,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1666889645
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"309257\">Jason Erbele</span> <a href=\"#narrow/stream/232163-learning.3A-history-of-ideas/topic/lax.20functors.20in.20Span.20.26.20their.20Grothendieck.20construction/near/306492559\">said</a>:</p>\n<blockquote>\n<p>I don't know.  \"Private communication\" etc. don't strike me as forms of folklore.</p>\n</blockquote>\n<p>they are perhaps forms of \"references in folklore\", referenced in the above reference</p>",
+        "id": 306513613,
+        "sender_full_name": "Matt Earnshaw",
+        "timestamp": 1666895867
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"309257\">Jason Erbele</span> <a href=\"#narrow/stream/232163-learning.3A-history-of-ideas/topic/lax.20functors.20in.20Span.20.26.20their.20Grothendieck.20construction/near/306492559\">said</a>:</p>\n<blockquote>\n<p>I don't know.  \"Private communication\" etc. don't strike me as forms of folklore.  You still have a source for the ideas with private communication, even if the reader cannot (easily) find the actual reference.  I think \"folklore\" indicates a large part of the community knows about X, but nobody knows who first came up with X, often because X is so basic that \"anybody\" could have come up with it.</p>\n</blockquote>\n<p>I think there's also a pragmatic definition of folklore, which is that if I or almost anybody else cannot easily access the source, it is effectively folklore. Even if there is a theorem in a published paper, but it's never been scanned, and physical copies are very hard to come by, it might as well be folklore to me. I should go read <a href=\"https://ncatlab.org/nlab/show/folklore\">[[folklore]]</a> as Mike is suggesting though.</p>",
+        "id": 306515822,
+        "sender_full_name": "Joe Moeller",
+        "timestamp": 1666896596
+    },
+    {
+        "content": "<p>One notion of folklore that is fairly robust to the point of being nearly citable is if a bunch of people can point to a conference where a certain idea arose out of multiple interlinked discussions, and then  a year or so later people started publishing papers using the idea, but no one can lay claim to have come up with it, and there's no one source to cite, but the idea has a definite origin in time that people can point to.</p>\n<p>As opposed to something that no one can remember where they heard it first or it seems obvious and is not that difficult to sit down and prove, and it's used without much comment, as a form of basic fact. By this I don't mean results that seem like they are should be true, but which actually are non-trivial to prove to some degree or other (cf the Caramello affair). That to me falls in a different category.</p>",
+        "id": 306564378,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1666918059
+    },
+    {
+        "content": "<blockquote>\n<p>One notion of folklore that is fairly robust to the point of being nearly citable is if a bunch of people can point to a conference where a certain idea arose out of multiple interlinked discussions, and then a year or so later people started publishing papers using the idea, but no one can lay claim to have come up with it, and there's no one source to cite, but the idea has a definite origin in time that people can point to.</p>\n</blockquote>\n<p>If there are actual references for an idea, even if the authors say that the idea was not due to them (but do not necessarily recall to whom the idea is due), then it's not folklore. The primary problem with folklore isn't that the progenitor isn't known, but that there aren't any reference for precise statements and proofs. Sometimes you see authors write something like: \"The following lemma is folklore.\", which is probably fine (though in some of these situations it does seem to be a a shorthand for \"I didn't want to put in the effort to work out to whom the idea should be attributed.\"), but as soon as the result has been written out, it is no longer folklore.</p>",
+        "id": 306635739,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1666957139
+    },
+    {
+        "content": "<p>To me the term 'folklore' stresses more the common knowledge of a fact or praxis than an inaccessibility of a source for it. In a sense also traceable facts can become folkloric in being widely known and used without always referencing the original source. Unfortunately some things are never published, in any form, so the initial source is lost even though word of mouth/praxis popularizes the idea nonetheless.</p>",
+        "id": 306718967,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1666980391
+    },
+    {
+        "content": "<p>For some reason category theorists seem to be particularly prone to this phenomenon, having some of the founding fathers avoided publication of lots of non-trivial stuff.</p>",
+        "id": 306719447,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1666980547
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/232163-learning.3A-history-of-ideas/topic/lax.20functors.20in.20Span.20.26.20their.20Grothendieck.20construction/near/306719447\">said</a>:</p>\n<blockquote>\n<p>For some reason category theorists seem to be particularly prone to this phenomenon, having some of the founding fathers avoided publication of lots of non-trivial stuff.</p>\n</blockquote>\n<p>I suspect it's also partly due to the fact that so many facts in category theory have proofs that are straightforward and easy for experts to do in their head, but time-consuming and tedious to write down on paper.</p>",
+        "id": 306746439,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1666990054
+    },
+    {
+        "content": "<blockquote>\n<p>In a sense also traceable facts can become folkloric in being widely known and used without always referencing the original source.</p>\n</blockquote>\n<p>This is true, though I find it a rather objectionable practice.</p>",
+        "id": 306750093,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1666991431
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/232163-learning.3A-history-of-ideas/topic/lax.20functors.20in.20Span.20.26.20their.20Grothendieck.20construction/near/306746439\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/232163-learning.3A-history-of-ideas/topic/lax.20functors.20in.20Span.20.26.20their.20Grothendieck.20construction/near/306719447\">said</a>:</p>\n<blockquote>\n<p>For some reason category theorists seem to be particularly prone to this phenomenon, having some of the founding fathers avoided publication of lots of non-trivial stuff.</p>\n</blockquote>\n<p>I suspect it's also partly due to the fact that so many facts in category theory have proofs that are straightforward and easy for experts to do in their head, but time-consuming and tedious to write down on paper.</p>\n</blockquote>\n<p>I think this problem originates from the fact that academic life does not reward the practice of writing down explicit arguments because yeah yeah, whatever, it's obvious once you're in the circle of ideas. I'm not saying we should write <em>everything</em> up; I'm saying that when someone writes down something completely elementary at a painstaking level of detail and accuracy (with exactly zero occurrences of \"one easily sees that the diagram commutes\"), we should at least thank them instead of belittling their effort.</p>",
+        "id": 306820232,
+        "sender_full_name": "fosco",
+        "timestamp": 1667040803
+    },
+    {
+        "content": "<p>Anyway, more in topic: I suspect <span class=\"user-mention\" data-user-id=\"275932\">@Matteo Capucci (he/him)</span> asked this question because of me, so maybe I can explain at least in the main lies what motivated me.</p>\n<p>I have a construction that I can turn into either</p>\n<ul>\n<li>a normal oplax functor <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"script\">C</mi><mo>→</mo><mi>S</mi><mi>p</mi><mi>a</mi><mi>n</mi><mo stretchy=\"false\">(</mo><mi>C</mi><mi>a</mi><mi>t</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">{\\cal C}\\to Span(Cat)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord\"><span class=\"mord mathcal\" style=\"margin-right:0.05834em;\">C</span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\">Sp</span><span class=\"mord mathnormal\">an</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mord mathnormal\">a</span><span class=\"mord mathnormal\">t</span><span class=\"mclose\">)</span></span></span></span></li>\n<li>a normal lax functor <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"script\">C</mi><mo>→</mo><mi>C</mi><mi>o</mi><mi>S</mi><mi>p</mi><mi>a</mi><mi>n</mi><mo stretchy=\"false\">(</mo><mi>C</mi><mi>a</mi><mi>t</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">{\\cal C}\\to CoSpan(Cat)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord\"><span class=\"mord mathcal\" style=\"margin-right:0.05834em;\">C</span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">→</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mord mathnormal\">o</span><span class=\"mord mathnormal\">Sp</span><span class=\"mord mathnormal\">an</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\" style=\"margin-right:0.07153em;\">C</span><span class=\"mord mathnormal\">a</span><span class=\"mord mathnormal\">t</span><span class=\"mclose\">)</span></span></span></span></li>\n</ul>\n<p>(clearly these constructions arise as dual to each other in a suitable sense, so they are \"essentially the same\")</p>\n<p>My problem is that I don't know if this defines some kind of displayed category over <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"script\">C</mi></mrow><annotation encoding=\"application/x-tex\">\\cal C</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord\"><span class=\"mord mathcal\" style=\"margin-right:0.05834em;\">C</span></span></span></span></span>, generalising/dualising/etc the Grothendieck-Bénabou construction: if it doesn't, it's completely useless for my purposes. </p>\n<p>What gets in the way is that \"oplax into Span\" part: it's not lax into Span; and even if I transform it into a lax functor, I fall in cospans. So, the blanket is always too short either way I turn the arrow!</p>",
+        "id": 306820529,
+        "sender_full_name": "fosco",
+        "timestamp": 1667040981
+    },
+    {
+        "content": "<p>(in turn, the question is motivated by me trying to exit a cul-de-sac in a work in progress with <span class=\"user-mention\" data-user-id=\"278816\">@Greta Coraglia</span> , who might be interested in adding a word)</p>",
+        "id": 306820765,
+        "sender_full_name": "fosco",
+        "timestamp": 1667041133
+    },
+    {
+        "content": "<p>(funnily enough, I started this I was thinking about lax functors in Span bc of a conversation with <span class=\"user-mention\" data-user-id=\"276037\">@Jade Master</span> and you posted about it at the same time!)</p>",
+        "id": 306827603,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1667044527
+    }
+]

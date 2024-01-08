@@ -1,0 +1,230 @@
+[
+    {
+        "content": "<p>Announcing a new Topos seminar series: Intercats</p>",
+        "id": 268053749,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1642185210
+    },
+    {
+        "content": "<p>INTERCATS: SEMINAR ON CATEGORICAL INTERACTION<br>\n=============================================</p>\n<p>ANNOUNCEMENT</p>\n<hr>\n<p>Intercats is a new seminar series on the mathematics of interacting systems, their composition, and their behaviour. Split in equal parts theory and applications, we are particularly interested in category-theoretic tools to make sense of information-processing or adaptive systems, or those that stand in a 'bidirectional' relationship to some environment. We aim to bring together researchers from different communities, who may already be using similar-but-different tools, in order to improve our own interaction.</p>\n<p>Seminars will be held every other Tuesday at 17:00 UTC, beginning on the 25th of January.</p>\n<p>Website: <a href=\"https://topos.site/intercats\">https://topos.site/intercats</a></p>\n<p>FIRST MEETING</p>\n<hr>\n<p>Speaker:  David Spivak</p>\n<p>Date: 2022 / 01 / 25</p>\n<p>Time: 17:00 UTC</p>\n<p>INTERCATS SCOPE</p>\n<hr>\n<p>Although by no means an exhaustive or prescriptive list, Intercats seminar topics are likely to be related to the following mathematical topics:</p>\n<ul>\n<li>Generalized lenses, optics, and related structures, such as Chu spaces or Dialectica categories;</li>\n<li>polynomial functors, and their associated ecosystem;</li>\n<li>applications of the foregoing to:<ul>\n<li>bidirectional processes,</li>\n<li>dynamical systems,</li>\n<li>wiring diagrams,</li>\n<li>open games,</li>\n<li>database theory,</li>\n<li>automatic differentiation,</li>\n<li>computational statistics,</li>\n<li>machine learning.</li>\n</ul>\n</li>\n</ul>\n<p>ORGANIZERS</p>\n<hr>\n<p>Jules Hedges, University of Strathclyde<br>\nDavid Spivak, Topos Institute<br>\nToby St Clere Smithe, Topos Institute</p>",
+        "id": 268053767,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1642185221
+    },
+    {
+        "content": "<p>First Intercats seminar in 30 minutes!</p>",
+        "id": 269282725,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1643128236
+    },
+    {
+        "content": "<p>David Spivak (Topos Institute)</p>\n<p>Abstract: Category theory offers an elegant, compositional, and well-interoperating framework in which to formalize many different sorts of interacting systems, including database, dynamical, software, learning, and game-playing systems.</p>\n<p>In this talk I'll start by giving a bird's-eye view of these applications. I'll then discuss polynomial functors and the associated framed bicategory Cat# of comonoids. I'll say a bit about how Cat# fits into the above stories and spend the remainder of the time trying to give a hint as to the astounding amount of structure this category has.</p>\n<p>One might think of Cat# like the complex numbers: simultaneously extremely useful in applications and extremely mathematically well-behaved, the combination of which gives a sense of its being more \"part of nature\" than \"human-made\".</p>",
+        "id": 269282775,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1643128267
+    },
+    {
+        "content": "<p>Next Intercats seminar, 2 hours from when I'm writing this message</p>\n<p>Introduction to Profunctor Optics<br>\nBartosz Milewski</p>\n<p>Abstract: Set-valued functors are a categorical answer to linear algebra. I will introduce profunctors and (co-)end calculus, and show how to use them to describe existential optics and their Tambara-based representations.</p>",
+        "id": 271139828,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1644332327
+    },
+    {
+        "content": "<p>Zoom link: <a href=\"https://topos-institute.zoom.us/j/88577027154?pwd=UkNhdm1iRElnZDdhMU5rSlRGMGlWdz09\">https://topos-institute.zoom.us/j/88577027154?pwd=UkNhdm1iRElnZDdhMU5rSlRGMGlWdz09</a></p>",
+        "id": 271157898,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1644339663
+    },
+    {
+        "content": "<p>Today's Intercats seminar at 5pm UTC: me</p>",
+        "id": 272795008,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1645532534
+    },
+    {
+        "content": "<p>Lenses and their generalisations: a guide to the design space<br>\nJules Hedges (University and College Union)<br>\nTue Feb 22, 17:00-18:00 (starts in 5 hours)</p>",
+        "id": 272795037,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1645532550
+    },
+    {
+        "content": "<p>Abstract: The number of variants of lens-like structures, plus some questionable terminology, can seem overwhelming. I will tour some of the main variants, with emphasis on exactly what conditions on the base category are necessary for the construction, and how they relate to each other. We will visit: (1) lenses over a cartesian category, (2) linear lenses over a monoidal closed category, (3) optics over a monoidal category, or more generally a pair of actegories, (4) dependent lenses over a category with pullbacks, or more generally an indexed category, and (5) polynomial natural transformations over a locally cartesian closed category. Unifying these motivates the problem of “dependent optics”, which will be the topic of several future seminars.</p>\n<p>I am on strike action during this talk and I represent myself as an independent researcher, not my employer. I will use some of my time to discuss this. More information about our grievances can be found here: <a href=\"http://www.ucu.org.uk/article/11896/Why-were-taking-action\">www.ucu.org.uk/article/11896/Why-were-taking-action</a></p>",
+        "id": 272795053,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1645532557
+    },
+    {
+        "content": "<p><a href=\"https://topos-institute.zoom.us/j/88577027154?pwd=UkNhdm1iRElnZDdhMU5rSlRGMGlWdz09\">https://topos-institute.zoom.us/j/88577027154?pwd=UkNhdm1iRElnZDdhMU5rSlRGMGlWdz09</a></p>",
+        "id": 272833297,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1645549191
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"275901\">@Jules Hedges</span> I just finished watching recording of the talk. You did a great job in providing an overview of the many generalisations of lenses and how they fit together!</p>",
+        "id": 272878741,
+        "sender_full_name": "Bryce Clarke",
+        "timestamp": 1645570722
+    },
+    {
+        "content": "<p>Do you know if slides from the Intercats series are being made available on the website?</p>",
+        "id": 272878812,
+        "sender_full_name": "Bryce Clarke",
+        "timestamp": 1645570762
+    },
+    {
+        "content": "<p>Thanks!</p>",
+        "id": 272929254,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1645611920
+    },
+    {
+        "content": "<p>Turns out yes, if you go to the \"past talks\" bit at the bottom of <a href=\"https://topos.site/intercats/\">https://topos.site/intercats/</a> there's links to slides for David and Bartosz... I didn't use slides, in theory I could think about converting my scribblings to pdf but it's a bit of a pain</p>",
+        "id": 272929369,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1645611964
+    },
+    {
+        "content": "<p>Dialectica Petri Nets<br>\nValeria de Paiva (Topos Institute)<br>\nTue Mar 8, 17:00-18:00 (starts in 6 hours)</p>\n<p>Abstract: The categorical modeling of Petri nets has been much investigated recently. We revisit the use of the Dialectica construction as a categorical model for Petri nets, generalizing the original application (Brown and Gurr) to suggest that Petri nets with different kinds of transitions can be modeled in the same categorical framework. Transitions representing truth-values, probabilities, rates or multiplicities, evaluated in different algebraic structures called lineales are useful and are modeled here in the same category. We investigate (categorical instances of) this generalized model and its connections to more recent models of categorical nets.</p>",
+        "id": 274527115,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1646738396
+    },
+    {
+        "content": "<p>Links here: <a href=\"https://topos.site/intercats/\">https://topos.site/intercats/</a></p>",
+        "id": 274527176,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1646738408
+    },
+    {
+        "content": "<p>Happening now!</p>",
+        "id": 274570250,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1646758768
+    },
+    {
+        "content": "<p>Damn, I missed that <span aria-label=\"frown\" class=\"emoji emoji-1f641\" role=\"img\" title=\"frown\">:frown:</span></p>",
+        "id": 274626401,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1646784444
+    },
+    {
+        "content": "<p>it's on the youtubes! <a href=\"https://www.youtube.com/watch?v=xysbkS3Jx24\">https://www.youtube.com/watch?v=xysbkS3Jx24</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"xysbkS3Jx24\" href=\"https://www.youtube.com/watch?v=xysbkS3Jx24\"><img src=\"https://uploads.zulipusercontent.net/b1552d20f98bfdbfbc8833b2bf5b3fdf5e2bd9d1/68747470733a2f2f692e7974696d672e636f6d2f76692f787973626b53334a7832342f64656661756c742e6a7067\"></a></div>",
+        "id": 274632469,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1646789086
+    },
+    {
+        "content": "<p>I'm not sure whether we're still in time zone purgatory or not, but today's Intercats is at 5pm UTC which is 4 hours-and-a-bit from the time of this message. That may or may not be the usual time if you're in North America</p>",
+        "id": 276182738,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1647953279
+    },
+    {
+        "content": "<p>Categories by proxy and the limits of Para<br>\nToby St Clere Smithe (Topos Institute)<br>\nTue Mar 22, 17:00-18:00 (starts in 4 hours)</p>\n<p>Abstract: The notion of parameterization is of great importance in categorical cybernetics, providing space for morphisms to be learnt, or for their choice to be 'externally' determined. At the same time, the concept of 'randomness pushback' tells us that the randomness of a stochastic channel can also (in nice circumstances) be so externalized, leaving instead a random choice of deterministic map. The usual perspective on parameterization is an 'internal' one, treating the parameter as a modification of a morphism's (co)domain. In general, however, this perspective is not wide enough to retain all the structure of the category at hand: an 'external' perspective seems mathematically, as well as philosophically, necessary. (In earlier work, we attempted to provide such an external perspective using an enriched-categorical notion of parameterization, but this is similarly insufficient.)</p>\n<p>Here, we describe an alternative perspective, considering an internal category parameterized by its 'external' universe. We build an indexed double category over the double category of spans in the universe, with each base object representing a choice of 'parameterizing context'. When the internal category has limits or a subobject classifier, so does its parameterization; with appropriate quotienting, so does the corresponding Grothendieck construction. By decorating the spans with (sub)distributions, the same facts hold true even in the stochastic case, suggesting semantics for notions of 'stochastic type' and 'stochastic term'. In this setting, we can reformulate Bayesian lenses as \"Bayesian dependent optics\", treating generative models as such stochastic terms.</p>",
+        "id": 276182825,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1647953304
+    },
+    {
+        "content": "<p>Links here: <a href=\"https://topos.site/intercats/\">https://topos.site/intercats/</a></p>",
+        "id": 276182839,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1647953312
+    },
+    {
+        "content": "<p>That would be <time datetime=\"2022-03-22T17:00:00Z\">2022-03-22T13:00:00-04:00</time> in your local time zone</p>",
+        "id": 276183201,
+        "sender_full_name": "Reid Barton",
+        "timestamp": 1647953496
+    },
+    {
+        "content": "<p>Oh amazing, that's a very useful button to know about</p>",
+        "id": 276183333,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1647953544
+    },
+    {
+        "content": "<p>Optics vs Lenses, Operationally<br>\nBruno Gavranović (University of Strathclyde)</p>\n<p>Abstract: Optics, lenses, prisms, and similar abstract gadgets are our best friends when it comes to modelling bidirectional processes. While optics are more general than lenses, it's understood that they're equivalent in the special setting of a cartesian monoidal category. Fixing the setting of a cartesian monoidal category, in this talk I'll explore how this equivalence is denotational in nature, and the result of erasure of important operational data. I'll advocate that the operational aspect is not optional, but rather crucial in using these gadgets to understand real-world systems.</p>",
+        "id": 277856693,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1649154813
+    },
+    {
+        "content": "<p>Links: <a href=\"https://topos.site/intercats/\">https://topos.site/intercats/</a></p>",
+        "id": 277856706,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1649154825
+    },
+    {
+        "content": "<p>Update: the website is in fact right, so the seminar is at <time datetime=\"2022-04-05T17:00:00Z\">2022-04-05T18:00:00+01:00</time></p>",
+        "id": 277884398,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1649167785
+    },
+    {
+        "content": "<p>Today: <br>\nConstructing lenses in double categories<br>\nBryce Clarke (Macquarie University)</p>\n<p>Abstract: Lenses are a family of mathematical structures used to model bidirectional transformations between systems. A common feature among all kinds of lenses is that they consist of a \"forwards\" component and a \"backwards\" component. A double category is a 2-dimensional categorical structure consisting of objects, two types of morphism (horizontal and vertical), and cells between them. A natural question arises: what if the forwards and backwards components of a lens were the horizontal and vertical morphisms in a double category?</p>\n<p>In this talk, I advocate for a double categorical approach to lenses, and demonstrate how many examples of lenses, particularly those satisfying \"lens laws\", may be built from the horizontal and vertical morphisms in a double category. A general process for constructing lenses inside any double category, called the \"right-connected completion\", is introduced and is shown to satisfy a universal property. Finally, we explore how many questions and properties of lenses may be understood in the setting of double categories.</p>",
+        "id": 279389472,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1650363465
+    },
+    {
+        "content": "<p><a href=\"https://topos.site/intercats/\">https://topos.site/intercats/</a></p>",
+        "id": 279389478,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1650363471
+    },
+    {
+        "content": "<p>Every time this gets bumped I think it's about intercategories.</p>",
+        "id": 279399756,
+        "sender_full_name": "Chad Nester",
+        "timestamp": 1650370258
+    },
+    {
+        "content": "<p>I'll be happy to answer any further questions here after the talk.</p>",
+        "id": 279418594,
+        "sender_full_name": "Bryce Clarke",
+        "timestamp": 1650379556
+    },
+    {
+        "content": "<p>My Intercats presentation from yesterday on \"Bidirectional compositionality in inference and stochastic optimization\"</p>\n<p><a href=\"https://m.youtube.com/watch?v=H9rPfr7srmA&amp;feature=youtu.be\">https://m.youtube.com/watch?v=H9rPfr7srmA&amp;feature=youtu.be</a></p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"H9rPfr7srmA\" href=\"https://m.youtube.com/watch?v=H9rPfr7srmA&amp;feature=youtu.be\"><img src=\"https://uploads.zulipusercontent.net/2725ab98fee8e7d5bd1603f0dd26e0ff89549324/68747470733a2f2f692e7974696d672e636f6d2f76692f4839725066723773726d412f64656661756c742e6a7067\"></a></div><p>Slides <a href=\"/user_uploads/21317/kMQC9c_pNdeSqvfsKleZXzdl/intercats.pdf\">intercats.pdf</a></p>",
+        "id": 281131965,
+        "sender_full_name": "Moritz Schauer",
+        "timestamp": 1651657314
+    },
+    {
+        "content": "<p><span aria-label=\"up\" class=\"emoji emoji-2b06\" role=\"img\" title=\"up\">:up:</span> Whoops I just realised I forgot to advertise this!</p>",
+        "id": 282620252,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1652784020
+    },
+    {
+        "content": "<p>Dependent lenses are dependent optics<br>\nMatteo Capucci (University of Strathclyde)</p>\n<p>Abstract: Mixed optics and F-lenses are orthogonal generalizations of lenses, an unreasonably effective abstraction for bidirectional processes in cartesian categories. Mixed optics generalize lenses by dropping the cartesianity assumption, which makes them somehow 'linearly typed'. Instead, F-lenses generalize lenses by making them dependently typed. Both generalizations greatly improve expressivity and come with compelling examples. Therefore, it is natural to wonder whether 'dependent mixed optics', generalizing both, are a thing. In the last six months a quick succession of papers (by MSP, Milewski, Vertechi and C.) converged to a common definition. In this talk I'll review the state of the art on dependent optics, with the concrete goal of explaining Vertechi's proof that dependent lenses (aka morphisms in Poly) are dependent optics.</p>\n<p>Today: <time datetime=\"2022-05-17T16:00:00Z\">2022-05-17T17:00:00+01:00</time></p>",
+        "id": 282620318,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1652784089
+    },
+    {
+        "content": "<p><a href=\"https://topos.site/intercats/\">https://topos.site/intercats/</a></p>",
+        "id": 282620330,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1652784097
+    },
+    {
+        "content": "<p>Sorry for very late notice, but today's Intercats is 10 minutes from now</p>",
+        "id": 287735661,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1656431374
+    },
+    {
+        "content": "<p>Optics in the wild: reverse mode automatic differentiation in Julia<br>\nKeno Fischer (Julia Computing)</p>\n<p>Abstract: Using categorical inspiration in real world software systems: \"I'll definitely be talking about the optics formalism of reverse mode automatic differentiation, but if I have space, I might end up talking about some more recent work also.\"</p>",
+        "id": 287735698,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1656431391
+    },
+    {
+        "content": "<p><a href=\"https://topos.site/intercats/\">https://topos.site/intercats/</a></p>",
+        "id": 287735707,
+        "sender_full_name": "Jules Hedges",
+        "timestamp": 1656431397
+    }
+]

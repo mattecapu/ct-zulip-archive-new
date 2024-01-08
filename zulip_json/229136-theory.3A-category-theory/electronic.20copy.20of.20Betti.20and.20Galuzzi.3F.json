@@ -1,0 +1,50 @@
+[
+    {
+        "content": "<p>I'm looking for a copy of</p>\n<p>Renato Betti and Massimo Galuzzi. Categorie normate. Boll. Un. Mat. Ital. (4), 11(1):66–75, 1975.</p>\n<p>I believe the journal abbreviation is for Bollettino dell'Unione Matematica Italiana. My library claims to have a physical copy, but they need to fetch it from off-campus and I am impatient :) Many back-copies are available from the union itself  <a href=\"http://www.bdim.eu/item?id=BUMI\">here</a>, but unfortunately there's a gap between 1968-1997. It appears to be the same set of issues available on <a href=\"https://eudml.org/journal/10000\">EuDML</a>. The <a href=\"https://link.springer.com/journal/40574/volumes-and-issues\">Springer website</a> only has issues since 2014. My other favorite sources are failing me too.</p>\n<p>The paper was cited by <a href=\"https://arxiv.org/abs/1901.01453\">Neeman</a> and purportedly contains a fuller discussion of \"normed categories\", which were alluded to by <a href=\"http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html\">Lawvere</a> but are less well-known than the <a href=\"https://ncatlab.org/nlab/show/metric+space\">Lawvere metric spaces</a> which Lawvere discussed more fully (and famously) in the same paper. A normed category has a set of morphisms for each pair of objects and additionally each morphism is assigned a <em>length</em>  (a real number) subject to some axioms. I'm interested in seeing these ideas fleshed out, hopefully in a way complementary to <a href=\"https://arxiv.org/abs/1705.10189\">Kubis</a>.</p>",
+        "id": 400336894,
+        "sender_full_name": "Tim Campion",
+        "timestamp": 1699143208
+    },
+    {
+        "content": "<p>Have you asked Neeman? He's very approachable.</p>",
+        "id": 400373805,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1699173065
+    },
+    {
+        "content": "<p>The union itself might be willing to scan a copy too.</p>",
+        "id": 400384687,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1699181610
+    },
+    {
+        "content": "<p>I had also wanted to take a look at this paper; if you do get a copy, might you be able to upload it to the nLab or somewhere like that?</p>",
+        "id": 400384784,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1699181690
+    },
+    {
+        "content": "<p>I recall <span class=\"user-mention\" data-user-id=\"275989\">@Paolo Perrone</span> citing this paper in one of his preprints; maybe he has a copy on hand?</p>",
+        "id": 400425357,
+        "sender_full_name": "Bryce Clarke",
+        "timestamp": 1699221727
+    },
+    {
+        "content": "<p>Thanks all! I have a physical copy now, but the binding is such that I can't make a legible scan to upload. I will probably bring it back to the library and ask them to scan it for me. It is indeed in Italian.</p>",
+        "id": 400607058,
+        "sender_full_name": "Tim Campion",
+        "timestamp": 1699303223
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276693\">Bryce Clarke</span> <a href=\"#narrow/stream/229136-theory.3A-category-theory/topic/electronic.20copy.20of.20Betti.20and.20Galuzzi.3F/near/400425357\">said</a>:</p>\n<blockquote>\n<p>I recall <span class=\"user-mention silent\" data-user-id=\"275989\">Paolo Perrone</span> citing this paper in one of his preprints; maybe he has a copy on hand?</p>\n</blockquote>\n<p>I do have a a copy, does anyone want it?<br>\nAlso, if you need a translation of some parts, I can help.</p>",
+        "id": 400698993,
+        "sender_full_name": "Paolo Perrone",
+        "timestamp": 1699349417
+    },
+    {
+        "content": "<p><a href=\"/user_uploads/21317/gVx_IIjJTxrtz5_QmZilUPsb/Betti-Galuzzi-1975-Categorie-normate.pdf\">Betti-Galuzzi-1975-Categorie-normate.pdf</a></p>\n<p>Here's a copy from Richard Garner. As far as I can tell, it's nothing earth-shattering -- they confirm my hunch that the category to enrich in is <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mi>a</mi><mi>m</mi><mo stretchy=\"false\">(</mo><mo stretchy=\"false\">[</mo><mn>0</mn><mo separator=\"true\">,</mo><mi mathvariant=\"normal\">∞</mi><mo stretchy=\"false\">]</mo><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">Fam([0,\\infty])</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span><span class=\"mord mathnormal\">am</span><span class=\"mopen\">([</span><span class=\"mord\">0</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">∞</span><span class=\"mclose\">])</span></span></span></span>, and observe that you can enrich in <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>F</mi><mi>a</mi><mi>m</mi><mo stretchy=\"false\">(</mo><mi mathvariant=\"script\">V</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">Fam(\\mathcal V)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.13889em;\">F</span><span class=\"mord mathnormal\">am</span><span class=\"mopen\">(</span><span class=\"mord mathcal\" style=\"margin-right:0.08222em;\">V</span><span class=\"mclose\">)</span></span></span></span> for any <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"script\">V</mi></mrow><annotation encoding=\"application/x-tex\">\\mathcal V</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathcal\" style=\"margin-right:0.08222em;\">V</span></span></span></span>.</p>",
+        "id": 400968343,
+        "sender_full_name": "Tim Campion",
+        "timestamp": 1699457484
+    }
+]

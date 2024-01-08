@@ -1,0 +1,20 @@
+[
+    {
+        "content": "<p><strong>Public</strong> stream created by <span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span>. <strong>Description:</strong></p>\n<blockquote>\n<p>Official Zulip stream for the course 'Categories in AI' <a href=\"https://cats.for.ai/\">https://cats.for.ai/</a></p>\n</blockquote>",
+        "id": 302114759,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1664819343
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> changed the <a href=\"/help/stream-permissions\">access permissions</a> for this stream from <strong>Public</strong> to <strong>Web-public</strong>.</p>",
+        "id": 397854572,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1697898960
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> renamed stream <strong>workshop: Categories for AI</strong> to <strong>event: Categories for AI</strong>.</p>",
+        "id": 399475578,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1698749825
+    }
+]

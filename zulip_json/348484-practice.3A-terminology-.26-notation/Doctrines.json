@@ -1,0 +1,182 @@
+[
+    {
+        "content": "<p>I bumped into a potentially interesting new paper on the arXiv today:</p>\n<ul>\n<li>Francesca Guffanti, <a href=\"https://arxiv.org/abs/2310.08374\">Rich doctrines and Henkin's Theorem</a>.</li>\n</ul>\n<p>I'd been wanting to prove a version of Henkin's theorem for <a href=\"https://ncatlab.org/nlab/show/Boolean+hyperdoctrine\">Boolean hyperdoctrines</a> and this seems to do something like that in much greater generality.    Which would be great.   But I'm thrown by one thing: she seems to be using the word \"doctrine\" to mean something like what I'd call a \"hyperdoctrine\".    Is this common now?</p>",
+        "id": 396482215,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697194666
+    },
+    {
+        "content": "<p>On the one hand I like this because in the old sense a <a href=\"https://ncatlab.org/nlab/show/hyperdoctrine\">hyperdoctrine</a> is</p>\n<blockquote>\n<p>essentially an axiomatization of the collection of slices of a locally cartesian closed category (or something similar): a category T together with a functorial assignment of “slice-like”-categories to each of its objects, satisfying some conditions.</p>\n</blockquote>\n<p>or in other words:</p>\n<blockquote>\n<p>a collection of contexts together with the operations of context extension/substitution and quantification on the categories of propositions or types in each context.</p>\n</blockquote>\n<p>while a <a href=\"https://ncatlab.org/nlab/show/doctrine\">doctrine</a>,</p>\n<blockquote>\n<p>.... as the word was originally used by Jon Beck, is a categorification of the concept of “theory”. Thus, a doctrine could also reasonably be called a “2-theory.”  Here we are using the word “theory” in a vague non-precise sense. For instance, there is a theory of groups, a theory of abelian groups, a theory of commutative rings, and so on. Likewise, there is a doctrine of monoidal categories, a doctrine of categories with finite products, a doctrine of rig categories, and so on.</p>\n</blockquote>",
+        "id": 396482907,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697194921
+    },
+    {
+        "content": "<p>So, in the old sense, a hyperdoctrine doesn't feel (to me) like a \"hyper\" version of a doctrine.</p>",
+        "id": 396483062,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697194974
+    },
+    {
+        "content": "<p>But on the other hand, it seems pretty confusing to just get rid of the prefix \"hyper-\" and use \"doctrine\" to mean \"hyperdoctrine\".  After all, there are plenty of people who use \"doctrine\" to mean a categorified theory: either a 2-monad on Cat, or a 2-Lawvere theory, or something else like that.</p>",
+        "id": 396483172,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697195026
+    },
+    {
+        "content": "<p>My impression is that it went a little like this: Lawvere introduced a structure he called a \"hyperdoctrine\". In subsequent years, people reused the terminology for variations on the concept (sometimes prefixing \"hyperdoctrine\" with some qualifier to distinguish it from Lawvere's definition). At a certain point, those in the hyperdoctrine community dropped \"hyper\" for convenience, using \"doctrine\" with a qualifier to refer to similar concepts (with \"hyperdoctrine\" continuing to refer to Lawvere's original definition). However, people outside the hyperdoctrine literature continue to use \"hyperdoctrine\" for anything resembling a Lawvere hyperdoctrine, and \"doctrine\" for the the general concept of a 2-dimensional notion of theory.</p>",
+        "id": 396483689,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697195228
+    },
+    {
+        "content": "<p>So there is an unfortunate divergence of terminology.</p>",
+        "id": 396483791,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697195280
+    },
+    {
+        "content": "<blockquote>\n<p>At a certain point, those in the hyperdoctrine community dropped \"hyper\" for convenience, using \"doctrine\" with a qualifier to refer to similar concepts ....</p>\n</blockquote>\n<p>Wow, they forgot to tell me!   <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 396485339,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697195931
+    },
+    {
+        "content": "<p>About when did this happen, and who were some of the big names in the hyperdoctrine community at that time?</p>",
+        "id": 396485434,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697195968
+    },
+    {
+        "content": "<p>(It's unfortunate that I came up with the dream of redoing a lot of model theory for classical first-order logic using Boolean hyperdoctrines without knowing anything about the \"hyperdoctrine community\" and their work.  It was just a dream of mine, and I quit working on it almost before I got started, but if I ever decide to resume I should educate myself a bit first.)</p>",
+        "id": 396485822,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697196123
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/348484-general.3A-terminology-.26-notation/topic/Doctrines/near/396485434\">said</a>:</p>\n<blockquote>\n<p>About when did this happen, and who were some of the big names in the hyperdoctrine community at that time?</p>\n</blockquote>\n<p>The earliest usage in this sense that I'm aware of is in Maietti–Rosolini's 2012 <a href=\"https://arxiv.org/abs/1206.0162\">Elementary quotient completion</a> and <a href=\"https://arxiv.org/abs/1202.1012\">Quotient completion for the foundation of constructive mathematics</a>. There, \"doctrine\" is often qualified, but not always. By \"hyperdoctrine community\", I am really referring to the community who have been working on topics stemming from these and related papers. So my impression is that this usage is fairly modern.</p>",
+        "id": 396493719,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697199157
+    },
+    {
+        "content": "<p>I imagine someone who is closer to that community, e.g. <span class=\"user-mention\" data-user-id=\"306459\">@Joshua Wrigley</span>, could give a better answer, though.</p>",
+        "id": 396494084,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697199304
+    },
+    {
+        "content": "<p>Thanks!</p>",
+        "id": 396494434,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697199452
+    },
+    {
+        "content": "<p>I noticed that usage here: <a href=\"#narrow/stream/229199-learning.3A-questions/topic/Doctrines.2C.20adjoints.2C.20and.20all.20that/near/371948569\">https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Doctrines.2C.20adjoints.2C.20and.20all.20that/near/371948569</a><br>\nand was slightly confused by it. I mean, it was not confusing in that the word \"doctrine\" was obviously being used to refer to what I would call a \"hyperdoctrine\", but I was slightly confused about why that was happening.</p>",
+        "id": 396535370,
+        "sender_full_name": "Reid Barton",
+        "timestamp": 1697213768
+    },
+    {
+        "content": "<p>Oh yeah, that puzzled me too.</p>",
+        "id": 396540507,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697215720
+    },
+    {
+        "content": "<p>Well, now that hyperdoctrines are being called doctrines, I guess we can call the old-fashioned doctrines \"hypodoctrines\".</p>",
+        "id": 396540623,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697215754
+    },
+    {
+        "content": "<p>Like how now that <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><mi mathvariant=\"normal\">∞</mi><mo separator=\"true\">,</mo><mn>1</mn><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">(\\infty,1)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord\">∞</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">1</span><span class=\"mclose\">)</span></span></span></span>-categories get called <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">∞</mi></mrow><annotation encoding=\"application/x-tex\">\\infty</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.4306em;\"></span><span class=\"mord\">∞</span></span></span></span>-categories, we have to call the old-fashioned ones <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">(</mo><mi mathvariant=\"normal\">∞</mi><mo separator=\"true\">,</mo><mi mathvariant=\"normal\">∞</mi><mo stretchy=\"false\">)</mo></mrow><annotation encoding=\"application/x-tex\">(\\infty,\\infty)</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord\">∞</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">∞</span><span class=\"mclose\">)</span></span></span></span>-categories?</p>",
+        "id": 396543252,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1697216581
+    },
+    {
+        "content": "<p>Maybe that's a bit of a side-track, but are hyperdoctrines instances of the concept of doctrine (at least in the sense of some sort of 2-theory/some structured category/some collection of algebras for a 2-monad) ?<br>\nI can see how the collection of hyperdoctrines should collectively form a doctrine (each hyperdoctrine is a category equipped with some structure) but not how each individual hyperdoctrine can be seen as a general theory.</p>",
+        "id": 396543422,
+        "sender_full_name": "Kenji Maillard",
+        "timestamp": 1697216648
+    },
+    {
+        "content": "<p>I don't think so -- I think hyperdoctrines are really a kind of theory, not a kind of doctrine.</p>",
+        "id": 396543643,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1697216759
+    },
+    {
+        "content": "<p>Would it be reasonable to say that classes of hyperdoctrines with certain structure---regular hyperdoctrines, coherent hyperdoctrines, first-order hyperdoctrines, etc---are doctrines? That kind of makes sense to me, but it would be an unfortunate misalignment of terminology.</p>",
+        "id": 396565565,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1697227931
+    },
+    {
+        "content": "<p>Ah nevermind, I see that Kenji just said exactly that.</p>",
+        "id": 396565673,
+        "sender_full_name": "Evan Patterson",
+        "timestamp": 1697228008
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275965\">Evan Patterson</span> <a href=\"#narrow/stream/348484-general.3A-terminology-.26-notation/topic/Doctrines/near/396565565\">said</a>:</p>\n<blockquote>\n<p>Would it be reasonable to say that classes of hyperdoctrines with certain structure---regular hyperdoctrines, coherent hyperdoctrines, first-order hyperdoctrines, etc---are doctrines? That kind of makes sense to me, but it would be an unfortunate misalignment of terminology.</p>\n</blockquote>\n<p>Yes I agree with your and <span class=\"user-mention\" data-user-id=\"276885\">@Kenji Maillard</span> 's point of view, and I'm really confused about Lawvere's use of the word \"hyper\" when going from 2-theories to indexed categories.</p>",
+        "id": 396568264,
+        "sender_full_name": "Jonas Frey",
+        "timestamp": 1697229635
+    },
+    {
+        "content": "<p>But it seems that Lawvere himself was aware that his terminology was problematic: In <a href=\"https://youtu.be/ZYGyEPXu8as?si=cBAvOqnDgNHmROm5&amp;t=284\">this talk</a> he says around 4:50:</p>\n<div class=\"youtube-video message_inline_image\"><a data-id=\"ZYGyEPXu8as\" href=\"https://youtu.be/ZYGyEPXu8as?si=cBAvOqnDgNHmROm5&amp;t=284\"><img src=\"https://uploads.zulipusercontent.net/0395e756a9c2e042fe465e8861e6b5baf1678ef3/68747470733a2f2f692e7974696d672e636f6d2f76692f5a594779455058753861732f64656661756c742e6a7067\"></a></div><blockquote>\n<p>Here I use the term <em>doctrine</em>, due to Jon Beck, which in general is supposed to signify \"something like a theory, but higher\". Now there've been interpretations to this \"higher\", so ... um ... maybe even unfortunately I've used the word doctrine in quite distant, different ways ... one interpretation of higher, as I've mentioned already today, was to treat the logic of (a) higher types but (b) not simply in terms of predicates on these types but rather a mathematical model of actual proofs as opposed to mere existence of proofs. These two features were incorporated in my 1968 notion of hyperdoctrine which has figured in some later work for example in Bart Jacobs' thesis (1990) on *comprehension categories\". (mumble) However in the present connection I'm referring to doctrines in the general sense of \"a kind of theory whose models can in turn be construed  as theories\". And much more specifically [...] to 2-monads on the category of categories -- 2-monads on the category of categories with the <em>property</em> that the category S of small categories is an algebra.</p>\n</blockquote>\n<p>I'm stopping to write here, but I recommend the entire talk.</p>\n<p>Concerning the word \"hyper\", he seems to justify it by referencing proof-relevance in indexed categories? That would justify dropping it again for indexed posets ... still, \"(posetal) hyperdoctrines\" are in no way theories of theories, which I assume he is referring to when saying \"maybe even unfortunately\".</p>",
+        "id": 396570581,
+        "sender_full_name": "Jonas Frey",
+        "timestamp": 1697230950
+    },
+    {
+        "content": "<p>(I wonder what he meant by  \"the logic of higher types\")</p>",
+        "id": 396570804,
+        "sender_full_name": "Jonas Frey",
+        "timestamp": 1697231065
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277289\">Jonas Frey</span> <a href=\"#narrow/stream/348484-general.3A-terminology-.26-notation/topic/Doctrines/near/396570804\">said</a>:</p>\n<blockquote>\n<p>(I wonder what he meant with  the logic of higher types)</p>\n</blockquote>\n<p>I might guess he could have meant a \"types of types\" (\"kinds\" in type theory parlance), for instance as featuring in the polymorphic <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>λ</mi></mrow><annotation encoding=\"application/x-tex\">\\lambda</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">λ</span></span></span></span>-calculus (PLC), which is also called the \"second-order <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>λ</mi></mrow><annotation encoding=\"application/x-tex\">\\lambda</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord mathnormal\">λ</span></span></span></span>-calculus\". The PLC may be modelled using a kind of hyperdoctrine, so it would fit in this context.</p>",
+        "id": 396571111,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697231270
+    },
+    {
+        "content": "<p>That's a possibility, but he could also have meant higher types in the classical sense of proof theory, ie (iterated) function types. </p>\n<p>Or he could have meant \"higher types\" in the sense of categorification, since the overall theme is categorification of theories.</p>",
+        "id": 396571505,
+        "sender_full_name": "Jonas Frey",
+        "timestamp": 1697231470
+    },
+    {
+        "content": "<p>I haven't listened to him but since Lawvere didn't like categorification I'd guess he would use \"higher\" in the same sense as Lambek and Scott's <em>Introduction to Higher-Categorical Logic</em>: basically just iterated function types.</p>",
+        "id": 396653168,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697291799
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276480\">Reid Barton</span> <a href=\"#narrow/stream/348484-general.3A-terminology-.26-notation/topic/Doctrines/near/396535370\">said</a>:</p>\n<blockquote>\n<p>I noticed that usage here: <a href=\"#narrow/stream/229199-learning.3A-questions/topic/Doctrines.2C.20adjoints.2C.20and.20all.20that/near/371948569\">https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Doctrines.2C.20adjoints.2C.20and.20all.20that/near/371948569</a><br>\nand was slightly confused by it. I mean, it was not confusing in that the word \"doctrine\" was obviously being used to refer to what I would call a \"hyperdoctrine\", but I was slightly confused about why that was happening.</p>\n</blockquote>\n<p>I appreciate that in that thread I only answered <span class=\"user-mention\" data-user-id=\"277321\">@Simon Burton</span>'s direct question and didn't give any context for what was going on in that example.  The particular doctrine (hyperdoctrine) shown in the first slide is built from formulae using only the symbols <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">⊥</mi><mo separator=\"true\">,</mo><mo>∧</mo><mo separator=\"true\">,</mo><mo>∨</mo><mo separator=\"true\">,</mo><mi mathvariant=\"normal\">⊤</mi></mrow><annotation encoding=\"application/x-tex\">\\bot, \\land, \\lor, \\top</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord\">⊥</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">∧</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">∨</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">⊤</span></span></span></span> and the unary predicate symbol <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>U</mi></mrow><annotation encoding=\"application/x-tex\">U</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6833em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">U</span></span></span></span>.  It is the doctrine associated to the empty theory over this fragment.</p>\n<p>The second slide was an attempt at visualizing that this doctrine also has left adjoints to the inclusions <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mover accent=\"true\"><mi>x</mi><mo>⃗</mo></mover><mo>↪</mo><mover accent=\"true\"><mi>x</mi><mo>⃗</mo></mover><mo separator=\"true\">,</mo><mover accent=\"true\"><mi>y</mi><mo>⃗</mo></mover></mrow><annotation encoding=\"application/x-tex\">\\vec{x} \\hookrightarrow \\vec{x},\\vec{y}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.725em;vertical-align:-0.011em;\"></span><span class=\"mord accent\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.714em;\"><span style=\"top:-3em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"mord mathnormal\">x</span></span><span style=\"top:-3em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"accent-body\" style=\"left:-0.2077em;\"><span class=\"overlay\" style=\"height:0.714em;width:0.471em;\"><svg xmlns=\"http://www.w3.org/2000/svg\" width='0.471em' height='0.714em' style='width:0.471em' viewBox='0 0 471 714' preserveAspectRatio='xMinYMin'><path d='M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5\n3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11\n10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63\n-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1\n-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59\nH213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359\nc-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">↪</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.9084em;vertical-align:-0.1944em;\"></span><span class=\"mord accent\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.714em;\"><span style=\"top:-3em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"mord mathnormal\">x</span></span><span style=\"top:-3em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"accent-body\" style=\"left:-0.2077em;\"><span class=\"overlay\" style=\"height:0.714em;width:0.471em;\"><svg xmlns=\"http://www.w3.org/2000/svg\" width='0.471em' height='0.714em' style='width:0.471em' viewBox='0 0 471 714' preserveAspectRatio='xMinYMin'><path d='M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5\n3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11\n10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63\n-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1\n-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59\nH213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359\nc-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord accent\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.714em;\"><span style=\"top:-3em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"mord mathnormal\" style=\"margin-right:0.03588em;\">y</span></span><span style=\"top:-3em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"accent-body\" style=\"left:-0.1799em;\"><span class=\"overlay\" style=\"height:0.714em;width:0.471em;\"><svg xmlns=\"http://www.w3.org/2000/svg\" width='0.471em' height='0.714em' style='width:0.471em' viewBox='0 0 471 714' preserveAspectRatio='xMinYMin'><path d='M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5\n3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11\n10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63\n-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1\n-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59\nH213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359\nc-16-25.333-24-45-24-59z'/></svg></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.1944em;\"><span></span></span></span></span></span></span></span></span>.  In other words, the doctrine interprets existential quantification <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">∃</mi></mrow><annotation encoding=\"application/x-tex\">\\exists</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.6944em;\"></span><span class=\"mord\">∃</span></span></span></span>.  Indeed, it is the doctrine associated to the theory <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mo stretchy=\"false\">{</mo><mtext> </mtext><mi mathvariant=\"normal\">⊤</mi><mo>⊢</mo><mi mathvariant=\"normal\">∃</mi><mi>x</mi><mtext> </mtext><mi>U</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mtext> </mtext><mo stretchy=\"false\">}</mo></mrow><annotation encoding=\"application/x-tex\">\\{\\,\\top \\vdash \\exists x \\ U(x)\\,\\}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">{</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">⊤</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">⊢</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">∃</span><span class=\"mord mathnormal\">x</span><span class=\"mspace\"> </span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">U</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mclose\">}</span></span></span></span> over the fragment <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">⊥</mi><mo separator=\"true\">,</mo><mo>∧</mo><mo separator=\"true\">,</mo><mo>∨</mo><mo separator=\"true\">,</mo><mi mathvariant=\"normal\">⊤</mi><mo separator=\"true\">,</mo><mi mathvariant=\"normal\">∃</mi></mrow><annotation encoding=\"application/x-tex\">\\bot, \\land, \\lor, \\top, \\exists</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"mord\">⊥</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">∧</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">∨</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">⊤</span><span class=\"mpunct\">,</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">∃</span></span></span></span>.</p>\n<p>So this doctrine simultaneously represents two inequivalent theories <span class=\"katex\"><span class=\"katex-mathml\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi mathvariant=\"normal\">∅</mi><mo>≢</mo><mo stretchy=\"false\">{</mo><mtext> </mtext><mi mathvariant=\"normal\">⊤</mi><mo>⊢</mo><mi mathvariant=\"normal\">∃</mi><mi>x</mi><mtext> </mtext><mi>U</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mtext> </mtext><mo stretchy=\"false\">}</mo></mrow><annotation encoding=\"application/x-tex\">\\emptyset \\not \\equiv \\{\\,\\top \\vdash \\exists x \\ U(x)\\,\\}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:0.9444em;vertical-align:-0.1944em;\"></span><span class=\"mord\">∅</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\"><span class=\"mord vbox\"><span class=\"thinbox\"><span class=\"rlap\"><span class=\"strut\" style=\"height:0.8889em;vertical-align:-0.1944em;\"></span><span class=\"inner\"><span class=\"mord\"><span class=\"mrel\"></span></span></span><span class=\"fix\"></span></span></span></span></span></span><span class=\"base\"><span class=\"strut\" style=\"height:0.4637em;\"></span><span class=\"mrel\">≡</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">{</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mord\">⊤</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span><span class=\"mrel\">⊢</span><span class=\"mspace\" style=\"margin-right:0.2778em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mord\">∃</span><span class=\"mord mathnormal\">x</span><span class=\"mspace\"> </span><span class=\"mord mathnormal\" style=\"margin-right:0.10903em;\">U</span><span class=\"mopen\">(</span><span class=\"mord mathnormal\">x</span><span class=\"mclose\">)</span><span class=\"mspace\" style=\"margin-right:0.1667em;\"></span><span class=\"mclose\">}</span></span></span></span> over two different fragments of logic.  The purpose of this example was to motivate endowing a doctrine with further structure to keep track of which logical operations are being interpreted.</p>",
+        "id": 396749789,
+        "sender_full_name": "Joshua Wrigley",
+        "timestamp": 1697372868
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/348484-general.3A-terminology-.26-notation/topic/Doctrines/near/396483172\">said</a>:</p>\n<blockquote>\n<p>But on the other hand, it seems pretty confusing to just get rid of the prefix \"hyper-\" and use \"doctrine\" to mean \"hyperdoctrine\".  After all, there are plenty of people who use \"doctrine\" to mean a categorified theory: either a 2-monad on Cat, or a 2-Lawvere theory, or something else like that.</p>\n</blockquote>\n<p>I agree that this is potentially confusing -- and inaccurate, based on the past use of the word \"doctrine\" -- but it's spreading.  I was recently at <a href=\"https://events.math.unipd.it/WDF2023/\">this meeting</a>, which seemed to be using the same terminology.</p>",
+        "id": 397864975,
+        "sender_full_name": "Steve Awodey",
+        "timestamp": 1697908832
+    },
+    {
+        "content": "<p>On the other hand, I've always found it a bit weird to introduce a whole new word \"doctrine\" for what is really just a \"2-theory\".  So maybe if \"doctrine\" gets stolen to mean something else, we can all start talking more sensibly about \"2-theories\" instead for the things that used to be called \"doctrines\".  (-:O</p>",
+        "id": 397886565,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1697933607
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/348484-general.3A-terminology-.26-notation/topic/Doctrines/near/397886565\">said</a>:</p>\n<blockquote>\n<p>On the other hand, I've always found it a bit weird to introduce a whole new word \"doctrine\" for what is really just a \"2-theory\".  So maybe if \"doctrine\" gets stolen to mean something else, we can all start talking more sensibly about \"2-theories\" instead for the things that used to be called \"doctrines\".  (-:O</p>\n</blockquote>\n<p>I only agree to some extent. The models of the \"doctrine of coherent categories\" are (a certain kind of) theories, so I would rather call them \"logics\", if anything. I am ok with \"2-theories\", but I find \"doctrine\" more leaning towards the word \"logic\", and thus more conceptually appropriate.</p>",
+        "id": 397949139,
+        "sender_full_name": "Ivan Di Liberti",
+        "timestamp": 1697985575
+    }
+]

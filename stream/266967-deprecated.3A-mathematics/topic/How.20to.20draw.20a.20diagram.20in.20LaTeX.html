@@ -1,0 +1,257 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>How to draw a diagram in LaTeX · deprecated: mathematics · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/index.html">deprecated: mathematics</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html">How to draw a diagram in LaTeX</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="386954780"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/386954780" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Frank Tsai <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#386954780">(Aug 23 2023 at 21:42)</a>:</h4>
+<p>I'm curious about how mathematicians draw commutative diagram, topology diagrams, etc in their papers.<br>
+I'm aware of tikz and tikz-cd, but for complicated diagrams it's time-consuming to draw them in tikz.<br>
+Is there an alternative to tikz that people use? I heard inkscape is a reasonable alternative.</p>
+
+
+
+<a name="386954931"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/386954931" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jean-Baptiste Vienney <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#386954931">(Aug 23 2023 at 21:44)</a>:</h4>
+<p>There is <a href="https://q.uiver.app">Quiver</a>.</p>
+
+
+
+<a name="386955153"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/386955153" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jean-Baptiste Vienney <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#386955153">(Aug 23 2023 at 21:46)</a>:</h4>
+<p>It's based on tikz though apparently</p>
+
+
+
+<a name="386955221"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/386955221" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Frank Tsai <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#386955221">(Aug 23 2023 at 21:47)</a>:</h4>
+<p>I'm aware of quiver. My question was more general but I guess I just worded it poorly.</p>
+<p>Say, I want to draw a complicated topological figure, is there an alternative to tikz?</p>
+
+
+
+<a name="386964222"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/386964222" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#386964222">(Aug 23 2023 at 23:32)</a>:</h4>
+<p>I've used Inkscape once upon a time; it's not bad.  But in my experience stuff drawn that way tends to look "approximate" whereas stuff drawn with tikz looks "exact" because you say say numerically exactly where you want things.  Then again I mostly draw commutative diagrams, where inexact placement of objects is very noticeable; for more flabby topological pictures maybe it matters less.</p>
+
+
+
+<a name="386964248"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/386964248" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#386964248">(Aug 23 2023 at 23:32)</a>:</h4>
+<p>For large commutative diagrams, <a href="https://tikzcd.yichuanshen.de/">tikzcd-editor</a> can save a lot of time.</p>
+
+
+
+<a name="386964678"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/386964678" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Wojciech Nawrocki <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#386964678">(Aug 23 2023 at 23:37)</a>:</h4>
+<p>I have recently taken to using Penrose, see e.g. <a href="https://penrose.cs.cmu.edu/try/?gist=255b467a7218cc5dc6e33dbb1562872c">this example</a>. It outputs an SVG which you can include in a LaTeX file.</p>
+
+
+
+<a name="386965211"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/386965211" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Niles Johnson <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#386965211">(Aug 23 2023 at 23:44)</a>:</h4>
+<p>In case anyone wants a pure text option, I've been using a few custom tikz styles that use the style of tikzcd, but without being constrained to a rectangular grid.  Here's one illustrative example:<br>
+<a href="/user_uploads/21317/_f2xv8DqCAurjQFeMZQQd7W6/8e0bd0ce-d684-4f82-81c8-cf1448d31968.jpg">8e0bd0ce-d684-4f82-81c8-cf1448d31968.jpg</a></p>
+<div class="message_inline_image"><a href="/user_uploads/21317/_f2xv8DqCAurjQFeMZQQd7W6/8e0bd0ce-d684-4f82-81c8-cf1448d31968.jpg" title="8e0bd0ce-d684-4f82-81c8-cf1448d31968.jpg"><img src="/user_uploads/21317/_f2xv8DqCAurjQFeMZQQd7W6/8e0bd0ce-d684-4f82-81c8-cf1448d31968.jpg"></a></div>
+
+
+
+<a name="386965399"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/386965399" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Niles Johnson <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#386965399">(Aug 23 2023 at 23:46)</a>:</h4>
+<p>this is from the "advanced" part of a latex starter repository I made for some students a few years ago:</p>
+<p><a href="https://gitlab.com/nilesjohnson/latex_starter/-/tree/master/advanced">https://gitlab.com/nilesjohnson/latex_starter/-/tree/master/advanced</a></p>
+<p>I've tweaked things a bit more since then, but I haven't bothered to update the repository.  If anyone is interested, any of my recent arxiv posts would have the source, and I'm happy to discuss further.</p>
+
+
+
+<a name="386967683"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/386967683" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nathanael Arkor <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#386967683">(Aug 24 2023 at 00:18)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276777">Mike Shulman</span> <a href="#narrow/stream/266967-general.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX/near/386964248">said</a>:</p>
+<blockquote>
+<p>For large commutative diagrams, <a href="https://tikzcd.yichuanshen.de/">tikzcd-editor</a> can save a lot of time.</p>
+</blockquote>
+<p>Out of curiosity, do you suggest tikzcd-editor because you find it does a better job than <a href="https://q.uiver.app/">quiver</a>? (I ask because, if there are shortcomings with <strong>quiver</strong> that are stopping people using it, I'd like to address them.)</p>
+
+
+
+<a name="386970822"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/386970822" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Naso <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#386970822">(Aug 24 2023 at 01:06)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276092">Nathanael Arkor</span> <a href="#narrow/stream/266967-general.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX/near/386967683">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="276777">Mike Shulman</span> <a href="#narrow/stream/266967-general.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX/near/386964248">said</a>:</p>
+<blockquote>
+<p>For large commutative diagrams, <a href="https://tikzcd.yichuanshen.de/">tikzcd-editor</a> can save a lot of time.</p>
+</blockquote>
+<p>Out of curiosity, do you suggest tikzcd-editor because you find it does a better job than <a href="https://q.uiver.app/">quiver</a>? (I ask because, if there are shortcomings with <strong>quiver</strong> that are stopping people using it, I'd like to address them.)</p>
+</blockquote>
+<p>One shortcoming I noticed is there doesn't appear to be a way to get a reflexive arrow (where source = target)?</p>
+
+
+
+<a name="386971731"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/386971731" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#386971731">(Aug 24 2023 at 01:19)</a>:</h4>
+<p>Hmm, I think I just never got around to trying quiver and updating my bookmarks.  On a quick glance, the only feature that's obviously (apparently) missing is loops, as Naso mentioned.  Apparently you have to use a dedicated LaTeX style file too?  That's a trifle annoying but I suppose not too big a deal; it looks like it just defines some tikz styles.</p>
+
+
+
+<a name="386971736"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/386971736" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> David Michael Roberts <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#386971736">(Aug 24 2023 at 01:19)</a>:</h4>
+<p>I've always used xypic to draw commutative diagrams. For small and simple diagrams it's very reasonable to use. For large complex diagrams ... just a bit more patience is needed.</p>
+
+
+
+<a name="387027594"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/387027594" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nathanael Arkor <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#387027594">(Aug 24 2023 at 09:17)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276350">Naso</span> <a href="#narrow/stream/266967-general.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX/near/386970822">said</a>:</p>
+<blockquote>
+<p>One shortcoming I noticed is there doesn't appear to be a way to get a reflexive arrow (where source = target)?</p>
+</blockquote>
+<p>This is the main feature that tikzcd-editor has that <strong>quiver</strong> doesn't, yes. I'd be interested to know if that's what would hold people back from using it.</p>
+
+
+
+<a name="387028966"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/387028966" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nathanael Arkor <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#387028966">(Aug 24 2023 at 09:23)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276777">Mike Shulman</span> <a href="#narrow/stream/266967-general.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX/near/386971731">said</a>:</p>
+<blockquote>
+<p>Apparently you have to use a dedicated LaTeX style file too?  That's a trifle annoying but I suppose not too big a deal; it looks like it just defines some tikz styles.</p>
+</blockquote>
+<p>On this point, the package (which defines some useful TikZ styles) was recently added to CTAN, so it should be possible simply to <code>\usepackage{quiver}</code> as soon as the package is added to TeXLive :)</p>
+
+
+
+<a name="387032518"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/387032518" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nathanael Arkor <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#387032518">(Aug 24 2023 at 09:43)</a>:</h4>
+<p>Actually, I just saw that it's already available with TeXLive, so this is possible now.</p>
+
+
+
+<a name="387096593"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/387096593" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#387096593">(Aug 24 2023 at 14:53)</a>:</h4>
+<p>(If you happen to be living on the bleeding edge of TeXLive.)</p>
+
+
+
+<a name="387166824"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/387166824" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonas Frey <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#387166824">(Aug 24 2023 at 21:46)</a>:</h4>
+<p>One thing that annoys me about tikz-cd are the long compilation times, and that it's not compatible with tikz's <code>external</code><a href="https://tikz.dev/library-external">library</a>, which allows for tikz-images to be cached so that they don't have to be recompiled on each run. I really hope they'll fix that in future versions of tikz-cd.</p>
+
+
+
+<a name="387169372"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/387169372" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nathanael Arkor <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#387169372">(Aug 24 2023 at 22:14)</a>:</h4>
+<p>If it's something that can be fixed in <code>tikz-cd</code> rather than <code>external</code>, you could submit a feature request <a href="https://github.com/astoff/tikz-cd">on the repository</a>.</p>
+
+
+
+<a name="387171630"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/387171630" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Jonas Frey <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#387171630">(Aug 24 2023 at 22:39)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276092">Nathanael Arkor</span> <a href="#narrow/stream/266967-general.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX/near/387169372">said</a>:</p>
+<blockquote>
+<p>If it's something that can be fixed in <code>tikz-cd</code> rather than <code>external</code>, you could submit a feature request <a href="https://github.com/astoff/tikz-cd">on the repository</a>.</p>
+</blockquote>
+<p>Good idea, done!</p>
+
+
+
+<a name="387246338"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/387246338" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matteo Capucci (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#387246338">(Aug 25 2023 at 10:00)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276092">Nathanael Arkor</span> <a href="#narrow/stream/266967-general.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX/near/386967683">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="276777">Mike Shulman</span> <a href="#narrow/stream/266967-general.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX/near/386964248">said</a>:</p>
+<blockquote>
+<p>For large commutative diagrams, <a href="https://tikzcd.yichuanshen.de/">tikzcd-editor</a> can save a lot of time.</p>
+</blockquote>
+<p>Out of curiosity, do you suggest tikzcd-editor because you find it does a better job than <a href="https://q.uiver.app/">quiver</a>? (I ask because, if there are shortcomings with <strong>quiver</strong> that are stopping people using it, I'd like to address them.)</p>
+</blockquote>
+<p>I never head about tikcd-editor, and checking it out I'm saying the best feature it has over quiver is being able to <em>parse</em>  LaTeX back to a diagram! Reflexive arrows are also nice to have but so far I never missed this feature from quiver. Also let me say IMO quiver has a better UX (feels faster to use), but that might just be because I'm quite used to it by now.</p>
+
+
+
+<a name="387246881"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/387246881" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nathanael Arkor <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#387246881">(Aug 25 2023 at 10:04)</a>:</h4>
+<blockquote>
+<p>I'm saying the best feature it has over quiver is being able to parse LaTeX back to a diagram!</p>
+</blockquote>
+<p>This may not be the case for much longer :)</p>
+
+
+
+<a name="387279610"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/387279610" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Eduardo Ochs <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#387279610">(Aug 25 2023 at 13:49)</a>:</h4>
+<p>I use this,</p>
+<p><a href="http://anggtwu.net/dednat6/tug-slides.pdf">http://anggtwu.net/dednat6/tug-slides.pdf</a></p>
+<p>that is a front-end for diagxy, that in its turn is a front-end for xypic. It is very extensible and I use it to generate all the diagrams in my notes and papers - see:</p>
+<p><a href="http://anggtwu.net/math-b.html">http://anggtwu.net/math-b.html</a></p>
+<p>Many of those diagrams use extensions of Dednat6 that use Pict2e as their back-ends (partly because Pict2e is very fast). But I only know one person besides me who uses Dednat6...</p>
+
+
+
+<a name="387411677"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/387411677" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Tomáš Jakl <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#387411677">(Aug 26 2023 at 10:25)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276092">Nathanael Arkor</span> <a href="#narrow/stream/266967-general.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX/near/387028966">said</a>:</p>
+<blockquote>
+<p>On this point, the package (which defines some useful TikZ styles) was recently added to CTAN, so it should be possible simply to <code>\usepackage{quiver}</code> as soon as the package is added to TeXLive <span aria-label="smile" class="emoji emoji-1f642" role="img" title="smile">:smile:</span></p>
+</blockquote>
+<p>Any chance quiver can have the option in the menu to generate an output that does not depend on custom TikZ styles?</p>
+
+
+
+<a name="387412423"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/387412423" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nathanael Arkor <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#387412423">(Aug 26 2023 at 10:37)</a>:</h4>
+<p>The package is very simple, and most of the styles won't be used in a typical diagram. So you could always manually add to your preamble the styles that happen to be used in your diagrams (e.g. it's likely you'll need the <code>curve</code> style, but potentially not any of the others).</p>
+
+
+
+<a name="387457312"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/387457312" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#387457312">(Aug 26 2023 at 20:53)</a>:</h4>
+<p>It seems like it should be easy for quiver to put the property definitions directly in the code it generates rather than referring to styles.  Styles, like macros, are just abbreviations, so it should be able to expand the abbreviations.</p>
+
+
+
+<a name="387462898"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/387462898" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Nathanael Arkor <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#387462898">(Aug 26 2023 at 22:25)</a>:</h4>
+<p>It would be simple. However, it would result in (in some cases significantly) larger exported TikZ code. If this is a trade off people find preferable to including a package, or a style in the preamble, then it's something that could be considered.</p>
+
+
+
+<a name="387829844"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/266967-deprecated%3A%20mathematics/topic/How%20to%20draw%20a%20diagram%20in%20LaTeX/near/387829844" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matteo Capucci (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/266967-deprecated.3A-mathematics/topic/How.20to.20draw.20a.20diagram.20in.20LaTeX.html#387829844">(Aug 29 2023 at 08:13)</a>:</h4>
+<p>Indeed, I like to repeat as little code as possible</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

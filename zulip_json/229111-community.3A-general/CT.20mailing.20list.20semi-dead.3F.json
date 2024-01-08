@@ -1,0 +1,818 @@
+[
+    {
+        "content": "<p>The CT mailing list seems to be dormant these days. I am not sure what is going on, but the situation worries me. The mailing list was used to coordinate the activities of this community and is considered by everyone to be the official source of information -- and somewhat the metronome -- of conferences deadlines.</p>\n<p>The problem may be solved, hopefully soon, but the reliability of the list has been steadily decreasing in the last years. Wouldn't it be an idea to think of alternative ways to officially communicate our conferences and important dates (such as the HoTTEST seminars, or the ItaCa ones?) I was thinking of something like an editable wall on the nlab, maybe with an RSS option. This would also move the moderation duties to a more distributed approach, and hopefully speed up the process. </p>\n<p>What do people think? What should people do?</p>\n<p>I encourage people to resist taking any concrete action before any form of consensus is reached.</p>",
+        "id": 396862416,
+        "sender_full_name": "Ivan Di Liberti",
+        "timestamp": 1697449337
+    },
+    {
+        "content": "<p>Just to clarify: has the categories mailing list had technical issues lately? My impression was that it had been less active, but is still used for communication relating to announcements. Is there reason to expect this to change?</p>",
+        "id": 396865736,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697450415
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailinglist.20semi-dead.3F/near/396865736\">said</a>:</p>\n<blockquote>\n<p>Just to clarify: has the categories mailing list had technical issues lately? My impression was that it had been less active, but is still used for communication relating to announcements. Is there reason to expect this to change?</p>\n</blockquote>\n<p>At least two of the messages that I have sent to it did not go through. One being the Logic Colloquium announcement, the other being the ItaCa fest announcement. Today  I had informal confirmation that the mailinglist is not operating at the moment, but this is not at all the first time in the last two years that a message that I, or the ItaCa people, have sent does not get dispatched, or gets dispatched with enormous delay.</p>\n<p>Since some may have little experience with the problem, let me sum it up. As many mailinglists the categories one is moderated. This means that when I send something to it, there's someone that decides whether the message is good enough, or relevant enough, to be dispatched. A number of times the ItaCa seminar hasn't been announced, or was announced AFTER it had happened, because of this. I am sure you understand this is far from being tolerable. With the logic colloquium this time, the message simply never appeared, and the situation is getting less and less acceptable with the time.</p>\n<p>While I understand the importance of moderation, and I am sure this not voluntary censorship, it ends up being...  censorship.</p>",
+        "id": 396866095,
+        "sender_full_name": "Ivan Di Liberti",
+        "timestamp": 1697450535
+    },
+    {
+        "content": "<p>Regarding conference/seminar announcements in particular, there is <a href=\"https://researchseminars.org/\">https://researchseminars.org/</a>, as well as the <a class=\"stream\" data-stream-id=\"229141\" href=\"/#narrow/stream/229141-general.3A-events\">#general: events</a> stream here, though I don't think either is a complete solution.</p>",
+        "id": 396867383,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697451028
+    },
+    {
+        "content": "<p>Moderator gone AWOL (one too many of my posts didn't get dispatched,<br>\nwhich led me to deploy some strongarm techniques to get a message or<br>\ntwo posted, only to forget all about it with an RIP ;)  Good ol' days<br>\nof moderator Professor Robert Rosebrugh are gone ... all gone ... sad<br>\n:(...</p>",
+        "id": 396867663,
+        "sender_full_name": "Posina Venkata Rayudu",
+        "timestamp": 1697451109
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailinglist.20semi-dead.3F/near/396867383\">said</a>:</p>\n<blockquote>\n<p>Regarding conference/seminar announcements in particular, there is <a href=\"https://researchseminars.org/\">https://researchseminars.org/</a>, as well as the <a class=\"stream\" data-stream-id=\"229141\" href=\"/#narrow/stream/229141-general.3A-events\">#general: events</a> stream here, though I don't think either is a complete solution.</p>\n</blockquote>\n<p>I agree, but let me make a couple of comments. (1) RS is not centered around us, nor there is a way to send a mail to a group of people that would like to receive one on the topic (I think). (2) Zulip is a lot of things, and I think could be an interesting solution, but it requires people to subscribe to it, and check it regularly. It is not as accessible as a simple, standalone webpage that gathers this information in a clean, dedicated, non-noisy, and uncluttered way.</p>",
+        "id": 396867989,
+        "sender_full_name": "Ivan Di Liberti",
+        "timestamp": 1697451172
+    },
+    {
+        "content": "<p>Functional communities are rarely pyramidal structures. I think opening a nlab page is encouraged (I was about to tag him, but... Urs is not on this zulip?!) and in no way harms other initiatives that people might want to take in parallel. The more information we spread, at the cost of a bit of redundancy, the better and earlier we can involve people.</p>",
+        "id": 396875948,
+        "sender_full_name": "fosco",
+        "timestamp": 1697453398
+    },
+    {
+        "content": "<p>So, I guess the real question is, would any old category theorist be offended if younger people took the matter in their hands?</p>",
+        "id": 396876132,
+        "sender_full_name": "fosco",
+        "timestamp": 1697453456
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"282822\">fosco</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/396875948\">said</a>:</p>\n<blockquote>\n<p>Functional communities are rarely pyramidal structures. I think opening a nlab page is encouraged (I was about to tag him, but... Urs is not on this zulip?!) and in no way harms other initiatives that people might want to take in parallel. The more information we spread, at the cost of a bit of redundancy, the better and earlier we can involve people.</p>\n</blockquote>\n<p>How do you think the nlab idea could work? Just a normal page with a anti-chronological list of announcements? And how about the RSS option? Is it possible to \"subscribe\" to an nlab page? Would you send a mail to Urs so that he sees this conversation?</p>\n<p>One could even imagine a github website that self-updates when receives a specific mail-form that triggers it, and also dispatches a new mail to \"the people\". I guess this is something not too hard to automatise, no? Actually this is essentially what a google group already is.</p>",
+        "id": 396876473,
+        "sender_full_name": "Ivan Di Liberti",
+        "timestamp": 1697453583
+    },
+    {
+        "content": "<p>I can look into it and email Urs later today, but I agree with you that we should give some time to more ideas to emerge from this conversation. I was just stating my opinion, that I would open the page now, even with just the title (\"upcoming events in category theory\") and think about the details later.</p>",
+        "id": 396876912,
+        "sender_full_name": "fosco",
+        "timestamp": 1697453761
+    },
+    {
+        "content": "<p>As such, a nlab page with a markdown table with all the technical information (venue, deadlines,...) maintained by the organization of each event, is not only completely harmless, but a huge improvement from the email format.</p>",
+        "id": 396877431,
+        "sender_full_name": "fosco",
+        "timestamp": 1697453954
+    },
+    {
+        "content": "<p>(also... Is this a good place to reiterate that I lost most of the yamcats because I had too short a notice to organize a trip? <span aria-label=\"broken heart\" class=\"emoji emoji-1f494\" role=\"img\" title=\"broken heart\">:broken_heart:</span>)</p>",
+        "id": 396877608,
+        "sender_full_name": "fosco",
+        "timestamp": 1697454014
+    },
+    {
+        "content": "<p>Urs isn't on here, which is not at all surprising.</p>",
+        "id": 396877894,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697454120
+    },
+    {
+        "content": "<p>It would be nice to have some communication from the moderator(s) of the categories mailing list if there are technical issues, because I imagine most of us are completely unaware.</p>",
+        "id": 396877973,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697454133
+    },
+    {
+        "content": "<p>Yes, I'd like that.</p>",
+        "id": 396878005,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697454146
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"277318\">@Ivan Di Liberti</span> wrote:</p>\n<blockquote>\n<p>Today I had informal confirmation that the mailing list is not operating at the moment...</p>\n</blockquote>\n<p>I'd like to know what sort of confirmation that was.</p>",
+        "id": 396878232,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697454240
+    },
+    {
+        "content": "<p>But if Bob Rosebrugh is still the only moderator of the mailing list (as suggested by <a href=\"https://www.mta.ca/~cat-dist/#moderator\">https://www.mta.ca/~cat-dist/#moderator</a>), then it's entirely possible he's overwhelmed. Having a single moderator for such an important mailing list seems liable to problems.</p>",
+        "id": 396878328,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697454270
+    },
+    {
+        "content": "<p>Is Bob Rosebrugh still officially in charge of the category theory mailing list?  If so, has anyone asked him what's up?</p>",
+        "id": 396878346,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697454277
+    },
+    {
+        "content": "<p>I could just ask him.  (So could anyone else.)</p>",
+        "id": 396878383,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697454298
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/396877894\">said</a>:</p>\n<blockquote>\n<p>Urs isn't on here, which is not at all surprising.</p>\n</blockquote>\n<p>Evidently you know something that we don't</p>",
+        "id": 396878428,
+        "sender_full_name": "fosco",
+        "timestamp": 1697454311
+    },
+    {
+        "content": "<p>Evidently.</p>",
+        "id": 396878478,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697454329
+    },
+    {
+        "content": "<p>But anyway, he's not on here.</p>",
+        "id": 396878518,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697454345
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/396878478\">said</a>:</p>\n<blockquote>\n<p>Evidently.</p>\n</blockquote>\n<p>In hindsight I can't blame Urs' choice, considering the sort of answers you sometimes read on here!</p>",
+        "id": 396879126,
+        "sender_full_name": "fosco",
+        "timestamp": 1697454560
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/396878346\">said</a>:</p>\n<blockquote>\n<p>Is Bob Rosebrugh still officially in charge of the category theory mailing list?  If so, has anyone asked him what's up?</p>\n</blockquote>\n<p>Yes and yes.</p>",
+        "id": 396879132,
+        "sender_full_name": "Ivan Di Liberti",
+        "timestamp": 1697454562
+    },
+    {
+        "content": "<p>Back on topic now</p>",
+        "id": 396879142,
+        "sender_full_name": "fosco",
+        "timestamp": 1697454565
+    },
+    {
+        "content": "<p>I was going to continue by saying that someone could either just start up a page of category theory events on the nLab, or - to be extra polite - raise the topic <a href=\"https://nforum.ncatlab.org/\">on the nForum</a> and see what the nLab folks think.  Heck, I'll do the latter now since it's so easy.</p>",
+        "id": 396879236,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697454603
+    },
+    {
+        "content": "<p>I will send an email to Bob Rosebrugh to try to find out what the situation is, and relay his response here.</p>",
+        "id": 396881668,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697455584
+    },
+    {
+        "content": "<p>Thanks!  I <a href=\"https://nforum.ncatlab.org/discussion/17289/category-theory-events/#Item_1\">started a conversation on the nLab</a> about both issues: is there a problem with the category theory mailing list, and is it a good idea to start an nLab page announcing events.   (Of course if one gets started, it will be up to people who care about it to actually use it: one can't expect that \"they\" will do anything.)</p>",
+        "id": 396882386,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697455880
+    },
+    {
+        "content": "<p>Btw, what does your facial reaction <span aria-label=\"dotted line face\" class=\"emoji emoji-1fae5\" role=\"img\" title=\"dotted line face\">:dotted_line_face:</span> mean, <span class=\"user-mention\" data-user-id=\"277318\">@Ivan Di Liberti</span>?   I find some of these emojis cryptic.</p>",
+        "id": 396882588,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697455960
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/396882588\">said</a>:</p>\n<blockquote>\n<p>Btw, what does your facial reaction <span aria-label=\"dotted line face\" class=\"emoji emoji-1fae5\" role=\"img\" title=\"dotted line face\">:dotted_line_face:</span> mean, <span class=\"user-mention silent\" data-user-id=\"277318\">Ivan Di Liberti</span>?   I find some of these emojis cryptic.</p>\n</blockquote>\n<p>I was a bit surprised, because the message felt like you had completely ignored every message in the conversation and just stabbed an idea that not only had already appeared, but also had appeared in a more precise and cautious way.</p>",
+        "id": 396883379,
+        "sender_full_name": "Ivan Di Liberti",
+        "timestamp": 1697456266
+    },
+    {
+        "content": "<p>Professor Robert Rosebrugh is no longer the moderator of the category<br>\ntheory mailing list; it was announced a few years ago on the list and the<br>\nnew moderator is, unless I'm mistaken, not really a category theorist ... a<br>\ncomputer scientist, I think.</p>",
+        "id": 396884404,
+        "sender_full_name": "Posina Venkata Rayudu",
+        "timestamp": 1697456641
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276695\">@Posina Venkata Rayudu</span>: Rosebrugh was certainly moderating the list as of last year, and I can't find any such announcement. Do you have a copy of the announcement you are referring to?</p>",
+        "id": 396884869,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697456790
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277318\">Ivan Di Liberti</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/396883379\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/396882588\">said</a>:</p>\n<blockquote>\n<p>Btw, what does your facial reaction <span aria-label=\"dotted line face\" class=\"emoji emoji-1fae5\" role=\"img\" title=\"dotted line face\">:dotted_line_face:</span> mean, <span class=\"user-mention silent\" data-user-id=\"277318\">Ivan Di Liberti</span>?   I find some of these emojis cryptic.</p>\n</blockquote>\n<p>I was a bit surprised, because the message felt like you had completely ignored every message in the conversation and just stabbed an idea that not only had already appeared, but also had appeared in a more precise and cautious way.</p>\n</blockquote>\n<p>Okay.  It would be hard for me to gather that from just seeing <span aria-label=\"dotted line face\" class=\"emoji emoji-1fae5\" role=\"img\" title=\"dotted line face\">:dotted_line_face:</span>.   In fact I read everything, I was trying to agree with a bunch of it,  and I was saying that I'd post something to the nForum about it, namely  <a href=\"https://nforum.ncatlab.org/discussion/17289/category-theory-events/#Item_1\">this</a>.</p>",
+        "id": 396886768,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697457476
+    },
+    {
+        "content": "<p>So yes, I was being less precise and cautious, but I figured it was good to let people on the nLab know about these issues sooner rather than later.</p>",
+        "id": 396886950,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697457554
+    },
+    {
+        "content": "<p>@Nathanael Arkor: I'm sorry I couldn't find any email announcing a new<br>\nmoderator for CT mailing list (I must have deleted that post or it's my<br>\nimagination gone wild ;)<br>\nWhile we are at it, is there any attempt to reconstruct all that's lost<br>\nwith gmane?</p>",
+        "id": 396891649,
+        "sender_full_name": "Posina Venkata Rayudu",
+        "timestamp": 1697459241
+    },
+    {
+        "content": "<blockquote>\n<p>While we are at it, is there any attempt to reconstruct all that's lost with gmane?</p>\n</blockquote>\n<p>I imagine the best way to do that is if anyone has been subscribed to the mailing list since 2009, has kept all of their emails, and would be willing to extract them for us.</p>",
+        "id": 396892909,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697459645
+    },
+    {
+        "content": "<p>Afaik, Bob Rosebrugh is the actual moderator of Category list. </p>\n<p>No idea why the list is down, but it is down. </p>\n<p>Now, there might be other means to spread CT-related info around in future, but NOW we need Category List - as it is, I would say, very low-tech.</p>",
+        "id": 396893503,
+        "sender_full_name": "Beppe Metere",
+        "timestamp": 1697459842
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276915\">Beppe Metere</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/396893503\">said</a>:</p>\n<blockquote>\n<p>Now, there might be other means to spread CT-related info around in future, but NOW we need Category List - as it is, I would say, very low-tech.</p>\n</blockquote>\n<p>So I guess you're proposing that someone offer to take over as a more attentive moderator?</p>",
+        "id": 396893807,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1697459940
+    },
+    {
+        "content": "<p>Well, first one should understand what's going on, I suppose...</p>\n<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/396893807\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"276915\">Beppe Metere</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/396893503\">said</a>:</p>\n<blockquote>\n<p>Now, there might be other means to spread CT-related info around in future, but NOW we need Category List - as it is, I would say, very low-tech.</p>\n</blockquote>\n<p>So I guess you're proposing that someone offer to take over as a more attentive moderator?</p>\n</blockquote>",
+        "id": 396893990,
+        "sender_full_name": "Beppe Metere",
+        "timestamp": 1697460005
+    },
+    {
+        "content": "<p>...I mean, maybe the list run into a tech issue?</p>",
+        "id": 396894178,
+        "sender_full_name": "Beppe Metere",
+        "timestamp": 1697460080
+    },
+    {
+        "content": "<p>(I have emailed Bob to enquire as to the nature of the issue.)</p>",
+        "id": 396894766,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697460306
+    },
+    {
+        "content": "<p>I can safely speak for me, Nathanael and Fosco. We can take over moderation tomorrow if needed.</p>",
+        "id": 396895935,
+        "sender_full_name": "Ivan Di Liberti",
+        "timestamp": 1697460740
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277318\">Ivan Di Liberti</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/396895935\">said</a>:</p>\n<blockquote>\n<p>I can safely speak for me, Nathanael and Fosco. We can take over moderation tomorrow if needed.</p>\n</blockquote>\n<p>We can, confirmed</p>",
+        "id": 396897103,
+        "sender_full_name": "fosco",
+        "timestamp": 1697461148
+    },
+    {
+        "content": "<p>@Ivan Di Liberti: Good good, with all my good wishes!</p>",
+        "id": 396898866,
+        "sender_full_name": "Posina Venkata Rayudu",
+        "timestamp": 1697461657
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276695\">Posina Venkata Rayudu</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/396891649\">said</a>:</p>\n<blockquote>\n<p>While we are at it, is there any attempt to reconstruct all that's lost with gmane?</p>\n</blockquote>\n<p>This was done by <span class=\"user-mention\" data-user-id=\"277321\">@Simon Burton</span>, see <a href=\"https://github.com/punkdit/categories\">here</a>. The list is still available via newsreader and the <a href=\"http://gmane.io\">gmane.io</a> domain</p>",
+        "id": 396911593,
+        "sender_full_name": "Matt Earnshaw",
+        "timestamp": 1697465338
+    },
+    {
+        "content": "<p>I hope the mailing list can be revived, much moreso than that some new solution can be constructed. A Schelling point around which a substantial proportion of the community has gathered for 30 years is unlikely to be successfully replaced.</p>",
+        "id": 396940197,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1697474459
+    },
+    {
+        "content": "<p>I received this response from Bob:</p>\n<blockquote>\n<p>Hello - </p>\n<p>Indeed, the list is on a hiatus due to my unexpected and permanent loss of access to the list software. </p>\n<p>I've invited a colleague at Macquarie to look into taking over. At best that will take some time. If it doesn't work out I will be looking for a new moderator, and may post on Zulip. </p>\n<p>Sorry about the delay. </p>\n<p>Best wishes,<br>\nBob Rosebrugh</p>\n</blockquote>",
+        "id": 396945299,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697476342
+    },
+    {
+        "content": "<p>@Matt Earnshaw: Thank you very much for your pointers!</p>\n<p>Speaking of CT mailing list moderator, I was mistaken: Professor<br>\nRosebrugh is still moderator, but the list is on hiatus (software<br>\nissues) and he will not be continuing when it resumes.</p>",
+        "id": 396946008,
+        "sender_full_name": "Posina Venkata Rayudu",
+        "timestamp": 1697476622
+    },
+    {
+        "content": "<blockquote>\n<p>Speaking of CT mailing list moderator, I was mistaken: Professor<br>\nRosebrugh is still moderator, but the list is on hiatus (software<br>\nissues) and he will not be continuing when it resumes.</p>\n</blockquote>\n<p>This is exactly what is written in my message above.</p>",
+        "id": 396946147,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697476681
+    },
+    {
+        "content": "<p>Some people here might also be on the ALG-TOP list, which is also having impending technical problems, but at least the moderator let people know something was up in advance, and is keeping people informed as to the options he has. This is not to point a finger at Bob R, but he might not be so active in engaging with the list and its technical underpinnings to keep up with things that might be happening under the hood.</p>\n<p>A google group mailing list (like eg HoTT people have, or constructivenews, is not at all unreasonable to my mind. Having announcements in one's inbox, and even discussion, is preferable to me than to have to navigate to yet another website to check regularly for updates.</p>",
+        "id": 396988079,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1697496567
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/396945299\">said</a>:</p>\n<blockquote>\n<p>I received this response from Bob:</p>\n<blockquote>\n<p>Hello - </p>\n<p>Indeed, the list is on a hiatus due to my unexpected and permanent loss of access to the list software. </p>\n<p>I've invited a colleague at Macquarie to look into taking over. At best that will take some time. If it doesn't work out I will be looking for a new moderator, and may post on Zulip. </p>\n<p>Sorry about the delay. </p>\n<p>Best wishes,<br>\nBob Rosebrugh</p>\n</blockquote>\n</blockquote>\n<p>The <em>reasonable</em> course of action is that the colleague at Macquarie reveal their identity, participating to this conversation, and the people who are willing to help revive the CT mailing list, also help relieve them from the burden of maintaining the mailing list alone. I can imagine the colleague at Macquarie is worried about not being able to juggle their role as maintainer of the community \"official\" mailing list, in addition to their teaching duties, supervision, research, role as reviewer of papers... <br>\nBut the solution is simple, we can help. As I said, functional social structures are rarely pyramidal.</p>\n<p>As for the <em>unreasonable</em> course of action...</p>",
+        "id": 397071252,
+        "sender_full_name": "fosco",
+        "timestamp": 1697536606
+    },
+    {
+        "content": "<p>I used to mantain this calendar, but then I sort of stopped: <a href=\"https://teamup.com/ksfss6k4j1bxc8vztb\">https://teamup.com/ksfss6k4j1bxc8vztb</a></p>",
+        "id": 397076715,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1697538217
+    },
+    {
+        "content": "<p>Anyway, I think technologies overlap with people so if this forum is 100x more active than the mailing list, perhaps it's because the users of the mailing list are not as active anymore or switched to other venues (nForum/cafè, MO, here)?</p>",
+        "id": 397076928,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1697538278
+    },
+    {
+        "content": "<p>I believe this place is much better suited for the job the mailing list was trying to do, i.e. (1) announcing events and (2) discussions. I don't think there's any need to argue for (2): chats &gt;&gt; emails for that. Regarding (1), I see the value of having a low-tech, denoised way to keep track of them.<br>\nAn easy-to-implement solution, which would cather to both Zulip users and non-users, is to have a stream here, such as <a class=\"stream\" data-stream-id=\"229141\" href=\"/#narrow/stream/229141-general.3A-events\">#general: events</a>, with writing access restricted to mods, who would take care of broadcasting (and filtering) announcements people send them, not unlike Rosebrugh used to do. Then getting emails from it would be a matter of enabling email notifications for that. One could even pipe such emails into the existing mailing list.</p>",
+        "id": 397077878,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1697538589
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397076928\">said</a>:</p>\n<blockquote>\n<p>Anyway, I think technologies overlap with people so if this forum is 100x more active than the mailing list, perhaps it's because the users of the mailing list are not as active anymore or switched to other venues (nForum/cafè, MO, here)?</p>\n</blockquote>\n<p>Right now it's because the mailing list is broken.</p>",
+        "id": 397080123,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697539324
+    },
+    {
+        "content": "<p>But yes, even before that there was a long slow decline.</p>",
+        "id": 397080343,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697539377
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"282822\">fosco</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397071252\">said</a>:</p>\n<blockquote>\n<p>The <em>reasonable</em> course of action is that the colleague at Macquarie reveal their identity, participating to this conversation</p>\n</blockquote>\n<p>It is very likely that that person is not on (or at least not active on) this Zulip server, and has no idea about the conversation taking place here (unless Bob forwarded my email on to them).</p>",
+        "id": 397084045,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697540682
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275932\">Matteo Capucci (he/him)</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397077878\">said</a>:</p>\n<blockquote>\n<p>I believe this place is much better suited for the job the mailing list was trying to do, i.e. (1) announcing events and (2) discussions.</p>\n</blockquote>\n<p>I agree, but I also think there is a large proportion of the community who are happy using a mailing list, but not happy to use Zulip; having a mailing list is still important.</p>",
+        "id": 397084595,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697540852
+    },
+    {
+        "content": "<p>The inertia of seniority does have that kind of effect, indeed!</p>",
+        "id": 397085833,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1697541309
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397084045\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"282822\">fosco</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397071252\">said</a>:</p>\n<blockquote>\n<p>The <em>reasonable</em> course of action is that the colleague at Macquarie reveal their identity, participating to this conversation</p>\n</blockquote>\n<p>It is very likely that that person is not on (or at least not active on) this Zulip server, and has no idea about the conversation taking place here (unless Bob forwarded my email on to them).</p>\n</blockquote>\n<p>Yes, I think few established category theorists older than 50 have joined this Zulip.</p>",
+        "id": 397104661,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697547953
+    },
+    {
+        "content": "<p>I'm \"young\" but generally prefer mailing lists for things like this, simply because it saves me from having to think about <em>another</em> messaging app with <em>another</em> set of notifications and <em>another</em> ecosystem and...</p>",
+        "id": 397106138,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1697548400
+    },
+    {
+        "content": "<p>this community has settled on Zulip, but the algebraic topology community uses Discord, and the HoTT community used to use IRC, some more FOSS-centric communities use GitHub discussions, or Gitter — who knows what people will use in even 3 years time. I know you can technically plug all these into one big mediator (through the magic of e.g. <a href=\"http://element.io\">element.io</a> bridges) but it's still a massive faff</p>",
+        "id": 397106378,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1697548476
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"280178\">Tim Hosgood</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397106378\">said</a>:</p>\n<blockquote>\n<p>this community has settled on Zulip, but the algebraic topology community uses Discord, and the HoTT community used to use IRC, some more FOSS-centric communities use GitHub discussions, or Gitter — who knows what people will use in even 3 years time. I know you can technically plug all these into one big mediator (through the magic of e.g. <a href=\"http://element.io\">element.io</a> bridges) but it's still a massive faff</p>\n</blockquote>\n<p>There's literally no solution to this. It's a huge problem for everyone. It won't get solved unless one of these solutions gets a state of monopoly. This was true for Twitter until recently, and now that's fracturing up as well (and I have to have both twitter and mastodon open in my browser).</p>",
+        "id": 397109346,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1697549417
+    },
+    {
+        "content": "<p>It's a well-known and counterintuitive fact that in many internet applications monopolies are actually good for user experience. T_T</p>",
+        "id": 397109442,
+        "sender_full_name": "Fabrizio Genovese",
+        "timestamp": 1697549454
+    },
+    {
+        "content": "<p>i think \"sticking with an email mailing list\" is a pretty good solution insofar as what this community could do :-)</p>",
+        "id": 397109864,
+        "sender_full_name": "Tim Hosgood",
+        "timestamp": 1697549582
+    },
+    {
+        "content": "<p>Concerning announcements of meetings, there is also &lt;<a href=\"https://mathmeetings.net/\">https://mathmeetings.net/</a>&gt;.  Transitioning the mailing list to a new host and/or new maintainer may be the best option, since the proliferation of different platforms (nForum, nLab, MathOverflow, Zulip, Discord) makes it harder, not easier to keep track of everything.</p>",
+        "id": 397110730,
+        "sender_full_name": "Dmitri Pavlov",
+        "timestamp": 1697549858
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"280178\">Tim Hosgood</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397106378\">said</a>:</p>\n<blockquote>\n<p>this community has settled on Zulip, but the algebraic topology community uses Discord, and the HoTT community used to use IRC, some more FOSS-centric communities use GitHub discussions, or Gitter</p>\n</blockquote>\n<p>I don't think it's accurate to say that any community defined by a mathematical subject \"uses\" or \"has settled on\" any particular communication app.  Most discussion on this Zulip takes place between a handful of regulars, and there are lots of category theorists who don't belong to it at all; and category-theoretic conversations also happen at the nForum, on blog posts, and (I gather) on twittery places.  I suspect the same is true for algebraic topology.  And as for HoTT, I think it's fair to say that I've been a member of that community essentially since its beginning, and this is the first time I've heard that that \"community\" used IRC.</p>",
+        "id": 397119259,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1697552262
+    },
+    {
+        "content": "<p>If people also want to announce seminars, talks etc., feel free to go ahead and change the title to \"Category Theory events\".</p>",
+        "id": 397121015,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697552774
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276438\">Fabrizio Genovese</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397109442\">said</a>:</p>\n<blockquote>\n<p>It's a well-known and counterintuitive fact that in many internet applications monopolies are actually good for user experience. T_T</p>\n</blockquote>\n<p>One of the wonderful things about email is that it is a <em>protocol</em> rather than an <em>app</em>.  So one person can use gmail, another can use outlook, etc., and wonder-of-wonders they can still all communicate with each other.  Back in its day, IRC was a protocol too.</p>",
+        "id": 397121068,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1697552792
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397120632\">said</a>:</p>\n<blockquote>\n<p>On the nForum Urs pointed out that the nLab already has a page <a href=\"https://ncatlab.org/nlab/show/Category%20Theory%20conference\">[[Category Theory conference]]</a>.   I urge anyone who wants to announce category theory events on the nLab to do so on that page!</p>\n</blockquote>\n<p>No, that's the page for the \"Category Theory\" conference (i.e. \"CT\"), not \"category theory conferences\". Anyone who wants to announce other events should create a new page.</p>",
+        "id": 397121165,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697552832
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397121015\">said</a>:</p>\n<blockquote>\n<p>If people also want to announce seminars, talks etc., feel free to go ahead and change the title to \"Category Theory events\".</p>\n</blockquote>\n<p>Let me encourage everyone again to not take action before consensus is formed.</p>",
+        "id": 397121498,
+        "sender_full_name": "Ivan Di Liberti",
+        "timestamp": 1697552950
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397121165\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"275920\">John Baez</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397120632\">said</a>:</p>\n<blockquote>\n<p>On the nForum Urs pointed out that the nLab already has a page <a href=\"https://ncatlab.org/nlab/show/Category%20Theory%20conference\">[[Category Theory conference]]</a>.   I urge anyone who wants to announce category theory events on the nLab to do so on that page!</p>\n</blockquote>\n<p>No, that's the page for the \"Category Theory\" conference (i.e. \"CT\"), not \"category theory conferences\". Anyone who wants to announce other events should create a new page.</p>\n</blockquote>\n<p>Oh, whoops!  Sorry.</p>",
+        "id": 397121795,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697553044
+    },
+    {
+        "content": "<p>I suggest that anyone who wants an nLab page on category theory events create the page <a href=\"https://ncatlab.org/nlab/show/category%20theory%20events\">[[category theory events]]</a> and putting some information on it.  It's easy to do and it can evolve organically: e.g. if people create a mailing list this page can switch to giving instructions for joining that.</p>",
+        "id": 397124091,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697553716
+    },
+    {
+        "content": "<p>I predict that a consensus-based approach will lead to inaction as it so often does in situations like these.  However I would <em>love</em> to be proved wrong.</p>",
+        "id": 397124699,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697553874
+    },
+    {
+        "content": "<p>Perhaps I can enquire as to who Bob's colleague at Macquarie is, and find out what they are doing to resolve the problem, or whether they would appreciate any help.</p>",
+        "id": 397125153,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697554007
+    },
+    {
+        "content": "<p>That sounds like a good idea to me.</p>",
+        "id": 397126581,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697554442
+    },
+    {
+        "content": "<p>Discussion on the newly created page is at the nForum thread <a href=\"https://nforum.ncatlab.org/discussion/17291/category-theory-events/\">https://nforum.ncatlab.org/discussion/17291/category-theory-events/</a></p>",
+        "id": 397149157,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1697561781
+    },
+    {
+        "content": "<p>Nice!   Now let's put a few things on there.  This is not as useful as a revived category theory mailing list, in my opinion, but it may be complementary.</p>",
+        "id": 397150617,
+        "sender_full_name": "John Baez",
+        "timestamp": 1697562365
+    },
+    {
+        "content": "<p>I received this from Bob Rosebrugh:</p>\n<blockquote>\n<p>My understanding is that the list should be reactivated soon with JS Lemay as new moderator.</p>\n</blockquote>",
+        "id": 397449463,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697701853
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"277105\">@JS PL (he/him)</span> can you confirm?</p>",
+        "id": 397454894,
+        "sender_full_name": "Morgan Rogers (he/him)",
+        "timestamp": 1697703698
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397449463\">said</a>:</p>\n<blockquote>\n<p>I received this from Bob Rosebrugh:</p>\n<blockquote>\n<p>My understanding is that the list should be reactivated soon with JS Lemay as new moderator.</p>\n</blockquote>\n</blockquote>\n<p>That would be excellent news!</p>",
+        "id": 397486016,
+        "sender_full_name": "Beppe Metere",
+        "timestamp": 1697715218
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397454894\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"277105\">JS PL (he/him)</span> can you confirm?</p>\n</blockquote>\n<p>Yes I can confirm. The new categories mailing list <a href=\"mailto:categories@mq.edu.au\">categories@mq.edu.au</a> is essentially up and running.</p>",
+        "id": 397638020,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1697782893
+    },
+    {
+        "content": "<p>EDIT: Ok we are in the process of adding everyone from the old mailing list (all 2000+ of you!) to the new mailing list (some of you are already on the mailing list). This should be done by early next week (since it's already the weekend here down under). Thanks for your patience. If you'd like to be added now, see my message below.</p>",
+        "id": 397638846,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1697783234
+    },
+    {
+        "content": "<p>I didn't.</p>",
+        "id": 397639419,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1697783464
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397639419\">said</a>:</p>\n<blockquote>\n<p>I didn't.</p>\n</blockquote>\n<p>Alright good to know -- I will look into this (though it might have to wait until next week)</p>",
+        "id": 397639850,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1697783624
+    },
+    {
+        "content": "<p>Me neither.</p>",
+        "id": 397639976,
+        "sender_full_name": "Tobias Fritz",
+        "timestamp": 1697783670
+    },
+    {
+        "content": "<p>In the meantime, anybody who would like to be added to the mailing list, can just email me directly at <a href=\"mailto:js.lemay@mq.edu.au\">js.lemay@mq.edu.au</a> for now and I'll just add you manually until then.</p>",
+        "id": 397640035,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1697783700
+    },
+    {
+        "content": "<p>I will also setup a subscription/request email for the mailing list shortly.</p>",
+        "id": 397640351,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1697783829
+    },
+    {
+        "content": "<p>Thank you all for your patience</p>",
+        "id": 397640361,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1697783835
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"277105\">JS PL (he/him)</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397638020\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397454894\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"277105\">JS PL (he/him)</span> can you confirm?</p>\n</blockquote>\n<p>Yes I can confirm. The new categories mailing list <a href=\"mailto:categories@mq.edu.au\">categories@mq.edu.au</a> is essentially up and running.</p>\n</blockquote>\n<p>By \"the list should be reactivated\", I assumed Bob meant the old list. The issue with creating a new mailing list associated to a particular university is that we're essentially guaranteed to have the same kind of problem in a number of years, and then it'll be necessary to create a new mailing list, etc. If the old mailing list really is unrecoverable, then this should be an opportunity to create a mailing list whose access is not limited by whether or not there are currently employees at a specific institution.</p>",
+        "id": 397648651,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697787264
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276092\">Nathanael Arkor</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397648651\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"277105\">JS PL (he/him)</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397638020\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"277473\">Morgan Rogers (he/him)</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397454894\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"277105\">JS PL (he/him)</span> can you confirm?</p>\n</blockquote>\n<p>Yes I can confirm. The new categories mailing list <a href=\"mailto:categories@mq.edu.au\">categories@mq.edu.au</a> is essentially up and running.</p>\n</blockquote>\n<p>By \"the list should be reactivated\", I assumed Bob meant the old list. The issue with creating a new mailing list associated to a particular university is that we're essentially guaranteed to have the same kind of problem in a number of years, and then it'll be necessary to create a new mailing list, etc. If the old mailing list really is unrecoverable, then this should be an opportunity to create a mailing list whose access is not limited by whether or not there are currently employees at a specific institution.</p>\n</blockquote>\n<p>Uhm, I wonder what happens when actions are taken before democratic consensus is reached. </p>\n<p>I'll subscribe to the list, and despite my criticism, thanks JS for taking this burden. You did not deserve this Atlantic role all on your shoulders.</p>",
+        "id": 397649336,
+        "sender_full_name": "Ivan Di Liberti",
+        "timestamp": 1697787581
+    },
+    {
+        "content": "<p>I think we can be fairly confident that there will be category theorists at Macquarie for the foreseable future.</p>",
+        "id": 397650168,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1697787939
+    },
+    {
+        "content": "<p>Seeking consensus can work when there is a clear authority who sets the rules under which that will happen and a time frame for it to happen in, and who will decide what to do if consensus is not reached.  But since no one is \"in charge of category theory\", I think waiting for a consensus to emerge would, as John said, probably lead to nothing ever being done.  I think this is rather the sort of situation where people who are willing to go beyond talking and take action can reasonably be allowed the resulting influence over the direction taken, as with many other community projects such as wikis and open-source software.</p>",
+        "id": 397650919,
+        "sender_full_name": "Mike Shulman",
+        "timestamp": 1697788221
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397650919\">said</a>:</p>\n<blockquote>\n<p>But since no one is \"in charge of category theory\"</p>\n</blockquote>\n<p>Of course this field has a Gotha (and to great extent, it's even ok). There's no point in dis-acknowledging it. As many of the hippie-like/very optimistic things that you often say, it totally sounds like \"Qu'ils mangent de la brioche\" to me.</p>",
+        "id": 397652843,
+        "sender_full_name": "Ivan Di Liberti",
+        "timestamp": 1697788901
+    },
+    {
+        "content": "<p>I think it is true that the people who are willing to take action are the most likely to gain influence (essentially tautologically). However, I think it is possible to have democratic consensus without an authority, for instance if someone (i.e. one of those willing to take action) proposes a course of action before taking it, and gives (a specified period of) time for people to respond. (One might call such a person an \"authority\", but any person has the opportunity to propose or respond, so they are not an authority in the usual sense.)</p>\n<p>There is much more that could be said on this topic, but I don't think having an argument about consensus serves any purpose now that action has been taken. While I do think this choice is likely to cause issues later down the line (albeit not in the near future), I agree it resolves the immediate problem.</p>",
+        "id": 397655312,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1697789774
+    },
+    {
+        "content": "<blockquote>\n<p>I think waiting for a consensus to emerge would, as John said, probably lead to nothing ever being done. </p>\n</blockquote>\n<p>Mike, this comment is ridicolous. Three people volunteered to address the issue; only, we avoided to take any concrete action, out of respect for what is (at least in theory) a democratic inspiration for our community. The rationale behind the inaction wasn't laziness, but avoid offending some old fart who might have thought we aren't old enough, influential enough, australian enough to be the coordinators of the official category theory mailing list. And I agree, we are none of these things.</p>",
+        "id": 397670974,
+        "sender_full_name": "fosco",
+        "timestamp": 1697795139
+    },
+    {
+        "content": "<p>Thank you all, anyway, I learned that the next time I notice something being dysfunctional and I want to fix the problem, I should just single-handedly do it, and if it appears bossy, it's your problem, not mine.</p>\n<p>Also, two things to dispel any possible misunderstanding:</p>\n<ul>\n<li>\n<p>I am unironically glad that someone took the matter in their hands, and I am sure they will do a fantastic job. <br>\nWhat I am not glad about is the lack of communication (who knew the mailing list was literally down and inaccessible, before this thread?) on top of another layer of lack of communication (who knew someone was addressing the issue already?). And icing on the cake, when some public discussion arises in absolute good faith, someone has the courage to say \"well, if we just seek some consensus no one will ever do something concrete\". Like, hello? Do you see me? I am in the room with you. <br>\n...and icing-on-top-of-the-icing, \"there is no one in charge of category theory\"? Clearly someone is, as this situation shows.</p>\n</li>\n<li>\n<p>I said \"old fart\" because I have respect for competence, good faith and common sense. I have no respect for seniority alone, and disdain for narrow-mindedness.</p>\n</li>\n</ul>",
+        "id": 397672231,
+        "sender_full_name": "fosco",
+        "timestamp": 1697795567
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"276777\">Mike Shulman</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397650168\">said</a>:</p>\n<blockquote>\n<p>I think we can be fairly confident that there will be category theorists at Macquarie for the foreseable future.</p>\n</blockquote>\n<p>I believe this was not the problem <span class=\"user-mention\" data-user-id=\"276092\">@Nathanael Arkor</span> was pointing at. Unexpected things happen all the time (see for instance Leicester a couple of years ago) and it just seems safer to not rely on a single university.  And just to be clear, I am not saying that in the foreseable future it is likely that category theoriests will not be at Macquarie, I just think there are better options long term. I think someone suggested something like a google group which seems like a good idea to me, but I am definitely not an expert on the topic. Finding the best option for this seems very useful to me.</p>",
+        "id": 397679261,
+        "sender_full_name": "Gabriele Lobbia",
+        "timestamp": 1697797796
+    },
+    {
+        "content": "<p>Wait, who is apparently \"in charge of category theory\"? I'm dense. If people wish to throw hands over this, just say the name(s).</p>",
+        "id": 397695945,
+        "sender_full_name": "David Michael Roberts",
+        "timestamp": 1697803601
+    },
+    {
+        "content": "<p>I don't have any skin in this game but I wouldn't want to rely on Google Groups continuing to exist in the long term either. Google has terminated products in the past, such as Google Reader and Google Plus.</p>",
+        "id": 397701669,
+        "sender_full_name": "Nathaniel Virgo",
+        "timestamp": 1697805782
+    },
+    {
+        "content": "<p><span class=\"user-mention\" data-user-id=\"276422\">@David Michael Roberts</span> I'm also unsure how to interpret this. I think <span class=\"user-mention\" data-user-id=\"282822\">@fosco</span> meant to point out that he, and maybe <span class=\"user-mention\" data-user-id=\"277318\">@Ivan Di Liberti</span>, felt excluded from the decision process, because (1) their calls for democratic consensus were largely ignored, and (2) some people in the know were actually working on the problem. <br>\nThat said, <span class=\"user-mention\" data-user-id=\"282822\">@fosco</span>, in my opinion, your use of \"ridiculous\" is really borderline.</p>",
+        "id": 397702932,
+        "sender_full_name": "Tom Hirschowitz",
+        "timestamp": 1697806240
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"383799\">Tom Hirschowitz</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397702932\">said</a>:</p>\n<blockquote>\n<p><span class=\"user-mention silent\" data-user-id=\"276422\">David Michael Roberts</span> I'm also unsure how to interpret this. I think <span class=\"user-mention silent\" data-user-id=\"282822\">fosco</span> meant to point out that he, and maybe <span class=\"user-mention silent\" data-user-id=\"277318\">Ivan Di Liberti</span>, felt excluded from the decision process, because (1) their calls for democratic consensus were largely ignored, and (2) some people in the know were actually working on the problem. <br>\nThat said, <span class=\"user-mention silent\" data-user-id=\"282822\">fosco</span>, in my opinion, your use of \"ridiculous\" is really borderline.</p>\n</blockquote>\n<p>My anger has literally nothing to do with feeling excluded. I don't feel more excluded than I usually do. What I find disturbing is that the people in the know couldn't care less about the people that are less in the know and want to lend a hand to address a dysfunctional situation. On a sociological level this is completely understandable, it's a typical mistake of older/more influential members of a community to override the natural dialectics that follows from multiple opinions in the same room. It's the dual mistake to the one made by many young people, believing that they know how things work and wanting to make the world better with energy and enthusiasm. So, I understand that everything was done in perfectly good faith, or I am totally willing to give the benefit of the doubt. What worries me is that the general issue goes completely unnoticed or even worse, that I have to avoid being gaslighted with Keanu-Reeves-esque moves by sentences like \"no one would have raised a finger, if a small subgroup of the community didn't single-handedly decide to get in charge of things\". That's false, and reading it is offensive, to say the least. That's why I used the word ridicolous. It's absurd, untenable, and offensive. Anyway, despite what it might seem, I have a thick skin, so I don't really care how we address the issue provided we solve it.</p>",
+        "id": 397730084,
+        "sender_full_name": "fosco",
+        "timestamp": 1697814278
+    },
+    {
+        "content": "<p>What I do care about is to raise my voice when I see that a behavior in the community I'm a part of is bossy and potentially exclusionary. The risk, otherwise, is that we legitimately try to get rid of toxic behavior in some parts of the community and we don't see others. The official mailing list of category theorists is indeed an official channel. I would like it to host healthy and useful conversations on the topic of the mathematics I love, I would like it to advertise in a timely manner events about it, and I would like it to be administered transparently, by responsive, competent and professional people. I think it's the bare minimum to ask</p>",
+        "id": 397730785,
+        "sender_full_name": "fosco",
+        "timestamp": 1697814499
+    },
+    {
+        "content": "<p>Now, let me stress three times that I have the utmost respect for what rosebrugh did, and the utmost trust on the good behavior of his successor. I don't have a problem with any specific person or institution. </p>\n<p>I am merely discussing a matter of principle in the most abstract way. A matter of principle many of you seem completely blind to. Which is, frankly, another worrying aspect of the situation. </p>\n<p>Now, I will refrain to answer any more.</p>",
+        "id": 397731286,
+        "sender_full_name": "fosco",
+        "timestamp": 1697814672
+    },
+    {
+        "content": "<p>Alright, the new mailing list <a href=\"mailto:categories@mq.edu.au\">categories@mq.edu.au</a> is now up and running properly. All members from the old list have now been added. I've sent out an announcement email, so hopefully you all received it as well (except for the many bounce backs/mail not delivered messages I am getting!)</p>",
+        "id": 398015184,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1698040750
+    },
+    {
+        "content": "<p>If you did not get an \"you have been added as a member\" email or the announcement email -- let me know. Or if you would like to be added to the new mailing list, please email me at <a href=\"mailto:js.lemay@mq.edu.au\">js.lemay@mq.edu.au</a></p>",
+        "id": 398015556,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1698040918
+    },
+    {
+        "content": "<p>Thank you all for your patience!</p>",
+        "id": 398015615,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1698040933
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"282822\">fosco</span> <a href=\"#narrow/stream/229111-general/topic/CT.20mailing.20list.20semi-dead.3F/near/397730785\">said</a>:</p>\n<blockquote>\n<p>I would like it to advertise in a timely manner events about it, and I would like it to be administered transparently, by responsive, competent and professional people. I think it's the bare minimum to ask</p>\n</blockquote>\n<p>I will do my best.</p>",
+        "id": 398015659,
+        "sender_full_name": "JS PL (he/him)",
+        "timestamp": 1698040949
+    },
+    {
+        "content": "<p>FYI I'm setting up a mirror of the mailing list here. It works one-way only, but at least it can be used to automatically broadcast announcements to this community too, and even move them to other streams like <a class=\"stream\" data-stream-id=\"229141\" href=\"/#narrow/stream/229141-general.3A-events\">#general: events</a> or <a class=\"stream\" data-stream-id=\"245502\" href=\"/#narrow/stream/245502-general.3A-positions\">#general: positions</a> to halve the amount of effort someone has to do to advertise their event to the CT community.</p>",
+        "id": 398041020,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1698051638
+    },
+    {
+        "content": "<p>Excellent idea, Matteo!</p>",
+        "id": 398045606,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698053246
+    },
+    {
+        "content": "<p>Thanks. Currently it's being crushed by the unwillingess of the mailing list software to enlist Zulip as one of its members. Let's see :)</p>",
+        "id": 398058247,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1698058090
+    },
+    {
+        "content": "<p>Mirror up and running, thanks to <span class=\"user-mention\" data-user-id=\"277105\">@JS PL (he/him)</span> generous manual forwarding for the moment</p>",
+        "id": 398422753,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1698217019
+    },
+    {
+        "content": "<p>Subscribe at <a class=\"stream\" data-stream-id=\"410322\" href=\"/#narrow/stream/410322-general.3A-mailing-list-mirror\">#general: mailing list mirror</a></p>",
+        "id": 398422805,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1698217041
+    },
+    {
+        "content": "<p>Congratulations!</p>",
+        "id": 398433188,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698221294
+    },
+    {
+        "content": "<p>For those not on the CT mailing list: let me pass along Ross Street's nice little prehistory of that mailing list:</p>\n<blockquote>\n<p>Dear Bob [Rosebrugh]:</p>\n<p>Far away in time and distance from most of your readers Max Kelly, in Australia, decided to make a mailing list of category theorists he knew from conferences; I contributed some more people. The list was typed on a golfball IBM typewriter. When we had a preprint or two (and once, a \"Christmas Letter''), we would photocopy the list onto sheets of address labels, put the preprints in envelopes, and mail them using the reliable postal system of the 1970s.</p>\n<p>Once we sent the list itself around too. Mike Barr wrote or said to Max: \"What am I supposed to do with this!'' Max explained what we did. However, by then, word processors were around and Mike wanted an electronic version. We moved to that. The first word processor our Macquarie Mathematics Department secretaries used was called \"OK editor'', not great. Of course then in came email and work stations and personal computers and TeX, . . . ; you know the story.</p>\n<p>In 1990, you stepped in with prescient creations: a social medium for category theory and one of the very first electronic mathematics journals. What a debt our subject owes you!! You dedicated so much to running both magnificently. So easy to say \"thank you'', and I do. However, with all the thanks flowing in, our joint appreciation should be clear.</p>\n<p>It is a hard act to follow. Luckily, JS has stepped forward and already managed to have a replacement system up and running. I have full confidence that he will run it well, he is so bright and energetic. Moreover, I told the little story in the first paragraph to express my feeling of some satisfaction that the system has come to this far, distant land.</p>\n<p>Surely now Bob, you will have a bit more time for research and other things. You deserve it.</p>\n<p>With best regards,<br>\nRoss   </p>\n</blockquote>",
+        "id": 398882704,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698407304
+    },
+    {
+        "content": "<p>It's great that the mailing list is revived, but I think it would be better if there were a delay as there was before.</p>",
+        "id": 399249077,
+        "sender_full_name": "Cole Comfort",
+        "timestamp": 1698654970
+    },
+    {
+        "content": "<p>What do you mean?</p>",
+        "id": 399249585,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1698655148
+    },
+    {
+        "content": "<p>There has been quite a high volume of discussion which I fear could degenerate into Twitter level discourse.  I hope that this is just the initial excitement of people and that it won't drown out more important announcements as so on</p>",
+        "id": 399251363,
+        "sender_full_name": "Cole Comfort",
+        "timestamp": 1698655655
+    },
+    {
+        "content": "<p>I think it might be useful to separate the mailing list into a discussion list and a anouncements list, like the TYPES list (the type theory mailing list) does. There's TYPES and TYPES-announce. Many other projects like Arch Linux also have separate lists for announcements and discussion, so for a high volume list like categories I think this is prefereable.</p>",
+        "id": 399253957,
+        "sender_full_name": "Xuanrui Qi",
+        "timestamp": 1698656430
+    },
+    {
+        "content": "<blockquote>\n<p>for a high volume list like categories</p>\n</blockquote>\n<p>I think it would be a great exaggeration to call the categories mailing list \"high volume\". There have been a high number of emails recently only because the backlog of emails during the period the mailing list was down have been re-sent.</p>",
+        "id": 399270510,
+        "sender_full_name": "Nathanael Arkor",
+        "timestamp": 1698661249
+    },
+    {
+        "content": "<p>It seems high volume now compared to the usual deathly silence.   <span aria-label=\"upside down\" class=\"emoji emoji-1f643\" role=\"img\" title=\"upside down\">:upside_down:</span></p>",
+        "id": 399270661,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698661306
+    },
+    {
+        "content": "<p>Typically there would be just a few posts a week, except when people get into an interesting conversation, which has been happening more and more rarely throughout the last decade or two.</p>",
+        "id": 399273476,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698662068
+    },
+    {
+        "content": "<p>well, I assume that since this Zulip is here, many people are directed here instead for discussion</p>",
+        "id": 399584975,
+        "sender_full_name": "Xuanrui Qi",
+        "timestamp": 1698778738
+    },
+    {
+        "content": "<p>I suspect most older category theorists, and many younger ones, don't even know about this Zulip.  </p>\n<p>(Was this Zulip ever announced on the category theory mailing list?  I think so.  But many people wouldn't bother to try joining this Zulip, because they're too busy.)</p>",
+        "id": 399709915,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698839537
+    },
+    {
+        "content": "<p>One reason I think this is that there are almost no comments from \"older\" category theorists here, except me.  Dusko Pavlovic was here for a while but he quit.</p>",
+        "id": 399710042,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698839599
+    },
+    {
+        "content": "<p>Yeah, I just responded to an exchange there this morning that hinged basically on the fact that Mike Barr has never even gotten on Arxiv, let alone on Zulip.</p>",
+        "id": 399756340,
+        "sender_full_name": "Kevin Arlin",
+        "timestamp": 1698855067
+    },
+    {
+        "content": "<p>Yes, twenty years from now kids will be shocked that you never got the brain implants that do proofs for you and automatically upload your theorems to the web.</p>",
+        "id": 399807812,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698875046
+    },
+    {
+        "content": "<p>I'm not sure that it will happen. People could be replaced by machines in many jobs but it doesn't happen e.g. I don't know why do we still have cashiers?</p>",
+        "id": 399808127,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1698875220
+    },
+    {
+        "content": "<p>Personally, this is mostly from a theoretical point of view that I want math and computer science to be closer (out of subject ahah).</p>",
+        "id": 399808448,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1698875389
+    },
+    {
+        "content": "<p>One of the barriers to entry for this zulip is requiring an invite link, and the invite links expire after a certain amount of time.  So if one would hope to get most of the CT mailing list community here, there would need to be a prolonged campaign to send out invite links to the CT mailing list... which would turn into spam, so I would not support this kind of action.</p>\n<p>An alternative that I could get behind is a series of events that have coordinated with this zulip to have the web discussions taking place here.  The mailing list announcements for the CfP, etc. would mention that this is where the web discussions are held and include an active invite link, noting when the invite link expires and that a fresh invite link will accompany the next announcement for the event.</p>\n<p>That said, I don't think it is <em>necessarily</em> a bad thing that the CT zulip and the CT mailing list serve different subsets of the CT community; the relative merits and demerits of that (present) fact would be worth considering if any effort is to be expended on \"get 'em all over here\".</p>",
+        "id": 399818509,
+        "sender_full_name": "Jason Erbele",
+        "timestamp": 1698881177
+    },
+    {
+        "content": "<p>Many of the regulars on the CT mailing list - e.g. the people who are busy thanking Bob Rosebrugh - will not want to come here.   Many of them are old, famous, and a bit set in their ways.  I imagine if they ever noticed this website they would regard it as a bit of an upstart, run by and for kids.   (Many of them consider me a kid too, btw.)</p>",
+        "id": 399906607,
+        "sender_full_name": "John Baez",
+        "timestamp": 1698922478
+    },
+    {
+        "content": "<p>yeah let's stay on topic guys :)</p>",
+        "id": 399914513,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1698924569
+    },
+    {
+        "content": "<p>Sorry <span class=\"user-mention\" data-user-id=\"275932\">@Matteo Capucci (he/him)</span>.  You are totally right.  Should I just remove my comment?</p>",
+        "id": 399914808,
+        "sender_full_name": "Damiano Mazza",
+        "timestamp": 1698924674
+    },
+    {
+        "content": "<p>no worries, just start a new topic if needed</p>",
+        "id": 399915345,
+        "sender_full_name": "Matteo Capucci (he/him)",
+        "timestamp": 1698924890
+    },
+    {
+        "content": "<p>It's ok, I deleted it, I'm not sure under which topic it would fit anyway <span aria-label=\"big smile\" class=\"emoji emoji-1f604\" role=\"img\" title=\"big smile\">:big_smile:</span> (For those who haven't seen my comment, it was a reply to <span class=\"user-mention\" data-user-id=\"428716\">@Jean-Baptiste Vienney</span>'s remark on why cashiers still exist, followed by a digression, nothing offending anyone by tremendously off-topic!).</p>",
+        "id": 399915979,
+        "sender_full_name": "Damiano Mazza",
+        "timestamp": 1698925157
+    },
+    {
+        "content": "<p>I didn’t see it, but we could start a new topic to discuss this!</p>",
+        "id": 399922208,
+        "sender_full_name": "Jean-Baptiste Vienney",
+        "timestamp": 1698927238
+    }
+]

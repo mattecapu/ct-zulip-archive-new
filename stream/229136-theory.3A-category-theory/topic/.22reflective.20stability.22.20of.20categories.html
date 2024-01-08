@@ -1,0 +1,104 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>&quot;reflective stability&quot; of categories · theory: category theory · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/index.html">theory: category theory</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/.22reflective.20stability.22.20of.20categories.html">&quot;reflective stability&quot; of categories</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="355571095"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/%22reflective%20stability%22%20of%20categories/near/355571095" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Gurkenglas <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/.22reflective.20stability.22.20of.20categories.html#355571095">(May 03 2023 at 17:58)</a>:</h4>
+<p>Recall that a vector space is an algebra of the free-vector-space monad on <strong>Set</strong>.<br>
+Likewise, a category is an identity-on-objects algebra of the free-category monad on <strong>Quiv</strong>.<br>
+More impressively: Let a precategory be a category that doesn't have to satisfy the algebra laws.<br>
+For a precategory on a quiver q, the following are equivalent:</p>
+<ul>
+<li>It's a category.</li>
+<li>Given it you can only build (that) one.</li>
+<li>Given it and a path, you can only build one arrow that you know to be from its source to its target. (Its composite.)</li>
+</ul>
+<p>To clarify, here's how to recover that a category C is...<br>
+  ...associative: Let's define precategories C_left and C_right: Let p be a path in C. If it hasn't length 3, it composes as in C. If it does have the form (f,g,h), it composes to C(C(f,g),h) in C_left and to C(f,C(g,h)) in C_right. Since we've now built C_left and C_right from C, they are C.<br>
+  ...unital: You could use C to conjure arrows from empty paths, then sprinkle them into other paths before you compose. By the property of C, those arrows do nothing.</p>
+<p>A functor from C to D is then an object map f plus an f-on-objects map from paths in C to arrows in D given which you can only build that one.</p>
+<p>In Haskell terms:</p>
+<div class="codehilite"><pre><span></span><code>data Path q where Nil :: Path q s s; Snoc :: Path q s t -&gt; q t u -&gt; Path q s u
+type Precategory q = forall s t. Path q s t -&gt; q s t
+type Redefinition = forall q. Precategory q -&gt; Precategory q
+-- A category is a precategory on which all redefinitions agree. (id in particular.)
+rassoc :: Redefinition
+rassoc c (Snoc (Snoc (Snoc Nil f) g) h) = c (Snoc (Snoc Nil f) (c (Snoc (Snoc Nil g) h)))
+type Prefunctor f q r = forall s t. Path q s t -&gt; r (f s) (f t)
+type Redefinition2 = forall f q r. (Precategory q, Precategory r, Prefunctor f q r) -&gt; Prefunctor f q r
+-- A functor is a prefunctor between categories on which all redefinition2s agree.
+</code></pre></div>
+<p>Remark: There is exactly one "forall q. Precategory (Path q)".</p>
+<p><a href="http://golem.ph.utexas.edu/category/2012/05/postulated_colimits_and_absolu.html#c041397">Tom Leinster's "possible to even mention" concept</a> is possible to mention here.</p>
+<p>Might one characterize the structure of <strong>Quiv</strong> by this property corresponding to unitality and associativity?<br>
+The jackpot case would be that this is a compact enough seed for category theory that one can calculate out a grid of all sensible math concepts, making clever definitions obsolete and math tractable.</p>
+<p>Anyway. Ideas? Prior work?</p>
+
+
+
+<a name="356132862"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/%22reflective%20stability%22%20of%20categories/near/356132862" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Oscar Cunningham <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/.22reflective.20stability.22.20of.20categories.html#356132862">(May 05 2023 at 18:01)</a>:</h4>
+<p>This sounds interesting. Could you explain how it relates to the title 'reflective stability'?</p>
+
+
+
+<a name="358256622"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/%22reflective%20stability%22%20of%20categories/near/358256622" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Gurkenglas <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/.22reflective.20stability.22.20of.20categories.html#358256622">(May 14 2023 at 13:10)</a>:</h4>
+<p><span class="user-mention" data-user-id="276945">@Oscar Cunningham</span> it's not a term with a formal definition I am importing. Allusions include:</p>
+<ul>
+<li>"reflectively stable" = "fixed by redefinitions"</li>
+<li>the infamous ability of Category Theory to define itself, which may well prove characteristic.</li>
+<li>[tongue in cheek] as we reflect on our math language and remove imperfections, we shall reach a stable state; let's jump ahead to it.</li>
+</ul>
+
+
+
+<a name="358259509"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/%22reflective%20stability%22%20of%20categories/near/358259509" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Morgan Rogers (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/.22reflective.20stability.22.20of.20categories.html#358259509">(May 14 2023 at 13:30)</a>:</h4>
+<p>Re "a category is an identity-on-objects algebra of the free-category monad on <strong>Quiv</strong>": the unit of the free category monad <em>is</em> the identity on objects, and any algebra has to be an inverse to the unit so is the identity on objects too. So a category is an algebra for the free category monad, without caveats.<br>
+What is a "category without properties", and how does it fail to be a category?</p>
+
+
+
+<a name="358322019"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229136-theory%3A%20category%20theory/topic/%22reflective%20stability%22%20of%20categories/near/358322019" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Gurkenglas <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229136-theory.3A-category-theory/topic/.22reflective.20stability.22.20of.20categories.html#358322019">(May 14 2023 at 21:34)</a>:</h4>
+<p><span class="user-mention" data-user-id="277473">@Morgan Rogers (he/him)</span> By identity-on-objects I mean that a path from s to t has to be mapped to an arrow from s to t - the quiver morphism's objects-to-objects map is the identity.<br>
+A precategory is an identity-on-objects algebra of the free-category <em>endofunctor</em> on <strong>Quiv</strong>, that is, it does not need to satisfy the algebra-over-a-monad laws. I should have made more obvious that I didn't mean to drop "identity-on-objects". Edited.</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  	<link rel="stylesheet" href="/ct-zulip-archive/style.css" />
+  <title>Presentation of closed monoidal categories · community: general · Zulip Chat Archive</title>
+</head>
+<body>
+<header>
+        <a href="https://mattecapu.github.io/ct-zulip-archive-new" class="home-link">
+        <img class="logo" src="https://zulip-avatars.s3.amazonaws.com/21317/realm/icon.png?version=3" />
+        <h1>Category Theory<br/>Zulip Server<br/>Archive</h1>
+        </a>
+        <p>
+        You're reading the public-facing archive of the <a href="https://categorytheory.zulipchat.com/">Category Theory Zulip server</a>.<br/>
+        
+        To join the server you need an invite. Anybody can get an invite by contacting <a href="https://matteocapucci.wordpress.com">Matteo Capucci</a> at <em>name dot surname at gmail dot com</em>.<br/>
+        
+        For all things related to this archive refer to the same person.
+        </p>
+        </header>
+        <hr />
+    
+<h2>Stream: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229111-community.3A-general/index.html">community: general</a></h2>
+<h3>Topic: <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229111-community.3A-general/topic/Presentation.20of.20closed.20monoidal.20categories.html">Presentation of closed monoidal categories</a></h3>
+
+<hr>
+
+<base href="https://categorytheory.zulipchat.com">
+
+<a name="348509626"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229111-community%3A%20general/topic/Presentation%20of%20closed%20monoidal%20categories/near/348509626" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabio Zanasi <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229111-community.3A-general/topic/Presentation.20of.20closed.20monoidal.20categories.html#348509626">(Apr 11 2023 at 16:27)</a>:</h4>
+<p>I'm working on something involving closed monoidal categories, and I wondered if anybody has a pointer on the construction of a free symmetric closed monoidal category (SCMC) starting from a collection of generating objects and morphisms. </p>
+<p>Traditionally, SCMCs are described as SMCs where the tensor has a right adjoint. However, I believe it should be doable to describe this data equivalently by saying that there are eval_{A,B} morphisms for each objects A,B, and Lambda(f) morphisms for each morphism f, satisfying certain equations. I've started working this out myself (in fact, I've used something along these lines fairly recently, in a FSCD2022 paper on rewriting in SCMCs, but I'd like to understand it more systematically). However, I have the impression it should be written somewhere already. Any hint?</p>
+
+
+
+<a name="348510459"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229111-community%3A%20general/topic/Presentation%20of%20closed%20monoidal%20categories/near/348510459" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Matteo Capucci (he/him) <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229111-community.3A-general/topic/Presentation.20of.20closed.20monoidal.20categories.html#348510459">(Apr 11 2023 at 16:31)</a>:</h4>
+<p>Sorry for the very dumb comment but can't you use eval and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>λ</mi></mrow><annotation encoding="application/x-tex">\lambda</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">λ</span></span></span></span> to recover the units and counits of the tensor-hom adjunction? then you're back at the problem of presenting a monoidal category</p>
+
+
+
+<a name="348510498"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229111-community%3A%20general/topic/Presentation%20of%20closed%20monoidal%20categories/near/348510498" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229111-community.3A-general/topic/Presentation.20of.20closed.20monoidal.20categories.html#348510498">(Apr 11 2023 at 16:31)</a>:</h4>
+<p>Are you thinking of a linear type theory, something like section 2.10 of <a href="http://mikeshulman.github.io/catlog/catlog.pdf">mikeshulman.github.io/catlog/catlog.pdf</a>?</p>
+
+
+
+<a name="348511782"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229111-community%3A%20general/topic/Presentation%20of%20closed%20monoidal%20categories/near/348511782" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Cole Comfort <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229111-community.3A-general/topic/Presentation.20of.20closed.20monoidal.20categories.html#348511782">(Apr 11 2023 at 16:36)</a>:</h4>
+<p>I think what you want is contained in the paper, "Graphical presentations of symmetric monoidal closed theories"</p>
+<p><a href="https://hal.science/hal-00333750/file/smcc.pdf">https://hal.science/hal-00333750/file/smcc.pdf</a></p>
+
+
+
+<a name="348576283"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229111-community%3A%20general/topic/Presentation%20of%20closed%20monoidal%20categories/near/348576283" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabio Zanasi <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229111-community.3A-general/topic/Presentation.20of.20closed.20monoidal.20categories.html#348576283">(Apr 11 2023 at 22:56)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="276777">Mike Shulman</span> <a href="#narrow/stream/229111-general/topic/Presentation.20of.20closed.20monoidal.20categories/near/348510498">said</a>:</p>
+<blockquote>
+<p>Are you thinking of a linear type theory, something like section 2.10 of <a href="http://mikeshulman.github.io/catlog/catlog.pdf">mikeshulman.github.io/catlog/catlog.pdf</a>?</p>
+</blockquote>
+<p>Mmm I'm thinking of something way more basic than this. Just a presentation by generators and relations.</p>
+
+
+
+<a name="348576886"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229111-community%3A%20general/topic/Presentation%20of%20closed%20monoidal%20categories/near/348576886" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabio Zanasi <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229111-community.3A-general/topic/Presentation.20of.20closed.20monoidal.20categories.html#348576886">(Apr 11 2023 at 23:01)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="275932">Matteo Capucci (he/him)</span> <a href="#narrow/stream/229111-general/topic/Presentation.20of.20closed.20monoidal.20categories/near/348510459">said</a>:</p>
+<blockquote>
+<p>Sorry for the very dumb comment but can't you use eval and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>λ</mi></mrow><annotation encoding="application/x-tex">\lambda</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">λ</span></span></span></span> to recover the units and counits of the tensor-hom adjunction? then you're back at the problem of presenting a monoidal category</p>
+</blockquote>
+<p>Basically yes, that's the route I pursued. But I was wondering whether there was an existing reference for this style of presentation, perhaps also operating some simplifcation with respect to a plain translation of the unit/counit conditions.</p>
+<p>The question is related to using string diagrams to reason about free SCMCs. Note for the case of SMCs we can confine ourselves to generating objects as wire labels, but this does not seem possible for SCMCs, because arbitrary objects are not just lists of generators but more complex entities (they mix $\otimes$ with $\multimap$).</p>
+
+
+
+<a name="348577281"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229111-community%3A%20general/topic/Presentation%20of%20closed%20monoidal%20categories/near/348577281" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabio Zanasi <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229111-community.3A-general/topic/Presentation.20of.20closed.20monoidal.20categories.html#348577281">(Apr 11 2023 at 23:04)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="277391">Cole Comfort</span> <a href="#narrow/stream/229111-general/topic/Presentation.20of.20closed.20monoidal.20categories/near/348511782">said</a>:</p>
+<blockquote>
+<p>I think what you want is contained in the paper, "Graphical presentations of symmetric monoidal closed theories"</p>
+<p><a href="https://hal.science/hal-00333750/file/smcc.pdf">https://hal.science/hal-00333750/file/smcc.pdf</a></p>
+</blockquote>
+<p>This seems very much relevant, thanks. I'm going to study it in more detail.</p>
+
+
+
+<a name="348712759"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229111-community%3A%20general/topic/Presentation%20of%20closed%20monoidal%20categories/near/348712759" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Cole Comfort <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229111-community.3A-general/topic/Presentation.20of.20closed.20monoidal.20categories.html#348712759">(Apr 12 2023 at 12:26)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="351836">Fabio Zanasi</span> <a href="#narrow/stream/229111-general/topic/Presentation.20of.20closed.20monoidal.20categories/near/348576886">said</a>:</p>
+<blockquote>
+<p><span class="user-mention silent" data-user-id="275932">Matteo Capucci (he/him)</span> <a href="#narrow/stream/229111-general/topic/Presentation.20of.20closed.20monoidal.20categories/near/348510459">said</a>:</p>
+<blockquote>
+<p>Sorry for the very dumb comment but can't you use eval and <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>λ</mi></mrow><annotation encoding="application/x-tex">\lambda</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">λ</span></span></span></span> to recover the units and counits of the tensor-hom adjunction? then you're back at the problem of presenting a monoidal category</p>
+</blockquote>
+<p>Basically yes, that's the route I pursued. But I was wondering whether there was an existing reference for this style of presentation, perhaps also operating some simplifcation with respect to a plain translation of the unit/counit conditions.</p>
+<p>The question is related to using string diagrams to reason about free SCMCs. Note for the case of SMCs we can confine ourselves to generating objects as wire labels, but this does not seem possible for SCMCs, because arbitrary objects are not just lists of generators but more complex entities (they mix $\otimes$ with $\multimap$).</p>
+</blockquote>
+<p><span class="user-mention" data-user-id="276777">@Mike Shulman</span> proved that closed symmetric monoidal categories fully faithfully embed in *-autonomous categories:<br>
+<a href="https://arxiv.org/pdf/2004.08487.pdf">https://arxiv.org/pdf/2004.08487.pdf</a> (<a href="https://www.youtube.com/watch?v=5CjSu5hLtcw">https://www.youtube.com/watch?v=5CjSu5hLtcw</a>)</p>
+<div class="youtube-video message_inline_image"><a data-id="5CjSu5hLtcw" href="https://www.youtube.com/watch?v=5CjSu5hLtcw"><img src="https://uploads.zulipusercontent.net/e7cbf4ebbdd36ce01238837e18f0921df2d2333d/68747470733a2f2f692e7974696d672e636f6d2f76692f35436a537535684c7463772f64656661756c742e6a7067"></a></div><p>So you can regard the  object <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>⊸</mo><mi>B</mi></mrow><annotation encoding="application/x-tex"> A \multimap B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel amsrm">⊸</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span></span></span></span> as <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><msup><mi>A</mi><mo>∗</mo></msup><mo>⊗</mo><mi>B</mi><msup><mo stretchy="false">)</mo><mo>∗</mo></msup></mrow><annotation encoding="application/x-tex"> (A^* \otimes B)^* </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">A</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6887em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∗</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⊗</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6887em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∗</span></span></span></span></span></span></span></span></span></span></span>.  This may not be a completely satisfying to you, but this perspective is conceptually useful for me.</p>
+
+
+
+<a name="349037245"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229111-community%3A%20general/topic/Presentation%20of%20closed%20monoidal%20categories/near/349037245" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Robin Piedeleu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229111-community.3A-general/topic/Presentation.20of.20closed.20monoidal.20categories.html#349037245">(Apr 13 2023 at 08:34)</a>:</h4>
+<p>I was also going to mention Mike Shulman's work. I think it implies that you can use string diagrams for compact closed categories for smccs too, but not all diagrams you can draw are allowed in that context. An alternative---which seems closer in spirit to what you had in mind---could be to use local constraints like the bubbles and clasp of the <a href="https://arxiv.org/abs/0903.0340">Rosetta Stone paper</a>. Not sure a formal account of that has been fully worked out anywhere, though.</p>
+
+
+
+<a name="349056948"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229111-community%3A%20general/topic/Presentation%20of%20closed%20monoidal%20categories/near/349056948" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Cole Comfort <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229111-community.3A-general/topic/Presentation.20of.20closed.20monoidal.20categories.html#349056948">(Apr 13 2023 at 09:43)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="277342">Robin Piedeleu</span> <a href="#narrow/stream/229111-general/topic/Presentation.20of.20closed.20monoidal.20categories/near/349037245">said</a>:</p>
+<blockquote>
+<p>I was also going to mention Mike Shulman's work. I think it implies that you can use string diagrams for compact closed categories for smccs too, but not all diagrams you can draw are allowed in that context.</p>
+</blockquote>
+<p>I wonder if there is a formal way to state this.</p>
+<blockquote>
+<p>An alternative---which seems closer in spirit to what you had in mind---could be to use local constraints like the bubbles and clasp of the <a href="https://arxiv.org/abs/0903.0340">Rosetta Stone paper</a>. Not sure a formal account of that has been fully worked out anywhere, though.</p>
+</blockquote>
+<p>Isn't the bubble and clasp notation formalized by this conservativity result of symmetric monoidal closed categories? The clasp is a way to enforce that the proof net has the correct type to be in the image of the embedding. Perhaps I am missing some nuance?</p>
+<p>Also, Hinze points out that another way to view this clasp and bubble thing is in terms of a right Kan extension, which you might find interesting:<br>
+<a href="https://www.cs.ox.ac.uk/ralf.hinze/Kan.pdf">https://www.cs.ox.ac.uk/ralf.hinze/Kan.pdf</a></p>
+
+
+
+<a name="349148797"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229111-community%3A%20general/topic/Presentation%20of%20closed%20monoidal%20categories/near/349148797" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229111-community.3A-general/topic/Presentation.20of.20closed.20monoidal.20categories.html#349148797">(Apr 13 2023 at 15:48)</a>:</h4>
+<p>What my work says directly is that you can use string diagrams for <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∗</mo></mrow><annotation encoding="application/x-tex">\ast</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4653em;"></span><span class="mord">∗</span></span></span></span>-autonomous categories for smccs too.  The string diagrams for <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∗</mo></mrow><annotation encoding="application/x-tex">\ast</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4653em;"></span><span class="mord">∗</span></span></span></span>-autonomous categories <em>look</em> like a subset of the ones for compact closed categories, but I don't know of anywhere that this is made precise.  Category-theoretically, I think the question is whether any <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∗</mo></mrow><annotation encoding="application/x-tex">\ast</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4653em;"></span><span class="mord">∗</span></span></span></span>-autonomous category can be embedded <em>faithfully</em> (certainly not fully) in a compact closed category.  I have asked this question before and no one seems to know the answer.  I don't even know of any technology that could help establish it.</p>
+
+
+
+<a name="349149221"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229111-community%3A%20general/topic/Presentation%20of%20closed%20monoidal%20categories/near/349149221" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229111-community.3A-general/topic/Presentation.20of.20closed.20monoidal.20categories.html#349149221">(Apr 13 2023 at 15:50)</a>:</h4>
+<p>I don't immediately see a relationship between the bubble and clasp notation and my embedding theorem.  My embedding is <em>full</em>, so there is no condition required on the string diagrams themselves: any <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∗</mo></mrow><annotation encoding="application/x-tex">\ast</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4653em;"></span><span class="mord">∗</span></span></span></span>-autonomous string diagram whose domain and codomain are in the image of the embedding is a valid "closed symmetric monoidal string diagram".</p>
+
+
+
+<a name="349405115"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229111-community%3A%20general/topic/Presentation%20of%20closed%20monoidal%20categories/near/349405115" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabio Zanasi <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229111-community.3A-general/topic/Presentation.20of.20closed.20monoidal.20categories.html#349405115">(Apr 14 2023 at 14:43)</a>:</h4>
+<p>Thank you all, I'll look more closely at Mike's work. Robin, answering your question on the clasp notation for string diagrams in monoidal closed categories, it is formalised in my CSL'23 paper, and also used in my FSCD'22 paper. I don't claim it to be totally novel, but while doing those works we could not find it worked out systematically anywhere, so we did it ourselves.</p>
+<p>However note the clasp (which we call 'bubble') is syntactic sugar for one of the functors in the adjunction situation. So it's not by itself an answer to my question about a presentation by generators and relations.</p>
+
+
+
+<a name="349987179"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229111-community%3A%20general/topic/Presentation%20of%20closed%20monoidal%20categories/near/349987179" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229111-community.3A-general/topic/Presentation.20of.20closed.20monoidal.20categories.html#349987179">(Apr 14 2023 at 15:51)</a>:</h4>
+<p><span class="user-mention" data-user-id="351836">@Fabio Zanasi</span>, can you give a link to those papers?</p>
+
+
+
+<a name="350032249"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229111-community%3A%20general/topic/Presentation%20of%20closed%20monoidal%20categories/near/350032249" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabio Zanasi <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229111-community.3A-general/topic/Presentation.20of.20closed.20monoidal.20categories.html#350032249">(Apr 14 2023 at 19:32)</a>:</h4>
+<p><span class="user-mention" data-user-id="276777">@Mike Shulman</span> there you go: <a href="https://drops.dagstuhl.de/opus/volltexte/2023/17467/pdf/LIPIcs-CSL-2023-6.pdf">https://drops.dagstuhl.de/opus/volltexte/2023/17467/pdf/LIPIcs-CSL-2023-6.pdf</a></p>
+
+
+
+<a name="350032327"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229111-community%3A%20general/topic/Presentation%20of%20closed%20monoidal%20categories/near/350032327" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabio Zanasi <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229111-community.3A-general/topic/Presentation.20of.20closed.20monoidal.20categories.html#350032327">(Apr 14 2023 at 19:32)</a>:</h4>
+<p>We aimed at a very specific application (automatic differentiation) for which we needed higher-order string diagrams</p>
+
+
+
+<a name="350032452"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229111-community%3A%20general/topic/Presentation%20of%20closed%20monoidal%20categories/near/350032452" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Fabio Zanasi <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229111-community.3A-general/topic/Presentation.20of.20closed.20monoidal.20categories.html#350032452">(Apr 14 2023 at 19:33)</a>:</h4>
+<p>BTW Dan Ghica and I have a longer, more systematic account of these 'hierarchical string diagrams' in preparation, I'll share when ready.</p>
+
+
+
+<a name="350361787"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229111-community%3A%20general/topic/Presentation%20of%20closed%20monoidal%20categories/near/350361787" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Robin Piedeleu <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229111-community.3A-general/topic/Presentation.20of.20closed.20monoidal.20categories.html#350361787">(Apr 16 2023 at 20:22)</a>:</h4>
+<p><span class="user-mention silent" data-user-id="351836">Fabio Zanasi</span> <a href="#narrow/stream/229111-general/topic/Presentation.20of.20closed.20monoidal.20categories/near/349405115">said</a>:</p>
+<blockquote>
+<p>Thank you all, I'll look more closely at Mike's work. Robin, answering your question on the clasp notation for string diagrams in monoidal closed categories, it is formalised in my CSL'23 paper, and also used in my FSCD'22 paper. I don't claim it to be totally novel, but while doing those works we could not find it worked out systematically anywhere, so we did it ourselves.</p>
+<p>However note the clasp (which we call 'bubble') is syntactic sugar for one of the functors in the adjunction situation. So it's not by itself an answer to my question about a presentation by generators and relations.</p>
+</blockquote>
+<p>I thought the 'bubble' in these hierarchical string diagrams were different from the 'bubble and clasp' notation of the Rosetta stone paper:  as far as I understand, for hierarchical diagrams, the bubbles are an explicit notation for the exponentiation functor (in the style of functorial boxes, I assume?), whereas the bubbles and clasps are syntactic markers used to constrain where you can apply the yanking rule to diagrams (that, in a compact closed category, you can apply freely, but that is restricted in a merely closed monoidal category). Thus, in the former, you can box a diagram <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>X</mi><mo>⊗</mo><mi>Y</mi><mo>→</mo><mi>Z</mi></mrow><annotation encoding="application/x-tex">X\otimes Y\to Z</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">X</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⊗</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">Y</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">Z</span></span></span></span> with two wires at the bottom and one at the top  into a bubble, to obtain one of type <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>X</mi><mo>→</mo><mi>Y</mi><mo>⇒</mo><mi>Z</mi></mrow><annotation encoding="application/x-tex">X\to Y\Rightarrow Z</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">X</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">→</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">Y</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">⇒</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">Z</span></span></span></span> with one wire at the bottom for <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>X</mi></mrow><annotation encoding="application/x-tex">X</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">X</span></span></span></span> and one at the top for <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Y</mi><mo>⇒</mo><mi>Z</mi></mrow><annotation encoding="application/x-tex">Y\Rightarrow Z</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">Y</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">⇒</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">Z</span></span></span></span>. For the latter, as far as I understand, you turn the same diagram into one with <em>two</em> wires at the top--one for <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Y</mi></mrow><annotation encoding="application/x-tex">Y</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">Y</span></span></span></span> and one for <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Z</mi></mrow><annotation encoding="application/x-tex">Z</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">Z</span></span></span></span>--joined by a clasp to indicate that, together, they represent the object <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Y</mi><mo>⇒</mo><mi>Z</mi></mrow><annotation encoding="application/x-tex">Y\Rightarrow Z</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.22222em;">Y</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">⇒</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.07153em;">Z</span></span></span></span>. As <span class="user-mention" data-user-id="277391">@Cole Comfort</span>  wrote, the 'bubble and clasp' notation seems more closely related to <span class="user-mention" data-user-id="276777">@Mike Shulman</span> 's result (which could be understood to formalise the idea that you can remove these bubble and clasps as long as the diagram you deal with is in the image of the embedding of smccs into <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∗</mo></mrow><annotation encoding="application/x-tex">*</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4653em;"></span><span class="mord">∗</span></span></span></span>-autonomous ones? I would need a bit more time to convince myself that's the case). Am I totally off here?</p>
+
+
+
+<a name="350612455"></a>
+<h4><a href="https://categorytheory.zulipchat.com#narrow/stream/229111-community%3A%20general/topic/Presentation%20of%20closed%20monoidal%20categories/near/350612455" class="zl"><img src="https://mattecapu.github.io/ct-zulip-archive-new/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Mike Shulman <a href="https://mattecapu.github.io/ct-zulip-archive-new/stream/229111-community.3A-general/topic/Presentation.20of.20closed.20monoidal.20categories.html#350612455">(Apr 17 2023 at 20:48)</a>:</h4>
+<p>I don't know about hierarchical diagrams yet, but that does seem to me an accurate description of bubble-and-clasp, and not too far off in its relation to my result (depending on what exactly "in the image of the embedding" means).</p>
+
+
+
+<footer>
+
+<hr><p>Last updated: Jan 08 2024 at 12:07 UTC</p>
+This archive runs on a customization of <a href="https://github.com/zulip/zulip-archive">zulip-archive</a>
+</footer>
+</body>
+
+</html>
